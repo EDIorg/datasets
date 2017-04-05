@@ -1,0 +1,25 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Lake_Name			character	Lake Name	Lake Name	character		
+Sampling_Date	mm/dd/yyyy				Date sample was collected	Date		
+Sampling_Location			character	Deep hole - deep part of the lake Middle hole - Some studies reported the sample location as the middle of the lake and because bathymetry could not be determined If multiple deep holes were reported and sampled from each hole was given a unique number or a unique descriptive name (e.g. “deep hole 2” or “deep hole near dam”). If the location of the sample was unknown the sample site with the deepest sample depth was chosen and called “deepest sampling location”. If no information regarding sample location was given the sampling location is “unknown”.	Deep hole - deep part of the lake Middle hole - Some studies reported the sample location as the middle of the lake and because bathymetry could not be determined If multiple deep holes were reported and sampled from each hole was given a unique number or a unique descriptive name (e.g. “deep hole 2” or “deep hole near dam”). If the location of the sample was unknown the sample site with the deepest sample depth was chosen and called “deepest sampling location”. If no information regarding sample location was given the sampling location is “unknown”.	character		
+Max_Lake_Depth		meter	character	Depth maximum	Depth maximum (meter)	character		
+Sample_depth		meter	character	sample depth	sample depth (meter)	character		
+Total_Nitrogen		milligramsPerLiter	real		Nitrogen total	numeric		
+Total_Phosphorus		microgramsPerLiter	character	Phosphorus total	Phosphorus total (microgramsPerLiter)	character		
+Chlorophyll		microgramsPerLiter	character	Chlorophyll a	Chlorophyll a (microgramsPerLiter)	character		
+Secchi_Depth		meter	character	Secchi unknown	Secchi unknown (meter)	character		
+Ammonia		microgramsPerLiter	character	Nitrogen NH3	Nitrogen NH3 (microgramsPerLiter)	character		
+Nitrate		milligramsPerLiter	character	Nitrogen nitrate (NO3)	Nitrogen nitrate (NO3) (milligramsPerLiter)	character		
+Organic_Nitrogen		milligramsPerLiter	character	Nitrogen total organic	Nitrogen total organic (milligramsPerLiter)	character		
+Temperature		celsius	real		Temperature	numeric		
+DO		milligramsPerLiter	character	Oxygen dissolved	Oxygen dissolved (milligramsPerLiter)	character		
+pH		dimensionless	real		pH	numeric		
+Conductivity		micromhosPerCentimeter	real		Conductivity	numeric		
+Turbidity			character	Turbidity (NTU, Nephelometric Turbidity Units)	Turbidity (NTU, Nephelometric Turbidity Units)	character		
+Alkalinity		milligramsPerLiter	character	Alkalinity	Alkalinity (milligramsPerLiter)	character		
+Lat		degree	real		latitude	numeric		
+Long		degree	character	longitude	longitude (degree)	character		
+Landmark			character	landmarks or information regarding the location at which the samples were collected.	landmarks or information regarding the location at which the samples were collected.	character		
+Report_Title			character	title of the report from which data were extracted	title of the report from which data were extracted	character		
+Report_Author			character	Report author	Report author	character		
+Report_Date			character	Report date	Report date	character		
