@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.159.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Yale-Post Long-Term Study Lakes, CT: nutrients, 2005-2010</title>
+ <creator id="1383336174983"> <individualName><salutation>Dr.</salutation>
+<givenName>David</givenName>
+<surName>Post</surName>
+</individualName>
+<organizationName>Yale University</organizationName>
+<positionName>Professor</positionName>
+<address><deliveryPoint>165 Prospect St.</deliveryPoint>
+<city>New Haven</city>
+<administrativeArea>CT</administrativeArea>
+<postalCode>06511</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">203-432-3005</phone>
+<electronicMailAddress>david.post@yale.edu</electronicMailAddress>
+</creator>
+ <abstract><para>Long term data for 6 lakes: Bridge, Dodge, Rogers, Pattagansett, Quonnipaug, and Hayward. Data for 13 other lakes included with the long term data.  This was collected for a study which is outlined in Post et al. 2008.  Data collection is currently ongoing, but only for the 6 long term study lakes.</para>
+</abstract>
+<keywordSet><keyword>Long-term lake data</keyword>
+<keyword>CT</keyword>
+<keyword>inland lakes</keyword>
+<keyword>nutrients</keyword>
+</keywordSet>
+<intellectualRights><para>Data belong to Dr. David Post</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Inland lakes with long-term observations, CT, USA</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-72.74</westBoundingCoordinate>
+<eastBoundingCoordinate>-71.79</eastBoundingCoordinate>
+<northBoundingCoordinate>41.51</northBoundingCoordinate>
+<southBoundingCoordinate>41.32</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2005</calendarDate>
+</beginDate>
+<endDate><calendarDate>2010-11-01</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1383336174983</references>
+</contact>
+<methods><methodStep><description><section><title>TP water sample</title>
+<para>Composite epi samples. Water is pooled from the top three sample depths (as indicated in the [Chl] actual data table&#8212;&#8220;Sample&#8221; column, where the top three depths are &#8220;Depth 1&#8221;- &#8220;Depth 3&#8221;).</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>TN water samples</title>
+<para>Composite epi samples. Water is pooled from the top three sample depths (as indicated in the [Chl] actual data table&#8212;&#8220;Sample&#8221; column, where the top three depths are &#8220;Depth 1&#8221;- &#8220;Depth 3&#8221;).</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>TP lab analysis</title>
+<para>Persulfate digestion and colorimetric analysis on Astoria 2 autoanalyzer (Astoria-Pacific International, Clackamas, Oregon, USA).</para>
+<para>Standard curves are used for calibration. Duplicates are run, and samples are rerun when the duplicates vary by more than 10%.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>TN lab analysis</title>
+<para>Persulfate digestion on an Astoria-Pacific International autoanalyzer.</para>
+<para>Standard curves are used for calibration. Duplicates are run, and samples are rerun when the duplicates vary by more than 10%.</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Inland lakes in CT. The six long term study lakes. And 13 lakes that were sampled only during the summer of 2004 or summer of 2005</para>
+</description>
+</studyExtent>
+<samplingDescription><para>ampling occurred every 2-3 weeks from May- December (during ice-off periods). Note that sampling is not necessarily consistent and samples may not have been collected every 2-3 weeks for all lakes.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1383336780407"><entityName>CT_POST_NUTRIENTS.csv</entityName>
+<entityDescription>Yale-Post Long-Term Study Lakes, CT: nutrients, 2005-2010</entityDescription>
+<physical id="1383336606686"><objectName>CT_POST_NUTRIENTS.csv</objectName>
+<size unit="byte">14307</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1383336780408"><attributeName>Lake</attributeName>
+<attributeLabel>Lake name</attributeLabel>
+<attributeDefinition>Lake name</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Lake name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383336780409"><attributeName>Date</attributeName>
+<attributeLabel>Date</attributeLabel>
+<attributeDefinition>Date</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>yyyy-mm-dd</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383336780410"><attributeName>TP (ug/L)</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>Phosphorus, total</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383336780411"><attributeName>TN (mg/L)</attributeName>
+<attributeLabel>Nitrogen, total</attributeLabel>
+<attributeDefinition>Nitrogen, total</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383336780412"><attributeName>notes</attributeName>
+<attributeLabel>notes</attributeLabel>
+<attributeDefinition>notes</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>*</code>
+<definition>When a duplicate sample had greater than 10% relative mean difference, the lower value of TN or TP was selected.</definition>
+</codeDefinition>
+<codeDefinition><code>survey</code>
+<definition>survey</definition>
+</codeDefinition>
+<codeDefinition><code>1m</code>
+<definition>only collected at 1m (?)</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>436</numberOfRecords>
+</dataTable>
+</dataset>
+ </eml:eml>
