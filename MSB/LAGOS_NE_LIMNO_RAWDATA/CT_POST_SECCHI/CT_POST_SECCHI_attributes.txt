@@ -1,0 +1,4 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Lake			character	Lake name	Lake name	character		
+Date	mm/dd/yyyy				Date	Date		
+Secchi		meter	character	Secchi	Secchi (meter)	character		
