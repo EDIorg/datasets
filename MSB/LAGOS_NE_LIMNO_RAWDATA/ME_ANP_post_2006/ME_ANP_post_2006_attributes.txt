@@ -15,7 +15,7 @@ TN		milligramsPerLiter	real		Total nitrogen (mg/L)	numeric
 TN_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
 NO2_NO3		milligramsPerLiter	real		Nitrite + Nitrate (mg/L)	numeric		
 NO2_NO3_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
-NO3		microequivlanetsPerLiter	real		Nitrate (ueq/L)	numeric		
+NO3		microequivalentsPerLiter	real		Nitrate (ueq/L)	numeric		
 NO3_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
 ChlA		microgramsPerLiter	real		Chlorophyll a (ug/L)	numeric		
 ChlA_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	character		
@@ -29,12 +29,12 @@ SpCond		microsiemensPerCentimeter	real		Measure of specific conductance in uS/cm
 pH		dimensionless	real		Measure of pH in field or laboratory. Method categorized in "pH_Method" field.	numeric		
 pH_Method			character	Method used for pH measurement (C= colorimetric; E= electronic meter)	Method used for pH measurement (C= colorimetric; E= electronic meter)	factor		
 EQpH		dimensionless	real		Measure of air-equilibrated pH in laboratory	numeric		
-Ca		microequivlanetsPerLiter	real		Calcium (ueq/L)	numeric		
-Mg		microequivlanetsPerLiter	real		Magnesium (ueq/L)	numeric		
-K		microequivlanetsPerLiter	real		Potassium (ueq/L)	numeric		
-Na		microequivlanetsPerLiter	real		Sodium (ueq/L)	numeric		
-Cl		microequivlanetsPerLiter	real		Chloride (ueq/L)	numeric		
-SO4		microequivlanetsPerLiter	real		Sulfate (ueq/L)	numeric		
+Ca		microequivalentsPerLiter	real		Calcium (ueq/L)	numeric		
+Mg		microequivalentsPerLiter	real		Magnesium (ueq/L)	numeric		
+K		microequivalentsPerLiter	real		Potassium (ueq/L)	numeric		
+Na		microequivalentsPerLiter	real		Sodium (ueq/L)	numeric		
+Cl		microequivalentsPerLiter	real		Chloride (ueq/L)	numeric		
+SO4		microequivalentsPerLiter	real		Sulfate (ueq/L)	numeric		
 NH3		milligramsPerLiter	real		Ammonia (mg/L)	numeric		
 NH3_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
 NH4		milligramsPerLiter	real		Ammonium (mg/L)	numeric		

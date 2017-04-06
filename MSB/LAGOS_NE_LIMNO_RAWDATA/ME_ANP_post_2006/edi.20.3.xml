@@ -1,4 +1,4 @@
-<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.20.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.20.3" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
   <access scope="document" order="allowFirst" authSystem="edi">
     <allow>
       <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
@@ -59,10 +59,10 @@ Parameters measured in the field include Secchi transparency and surface tempera
       <geographicCoverage>
         <geographicDescription>Acadia National Park (ME)</geographicDescription>
         <boundingCoordinates>
-          <westBoundingCoordinate>-68.16</westBoundingCoordinate>
-          <eastBoundingCoordinate>-68.07</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.23</northBoundingCoordinate>
-          <southBoundingCoordinate>44.12</southBoundingCoordinate>
+          <westBoundingCoordinate>-68.61187</westBoundingCoordinate>
+          <eastBoundingCoordinate>-68.1933176</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.4077808</northBoundingCoordinate>
+          <southBoundingCoordinate>44.0384061</southBoundingCoordinate>
         </boundingCoordinates>
       </geographicCoverage>
       <temporalCoverage>
