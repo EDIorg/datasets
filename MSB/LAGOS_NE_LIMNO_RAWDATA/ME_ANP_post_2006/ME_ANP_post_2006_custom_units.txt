@@ -1,0 +1,3 @@
+id	unitType	parentSI	multiplierToSI	description
+microequivalentsPerLiter	ionDensity	molesPerCubicMeter	NA	micro equivalents Per Liter
+microsiemensPerCentimeter	conductance	siemenPerMeter	0.1	micro siemens Per Centimeter

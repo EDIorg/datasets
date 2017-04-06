@@ -1,0 +1,45 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Lake_name			character	Name of the water body where water quality was tested	Name of the water body where water quality was tested	character		
+MIDAS		dimensionless	natural		Maine DEP unique code for lake	numeric		
+Latitude		dimensionless	real		Latitude coordinate in NAD83	numeric		
+Longitude		dimensionless	real		Longitude coordinate in NAD83	numeric		
+County			character	County in which lake is located	County in which lake is located	character		
+Date	mm/dd/yyyy				Date data were collected and recorded	Date		
+Sample_depth_m		meter	real		Depth of water sample (m)	numeric		
+Sample_location			character	Sample station (1= Primary basin deep hole, other numbers signify alternate basins)	Sample station (1= Primary basin deep hole, other numbers signify alternate basins)	factor		
+Sample_type			character	where sample was collected	where sample was collected	factor		
+Type_of_sample			character	Water sample type: C= integrated epilimnion core, G= Grab	Water sample type: C= integrated epilimnion core, G= Grab	factor		
+TP		microgramsPerLiter	real		Total phosphorus (ug/L)	numeric		
+TP_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
+TN		milligramsPerLiter	real		Total nitrogen (mg/L)	numeric		
+TN_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
+NO2_NO3		milligramsPerLiter	real		Nitrite + Nitrate (mg/L)	numeric		
+NO2_NO3_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
+NO3		microequivlanetsPerLiter	real		Nitrate (ueq/L)	numeric		
+NO3_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
+ChlA		microgramsPerLiter	real		Chlorophyll a (ug/L)	numeric		
+ChlA_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	character		
+DOC_mgL		milligramsPerLiter	real		Dissolved organic carbon (mg/L)	numeric		
+TrueColor_PCU		dimensionless	real		True (filtered) color (Platinum cobalt units)	numeric		
+ApparentColor_PCU		dimensionless	real		Apparent (non-filtered) color (Platinum cobalt units)	numeric		
+Color_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	character		
+SecchiDepth_m		meter	real		Secchi transparency in meters	numeric		
+Disk_hit_bottom			character	Did the Secchi hit bottom while still visible? (B = still visible when sitting on bottom)	Did the Secchi hit bottom while still visible? (B = still visible when sitting on bottom)	factor		
+SpCond		microsiemensPerCentimeter	real		Measure of specific conductance in uS/cm	numeric		
+pH		dimensionless	real		Measure of pH in field or laboratory. Method categorized in "pH_Method" field.	numeric		
+pH_Method			character	Method used for pH measurement (C= colorimetric; E= electronic meter)	Method used for pH measurement (C= colorimetric; E= electronic meter)	factor		
+EQpH		dimensionless	real		Measure of air-equilibrated pH in laboratory	numeric		
+Ca		microequivlanetsPerLiter	real		Calcium (ueq/L)	numeric		
+Mg		microequivlanetsPerLiter	real		Magnesium (ueq/L)	numeric		
+K		microequivlanetsPerLiter	real		Potassium (ueq/L)	numeric		
+Na		microequivlanetsPerLiter	real		Sodium (ueq/L)	numeric		
+Cl		microequivlanetsPerLiter	real		Chloride (ueq/L)	numeric		
+SO4		microequivlanetsPerLiter	real		Sulfate (ueq/L)	numeric		
+NH3		milligramsPerLiter	real		Ammonia (mg/L)	numeric		
+NH3_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
+NH4		milligramsPerLiter	real		Ammonium (mg/L)	numeric		
+NH4_Flag			character	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	Descriptor of reported value; E< MRL number = Estimated value, actual value less than Method Reporting Level. <MRLnumber = actual value less than Method Reporting Level.	factor		
+SurfaceTemp_C		celsius	real		Measure of temperature in Celsius at sampling station	numeric		
+SiteObservations			character	Observations made during sampling event	Observations made during sampling event	character		
+SampEventCode			character	Master database code for sampling event	Master database code for sampling event	character		
+LabCode			character	Lab at which the chemical analysis was conducted. NWQL = USGS National Water Quality Lab, Denver, CO; SECRL = Sawyer Environmental Chemistry Research Lab, University of Maine, Orono Maine	Lab at which the chemical analysis was conducted. NWQL = USGS National Water Quality Lab, Denver, CO; SECRL = Sawyer Environmental Chemistry Research Lab, University of Maine, Orono Maine	factor		
