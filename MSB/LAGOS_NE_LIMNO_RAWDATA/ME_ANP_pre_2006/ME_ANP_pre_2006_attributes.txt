@@ -1,0 +1,36 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Lake_name			character	Name of water body where water quality was tested	Name of water body where water quality was tested	character		
+MIDAS		dimensionless	natural		Maine DEP unique code for lake	numeric		
+Latitude		meter	real		Latitude coordinate in NAD83	numeric		
+Longitude		meter	real		Longitude coordinate in NAD83	numeric		
+County			character	County in which lake is located	County in which lake is located	character		
+Date	mm/dd/yyyy				Date data were collected and recorded	Date		
+Sample_depth		meter	real		Depth of water sample (m)	numeric		
+Sample_location			character	Sample station (1= Primary basin deep hole, other numbers signify alternate basins)	Sample station (1= Primary basin deep hole, other numbers signify alternate basins)	factor		
+Type_of_sample			character	Water sample type: C= integrated epilimnion core, G= Grab	Water sample type: C= integrated epilimnion core, G= Grab	factor		
+TP		microgramsPerLiter	real		Total phosphorus (ug/L)	numeric		
+TN		milligramsPerLiter	real		Total nitrogen (mg/L)	numeric		
+NO3		microequivalentsPerLiter	real		Nitrate (ueq/L)	numeric		
+ChlA		microgramsPerLiter	real		Chlorophyll a (ug/L)	numeric		
+DOC		milligramsPerLiter	real		Dissolved organic carbon (mg/L)	numeric		
+TrueColor		dimensionless	real		True (filtered) color (Platinum cobalt units)	numeric		
+ApparentColor		dimensionless	natural		Apparent (non-filtered) color (Platinum cobalt units)	numeric		
+SecchiDepth		meter	real		Secchi transparency in meters with view scope	numeric		
+SpCond		microsiemensPerCentimeter	real		Measure of specific conductance in uS/cm	numeric		
+pH		dimensionless	real		Measure of pH in field or laboratory	numeric		
+pH_Method			character	Method used for pH measurement (C= colorimetric; E= electronic meter)	Method used for pH measurement (C= colorimetric; E= electronic meter)	factor		
+EQpH		dimensionless	real		Measure of air-equilibrated pH in laboratory.	numeric		
+Ca		microequivalentsPerLiter	real		Calcium (ueq/L)	numeric		
+Mg		microequivalentsPerLiter	real		Magnesium (ueq/L)	numeric		
+K		microequivalentsPerLiter	real		Potassium (ueq/L)	numeric		
+Na		microequivalentsPerLiter	real		Sodium (ueq/L)	numeric		
+Cl		microequivalentsPerLiter	real		Chloride	numeric		
+SO4		microequivalentsPerLiter	real		Sulfate (ueq/L)	numeric		
+NH4		milligramsPerLiter	real		Ammonium (mg/L)	numeric		
+Si		milligramsPerLiter	real		Silica (mg/L)	numeric		
+SurfaceTemp		celsius	real		Measure of temperature in Celsius at sampling station	numeric		
+LabCode			character	Lab at which the chemical analysis was conducted. FLD = Tested in field; DEP= Maine Dept. of Env. Protection; ECL = Sawyer Environmental Chemistry Lab (Water Research Institute), University of Maine, Orono Maine; GMC = George Mitchell Center Lab, University of Maine, Orono Maine	Lab at which the chemical analysis was conducted. FLD = Tested in field; DEP= Maine Dept. of Env. Protection; ECL = Sawyer Environmental Chemistry Lab (Water Research Institute), University of Maine, Orono Maine; GMC = George Mitchell Center Lab, University of Maine, Orono Maine	factor		
+AGENCY			character	Code for agency/organization conducting monitoring. (D= ME Dept. Env. Protection; I= ME Dept. Inland Fish. & Wildlife; L= Mt. Desert Isl. League of Towns; N= NPS-Acadia NP; U= Univ. of Maine)	Code for agency/organization conducting monitoring. (D= ME Dept. Env. Protection; I= ME Dept. Inland Fish. & Wildlife; L= Mt. Desert Isl. League of Towns; N= NPS-Acadia NP; U= Univ. of Maine)	factor		
+OBSERVER			character	Person collecting samples and data	Person collecting samples and data	character		
+SampEventCode			character	Master database code for sampling event	Master database code for sampling event	character		
+COMMENTS			character	Observations made during sampling event	Observations made during sampling event	character		

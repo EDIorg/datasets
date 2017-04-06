@@ -1,0 +1,18 @@
+attributeName	code	definition
+Sample_location	1	Primary basin deep hole.
+Sample_location	2	Alternate basin.
+Sample_location	3	Alternate basin.
+Sample_location	4	Alternate basin.
+Type_of_sample	G	Grab
+Type_of_sample	C	Integrated epilimnion
+pH_Method	E	Electronic
+pH_Method	C	Colorimetric
+LabCode	ECL	Sawyer Environmental Chemistry Lab (Water Research Institute)
+LabCode	DEP	Maine Dept. of Env. Protection
+LabCode	GMC	George Mitchell Center Lab, University of Maine, Orono Maine
+LabCode	FLD	Tested in field
+AGENCY	N	NPS-Acadia NP
+AGENCY	D	ME Dept Env. Protection
+AGENCY	L	Mt. Desert Isl.
+AGENCY	U	Univ. of Maine
+AGENCY	I	ME Dept. Inland Fish. And Wildlife

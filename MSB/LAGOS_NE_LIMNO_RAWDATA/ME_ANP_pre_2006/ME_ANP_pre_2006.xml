@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.46.3" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>ME Acadia National Park Lake Nutrient data 1975-2005</title>
+ <creator id="1343241955009"> <individualName><givenName>Bill</givenName>
+<surName>Gawley</surName>
+</individualName>
+<organizationName>National Park Service</organizationName>
+<positionName>Biologist</positionName>
+<phone phonetype="voice">(207) 288-8723</phone>
+<electronicMailAddress>bill_gawley@nps.gov</electronicMailAddress>
+</creator>
+ <abstract><para>Water quality data collected by Acadia National Park (U.S. National Park Service) staff using the procedures found in the Maine Department of Environmental Protection&#8217;s Lake Assessment Program Standard Operating Procedures (1975-2005 samples).  Sampling occurs annually and is scheduled to continue indefinitely. Additional data from non-NPS collaborators are also included.
+
+Parameters measured in the field include Secchi transparency and surface temperature.  Secchi depth was always measured using a viewing scope, and a viewing scope with &quot;mask&quot; was used from 1996 to present. Color, chlorophyll a, total nitrogen, total phosphorus, DOC, anion &amp; cation samples were collected as grab samples or depth-integrated epilimnetic samples in lakes, and then sent to a central laboratory for analyses.</para>
+</abstract>
+<keywordSet><keyword>Acadia National Park</keyword>
+<keyword>Lake nutrients</keyword>
+</keywordSet>
+<intellectualRights><para>Data are public</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Acadia National Park, ME</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-68.16</westBoundingCoordinate>
+<eastBoundingCoordinate>-68.07</eastBoundingCoordinate>
+<northBoundingCoordinate>44.26</northBoundingCoordinate>
+<southBoundingCoordinate>44.12</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1975</calendarDate>
+</beginDate>
+<endDate><calendarDate>2005</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1343241955009</references>
+</contact>
+<methods><methodStep><description><section><title>Sampling procedure</title>
+<para>Found in the Maine Department of Environmental Protection&#8217;s Lake Assessment Program Standard Operating Procedures (1975-2005 samples)</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Acadia National Park</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Ponds and lakes in Acadia National Park</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1343244694376"><entityName>Acadia pre2006 Chem.csv</entityName>
+<entityDescription>Acadia National Park lake nutrient data 1975-2005</entityDescription>
+<physical id="1343242608796"><objectName>Acadia pre2006 Chem.csv</objectName>
+<size unit="byte">360</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1343244694377"><attributeName>Lake name</attributeName>
+<attributeDefinition>Name of water body where water quality was tested</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>lake names</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694378"><attributeName>MIDAS</attributeName>
+<attributeDefinition>Maine DEP unique code for lake</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>ME unique lake code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694379"><attributeName>Latitude</attributeName>
+<attributeDefinition>Latitude coordinate in NAD83</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><interval><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1343244694380"><attributeName>Longitude</attributeName>
+<attributeDefinition>Longitude coordinate in NAD83</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><interval><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1343244694381"><attributeName>County</attributeName>
+<attributeDefinition>County in which lake is located</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>county name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694382"><attributeName>Date</attributeName>
+<attributeDefinition>Date data were collected and recorded</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>mm/dd/yyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1343244694383"><attributeName>Sample depth_m</attributeName>
+<attributeDefinition>Depth of water sample (m)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694384"><attributeName>Sample location</attributeName>
+<attributeDefinition>Sample station (1= Primary basin deep hole, other numbers signify alternate basins)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+<definition>primary basin deep hole</definition>
+</codeDefinition>
+<codeDefinition><code>other numbers</code>
+<definition>aternate basins</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694385"><attributeName>Type of sample</attributeName>
+<attributeDefinition>Water sample type: C= integrated epilimnion core, G= Grab</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>G</code>
+<definition>Grab</definition>
+</codeDefinition>
+<codeDefinition><code>C</code>
+<definition>integrated epilimnion core</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694386"><attributeName>TP_ug/L</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>Total phosphorus (ug/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0.9</minimum>
+<maximum exclusive="true">25</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694387"><attributeName>TN_mg/L</attributeName>
+<attributeLabel>Nitrogen, total</attributeLabel>
+<attributeDefinition>Total nitrogen (mg/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0.077</minimum>
+<maximum exclusive="true">0.61</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694388"><attributeName>NO3_ueq/L</attributeName>
+<attributeLabel>Nitrogen, NO3</attributeLabel>
+<attributeDefinition>Nitrate (ueq/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>microequivalentPerLiter</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">5</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694389"><attributeName>ChlA_ug/L</attributeName>
+<attributeLabel>Chlorophyll a</attributeLabel>
+<attributeDefinition>Chlorophyll a (ug/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0.2</minimum>
+<maximum exclusive="true">7.9</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694390"><attributeName>DOC_mg/L</attributeName>
+<attributeLabel>Carbon, dissolved organic</attributeLabel>
+<attributeDefinition>Dissolved organic carbon (mg/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">1.5</minimum>
+<maximum exclusive="true">9.5</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694391"><attributeName>TrueColor_PCU</attributeName>
+<attributeLabel>Color, true</attributeLabel>
+<attributeDefinition>True (filtered) color (Platinum cobalt units)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>PCU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">1</minimum>
+<maximum exclusive="true">53</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694392"><attributeName>ApparentColor_PCU</attributeName>
+<attributeLabel>Color, apparent</attributeLabel>
+<attributeDefinition>Apparent (non-filtered) color (Platinum cobalt units)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>PCU</customUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+<bounds><minimum exclusive="true">1</minimum>
+<maximum exclusive="true">49</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694393"><attributeName>SecchiDepth_m</attributeName>
+<attributeLabel>Secchi, view</attributeLabel>
+<attributeDefinition>Secchi transparency in meters with view scope</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">20.5</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694394"><attributeName>SpCond_uS/cm</attributeName>
+<attributeLabel>Conductance, specific</attributeLabel>
+<attributeDefinition>Measure of specific conductance in uS/cm</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>microSeimensPerCentimeter</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">20.96</minimum>
+<maximum exclusive="true">89</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694395"><attributeName>pH</attributeName>
+<attributeLabel>pH</attributeLabel>
+<attributeDefinition>Measure of pH in field or laboratory</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">7.08</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1343244694396"><attributeName>pH_Method</attributeName>
+<attributeDefinition>Method used for pH measurement (C= colorimetric; E= electronic meter)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>E</code>
+<definition>Electronic meter</definition>
+</codeDefinition>
+<codeDefinition><code>C</code>
+<definition>Colorimetric</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694397"><attributeName>EQpH</attributeName>
+<attributeLabel>pH, equilibrated</attributeLabel>
+<attributeDefinition>Measure of air-equilibrated pH in laboratory.</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">4.74</minimum>
+<maximum exclusive="true">7.38</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694398"><attributeName>Ca_ueq/L</attributeName>
+<attributeLabel>Calcium</attributeLabel>
+<attributeDefinition>Calcium (ueq/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>microequivlanetsPerLiter</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">22.77</minimum>
+<maximum exclusive="true">132</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694399"><attributeName>Mg_ueq/L</attributeName>
+<attributeLabel>Magnesium</attributeLabel>
+<attributeDefinition>Magnesium (ueq/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>microequivlanetsPerLiter</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">23.86</minimum>
+<maximum exclusive="true">63</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694400"><attributeName>K_ueq/L</attributeName>
+<attributeLabel>Potassium</attributeLabel>
+<attributeDefinition>Potassium (ueq/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>microequivlanetsPerLiter</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">1.1</minimum>
+<maximum exclusive="true">11</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694401"><attributeName>Na_ueq/L</attributeName>
+<attributeLabel>Sodium</attributeLabel>
+<attributeDefinition>Sodium (ueq/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>microequivlanetsPerLiter</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">12.8</minimum>
+<maximum exclusive="true">288</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343247857666"><attributeName>Cl_ueq/L</attributeName>
+<attributeLabel>Chloride</attributeLabel>
+<attributeDefinition>Chloride</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>microequivlanetsPerLiter</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">75</minimum>
+<maximum exclusive="true">332</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694403"><attributeName>SO4_ueq/L</attributeName>
+<attributeLabel>Sulfate</attributeLabel>
+<attributeDefinition>Sulfate (ueq/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>microequivlanetsPerLiter</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">23</minimum>
+<maximum exclusive="true">97</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694404"><attributeName>NH4_mg/L</attributeName>
+<attributeLabel>Nitrogen, NH4</attributeLabel>
+<attributeDefinition>Ammonium (mg/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">0.07</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694405"><attributeName>Si_mg/L</attributeName>
+<attributeLabel>Silica</attributeLabel>
+<attributeDefinition>Silica (mg/L)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">2.4</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343244694407"><attributeName>SurfaceTemp_C</attributeName>
+<attributeLabel>Temperature</attributeLabel>
+<attributeDefinition>Measure of temperature in Celsius at sampling station</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">27</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1343244694408"><attributeName>LabCode</attributeName>
+<attributeDefinition>Lab at which the chemical analysis was conducted.  FLD = Tested in field; DEP= Maine Dept. of Env. Protection;  ECL = Sawyer Environmental Chemistry Lab (Water Research Institute), University of Maine, Orono Maine; GMC = George Mitchell Center Lab, University of Maine, Orono Maine</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>ECL</code>
+<definition>Sawyer Environmental Chemistry</definition>
+</codeDefinition>
+<codeDefinition><code>DEP</code>
+<definition>Maine Dept. of Env. Protection</definition>
+</codeDefinition>
+<codeDefinition><code>GMC</code>
+<definition>George Mitchell Center Lab</definition>
+</codeDefinition>
+<codeDefinition><code>FLD</code>
+<definition>Tested in the field</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694409"><attributeName>AGENCY</attributeName>
+<attributeDefinition>Code for agency/organization conducting monitoring. (D= ME Dept. Env. Protection; I= ME Dept. Inland Fish. &amp; Wildlife; L= Mt. Desert Isl. League of Towns; N= NPS-Acadia NP; U= Univ. of Maine)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>N</code>
+<definition>NPS-Acadia National Park</definition>
+</codeDefinition>
+<codeDefinition><code>D</code>
+<definition>ME Departmen tof Enviornmental Protection</definition>
+</codeDefinition>
+<codeDefinition><code>L</code>
+<definition>Mt. Desert Island League of Towns</definition>
+</codeDefinition>
+<codeDefinition><code>U</code>
+<definition>University of Maine</definition>
+</codeDefinition>
+<codeDefinition><code>I</code>
+<definition>ME Department of Inland Fisheries and Wildlife</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694410"><attributeName>OBSERVER</attributeName>
+<attributeDefinition>Person collecting samples and data</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>person collecting data</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694411"><attributeName>SampEventCode</attributeName>
+<attributeDefinition>Master database code for sampling event</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>master database code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343244694412"><attributeName>COMMENTS</attributeName>
+<attributeDefinition>Observations made during sampling event</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>observations</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>10</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="microequivalentPerLiter" multiplierToSI=" " name="microequivalentPerLiter" parentSI="kilogramsPerCubicMeter" unitType="massDensity"><description>Microequivalent per liter</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="PCU" multiplierToSI=" " name="PCU" parentSI="mole" unitType="amount"><description>Platinum Cobalt Units</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="microSeimensPerCentimeter" multiplierToSI=" " name="microSeimensPerCentimeter" parentSI="siemen" unitType="conductance"><description>uS/cm</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="microequivlanetsPerLiter" multiplierToSI=" " name="microequivlanetsPerLiter" parentSI="mole" unitType="amount"><description>ueq/L</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+<additionalMetadata></additionalMetadata>
+</eml:eml>
