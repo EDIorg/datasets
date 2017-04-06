@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.151.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+ <dataset>
+  <title>Massachusetts Department of Conservation and Recreation (DCR): Quabbin Reservoir and Ware
+   River watershed Secchi depth, 2005-2008</title>
+  <creator id="1376429503248">
+   <individualName>
+    <givenName>Pa&#250;l</givenName>
+    <surName>Reyes</surName>
+   </individualName>
+   <organizationName>Massachusetts Department of Conservation and Recreation Office of Watershed
+    Management</organizationName>
+   <positionName>Environmental Engineer</positionName>
+   <address>
+    <deliveryPoint>485 Ware Road</deliveryPoint>
+    <city>Belchertown</city>
+    <administrativeArea>MA</administrativeArea>
+    <postalCode>01007</postalCode>
+    <country>USA</country>
+   </address>
+   <phone phonetype="voice">413-323-6921, ext. 307</phone>
+   <electronicMailAddress>paul.reyes@state.ma.us</electronicMailAddress>
+  </creator>
+  <abstract>
+   <para>The Department of Conservation and Recreation, Division of Water Supply Protection is the
+    state agency charged with the responsibility of managing Quabbin Reservoir and its surrounding
+    natural resources in order to protect, preserve and enhance the environment of the Commonwealth
+    and to assure the availability of pure water to future generations. As part of this effort, the
+    Environmental Quality Section maintains a comprehensive water quality monitoring program to
+    ensure that Quabbin Reservoir and its tributaries meet state water quality standards. As part of
+    this task, the Environmental Quality Section performs the necessary field work, interprets water
+    quality data and prepares reports of findings. This annual summary is intended to meet the needs
+    of the decision makers, the concerned public and others whose decisions must reflect water
+    quality considerations</para>
+  </abstract>
+  <keywordSet>
+   <keyword>Massachusetts</keyword>
+   <keyword>Quabbin Reservoir</keyword>
+   <keyword>Secchi</keyword>
+  </keywordSet>
+  <intellectualRights>
+   <para>Data are public</para>
+  </intellectualRights>
+  <coverage>
+   <geographicCoverage>
+    <geographicDescription>Quabbin Reservoir and Ware River watersheds, MA,
+     USA</geographicDescription>
+    <boundingCoordinates>
+     <westBoundingCoordinate>-72.26</westBoundingCoordinate>
+     <eastBoundingCoordinate>-72.0</eastBoundingCoordinate>
+     <northBoundingCoordinate>42.33</northBoundingCoordinate>
+     <southBoundingCoordinate>42.13</southBoundingCoordinate>
+    </boundingCoordinates>
+   </geographicCoverage>
+   <temporalCoverage>
+    <rangeOfDates>
+     <beginDate>
+      <calendarDate>2005</calendarDate>
+     </beginDate>
+     <endDate>
+      <calendarDate>2008</calendarDate>
+     </endDate>
+    </rangeOfDates>
+   </temporalCoverage>
+  </coverage>
+  <contact>
+   <references>1376429503248</references>
+  </contact>
+  <methods>
+   <methodStep>
+    <description>
+     <section>
+      <title>Secchi field measurements</title>
+      <para>Transparency is determined as the depth below the surface at which a 20-cm,
+       black-and-whte disk becomes indistinguishable to the naked eye.</para>
+     </section>
+    </description>
+   </methodStep>
+   <sampling>
+    <studyExtent>
+     <description>
+      <para>Quabbin Reservoir and Ware River watersheds</para>
+     </description>
+    </studyExtent>
+    <samplingDescription>
+     <para>Secchi depth measurements taken throughout the year</para>
+    </samplingDescription>
+   </sampling>
+  </methods>
+  <dataTable id="1376429938350">
+   <entityName>MA_QUABBIN_SECCHI_EF.csv</entityName>
+   <entityDescription>Massachusetts Department of Conservation and Recreation (DCR): Quabbin
+    Reservoir and Ware River watershed Secchi depth, 2005-2008</entityDescription>
+   <physical id="1376429820236">
+    <objectName>MA_QUABBIN_SECCHI_EF.csv</objectName>
+    <size unit="byte">1182</size>
+    <dataFormat>
+     <textFormat>
+      <numHeaderLines>1</numHeaderLines>
+      <recordDelimiter>#x0A</recordDelimiter>
+      <attributeOrientation>column</attributeOrientation>
+      <simpleDelimited>
+       <fieldDelimiter>,</fieldDelimiter>
+      </simpleDelimited>
+     </textFormat>
+    </dataFormat>
+    <distribution>
+     <offline>
+      <mediumName>hard drive</mediumName>
+     </offline>
+    </distribution>
+   </physical>
+   <attributeList>
+    <attribute id="1376429938351">
+     <attributeName>SITE</attributeName>
+     <attributeLabel>Sample site</attributeLabel>
+     <attributeDefinition>Sample site</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Sample site</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1376429938352">
+     <attributeName>DATE</attributeName>
+     <attributeLabel>date</attributeLabel>
+     <attributeDefinition>Sample date</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>mm/dd/yyyy</formatString>
+       <dateTimePrecision>0</dateTimePrecision>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1376429938353">
+     <attributeName>RESERVOIR ELEV</attributeName>
+     <attributeLabel>Reservoir elevation</attributeLabel>
+     <attributeDefinition>Reservoir elevation</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1376429938354">
+     <attributeName>SECCHI DEPTH</attributeName>
+     <attributeLabel>Secchi depth, no view</attributeLabel>
+     <attributeDefinition>Secchi depth, no view</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1376429938355">
+     <attributeName>BOTTOM DEPTH</attributeName>
+     <attributeLabel>Bottom depth</attributeLabel>
+     <attributeDefinition>Bottom depth</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1376429938356">
+     <attributeName>COMMENTS</attributeName>
+     <attributeLabel>Comments</attributeLabel>
+     <attributeDefinition>Comments</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Comments</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+   </attributeList>
+   <numberOfRecords>31</numberOfRecords>
+  </dataTable>
+ </dataset>
+</eml:eml>
