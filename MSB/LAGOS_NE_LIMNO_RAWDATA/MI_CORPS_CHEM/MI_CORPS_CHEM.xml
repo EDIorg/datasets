@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.100.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>MiCORPS Cooperative Lakes Monitoring Program Lake Surveys, water chemistry, 1974-2012</title>
+ <creator id="1355851529927"> <individualName><givenName>Jo</givenName>
+<surName>Latimore</surName>
+</individualName>
+<organizationName>Fisheries and Wildlife, Michigan State University</organizationName>
+<positionName>Lake, Stream and Watershed Outreach Specialist</positionName>
+<address><deliveryPoint>480 Wilson Road</deliveryPoint>
+<deliveryPoint>Room 13 Natural Resources Bldg.</deliveryPoint>
+<city>East Lansing</city>
+<administrativeArea>MI</administrativeArea>
+<postalCode>48824</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">517-432-1491</phone>
+<phone phonetype="fax">517-432-1699</phone>
+<electronicMailAddress>latimor1@msu.edu</electronicMailAddress>
+</creator>
+ <abstract><para>The Cooperative Lakes Monitoring Program (CLMP) has been an important component of Michigan's inland lakes monitoring program for over 39 years, which makes it the second oldest volunteer monitoring program for lakes in the country. The primary purpose of this cooperative program is to help citizen volunteers monitor indicators of water quality in their lake and document changes in lake quality over time. The goals of the CLMP are: Provide baseline information and document trends in water quality for individual lakes, Educate lake residents, users and interested citizens in the collection of water quality data, lake ecology and lake management practices, provide a cost-effective process for the DEQ to increase baseline data for lakes state-wide. Since 1992, the Michigan Lake and Stream Associations (MLSA) has administered the CLMP jointly with the Michigan Department of Environmental Quality (DEQ) under a Memorandum of Understanding. The ML&amp;SA will continue to administer this program under the Michigan Clean Water Corps</para>
+</abstract>
+<keywordSet><keyword>Michigan</keyword>
+<keyword>Volunteer lake monitoring</keyword>
+<keyword>Water chemistry</keyword>
+</keywordSet>
+<intellectualRights><para>Data are public</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Michigan, USA</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-90.17</westBoundingCoordinate>
+<eastBoundingCoordinate>-82.26</eastBoundingCoordinate>
+<northBoundingCoordinate>47.25</northBoundingCoordinate>
+<southBoundingCoordinate>41.41</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1974</calendarDate>
+</beginDate>
+<endDate><calendarDate>2012</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1355851529927</references>
+</contact>
+<methods><methodStep><description><section><title>Secchi depth</title>
+<para>Secchi: At least 8 measurements are taken, relatively evenly spaced between May 13 and September 15</para>
+</section>
+</description>
+<instrumentation>Secchi disk</instrumentation>
+</methodStep>
+<methodStep><description><section><title>Total phosphorus</title>
+<para>Total phosphorus was measured from water samples. One surface grab sample was taken 7-10 days after ice-out (typically April or May) when lake is mixed and 1 surface grab sample in late summer/early fall (typically August or September) when lake is stratified.</para>
+<para>1998-2007 collected replicate samples (4 TP values per sampling event)</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Chlorophyll a</title>
+<para>Chlorophyll a was measured from water samples. Five sampling events (May-September),  depth-integrated sample. Sample preserved with MgCO3, filtered in the field, stored in freezer.</para>
+<para>1998-2007 collected replicate samples (R2 between chl of sample and replicate=0.97) and had DEQ collect sample with volunteer (R2 between chl of sample and DEQ replicate=0.89)</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>QA/QC</title>
+<para>General QA/QC for data entry: quality assurance program plan for each MiCorps member program before data can be entered, common data entry errors flagged, data reviewed by MiCorps staff</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Inland lakes in Michigan</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Sampling regime depends on the parameter of interest. Secchi transparency - 8 measurements relatively evenly spaced between May 13 and September 15.Total phosphorus - surface grab sample 7-10 days after ice-out (typically April or May) when lake is mixed and 1 surface grab sample in late summer/early fall (typically August or September) when lake is stratified. Chlorophyll a - 5 sampling events (May-September), depth-integrated sample. Sample preserved with MgCO3, filtered in the field, stored in freezer</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1355858930236"><entityName>MI_CORPS_CHEM_for_morpho_EF.csv</entityName>
+<entityDescription>MiCORPS Cooperative Lakes Monitoring Program Lake Surveys, water chemistry, 1974-2012</entityDescription>
+<physical id="1355852728338"><objectName>MI_CORPS_CHEM_for_morpho_EF.csv</objectName>
+<size unit="byte">1120</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1355858930237"><attributeName>Site_ID</attributeName>
+<attributeLabel>Site ID</attributeLabel>
+<attributeDefinition>unique ID corresponding to the sampling location</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930238"><attributeName>Sample_Date</attributeName>
+<attributeLabel>Sample date</attributeLabel>
+<attributeDefinition>date sample was collected</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>DD/MM/YYYY</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1355858930239"><attributeName>Lake_Name</attributeName>
+<attributeLabel>lake name</attributeLabel>
+<attributeDefinition>lake name</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>lake name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930240"><attributeName>County</attributeName>
+<attributeLabel>county</attributeLabel>
+<attributeDefinition>county</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>county</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930241"><attributeName>Township</attributeName>
+<attributeLabel>township</attributeLabel>
+<attributeDefinition>township</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>township</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930242"><attributeName>Section</attributeName>
+<attributeLabel>section</attributeLabel>
+<attributeDefinition>section</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>section</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930243"><attributeName>Site_ID_description</attributeName>
+<attributeLabel>Site ID description</attributeLabel>
+<attributeDefinition>description of location (e.g., deep basin, 30&#8217; hole)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID description</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930244"><attributeName>Latitude</attributeName>
+<attributeLabel>latitude</attributeLabel>
+<attributeDefinition>latitude</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>decimal degree</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355858930245"><attributeName>Longitude</attributeName>
+<attributeLabel>longitude</attributeLabel>
+<attributeDefinition>longitude</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>decimal degree</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355858930246"><attributeName>Watershed</attributeName>
+<attributeLabel>watershed or USGS 8-digit HUC</attributeLabel>
+<attributeDefinition>watershed or USGS 8-digit HUC</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>watershed or USGS 8-digit HUC</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930247"><attributeName>Surface_Area</attributeName>
+<attributeLabel>lake surface area in acres</attributeLabel>
+<attributeDefinition>lake surface area in acres</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>acre</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355858930248"><attributeName>Datum</attributeName>
+<attributeLabel>datum associated with lat/long</attributeLabel>
+<attributeDefinition>datum associated with lat/long</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>datum associated with lat/long</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930249"><attributeName>GPS_Source</attributeName>
+<attributeLabel>GPS Source</attributeLabel>
+<attributeDefinition>how the volunteer collected the latitude and longitude data</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>GPS Source</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930250"><attributeName>Sample_Time</attributeName>
+<attributeLabel>Sample time</attributeLabel>
+<attributeDefinition>time sample was collected</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>HH:MM:SS</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1355858930251"><attributeName>Secchi_Depth_feet</attributeName>
+<attributeLabel>Secchi depth ft</attributeLabel>
+<attributeDefinition>secchi depth in feet</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>foot</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355858930252"><attributeName>Weather_Conditions_Secchi</attributeName>
+<attributeLabel>Weather conditions Secchi</attributeLabel>
+<attributeDefinition>weather conditions the day the secchi measurement was taken</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Weather conditions Secchi</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930253"><attributeName>Unusual_Conditions_Secchi</attributeName>
+<attributeLabel>Unusual conditons Secchi</attributeLabel>
+<attributeDefinition>any unusual or unexpected conditions the day of the sampling event or the day or two prior to the sampling event (e.g., secchi hit bottom, heavy rains, high levels of boat traffic, wave activity)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Unusual conditons Secchi</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930254"><attributeName>Measurement_Secchi</attributeName>
+<attributeLabel>?</attributeLabel>
+<attributeDefinition>?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>?</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930255"><attributeName>Overturn_Late_Summer</attributeName>
+<attributeLabel>Sampling season</attributeLabel>
+<attributeDefinition>season that sample was collected</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Sampling season</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930256"><attributeName>Date_Ice_Out</attributeName>
+<attributeLabel>Date of ice out</attributeLabel>
+<attributeDefinition>date of ice out (for Spring overturn only)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+</dateTime>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930257"><attributeName>Weather_Conditions_P</attributeName>
+<attributeLabel>weather condition TP</attributeLabel>
+<attributeDefinition>weather conditions the day the P measurement was taken</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>weather condition TP</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930258"><attributeName>Date_Sample_In_P</attributeName>
+<attributeLabel>Date sample turned in for analysis</attributeLabel>
+<attributeDefinition>the date the water sample was turned in for analysis</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1355858930259"><attributeName>Unusual_Conditions_P</attributeName>
+<attributeLabel>unusual conditions TP</attributeLabel>
+<attributeDefinition>any unusual or unexpected conditions the day of the sampling event (e.g., heavy rains, high levels of boat traffic, wave activity)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>unusual conditions TP</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930260"><attributeName>Comments_P</attributeName>
+<attributeLabel>TP comments</attributeLabel>
+<attributeDefinition>additional site or sample date-specific information in the database</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>TP comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930261"><attributeName>ug P/L_Rep1</attributeName>
+<attributeLabel>TP Rep 1</attributeLabel>
+<attributeDefinition>TP value reported by the lab</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930262"><attributeName>ug P/L_Rep2</attributeName>
+<attributeLabel>TP replicate 2</attributeLabel>
+<attributeDefinition>result of a 'replicate' sample taken by the volunteer at the same date and time as the official reading. Used for quality control</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930264"><attributeName>ug P/L_Rep3</attributeName>
+<attributeLabel>TP replicate 3</attributeLabel>
+<attributeDefinition>result of a Michigan Department of Environmental Quality staff side by side ('duplicate') test with the volunteer. Used for quality control.</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930265"><attributeName>ug P/L_Rep4</attributeName>
+<attributeLabel>TP replicate 4</attributeLabel>
+<attributeDefinition>result of a 'replicate' sample taken by Michigan Department of Environmental Quality staff at the same date and time as the side by side reading. Used for quality control.</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930266"><attributeName>Lab_Comments_P</attributeName>
+<attributeLabel>TP lab comments</attributeLabel>
+<attributeDefinition>lab generated comments in the database in reference to P sample</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>TP lab comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930267"><attributeName>Sample_Depth_feet_Chl</attributeName>
+<attributeLabel>Chl a sample depth</attributeLabel>
+<attributeDefinition>depth chl sample was collected</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>foot</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930268"><attributeName>Weather_Conditions_Chl</attributeName>
+<attributeLabel>Weather_Conditions_Chl</attributeLabel>
+<attributeDefinition>weather conditions the day the chl measurement was taken</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Weather_Conditions_Chl</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930269"><attributeName>Unusual_Conditions_Chl</attributeName>
+<attributeLabel>Unusual_Conditions_Chl</attributeLabel>
+<attributeDefinition>any unusual or unexpected conditions the day of the sampling event or the day or two prior to the sampling event (e.g., heavy rains, high levels of boat traffic, wave activity)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Unusual_Conditions_Chl</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930270"><attributeName>Comments_Chl</attributeName>
+<attributeLabel>Comments_Chl a</attributeLabel>
+<attributeDefinition>additional site or sample date-specific information in the database. Also use this field to record the amount of filtered material if it exceeds limits</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Comments_Chl a</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355858930271"><attributeName>chl ug/L_Rep1</attributeName>
+<attributeLabel>Chl a value reported by the lab</attributeLabel>
+<attributeDefinition>Chl a value reported by the lab</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930272"><attributeName>chl ug/L_Rep2</attributeName>
+<attributeLabel>Chl a replicate 2</attributeLabel>
+<attributeDefinition>result of a 'replicate' sample taken by the volunteer at the same date and time as the official reading. Used for quality control.</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930273"><attributeName>chl ug/L_Rep3</attributeName>
+<attributeLabel>Chl a replicate 3</attributeLabel>
+<attributeDefinition>result of a Michigan Department of Environmental Quality staff side by side ('duplicate') test with the volunteer. Used for quality control.</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930274"><attributeName>chl ug/L_Rep4</attributeName>
+<attributeLabel>Chl a replicate 4</attributeLabel>
+<attributeDefinition>result of a 'replicate' sample taken by Michigan Department of Environmental Quality staff at the same date and time as the side by side reading. Used for quality control.</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+</missingValueCode>
+</attribute>
+<attribute id="1355858930277"><attributeName>LabComments_Chl</attributeName>
+<attributeLabel>LabComments_Chl</attributeLabel>
+<attributeDefinition>lab generated comments in the database in reference to P sample</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>LabComments_Chl</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>3</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="decimal degree" multiplierToSI=" " name="decimal degree" parentSI="meter" unitType="length"><description>decimal degree</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</eml:eml>
