@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus2.4.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <dataset> <title>Michigan State University, Landscape Position project, 2003</title>
+ <creator id="1356589839489"> <individualName><givenName>Patricia</givenName>
+<surName>Soranno</surName>
+</individualName>
+<organizationName>Department of Fisheries and Wildlife, Michigan State University</organizationName>
+<positionName>Professor</positionName>
+<address><deliveryPoint>Department of Fisheries and Wildlife, Michigan State University</deliveryPoint>
+<city>East Lansing</city>
+<administrativeArea>MI</administrativeArea>
+<postalCode>48824</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">517-432-4330</phone>
+<electronicMailAddress>soranno@msu.edu</electronicMailAddress>
+</creator>
+ <abstract><para>This database is from a field study conducted by Sherry Martin, a MS students in the Dept of Fisheries and Wildlife at Michigan State University, and P.A. Soranno. 71 stratified (max depth &gt; 3 m and area &gt; 0.2 km2) lakes were sampled one time in summer 2003 from mid-july to august across 3 HUC8 watersheds in Michigan’s lower peninsula: Muskegon, Au Sable, and Thunder Bay. Within each HUC8, 3-5 lakes were randomly chosen that were along a landscape position gradient using the ‘lake hydrology’ classification.. Details on the analysis are provided in Martin and Soranno 2006.</para>
+</abstract>
+<keywordSet><keyword>Michigan</keyword>
+<keyword>Water chemistry</keyword>
+<keyword>Landscape Position</keyword>
+</keywordSet>
+<intellectualRights><para>Data are from University/researcher
+Data are free to be made public</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Michigan lower-peninsula in 3 HUC8 watersheds (Muskegon, Au Sable, Thunder Bay), USA</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-86.75</westBoundingCoordinate>
+<eastBoundingCoordinate>-82.5</eastBoundingCoordinate>
+<northBoundingCoordinate>45.75</northBoundingCoordinate>
+<southBoundingCoordinate>41.625</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2003</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+</coverage>
+<contact><references>1356589839489</references>
+</contact>
+<methods><methodStep><description><section><title>lake water sampling</title>
+<para>Lakes were sampled once in July-August at the deep point in the lake. Standard limnological sampling and lab protocols were used. Depth profiles were collected using a YSI 6920 multi-probe for dissolved oxygen, temperature, conductivity and pH.  An integrated tube sampler was used to sample the epilimnion and that water was used for all chemical analyses.</para>
+</section>
+</description>
+<instrumentation>YSI 6920 multi-probe for dissolved oxygen, temperature, conductivity and pH.</instrumentation>
+</methodStep>
+<sampling><studyExtent><description><para>71 stratified (max depth &gt; 3 m and area &gt; 0.2 km2) lakes were sampled one time in summer 2003 from mid-july to august across 3 HUC8 watersheds in Michigan’s lower peninsula: Muskegon, Au Sable, and Thunder Bay.</para>
+</description>
+</studyExtent>
+<samplingDescription><para>71 stratified (max depth &gt; 3 m and area &gt; 0.2 km2) lakes were sampled one time in summer 2003 from mid-july to august across 3 HUC8 watersheds in Michigan’s lower peninsula: Muskegon, Au Sable, and Thunder Bay. Within each HUC8, 3-5 lakes were randomly chosen that were along a landscape position gradient using the ‘lake hydrology’ classification</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1356591500955"><entityName>MI_LNDSCP_CHEM_for_morpho_EF.csv</entityName>
+<entityDescription>Michigan State University, Landscape Position project, 2003</entityDescription>
+<physical id="1356590447641"><objectName>MI_LNDSCP_CHEM_for_morpho_EF.csv</objectName>
+<size unit="byte">711</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1356591500971"><attributeName>HUCNAME</attributeName>
+<attributeLabel>HUC 8</attributeLabel>
+<attributeDefinition>name of 8-digit USGS hydrologic unit</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>HUC 8 name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1356591500987"><attributeName>New_key</attributeName>
+<attributeLabel>new key code</attributeLabel>
+<attributeDefinition>new key code</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>new key code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1356591501002"><attributeName>Lake_Name</attributeName>
+<attributeLabel>name of lake</attributeLabel>
+<attributeDefinition>name of lake</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>name of lake</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1356591501018"><attributeName>Date</attributeName>
+<attributeLabel>Date</attributeLabel>
+<attributeDefinition>date the lake was sampled</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><dateTime><formatString>DD-MMM-YY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1356591501033"><attributeName>MEAN_M</attributeName>
+<attributeLabel>Mean depth</attributeLabel>
+<attributeDefinition>average depth of approximately 100 points evenly spaced across each bathymetric map</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501049"><attributeName>AREA_HA</attributeName>
+<attributeLabel>Surface area</attributeLabel>
+<attributeDefinition>area of lake in hectares (converted from acres)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>hectare</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501065"><attributeName>SECCHI_m</attributeName>
+<attributeLabel>Secchi</attributeLabel>
+<attributeDefinition>secchi disk depth in meters</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501080"><attributeName>COLOR</attributeName>
+<attributeLabel>Color, apparent</attributeLabel>
+<attributeDefinition>Color, apparent</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>PCU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501096"><attributeName>ALK_ueqL</attributeName>
+<attributeLabel>Alkalinity</attributeLabel>
+<attributeDefinition>alkalinity data measured at field lab using Gran titration. analysis done by SLM IN ueq/</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>ueq/l</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501111"><attributeName>chla</attributeName>
+<attributeLabel>chlorophyll a, corrected for phaeophyton</attributeLabel>
+<attributeDefinition>chlorophyll a, corrected for phaeophyton</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501127"><attributeName>TN</attributeName>
+<attributeLabel>Nitrogen, total</attributeLabel>
+<attributeDefinition>Nitrogen, total</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501143"><attributeName>TP</attributeName>
+<attributeLabel>phosphorus, total</attributeLabel>
+<attributeDefinition>phosphorus, total</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501158"><attributeName>Ca (mg/L)</attributeName>
+<attributeLabel>Calcium</attributeLabel>
+<attributeDefinition>Calcium</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501174"><attributeName>Mg (mg/L)</attributeName>
+<attributeLabel>Magnesium</attributeLabel>
+<attributeDefinition>Magnesium</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501189"><attributeName>Na (mg/L)</attributeName>
+<attributeLabel>Sodium</attributeLabel>
+<attributeDefinition>Sodium</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501205"><attributeName>K (mg/L)</attributeName>
+<attributeLabel>Potassium</attributeLabel>
+<attributeDefinition>Potassium</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501221"><attributeName>Si (mg/L)</attributeName>
+<attributeLabel>Silica</attributeLabel>
+<attributeDefinition>Silica</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501236"><attributeName>Cl (mg/L)</attributeName>
+<attributeLabel>Chloride</attributeLabel>
+<attributeDefinition>Chloride</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501252"><attributeName>NO3-N (mg/L)</attributeName>
+<attributeLabel>Nitrogen, nitrate (NO3)</attributeLabel>
+<attributeDefinition>Nitrogen, nitrate (NO3)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501267"><attributeName>SO4 (mg/L)</attributeName>
+<attributeLabel>Sulfate</attributeLabel>
+<attributeDefinition>Sulfate</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501283"><attributeName>DOC</attributeName>
+<attributeLabel>Carbon, dissolved organic</attributeLabel>
+<attributeDefinition>Carbon, dissolved organic</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501299"><attributeName>pH_1m_field</attributeName>
+<attributeLabel>pH</attributeLabel>
+<attributeDefinition>pH</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>pH</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501314"><attributeName>Cond_1m</attributeName>
+<attributeLabel>Conductivity</attributeLabel>
+<attributeDefinition>Conductivity</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>uS/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501330"><attributeName>Turb_1m</attributeName>
+<attributeLabel>Turbidity</attributeLabel>
+<attributeDefinition>Turbidity</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>NTU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1356591501345"><attributeName>pH_lab</attributeName>
+<attributeLabel>pH</attributeLabel>
+<attributeDefinition>pH</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>pH</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>3</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="PCU" multiplierToSI=" " name="PCU" parentSI="mole" unitType="amount"><description>PCU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="ueq/l" multiplierToSI=" " name="ueq/l" parentSI="kilogramsPerCubicMeter" unitType="massDensity"><description>ueq/l</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="pH" multiplierToSI=" " name="pH" parentSI="mole" unitType="amount"><description>pH</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="uS/cm" multiplierToSI=" " name="uS/cm" parentSI="mole" unitType="amount"><description>uS/cm</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount"><description>NTU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</eml:eml>
