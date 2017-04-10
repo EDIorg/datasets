@@ -1,0 +1,16 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Lake			character	lake name	lake name	character		
+Date	mm/dd/yyyy				Sampling date	Date		
+Epi_Depth		meter	real		Depth of the epilimnion determined from the temperature profile	numeric		
+Surf_temp		celsius	real		Surface water temperature	numeric		
+HYPO_O2		milligramsPerLiter	real		Dissolved Oxygen concentration from the middle of the hypolimnion	numeric		
+TP_ugL		microgramsPerLiter	real		phosphorus, total from epilmnion	numeric		
+TN_ugL		microgramsPerLiter	real		Nitrogen, total	numeric		
+SECCHI_m		meter	real		Secchi depth, unknown if viewscope was used	numeric		
+CHLA_UG		microgramsPerLiter	real		Chlorophyll a, corrected for phaeophyton	numeric		
+UTM_X_meters		meter	natural		X_UTM using NAD84	numeric		
+UTM_Y_meters		meter	natural		Y_UTM using NAD84	numeric		
+LKAREA_HA		hectare	natural		Area, lake surface	numeric		
+MAX_M		meter	real		depth, maximum	numeric		
+MEAN_M		meter	real		depth, mean	numeric		
+VOL_M3		cubicMeter	natural		lake volume	numeric		
