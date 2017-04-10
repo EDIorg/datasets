@@ -1,0 +1,19 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+SampleID		dimensionless	natural		Unique code for each sample	numeric		
+WaterBody			character	Lake/stream names	Lake/stream names	character		
+Date	mm/dd/yyyy				Sample date	Date		
+Sample_Depth		meter	real		Sample Depth (meters)	numeric		
+Sample_Type		character	character	water sample position depth	water sample position depth	character		
+Temperature		celsius	real		Temperature	numeric		
+Dissolved_Oxygen		milligramsPerLiter	character	Dissolved Oxygen (mg/l)	Dissolved Oxygen (mg/l)	character		
+Specific_Conductivity			character	Conductance, specific (microsiemensPerSquareCentimeter)	Conductance, specific (microsiemensPerSquareCentimeter)	character		
+pH			character	pH (dimensionless)	pH (dimensionless)	character		
+Nitrate_Nitrogen			character	Nitrogen, nitrate (microgramsPerLiter)	Nitrogen, nitrate (microgramsPerLiter)	character		
+Total_Nitrogen			character	Nitrogen, total (microgramsPerLiter)	Nitrogen, total (microgramsPerLiter)	character		
+Total_Phosphorus		microgramsPerLiter	real		Phosphorus, total	numeric		
+Chloride		milligramsPerLiter	real		Chloride	numeric		
+Secchi_depth		foot	real		Secchi, no view	numeric		
+Ammonia_nitrogen		microgramsPerLiter	natural		Nitrogen, NH3	numeric		
+Alkalinity		milligramsPerLiter	natural		Alkalinity, total	numeric		
+Chl_a		microgramsPerLiter	real		Chlorophyll a	numeric		
+Notes			character	Misc notes, usually indicates if Secchi was at bottom or if DO was 100% saturated	Misc notes, usually indicates if Secchi was at bottom or if DO was 100% saturated	character		
