@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.75.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Little Traverse Bay Band of Odawa Indians (LTBB) water quality monitoring program, MI USA, 2000-2011</title>
+ <creator id="1349289924788"> <individualName><givenName>Kira</givenName>
+<surName>Davis</surName>
+</individualName>
+<organizationName>Little Traverse Bay Bands of the Odawa Indians Natural Resoure Department</organizationName>
+<positionName>Water Quality Specialist</positionName>
+<address><deliveryPoint>7500 Odawa Circle</deliveryPoint>
+<city>Harbor Springs</city>
+<administrativeArea>MI</administrativeArea>
+<postalCode>49740</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">231.242.1572</phone>
+</creator>
+ <abstract><para>The Little Traverse Bay Bands of Odawa Indians (LTBB) is conducting a baseline assessment in selected water bodies within and adjacent to the 1855 historically delineated reservation boundaries. This baseline study began in Y2000, and LTBB began to acquire consistent data in 2001, and will continue until a sufficient amount of data is collected to assess current water quality conditions. Ten lakes have been chosen to be part of this program for sampling. Physical and chemical parameters measured in all selected water bodies are: dissolved oxygen, conductivity, temperature, turbidity, water depth, pH, nitrate/nitrite, total phosphorus, total kjeldahl nitrogen, and chloride. Parameters measured in the lakes only consist of chlorophyll a and water clarity.</para>
+</abstract>
+<keywordSet><keyword>lake water chemistry</keyword>
+<keyword>Tribal</keyword>
+<keyword>Michigan</keyword>
+</keywordSet>
+<intellectualRights><para>Data are public but would like to be notified of any use of the data in future years.</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Little Traverse Bay Bands of Odawa Indians reservation, ten lakes within and adjacent to the 1855 historically delineated reseravtion boundaries (~ 336 sqmi)</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-85.14</westBoundingCoordinate>
+<eastBoundingCoordinate>-84.24</eastBoundingCoordinate>
+<northBoundingCoordinate>45.31</northBoundingCoordinate>
+<southBoundingCoordinate>45.06</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2000</calendarDate>
+</beginDate>
+<endDate><calendarDate>2011</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1349289924788</references>
+</contact>
+<methods><methodStep><description><section><title>In field measurements</title>
+<para>Hydrolab multiprobe was used to measure dissolved oxygen, conductivity, temperature, pH, turbidity, and water depth. Water clarity was measured with a Secchi disk.</para>
+<para>Probe data was measured using two different pieces of equipment, Datasonde4a and Minisonde. These pieces of equipment are mostly interchangeable, however they measure dissolved oxygen (DO) differently. The Minisonde reading is usually a little higher than the Datasonde4a, and this sonde started to be used in 2008.</para>
+</section>
+</description>
+<instrumentation>Datasonde4a</instrumentation>
+<instrumentation>Minisonde</instrumentation>
+</methodStep>
+<methodStep><description><section><title>Water samples</title>
+<para>All other water chemistry variables were collected as discrete grab samples using a Kemmerer Water Sampler.</para>
+<para>Total phosphorus, total suspended solids, total kjeldahl nitrogen, nitrate /nitrite, and chlorophyll a are currently analyzed by the Great Lakes Environmental Center laboratory in Traverse City, Michigan. The LTBB Lab Technician will analyze chloride for the baseline program and potentially may analyze chlorophyll a, nitrates, and total suspended solids during the 2007 field season.</para>
+<para>Sampling position varies. Some lake/years there is only one depth (typically epi sample). Some lake/year combinations there are three depths per lake per date. Not listed by zone, only depth.</para>
+</section>
+</description>
+<instrumentation>Kemmerer Water Sampler</instrumentation>
+</methodStep>
+<methodStep><description><section><title>Quality Assurance</title>
+<para>See, Quality Assurance Protection Plan. Prepared for the US-EPA. Water quality monitoring program on the Little Traverse Bay Bands Reservation. Little Traverse Bay Bands of Odawa Indians. January 18, 2007.</para>
+<para>Data are collected following an EPA-level Quality Assurance Project Plan (QAPP) that has been approved by EPA</para>
+<para>2010-2012: LTBB Surface Water Quality Assurance Protection Plan Approved 5.17.11.pdf</para>
+<para>1007-2010: 106 2007-2010 Surface Water QAPP.pdf</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Ten lakes within and adjacent to the 1855 historically delineated reservation boundaries of the Little Traverse Bay Bands of Odawa Indians. The 1855 historically delineated reservation lies in lower northwest Michigan encompassing approximately 336 square miles of land.</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Samplings occurred monthly for each lake for 6 months (May-October) each year using a grab sample at each depth provided. There is 1 sampling site per lake basin, located at one of the deeper points in each lake basin. If the lake has numerous basins, but data results indicate there is no statistical difference between basins, only one of the basins is monitored. Location of these sample sites were determined using bathymetric maps and a depth finder. Exact locations were recorded using a Trimble GeoXT GPS Unit and integrated into GIS shapefiles.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1349293173741"><entityName>LTBB_chem.csv</entityName>
+<entityDescription>Little Traverse Bay Band of Odawa Indians (LTBB) water quality monitoring program, 2000-2011</entityDescription>
+<physical id="1349292618610"><objectName>LTBB_chem.csv</objectName>
+<size unit="byte">180</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1349293173742"><attributeName>Lake  Name</attributeName>
+<attributeLabel>Lake  Name</attributeLabel>
+<attributeDefinition>Lake  Name</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Lake name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1349293173743"><attributeName>Station ID</attributeName>
+<attributeLabel>Provides the code for the LAKE and BASIN sampled</attributeLabel>
+<attributeDefinition>Provides the code for the LAKE and BASIN sampled</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station ID Code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1349293173744"><attributeName>Date</attributeName>
+<attributeLabel>Date of sample</attributeLabel>
+<attributeDefinition>Date of sample</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1349293173745"><attributeName>Time</attributeName>
+<attributeLabel>Time</attributeLabel>
+<attributeDefinition>Time</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1349293173747"><attributeName>Temp</attributeName>
+<attributeLabel>temperature</attributeLabel>
+<attributeDefinition>temperature</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293173748"><attributeName>SpCond</attributeName>
+<attributeLabel>Conductance, specific</attributeLabel>
+<attributeDefinition>Specific conductance</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>aeS/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293173749"><attributeName>pH</attributeName>
+<attributeLabel>pH</attributeLabel>
+<attributeDefinition>pH</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293173750"><attributeName>DO</attributeName>
+<attributeLabel>Oxygen, dissolved</attributeLabel>
+<attributeDefinition>dissolved oxygen</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293173751"><attributeName>Dep100</attributeName>
+<attributeLabel>Depth of sample</attributeLabel>
+<attributeDefinition>depth of sample measured by probe</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293173752"><attributeName>Total Phosphorus</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>total phosphorus</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293173753"><attributeName>Total Nitrogen</attributeName>
+<attributeLabel>Nitrogen, total</attributeLabel>
+<attributeDefinition>Total Nitrogen</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293173754"><attributeName>Chloride</attributeName>
+<attributeLabel>Chloride</attributeLabel>
+<attributeDefinition>Chloride</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293173755"><attributeName>Chlorophyll a</attributeName>
+<attributeLabel>Chlorophyll a</attributeLabel>
+<attributeDefinition>Chlorophyll a</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293226548"><attributeName>Catchment basin (acres)</attributeName>
+<attributeLabel>Area, lake catchment</attributeLabel>
+<attributeDefinition>Area, lake catchment</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>acre</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293262279"><attributeName>Surface area (acres)</attributeName>
+<attributeLabel>Area, lake surface</attributeLabel>
+<attributeDefinition>Area, lake surface</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>acre</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293294588"><attributeName>Max (m)</attributeName>
+<attributeLabel>Depth, maximum</attributeLabel>
+<attributeDefinition>Depth, maximum</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1349293332390"><attributeName>Mean (m)</attributeName>
+<attributeLabel>Depth, mean</attributeLabel>
+<attributeDefinition>Depth, mean</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>10</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="aeS/cm" multiplierToSI=" " name="aeS/cm" parentSI="mole" unitType="amount"><description>aeS/cm</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</eml:eml>

@@ -1,0 +1,13 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Lake_Name			character	Lake Name	Lake Name	character		
+Station_ID			character	Provides the code for the LAKE and BASIN sampled	Provides the code for the LAKE and BASIN sampled	character		
+Date	mm/dd/yyyy				Date of sample	Date		
+Temp		celsius	real		temperature	numeric		
+SpCond		dimensionless	real		Specific conductance (aeS/cm)	numeric		
+pH		dimensionless	real		pH	numeric		
+DO		milligramsPerLiter	real		dissolved oxygen	numeric		
+Dep100		meter	real		depth of sample measured by probe	numeric		
+Total_Phosphorus		milligramsPerLiter	real		total phosphorus	numeric		
+Total_Nitrogen		milligramsPerLiter	real		Total Nitrogen	numeric		
+Chloride		milligramsPerLiter	real		Chloride	numeric		
+Chlorophylla		microgramsPerLiter	real		Chlorophyll a	numeric		
