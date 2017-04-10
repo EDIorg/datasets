@@ -1,0 +1,1282 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.23.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Michigan Department of Environmental Quality (MIDEQ), MI: Water Color Study, 2006</title>
+    <creator>
+      <individualName>
+        <givenName>Sylvia</givenName>
+        <surName>Heaton</surName>
+      </individualName>
+      <organizationName>Michigan Department of Environmental Quality</organizationName>
+      <positionName>Water Division</positionName>
+      <electronicMailAddress>HEATONS@michigan.gov</electronicMailAddress>
+    </creator>
+    <pubDate>2017-04-10</pubDate>
+    <abstract>
+      <para>The MI-DEQ initiated this study to test the nutrient criteria model developed in the state in which water color was one of the predictor variables of lake phosphorus. Great Lakes Environmental Center (GLEC) collected samples from 24 lakes/reservoirs; MDEQ collected samples on 39 lakes; and GLEC analyzed all data in their lab.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Inland lakes</keyword>
+      <keyword>water color</keyword>
+      <keyword>Michigan</keyword>
+      <keyword>phosphorus</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Michigan inland lakes</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-90.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.0</eastBoundingCoordinate>
+          <northBoundingCoordinate>48.25</northBoundingCoordinate>
+          <southBoundingCoordinate>40.75</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <singleDateTime>
+          <calendarDate>2006</calendarDate>
+        </singleDateTime>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Sylvia</givenName>
+        <surName>Heaton</surName>
+      </individualName>
+      <organizationName>Michigan Department of Environmental Quality</organizationName>
+      <positionName>Water Division</positionName>
+      <electronicMailAddress>HEATONS@michigan.gov</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>True Color</title>
+            <para>Method 3500-Fe D; Standard Methods. 1995.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Total Phosphorus</title>
+            <para>Method 4500-P, Seconds A, B, F; Standard Methods. 1998.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BIG BEAR LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.38444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.38444</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.93806</northBoundingCoordinate>
+                <southBoundingCoordinate>44.93806</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BIG LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.51972</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.51972</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.72278</northBoundingCoordinate>
+                <southBoundingCoordinate>42.72278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BILLS LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.66108</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.66108</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.3938</northBoundingCoordinate>
+                <southBoundingCoordinate>43.3938</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hubbard Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.55895</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.55895</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.79762</northBoundingCoordinate>
+                <southBoundingCoordinate>44.79762</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>PICKEREL LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.84175</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.84175</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.78313</northBoundingCoordinate>
+                <southBoundingCoordinate>43.78313</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>STONE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.01784</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.01784</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.90494</northBoundingCoordinate>
+                <southBoundingCoordinate>41.90494</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BIRD LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.52972</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.52972</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.82889</northBoundingCoordinate>
+                <southBoundingCoordinate>41.82889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HAMLIN LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.47147</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.47147</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.04961</northBoundingCoordinate>
+                <southBoundingCoordinate>44.04961</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>PINE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.00477</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.00477</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.19452</northBoundingCoordinate>
+                <southBoundingCoordinate>44.19452</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>SCHOOL SECTION LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.94417</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.94417</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.2925</northBoundingCoordinate>
+                <southBoundingCoordinate>42.2925</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BASS LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.325</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.325</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.26472</northBoundingCoordinate>
+                <southBoundingCoordinate>43.26472</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>COLDWATER LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.9564</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.9564</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.66237</northBoundingCoordinate>
+                <southBoundingCoordinate>43.66237</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>DUNCAN LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.53281</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.53281</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.75692</northBoundingCoordinate>
+                <southBoundingCoordinate>42.75692</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MIDDLEVILLE IMPOUNDMENT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.46175</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.46175</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.70927</northBoundingCoordinate>
+                <southBoundingCoordinate>42.70927</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CROCKERY LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.85139</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.85139</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.16861</northBoundingCoordinate>
+                <southBoundingCoordinate>43.16861</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>DIANE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.64771</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.64771</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.72277</northBoundingCoordinate>
+                <southBoundingCoordinate>41.72277</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MAPLE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.89278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.89278</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.22472</northBoundingCoordinate>
+                <southBoundingCoordinate>42.22472</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BROOKS LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.75167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.75167</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.39667</northBoundingCoordinate>
+                <southBoundingCoordinate>43.39667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>IRVING IMPOUNDMENT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.41121</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.41121</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.68952</northBoundingCoordinate>
+                <southBoundingCoordinate>42.68952</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LONDO LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.8767</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.8767</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.3567</northBoundingCoordinate>
+                <southBoundingCoordinate>44.3567</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MOTTVILLE IMPOUNDMENT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.74308</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.74308</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.80851</northBoundingCoordinate>
+                <southBoundingCoordinate>41.80851</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>STEVENSON LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.82111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.82111</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.76278</northBoundingCoordinate>
+                <southBoundingCoordinate>43.76278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BELLEVUE IMPOUNDMENT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.01546</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.01546</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.4456</northBoundingCoordinate>
+                <southBoundingCoordinate>42.4456</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HICKS LAKES</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.285</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.285</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.02306</northBoundingCoordinate>
+                <southBoundingCoordinate>44.02306</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LONG LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.7522</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.7522</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.95814</northBoundingCoordinate>
+                <southBoundingCoordinate>41.95814</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>STRAWBERRY LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.84483</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.84483</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.45023</northBoundingCoordinate>
+                <southBoundingCoordinate>42.45023</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FENNER LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.59593</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.59593</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.55817</northBoundingCoordinate>
+                <southBoundingCoordinate>42.55817</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>WABASCON LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.21497</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.21497</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.41391</northBoundingCoordinate>
+                <southBoundingCoordinate>42.41391</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MONA LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.25343</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.25343</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.18091</northBoundingCoordinate>
+                <southBoundingCoordinate>43.18091</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>ST. LOUIS IMPOUNDMENT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.61063</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.61063</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.41313</northBoundingCoordinate>
+                <southBoundingCoordinate>43.41313</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>WEBBER IMPOUNDMENT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.91284</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.91284</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.9484</northBoundingCoordinate>
+                <southBoundingCoordinate>42.9484</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>KALAMAZOO LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.20527</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.20527</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.65119</northBoundingCoordinate>
+                <southBoundingCoordinate>42.65119</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>ORE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.79624</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.79624</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.48093</northBoundingCoordinate>
+                <southBoundingCoordinate>42.48093</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>SOUTH LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.03389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.03389</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.93611</northBoundingCoordinate>
+                <southBoundingCoordinate>41.93611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>DIAMOND LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.48644</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.48644</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.08829</northBoundingCoordinate>
+                <southBoundingCoordinate>44.08829</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FORD LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.46821</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.46821</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.21473</northBoundingCoordinate>
+                <southBoundingCoordinate>42.21473</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MOORES PARK IMPOUNDMENT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.57256</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.57256</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.72132</northBoundingCoordinate>
+                <southBoundingCoordinate>42.72132</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>ROUND LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.21101</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.21101</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.08044</northBoundingCoordinate>
+                <southBoundingCoordinate>42.08044</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>KENT LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.64876</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.64876</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.52703</northBoundingCoordinate>
+                <southBoundingCoordinate>42.52703</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>PONTIAC LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.45201</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.45201</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.66502</northBoundingCoordinate>
+                <southBoundingCoordinate>42.66502</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>PRATT LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.3225</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.3225</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.88139</northBoundingCoordinate>
+                <southBoundingCoordinate>42.88139</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HARDWOOD LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.99417</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.99417</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.24583</northBoundingCoordinate>
+                <southBoundingCoordinate>44.24583</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>GREAT BEAR LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.99217</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.99217</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.37162</northBoundingCoordinate>
+                <southBoundingCoordinate>42.37162</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MALLORY LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.40083</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.40083</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.83112</northBoundingCoordinate>
+                <southBoundingCoordinate>41.83112</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>NEWBURGH LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.42388</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.42388</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.36578</northBoundingCoordinate>
+                <southBoundingCoordinate>42.36578</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>RANDALL LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.03123</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.03123</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.97324</northBoundingCoordinate>
+                <southBoundingCoordinate>41.97324</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>NORTH AND CEMETERY LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.03139</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.03139</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.96333</northBoundingCoordinate>
+                <southBoundingCoordinate>41.96333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HORSESHOE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.35931</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.35931</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.91318</northBoundingCoordinate>
+                <southBoundingCoordinate>41.91318</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BRIGHTON LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.79715</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.79715</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.51732</northBoundingCoordinate>
+                <southBoundingCoordinate>42.51732</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LIME LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.37775</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.37775</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.78627</northBoundingCoordinate>
+                <southBoundingCoordinate>41.78627</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>UNION LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.05987</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.05987</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.01374</northBoundingCoordinate>
+                <southBoundingCoordinate>42.01374</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>THORNAPPLE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.18294</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.18294</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.62751</northBoundingCoordinate>
+                <southBoundingCoordinate>42.62751</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>NARROW LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.7775</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.7775</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.43417</northBoundingCoordinate>
+                <southBoundingCoordinate>42.43417</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>POSEY LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.29671</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.29671</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.89997</northBoundingCoordinate>
+                <southBoundingCoordinate>41.89997</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>PLEASANT LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.56672</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.56672</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.87989</northBoundingCoordinate>
+                <southBoundingCoordinate>41.87989</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HUDSON LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.25903</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.25903</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.83316</northBoundingCoordinate>
+                <southBoundingCoordinate>41.83316</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LAKE MACATAWA</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.11593</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.11593</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.79479</northBoundingCoordinate>
+                <southBoundingCoordinate>42.79479</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>DURFEE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.33231</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.33231</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.79575</northBoundingCoordinate>
+                <southBoundingCoordinate>41.79575</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MORRISON LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.20897</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.20897</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.86171</northBoundingCoordinate>
+                <southBoundingCoordinate>42.86171</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BRANDYWINE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.855</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.855</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.34917</northBoundingCoordinate>
+                <southBoundingCoordinate>42.34917</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>OVID LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.41194</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.41194</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.93775</northBoundingCoordinate>
+                <southBoundingCoordinate>42.93775</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>AVALON LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.95611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.95611</eastBoundingCoordinate>
+                <northBoundingCoordinate>45.10389</northBoundingCoordinate>
+                <southBoundingCoordinate>45.10389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BRADFORD LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.7064</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.7064</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.8703</northBoundingCoordinate>
+                <southBoundingCoordinate>44.8703</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CEDAR LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.07889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.07889</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.31472</northBoundingCoordinate>
+                <southBoundingCoordinate>42.31472</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CRANBERRY LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.74386</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.74386</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.05952</northBoundingCoordinate>
+                <southBoundingCoordinate>44.05952</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FREMONT LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.96472</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.96472</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.45056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.45056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>GLEN LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.96432</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.96432</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.87199</northBoundingCoordinate>
+                <southBoundingCoordinate>44.87199</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>GROUSEHAVEN LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.02083</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.02083</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.41111</northBoundingCoordinate>
+                <southBoundingCoordinate>44.41111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>GUN LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.17472</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.17472</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.08194</northBoundingCoordinate>
+                <southBoundingCoordinate>44.08194</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HACKERT LAKE (AKA: CRYSTAL LAKE)</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.32376</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.32376</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.98333</northBoundingCoordinate>
+                <southBoundingCoordinate>43.98333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LEE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.11949</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.11949</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.1794</northBoundingCoordinate>
+                <southBoundingCoordinate>42.1794</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LIME LAKE </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.54976</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.54976</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.18741</northBoundingCoordinate>
+                <southBoundingCoordinate>42.18741</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LITTLEFIELD LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.94396</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.94396</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.77324</northBoundingCoordinate>
+                <southBoundingCoordinate>43.77324</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>McCORMICK LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.24833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.24833</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.95861</northBoundingCoordinate>
+                <southBoundingCoordinate>44.95861</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MECOSTA LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.2975</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.2975</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.61306</northBoundingCoordinate>
+                <southBoundingCoordinate>43.61306</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>NORTH LAKE LEELANAU</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.7224</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.7224</eastBoundingCoordinate>
+                <northBoundingCoordinate>45.0402</northBoundingCoordinate>
+                <southBoundingCoordinate>45.0402</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>PRETTY LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.23472</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.23472</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.69611</northBoundingCoordinate>
+                <southBoundingCoordinate>43.69611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>RAINBOW LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.30696</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.30696</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.33025</northBoundingCoordinate>
+                <southBoundingCoordinate>43.33025</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>TEA LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.29626</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.29626</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.84007</northBoundingCoordinate>
+                <southBoundingCoordinate>44.84007</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>TIPPY IMPOUNDMENT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.92975</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.92975</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.26015</northBoundingCoordinate>
+                <southBoundingCoordinate>44.26015</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>TWIN LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-86.16682</westBoundingCoordinate>
+                <eastBoundingCoordinate>-86.16682</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.36662</northBoundingCoordinate>
+                <southBoundingCoordinate>43.36662</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CEDAR HEDGE LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.78311</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.78311</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.67134</northBoundingCoordinate>
+                <southBoundingCoordinate>44.67134</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CUB LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-84.95361</westBoundingCoordinate>
+                <eastBoundingCoordinate>-84.95361</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.71889</northBoundingCoordinate>
+                <southBoundingCoordinate>44.71889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>SPIDER LAKE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.48917</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.48917</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.67722</northBoundingCoordinate>
+                <southBoundingCoordinate>44.67722</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <para>Grab samples. Water was collected from the top meter of water over the deepest portion of the lake. One sample collected per location and were collected in late summer, no later than Aug 31, 2006. TP samples were preserved in field by addition of acid to sample bottles and kept cold. Color samples were placed in ice-filled coolers within 48 hrs.</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>MI_DEQ_COLOR.csv</entityName>
+      <entityDescription>Michigan Department of Environmental Quality (MIDEQ), MI: Water Color Study, 2006</entityDescription>
+      <physical>
+        <objectName>MI_DEQ_COLOR.csv</objectName>
+        <size unit="bytes">10191</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MI_DEQ_COLOR/MI_DEQ_COLOR.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>WBID</attributeName>
+          <attributeDefinition>Water body ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Water body ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WBNAME</attributeName>
+          <attributeDefinition>Lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>COUNTY</attributeName>
+          <attributeDefinition>County name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>County name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WBLOCN</attributeName>
+          <attributeDefinition>water body location</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LATITUDE</attributeName>
+          <attributeDefinition>latitude of water body</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LONGITUDE</attributeName>
+          <attributeDefinition>longitude of water body</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_position</attributeName>
+          <attributeDefinition>the position the water sample was taken</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>epi</code>
+                    <definition>Epilimnion</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_type</attributeName>
+          <attributeDefinition>sample type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>grab</code>
+                    <definition>Grab</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>qualifier_color</attributeName>
+          <attributeDefinition>signifies when the sample is at detection =(LT), which for color is 7 PCU, so LT means that the value is &lt; 7PCU</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>LT</code>
+                    <definition>At or below detection limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>COLOR</attributeName>
+          <attributeDefinition>Color, true (Platnum Cobalt units; PCU)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TP</attributeName>
+          <attributeDefinition>Phosphorus, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>agency</attributeName>
+          <attributeDefinition>Agency responsible for collection of the data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GLEC</code>
+                    <definition>Great Lakes Environmental Lab</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MDEQ</code>
+                    <definition>Michigan Department of Environmental Quality</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_MI_DEQ_COLOR.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_MI_DEQ_COLOR.R</objectName>
+        <size unit="bytes">9587</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MI_DEQ_COLOR/DataImport_MI_DEQ_COLOR.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

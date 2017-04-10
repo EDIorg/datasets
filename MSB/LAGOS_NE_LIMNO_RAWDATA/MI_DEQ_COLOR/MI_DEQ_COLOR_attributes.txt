@@ -1,0 +1,14 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+WBID			character	Water body ID	Water body ID	character		
+WBNAME			character	Lake name	Lake name	character		
+COUNTY			character	County name	County name	character		
+WBLOCN		dimensionless	natural		water body location	numeric		
+LATITUDE		degree	real		latitude of water body	numeric		
+LONGITUDE		degree	real		longitude of water body	numeric		
+sample_position			character	the position the water sample was taken	the position the water sample was taken	factor		
+sample_type			character	sample type	sample type	factor		
+qualifier_color			character	signifies when the sample is at detection =(LT), which for color is 7 PCU, so LT means that the value is < 7PCU	signifies when the sample is at detection =(LT), which for color is 7 PCU, so LT means that the value is < 7PCU	factor		
+COLOR		dimensionless	natural		Color, true (Platnum Cobalt units; PCU)	numeric		
+TP		microgramsPerLiter	real		Phosphorus, total	numeric		
+agency			character	Agency responsible for collection of the data	Agency responsible for collection of the data	factor		
+DATE	mm/dd/yyyy				sample date	Date		
