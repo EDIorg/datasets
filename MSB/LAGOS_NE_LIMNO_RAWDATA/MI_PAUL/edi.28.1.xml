@@ -1,0 +1,442 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.28.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Paul Lake (MI): long-term reference lake in Cascade Project, 1984-2007</title>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <positionName>Professor</positionName>
+      <address>
+        <deliveryPoint>Center for Limnology 680 N Park St.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">608-262-3014</phone>
+      <electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Pace</surName>
+      </individualName>
+      <organizationName>University of Virginia</organizationName>
+      <positionName>Professor</positionName>
+      <address>
+        <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, P.O. Box 400123,</deliveryPoint>
+        <city>Charlottesville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22904</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-6541</phone>
+      <electronicMailAddress>pacem@virginia.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <surName>Cole</surName>
+      </individualName>
+      <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+      <positionName>Senior Scientist</positionName>
+      <address>
+        <deliveryPoint>2801 Sharon Turnpike, P.O. Box AB</deliveryPoint>
+        <city>Millbrook</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>12545</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">845-677-5343</phone>
+      <electronicMailAddress>colej@caryinstitute.org</electronicMailAddress>
+    </creator>
+    <pubDate>2017-04-10</pubDate>
+    <abstract>
+      <para>Lake data were obtained from Stephen Carpenter and from the long-term study of lakes at the University of Notre Dame Environmental Research Center  (UNDERC) known informally as the “Cascade Project.”  This project has resulted in multiple publications, including Carpenter &amp; Kitchell’s 1993 book “The Trophic Cascade in Lakes.”  Chapter 2 of this book has descriptive information about the study site. Routine sampling occurred weekly-monthly during summer months, with a few rare inclusions outside of the May-Aug period.  Samples were collected from a fixed transect in the lake.  Sampling frequency and variables that were measured/reported vary from year to year as a function of the specific focus of the active grant at the time (and budgetary constraints).  Samples were collected either at the surface (reported as 0 m) or were integrated samples for the epilimnion (referred to as PML, or pool mixed layer by this group) with water collected using a Van Dorn bottle from 0, 1, and 2 m (usually-or from top, middle, and bottom of mixed layer) and pooling equal volumes of water from these three depths.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Long-term</keyword>
+      <keyword>Paul Lake</keyword>
+      <keyword>Cascade Project</keyword>
+      <keyword>water chemistry</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Paul Lake, MI</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.3</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.2</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.15</northBoundingCoordinate>
+          <southBoundingCoordinate>46.14</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1984</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2007</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <positionName>Professor</positionName>
+      <address>
+        <deliveryPoint>Center for Limnology 680 N Park St.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">608-262-3014</phone>
+      <electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Pace</surName>
+      </individualName>
+      <organizationName>University of Virginia</organizationName>
+      <positionName>Professor</positionName>
+      <address>
+        <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, P.O. Box 400123,</deliveryPoint>
+        <city>Charlottesville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22904</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-6541</phone>
+      <electronicMailAddress>pacem@virginia.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <surName>Cole</surName>
+      </individualName>
+      <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+      <positionName>Senior Scientist</positionName>
+      <address>
+        <deliveryPoint>2801 Sharon Turnpike, P.O. Box AB</deliveryPoint>
+        <city>Millbrook</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>12545</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">845-677-5343</phone>
+      <electronicMailAddress>colej@caryinstitute.org</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Methods for water chemistry variables</title>
+            <para>wtemp – water temperature: YSI temp/DO meter, measured at 0.5 m intervals</para>
+            <para>secchi – (standard method): distance of disappearance/reappearance of secchi disc in water column, viewed from shady side of the boat</para>
+            <para>pH-water sample collected in a 300 mL BOD bottle and returned to the lab for pH determination with a pH probe (brand unknown)</para>
+            <para>pH calc’d- relevant to pH data from 2005-2006; pH was back-calculated from DIC and temperature data because probe-measured data looked suspiciously low and should be flagged.</para>
+            <para>Chl a-  Samples collected at 0m with a Van Dorn bottle and filtered through a GF/F.  Material retained on the filter was extracted in methanol for 24 hrs.  Chlorophyll a determined on a Turner 450 fluorometer, then acidified for phaeophytin determination.</para>
+            <para>color- absorbance at 440 nm (aka g440)</para>
+            <para>DOC- Samples filtered through a pre-ashed 0.7 um GF/F filter and acidified to pH 2 with H2SO4.  Analyzed on an Astro 2001 TOC analyzer (1991-1993), Shimadzu 5050 TOC analyzer (1994-</para>
+            <para>DIC- Headspace equilibration after acidification; headspace CO2 determined on a Shimadzu gas chromatograph (Cole et al. 2000)</para>
+            <para>totp- unfiltered samples. Persulfate digestion, Lachat method 10-115-01-1-F.  Detection limit 1.0 ugP/L. In use since 1993</para>
+            <para>totn – Prior to 2000:  calculated from tot_kjdl_n + no23.  After 2000: determined directly by persulfate digestion and analysis on a Lachat QuickChem 8000 FIA Ion Analyzer</para>
+            <para>tot_kjdl_n Total N determined by Kjeldahl digestion on unfiltered samples, Lachat method 10-107-06-2-E</para>
+            <para>nh34 – samples filtered through 0.7 um pre-ashed GF/F. Lachat AE autoanalyer salycilate-nitroprusside method (No. 10-107-06-2-B). Detection limit 0.5 ugN/L</para>
+            <para>no23 - samples filtered through 0.7 um pre-ashed GF/F. Lachat AE autoanalyer Cu-Cd reduction method No. 10-107-04-1-B. Detection limit 0.5 ugN/L</para>
+            <para>po4 - samples filtered through 0.7 um pre-ashed GF/F. Lachat AE autoanalyzer ascorbic acid/molybdate blue method  No. 10-115-01-1-B. Detection limit 1.0 ugP/L. In use since 1993</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>See chapter 2 of Carpenter &amp; Kitchell (1998) for detailed description of the study area.  Paul Lake is a small, slightly dystrophic kettle lake.  Samples are collected off of a fixed transect line that spans the lake.
+Paul Lake is the long-term reference lake for the Cascade Project and as such, has not undergone ecosystem manipulations.  .It resides within the University of Notre Dame Environmental Resaerch Center, which is protected, Information about the Cascade Project is available at http://c13.valuemembers.net/index.htm  
+Additional data and information are also available through NTL-LTER webpage http://lter.limnology.wisc.edu/project/cascade-project-north-temperate-lakes-lter</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Routine sampling occurred weekly-monthly during summer months, with a few rare inclusions outside of the May-Aug period.  Samples were collected from a fixed transect in the lake.  Sampling frequency and variables that were measured/reported vary from year to year as a function of the specific focus of the active grant at the time (and budgetary constraints).  Samples were collected either at the surface (reported as 0 m) or were integrated samples for the epilimnion (referred to as PML, or pool mixed layer by this group) with water collected using a Van Dorn bottle from 0, 1, and 2 m (usually-or from top, middle, and bottom of mixed layer) and pooling equal volumes of water from these three depths.</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>MI_PAUL.csv</entityName>
+      <entityDescription>Paul Lake (MI): long-term reference lake in Cascade Project, 1984-2007</entityDescription>
+      <physical>
+        <objectName>MI_PAUL.csv</objectName>
+        <size unit="bytes">17701</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MI_PAUL/MI_PAUL.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeDefinition>Temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>secchi</attributeName>
+          <attributeDefinition>Secchi, no view</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chl_a</attributeName>
+          <attributeDefinition>Chlorophyll a</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Color_G440</attributeName>
+          <attributeDefinition>Color, true (1/m)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerMeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DOC</attributeName>
+          <attributeDefinition>Carbon, dissolved organic</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>totp</attributeName>
+          <attributeDefinition>Phosphorus, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>totn</attributeName>
+          <attributeDefinition>Nitrogen, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tot_kjdl_n</attributeName>
+          <attributeDefinition>Nitrogen, total kjeldahl</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nh34</attributeName>
+          <attributeDefinition>Nitrogen, NH4</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>no23</attributeName>
+          <attributeDefinition>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>po4</attributeName>
+          <attributeDefinition>Phosphorus, orthophosphate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_MI_PAUL.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_MI_PAUL.R</objectName>
+        <size unit="bytes">35817</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MI_PAUL/DataImport_MI_PAUL.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1">
+        <unit id="numberPerMeter" name="numberPerMeter" parentSI="numberPerMeter" unitType="lengthSpecificCount" multiplierToSI="1">
+          <description>number Per Meter</description>
+        </unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
