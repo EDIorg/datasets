@@ -1,0 +1,338 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.30.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Tip of the Mitt Watershed Council Comprehensive Water Quality Monitoring Program lake chemistry, MI, intermittent years between 1987-2010</title>
+    <creator>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <surName>Cronk</surName>
+      </individualName>
+      <organizationName>Tip of the Mitt Watershed Council</organizationName>
+      <positionName>Monitoring and Research Coordinator</positionName>
+      <address>
+        <deliveryPoint>426 Bay Street</deliveryPoint>
+        <city>Petoskey</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>49770</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(231) 347-1181</phone>
+      <phone phonetype="fax">(231) 347-5928</phone>
+      <electronicMailAddress>kevin@watershedcouncil.org</electronicMailAddress>
+    </creator>
+    <pubDate>2017-04-10</pubDate>
+    <abstract>
+      <para>The Comprehensive Water Quality Monitoring Program was launched by Tip of the Mitt Watershed Council in 1987, with subsequent field data collection in 1992, 1995, 1998, 2001, 2004, 2007, and 2010. Initially, physical and chemical data were collected on 10 lakes but the program has progressively expanded and, as of the 2010 field season, 143 samples were collected from 60 sites on 55 lakes and streams. Typically, data for nine parameters (temperature, dissolved oxygen, pH, conductivity, clarity, total phosphorous, total nitrogen, nitrate-nitrogen, and chloride) are collected at the surface, middle and bottom of the water column in each water body. This highly-accurate water quality data for lakes and rivers in Northern Michigan, collected consistently for the last 20+ years, have been compiled into a single database that can be used by staff to evaluate aquatic ecosystem health, examine trends within or among water bodies, and identify specific problems.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Michigan</keyword>
+      <keyword>lake</keyword>
+      <keyword>water chemistry</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Lakes in North and Northwestern Michigan, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-86.2</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.16</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.36</northBoundingCoordinate>
+          <southBoundingCoordinate>44.22</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1987</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <surName>Cronk</surName>
+      </individualName>
+      <organizationName>Tip of the Mitt Watershed Council</organizationName>
+      <positionName>Monitoring and Research Coordinator</positionName>
+      <address>
+        <deliveryPoint>426 Bay Street</deliveryPoint>
+        <city>Petoskey</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>49770</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(231) 347-1181</phone>
+      <phone phonetype="fax">(231) 347-5928</phone>
+      <electronicMailAddress>kevin@watershedcouncil.org</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Comprehensive montoring program</title>
+            <para>Started in 1987 continued in 1992 and carried out every three years since that date. Large lakes and major rivers and streams are monitored as part of this program as soon as ice is off the lakes, which generally occurs in early April.  Monitoring is conducted immediately after ice out .</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Hydrolab measurements</title>
+            <para>A Hydrolab MiniSonde is used to measure physical parameters (dissolved oxygen, pH, conductivity, and water temperature).</para>
+          </section>
+        </description>
+        <instrumentation>Hydrolab MiniSonde</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Water samples</title>
+            <para>Water samples are collected in lakes at the surface, middle, and bottom and collected in rivers in mid-river at mid-depth to measure total phosphorus, total nitrogen, nitrate-nitrogen, and chloride. Water samples are collected using a Kemmerer sampling device.</para>
+          </section>
+        </description>
+        <instrumentation>Kemmerer sampling device, Nalgene acid-washed nalgene bottles provided by the University of Michigan Biostation and cooler</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Secchi depth</title>
+            <para>Use Secchi disc on shaded side or off back of boat. Lower Secchi disc through the water column and note the depth from water surface when it disappears. Check and recheck a few times, then note on data sheet.</para>
+          </section>
+        </description>
+        <instrumentation>Secchi disc</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Water chemistry analyses</title>
+            <para>Conducted at the University of Michigan Biological Station</para>
+          </section>
+        </description>
+        <instrumentation>Specific protocols are available for total phosphorus, orthophosphate, total nitrogen, and nitrate</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Lakes in north and northwestern Michigan and rivers (but we will likely omit the river data)</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Large lakes and major rivers and streams are monitored as part of this program as soon as ice is off the lakes</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>MI_TIP_MITT_VOLUNTEER.csv</entityName>
+      <entityDescription>Tip of the Mitt Watershed Council Volunteer Water Quality Monitoring Program, MI, 1974-2010</entityDescription>
+      <physical>
+        <objectName>MI_TIP_MITT_VOLUNTEER.csv</objectName>
+        <size unit="bytes">499508</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MI_TIP_MITT_VOLUNTEER/MI_TIP_MITT_VOLUNTEER.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Name</attributeName>
+          <attributeDefinition>Lake/stream names</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lake/stream names</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Secchi_ft</attributeName>
+          <attributeDefinition>Secchi (ft) no viewscope</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Secchi_m</attributeName>
+          <attributeDefinition>Secchi (m) no viewscope</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chl_a</attributeName>
+          <attributeDefinition>Chlorophyll a (microgramsPerLiter)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Chlorophyll a (microgramsPerLiter)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chl_a_sampledepth_ft</attributeName>
+          <attributeDefinition>Chlorophyll a sample depth (ft)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chl_a_sampledepth_m</attributeName>
+          <attributeDefinition>Chlorophyll a sample depth (m)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>Comments - usually weather conditions</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments - usually weather conditions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Unique code for each sample</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique code for each sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_MI_TIP_MITT_VOLUNTEER.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_MI_TIP_MITT_VOLUNTEER.R</objectName>
+        <size unit="bytes">10363</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MI_TIP_MITT_VOLUNTEER/DataImport_MI_TIP_MITT_VOLUNTEER.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.109.3" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset scope="document"> <title>Tip of the Mitt Watershed Council Volunteer Water Quality Monitoring Program, MI, 1974-2010</title>
+ <creator id="1357766061800" scope="document"> <individualName> <givenName>Kevin</givenName>
+ <surName>Cronk</surName>
+ </individualName>
+ <organizationName>Tip of the Mitt Watershed Council</organizationName>
+ <positionName>contact person</positionName>
+ <address scope="document"> <deliveryPoint>426 Bay Street</deliveryPoint>
+ <city>Petoskey</city>
+ <administrativeArea>MI</administrativeArea>
+ <postalCode>49770</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(231) 347-1181</phone>
+ <phone phonetype="fax">(231) 347-5928</phone>
+ <electronicMailAddress>kevin@watershedcouncil.org</electronicMailAddress>
+ </creator>
+ <abstract> <para>The Watershed Council has coordinated and sponsored the Volunteer Lake Monitoring Program for over 20 years. Presently, volunteers monitor 35 lakes spread throughout Antrim, Charlevoix, Cheboygan, Emmet, and Montmorency Counties (map at http://www.watershedcouncil.org/protect/water%20quality%20monitoring/). The objectives of the program are to collect baseline data, characterize lake ecosystems, identify specific water quality problems, determine water quality trends, and, most importantly, inform and educate the public regarding water quality issues and aquatic ecology. Monitoring water quality does not ensure clean water, but rather provides valuable information to help protect and improve water quality in the lakes of northern Lower Peninsula of Michigan. o Through an agreement with the DNR in 1992, the Michigan Lakes and Streams Association, Inc. (ML&amp;SA) began coordinating volunteer lake monitoring programs throughout the State. As of 2008, Secchi depth, chlorophyll-a, and phosphorus data from up to 170 lakes were collected by volunteer monitors in the ML&amp;SA Cooperative Lakes Monitoring Program. The Cooperative Lakes Monitoring Program is quite similar to the Volunteer Lake Monitoring Program, but due to the longevity and success of our program, the benefits of localized program administration, and our commitment to and strong relationships with lake associations and riparian owners throughout our service area, the Tip of the Mitt Watershed Council will continue to coordinate all program activities into the foreseeable future. On the other hand, through participation and collaboration with the recently formed Michigan Clean Water Corps, volunteer monitoring activities coordinated by the Watershed Council will merge to some extent with those occurring throughout the State.</para>
+ </abstract>
+ <keywordSet> <keyword>Michigan</keyword>
+ <keyword>Volunteer lake monitoring</keyword>
+ </keywordSet>
+ <intellectualRights> <para>Data are public</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>35 lakes in Antrim, Charlevoix, Cheboygan, Emmet, and Montmorency Counties, MI, USA</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-86.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>-83.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>45.75</northBoundingCoordinate>
+ <southBoundingCoordinate>44.375</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1974</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2010</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1357766061800</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Secchi Disk Depth</title>
+ <para>Measured weekly. &#8220;Secchi disc measurements should be taken between 10:00 a.m. and 3:00 pm in deepest location of the lake (or deepest point of the basin you are monitoring in the lake).&#8221; Recorded Secchi depth is average of two readings  &#8211; from Volunteer Lake Monitoring water testing instructions doc</para>
+ </section>
+ </description>
+ <instrumentation>Secchi disk</instrumentation>
+ </methodStep>
+ <methodStep> <description> <section> <title>Chlorophyll a</title>
+ <para>should be taken every other week &#8211; collected using &#8220;&#8217;integrated samplers&#8217; which are simply bottles in weighted cans with small holes in the caps to allow for a slow fill as they move up and down through the water (to then get a representative sample of the photic zone, which we define as 2x the Secchi disc depth for that day/time&#8221;. Samples are processed at UMBS and measured in ug/l&#8221;</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>Lakes in North and Northwestern, MI</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>Sampling occurs mainly during summer, but some lakes have April-Sept measurements</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1357766747021" scope="document"> <entityName>MI_TIP_VOLUNTEER_EF_for_morpho.csv</entityName>
+ <entityDescription>Tip of the Mitt Watershed Council Volunteer Water Quality Monitoring Program, MI, 1974-2010</entityDescription>
+ <physical id="1357766522145" scope="document"> <objectName>MI_TIP_VOLUNTEER_EF_for_morpho.csv</objectName>
+ <size unit="byte">87</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <offline> <mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1357766747022" scope="document"> <attributeName>ID</attributeName>
+ <attributeLabel>Sample code</attributeLabel>
+ <attributeDefinition>Unique code for each sample</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Sample code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357766747023" scope="document"> <attributeName>Name</attributeName>
+ <attributeLabel>Lake/stream names</attributeLabel>
+ <attributeDefinition>Lake/stream names</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Lake/stream names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357766747024" scope="document"> <attributeName>Date</attributeName>
+ <attributeLabel>Sample date</attributeLabel>
+ <attributeDefinition>Sample date</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale> <dateTime> <formatString>MM/DD/YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357766747025" scope="document"> <attributeName>Secchi (ft)</attributeName>
+ <attributeLabel>Secchi, no view</attributeLabel>
+ <attributeDefinition>Secchi (ft) (no viewscope</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>foot</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357766747026" scope="document"> <attributeName>Secchi (meters)</attributeName>
+ <attributeLabel>Secchi, no view</attributeLabel>
+ <attributeDefinition>Secchi (m) (no viewscope</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357766747027" scope="document"> <attributeName>Chl-a</attributeName>
+ <attributeLabel>Chlorophyll a</attributeLabel>
+ <attributeDefinition>Chlorophyll a</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357766747028" scope="document"> <attributeName>Water Temp (C&#65533;)</attributeName>
+ <attributeLabel>Temperature</attributeLabel>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357766747029" scope="document"> <attributeName>Air Temp (Co)</attributeName>
+ <attributeLabel>Air Temperature</attributeLabel>
+ <attributeDefinition>Air Temperature</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357766747030" scope="document"> <attributeName>Comments</attributeName>
+ <attributeLabel>Comments</attributeLabel>
+ <attributeDefinition>Comments - usually weather conditions</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>7804</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

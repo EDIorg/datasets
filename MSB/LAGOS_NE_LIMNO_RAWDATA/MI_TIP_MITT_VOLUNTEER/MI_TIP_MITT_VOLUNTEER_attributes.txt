@@ -1,0 +1,10 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Name			character	Lake/stream names	Lake/stream names	character		
+Date	mm/dd/yyyy				Sample date	Date		
+Secchi_ft		foot	real		Secchi (ft) no viewscope	numeric		
+Secchi_m		meter	real		Secchi (m) no viewscope	numeric		
+Chl_a			character	Chlorophyll a (microgramsPerLiter)	Chlorophyll a (microgramsPerLiter)	character		
+Chl_a_sampledepth_ft		foot	real		Chlorophyll a sample depth (ft)	numeric		
+Chl_a_sampledepth_m		meter	real		Chlorophyll a sample depth (m)	numeric		
+Comments			character	Comments - usually weather conditions	Comments - usually weather conditions	character		
+ID			character	Unique code for each sample	Unique code for each sample	character		
