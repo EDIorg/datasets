@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.110.4" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>New Jersey Department of Environmental Protection Ambient Lake Monitoring Program, 2005-2009</title>
+ <creator id="1359493492090"> <individualName><givenName>Vic</givenName>
+ <surName>Poretti</surName>
+ </individualName>
+ <organizationName>New Jersey Department of Environmental Protection, Ambient Lake Monitoring Program</organizationName>
+ <positionName>Researcher</positionName>
+ <address><deliveryPoint>P.O. Box 402</deliveryPoint>
+ <city>Trenton</city>
+ <administrativeArea>NJ</administrativeArea>
+ <postalCode>08625-0402</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">609-292-0427</phone>
+ <electronicMailAddress>BFBM @ dep.state.nj.us</electronicMailAddress>
+ <onlineUrl>http://www.nj.gov/dep/wms//bfbm/lakes.html</onlineUrl>
+ </creator>
+ <abstract><para>This project was developed as a monitoring program that would address both the deficiencies cited in the 1999 USEPA's Office of Inspector General's Audit Report and the needs of the watershed management and water quality assessment (305(b)/303(d)) programs. This approach comports with the guidance provided in USEPA's publication, &quot;Elements of a State Water Monitoring and Assessment Program,&quot; March 2003, which requires that states develop and implement long-term strategies that include monitoring of all state water body types including lakes. Data is collected to evaluate trophic status of selected lakes and assess the ecological health of the State's lentic water resources. This data is not expected to be compared with any existing data and is not expected to be used for any permitting, enforcement or TMDL development activities. 
+Target population for monitoring was all lakes, man-made or natural, excepting water supply reservoirs, wholly or partially within the State of NJ political boundaries.  A lake is defined as a permanent body of water of at least two hectares in surface, and a minimum depth of one meter. Lakes were selected randomly, using the USEPA - Generalized Random Tessellation Stratified (GRTS) survey design, but in a manner that equalizes selections over all Omernik level III ecoregions (6 within state). The New Jersey GIS coverage containing approximately 870 named lakes, meeting the design criteria, was used for the selection process.  A total of 200 lakes were sampled, each sampled once every five years, with 40 lakes sampled per year.</para>
+ </abstract>
+ <keywordSet><keyword>New Jersey</keyword>
+ <keyword>Lake monitoring</keyword>
+ <keyword>Water chemistry</keyword>
+ </keywordSet>
+ <intellectualRights><para>Data are public (posted online through NJDEP and STORET)</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Inland lakes in New Jersey, USA</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-75.34</westBoundingCoordinate>
+ <eastBoundingCoordinate>-73.56</eastBoundingCoordinate>
+ <northBoundingCoordinate>41.21</northBoundingCoordinate>
+ <southBoundingCoordinate>38.53</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2005</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2009</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1359493492090</references>
+ </contact>
+ <methods><methodStep><description><section><title>Water Sampling</title>
+ <para>Sampling was performed on a given lake when there had not been any rainfall within 24 hours prior to sampling. This is to ensure that the sample is representative of the overall condition of the lake and not the condition of the lake only after a rain event.  Sample volumes and container types are as described in the respective analytical laboratory&#8217;s &#8220;Quality Manual&#8221; and/ or SOP, which have been approved by the Office of Quality Assurance (OQA) and are on file with that Office as part of the laboratory&#8217;s certification application.</para>
+ <para>A combination field blank and equipment blank of PICO&#174; water was collected on-site from the submerged horizontal sampler prior to the first sample for each lake (PICO&#174;  water, an ultra clean water, is supplied from the BFBM lab system, which is analyzed twice per year at a NJ certified laboratory for applicable parameters).</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling><studyExtent><description><para>A total of 200 lakes were sampled, each sampled once every five years, with 40 lakes sampled per year in New Jersey, USA</para>
+ </description>
+ </studyExtent>
+ <samplingDescription><para>Target population for monitoring was all lakes, man-made or natural, excepting water supply reservoirs, wholly or partially within the State of NJ political boundaries.  A lake is defined as a permanent body of water of at least two hectares in surface, and a minimum depth of one meter. Lakes were selected randomly, using the USEPA - Generalized Random Tessellation Stratified (GRTS) survey design, but in a manner that equalizes selections over all Omernik level III ecoregions (6 within state). The New Jersey GIS coverage containing approximately 870 named lakes, meeting the design criteria, was used for the selection process.  A total of 200 lakes were sampled, each sampled once every five years, with 40 lakes sampled per year.
+
+Sampling occurred 1X during summer and 1X during fall of the designated sampling year (lake sets in a given year are referred to as &#8220;Panels&#8221; in NJDEP Ambient Lake Monitoring reports)</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1359494947919"><entityName>NJ_DEP_CHEM_EF.csv</entityName>
+ <entityDescription>New Jersey Department of Environmental Protection Ambient Lake Monitoring Program, 2005-2009</entityDescription>
+ <physical id="1359494124912"><objectName>NJ_DEP_CHEM_EF.csv</objectName>
+ <size unit="byte">240</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><offline><mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1359494947920"><attributeName>Site ID</attributeName>
+ <attributeLabel>SIte ID</attributeLabel>
+ <attributeDefinition>New Jersey unique water body identifier</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947921"><attributeName>Site Name</attributeName>
+ <attributeLabel>Lake Name</attributeLabel>
+ <attributeDefinition>water body common name</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>lake name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947922"><attributeName>Station</attributeName>
+ <attributeLabel>Station sampling point</attributeLabel>
+ <attributeDefinition>specific sampling point within the lake corresponding to included data and lat/long data</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station sampling point</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947923"><attributeName>Lat</attributeName>
+ <attributeLabel>lattitude</attributeLabel>
+ <attributeDefinition>lattitude</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947924"><attributeName>Long</attributeName>
+ <attributeLabel>longitude</attributeLabel>
+ <attributeDefinition>longitude</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947925"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>year of lake sampling</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947926"><attributeName>Season</attributeName>
+ <attributeLabel>Season</attributeLabel>
+ <attributeDefinition>summer or fall</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Spring</code>
+ <definition>Spring</definition>
+ </codeDefinition>
+ <codeDefinition><code>Summer</code>
+ <definition>Summer</definition>
+ </codeDefinition>
+ <codeDefinition><code>Fall</code>
+ <definition>Fall</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947927"><attributeName>Date</attributeName>
+ <attributeLabel>Date sampled</attributeLabel>
+ <attributeDefinition>Date sampled</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><dateTime><formatString>DD-MMM-YY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947928"><attributeName>Zmax</attributeName>
+ <attributeLabel>Depth, maximum</attributeLabel>
+ <attributeDefinition>lake maximum depth</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947929"><attributeName>Zprofile</attributeName>
+ <attributeLabel>sample depth</attributeLabel>
+ <attributeDefinition>depth at which reported sample/data were collected</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947930"><attributeName>Secchi (m)</attributeName>
+ <attributeLabel>Secchi, unknown</attributeLabel>
+ <attributeDefinition>Secchi disk depth, unknown if viewscope used</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947931"><attributeName>Temp (C )</attributeName>
+ <attributeLabel>Temperature</attributeLabel>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947932"><attributeName>DO (mg/L)</attributeName>
+ <attributeLabel>Oxygen, dissolved</attributeLabel>
+ <attributeDefinition>dissolved oxygen</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947933"><attributeName>pH</attributeName>
+ <attributeLabel>pH</attributeLabel>
+ <attributeDefinition>pH</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>pH</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947934"><attributeName>Cond (mS/cm)</attributeName>
+ <attributeLabel>conductivity</attributeLabel>
+ <attributeDefinition>conductivity</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>mS/cm</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947935"><attributeName>TP (mg/L)</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>Phosphorus, total
+TP measurements taken from 2006-2009 are mg/L. Detection limits: 0.0099ppm (QA Plan)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1363889048558"><attributeName>TP</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>Total phosphorus in 2005 are in ug/L. DL = 10.97 ug/L (fall 2005) or 38.41 ug/L (summer 2005). Detecltion limit reported in QA plan = 0.0099ppm.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1359494947936"><attributeName>TKN (mg/L)</attributeName>
+ <attributeLabel>Nitrogen, total kjeldahl</attributeLabel>
+ <attributeDefinition>Nitrogen, total kjeldahl</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947937"><attributeName>NO3N (mg/L)</attributeName>
+ <attributeLabel>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeLabel>
+ <attributeDefinition>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947938"><attributeName>NH4N (mg/L)</attributeName>
+ <attributeLabel>Nitrogen, NH4</attributeLabel>
+ <attributeDefinition>Nitrogen, NH4</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947939"><attributeName>Chl (ug/L)</attributeName>
+ <attributeLabel>Chlorophyll a</attributeLabel>
+ <attributeDefinition>Chlorophyll a</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359494947940"><attributeName>Alk (ppm)</attributeName>
+ <attributeLabel>Alkalinity, total</attributeLabel>
+ <attributeDefinition>Alkalinity, total</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ppm</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>9999</code>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1359494947941"><attributeName>Turb (NTU)</attributeName>
+ <attributeLabel>Turbidity</attributeLabel>
+ <attributeDefinition>Turbidity</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>NTU</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>10</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unit id="pH" multiplierToSI=" " name="pH" parentSI="number" unitType="dimensionless"><description>pH</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="mS/cm" multiplierToSI=" " name="mS/cm" parentSI="siemen" unitType="conductance"><description>mS/cm</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="ppm" multiplierToSI=" " name="ppm" parentSI="kilogramsPerCubicMeter" unitType="massDensity"><description>ppm</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount"><description>NTU</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>
