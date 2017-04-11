@@ -1,0 +1,25 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Conformed_Date	yyyy.mm.dd				Conformed Date	Date		
+Lab_No			character	Lab No	Lab No	character		
+ALSC_Site_ID			character	ALSC Site ID	ALSC Site ID	character		
+Station		dimensionless	natural		Station	numeric		
+Depth		meter	real		sample depth	numeric		
+Sample_Date	yyyy.mm.dd				Sample date	Date		
+Time	HHSS				Tme	Date		
+SO4		milligramsPerLiter	real		Sulfate	numeric		
+NO3		milligramsPerLiter	real		Nitrogen, nitrate (NO3)	numeric		
+Cl		milligramsPerLiter	real		Chloride	numeric		
+ANC		microequivalentsPerLiter	real		Acid neutralizing capacity	numeric		
+DIC		milligramsPerLiter	real		Carbon, dissolved inorganic	numeric		
+DOC		milligramsPerLiter	real		Carbon, dissolved organic	numeric		
+SiO2		milligramsPerLiter	real		Silica	numeric		
+Ca		milligramsPerLiter	real		Calcium	numeric		
+Mg		milligramsPerLiter	real		Magnesium	numeric		
+Na		milligramsPerLiter	real		Sodium	numeric		
+K		milligramsPerLiter	real		Potassium	numeric		
+NH4		milligramsPerLiter	real		Nitrogen, NH4	numeric		
+LabpH		dimensionless	real		pH	numeric		
+TruColorPtco		dimensionless	whole		Color, true (PCU)	numeric		
+Sconduct		microsiemensPerCentimeter	real		Conductance, specific	numeric		
+TP		microgramsPerLiter	real		Phosphorus, total	numeric		
+Chla		microgramsPerLiter	real		Chlorophyll a	numeric		
