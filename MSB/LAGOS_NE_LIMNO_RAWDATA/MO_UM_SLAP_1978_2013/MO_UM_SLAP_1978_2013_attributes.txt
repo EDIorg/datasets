@@ -1,0 +1,13 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Lake_Name			character	Lake Name	Lake Name	character		
+MU		dimensionless	natural		Numeric identifier for each lake	numeric		
+Dam_Ht		meter	real		Dam height, can be used as a proxy for maximum depth	numeric		
+Latitude		degree	real		Latitude in degrees	numeric		
+Longitude		degree	real		Longitude in degrees	numeric		
+MONTH	mm				sample month	Date		
+DAY	dd				Sample day	Date		
+YEAR	yyyy				sample year	Date		
+SECCHI		meter	real		Secchi, no view	numeric		
+Total_Nitrogen		milligramsPerLiter	real		Nitrogen, total	numeric		
+Total_Phosphorus		microgramsPerLiter	natural		Phosphorus, total	numeric		
+Total_Chlorophyll		microgramsPerLiter	real		Chlorophyll a	numeric		
