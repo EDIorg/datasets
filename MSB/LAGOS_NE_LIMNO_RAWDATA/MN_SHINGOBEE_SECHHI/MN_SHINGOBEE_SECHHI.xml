@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.38.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>USGS Shingobee Lake (MN) Secchi Depth dataset 1989-2010</title>
+ <creator id="1336077576524"> <individualName><givenName>Renee</givenName>
+<surName>Parkhurst</surName>
+</individualName>
+<organizationName>USGS Water Resources Division</organizationName>
+<positionName>Hydrologist</positionName>
+<address><deliveryPoint>Denver Federal Center</deliveryPoint>
+<deliveryPoint>PO Box 25046, MS 413</deliveryPoint>
+<city>Denver</city>
+<administrativeArea>CO</administrativeArea>
+<postalCode>80225</postalCode>
+</address>
+<phone phonetype="voice">303-236-4988</phone>
+<electronicMailAddress>rparkhur@usgs.gov</electronicMailAddress>
+</creator>
+ <abstract><para>The Interdisciplinary Research Initiative (IRI) provides the opportunity for fundamental interdisciplinary research of interactions within the hydrologic system on a watershed scale, to increase the basic understanding of watershed hydrology, and to provide information necessary for better management of our Nation's water resources. Management of water resources often is dependent on understanding the effects of residence time on ecosystem processes. The focus of the Minnesota IRI is on aquatic systems that have greatly different water and, presumably, chemical residence times. Research on the hydrology, geochemistry, and limnology of the Williams Lake watershed began in 1978, and reports describing the hydrologic setting, limnology, and geochemistry of the site are available on request. Study of the interaction of the lake with ground water, evaporation, and biogeochemistry has continued to the present (1993). Study of the Shingobee Lake site began in 1989 at the inception of the IRI effort.</para>
+</abstract>
+<keywordSet><keyword>Minnesota</keyword>
+<keyword>Secchi</keyword>
+<keyword>Shingobee Lake</keyword>
+</keywordSet>
+<intellectualRights><para>Data belong to the USGS</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Shingobee Lake, MN</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-94.25</westBoundingCoordinate>
+<eastBoundingCoordinate>-93.375</eastBoundingCoordinate>
+<northBoundingCoordinate>47.375</northBoundingCoordinate>
+<southBoundingCoordinate>46.625</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1989</calendarDate>
+</beginDate>
+<endDate><calendarDate>2010</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1336077576524</references>
+</contact>
+<methods><methodStep><description><section><title>Secchi disk depth</title>
+<para>Secchi depth was measured using a Secchi disk with black and white quarters. Observations were made on the shaded side of the dock. A viewscope was NOT used</para>
+</section>
+</description>
+<instrumentation>Secchi disk with black and white quarters</instrumentation>
+</methodStep>
+<sampling><studyExtent><description><para>Shingobee Lake</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Climatic data are collected continuously at rafts located on both lakes during the open-water season, and data are collected year round at a land-based station near Shingobee Lake. Stage of the lakes and discharge of the Shingobee River upstream and downstream from Shingobee Lake are monitored continuously. Water levels in approximately 70 ground-water wells are measured biweekly to monthly; at select sites, daily water-level data are collected. Chemical and biological data are collected from both lakes and the Shingobee River biweekly during the open-water season and monthly during the months of ice cover on the lakes</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1336078188283"><entityName>MN_SHINGOBEE_SECCHI_EF.csv</entityName>
+<physical id="1336078133524"><objectName>MN_SHINGOBEE_SECCHI_EF.csv</objectName>
+<size unit="byte">4711</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1336078188287"><attributeName>Date</attributeName>
+<attributeDefinition>Sampling date (MM/DD/YYYY format)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1336078188288"><attributeName>Secchi depth (m)</attributeName>
+<attributeDefinition>Secchi disk depth in m</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>322</numberOfRecords>
+</dataTable>
+</dataset>
+ </eml:eml>

@@ -1,0 +1,200 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.32.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>USGS Shingobee Lake (MN) Secchi Depth dataset 1989-2010</title>
+    <creator>
+      <individualName>
+        <givenName>Renee</givenName>
+        <surName>Parkhurst</surName>
+      </individualName>
+      <organizationName>USGS Water Resources Division</organizationName>
+      <positionName>Hydrologist</positionName>
+      <address>
+        <deliveryPoint>Denver Federal Center</deliveryPoint>
+        <deliveryPoint>PO Box 25046, MS 413</deliveryPoint>
+        <city>Denver</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80225</postalCode>
+      </address>
+      <phone phonetype="voice">303-236-4988</phone>
+      <electronicMailAddress>rparkhur@usgs.gov</electronicMailAddress>
+    </creator>
+    <pubDate>2017-04-11</pubDate>
+    <abstract>
+      <para>The Interdisciplinary Research Initiative (IRI) provides the opportunity for fundamental interdisciplinary research of interactions within the hydrologic system on a watershed scale, to increase the basic understanding of watershed hydrology, and to provide information necessary for better management of our Nation's water resources. Management of water resources often is dependent on understanding the effects of residence time on ecosystem processes. The focus of the Minnesota IRI is on aquatic systems that have greatly different water and, presumably, chemical residence times. Research on the hydrology, geochemistry, and limnology of the Williams Lake watershed began in 1978, and reports describing the hydrologic setting, limnology, and geochemistry of the site are available on request. Study of the interaction of the lake with ground water, evaporation, and biogeochemistry has continued to the present (1993). Study of the Shingobee Lake site began in 1989 at the inception of the IRI effort.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Minnesota</keyword>
+      <keyword>Secchi</keyword>
+      <keyword>Shingobee Lake</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Shingobee Lake, MN</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-94.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>-93.375</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.375</northBoundingCoordinate>
+          <southBoundingCoordinate>46.625</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1989</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Renee</givenName>
+        <surName>Parkhurst</surName>
+      </individualName>
+      <organizationName>USGS Water Resources Division</organizationName>
+      <positionName>Hydrologist</positionName>
+      <address>
+        <deliveryPoint>Denver Federal Center</deliveryPoint>
+        <deliveryPoint>PO Box 25046, MS 413</deliveryPoint>
+        <city>Denver</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80225</postalCode>
+      </address>
+      <phone phonetype="voice">303-236-4988</phone>
+      <electronicMailAddress>rparkhur@usgs.gov</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Secchi disk depth</title>
+            <para>Secchi depth was measured using a Secchi disk with black and white quarters. Observations were made on the shaded side of the dock. A viewscope was NOT used</para>
+          </section>
+        </description>
+        <instrumentation>Secchi disk with black and white quarters</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Shingobee Lake</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Climatic data are collected continuously at rafts located on both lakes during the open-water season, and data are collected year round at a land-based station near Shingobee Lake. Stage of the lakes and discharge of the Shingobee River upstream and downstream from Shingobee Lake are monitored continuously. Water levels in approximately 70 ground-water wells are measured biweekly to monthly; at select sites, daily water-level data are collected. Chemical and biological data are collected from both lakes and the Shingobee River biweekly during the open-water season and monthly during the months of ice cover on the lakes</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>MN_SHINGOBEE_SECHHI.csv</entityName>
+      <entityDescription>NA</entityDescription>
+      <physical>
+        <objectName>MN_SHINGOBEE_SECHHI.csv</objectName>
+        <size unit="bytes">4695</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MN_SHINGOBEE_SECHHI/MN_SHINGOBEE_SECHHI.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Sampling date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Secchi_depth</attributeName>
+          <attributeDefinition>Secchi disk depth in m</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_MN_SHINGOBEE_SECHHI.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_MN_SHINGOBEE_SECHHI.R</objectName>
+        <size unit="bytes">5500</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MN_SHINGOBEE_SECHHI/DataImport_MN_SHINGOBEE_SECHHI.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>
