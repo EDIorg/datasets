@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.40.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>USGS Williams Lake (MN) Secchi Depth Dataset</title>
+ <creator id="1336752445845"> <individualName><givenName>Renee</givenName>
+<surName>Parkhurst</surName>
+</individualName>
+<organizationName>US Geological Survey: Shingobee Headwaters Aquatic Ecosystems Project (SHAEP)</organizationName>
+<positionName>Hydrologist</positionName>
+<address><deliveryPoint>PO Box 25046, MS 413</deliveryPoint>
+<city>Denver</city>
+<administrativeArea>CO</administrativeArea>
+<postalCode>80225</postalCode>
+</address>
+<phone phonetype="voice">303-236-4988</phone>
+<electronicMailAddress>rparkhur@usgs.gov</electronicMailAddress>
+</creator>
+ <abstract><para>Research on the hydrology, geochemistry, and limnology of the Williams Lake watershed began in 1978, and reports describing the hydrologic setting, limnology, and geochemistry of the site are available on request.</para>
+</abstract>
+<keywordSet><keyword>Minnesota Williams Lake</keyword>
+<keyword>Secchi depth</keyword>
+</keywordSet>
+<intellectualRights><para>Data belong to USGS</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Williams Lake Minnesota</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-94.4</westBoundingCoordinate>
+<eastBoundingCoordinate>-94.39</eastBoundingCoordinate>
+<northBoundingCoordinate>46.57</northBoundingCoordinate>
+<southBoundingCoordinate>46.56</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1979</calendarDate>
+</beginDate>
+<endDate><calendarDate>2010</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1336752445845</references>
+</contact>
+<methods><methodStep><description><section><title>Secchi</title>
+<para>Measured using a Secchi disk with black and white quarters. Observations were made on the shaded side of the dock. A viewscope was NOT used. Began using a new Secchi depth in 1989 [From Renee Parkhurst]. Observations occurred at least monthly throughout year (January-December) with more frequent sampling during the summer</para>
+</section>
+</description>
+<instrumentation>Secchi disk</instrumentation>
+</methodStep>
+<sampling><studyExtent><description><para>Williams Lake</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Secchi depth was measured using a Secchi disk with black and white quarters. Observations were made on the shaded side of the dock. A viewscope was NOT used</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1336756579190"><entityName>MN_WILLIAMS_SECCHI_EF.csv</entityName>
+<entityDescription>USGS Williams Lake (MN) Secchi Depth Dataset</entityDescription>
+<physical id="1336756307804"><objectName>MN_WILLIAMS_SECCHI_EF.csv</objectName>
+<size unit="byte">7842</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1336756579191"><attributeName>Date</attributeName>
+<attributeLabel>Date</attributeLabel>
+<attributeDefinition>Sampling date (MM/DD/YYYY format)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1336756579195"><attributeName>Secchi (m)</attributeName>
+<attributeLabel>Secchi, no view</attributeLabel>
+<attributeDefinition>Secchi disk depth in m</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336756579196"><attributeName>Notes</attributeName>
+<attributeLabel>Notes</attributeLabel>
+<attributeDefinition>indicates if Secchi depth could be seen on the lake bottom. Reported as &#8220;plus&#8221; or &#8220;plus; can see on bottom&#8221;</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>notes on secchi observations</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>487</numberOfRecords>
+</dataTable>
+</dataset>
+ </eml:eml>
