@@ -1,0 +1,7 @@
+attributeName	code	definition
+RESERVOIR_CODE	EAE	Ashokan
+RESERVOIR_CODE	EAW	Ashokan
+RESERVOIR_CODE	WDC	Cannonsville
+RESERVOIR_CODE	NN	Neversink
+RESERVOIR_CODE	EDP	Pepacton
+RESERVOIR_CODE	SS	Schoharie

@@ -1,0 +1,23 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+DATE	mm/dd/yyyy				date	Date		
+RESERVOIR_CODE			character	reservoir code	reservoir code	factor		
+STATION		dimensionless	real		station number	numeric		
+ZSP_Sample_Depth		meter	whole		Sample Depth (m)	numeric		
+ZMAX		meter	real		Max depth at sample station	numeric		
+COLOR		dimensionless	integer		Color, apparent (PCU)	numeric		
+TURB		dimensionless	real		Turbidity (NTU)	numeric		
+TP		microgramsPerLiter	real		Phosphorus, total	numeric		
+DOC		milligramsPerLiter	real		Carbon, dissolved organic	numeric		
+TN		gramsPerCubicCentimeter	real		Nitrogen, total	numeric		
+CL		milligramsPerLiter	real		Chloride	numeric		
+SO4		milligramsPerLiter	real		Sulfate	numeric		
+CHLA		microgramsPerLiter	real		Chlorophyll a	numeric		
+NH3		milligramsPerLiter	real		Nitrogen, NH3	numeric		
+NO3NO2		milligramsPerLiter	real		Nitrogen, nitrite (NO2) + nitrate (NO3)	numeric		
+ZSD		meter	real		Secchi, unknown	numeric		
+ZVB_Viewer_Scope		meter	real		Secchi, view	numeric		
+TEMP		celsius	real		Temperature	numeric		
+PH		dimensionless	real		pH	numeric		
+DO		milligramsPerLiter	real		Oxygen, dissolved	numeric		
+SPCON		micromhosPerCentimeter	real		Conductance, specific	numeric		
+ALK		milligramsPerLiter	real		Alkalinity	numeric		
