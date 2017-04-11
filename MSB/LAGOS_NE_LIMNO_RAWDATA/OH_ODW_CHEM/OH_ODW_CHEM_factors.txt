@@ -1,0 +1,4 @@
+attributeName	code	definition
+SampSite	OUTFL	Outflow
+SampSite	INFLO	Inflow
+SampSite	MIDLK	Mid lake

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.50.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Ohio Department of Natural Resources, Division of Wildlife, Reservoir Productivity Assessment Water Chemistry 2006-2007</title>
+ <creator id="1343417211438"> <individualName><salutation>Dr.</salutation>
+<givenName>Joe</givenName>
+<surName>Conroy</surName>
+</individualName>
+<organizationName>Inland Fisheries Research Unit, Ohio Department of Natural Resources; Division of Wildlife</organizationName>
+<positionName>researcher</positionName>
+<address><deliveryPoint>Inland Fisheries Research Unit; Ohio Department of Natural Resources; Division of Wildlife; 10517 Canal Road, SE</deliveryPoint>
+<city>Hebron</city>
+<administrativeArea>Ohio</administrativeArea>
+<postalCode>43025</postalCode>
+</address>
+<phone phonetype="voice">740-928-7034 x226</phone>
+<electronicMailAddress>joseph.conroy@dnr.state.oh.us</electronicMailAddress>
+</creator>
+ <associatedParty id="1343417356290"><individualName><salutation>Dr.</salutation>
+<givenName>Mike</givenName>
+<surName>Vanni</surName>
+</individualName>
+<organizationName>Miami University</organizationName>
+<positionName>Researcher</positionName>
+<role>collection and data analysis</role>
+</associatedParty>
+<associatedParty id="1343417391154"><individualName><salutation>Dr.</salutation>
+<givenName>Marie</givenName>
+<surName>Gonzales</surName>
+</individualName>
+<organizationName>Miami University</organizationName>
+<positionName>researcher</positionName>
+<role>data collection and analysis</role>
+</associatedParty>
+<abstract><para>Limnological data provided represent information collected during 2006&#8211;2007 for a total of 153 reservoirs.  Some reservoirs were sampled in a single year, others were sampled in both years.  Nearly all reservoirs were sampled during July or August near the dam at the deepest part of the reservoir.  Additional samples for particular systems were taken in other months and at other sites (i.e., near the inflow).  Many samples have complete Secchi transparencies, suspended solids (both total and non-volatile suspended solids), total phosphorus, total nitrogen, and chlorophyll a concentrations.  Others are missing various parameters; some samples are represented by only a Secchi transparency measurement.  Morphometric data and landuse/land cover data are provided for those systems where it had been previously compiled.  All 153 reservoirs are represented in the provided lake shapefile whereas only 117 were included in the watershed shapefile.   ' Over a 2-year period (2006 and 2007) we sampled 109 reservoirs (all Ohio reservoiurs &gt; 10 ha), located throughout Ohio, USA, whose watersheds contain a variety of land cover types and a wide range of eutrophication levels.  All reservoirs were sampled at least once during July or August in 2006 or 2007.  &#8230; a subset of 34 of these reservoirs were sampled once in both 2006 and 2007.  In addition, 10 reservoirs (&#8220;reference reservoirs&#8221;) were sampled at least once per month during July and August of both 2006 and 2007.  Lakes were sampled by Miami personnel and DOW field crews (Districu3, District 4, and District 5).&#8217;</para>
+</abstract>
+<keywordSet><keyword>Ohio</keyword>
+<keyword>Reservoir</keyword>
+<keyword>Water chemistry</keyword>
+</keywordSet>
+<intellectualRights><para>Data are all public</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Ohio</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-84.45</westBoundingCoordinate>
+<eastBoundingCoordinate>-80.3</eastBoundingCoordinate>
+<northBoundingCoordinate>41.23</northBoundingCoordinate>
+<southBoundingCoordinate>38.27</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2006</calendarDate>
+</beginDate>
+<endDate><calendarDate>2007</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1343417211438</references>
+</contact>
+<methods><methodStep><description><section><title>Water sampling</title>
+<para>Water and zooplankton samples were collected at the outflow end of each reservoir at the deepest depth possible.  Using an integrated tube sampler or water pump, water samples were collected throughout the epilimnion (depth at which there is &lt;2 mg/L dissolved oxygen) or if this depth was unknown, to a depth of 2 meters.  Water samples for chlorophyll-a (Chl) and non-volatile suspended solids (NVSS) were filtered through Pall A/E glad fiber filters (1,0 &#61549;m pore size) and frozen for later laboratory analysis.  NVSS concentration was used as an index of inorganic turbidity.  Water samples for total phosphorus (TP) and total nitrogen (TN) were acidified and stores at 4o C prior to analysis. Water sample processing for Chl, NVSS and TP followed the analytical procedures outlined in Knoll et al. (2003)</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Sample processing</title>
+<para>All samples were processed according to standard methods under project FADR48</para>
+<para>From FADR48: &#8216;In order to standardize sampling to the greatest extent possible, Miami personnel held training session in March in 2005 and 2006.&#8217;</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Ohio reservoirs</para>
+</description>
+</studyExtent>
+<samplingDescription><para>The waterbodies in this dataset represent &#8216;our lake census conducted in 2006 and 2007 in which we sampled all lakes (~130) in the state in which the Division manages the sportfish populations&#8217;.
+
+Over a 2-year period (2006 and 2007) we sampled 109 reservoirs (all Ohio reservoiurs &gt; 10 ha), located throughout Ohio, USA, whose watersheds contain a variety of land cover types and a wide range of eutrophication levels.  All reservoirs were sampled at least once during July or August in 2006 or 2007.  &#8230; a subset of 34 of these reservoirs were sampled once in both 2006 and 2007.  In addition, 10 reservoirs (&#8220;reference reservoirs&#8221;) were sampled at least once per month during July and August of both 2006 and 2007.  Lakes were sampled by Miami personnel and DOW field crews (Districu3, District 4, and District 5).</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1343418759126"><entityName>OH_ODW_CHEM.csv</entityName>
+<entityDescription>Ohio Department of Natural Resources, Division of Wildlife Reservoir Productivity Assessment Water Chemistry 2006-2007</entityDescription>
+<physical id="1343418164615"><objectName>OH_ODW_CHEM.csv</objectName>
+<size unit="byte">100</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1343418759127"><attributeName>Location</attributeName>
+<attributeDefinition>Reservoir code</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>reservoir code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343418759128"><attributeName>SampSite</attributeName>
+<attributeDefinition>General sample location whether outflow (OUTFL), inflow (INFLO), or mid-lake (MIDLK)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>OUTFL</code>
+<definition>Outflow</definition>
+</codeDefinition>
+<codeDefinition><code>INFLO</code>
+<definition>Inflow</definition>
+</codeDefinition>
+<codeDefinition><code>MIDLK</code>
+<definition>Mid lake</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1343418759129"><attributeName>Date</attributeName>
+<attributeDefinition>Sampling date</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1343418759130"><attributeName>Integrated_Depth(m)</attributeName>
+<attributeDefinition>Integrated sample depth</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343418759131"><attributeName>SD(cm)</attributeName>
+<attributeLabel>Secchi, unknown</attributeLabel>
+<attributeDefinition>Secchi transparency in centimeters</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">10</minimum>
+<maximum exclusive="true">1140</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343418759132"><attributeName>TSS(mg/L)</attributeName>
+<attributeLabel>Solids, total suspended</attributeLabel>
+<attributeDefinition>Total suspended solids concentration in milligrams per liter</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0.21</minimum>
+<maximum exclusive="true">91.45</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343418759134"><attributeName>TN(ug/L)</attributeName>
+<attributeLabel>Nitrogen, total</attributeLabel>
+<attributeDefinition>Total nitrogen concentration in micrograms per liter</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">130</minimum>
+<maximum exclusive="true">9661</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343418759135"><attributeName>TP(ug/L)</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>Total phosphorus concentration in micrograms per liter</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">715.3</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1343418759136"><attributeName>Chla(ug/L)</attributeName>
+<attributeLabel>Cholorphyll a</attributeLabel>
+<attributeDefinition>Chlorophyll a concentration</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">2.8</minimum>
+<maximum exclusive="true">564.6</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>10</numberOfRecords>
+</dataTable>
+</dataset>
+ </eml:eml>
