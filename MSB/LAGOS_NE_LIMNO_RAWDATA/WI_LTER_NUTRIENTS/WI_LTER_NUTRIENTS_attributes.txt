@@ -1,0 +1,57 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+lakeid			character	lake name abbreviation	lake name abbreviation	factor		
+year4	yyyy				year	Date		
+daynum		dimensionless	natural		day of year	numeric		
+sampledate	mm/dd/yyyy				sample date	Date		
+depth		meter	real		depth	numeric		
+rep		dimensionless	natural		replicate number	numeric		
+sta		dimensionless	natural		station number	numeric		
+ph		dimensionless	real		pH	numeric		
+phair		dimensionless	real		pH air equilibrated	numeric		
+alk		microequivalentsPerLiter	integer		alkalinity	numeric		
+dic		milligramsPerLiter	real		dissolved inorganic carbon	numeric		
+tic		milligramsPerLiter	real		total inorganic carbon	numeric		
+doc		milligramsPerLiter	real		dissolved organic carbon	numeric		
+toc		milligramsPerLiter	real		total organic carbon	numeric		
+no3no2		microgramsPerLiter	whole		(NO3 + NO2) - N	numeric		
+no2		microgramsPerLiter	whole		NO2	numeric		
+nh4		microgramsPerLiter	whole		NH4 - N	numeric		
+totnf		microgramsPerLiter	whole		total N filtered	numeric		
+totnuf		microgramsPerLiter	whole		total N unfiltered	numeric		
+totpf		microgramsPerLiter	whole		total P filtered	numeric		
+totpuf		microgramsPerLiter	whole		total P unfiltered	numeric		
+drsif		microgramsPerLiter	whole		dissolved reactive silica filtered	numeric		
+brsif		microgramsPerLiter	whole		bicarbonate reactive silica filtered	numeric		
+brsiuf		microgramsPerLiter	whole		bicarbonate reactive silica unfiltered	numeric		
+tpm		milligramsPerLiter	real		total particulate matter	numeric		
+no3no2_sloh		milligramsPerLiter	real		Nitrate plus Nitrite Nitrogen from WI State Lab. of Hygiene	numeric		
+nh4_sloh		milligramsPerLiter	real		Ammonium Nitrogen from WI State Lab. of Hygiene	numeric		
+kjdl_n_sloh		milligramsPerLiter	real		Total Kjeldahl Nitrogen from WI State Lab. of Hygiene	numeric		
+totpuf_sloh		milligramsPerLiter	real		Total Phosphorus Unfiltered from WI State Lab. of Hygiene	numeric		
+drp_sloh		milligramsPerLiter	real		Dissolved Reactive Phosphorus from WI State Lab. of Hygiene	numeric		
+drsif_sloh		milligramsPerLiter	real		Dissolved Reactive Silica from WI State Lab. of Hygiene	numeric		
+flagdepth			character	data flag for depth	data flag for depth	factor		
+flagph			character	data flag for ph	data flag for ph	factor		
+flagphair			character	data flag for phair	data flag for phair	factor		
+flagalk			character	data flag for akalinity	data flag for akalinity	factor		
+flagdic			character	data flag for dissolved inorganic carbon	data flag for dissolved inorganic carbon	factor		
+flagtic			character	data flag for total inorganic carbon	data flag for total inorganic carbon	factor		
+flagdoc			character	data flag for dissolved organic carbon	data flag for dissolved organic carbon	factor		
+flagtoc			character	data flag for total organic carbon	data flag for total organic carbon	factor		
+flagno3no2			character	data flag for NO3NO2-N	data flag for NO3NO2-N	factor		
+flagno2			character	data flag for NO2	data flag for NO2	factor		
+flagnh4			character	data flag for NH4	data flag for NH4	factor		
+flagtotnf			character	data flag for total filtered N	data flag for total filtered N	factor		
+flagtotnuf			character	data flag for total unfiltered N	data flag for total unfiltered N	factor		
+flagtotpf			character	data flag for total filtered P	data flag for total filtered P	factor		
+flagtotpuf			character	data flag for total unfiltered P	data flag for total unfiltered P	factor		
+flagdrsif			character	data flag for dissolved reactive silica	data flag for dissolved reactive silica	factor		
+flagbrsif			character	data flag for filtered bicarbonate reactive silica	data flag for filtered bicarbonate reactive silica	factor		
+flagbrsiuf			character	data flag for unfiltered bicarbonate reactive silica	data flag for unfiltered bicarbonate reactive silica	factor		
+flagtpm			character	data flag for total particle matter	data flag for total particle matter	factor		
+flagno3no2_sloh			character	data flag for Nitrate plus Nitrite Nitrogen from WI State Lab. of Hygiene	data flag for Nitrate plus Nitrite Nitrogen from WI State Lab. of Hygiene	factor		
+flagnh4_sloh			character	data flag for Ammonium Nitrogen from WI State Lab. of Hygiene	data flag for Ammonium Nitrogen from WI State Lab. of Hygiene	factor		
+flagkjdl_n_sloh			character	data flag for Total Kjeldahl Nitrogen from WI State Lab. of Hygiene	data flag for Total Kjeldahl Nitrogen from WI State Lab. of Hygiene	factor		
+flagtotpuf_sloh			character	data flag for Total Phosphorus Unfiltered from WI State Lab. of Hygiene	data flag for Total Phosphorus Unfiltered from WI State Lab. of Hygiene	factor		
+flagdrp_sloh			character	data flag for Dissolved Reactive Phosphorus from WI State Lab. of Hygiene	data flag for Dissolved Reactive Phosphorus from WI State Lab. of Hygiene	factor		
+flagdrsif_sloh			character	data flag for Dissolved Reactive Silica from WI State Lab. of Hygiene.	data flag for Dissolved Reactive Silica from WI State Lab. of Hygiene.	factor		

@@ -1,0 +1,247 @@
+attributeName	code	definition
+lakeid	AL	Allequash Lake
+lakeid	BM	Big Muskellunge Lake
+lakeid	CB	Crystal Bog Lake
+lakeid	CR	Crystal Lake
+lakeid	FI	Fish Lake
+lakeid	ME	Lake Mendota
+lakeid	MO	Lake Monona
+lakeid	SP	Sparkling Lake
+lakeid	TB	Troug Bog Lake
+lakeid	TR	Trout Lake
+lakeid	WI	Lake Wingra
+flagdepth	J	Non standard routine followed
+flagdepth	C	No sample taken
+flagph	C	No sample taken
+flagph	A	Sample suspect
+flagph	D	Sample lost
+flagph	J	Non standard routine followed
+flagph	L	Data point and blind value differ by more than 15 %
+flagph	G	Analyzed late
+flagph	I	Outside of data entry constraints
+flagph	K	Data suspect
+flagph	B	Standard curve/reduction suspect
+flagph	M	More than t
+flagph	O	Value suspect but total pigment(CHL+PHAEO) value accurate
+flagphair	C	No sample taken
+flagphair	L	Data point and blind value differ by more than 15 %
+flagphair	J	Non standard routine followed
+flagphair	D	Sample lost
+flagphair	A	Sample suspect
+flagphair	T	Sample contaminated; data not reported
+flagphair	G	Analyzed late
+flagphair	I	Outside of data entry constraints
+flagphair	B	Standard curve/reduction suspect
+flagphair	E	Average of duplicate analyses
+flagphair	K	Data suspect
+flagalk	G	Analyzed late
+flagalk	J	Non standard routine followed
+flagalk	D	Sample lost
+flagalk	A	Sample suspect
+flagalk	B	Standard curve/reduction suspect
+flagalk	I	Outside of data entry constraints
+flagalk	E	Average of duplicate analyses
+flagalk	L	Data point and blind value differ by more than 15 %
+flagalk	M	More than t
+flagalk	C	No sample taken
+flagalk	l	Outside of data entry constraints
+flagalk	K	Data suspect
+flagalk	H	Outside of standard range
+flagdic	E	Average of duplicate analyses
+flagdic	F	Duplicate analyses in error
+flagdic	D	Sample lost
+flagdic	A	Sample suspect
+flagdic	G	Analyzed late
+flagdic	M	More than t
+flagdic	L	Data point and blind value differ by more than 15 %
+flagdic	C	No sample taken
+flagdic	I	Outside of data entry constraints
+flagdic	J	Non standard routine followed
+flagdic	B	Standard curve/reduction suspect
+flagdic	K	Data suspect
+flagtic	D	Sample lost
+flagtic	C	No sample taken
+flagtic	K	Data suspect
+flagtic	G	Analyzed late
+flagtic	A	Sample suspect
+flagtic	I	Outside of data entry constraints
+flagtic	J	Non standard routine followed
+flagtic	B	Standard curve/reduction suspect
+flagtic	L	Data point and blind value differ by more than 15 %
+flagtic	U	Equipment malfunction produced bad value; value set to missing
+flagtic	H	Outside of standard range
+flagdoc	E	Average of duplicate analyses
+flagdoc	F	Duplicate analyses in error
+flagdoc	D	Sample lost
+flagdoc	A	Sample suspect
+flagdoc	G	Analyzed late
+flagdoc	M	More than t
+flagdoc	C	No sample taken
+flagdoc	B	Standard curve/reduction suspect
+flagdoc	I	Outside of data entry constraints
+flagdoc	L	Data point and blind value differ by more than 15 %
+flagdoc	J	Non standard routine followed
+flagdoc	K	Data suspect
+flagdoc	U	Equipment malfunction produced bad value; value set to missing
+flagdoc	H	Outside of standard range
+flagtoc	D	Sample lost
+flagtoc	C	No sample taken
+flagtoc	K	Data suspect
+flagtoc	G	Analyzed late
+flagtoc	L	Data point and blind value differ by more than 15 %
+flagtoc	A	Sample suspect
+flagtoc	B	Standard curve/reduction suspect
+flagtoc	I	Outside of data entry constraints
+flagtoc	J	Non standard routine followed
+flagtoc	M	More than t
+flagtoc	U	Equipment malfunction produced bad value; value set to missing
+flagno3no2	I	Outside of data entry constraints
+flagno3no2	E	Average of duplicate analyses
+flagno3no2	C	No sample taken
+flagno3no2	L	Data point and blind value differ by more than 15 %
+flagno3no2	A	Sample suspect
+flagno3no2	G	Analyzed late
+flagno3no2	M	More than t
+flagno3no2	N	Sample retested
+flagno3no2	B	Standard curve/reduction suspect
+flagno3no2	D	Sample lost
+flagno3no2	J	Non standard routine followed
+flagno3no2	F	Duplicate analyses in error
+flagno3no2	K	Data suspect
+flagnh4	E	Average of duplicate analyses
+flagnh4	C	No sample taken
+flagnh4	G	Analyzed late
+flagnh4	I	Outside of data entry constraints
+flagnh4	H	Outside of standard range
+flagnh4	A	Sample suspect
+flagnh4	M	More than t
+flagnh4	L	Data point and blind value differ by more than 15 %
+flagnh4	N	Sample retested
+flagnh4	B	Standard curve/reduction suspect
+flagnh4	D	Sample lost
+flagnh4	F	Duplicate analyses in error
+flagtotnf	L	Data point and blind value differ by more than 15 %
+flagtotnf	E	Average of duplicate analyses
+flagtotnf	M	More than t
+flagtotnf	G	Analyzed late
+flagtotnf	B	Standard curve/reduction suspect
+flagtotnf	C	No sample taken
+flagtotnf	N	Sample retested
+flagtotnf	I	Outside of data entry constraints
+flagtotnf	A	Sample suspect
+flagtotnf	D	Sample lost
+flagtotnf	K	Data suspect
+flagtotnf	H	Outside of standard range
+flagtotnf	J	Non standard routine followed
+flagtotnuf	L	Data point and blind value differ by more than 15 %
+flagtotnuf	E	Average of duplicate analyses
+flagtotnuf	A	Sample suspect
+flagtotnuf	G	Analyzed late
+flagtotnuf	B	Standard curve/reduction suspect
+flagtotnuf	C	No sample taken
+flagtotnuf	N	Sample retested
+flagtotnuf	I	Outside of data entry constraints
+flagtotnuf	D	Sample lost
+flagtotnuf	M	More than t
+flagtotnuf	J	Non standard routine followed
+flagtotnuf	H	Outside of standard range
+flagtotnuf	K	Data suspect
+flagtotpf	E	Average of duplicate analyses
+flagtotpf	H	Outside of standard range
+flagtotpf	L	Duplicate analyses in error
+flagtotpf	M	More than t
+flagtotpf	J	Non standard routine followed
+flagtotpf	C	No sample taken
+flagtotpf	N	Sample retested
+flagtotpf	I	Outside of data entry constraints
+flagtotpf	D	Sample lost
+flagtotpf	F	Duplicate analyses in error
+flagtotpf	A	Sample suspect
+flagtotpf	V	Could not be computed; set to missing
+flagtotpf	G	Analyzed late
+flagtotpf	K	Data suspect
+flagtotpuf	E	Average of duplicate analyses
+flagtotpuf	L	Data point and blind value differ by more than 15 %
+flagtotpuf	G	Analyzed late
+flagtotpuf	A	Sample suspect
+flagtotpuf	J	Non standard routine followed
+flagtotpuf	M	More than t
+flagtotpuf	C	No sample taken
+flagtotpuf	I	Outside of data entry constraints
+flagtotpuf	N	Sample retested
+flagtotpuf	D	Sample lost
+flagtotpuf	K	Data suspect
+flagtotpuf	F	Duplicate analyses in error
+flagtotpuf	H	Outside of standard range
+flagtotpuf	n	Sample retested
+flagtotpuf	V	Could not be computed; set to missing
+flagdrsif	I	Outside of data entry constraints
+flagdrsif	E	Average of duplicate analyses
+flagdrsif	C	No sample taken
+flagdrsif	H	Outside of standard range
+flagdrsif	A	Sample suspect
+flagdrsif	M	More than t
+flagdrsif	N	Sample retested
+flagdrsif	L	Data point and blind value differ by more than 15 %
+flagdrsif	D	Sample lost
+flagdrsif	G	Analyzed late
+flagdrsif	K	Data suspect
+flagdrsif	E 	Average of duplicate analyses
+flagdrsif	J	Non standard routine followed
+flagbrsif	E	Average of duplicate analyses
+flagbrsif	A	Sample suspect
+flagbrsif	H	Outside of standard range
+flagbrsif	G	Analyzed late
+flagbrsif	L	Data point and blind value differ by more than 15 %
+flagbrsif	C	No sample taken
+flagbrsif	I	Outside of data entry constraints
+flagbrsif	M	More than t
+flagbrsif	N	Sample retested
+flagbrsif	D	Sample lost
+flagbrsiuf	E	Average of duplicate analyses
+flagbrsiuf	A	Sample suspect
+flagbrsiuf	H	Outside of standard range
+flagbrsiuf	C	No sample taken
+flagbrsiuf	I	Outside of data entry constraints
+flagbrsiuf	L	Data point and blind value differ by more than 15 %
+flagbrsiuf	M	More than t
+flagbrsiuf	N	Sample retested
+flagbrsiuf	G	Analyzed late
+flagbrsiuf	D	Sample lost
+flagtpm	D	Sample lost
+flagtpm	C	No sample taken
+flagtpm	L	Data point and blind value differ by more than 15 %
+flagtpm	M	More than t
+flagtpm	A	Sample suspect
+flagtpm	I	Outside of data entry constraints
+flagtpm	P	TPM uncorrected for humidity change between filter weighing
+flagtpm	H	Outside of standard range
+flagtpm	J	Non standard routine followed
+flagtpm	K	Data suspect
+flagtpm	E	Average of duplicate analyses
+flagtpm	l	Outside of data entry constraints
+flagno3no2_sloh	S	Value below detection limit; set to zero
+flagno3no2_sloh	R	Value between LOD and LOQ
+flagno3no2_sloh	Q	Quality control comments on SLOH lab sheet
+flagno3no2_sloh	J	Non standard routine followed
+flagno3no2_sloh	U	Equipment malfunction produced bad value; value set to missing
+flagnh4_sloh	S	Value below detection limit; set to zero
+flagnh4_sloh	R	Value between LOD and LOQ
+flagnh4_sloh	Q	Quality control comments on SLOH lab sheet
+flagnh4_sloh	J	Non standard routine followed
+flagkjdl_n_sloh	R	Value between LOD and LOQ
+flagkjdl_n_sloh	Q	Quality control comments on SLOH lab sheet
+flagkjdl_n_sloh	S	Value below detection limit; set to zero
+flagkjdl_n_sloh	J	Non standard routine followed
+flagtotpuf_sloh	R	Value between LOD and LOQ
+flagtotpuf_sloh	S	Value below detection limit; set to zero
+flagtotpuf_sloh	Q	Quality control comments on SLOH lab sheet
+flagtotpuf_sloh	J	Value between LOD and LOQ
+flagdrp_sloh	R	Value between LOD and LOQ
+flagdrp_sloh	S	Value below detection limit; set to zero
+flagdrp_sloh	Q	Quality control comments on SLOH lab sheet
+flagdrp_sloh	J	Non standard routine followed
+flagdrsif_sloh	Q	Quality control comments on SLOH lab sheet
+flagdrsif_sloh	R	Value between LOD and LOQ
+flagdrsif_sloh	S	Value below detection limit; set to zero
+flagdrsif_sloh	J	Non standard routine followed
