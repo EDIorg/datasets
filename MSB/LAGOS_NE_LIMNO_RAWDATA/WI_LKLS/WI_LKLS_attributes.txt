@@ -1,0 +1,50 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+WBIC		dimensionless	natural		Unique WDNR lake ID	numeric		
+Date_sampled	mm/dd/yyyy				Date sampled	Date		
+Lakename			character	Lake name	Lake name	character		
+County			character	WI county	WI county	character		
+Hydrologic_type			character	hydrologic type	hydrologic type	factor		
+TKN		microgramsPerLiter	real		Nitrogen, total kjeldahl	numeric		
+TKN_tag			character	TKN tag (2: < LOD; 3: LOD<value< LOQ)	TKN tag (2: < LOD; 3: LOD<value< LOQ)	factor		
+NO3_NO2		microgramsPerLiter	real		Nitrogen, nitrite (NO2) + nitrate (NO3)	numeric		
+NO3_tag			character	NO3_tag	NO3_tag	factor		
+Color_true		dimensionless	natural		Color, true (PCU)	numeric		
+Col_tag			character	Col_tag	Col_tag	factor		
+Chla		microgramsPerLiter	real		Chlorophyll a, uncorrected for pheophytin	numeric		
+Chla_tag			character	Chla_tag	Chla_tag	factor		
+TP		milligramsPerLiter	real		Phosphorus, total	numeric		
+TP_tag			character	TP_tag	TP_tag	factor		
+Turbidity		dimensionless	real		Turbidity (NTU)	numeric		
+Turb_tag			character	Turb_tag	Turb_tag	factor		
+Alk		milligramsPerLiter	natural		Alkalinity	numeric		
+Alk_tag			character	Alk_tag	Alk_tag	factor		
+Ca		milligramsPerLiter	real		Calcium	numeric		
+Ca_tag			character	Ca_tag	Ca_tag	factor		
+Cond		microsiemensPerCentimeter	natural		Conductivity	numeric		
+Cond_tag			character	Cond_tag	Cond_tag	factor		
+Mg		milligramsPerLiter	real		Magnesium	numeric		
+Mg_tag			character	Mg_tag	Mg_tag	factor		
+pH		dimensionless	real		pH	numeric		
+phl_tag			character	phl_tag	phl_tag	factor		
+Secchi_m		meter	real		Secchi, unknown	numeric		
+Secchi_tag			character	Secchi_tag	Secchi_tag	factor		
+Sitedep_m		meter	real		Lake depth at sampling site	numeric		
+IntSam_depth		meter	real		Integrated sample depth	numeric		
+TMP_1m		celsius	real		Temperature at 1 m	numeric		
+TMP_bot		celsius	real		Temperature at bottom	numeric		
+DO_1m		milligramsPerLiter	real		Oxygen, dissolved at 1m	numeric		
+DO_bot		milligramsPerLiter	real		Oxygen, dissolved at bottom	numeric		
+DOC		milligramsPerLiter	real		Carbon, dissolved organic	numeric		
+DOC_lab			character	DOC_lab	DOC_lab	factor		
+Field_sampler			character	Field_sampler	Field_sampler	factor		
+Zbar_m		meter	real		Depth, mean	numeric		
+Perim		kilometer	real		Lake perimeter	numeric		
+Zmax_m		meter	real		Depth, maximum	numeric		
+Lkarea_ha		hectare	natural		Area, lake surface	numeric		
+CA_imm_ha		hectare	natural		Immediate catchment area (without ups lakes)	numeric		
+CA_tot_ha		hectare	natural		Total catchment area	numeric		
+Inlets		dimensionless	whole		Number of inlets	numeric		
+Outlets		dimensionless	whole		Number of outlets	numeric		
+UPS_lake_num		dimensionless	whole		Number of upstream lakes	numeric		
+LK_order		dimensionless	integer		Lake order according to Riera et al. 2000	numeric		
+Zbar_tag			character	Zbar_tag	Zbar_tag	factor		

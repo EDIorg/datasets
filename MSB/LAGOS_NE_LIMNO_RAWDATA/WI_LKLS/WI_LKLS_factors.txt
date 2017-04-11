@@ -1,0 +1,36 @@
+attributeName	code	definition
+Hydrologic_type	HW	Headwater
+Hydrologic_type	DG	Drainage (w/upstream lakes)
+Hydrologic_type	SE	Seepage
+TKN_tag	2	Value is less than limit of detection.
+TKN_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+NO3_tag	2	Value is less than limit of detection.
+NO3_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+Col_tag	2	Value is less than limit of detection.
+Col_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+Col_tag	4	Value is less than lower bound.
+Col_tag	5	Value is greater than upper bound for color, = 140 PCU.
+Chla_tag	2	Value is less than limit of detection.
+Chla_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+Chla_tag	4	Value is less than lower bound.
+TP_tag	2	Value is less than limit of detection.
+TP_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+Turb_tag	2	Value is less than limit of detection.
+Turb_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+Alk_tag	2	Value is less than limit of detection.
+Alk_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+Ca_tag	2	Value is less than limit of detection.
+Ca_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+Cond_tag	2	Value is less than limit of detection.
+Cond_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+Mg_tag	2	Value is less than limit of detection.
+Mg_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+phl_tag	2	Value is less than limit of detection.
+phl_tag	3	Sample is greater than the limit of detection but less than the limit of quantification.
+Secchi_tag	VAB	Visible at bottom.
+DOC_lab	S	SLH
+DOC_lab	P	Mike Pace (IES)
+Field_sampler	Reg	DNR region staff.
+Field_sampler	SS	DRN research.
+Field_sampler	SS/Reg	DNR research/NDR regions staff.
+Zbar_tag	E	Estimated (for SE lakes: zbar=1.30 + 0.33*zmax_m; for HW and DG: zbar_m = 0.71+0.35*zmax_m)
