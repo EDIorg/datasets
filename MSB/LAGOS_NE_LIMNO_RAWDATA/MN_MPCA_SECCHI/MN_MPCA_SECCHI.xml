@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.28.3" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Minnesota Pollution Control Agency Lake Monitoring Program (MPCA) Citizen Lake Monitoring Program Secchi</title>
+ <creator id="1333650122515"> <individualName><givenName>Johanna</givenName>
+ <surName>Schussler</surName>
+ </individualName>
+ <organizationName>Citizen Volunteer Monitoring  Minnesota Pollution Control Agency</organizationName>
+ <positionName>Citizen Volunteer Monitoring Coordinator</positionName>
+ <phone phonetype="voice">: 800-657-3864; 651-296-6300</phone>
+ <electronicMailAddress>johanna.schussler@pca.state.mn.us</electronicMailAddress>
+ </creator>
+ <creator id="1333650283033"><individualName><givenName>Jason</givenName>
+ <surName>Ewert</surName>
+ </individualName>
+ <organizationName>Minnesota Pollution Control Agency</organizationName>
+ <positionName>GIS Application Analyst</positionName>
+ <phone phonetype="voice">651-757-2346</phone>
+ <electronicMailAddress>Jason.Ewert@state.mn.us</electronicMailAddress>
+ </creator>
+ <abstract><para>&#8220;The CLMP is a cooperative program combining the technical resources of the Minnesota Pollution Control Agency (MPCA) and the volunteer efforts of citizens statewide who collect water-quality data on their lakes.  The CLMP involves voluntary participation of citizens residing on or near lakes or those who are frequent lake users. CLMP participants are asked to take weekly transparency measurements on their lake during the summer using a Secchi disk. A minimum of eight to ten readings per season are required in order to adequately define each summer&#8217;s water quality. Data collected by CLMP volunteers are entered into the U.S. Environmental Protection Agency&#8217;s water quality database (called STORET) along with all other water quality data collected by the MPCA. These data are used to analyze water quality trends, characterize trophic status, and provide a basis for water quality goal setting.&quot;</para>
+ </abstract>
+ <keywordSet><keyword>Minnesota</keyword>
+ <keyword>Secchi</keyword>
+ </keywordSet>
+ <intellectualRights><para>not public</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Minnesota</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-96.29</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>48.0</northBoundingCoordinate>
+ <southBoundingCoordinate>43.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1973</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2011</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1333650122515</references>
+ </contact>
+ <contact><references>1333650283033</references>
+ </contact>
+ <methods><methodStep><description><section><title>Secchi depth</title>
+ <para>CLMP volunteers collect water transparency data using an 8-inch, circular, all-white metal plate attached to a calibrated rope. This tool is called a Secchi disk. About once a week during the summer, volunteers boat to a designated spot on their lakes to collect transparency readings. The volunteer lowers the disk into the water until it is no longer visible and notes that depth from the markings on the rope. The disk is then lowered a little further and then raised back up until it is just visible. This second depth reading is averaged with the first, and the final number is recorded on a data sheet. At the end of summer, volunteers send their data sheets to the MPCA to be compiled with other water-quality data.</para>
+ <para>Readings should be taken once a week (at least three days apart) primarily during the months of June through September between 10 a.m. and 3 p.m. on bright, calm days. A minimum of one reading per month is needed to provide meaningful information about your lake. You should select one location, well off-shore and in a deep part of the lake, and continue monitoring at that one site throughout the summer (See page 5 on selecting a monitoring location).</para>
+ </section>
+ </description>
+ <instrumentation>Secchi disk</instrumentation>
+ </methodStep>
+ </methods>
+ <dataTable id="1333660876741"><entityName>MN_MPCA_SECCHI.csv</entityName>
+ <entityDescription>Minnesota Pollution Control Agency Lake Monitoring Program (MPCA) Citizen Lake Monitoring Program Secchi</entityDescription>
+ <physical id="1333652687174"><objectName>MN_MPCA_SECCHI.csv</objectName>
+ <size unit="byte">230</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><offline><mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1333660876742"><attributeName>SAMPLE_DATE</attributeName>
+ <attributeDefinition>Date of sampling event</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876743"><attributeName>LOCATION_ID</attributeName>
+ <attributeDefinition>11-digit ID (##-####-##-###) for sampling location consisting of county number (##) &#8211; lake number (####) &#8211; bay number (##) &#8211; station number (###)
+
+&#61607;	Location_ID with station number (last three digits) of 100 or 200 were recorded at unknown location on the lake; other station numbers should have associated geographic coordinates</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>lake ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876744"><attributeName>COLLECTING_ORG</attributeName>
+ <attributeDefinition>Name of organization responsible for collecting samples/recording observations</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>collecting organization</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876745"><attributeName>SAMPLE_UPPER_DEPTH</attributeName>
+ <attributeDefinition>Upper depth at which sample was collected</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876746"><attributeName>SAMPLE_LOWER_DEPTH</attributeName>
+ <attributeDefinition>Lower depth at which sample was collected</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876747"><attributeName>SAMPLE_DEPTH_UNIT</attributeName>
+ <attributeDefinition>Units in which sample depth was measured</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>m</code>
+ <definition>meter</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876748"><attributeName>PARAMETER</attributeName>
+ <attributeDefinition>Name of analyte being measured</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>parameter</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334263440545"><attributeName>Depth, Secchi disk depth</attributeName>
+<attributeDefinition>Secchi, no view</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1333660876749"><attributeName>SAMPLE_FRACTION_TYPE</attributeName>
+ <attributeDefinition>Sample of fraction being analyzed</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Reported as &#8220;Total&#8221; for all</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876750"><attributeName>GTLT</attributeName>
+ <attributeDefinition>Indicates if value is &gt; or &lt; value listed in RESULT Column</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876751"><attributeName>RESULT</attributeName>
+ <attributeDefinition>Result of analysis</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876752"><attributeName>RESULT_UNIT</attributeName>
+ <attributeDefinition>Unit of result</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876753"><attributeName>SAMPLE_TYPE</attributeName>
+ <attributeDefinition>Type of sample collected</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876754"><attributeName>COMMENT</attributeName>
+ <attributeDefinition>Comments from samplers</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876755"><attributeName>STATISTIC_TYPE</attributeName>
+ <attributeDefinition>Reported as &#8220;Minimum&#8221; if Secchi disk is visible on the lake bottom or if Secchi depth exceeds length of sampling line</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876756"><attributeName>TEST_METHOD_ID</attributeName>
+ <attributeDefinition>Analytical method ID (See below for individual analytes)
+Reported as &#8220;FLD&#8221; for all</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876757"><attributeName>TEST_METHOD_NAME</attributeName>
+ <attributeDefinition>Name of analytical method (See below for individual analytes)</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876758"><attributeName>ANALYSIS_DATE</attributeName>
+ <attributeDefinition>Date of analysis</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876759"><attributeName>STATION_ID_CODE</attributeName>
+ <attributeDefinition>11-digit ID (##-####-##-###) for sampling location</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876760"><attributeName>STATION_TYPE</attributeName>
+ <attributeDefinition>Type of station where data were collected</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876761"><attributeName>HUC8</attributeName>
+ <attributeDefinition>Hydrologic Unit Code consisting of 8 digits</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333660876762"><attributeName>APPROVAL_CODE</attributeName>
+ <attributeDefinition>Indicates if the value has been approved</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>10</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

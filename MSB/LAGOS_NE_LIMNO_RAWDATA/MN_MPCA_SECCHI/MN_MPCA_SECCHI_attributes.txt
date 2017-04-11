@@ -1,0 +1,22 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+SAMPLE_DATE	mm/dd/yyyy				Date of sampling event	Date		
+LOCATION_ID			character	11-digit ID (nn-nnnn-nn-nnn) for sampling location consisting of county number (nn) – lake number (nnnn) – bay number (nn) – station number (nnn) <U+F0A7> Location_ID with station number (last three digits) of 100 or 200 were recorded at unknown location on the lake; other station numbers should have associated geographic coordinates	11-digit ID (nn-nnnn-nn-nnn) for sampling location consisting of county number (nn) – lake number (nnnn) – bay number (nn) – station number (nnn) Location_ID with station number (last three digits) of 100 or 200 were recorded at unknown location on the lake; other station numbers should have associated geographic coordinates	character		
+COLLECTING_ORG			character	Name of organization responsible for collecting samples/recording observations	Name of organization responsible for collecting samples/recording observations	character		
+SAMPLE_UPPER_DEPTH		meter	whole		Upper depth at which sample was collected	numeric		
+SAMPLE_LOWER_DEPTH		meter	real		Lower depth at which sample was collected	numeric		
+SAMPLE_DEPTH_UNIT			character	Units in which sample depth was measured	Units in which sample depth was measured	factor		
+PARAMETER			character	Name of analyte being measured	Name of analyte being measured	character		
+SAMPLE_FRACTION_TYPE			character	Sample of fraction being analyzed	Sample of fraction being analyzed	character		
+GTLT			character	Indicates if value is > or < value listed in RESULT Column	Indicates if value is > or < value listed in RESULT Column	character		
+RESULT		meter	real		Result of analysis	numeric		
+RESULT_UNIT			character	Unit of result (m)	Unit of result (m)	character		
+SAMPLE_TYPE			character	Type of sample collected	Type of sample collected	character		
+COMMENT			character	Comments from samplers	Comments from samplers	character		
+STATISTIC_TYPE			character	Reported as “Minimum” if Secchi disk is visible on the lake bottom or if Secchi depth exceeds length of sampling line	Reported as “Minimum” if Secchi disk is visible on the lake bottom or if Secchi depth exceeds length of sampling line	character		
+TEST_METHOD_ID			character	Analytical method ID (See below for individual analytes) Reported as “FLD” for all	Analytical method ID (See below for individual analytes) Reported as “FLD” for all	character		
+TEST_METHOD_NAME			character	Name of analytical method (See below for individual analytes)	Name of analytical method (See below for individual analytes)	character		
+ANALYSIS_DATE	mm/dd/yyyy				Date of analysis	Date		
+STATION_ID_CODE			character	11-digit ID (nn-nnnn-nn-nnn) for sampling location	11-digit ID (nn-nnnn-nn-nnn) for sampling location	character		
+STATION_TYPE			character	Type of station where data were collected	Type of station where data were collected	character		
+HUC8		dimensionless	natural		Hydrologic Unit Code consisting of 8 digits	numeric		
+APPROVAL_CODE			character	Indicates if the value has been approved	Indicates if the value has been approved	character		
