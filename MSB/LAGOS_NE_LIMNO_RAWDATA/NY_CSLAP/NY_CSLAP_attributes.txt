@@ -1,0 +1,20 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+LNum		dimensionless	real		CSLAP ID Number- assigned by NYSDEC	numeric		
+PName			character	Official Lake Name	Official Lake Name	character		
+Date	mm/dd/yyyy				Sampling Date	Date		
+Zbot			character	bottom depth, = sounding depth, meters (meter)	bottom depth, = sounding depth, meters (meter)	character		
+Zsd			character	Secchi, no view (meter)	Secchi, no view (meter)	character		
+Zsamp			character	sample depth, meters (meter)	sample depth, meters (meter)	character		
+Type			character	surface (1.5 m from water surface) or bottom (1.5 m above lake bottom) water sample	surface (1.5 m from water surface) or bottom (1.5 m above lake bottom) water sample	factor		
+Tot_P		milligramsPerLiter	real		Phosphorus, total	numeric		
+NOx			character	Nitrogen, nitrite (NO2) + nitrate (NO3) (milligramsPerLiter)	Nitrogen, nitrite (NO2) + nitrate (NO3) (milligramsPerLiter)	character		
+NH4			character	Nitrogen, NH4 (milligramsPerLiter)	Nitrogen, NH4 (milligramsPerLiter)	character		
+TN			character	Nitrogen, total (milligramsPerLiter)	Nitrogen, total (milligramsPerLiter)	character		
+TColor			character	Color, true (PCU)	Color, true (PCU)	character		
+Chl_a			character	Chlorophyll a (microgramsPerLiter)	Chlorophyll a (microgramsPerLiter)	character		
+TH20			character	Temperature (celsius)	Temperature (celsius)	character		
+Volcode		dimensionless	natural		NYS volume code	numeric		
+PNum		dimensionless	whole		NYS pond number	numeric		
+Areal		hectare	real		lake surface area (hectares)	numeric		
+CorLat		degree	real		corrected latitude, decimal degrees	numeric		
+CorLong		degree	real		corrected longitude, decimal degrees	numeric		

@@ -1,0 +1,3546 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.39.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>New York Citizens Statewide Lake Assessment Program (CSLAP), 1985-2011</title>
+    <creator>
+      <individualName>
+        <givenName>Scott</givenName>
+        <surName>Kishbaugh</surName>
+      </individualName>
+      <organizationName>Bureau of Watershed Assessment and Monitoring, Division of Water with the New
+    York State Department of Environmental Conservation</organizationName>
+      <positionName>Chief- Lake Monitoring and Assessment Section</positionName>
+      <address>
+        <deliveryPoint>Bureau of Water Assessment and Management NYSDEC Division of Water 625 Broadway,
+     4th Floor</deliveryPoint>
+        <city>Albany</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>12233-3502</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">518-402-8286</phone>
+      <electronicMailAddress>sakishba@gw.dec.state.ny.us</electronicMailAddress>
+    </creator>
+    <pubDate>2017-04-11</pubDate>
+    <abstract>
+      <para>CSLAP is New York’s Citizens Statewide Lake Assessment Program. CSLAP is a volunteer
+    lake monitoring and education program that is managed by the NY Department of Environmental
+    Conservation (DEC) and New York State Federation of Lake Associations (NYSFOLA). The program has
+    delivered high quality data to many DEC programs for over 25 years. It includes data from 259
+    lakes (21 of which have 2 or more sampling points/lake). Virtually all lakes have multiple years
+    of data, and many have 20+ years, although most have years that lack data. Samples are collected
+    by trained citizen monitors, and sent to a State or state-approved lab. Analyses prior to 2002
+    were done by the NY Dept of Health, and subsequently at a State-Certified Lab. The program is
+    extremely well documented, and an overview of the background and details of the program are
+    described in Kishbaugh (1988).</para>
+    </abstract>
+    <keywordSet>
+      <keyword>NY</keyword>
+      <keyword>Citizen monitoring</keyword>
+      <keyword>lake assessment</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Lakes in NY, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-79.53</westBoundingCoordinate>
+          <eastBoundingCoordinate>-71.59</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.24</northBoundingCoordinate>
+          <southBoundingCoordinate>40.39</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1985</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Scott</givenName>
+        <surName>Kishbaugh</surName>
+      </individualName>
+      <organizationName>Bureau of Watershed Assessment and Monitoring, Division of Water with the New
+    York State Department of Environmental Conservation</organizationName>
+      <positionName>Chief- Lake Monitoring and Assessment Section</positionName>
+      <address>
+        <deliveryPoint>Bureau of Water Assessment and Management NYSDEC Division of Water 625 Broadway,
+     4th Floor</deliveryPoint>
+        <city>Albany</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>12233-3502</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">518-402-8286</phone>
+      <electronicMailAddress>sakishba@gw.dec.state.ny.us</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>QA/QC</title>
+            <para>EPA QA/QC protocols were used, and NY DEC also conducted parallel sample collection and
+       analysis side-by-side with volunteers to evaluate data reliability (along with other QA/QC
+       tests; see Kishbaugh 1988).</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Field protocol</title>
+            <para>Field protocols are described in detail in CSLAP Sampling Protocol.pdf</para>
+            <para>Sample depth was recorded with most observations</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Chemical analyses and detection limits</title>
+            <para>Samples are collected by trained citizen monitors, and sent to a State or state-approved
+       lab. Analyses prior to 2002 were done by the NY Dept of Health, and subsequently at a
+       State-Certified Lab</para>
+            <para>Filter- 0.45 um for dissolved constituents</para>
+            <para>Tot.P - SM 18-20 4500-P E</para>
+            <para>LOQ- 0.0047 mgP/l; LOD- 0.0012 mgP/L (prior to 2002, detection limit = 0.002
+       mg/l)</para>
+            <para>NOx- USEPA 353.2 Rev 2.0</para>
+            <para>LOQ- 0.041mgN/L; LOD- 0.010 mgN/L (prior to 1988, NOx detection limit = 0.05</para>
+            <para>mg/l; from 1988 to 2002, NOx detection limit = 0.02 mgN/L)</para>
+            <para>NH4 – USEPA 350.1 Rev 2.0</para>
+            <para>LOQ- 0.041mgN/L; LOD- 0.010 mgN/L</para>
+            <para>EHS adds- prior to 2002, detection limit = 0.01 mg/L</para>
+            <para>TN – SM 20 4500-N C</para>
+            <para>LOQ- 0.307 mgN/L; LOD- 0.084 mgN/L</para>
+            <para>TColor – EPA 110.2</para>
+            <para>LOQ- 8 CU; LOD- 3 CU</para>
+            <para>TColor- values below detection limit indicated by “&lt;LOD”</para>
+            <para>pH – SM 18-20 4500 H+ B</para>
+            <para>Cond25 - SM 18-20 2510 B</para>
+            <para>LOQ- 0.01 uS/cm; LOD- 0.01 uS/cm</para>
+            <para>Ca – SM 18-21 3111 B (99)</para>
+            <para>LOQ- 0.7 mgCa/L; LOD- 0.2 mgCa/L</para>
+            <para>Calcium was not analyzed through CSLAP prior to 2002</para>
+            <para>Chl.a - USEPA 445.0 Rev. 1.2</para>
+            <para>LOQ- 0.3 ugChl/L; LOD- 0.1 ugChl/L</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Missing values</title>
+            <para>Missing values are most commonly indicated by an empty cell.</para>
+            <para>#VALUE! = Unclear if these indicate values below detection limit or some other
+       irregularity.</para>
+            <para>Variables related to lake or sampling depth (Zbot, Zsd, Zsamp)</para>
+            <para>•Missing values = not rec, not recorded, or NA</para>
+            <para>•Estimated depths or depths greater than could be measured: denoted by a
+       “~” or “+” or “&gt;”associated with the depth value, or
+       the words surface and bottom in quotes. Note that there is no consistent ‘limit of
+       detection’ for depth across lakes. Very deep lakes where these estimates show up
+       include Canada Lake, Cayuga Lake, DeRuyter Reservoir</para>
+            <para>•Other terms used include deep, hypo, epi, shore, same (and sometimes any of these
+       terms were entered in quotes)</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Adirondack Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.256111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.256111</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.781111</northBoundingCoordinate>
+                <southBoundingCoordinate>43.781111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Anawanda Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.958889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.958889</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.856389</northBoundingCoordinate>
+                <southBoundingCoordinate>41.856389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Arnold Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.009444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.009444</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.611944</northBoundingCoordinate>
+                <southBoundingCoordinate>42.611944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Augur Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.495278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.495278</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.470278</northBoundingCoordinate>
+                <southBoundingCoordinate>44.470278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Babcock Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.404167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.404167</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.813889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.813889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Babcock Lake -2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.404167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.404167</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.813889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.813889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Ballston Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.848611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.848611</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.956667</northBoundingCoordinate>
+                <southBoundingCoordinate>42.956667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Ballston Lake -2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.848611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.848611</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.956667</northBoundingCoordinate>
+                <southBoundingCoordinate>42.956667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Barrett Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.9225</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.9225</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.435</northBoundingCoordinate>
+                <southBoundingCoordinate>41.435</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Bartlett P</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.511667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.511667</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.101111</northBoundingCoordinate>
+                <southBoundingCoordinate>44.101111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Beaver Dam Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.893611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.893611</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.389167</northBoundingCoordinate>
+                <southBoundingCoordinate>42.389167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Beaver Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.662778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.662778</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.043056</northBoundingCoordinate>
+                <southBoundingCoordinate>42.043056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Big Fresh Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.416944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.416944</eastBoundingCoordinate>
+                <northBoundingCoordinate>40.923889</northBoundingCoordinate>
+                <southBoundingCoordinate>40.923889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Black Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.475278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.475278</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.622222</northBoundingCoordinate>
+                <southBoundingCoordinate>44.622222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Black Lake -2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.475278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.475278</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.622222</northBoundingCoordinate>
+                <southBoundingCoordinate>44.622222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Black Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.296944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.296944</eastBoundingCoordinate>
+                <northBoundingCoordinate>40.951389</northBoundingCoordinate>
+                <southBoundingCoordinate>40.951389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Blind Sodus Bay</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.726111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.726111</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.328889</northBoundingCoordinate>
+                <southBoundingCoordinate>43.328889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Blind Sodus Bay-2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.726111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.726111</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.328889</northBoundingCoordinate>
+                <southBoundingCoordinate>43.328889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Blind Sodus Bay-3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.726111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.726111</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.328889</northBoundingCoordinate>
+                <southBoundingCoordinate>43.328889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Blue Heron Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.594722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.594722</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.198056</northBoundingCoordinate>
+                <southBoundingCoordinate>41.198056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Bradley Brook Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.651944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.651944</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.832778</northBoundingCoordinate>
+                <southBoundingCoordinate>42.832778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Bradys Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.08</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.08</eastBoundingCoordinate>
+                <northBoundingCoordinate>40.602222</northBoundingCoordinate>
+                <southBoundingCoordinate>40.602222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Brant Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.741111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.741111</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.686667</northBoundingCoordinate>
+                <southBoundingCoordinate>43.686667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Brantingham Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.276389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.276389</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.689722</northBoundingCoordinate>
+                <southBoundingCoordinate>43.689722</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Buckingham Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.808056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.808056</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.663889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.663889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Burden Lake -3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.566667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.566667</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.604444</northBoundingCoordinate>
+                <southBoundingCoordinate>42.604444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Butterfield Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.754444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.754444</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.3425</northBoundingCoordinate>
+                <southBoundingCoordinate>44.3425</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Canaan Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.021667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.021667</eastBoundingCoordinate>
+                <northBoundingCoordinate>40.783889</northBoundingCoordinate>
+                <southBoundingCoordinate>40.783889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Canada Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.593611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.593611</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.141389</northBoundingCoordinate>
+                <southBoundingCoordinate>43.141389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Canadarago Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.014167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.014167</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.79</northBoundingCoordinate>
+                <southBoundingCoordinate>42.79</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cassadaga Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-79.327222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-79.327222</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.351111</northBoundingCoordinate>
+                <southBoundingCoordinate>42.351111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cayuga Lake -MN</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.735833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.735833</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.9475</northBoundingCoordinate>
+                <southBoundingCoordinate>42.9475</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cayuga Lake -MS</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.735833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.735833</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.9475</northBoundingCoordinate>
+                <southBoundingCoordinate>42.9475</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cayuga Lake -N</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.735833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.735833</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.9475</northBoundingCoordinate>
+                <southBoundingCoordinate>42.9475</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cayuga Lake -S</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.735833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.735833</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.9475</northBoundingCoordinate>
+                <southBoundingCoordinate>42.9475</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cazenovia Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.861667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.861667</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.928889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.928889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cazenovia Lake -2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.861667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.861667</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.928889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.928889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Chase Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.314722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.314722</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.761389</northBoundingCoordinate>
+                <southBoundingCoordinate>43.761389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Chautauqua Lake -N</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-79.102222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-79.102222</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.111944</northBoundingCoordinate>
+                <southBoundingCoordinate>42.111944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Chautauqua Lake -S</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-79.102222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-79.102222</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.111944</northBoundingCoordinate>
+                <southBoundingCoordinate>42.111944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Chenango Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.439167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.439167</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.577778</northBoundingCoordinate>
+                <southBoundingCoordinate>42.577778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>China Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.740278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.740278</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.44</northBoundingCoordinate>
+                <southBoundingCoordinate>41.44</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Conesus Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-77.705</westBoundingCoordinate>
+                <eastBoundingCoordinate>-77.705</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.834444</northBoundingCoordinate>
+                <southBoundingCoordinate>42.834444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Copake Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.599722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.599722</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.1525</northBoundingCoordinate>
+                <southBoundingCoordinate>42.1525</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cossayuna Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.433333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.433333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.183333</northBoundingCoordinate>
+                <southBoundingCoordinate>43.183333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Craine Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.558889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.558889</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.758611</northBoundingCoordinate>
+                <southBoundingCoordinate>42.758611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cranberry Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.755833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.755833</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.075278</northBoundingCoordinate>
+                <southBoundingCoordinate>41.075278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Crooked Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.151389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.151389</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.781667</northBoundingCoordinate>
+                <southBoundingCoordinate>42.781667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cross Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.458333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.458333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.111667</northBoundingCoordinate>
+                <southBoundingCoordinate>43.111667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Crystal Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.023611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.023611</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.869444</northBoundingCoordinate>
+                <southBoundingCoordinate>41.869444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cuba Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-78.3075</westBoundingCoordinate>
+                <eastBoundingCoordinate>-78.3075</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.236389</northBoundingCoordinate>
+                <southBoundingCoordinate>42.236389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cuba Lake -2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-78.3075</westBoundingCoordinate>
+                <eastBoundingCoordinate>-78.3075</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.236389</northBoundingCoordinate>
+                <southBoundingCoordinate>42.236389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cuba Lake -3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-78.3075</westBoundingCoordinate>
+                <eastBoundingCoordinate>-78.3075</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.236389</northBoundingCoordinate>
+                <southBoundingCoordinate>42.236389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Deer Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.553889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.553889</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.056667</northBoundingCoordinate>
+                <southBoundingCoordinate>42.056667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Delta Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.428889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.428889</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.275</northBoundingCoordinate>
+                <southBoundingCoordinate>43.275</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>DeRuyter Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.900556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.900556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.826944</northBoundingCoordinate>
+                <southBoundingCoordinate>42.826944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Duane Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.185</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.185</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.796944</northBoundingCoordinate>
+                <southBoundingCoordinate>42.796944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Duck Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.696389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.696389</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.141389</northBoundingCoordinate>
+                <southBoundingCoordinate>43.141389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Eagle Crag Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.610556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.610556</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.188056</northBoundingCoordinate>
+                <southBoundingCoordinate>44.188056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Eagle Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.617222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.617222</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.871667</northBoundingCoordinate>
+                <southBoundingCoordinate>43.871667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Eagle Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.280556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.280556</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.668333</northBoundingCoordinate>
+                <southBoundingCoordinate>44.668333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>East Caroga Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.499444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.499444</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.125278</northBoundingCoordinate>
+                <southBoundingCoordinate>43.125278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Eatonbrook Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.6875</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.6875</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.863889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.863889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Echo Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.848056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.848056</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.382222</northBoundingCoordinate>
+                <southBoundingCoordinate>42.382222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Effley Falls Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.276944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.276944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.922778</northBoundingCoordinate>
+                <southBoundingCoordinate>43.922778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Efner Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.931389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.931389</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.268611</northBoundingCoordinate>
+                <southBoundingCoordinate>43.268611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Findley Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-79.734444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-79.734444</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.119167</northBoundingCoordinate>
+                <southBoundingCoordinate>42.119167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Forest Lake-R</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.767222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.767222</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.733056</northBoundingCoordinate>
+                <southBoundingCoordinate>42.733056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Forest Lake-W</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.7925</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.7925</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.363333</northBoundingCoordinate>
+                <southBoundingCoordinate>43.363333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Friends Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.840278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.840278</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.638889</northBoundingCoordinate>
+                <southBoundingCoordinate>43.638889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Fulton Second Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.914444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.914444</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.715278</northBoundingCoordinate>
+                <southBoundingCoordinate>43.715278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Galway Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.083611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.083611</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.026111</northBoundingCoordinate>
+                <southBoundingCoordinate>43.026111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Garnet Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.013333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.013333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.538056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.538056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Geneganslet Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.770833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.770833</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.508889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.508889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Glen Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.6625</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.6625</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.375</northBoundingCoordinate>
+                <southBoundingCoordinate>43.375</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Goodnow Flow</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.186667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.186667</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.914167</northBoundingCoordinate>
+                <southBoundingCoordinate>43.914167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Gorton Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.355</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.355</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.860833</northBoundingCoordinate>
+                <southBoundingCoordinate>42.860833</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Gossamans Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.65</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.65</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.522778</northBoundingCoordinate>
+                <southBoundingCoordinate>41.522778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Grass Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.715833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.715833</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.344167</northBoundingCoordinate>
+                <southBoundingCoordinate>44.344167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Guilford Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.495833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.495833</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.409444</northBoundingCoordinate>
+                <southBoundingCoordinate>42.409444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Gull Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.523889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.523889</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.216667</northBoundingCoordinate>
+                <southBoundingCoordinate>44.216667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hadlock Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.579167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.579167</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.414167</northBoundingCoordinate>
+                <southBoundingCoordinate>43.414167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hatch Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.672778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.672778</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.832778</northBoundingCoordinate>
+                <southBoundingCoordinate>42.832778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hedges Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.38</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.38</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.111944</northBoundingCoordinate>
+                <southBoundingCoordinate>43.111944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Highland Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.486389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.486389</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.451389</northBoundingCoordinate>
+                <southBoundingCoordinate>41.451389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hillside Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.796389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.796389</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.615556</northBoundingCoordinate>
+                <southBoundingCoordinate>41.615556</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Honeoye Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-77.511667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-77.511667</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.783333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.783333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Horseshoe Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.290833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.290833</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.663333</northBoundingCoordinate>
+                <southBoundingCoordinate>44.663333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hunt Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.913889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.913889</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.259167</northBoundingCoordinate>
+                <southBoundingCoordinate>43.259167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hyde Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.840278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.840278</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.235</northBoundingCoordinate>
+                <southBoundingCoordinate>44.235</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Indian Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.13</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.13</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.711111</northBoundingCoordinate>
+                <southBoundingCoordinate>44.711111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Java Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-78.340556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-78.340556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.628889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.628889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Jenny Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.918333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.918333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.264444</northBoundingCoordinate>
+                <southBoundingCoordinate>43.264444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Joe Indian Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.740278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.740278</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.482778</northBoundingCoordinate>
+                <southBoundingCoordinate>44.482778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Kasoag Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.9225</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.9225</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.467778</northBoundingCoordinate>
+                <southBoundingCoordinate>43.467778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Kayuta Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.2075</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.2075</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.423333</northBoundingCoordinate>
+                <southBoundingCoordinate>43.423333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Kellum Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.781944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.781944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.556944</northBoundingCoordinate>
+                <southBoundingCoordinate>43.556944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Kinderhook Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.665556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.665556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.442222</northBoundingCoordinate>
+                <southBoundingCoordinate>42.442222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Kirk Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.758056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.758056</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.379167</northBoundingCoordinate>
+                <southBoundingCoordinate>41.379167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Alice</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-78.239722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-78.239722</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.326389</northBoundingCoordinate>
+                <southBoundingCoordinate>43.326389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Bonaparte</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.404444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.404444</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.1575</northBoundingCoordinate>
+                <southBoundingCoordinate>44.1575</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Bonaparte-2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.404444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.404444</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.1575</northBoundingCoordinate>
+                <southBoundingCoordinate>44.1575</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Carmel</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.661944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.661944</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.455556</northBoundingCoordinate>
+                <southBoundingCoordinate>41.455556</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Celeste</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.901111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.901111</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.3625</northBoundingCoordinate>
+                <southBoundingCoordinate>41.3625</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Clear</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.2775</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.2775</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.347778</northBoundingCoordinate>
+                <southBoundingCoordinate>44.347778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Colby</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.153889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.153889</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.333889</northBoundingCoordinate>
+                <southBoundingCoordinate>44.333889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Como</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.297778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.297778</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.673889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.673889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Demmon</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-77.480556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-77.480556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.345556</northBoundingCoordinate>
+                <southBoundingCoordinate>42.345556</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George 21 (Hullets Landing)</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George 23 (Gull Bay)</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George 24 (Hearts Bay)</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George 6</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George Site 2 Diamond Island</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George Site 3 Harris Bay</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George Site 4 Basin Bay</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George-1</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George-10</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George-11</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George-5</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George-6</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George-7</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake George-8</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.431944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.431944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.843056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.843056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Gerry</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.553333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.553333</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.445</northBoundingCoordinate>
+                <southBoundingCoordinate>42.445</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Guymard</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.595833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.595833</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.431944</northBoundingCoordinate>
+                <southBoundingCoordinate>41.431944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Katonah</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.654722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.654722</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.288611</northBoundingCoordinate>
+                <southBoundingCoordinate>41.288611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Kitchawan</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.553889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.553889</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.2425</northBoundingCoordinate>
+                <southBoundingCoordinate>41.2425</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Kiwassa</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.161111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.161111</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.287778</northBoundingCoordinate>
+                <southBoundingCoordinate>44.287778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Lauderdale</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.373056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.373056</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.083611</northBoundingCoordinate>
+                <southBoundingCoordinate>43.083611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Lincolndale</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.726944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.726944</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.339444</northBoundingCoordinate>
+                <southBoundingCoordinate>41.339444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Lincolndale-Site 2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.726944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.726944</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.339444</northBoundingCoordinate>
+                <southBoundingCoordinate>41.339444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Lucille</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.993611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.993611</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.185</northBoundingCoordinate>
+                <southBoundingCoordinate>41.185</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Luzerne</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.838333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.838333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.321389</northBoundingCoordinate>
+                <southBoundingCoordinate>43.321389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Mahopac</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.754444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.754444</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.374444</northBoundingCoordinate>
+                <southBoundingCoordinate>41.374444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Meahagh</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.952778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.952778</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.248889</northBoundingCoordinate>
+                <southBoundingCoordinate>41.248889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Mohegan</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.850833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.850833</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.321667</northBoundingCoordinate>
+                <southBoundingCoordinate>41.321667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Moraine</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.5275</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.5275</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.846389</northBoundingCoordinate>
+                <southBoundingCoordinate>42.846389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Myosotis</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.145556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.145556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.518889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.518889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Nimham</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.733056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.733056</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.475833</northBoundingCoordinate>
+                <southBoundingCoordinate>41.475833</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake of the Isles</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.933333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.933333</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.358333</northBoundingCoordinate>
+                <southBoundingCoordinate>44.358333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake of the Woods</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.732778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.732778</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.3075</northBoundingCoordinate>
+                <southBoundingCoordinate>44.3075</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Ontario-Golden Hill</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-78.483333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-78.483333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.375</northBoundingCoordinate>
+                <southBoundingCoordinate>43.375</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Ontario-Wilson Tuscarora</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-78.833333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-78.833333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.311111</northBoundingCoordinate>
+                <southBoundingCoordinate>43.311111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Oscaleta</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.569444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.569444</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.297222</northBoundingCoordinate>
+                <southBoundingCoordinate>41.297222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Oscawana</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.847222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.847222</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.385556</northBoundingCoordinate>
+                <southBoundingCoordinate>41.385556</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Ossi</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.7625</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.7625</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.416111</northBoundingCoordinate>
+                <southBoundingCoordinate>41.416111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Peekskill</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.88</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.88</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.336944</northBoundingCoordinate>
+                <southBoundingCoordinate>41.336944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Placid</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.995278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.995278</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.304444</northBoundingCoordinate>
+                <southBoundingCoordinate>44.304444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Placid-2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.995278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.995278</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.304444</northBoundingCoordinate>
+                <southBoundingCoordinate>44.304444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Rippowam</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.556944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.556944</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.298611</northBoundingCoordinate>
+                <southBoundingCoordinate>41.298611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Salubria</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-77.293056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-77.293056</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.326111</northBoundingCoordinate>
+                <southBoundingCoordinate>42.326111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Taghkanic</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.719722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.719722</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.088333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.088333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Tibet</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.778889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.778889</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.45</northBoundingCoordinate>
+                <southBoundingCoordinate>41.45</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Titus</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.288333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.288333</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.740833</northBoundingCoordinate>
+                <southBoundingCoordinate>44.740833</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Truesdale</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.5575</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.5575</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.287778</northBoundingCoordinate>
+                <southBoundingCoordinate>41.287778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Waccabuc</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.5775</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.5775</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.295556</northBoundingCoordinate>
+                <southBoundingCoordinate>41.295556</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Wanaksink</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.5775</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.5775</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.623889</northBoundingCoordinate>
+                <southBoundingCoordinate>41.623889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Warn</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.646667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.646667</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.3725</northBoundingCoordinate>
+                <southBoundingCoordinate>42.3725</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lamoka Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-77.086111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-77.086111</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.416389</northBoundingCoordinate>
+                <southBoundingCoordinate>42.416389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lebanon Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.601667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.601667</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.801111</northBoundingCoordinate>
+                <southBoundingCoordinate>42.801111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Leland P-1</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.573611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.573611</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.871111</northBoundingCoordinate>
+                <southBoundingCoordinate>42.871111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Leland P-2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.573611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.573611</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.871111</northBoundingCoordinate>
+                <southBoundingCoordinate>42.871111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lily Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.301111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.301111</eastBoundingCoordinate>
+                <northBoundingCoordinate>40.98</northBoundingCoordinate>
+                <southBoundingCoordinate>40.98</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lime Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-78.475833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-78.475833</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.435</northBoundingCoordinate>
+                <southBoundingCoordinate>42.435</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lincoln Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.566667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.566667</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.165833</northBoundingCoordinate>
+                <southBoundingCoordinate>44.165833</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Little Fresh Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.408056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.408056</eastBoundingCoordinate>
+                <northBoundingCoordinate>40.916111</northBoundingCoordinate>
+                <southBoundingCoordinate>40.916111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Little Long Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.296111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.296111</eastBoundingCoordinate>
+                <northBoundingCoordinate>40.975278</northBoundingCoordinate>
+                <southBoundingCoordinate>40.975278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Little Sodus B</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.7175</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.7175</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.313889</northBoundingCoordinate>
+                <southBoundingCoordinate>43.313889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Little We Wah Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.198889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.198889</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.211667</northBoundingCoordinate>
+                <southBoundingCoordinate>41.211667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Little Wolf Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.472778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.472778</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.251389</northBoundingCoordinate>
+                <southBoundingCoordinate>44.251389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Long Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.447778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.447778</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.781944</northBoundingCoordinate>
+                <southBoundingCoordinate>42.781944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Loon Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.839444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.839444</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.661111</northBoundingCoordinate>
+                <southBoundingCoordinate>43.661111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Loon Lake - Steuben Co.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-77.563333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-77.563333</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.486111</northBoundingCoordinate>
+                <southBoundingCoordinate>42.486111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lorton Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.958333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.958333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.502778</northBoundingCoordinate>
+                <southBoundingCoordinate>43.502778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lower Chateaugay Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.041389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.041389</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.841389</northBoundingCoordinate>
+                <southBoundingCoordinate>44.841389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lower St. Regis Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.298056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.298056</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.431111</northBoundingCoordinate>
+                <southBoundingCoordinate>44.431111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Madison Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.526667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.526667</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.898889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.898889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Mariaville Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.135556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.135556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.828056</northBoundingCoordinate>
+                <southBoundingCoordinate>42.828056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Mariaville Lake -2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.135556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.135556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.828056</northBoundingCoordinate>
+                <southBoundingCoordinate>42.828056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Mayfield Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.258333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.258333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.095833</northBoundingCoordinate>
+                <southBoundingCoordinate>43.095833</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Melody Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.877778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.877778</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.468889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.468889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Millsite Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.792222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.792222</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.282778</northBoundingCoordinate>
+                <southBoundingCoordinate>44.282778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Mirror Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.982222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.982222</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.283889</northBoundingCoordinate>
+                <southBoundingCoordinate>44.283889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Monhagen Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.456944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.456944</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.456111</northBoundingCoordinate>
+                <southBoundingCoordinate>41.456111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Moon Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.727222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.727222</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.251389</northBoundingCoordinate>
+                <southBoundingCoordinate>44.251389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Moreau Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.709444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.709444</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.237778</northBoundingCoordinate>
+                <southBoundingCoordinate>43.237778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Mountain Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.372778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.372778</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.108611</northBoundingCoordinate>
+                <southBoundingCoordinate>43.108611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Mountain View Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.140278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.140278</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.703889</northBoundingCoordinate>
+                <southBoundingCoordinate>44.703889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Nassau Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.6025</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.6025</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.530833</northBoundingCoordinate>
+                <southBoundingCoordinate>42.530833</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>North Sandy Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.194167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.194167</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.653056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.653056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Oquaga Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.453889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.453889</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.019722</northBoundingCoordinate>
+                <southBoundingCoordinate>42.019722</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Orange Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.098889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.098889</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.543333</northBoundingCoordinate>
+                <southBoundingCoordinate>41.543333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Otter Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.546389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.546389</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.15</northBoundingCoordinate>
+                <southBoundingCoordinate>43.15</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Owasco Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.542778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.542778</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.903333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.903333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Panther Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.900833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.900833</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.325833</northBoundingCoordinate>
+                <southBoundingCoordinate>43.325833</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Paradox Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.726389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.726389</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.877222</northBoundingCoordinate>
+                <southBoundingCoordinate>43.877222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Paradox Lake -2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.726389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.726389</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.877222</northBoundingCoordinate>
+                <southBoundingCoordinate>43.877222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Peach Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.583611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.583611</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.370278</northBoundingCoordinate>
+                <southBoundingCoordinate>41.370278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Peck Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.434722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.434722</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.101111</northBoundingCoordinate>
+                <southBoundingCoordinate>43.101111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Petonia Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.797778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.797778</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.330278</northBoundingCoordinate>
+                <southBoundingCoordinate>42.330278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Piseco Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.544444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.544444</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.386111</northBoundingCoordinate>
+                <southBoundingCoordinate>43.386111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Pleasant Lake - Fulton Co</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.593056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.593056</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.181667</northBoundingCoordinate>
+                <southBoundingCoordinate>43.181667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Pleasant Lake - Oswego Co</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.220833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.220833</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.233056</northBoundingCoordinate>
+                <southBoundingCoordinate>43.233056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Plum Brook Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.703333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.703333</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.310833</northBoundingCoordinate>
+                <southBoundingCoordinate>41.310833</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Plymouth Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.647222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.647222</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.590278</northBoundingCoordinate>
+                <southBoundingCoordinate>42.590278</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Port B</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.842778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.842778</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.306111</northBoundingCoordinate>
+                <southBoundingCoordinate>43.306111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Queechy Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.425556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.425556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.403889</northBoundingCoordinate>
+                <southBoundingCoordinate>42.403889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Roaring Brook Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.806</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.806</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.433</northBoundingCoordinate>
+                <southBoundingCoordinate>41.433</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Robinson Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.563611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.563611</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.113056</northBoundingCoordinate>
+                <southBoundingCoordinate>42.113056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Rondaxe Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.916667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.916667</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.756389</northBoundingCoordinate>
+                <southBoundingCoordinate>43.756389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Round Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.204722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.204722</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.318333</northBoundingCoordinate>
+                <southBoundingCoordinate>41.318333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Round Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.435278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.435278</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.643333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.643333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sacandaga Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.407778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.407778</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.479167</northBoundingCoordinate>
+                <southBoundingCoordinate>43.479167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sagamore Lake -1</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.775833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.775833</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.472222</northBoundingCoordinate>
+                <southBoundingCoordinate>41.472222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Saratoga Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.636667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.636667</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.102778</northBoundingCoordinate>
+                <southBoundingCoordinate>43.102778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Schroon Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.811667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.811667</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.727778</northBoundingCoordinate>
+                <southBoundingCoordinate>43.727778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Schroon Lake -S</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.811667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.811667</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.727778</northBoundingCoordinate>
+                <southBoundingCoordinate>43.727778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Seneca Lake -0</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.940556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.940556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.868333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.868333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Seneca Lake -1</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.940556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.940556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.868333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.868333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Seneca Lake -2</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.940556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.940556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.868333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.868333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Seneca Lake -3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.940556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.940556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.868333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.868333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Seneca Lake -4</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.940556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.940556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.868333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.868333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Seneca Lake -5</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.940556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.940556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.868333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.868333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Seneca Lake -6</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.940556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.940556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.868333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.868333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Seneca Lake -7</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.940556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.940556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.868333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.868333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sepasco Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.836944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.836944</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.963333</northBoundingCoordinate>
+                <southBoundingCoordinate>41.963333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Shadow Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.821111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.821111</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.208056</northBoundingCoordinate>
+                <southBoundingCoordinate>41.208056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Shaver P</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.545556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.545556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.119167</northBoundingCoordinate>
+                <southBoundingCoordinate>42.119167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Shawangunk Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.504167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.504167</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.4475</northBoundingCoordinate>
+                <southBoundingCoordinate>41.4475</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Shenorock Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.739167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.739167</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.326944</northBoundingCoordinate>
+                <southBoundingCoordinate>41.326944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Silver Lake  (St. Lawrence)</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.820278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.820278</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.232222</northBoundingCoordinate>
+                <southBoundingCoordinate>44.232222</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Silver Lake - Wyoming Co</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-78.019722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-78.019722</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.716389</northBoundingCoordinate>
+                <southBoundingCoordinate>42.716389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Silver Lake -C</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.860556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.860556</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.5175</northBoundingCoordinate>
+                <southBoundingCoordinate>44.5175</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sixberry Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.77</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.77</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.283889</northBoundingCoordinate>
+                <southBoundingCoordinate>44.283889</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Skaneateles Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.429722</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.429722</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.945</northBoundingCoordinate>
+                <southBoundingCoordinate>42.945</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sleepy Hollow Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.805</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.805</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.28</northBoundingCoordinate>
+                <southBoundingCoordinate>42.28</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Smith Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-77.478611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-77.478611</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.386389</northBoundingCoordinate>
+                <southBoundingCoordinate>42.386389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Snyders Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.629444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.629444</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.666389</northBoundingCoordinate>
+                <southBoundingCoordinate>42.666389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sodus B</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.969167</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.969167</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.259722</northBoundingCoordinate>
+                <southBoundingCoordinate>43.259722</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Somerset Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.231389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.231389</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.906389</northBoundingCoordinate>
+                <southBoundingCoordinate>41.906389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Song Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.143333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.143333</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.761667</northBoundingCoordinate>
+                <southBoundingCoordinate>42.761667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Spitfire Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.2575</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.2575</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.423333</northBoundingCoordinate>
+                <southBoundingCoordinate>44.423333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Spring Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.416667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.416667</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.654444</northBoundingCoordinate>
+                <southBoundingCoordinate>42.654444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Star Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.042222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.042222</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.150556</northBoundingCoordinate>
+                <southBoundingCoordinate>44.150556</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Stewarts Lake anding</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.548889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.548889</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.157778</northBoundingCoordinate>
+                <southBoundingCoordinate>43.157778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Stissing Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.678056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.678056</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.967778</northBoundingCoordinate>
+                <southBoundingCoordinate>41.967778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sugar Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.869326</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.869326</eastBoundingCoordinate>
+                <northBoundingCoordinate>40.997485</northBoundingCoordinate>
+                <southBoundingCoordinate>40.997485</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Summit Lake -S</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.583611</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.583611</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.579444</northBoundingCoordinate>
+                <southBoundingCoordinate>42.579444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Summit Lake -W</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.461944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.461944</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.206667</northBoundingCoordinate>
+                <southBoundingCoordinate>43.206667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sunnyside Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.639444</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.639444</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.372778</northBoundingCoordinate>
+                <southBoundingCoordinate>43.372778</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Taconic Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.412778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.412778</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.7375</northBoundingCoordinate>
+                <southBoundingCoordinate>42.7375</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Teatown Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.832778</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.832778</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.214444</northBoundingCoordinate>
+                <southBoundingCoordinate>41.214444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Thompsons Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.045556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.045556</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.643611</northBoundingCoordinate>
+                <southBoundingCoordinate>42.643611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Timber Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.845278</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.845278</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.958333</northBoundingCoordinate>
+                <southBoundingCoordinate>41.958333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Timber Lake -W</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.661667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.661667</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.294722</northBoundingCoordinate>
+                <southBoundingCoordinate>41.294722</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Tomkins Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.991944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.991944</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.270833</northBoundingCoordinate>
+                <southBoundingCoordinate>41.270833</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Tuscarora Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.762222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.762222</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.868611</northBoundingCoordinate>
+                <southBoundingCoordinate>42.868611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Tuxedo Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.2025</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.2025</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.206667</northBoundingCoordinate>
+                <southBoundingCoordinate>41.206667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Twitchell Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.893056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.893056</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.841111</northBoundingCoordinate>
+                <southBoundingCoordinate>43.841111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>U Chateaugay Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.007222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.007222</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.806667</northBoundingCoordinate>
+                <southBoundingCoordinate>44.806667</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Ulster Heights Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.438056</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.438056</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.748333</northBoundingCoordinate>
+                <southBoundingCoordinate>41.748333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Upper Little York Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.162</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.162</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.696</northBoundingCoordinate>
+                <southBoundingCoordinate>42.696</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Upper Saranac Lake - North</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.296667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.296667</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.251111</northBoundingCoordinate>
+                <southBoundingCoordinate>44.251111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Upper Saranac Lake - South</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.296667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.296667</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.251111</northBoundingCoordinate>
+                <southBoundingCoordinate>44.251111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Upper St. Regis Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.270556</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.270556</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.409444</northBoundingCoordinate>
+                <southBoundingCoordinate>44.409444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Wallace P</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.931389</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.931389</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.315</northBoundingCoordinate>
+                <southBoundingCoordinate>41.315</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>We Wah Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.191667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.191667</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.219167</northBoundingCoordinate>
+                <southBoundingCoordinate>41.219167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Weiden Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.988889</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.988889</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.588056</northBoundingCoordinate>
+                <southBoundingCoordinate>41.588056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>West Caroga Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.491111</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.491111</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.131111</northBoundingCoordinate>
+                <southBoundingCoordinate>43.131111</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Whaley Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.6575</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.6575</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.571389</northBoundingCoordinate>
+                <southBoundingCoordinate>41.571389</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>White Birch Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.636667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.636667</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.038056</northBoundingCoordinate>
+                <southBoundingCoordinate>42.038056</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Windover Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.008333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.008333</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.631944</northBoundingCoordinate>
+                <southBoundingCoordinate>43.631944</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Wolf Lake </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.587222</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.587222</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.588611</northBoundingCoordinate>
+                <southBoundingCoordinate>41.588611</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Yankee Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-74.560833</westBoundingCoordinate>
+                <eastBoundingCoordinate>-74.560833</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.579444</northBoundingCoordinate>
+                <southBoundingCoordinate>41.579444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <para>Sampling occurs 8 times per season, and the season is typically summer months. In earlier
+      years, sampling frequency was occasionally more frequent.</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>NY_CSLAP.csv</entityName>
+      <entityDescription>New York Citizens Statewide Lake Assessment Program (CSLAP), 1985-2011</entityDescription>
+      <physical>
+        <objectName>NY_CSLAP.csv</objectName>
+        <size unit="bytes">2195878</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/NY_CSLAP/NY_CSLAP.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>LNum</attributeName>
+          <attributeDefinition>CSLAP ID Number- assigned by NYSDEC</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PName</attributeName>
+          <attributeDefinition>Official Lake Name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Official Lake Name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Sampling Date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Zbot</attributeName>
+          <attributeDefinition>bottom depth, = sounding depth, meters (meter)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>bottom depth, = sounding depth, meters (meter)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Zsd</attributeName>
+          <attributeDefinition>Secchi, no view (meter)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Secchi, no view (meter)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Zsamp</attributeName>
+          <attributeDefinition>sample depth, meters (meter)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample depth, meters (meter)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Type</attributeName>
+          <attributeDefinition>surface (1.5 m from water surface) or bottom (1.5 m above lake bottom) water sample</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>surface</code>
+                    <definition>1.5 m from water surface</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bottom</code>
+                    <definition>1.5 m above lake bottom</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Surface</code>
+                    <definition>1.5 m from water surface</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Bottom</code>
+                    <definition>1.5 m above lake bottom</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tot_P</attributeName>
+          <attributeDefinition>Phosphorus, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NOx</attributeName>
+          <attributeDefinition>Nitrogen, nitrite (NO2) + nitrate (NO3) (milligramsPerLiter)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Nitrogen, nitrite (NO2) + nitrate (NO3) (milligramsPerLiter)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NH4</attributeName>
+          <attributeDefinition>Nitrogen, NH4 (milligramsPerLiter)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Nitrogen, NH4 (milligramsPerLiter)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TN</attributeName>
+          <attributeDefinition>Nitrogen, total (milligramsPerLiter)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Nitrogen, total (milligramsPerLiter)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TColor</attributeName>
+          <attributeDefinition>Color, true (PCU)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Color, true (PCU)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chl_a</attributeName>
+          <attributeDefinition>Chlorophyll a (microgramsPerLiter)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Chlorophyll a (microgramsPerLiter)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TH20</attributeName>
+          <attributeDefinition>Temperature (celsius)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Temperature (celsius)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Volcode</attributeName>
+          <attributeDefinition>NYS volume code</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PNum</attributeName>
+          <attributeDefinition>NYS pond number</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Areal</attributeName>
+          <attributeDefinition>lake surface area (hectares)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CorLat</attributeName>
+          <attributeDefinition>corrected latitude, decimal degrees</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CorLong</attributeName>
+          <attributeDefinition>corrected longitude, decimal degrees</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_NY_CSLAP.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_NY_CSLAP.R</objectName>
+        <size unit="bytes">43402</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/NY_CSLAP/DataImport_NY_CSLAP.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>
