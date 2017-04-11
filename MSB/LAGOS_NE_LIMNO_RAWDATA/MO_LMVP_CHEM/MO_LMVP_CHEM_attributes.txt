@@ -1,0 +1,22 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Org			character	Organization providing the data	Organization providing the data	factor		
+Project			character	Project for which data were collected	Project for which data were collected	factor		
+QA_Rated			character	Indicates whether or not the project follows a QAPP approved by Missouri DNR OR whether or not the project had analyses performed by a laboratory using approved methods	Indicates whether or not the project follows a QAPP approved by Missouri DNR OR whether or not the project had analyses performed by a laboratory using approved methods	factor		
+Site_Code			character	Numerical code for sampling site consisting of the Water Body Identification Number (WBID) / distance upstream from downstream segment in miles / distance to spillway measured in miles	Numerical code for sampling site consisting of the Water Body Identification Number (WBID) / distance upstream from downstream segment in miles / distance to spillway measured in miles	character		
+Site_Name			character	Name of sampling site	Name of sampling site	character		
+Easting		meter	natural		UTM Easting coordinate in m (Zone 15; NAD83)	numeric		
+Northing		meter	natural		UTM Northing coordinate in m (Zone 15; NAD83)	numeric		
+Media_Type			character	Type of media collected	Type of media collected	factor		
+Sample_Type			character	Type of sample collected	Type of sample collected	factor		
+Date	mm/dd/yyyy				Date of sample collection	Date		
+Mo	mm				Month in which sample was collected	Date		
+Dy	dd				Day of month on which sample was collected	Date		
+Yr	yyyy				Year in which sample was collected	Date		
+Time		dimensionless	natural		Time at which sample was collected (see explanation below). <U+F0A7> These were added by the database managers to identify duplicated samples collected at the same location and were listed as consecutive sampling times (e.g., 0001, 0002, 0003)	numeric		
+Sample_ID		dimensionless	natural		numerical ID generated for each sample	numeric		
+Temp		celsius	real		Temperature of surface water in °C	numeric		
+Depth		meter	real		Lake depth in m at time of sampling Values reported as 0 are errors. The lake depth is not 0 m. These depths were not recorded by volunteers	numeric		
+Secchi			character	Secchi depth in m Observed without using a viewscope (meter)	Secchi depth in m Observed without using a viewscope (meter)	character		
+TN			character	Total Nitrogen (milligramsPerLiter)	Total Nitrogen (milligramsPerLiter)	character		
+TP			character	Total Phosphorus (milligramsPerLiter)	Total Phosphorus in mg/L	character		
+ChlT		microgramsPerLiter	real		total chlorophyll concentrations in µg/L	numeric		
