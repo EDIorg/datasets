@@ -1,0 +1,16 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+WB_Code			character	unique lake identifier	unique lake identifier	character		
+Site			character	Note that there is substantial non-uniqueness in this field. Some sites share the same name, and many sites have multiple names (or- a name used in early years of surveying was replaced by another name later on).	Note that there is substantial non-uniqueness in this field. Some sites share the same name, and many sites have multiple names (or- a name used in early years of surveying was replaced by another name later on).	character		
+Date	mm/dd/yyyy				Date	Date		
+Alk		milligramsPerLiter	real		Alkalinity	numeric		
+Cl			character	Chloride (milligramsPerLiter)	Chloride (milligramsPerLiter)	character		
+Chl_a		microgramsPerLiter	real		Chlorophyll a	numeric		
+NH4			character	Nitrogen, NH4 (microgramsPerLiter)	Nitrogen, NH4 (microgramsPerLiter)	character		
+NO3			character	Nitrogen, nitrite (NO2) + nitrate (NO3) (microgramsPerLiter)	Nitrogen, nitrite (NO2) + nitrate (NO3) (microgramsPerLiter)	character		
+TN		microgramsPerLiter	real		Nitrogen, total	numeric		
+pH		dimensionless	real		pH	numeric		
+TP			character	Phosphorus, total (microgramsPerLiter)	Phosphorus, total (microgramsPerLiter)	character		
+Secchi		meter	real		Secchi	numeric		
+Temp		celsius	real		Temperature	numeric		
+Ca		milligramsPerLiter	real		Calcium	numeric		
+Mg		milligramsPerLiter	real		Magnesium	numeric		
