@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<eml:eml xmlns:eml='eml://ecoinformatics.org/eml-2.1.0'
+         xmlns:stmml='http://www.xml-cml.org/schema/stmml'
+         xmlns:sw='eml://ecoinformatics.org/software-2.1.0'
+         xmlns:cit='eml://ecoinformatics.org/literature-2.1.0'
+         xmlns:ds='eml://ecoinformatics.org/dataset-2.1.0'
+         xmlns:prot='eml://ecoinformatics.org/protocol-2.1.0'
+         xmlns:doc='eml://ecoinformatics.org/documentation-2.1.0'
+         xmlns:res='eml://ecoinformatics.org/resource-2.1.0'
+         xmlns:xs='http://www.w3.org/2001/XMLSchema'
+         xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+         xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 file://c:/eml/eml.xsd'
+         packageId='knb-lter-ntl.NTLPH03.31046'
+         system='knb'>
+<access scope="document" order="allowFirst" authSystem="knb">
+  <allow>
+    <principal>uid=NTL, o=lter, dc=ecoinformatics, dc=org</principal>
+    <permission>all</permission>
+  </allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset>
+  <title>North Temperate Lakes LTER: Secchi Disk Depth; Other Auxiliary Base Crew Sample Data</title>
+  <creator>
+    <organizationName>Center for Limnology</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Str.</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+  </creator>
+  <creator>
+    <address>
+      <deliveryPoint>680 North Park Str.</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </creator>
+  <pubDate>America/Chicago</pubDate>
+  <pubDate>America/Chicago</pubDate>
+  <pubDate>datetime</pubDate>
+  <language>english</language>
+  <abstract>
+    <para>
+      <literalLayout>Secchi disk depth is measured in the deepest part of each lake for the eleven primary lakes (Allequash, Big Muskellunge, Crystal, Sparkling, Trout lakes, unnamed lakes 27-02 [Crystal Bog] and 12-15 [Trout Bog], Fish, Mendota, Monona and Wingra). The disk is circular, 20 cm in diameter, and has alternating black and white quadrants. It is lowered using a calibrated Kevlar rope to minimize stretching. Readings are made on the shaded side of the boat both with and without the aid of a plexiglass viewer. The points at which the disk disappears while being lowered and reappears while being raised are averaged to determine Secchi depth. Auxiliary data include time of day, air temperature, cloud cover, wave height, wind speed and direction and whether the lake was ice covered on the sampledate.  Sampling Frequency: fortnightly during ice-free season - every 6 weeks during ice-covered season for the northern lakes.  The southern lakes are similar except that sampling occurs monthly during the fall and typically only once during the winter (depending on ice conditions).  Number of sites: 11</literalLayout>
+    </para>
+  </abstract>
+  <keywordSet>
+    <keyword>meteorology</keyword>
+    <keyword>North Temperate Lakes - LTER</keyword>
+    <keyword>primary production</keyword>
+    <keyword>secchi depth</keyword>
+    <keyword>water clarity</keyword>
+    <keywordThesaurus>NTL LTER Thesaurus</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <section>
+      <title>Data Policies</title>
+      <para>
+        <literalLayout>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</literalLayout></para> 
+<para><literalLayout>The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication.  The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data.  Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</literalLayout></para>
+<para><literalLayout>The Data User must realize that the data may be misinterpreted if taken out of context.  We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</literalLayout></para>
+<para><literalLayout>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: &lt;name of data set&gt;, North Temperate Lakes Long Term Ecological Research program (http://lter.limnology.wisc.edu), NSF, &lt;contact person for data set&gt;, Center for Limnology, University of Wisconsin-Madison.  The data set name and contact person for each data set can be found in the metadata header of the online data sets.</literalLayout></para>
+<para><literalLayout>The Data User must send two reprints of any publications resulting from use of the data to the address above.   We would like to include such manuscripts in our LTER publications list.</literalLayout></para>
+<para><literalLayout>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</literalLayout></para>
+<para><literalLayout>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed.  All data are made available &quot;as is&quot;.  The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.  Data users should be aware that we periodically update data sets.</literalLayout></para>
+<para><literalLayout>Our goal is to release all long term data associated with core research areas within 2 years of collection.  These data and accompanying metadata will be available for download from the NTL-LTER web site.</literalLayout></para>
+<para><literalLayout>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.</literalLayout>
+      </para>
+    </section>
+  </intellectualRights>
+  <coverage>
+    <geographicCoverage>
+      <geographicDescription>Northern area: Allequash Lake, Big Muskellunge Lake, Crystal Lake, Sparkling Lake,Trout Lake, unnamed lakes 27-02 (Crystal Bog), 12-15 (Trout Bog); Southern area:  Fish Lake, Lake Mendota, Lake Monona, Lake Wingra, WI, USA</geographicDescription>
+      <boundingCoordinates>
+        <westBoundingCoordinate>-89.704</westBoundingCoordinate>
+        <eastBoundingCoordinate>-89.325</eastBoundingCoordinate>
+        <northBoundingCoordinate>46.079</northBoundingCoordinate>
+        <southBoundingCoordinate>43.045</southBoundingCoordinate>
+      </boundingCoordinates>
+    </geographicCoverage>
+  </coverage>
+  <contact>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <contact>
+    <organizationName>Center for Limnology</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Str.</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <pubPlace>North Temperate Lakes</pubPlace>
+  <dataTable>
+    <entityName>North Temperate Lakes LTER: Secchi Disk Depth; Other Auxiliary Base Crew Sample Data</entityName>
+    <entityDescription>North Temperate Lakes LTER: Secchi Disk Depth; Other Auxiliary Base Crew Sample Data</entityDescription>
+    <physical>
+      <objectName>sample</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>1</numHeaderLines>
+          <recordDelimiter>#x0A</recordDelimiter>
+          <attributeOrientation>column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+    </physical>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: CB</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.606</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.606</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.008</northBoundingCoordinate>
+          <southBoundingCoordinate>46.008</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: TB</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.686</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.686</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.041</northBoundingCoordinate>
+          <southBoundingCoordinate>46.041</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: CR</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.612</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.612</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.003</northBoundingCoordinate>
+          <southBoundingCoordinate>46.003</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: BM</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.612</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.612</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.021</northBoundingCoordinate>
+          <southBoundingCoordinate>46.021</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: SP</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.701</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.701</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.008</northBoundingCoordinate>
+          <southBoundingCoordinate>46.008</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: AL</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.621</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.621</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.038</northBoundingCoordinate>
+          <southBoundingCoordinate>46.038</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: TR</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.665</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.665</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.029</northBoundingCoordinate>
+          <southBoundingCoordinate>46.029</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: FI</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.652</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.652</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.287</northBoundingCoordinate>
+          <southBoundingCoordinate>43.287</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: ME</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.405</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.405</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.099</northBoundingCoordinate>
+          <southBoundingCoordinate>43.099</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: WI</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.425</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.425</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.053</northBoundingCoordinate>
+          <southBoundingCoordinate>43.053</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>siteid: MO</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.361</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.361</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.063</northBoundingCoordinate>
+          <southBoundingCoordinate>43.063</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <attributeList>
+      <attribute>
+        <attributeName>lakeid</attributeName>
+        <attributeLabel>lake name abbreviation</attributeLabel>
+        <attributeDefinition>lake name abbreviation</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>String composed of any alphanumeric or special characters</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>year4</attributeName>
+        <attributeLabel>year</attributeLabel>
+        <attributeDefinition>year</attributeDefinition>
+        <measurementScale>
+          <dateTime>
+            <formatString>YYYY</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>daynum</attributeName>
+        <attributeLabel>day of year</attributeLabel>
+        <attributeDefinition>day of year</attributeDefinition>
+        <measurementScale>
+          <dateTime>
+            <formatString>DDD</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sampledate</attributeName>
+        <attributeLabel>sample date</attributeLabel>
+        <attributeDefinition>sample date</attributeDefinition>
+        <measurementScale>
+          <dateTime>
+            <formatString>MM/DD/YYYY</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sta</attributeName>
+        <attributeLabel>station number</attributeLabel>
+        <attributeDefinition>station number</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>String composed of any alphanumeric or special characters</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>secview</attributeName>
+        <attributeLabel>secchi depth with viewer</attributeLabel>
+        <attributeDefinition>secchi depth with viewer</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>meter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <maximum>40</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>secnview</attributeName>
+        <attributeLabel>secchi depth without viewer</attributeLabel>
+        <attributeDefinition>secchi depth without viewer</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>meter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <maximum>40</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>timeon</attributeName>
+        <attributeLabel>start time at station</attributeLabel>
+        <attributeDefinition>time sampling starts at station</attributeDefinition>
+        <measurementScale>
+          <dateTime>
+            <formatString>hhmm</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>timeoff</attributeName>
+        <attributeLabel>end time at station</attributeLabel>
+        <attributeDefinition>time sampling concludes at station</attributeDefinition>
+        <measurementScale>
+          <dateTime>
+            <formatString>hhmm</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>airtemp</attributeName>
+        <attributeLabel>air temperature</attributeLabel>
+        <attributeDefinition>air temperature</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>celsius</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <maximum>50</maximum>
+                <minimum>-50</minimum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>windir</attributeName>
+        <attributeLabel>wind direction</attributeLabel>
+        <attributeDefinition>wind direction</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>String composed of any alphanumeric or special characters</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>windspd</attributeName>
+        <attributeLabel>wind speed</attributeLabel>
+        <attributeDefinition>wind speed</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>milePerHour</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>waveht</attributeName>
+        <attributeLabel>wave height</attributeLabel>
+        <attributeDefinition>wave height</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>centimeter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>cloud</attributeName>
+        <attributeLabel>cloud cover</attributeLabel>
+        <attributeDefinition>cloud cover</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>percent</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>ice</attributeName>
+        <attributeLabel>ice cover</attributeLabel>
+        <attributeDefinition>ice cover ( = 1 if lake is ice covered on sampledate)</attributeDefinition>
+        <storageType>string</storageType>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>String composed of any alphanumeric or special characters</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+    </attributeList>
+  </dataTable>
+</dataset>
+</eml:eml>

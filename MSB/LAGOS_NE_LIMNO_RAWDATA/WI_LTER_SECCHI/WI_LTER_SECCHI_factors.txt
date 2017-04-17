@@ -1,0 +1,12 @@
+attributeName	code	definition
+lakeid	AL	Allequash Lake
+lakeid	BM	Big Muskellunge Lake
+lakeid	CB	Crystal Bog Lake
+lakeid	CR	Crystal Lake
+lakeid	FI	Fish Lake
+lakeid	ME	Lake Mendota
+lakeid	MO	Lake Menona
+lakeid	SP	Sparkling Lake
+lakeid	TB	Trout Bog Lake
+lakeid	TR	Trout Lake
+lakeid	WI	Lake Wingra

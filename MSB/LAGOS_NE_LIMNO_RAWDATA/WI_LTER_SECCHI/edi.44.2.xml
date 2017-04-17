@@ -1,0 +1,406 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.44.2" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>North Temperate Lakes LTER: Secchi Disk Depth; Other Auxiliary Base Crew Sample Data</title>
+    <creator>
+      <organizationName>Center for Limnology</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Str.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2017-04-17</pubDate>
+    <abstract>
+      <para>
+        <literalLayout>Secchi disk depth is measured in the deepest part of each lake for the eleven primary lakes (Allequash, Big Muskellunge, Crystal, Sparkling, Trout lakes, unnamed lakes 27-02 [Crystal Bog] and 12-15 [Trout Bog], Fish, Mendota, Monona and Wingra). The disk is circular, 20 cm in diameter, and has alternating black and white quadrants. It is lowered using a calibrated Kevlar rope to minimize stretching. Readings are made on the shaded side of the boat both with and without the aid of a plexiglass viewer. The points at which the disk disappears while being lowered and reappears while being raised are averaged to determine Secchi depth. Auxiliary data include time of day, air temperature, cloud cover, wave height, wind speed and direction and whether the lake was ice covered on the sampledate.  Sampling Frequency: fortnightly during ice-free season - every 6 weeks during ice-covered season for the northern lakes.  The southern lakes are similar except that sampling occurs monthly during the fall and typically only once during the winter (depending on ice conditions).  Number of sites: 11</literalLayout>
+      </para>
+    </abstract>
+    <keywordSet>
+      <keyword>meteorology</keyword>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keyword>primary production</keyword>
+      <keyword>secchi depth</keyword>
+      <keyword>water clarity</keyword>
+      <keywordThesaurus>NTL LTER Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Northern area: Allequash Lake, Big Muskellunge Lake, Crystal Lake, Sparkling Lake,Trout Lake, unnamed lakes 27-02 (Crystal Bog), 12-15 (Trout Bog); Southern area:  Fish Lake, Lake Mendota, Lake Monona, Lake Wingra, WI, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.704</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.325</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.079</northBoundingCoordinate>
+          <southBoundingCoordinate>43.045</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <contact>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <organizationName>Center for Limnology</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Str.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>See the North Temperate Lakes Long Terrm Ecological Research program for details.</description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>WI_LTER_SECCHI.csv</entityName>
+      <entityDescription>North Temperate Lakes LTER: Secchi Disk Depth; Other Auxiliary Base Crew Sample Data</entityDescription>
+      <physical>
+        <objectName>WI_LTER_SECCHI.csv</objectName>
+        <size unit="bytes">312604</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/WI_LTER_SECCHI/WI_LTER_SECCHI.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeDefinition>lake name abbreviation</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AL</code>
+                    <definition>Allequash Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BM</code>
+                    <definition>Big Muskellunge Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CB</code>
+                    <definition>Crystal Bog Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR</code>
+                    <definition>Crystal Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FI</code>
+                    <definition>Fish Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ME</code>
+                    <definition>Lake Mendota</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MO</code>
+                    <definition>Lake Menona</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SP</code>
+                    <definition>Sparkling Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TB</code>
+                    <definition>Trout Bog Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TR</code>
+                    <definition>Trout Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WI</code>
+                    <definition>Lake Wingra</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year4</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>daynum</attributeName>
+          <attributeDefinition>day of year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sta</attributeName>
+          <attributeDefinition>station number</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>secview</attributeName>
+          <attributeDefinition>secchi depth with viewer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>secnview</attributeName>
+          <attributeDefinition>secchi depth without viewer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>timeon</attributeName>
+          <attributeDefinition>time sampling starts at station</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hhmm</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>timeoff</attributeName>
+          <attributeDefinition>time sampling concludes at station</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hhmm</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeDefinition>air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>windir</attributeName>
+          <attributeDefinition>wind direction</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>wind direction</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>windspd</attributeName>
+          <attributeDefinition>wind speed</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milesPerHour</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>waveht</attributeName>
+          <attributeDefinition>wave height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cloud</attributeName>
+          <attributeDefinition>cloud cover (percent)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ice</attributeName>
+          <attributeDefinition>ice cover ( = 1 if lake is ice covered on sampledate)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_WI_LTER_SECCHI.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_WI_LTER_SECCHI.R</objectName>
+        <size unit="bytes">11806</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/WI_LTER_SECCHI/DataImport_WI_LTER_SECCHI.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1">
+        <unit id="NA" name="NA" unitType="NA" multiplierToSI="NA"/>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
