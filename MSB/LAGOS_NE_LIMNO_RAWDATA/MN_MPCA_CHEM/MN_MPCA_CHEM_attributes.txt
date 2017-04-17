@@ -1,0 +1,58 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+SAMPLE_DATE	MM/DD/YYYY				Sample date	Date		
+LOCATION_ID			character	Location ID with station number (last three digits) of 100 or 200 were recorded at unknown location on the lake; other station numbers should have associated geographic coordinates	Location ID with station number (last three digits) of 100 or 200 were recorded at unknown location on the lake; other station numbers should have associated geographic coordinates	character		
+COLLECTING_ORG			character	Name of organization responsible for collecting samples/recording observations	Name of organization responsible for collecting samples/recording observations	character		
+SAMPLE_UPPER_DEPTH		meter	whole		Upper depth at which sample was collected Surface grab samples have an upper depth of 0 and no lower depth (blank) If no lower depth reported, then samples were collected as discrete samples at the depth listed	numeric		
+SAMPLE_LOWER_DEPTH		meter	real		Lower depth at which sample was collected Integrated water column samples have an upper and lower depth According to current SOP, nutrient, chlorophyll, and algae samples are collected as integrated samples (0-2 m) for lakes that are 2 m or deeper and as surface samples (bottle in hand) for lakes shallower than 2 m with an additional discrete “depth sample” (Kemmerer) collected on lakes greater than 5 m deep	numeric		
+SAMPLE_DEPTH_UNIT			character	Unit for the depth sample (meter)	Unit for the depth sample (meter)	character		
+SAMPLE_FRACTION_TYPE			character	Sample of fraction being analyzed Dissolved: That portion of the analyte found in the liquid medium. Cannot be removed by filtration. Non-filterable [Non-filter]: That portion of the analyte which is in or absorbed to material which passes through the filter during sample filtration. Suspended: That portion of the analyte which is suspended in the sampled medium, either as, or adsorbed to, particles which are more or less uniformly dispersed within the medium. Total Recoverable [Tot Rcvrbl] Total: The total of all fractions of the analyte.	Sample of fraction being analyzed Dissolved: That portion of the analyte found in the liquid medium. Cannot be removed by filtration. Non-filterable [Non-filter]: That portion of the analyte which is in or absorbed to material which passes through the filter during sample filtration. Suspended: That portion of the analyte which is suspended in the sampled medium, either as, or adsorbed to, particles which are more or less uniformly dispersed within the medium. Total Recoverable [Tot Rcvrbl] Total: The total of all fractions of the analyte.	factor		
+GTLT			character	Indicates if value is > or < value listed in RESULT Column	Indicates if value is > or < value listed in RESULT Column	factor		
+RESULT_UNIT			character	Unit of result	Unit of result	character		
+SAMPLE_TYPE			character	Type of sample collected	Type of sample collected	factor		
+COMMENT			character	Comments from samplers	Comments from samplers	character		
+STATISTIC_TYPE			character	Minimum: Minimum value reported (applies to Secchi depth) Maximum: Maximum value reported (applies to True Color) MPN: Most probably number	Minimum: Minimum value reported (applies to Secchi depth) Maximum: Maximum value reported (applies to True Color) MPN: Most probably number	character		
+TEST_METHOD_ID			character	Analytical method ID	Analytical method ID	character		
+TEST_METHOD_NAME			character	Name of analytical method (See below for individual analytes)	Name of analytical method (See below for individual analytes)	character		
+ANALYSIS_DATE	MM/DD/YYYY				Date of analysis	Date		
+STATION_ID_CODE			character	11-digit ID for sampling location Same as location ID	11-digit ID for sampling location Same as location ID	character		
+STATION_TYPE			character	Type of station where data were collected	Type of station where data were collected	character		
+HUC8			character	Hydrologic Unit Code consisting of 8 digits	Hydrologic Unit Code consisting of 8 digits	character		
+APPROVAL_CODE			character	Indicates if the value has been approved	Indicates if the value has been approved	character		
+SECCHI		meter	real		Secchi depth	numeric		
+CHLA_PHEO_CORRECTED		microgramsPerLiter	real		Chlorophyll a corrected for pheophytin	numeric		
+DO		milligramsPerLiter	real		Dissolved oxygen	numeric		
+DOSAT		dimensionless	real		Dissolved oxygen saturation	numeric		
+N_KJELDAHL		milligramsPerLiter	real		Kjeldahl nitrogen	numeric		
+PHOS		milligramsPerLiter	real		Phosphorus as P	numeric		
+TEMP		celsius	real		Water temperature	numeric		
+PH		dimensionless	real		pH	numeric		
+ALK		milligramsPerLiter	real		Total alkalinity	numeric		
+COLOR		dimensionless	real		Apparent color (PCU)	numeric		
+CL		milligramsPerLiter	real		Chloride	numeric		
+NO3_NO2		milligramsPerLiter	real		Inorganic nitrogen (nitrate and nitrite) as N	numeric		
+COND		microsiemensPerCentimeter	real		Specific conductance	numeric		
+TSS		milligramsPerLiter	real		Total suspended solids	numeric		
+TURBIDITY		dimensionless	real		Turbidity	numeric		
+CACO3		milligramsPerLiter	real		Calcium as CaCO3	numeric		
+HARDNESS		milligramsPerLiter	real		Hardness	numeric		
+MG_CACO3		milligramsPerLiter	real		Magnesium as CaCO3	numeric		
+K		milligramsPerLiter	real		Potassium	numeric		
+NA		milligramsPerLiter	real		Sodium	numeric		
+SO4		milligramsPerLiter	real		Sulfate as SO4	numeric		
+CA		milligramsPerLiter	real		Calcium	numeric		
+MG		milligramsPerLiter	real		Magnesium	numeric		
+NO3		milligramsPerLiter	real		Nitrate as N	numeric		
+TN		milligramsPerLiter	real		Total nitrogen	numeric		
+OC		milligramsPerLiter	real		Organic carbon	numeric		
+P_ORTH		milligramsPerLiter	real		Orthophosphate as P	numeric		
+SI		milligramsPerLiter	real		Silica	numeric		
+N_ORG		milligramsPerLiter	real		Organic nitrogen	numeric		
+NO2		milligramsPerLiter	real		Nitrite	numeric		
+FE		milligramsPerLiter	real		Iron	numeric		
+MN		microgramsPerLiter	real		Manganese	numeric		
+FSS		milligramsPerLiter	real		Fixed suspended solids	numeric		
+CHLA_UNCORR		microgramsPerLiter	real		Chlorophyll a uncorrected for pheophytin	numeric		
+COLOR_TRUE		dimensionless	natural		True color (PCU)	numeric		
+CACO3_AS_CACO3		milligramsPerLiter	natural		Calcium carbonate as CaCO3	numeric		
+P_ORG		milligramsPerLiter	real		Organic phosphorus	numeric		
+CATIONS_ANIONS		microequivalentsPerLiter	real		Cations anions	numeric		

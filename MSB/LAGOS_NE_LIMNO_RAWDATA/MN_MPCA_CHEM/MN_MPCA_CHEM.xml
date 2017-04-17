@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.27.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Minnesota Pollution Control Agency Lake Monitoring Program, 1926-1998</title>
+ <creator id="1333044696561"> <individualName><givenName>Steve</givenName>
+<surName>Heiskary</surName>
+</individualName>
+<organizationName>Minnesota Pollution Control Agency</organizationName>
+<positionName>Research Scientist</positionName>
+<address><deliveryPoint>Minnesota Pollution Control Agency</deliveryPoint>
+</address>
+<phone phonetype="voice">651-757-2419</phone>
+<electronicMailAddress>steven.heiskary@state.mn.us</electronicMailAddress>
+</creator>
+ <creator id="1333044767861"><individualName><givenName>Jason</givenName>
+<surName>Ewert</surName>
+</individualName>
+<organizationName>Minnesota Pollution Control</organizationName>
+<positionName>GIS Application Analyst</positionName>
+<phone phonetype="voice">651-757-2346</phone>
+<electronicMailAddress>Jason.Ewert@state.mn.us</electronicMailAddress>
+</creator>
+<abstract><para>The MPCA monitors approximately 100 lakes each year. Each lake is sampled monthly from May to September for a period of two years. The primary focus is on collection of total phosphorus (nutrient), chlorophyll-a (pigment in algae), and Secchi depth (distance light will travel in water). With this information, it is possible to determine the condition of the lake, commonly referred to as the &#8220;trophic status. After a lake has been monitored for a minimum of two years, the water chemistry data are used to assess its condition. The water quality data and the results of the condition assessment are incorporated in a variety of products, including lake assessment reports, status and trend/update reports and fact sheets. &quot;This is an inclusive project created to migrate data to modernized STORET from the 21MINNL Agency Code in Legacy STORET where project information was not stored on the sample or result level. Specific purposes for Legacy STORET data collection may be available in the station descriptions.&quot;</para>
+</abstract>
+<keywordSet><keyword>Minnesota</keyword>
+<keyword>Lake water chemistry</keyword>
+</keywordSet>
+<intellectualRights><para>Data are all public (submitted to EQuIS database)</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Minessota</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-96.29</westBoundingCoordinate>
+<eastBoundingCoordinate>-89.47</eastBoundingCoordinate>
+<northBoundingCoordinate>48.0</northBoundingCoordinate>
+<southBoundingCoordinate>43.25</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1926</calendarDate>
+</beginDate>
+<endDate><calendarDate>1998</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1333044767861</references>
+</contact>
+<contact><references>1333044696561</references>
+</contact>
+<methods><methodStep><description><section><title>Sampling description</title>
+<para>From MPCA Lake Monitoring website</para>
+<para>(http://www.pca.state.mn.us/index.php/water/water-types-and-programs/surface-water/lakes/lakes-and-lake-monitoring-in-minnesota.html):</para>
+<para>&#8220;The MPCA monitors approximately 100 lakes each year. Each lake is sampled monthly from May to September for a period of two years. The primary focus is on collection of total phosphorus (nutrient), chlorophyll-a (pigment in algae), and Secchi depth (distance light will travel in water).</para>
+<para>The MPCA uses the following Standard Operating Procedure (SOP) when conducting its lake monitoring</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<dataTable id="1333056582875"><entityName>MN_MPCA_CHEM_EF.csv</entityName>
+<entityDescription>Minnesota Pollution Control Agency Lake Chemistry</entityDescription>
+<physical id="1333054738073"><objectName>MN_MPCA_CHEM_EF.csv</objectName>
+<size unit="byte">94306401</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1333056582876"><attributeName>SAMPLE_DATE</attributeName>
+<attributeLabel>Date</attributeLabel>
+<attributeDefinition>Sample date</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1333056582877"><attributeName>LOCATION_ID</attributeName>
+<attributeLabel>Location ID</attributeLabel>
+<attributeDefinition>Location ID with station number (last three digits) of 100 or 200 were recorded at unknown location on the lake; other station numbers should have associated geographic coordinates</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582878"><attributeName>COLLECTING_ORG</attributeName>
+<attributeLabel>Collection org</attributeLabel>
+<attributeDefinition>Name of organization responsible for collecting samples/recording observations</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>organization</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582879"><attributeName>SAMPLE_UPPER_DEPTH</attributeName>
+<attributeDefinition>Upper depth at which sample was collected
+Surface grab samples have an upper depth of 0 and no lower depth (blank)
+If no lower depth reported, then samples were collected as discrete samples at the depth listed</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1333056582880"><attributeName>SAMPLE_LOWER_DEPTH</attributeName>
+<attributeDefinition>Lower depth at which sample was collected
+Integrated water column samples have an upper and lower depth
+According to current SOP, nutrient, chlorophyll, and algae samples are collected as integrated samples (0-2 m) for lakes that are 2 m or deeper and as surface samples (bottle in hand) for lakes shallower than 2 m with an additional discrete &#8220;depth sample&#8221; (Kemmerer) collected on lakes greater than 5 m deep</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1333056582881"><attributeName>SAMPLE_DEPTH_UNIT</attributeName>
+<attributeDefinition>Unit for the depth sample</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>m</code>
+<definition>meter</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582882"><attributeName>PARAMETER</attributeName>
+<attributeLabel>water chemistry parameter</attributeLabel>
+<attributeDefinition>Name of analyte being measured</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>&quot;Depth</code>
+<definition>Depth</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;Chlorophyll a</code>
+<definition>Chlorophyll a</definition>
+</codeDefinition>
+<codeDefinition><code>Dissolved oxygen (DO)</code>
+<definition>Dissolved Oxygen</definition>
+</codeDefinition>
+<codeDefinition><code>Dissolved oxygen saturation</code>
+<definition>Dissolved Oxygen Saturation</definition>
+</codeDefinition>
+<codeDefinition><code>Kjeldahl nitrogen</code>
+<definition>Kjeldahl Nitrogen</definition>
+</codeDefinition>
+<codeDefinition><code>Phosphorus as P</code>
+<definition>TP</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;Temperature</code>
+<definition>Temperature</definition>
+</codeDefinition>
+<codeDefinition><code>pH</code>
+<definition>pH</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;Alkalinity</code>
+<definition>Total alkalinity</definition>
+</codeDefinition>
+<codeDefinition><code>Apparent color</code>
+<definition>Color, apparent</definition>
+</codeDefinition>
+<codeDefinition><code>Chloride</code>
+<definition>Chloride</definition>
+</codeDefinition>
+<codeDefinition><code>Inorganic nitrogen (nitrate and nitrite) as N</code>
+<definition>Nitrogen, nitrite and nitrate</definition>
+</codeDefinition>
+<codeDefinition><code>Specific conductance</code>
+<definition>Conductance, specific</definition>
+</codeDefinition>
+<codeDefinition><code>Total suspended solids</code>
+<definition>Solids, total suspended</definition>
+</codeDefinition>
+<codeDefinition><code>Turbidity</code>
+<definition>Turbidity</definition>
+</codeDefinition>
+<codeDefinition><code>Calcium as CaCO3</code>
+<definition>Calcium as CaCO3</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;Hardness</code>
+<definition>Hardness</definition>
+</codeDefinition>
+<codeDefinition><code>Magnesium as CaCO3</code>
+<definition>Magnesium as CaCO3</definition>
+</codeDefinition>
+<codeDefinition><code>Potassium</code>
+<definition>Potassium</definition>
+</codeDefinition>
+<codeDefinition><code>Sodium</code>
+<definition>Sodium</definition>
+</codeDefinition>
+<codeDefinition><code>Sulfate as SO4</code>
+<definition>Sulfate</definition>
+</codeDefinition>
+<codeDefinition><code>Calcium</code>
+<definition>Calcium</definition>
+</codeDefinition>
+<codeDefinition><code>Magnesium</code>
+<definition>Magnesium</definition>
+</codeDefinition>
+<codeDefinition><code>Nitrate as N</code>
+<definition>Nitrogen, nitrate</definition>
+</codeDefinition>
+<codeDefinition><code>Nutrient-nitrogen as N</code>
+<definition>TN</definition>
+</codeDefinition>
+<codeDefinition><code>Organic carbon</code>
+<definition>Carbon, organic</definition>
+</codeDefinition>
+<codeDefinition><code>Orthophosphate as P</code>
+<definition>Phosphorus, orthophosphate</definition>
+</codeDefinition>
+<codeDefinition><code>Silica</code>
+<definition>Silica</definition>
+</codeDefinition>
+<codeDefinition><code>Organic Nitrogen as N</code>
+<definition>Nitrogen, organic</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582883"><attributeName>SAMPLE_FRACTION_TYPE</attributeName>
+<attributeDefinition>Sample of fraction being analyzed
+Dissolved: That portion of the analyte found in the liquid medium.  Cannot be removed by filtration.
+Non-filterable [Non-filter]: That portion of the analyte which is in or absorbed to material which passes through the filter during sample filtration.
+Suspended: That portion of the analyte which is suspended in the sampled medium, either as, or adsorbed to, particles which are more or less uniformly dispersed within the medium.
+Total Recoverable [Tot Rcvrbl]
+Total: The total of all fractions of the analyte.</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Dissolved</code>
+<definition>That portion of the analyte found in the liquid medium.  Cannot be removed by filtration.</definition>
+</codeDefinition>
+<codeDefinition><code>Suspended</code>
+<definition>That portion of the analyte which is suspended in the sampled medium, either as or adsorbed to, particles which are more or less uniformly dispersed within the medium</definition>
+</codeDefinition>
+<codeDefinition><code>Total</code>
+<definition>The total of all fractions of the analyte</definition>
+</codeDefinition>
+<codeDefinition><code>Non-filterable</code>
+<definition>That portion of the analyte which is in or absorbed to material which passes through the filter during sample filtration</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582884"><attributeName>GTLT</attributeName>
+<attributeDefinition>Indicates if value is &gt; or &lt; value listed in RESULT Column</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>&lt;</code>
+<definition>less than value listed in RESULT</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582885"><attributeName>RESULT</attributeName>
+<attributeDefinition>Result of analysis</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>blank</code>
+</missingValueCode>
+</attribute>
+<attribute id="1333056582886"><attributeName>RESULT_UNIT</attributeName>
+<attributeDefinition>Unit of result</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>unit of water chemistry result</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582887"><attributeName>SAMPLE_TYPE</attributeName>
+<attributeDefinition>Type of sample collected</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>FMO</code>
+<definition>Field Msr/Obs</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582888"><attributeName>COMMENT</attributeName>
+<attributeDefinition>Comments from samplers</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582889"><attributeName>STATISTIC_TYPE</attributeName>
+<attributeDefinition>Minimum: Minimum value reported (applies to Secchi depth)
+Maximum: Maximum value reported (applies to True Color)
+MPN: Most probably number</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>statistic type</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582890"><attributeName>TEST_METHOD_ID</attributeName>
+<attributeDefinition>Analytical method ID</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>lab procedure code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582891"><attributeName>TEST_METHOD_NAME</attributeName>
+<attributeDefinition>Name of analytical method (See below for individual analytes)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>lab analysis name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582892"><attributeName>ANALYSIS_DATE</attributeName>
+<attributeDefinition>Date of analysis</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1333056582893"><attributeName>STATION_ID_CODE</attributeName>
+<attributeDefinition>11-digit ID (##-####-##-###) for sampling location
+Same as location ID</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>location ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582894"><attributeName>STATION_TYPE</attributeName>
+<attributeDefinition>Type of station where data were collected</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>station type</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582895"><attributeName>HUC8</attributeName>
+<attributeDefinition>Hydrologic Unit Code consisting of 8 digits</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>HUC 8 code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1333056582896"><attributeName>APPROVAL_CODE</attributeName>
+<attributeDefinition>Indicates if the value has been approved</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>approval</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>441082</numberOfRecords>
+</dataTable>
+</dataset>
+ </eml:eml>
