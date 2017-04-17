@@ -1,0 +1,11 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+lakeid			character	lake name abbreviation	lake name abbreviation	factor		
+year4	YYYY				year	Date		
+daynum		dimensionless	natural		day of year	numeric		
+sampledate	MM/DD/YYYY				sample date	Date		
+rep		dimensionless	natural		replicate number	numeric		
+depth		meter	real		depth	numeric		
+chlor		microgramsPerLiter	real		chlorophyll a concentration	numeric		
+phaeo		microgramsPerLiter	real		phaeophyton concentration	numeric		
+flagchlor			character	data flag for chlor	data flag for chlor	factor		
+flagphaeo			character	data flag for phaeo	data flag for phaeo	factor		
