@@ -1,0 +1,2534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.53.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+ <dataset>
+  <title>EPA National Lake Assessment Survey Lower 48 States Lake Chemistry</title>
+  <creator id="1343937804172">
+   <individualName>
+    <givenName>Ellen</givenName>
+    <surName>Tarquinio</surName>
+   </individualName>
+   <organizationName>USEPA Office of Wetlands, Oceans and Watersheds</organizationName>
+   <positionName>Supervisor</positionName>
+   <phone phonetype="voice">202-566-2267</phone>
+   <electronicMailAddress>Tarquinio.Ellen@epamail.epa.gov</electronicMailAddress>
+  </creator>
+  <creator id="1343937833414">
+   <individualName>
+    <givenName>Amina</givenName>
+    <surName>Pollard</surName>
+   </individualName>
+   <organizationName>USEPA Office of Wetlands, Oceans and Watersheds</organizationName>
+   <positionName>Research scientist</positionName>
+   <phone phonetype="voice">202-566-2360</phone>
+   <electronicMailAddress>pollard.amina@epa.gov</electronicMailAddress>
+  </creator>
+  <abstract>
+   <para>EPA and its state and tribal partners conducted a survey of the nation's lakes, ponds and
+    reservoirs (&gt;10 acres, using NHD) in 2007. This National Lakes Assessment was designed to
+    provide statistically valid regional and national estimates of the condition of lakes. It used a
+    probability-based sampling design (5 size classes of lakes, 9 agglomerated Omernik ecoregions,
+    and spatially distributed across the lower 48 US states) to represent the condition of all lakes
+    in similar regions sharing similar ecological characteristics. Consistent sampling and
+    analytical procedures ensured that the results could be compared across the country. The NLA
+    helped build state and tribal capacity for monitoring and assessment and promoted collaboration
+    across jurisdictional boundaries in the assessment of water quality. 1000 total lakes were
+    included in the NLA (909 lakes visited once and 91 that were revisited), however, the dbase also
+    includes additional lakes for any states that performed an &#8216;intensification&#8217; in
+    order to do a state-wide lake assessment. Finally, there are lakes that are designated as
+    &#8216;reference&#8217; lakes that were not chosen in the same probabilistic fashion, but were
+    chosen state-by-state using a variety of methods. For more info on the lakes and survey design
+    see:
+    http://water.epa.gov/type/lakes/upload/2006_05_05_lakes_lakessurvey_site_selection_factsheet.pdf</para>
+  </abstract>
+  <keywordSet>
+   <keyword>EPA</keyword>
+   <keyword>National Lake Assessment</keyword>
+   <keyword>Lower 48 states</keyword>
+   <keyword>Water chemistry</keyword>
+  </keywordSet>
+  <intellectualRights>
+   <para>Data are public</para>
+  </intellectualRights>
+  <coverage>
+   <geographicCoverage>
+    <geographicDescription>US lower 48 states</geographicDescription>
+    <boundingCoordinates>
+     <westBoundingCoordinate>-122.25</westBoundingCoordinate>
+     <eastBoundingCoordinate>-70.125</eastBoundingCoordinate>
+     <northBoundingCoordinate>49.0</northBoundingCoordinate>
+     <southBoundingCoordinate>23.25</southBoundingCoordinate>
+    </boundingCoordinates>
+   </geographicCoverage>
+   <temporalCoverage>
+    <singleDateTime>
+     <calendarDate>2007</calendarDate>
+    </singleDateTime>
+   </temporalCoverage>
+  </coverage>
+  <contact>
+   <references>1343937804172</references>
+  </contact>
+  <contact>
+   <references>1343937833414</references>
+  </contact>
+  <methods>
+   <methodStep>
+    <description>
+     <section>
+      <title>Field sampling</title>
+      <para>See Field protocol manual</para>
+     </section>
+    </description>
+   </methodStep>
+   <methodStep>
+    <description>
+     <section>
+      <title>Lab analysis</title>
+      <para>See lab manual pdf</para>
+     </section>
+    </description>
+   </methodStep>
+   <sampling>
+    <studyExtent>
+     <description>
+      <para>Lower 48 states - sample of lakes that are spatially distributed throughout lower 48
+       states in US</para>
+     </description>
+    </studyExtent>
+    <samplingDescription>
+     <para>See field protocol manual</para>
+    </samplingDescription>
+   </sampling>
+  </methods>
+  <dataTable id="1343943361075">
+   <entityName>EPA_NLA_CHEM.csv</entityName>
+   <entityDescription>EPA National Lake Assessment Survey lower 48 US states Lake Water Chemistry
+    2007</entityDescription>
+   <physical id="1343938171740">
+    <objectName>EPA_NLA_CHEM.csv</objectName>
+    <size unit="byte">727830</size>
+    <dataFormat>
+     <textFormat>
+      <numHeaderLines>1</numHeaderLines>
+      <recordDelimiter>#x0A</recordDelimiter>
+      <attributeOrientation>column</attributeOrientation>
+      <simpleDelimited>
+       <fieldDelimiter>,</fieldDelimiter>
+      </simpleDelimited>
+     </textFormat>
+    </dataFormat>
+    <distribution>
+     <offline>
+      <mediumName>hard drive</mediumName>
+     </offline>
+    </distribution>
+   </physical>
+   <attributeList>
+    <attribute id="1343943361076">
+     <attributeName>SITE_ID</attributeName>
+     <attributeDefinition>ID assigned to each site</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Site ID</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361077">
+     <attributeName>YEAR</attributeName>
+     <attributeDefinition>Sample Year</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>YYYY</formatString>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361078">
+     <attributeName>VISIT_NO</attributeName>
+     <attributeDefinition>Sequential visit number within year</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ordinal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>visit number within a year</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </ordinal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361079">
+     <attributeName>SITE_TYPE</attributeName>
+     <attributeDefinition>Site type</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>PROB_Lake</code>
+          <definition>Lake is from probability sample and can be used for population
+           estimation</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>REF_Lake</code>
+          <definition>ake is not from probability sample and was selected as a candidate reference
+           lake</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361080">
+     <attributeName>LAKE_SAMP</attributeName>
+     <attributeDefinition>Evaluation status</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>evaluation status</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361081">
+     <attributeName>SAMPLED</attributeName>
+     <attributeDefinition>Was lake sampled? (Yes/No)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Yes</code>
+          <definition>lake was sampled</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361082">
+     <attributeName>DATE_COL</attributeName>
+     <attributeDefinition>Date of site visit</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>MM/DD/YYYY</formatString>
+       <dateTimePrecision>0</dateTimePrecision>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361083">
+     <attributeName>SAMPLE_CATEGORY</attributeName>
+     <attributeDefinition>Sample type</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>P</code>
+          <definition>Primary</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>D</code>
+          <definition>Field duplicate</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361084">
+     <attributeName>DATECHEM</attributeName>
+     <attributeDefinition>Date water chemistry sample collected</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>MM/DD/YYYY</formatString>
+       <dateTimePrecision>0</dateTimePrecision>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361085">
+     <attributeName>SAMPLED_CHEM</attributeName>
+     <attributeDefinition>Site Sampled Code for Water Chemistry Data</attributeDefinition>
+     <storageType>text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Site sampled code</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361086">
+     <attributeName>INDXSAMP_CHEM</attributeName>
+     <attributeDefinition>Index chemistry sample for site (YES/NO)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>YES</code>
+          <definition>Yes</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>NO</code>
+          <definition>No</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361087">
+     <attributeName>PH_FIELD</attributeName>
+     <attributeLabel>pH</attributeLabel>
+     <attributeDefinition>Field pH from Profile DO data (pH measured at first non-zero depth unless
+      only depth was zero)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>dimensionless</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">4.1</minimum>
+         <maximum exclusive="true">10.3</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361088">
+     <attributeName>PH_FIELD_DEPTH</attributeName>
+     <attributeDefinition>Depth at which Field pH was Measured (m)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361089">
+     <attributeName>SAMPLE_DEPTH</attributeName>
+     <attributeDefinition>Depth of integrated sample (typically 2 m)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361090">
+     <attributeName>SAMPLE_ID_CHEM</attributeName>
+     <attributeDefinition>Sample ID number</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Sample ID</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361091">
+     <attributeName>LAB_ID_CHEM</attributeName>
+     <attributeDefinition>Laboratory Sample Identification Number</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Lab ID</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361092">
+     <attributeName>PH_LAB</attributeName>
+     <attributeLabel>pH</attributeLabel>
+     <attributeDefinition>pH measured at laboratory</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>dimensionless</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">4.16</minimum>
+         <maximum exclusive="true">10.09</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361093">
+     <attributeName>PHLAB_FLAG</attributeName>
+     <attributeDefinition>Flag for PH_LAB</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>flag</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361094">
+     <attributeName>COND</attributeName>
+     <attributeLabel>Conductivity</attributeLabel>
+     <attributeDefinition>Conductivity (uS/cm @ 25 C)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>uS</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">4.35</minimum>
+         <maximum exclusive="true">50590</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361095">
+     <attributeName>COND_FLAG</attributeName>
+     <attributeDefinition>Flag for COND</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>flag</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361096">
+     <attributeName>COND_RL_ALERT</attributeName>
+     <attributeDefinition>COND Value Below Reporting Limit of 2.0 uS/cm @ 25 C
+      (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361097">
+     <attributeName>ANC</attributeName>
+     <attributeLabel>Alkalinity</attributeLabel>
+     <attributeDefinition>Gran ANC (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">-62.96</minimum>
+         <maximum exclusive="true">91632.9</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361098">
+     <attributeName>ANC_FLAG</attributeName>
+     <attributeDefinition>Flag for ANC</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>flag</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361099">
+     <attributeName>TURB</attributeName>
+     <attributeLabel>Turbidity</attributeLabel>
+     <attributeDefinition>Turbidity (NTU)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>NTU</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.147</minimum>
+         <maximum exclusive="true">574</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361100">
+     <attributeName>TURB_FLAG</attributeName>
+     <attributeDefinition>Flag for TURB</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>flag</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361101">
+     <attributeName>TURB_RL_ALERT</attributeName>
+     <attributeDefinition>TURB Value Below Reporting Limit of 2.0 NTU (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361102">
+     <attributeName>TOC</attributeName>
+     <attributeLabel>Carbon, total organic</attributeLabel>
+     <attributeDefinition>Total Organic Carbon (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.37</minimum>
+         <maximum exclusive="true">325.05</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361103">
+     <attributeName>TOC_FLAG</attributeName>
+     <attributeDefinition>Flag for TOC</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>flag</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361104">
+     <attributeName>TOC_RL_ALERT</attributeName>
+     <attributeDefinition>TOC Value Below Reporting Limit of 0.20 mg/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361105">
+     <attributeName>DOC</attributeName>
+     <attributeLabel>Carbon, dissolved organic</attributeLabel>
+     <attributeDefinition>Dissolved Organic Carbon (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.34</minimum>
+         <maximum exclusive="true">290.57</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361106">
+     <attributeName>DOC_FLAG</attributeName>
+     <attributeDefinition>Flag for DOC</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>flag</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361107">
+     <attributeName>DOC_RL_ALERT</attributeName>
+     <attributeDefinition>DOC Value Below Reporting Limit of 0.20 mg/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361108">
+     <attributeName>NH4N_PPM</attributeName>
+     <attributeLabel>Nitrogen, NH4</attributeLabel>
+     <attributeDefinition>Ammonium (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">2.62</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361109">
+     <attributeName>NH4</attributeName>
+     <attributeLabel>Nitrogen, NH4</attributeLabel>
+     <attributeDefinition>Ammonium (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">187.19</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361110">
+     <attributeName>NH4_FLAG</attributeName>
+     <attributeDefinition>Flag for NH4</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (0.02)</code>
+          <definition>below reporting limits</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361111">
+     <attributeName>NH4_RL_ALERT</attributeName>
+     <attributeDefinition>NH4 Value Below Reporting Limit of 1.43 ueq/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361112">
+     <attributeName>NO3_NO2</attributeName>
+     <attributeLabel>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeLabel>
+     <attributeDefinition>Nitrate + Nitrite by Flow Injection Analysis (mg
+      N/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">6.186</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361113">
+     <attributeName>NO3NO2_FLAG</attributeName>
+     <attributeDefinition>Flag for NO3_NO2</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (0.02)</code>
+          <definition>below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361114">
+     <attributeName>NO3NO2_RL_ALERT</attributeName>
+     <attributeDefinition>NO3NO2 Value Below Reporting Limit of 0.02 mg N/L
+      (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361115">
+     <attributeName>NTL_PPM</attributeName>
+     <attributeLabel>Nitrogen, Total</attributeLabel>
+     <attributeDefinition>Total Nitrogen (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.01</minimum>
+         <maximum exclusive="true">26.1</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361116">
+     <attributeName>NTL</attributeName>
+     <attributeLabel>Nitrogen, total</attributeLabel>
+     <attributeDefinition>Total Nitrogen (ug/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>microgramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">5</minimum>
+         <maximum exclusive="true">26100</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361117">
+     <attributeName>NTL_FLAG</attributeName>
+     <attributeDefinition>Flag for NTL</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (20)</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361118">
+     <attributeName>NTL_RL_ALERT</attributeName>
+     <attributeDefinition>NTL Value Below Reporting Limit of 20.00 ug/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361119">
+     <attributeName>PTL</attributeName>
+     <attributeLabel>Phosphorus, total</attributeLabel>
+     <attributeDefinition>Total Phosphorus (ug/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>microgramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">4865</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361120">
+     <attributeName>PTL_FLAG</attributeName>
+     <attributeDefinition>Flag for PTL</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (4)</code>
+          <definition>below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361121">
+     <attributeName>PTL_RL_ALERT</attributeName>
+     <attributeDefinition>PTL Value Below Reporting Limit of 4.00 ug/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361122">
+     <attributeName>CL_PPM</attributeName>
+     <attributeLabel>Chloride</attributeLabel>
+     <attributeDefinition>Chloride (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.05</minimum>
+         <maximum exclusive="true">15814.3</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361123">
+     <attributeName>CL</attributeName>
+     <attributeDefinition>Chloride (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">1.5</minimum>
+         <maximum exclusive="true">446058.3</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361124">
+     <attributeName>CL_FLAG</attributeName>
+     <attributeDefinition>Flag for CL</attributeDefinition>
+     <storageType>text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (0.2)</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361125">
+     <attributeName>CL_RL_ALERT</attributeName>
+     <attributeDefinition>CL Value Below Reporting Limit of 5.64 ueq/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361126">
+     <attributeName>NO3N_PPM</attributeName>
+     <attributeLabel>Nitrogen, nitrate (NO3)</attributeLabel>
+     <attributeDefinition>Nitrate (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">5.409</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361127">
+     <attributeName>NO3</attributeName>
+     <attributeLabel>Nitrogen, nitrate (NO3)</attributeLabel>
+     <attributeDefinition>Nitrate (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">386.16</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361128">
+     <attributeName>NO3_FLAG</attributeName>
+     <attributeDefinition>Flag for NO3</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (0.02)</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361129">
+     <attributeName>NO3_RL_ALERT</attributeName>
+     <attributeDefinition>NO3 Value Below Reporting Limit of 1.43 ueq/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361130">
+     <attributeName>SO4_PPM</attributeName>
+     <attributeLabel>Sulfate</attributeLabel>
+     <attributeDefinition>Sulfate (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">40085</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361131">
+     <attributeName>SO4</attributeName>
+     <attributeLabel>Sulfate</attributeLabel>
+     <attributeDefinition>Sulfate (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">834585</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361132">
+     <attributeName>SO4_FLAG</attributeName>
+     <attributeDefinition>Flag for SO4</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (0.5)</code>
+          <definition>Below reporting limits</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361133">
+     <attributeName>SO4_RL_ALERT</attributeName>
+     <attributeDefinition>SO4 Value Below Reporting Limit of 10.41 ueq/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361134">
+     <attributeName>CA_PPM</attributeName>
+     <attributeLabel>Calcium</attributeLabel>
+     <attributeDefinition>Calcium (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.205</minimum>
+         <maximum exclusive="true">485.7</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361135">
+     <attributeName>CA</attributeName>
+     <attributeLabel>Calcium</attributeLabel>
+     <attributeDefinition>Calcium (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">10.22</minimum>
+         <maximum exclusive="true">24236.4</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361136">
+     <attributeName>CA_FLAG</attributeName>
+     <attributeDefinition>Flag for CA</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>flag</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361137">
+     <attributeName>CA_RL_ALERT</attributeName>
+     <attributeDefinition>CA Value Below Reporting Limit of 4.99 ueq/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361138">
+     <attributeName>MG_PPM</attributeName>
+     <attributeLabel>Magnesium</attributeLabel>
+     <attributeDefinition>Magnesium (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.06</minimum>
+         <maximum exclusive="true">2466</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361139">
+     <attributeName>MG</attributeName>
+     <attributeLabel>Magnesium</attributeLabel>
+     <attributeDefinition>Magnesium (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">5.10</minimum>
+         <maximum exclusive="true">202922.20</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361140">
+     <attributeName>MG_FLAG</attributeName>
+     <attributeDefinition>Flag for MG</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (0.1)</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361141">
+     <attributeName>MG_RL_ALERT</attributeName>
+     <attributeDefinition>MG Value Below Reporting Limit of 8.23 ueq/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below RL</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below RL</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361142">
+     <attributeName>NA_PPM</attributeName>
+     <attributeDefinition>Sodium (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.19</minimum>
+         <maximum exclusive="true">16740</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361143">
+     <attributeName>NA</attributeName>
+     <attributeLabel>Sodium</attributeLabel>
+     <attributeDefinition>Sodium (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">8.39</minimum>
+         <maximum exclusive="true">728149.2</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361144">
+     <attributeName>NA_FLAG</attributeName>
+     <attributeDefinition>Flag for NA</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>flag</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361145">
+     <attributeName>NA_RL_ALERT</attributeName>
+     <attributeDefinition>NA Value Below Reporting Limit of 4.35 ueq/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361146">
+     <attributeName>K_PPM</attributeName>
+     <attributeLabel>Potassium</attributeLabel>
+     <attributeDefinition>Potassium (mg/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.05</minimum>
+         <maximum exclusive="true">1412</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361147">
+     <attributeName>K</attributeName>
+     <attributeLabel>Potassium</attributeLabel>
+     <attributeDefinition>Potassium (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">1.27</minimum>
+         <maximum exclusive="true">36114</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361148">
+     <attributeName>K_FLAG</attributeName>
+     <attributeDefinition>Flag for K</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (0.1)</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361149">
+     <attributeName>K_RL_ALERT</attributeName>
+     <attributeDefinition>K Value Below Reporting Limit of 2.56 ueq/L (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below RL</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below RL</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361150">
+     <attributeName>COLOR</attributeName>
+     <attributeLabel>Color, true</attributeLabel>
+     <attributeDefinition>Color (PCU)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>PCU</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">165</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361151">
+     <attributeName>COLOR_FLAG</attributeName>
+     <attributeDefinition>Flag for COLOR</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (5)</code>
+          <definition>Below reporting limits</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361152">
+     <attributeName>COLOR_RL_ALERT</attributeName>
+     <attributeDefinition>COLOR Value Below Reporting Limit of 5.0 PCU (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361153">
+     <attributeName>SIO2</attributeName>
+     <attributeLabel>Silica</attributeLabel>
+     <attributeDefinition>Silica (mg/L SiO2)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.025</minimum>
+         <maximum exclusive="true">91.9</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361154">
+     <attributeName>SIO2_FLAG</attributeName>
+     <attributeDefinition>Flag for SIO2</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>&lt;RL (0.1)</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361155">
+     <attributeName>SIO2_RL_ALERT</attributeName>
+     <attributeDefinition>SIO2 Value Below Reporting Limit of 0.10 mg/L SiO2
+      (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Below reporting limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361156">
+     <attributeName>NH4ION</attributeName>
+     <attributeLabel>Nitrogen, NH4</attributeLabel>
+     <attributeDefinition>Calculated NH4+ protolyte (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0</minimum>
+         <maximum exclusive="true">161</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361157">
+     <attributeName>CATSUM</attributeName>
+     <attributeLabel>Cations</attributeLabel>
+     <attributeDefinition>Sum of Cations (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">28.67</minimum>
+         <maximum exclusive="true">941539</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361158">
+     <attributeName>ANSUM2</attributeName>
+     <attributeLabel>Anions</attributeLabel>
+     <attributeDefinition>Sum of Anions using ANC (ueq/L)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ueq/L</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">32.84</minimum>
+         <maximum exclusive="true">963215</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361159">
+     <attributeName>DAY_SHIP</attributeName>
+     <attributeDefinition>Number of Days between Sample Collection (DATECHEM) and Sample Filtering
+      at Lab (DATE_FILTERED)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>nominalDay</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>natural</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361160">
+     <attributeName>DAYSHIP_ALERT</attributeName>
+     <attributeDefinition>Number of Days between Sample Collection (DATECHEM) and Sample Filtering
+      at Lab (DATE_FILTERED) Exceeded 2 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Exceeded 2 days</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed 2 days</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361161">
+     <attributeName>DATE_RECEIVED</attributeName>
+     <attributeDefinition>Date Sample was Received by Lab (from tracking data or WRS lab file '2007
+      Plan 0331081.xls')</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>MM/DD/YYYY</formatString>
+       <dateTimePrecision>0</dateTimePrecision>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361162">
+     <attributeName>DATE_FILTERED</attributeName>
+     <attributeDefinition>Date Sample was Filtered at Lab</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>MM/DD/YYYY</formatString>
+       <dateTimePrecision>0</dateTimePrecision>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361163">
+     <attributeName>DATEFILT_ALERT</attributeName>
+     <attributeDefinition>Sample Filtered at Lab Date (DATE_FILTERED) is AFTER Sample Received by
+      Lab Date (DATE_RECEIVED) (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not Sample Filtered at Lab Date (DATE_FILTERED) is AFTER Sample Received by
+           Lab Date</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Sample Filtered at Lab Date (DATE_FILTERED) is AFTER Sample Received by Lab
+           Date</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361164">
+     <attributeName>PHLAB_HT_ALERT</attributeName>
+     <attributeDefinition>PH_LAB Holding Time Exceeded Limit of 3 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Holding time exceed limit of 3 days</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361165">
+     <attributeName>COND_HT_ALERT</attributeName>
+     <attributeDefinition>COND Holding Time Exceeded Limit of 7 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>COND Holding Time Exceeded Limit of 7 Days (Y/N)</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361166">
+     <attributeName>ANC_HT_ALERT</attributeName>
+     <attributeDefinition>Holding Time Exceeded Limit of 7 Days (Y/N)</attributeDefinition>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Holding Time Exceeded Limit of 7 Days (Y/N)</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361167">
+     <attributeName>TURB_HT_ALERT</attributeName>
+     <attributeDefinition>TURB Holding Time Exceeded Limit of 3 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>TURB Holding Time Exceeded Limit of 3 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exeed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361168">
+     <attributeName>TOC_HT_ALERT</attributeName>
+     <attributeDefinition>TOC Holding Time Exceeded Limit of 14 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>TOC Holding Time Exceeded Limit of 14 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361169">
+     <attributeName>DOC_HT_ALERT</attributeName>
+     <attributeDefinition>DOC Holding Time Exceeded Limit of 14 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>DOC Holding Time Exceeded Limit of 14 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361170">
+     <attributeName>NH4_HT_ALERT</attributeName>
+     <attributeDefinition>Holding Time Exceeded Limit of 28 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Holding Time Exceeded Limit of 28 Days (Y/N)</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361171">
+     <attributeName>NO3NO2_HT_ALERT</attributeName>
+     <attributeDefinition>NO3NO2 Holding Time Exceeded Limit of 7 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>NO3NO2 Holding Time Exceeded Limit of 7 Days (Y/N)</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361172">
+     <attributeName>NTL_HT_ALERT</attributeName>
+     <attributeDefinition>Total N Holding Time Exceeded Limit of 28 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>NTL Holding Time Exceeded Limit of 28 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361173">
+     <attributeName>PTL_HT_ALERT</attributeName>
+     <attributeDefinition>PTL Holding Time Exceeded Limit of 28 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>PTL Holding Time Exceeded Limit of 28 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361174">
+     <attributeName>CL_HT_ALERT</attributeName>
+     <attributeDefinition>CL Holding Time Exceeded Limit of 7 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>CL Holding Time Exceeded Limit of 7 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361175">
+     <attributeName>NO3_HT_ALERT</attributeName>
+     <attributeDefinition>Holding Time Exceeded Limit of 7 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Holding Time Exceeded Limit of 7 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361176">
+     <attributeName>SO4_HT_ALERT</attributeName>
+     <attributeDefinition>Holding Time Exceeded Limit of 7 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Holding Time Exceeded Limit of 7 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361177">
+     <attributeName>CA_HT_ALERT</attributeName>
+     <attributeDefinition>CA Holding Time Exceeded Limit of 180 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>CA Holding Time Exceeded Limit of 180 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361178">
+     <attributeName>MG_HT_ALERT</attributeName>
+     <attributeDefinition>MG Holding Time Exceeded Limit of 180 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>MG Holding Time Exceeded Limit of 180 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361179">
+     <attributeName>NA_HT_ALERT</attributeName>
+     <attributeDefinition>NA Holding Time Exceeded Limit of 180 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>NA Holding Time Exceeded Limit of 180 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361180">
+     <attributeName>K_HT_ALERT</attributeName>
+     <attributeDefinition>K Holding Time Exceeded Limit of 180 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>K Holding Time Exceeded Limit of 180 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361181">
+     <attributeName>COLOR_HT_ALERT</attributeName>
+     <attributeDefinition>COLOR Holding Time Exceeded Limit of 3 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>COLOR Holding Time Exceeded Limit of 3 Days (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361182">
+     <attributeName>SIO2_HT_ALERT</attributeName>
+     <attributeDefinition>SIO2 Holding Time Exceeded Limit of 7 Days (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Did not exceed limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>SIO2 Holding Time Exceeded Limit of 7 Days (Y/N)</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361183">
+     <attributeName>COM_FIELD_PH</attributeName>
+     <attributeDefinition>Field pH comment from Profile_do_com data</attributeDefinition>
+     <storageType typeSystem="exel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>comment</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361184">
+     <attributeName>COMMENT_FLD_CHEM</attributeName>
+     <attributeDefinition>Field Sampling Comments</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>comments</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361185">
+     <attributeName>COMMENT_LAB_CHEM</attributeName>
+     <attributeDefinition>Laboratory Analysis Comments</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>comments</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361186">
+     <attributeName>COMMENT_IM_CHEM</attributeName>
+     <attributeDefinition>IM Data Validation Comments</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>comments</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361187">
+     <attributeName>INDXSAMP_CHLA</attributeName>
+     <attributeDefinition>Index chlorophyll sample for site (YES/NO)-typically the Visit 1 Primary
+      sample</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>yes/no</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361188">
+     <attributeName>DATECHLA</attributeName>
+     <attributeDefinition>Date chlorophyll a sample collected</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>MM/DD/YYYY</formatString>
+       <dateTimePrecision>0</dateTimePrecision>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361189">
+     <attributeName>SAMPLED_CHLA</attributeName>
+     <attributeDefinition>CHLA SAMPLE COLLECTED/ANALYZED</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Y/N</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361190">
+     <attributeName>CHLA</attributeName>
+     <attributeLabel>Chlorophyll a</attributeLabel>
+     <attributeDefinition>Chlorophyll a concentration (&#181;g/L). Calculated as
+      CHLA_ADJ*(40/VOL_FILTERED)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>microgramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.06</minimum>
+         <maximum exclusive="true">936</maximum>
+        </bounds>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361191">
+     <attributeName>SAMPLE_ID_CHLA</attributeName>
+     <attributeDefinition>Sample ID number</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>ID</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361192">
+     <attributeName>LAB_ID_CHLA</attributeName>
+     <attributeDefinition>Laboratory sample ID</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Laboratory sample ID</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361193">
+     <attributeName>CHLA_RL_ALERT</attributeName>
+     <attributeDefinition>CHLA REPORTING LIMIT (&lt; 0.1 ug/L) ALERT (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not below reporting limit</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>CHLA REPORTING LIMIT (&lt; 0.1 ug/L) ALERT (Y/N)</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361194">
+     <attributeName>FLAG_FLD_CHLA</attributeName>
+     <attributeDefinition>Data qualifier (Field Crew)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>K</code>
+          <definition>Value could not be determined</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>U</code>
+          <definition>Non-standard measurement</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Fn</code>
+          <definition>Other comment</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361195">
+     <attributeName>COMMENT_FLD_CHLA</attributeName>
+     <attributeDefinition>CHLA comments recorded by field crew</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>comments</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361196">
+     <attributeName>FLAG_LAB_CHLA</attributeName>
+     <attributeDefinition>Data qualifier (laboratory)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>K</code>
+          <definition>Value could not be determined</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>S</code>
+          <definition>value changed [orig. value in parentheses]</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>B</code>
+          <definition>below reporting level [3 &#181;g/L]</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361197">
+     <attributeName>COMMENT_LAB_CHLA</attributeName>
+     <attributeDefinition>CHLA comments recorded by lab personnel</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>comments</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361198">
+     <attributeName>CHLA_HT_ALERT</attributeName>
+     <attributeDefinition>CHLA HOLDING TIME (&gt; 28 days) ALERT (Y/N)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>CHLA HOLDING TIME (&gt; 28 days) ALERT (Y/N)</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>N</code>
+          <definition>Not beyond holding time</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361199">
+     <attributeName>DATESECCHI</attributeName>
+     <attributeLabel>Secchi, no view</attributeLabel>
+     <attributeDefinition>Date of Secchi transparency determination</attributeDefinition>
+     <measurementScale>
+      <dateTime>
+       <formatString>mm/dd/yyyy</formatString>
+       <dateTimePrecision>0</dateTimePrecision>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361200">
+     <attributeName>SAMPLED_SECCHI</attributeName>
+     <attributeDefinition>Secchi transparency determined</attributeDefinition>
+     <storageType>text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Y/N</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361201">
+     <attributeName>SECMEAN</attributeName>
+     <attributeDefinition>Secchi transparency (m)(=avg. of disk disappearance and reappearance
+      depths)</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <interval>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds>
+         <minimum exclusive="true">0.04</minimum>
+         <maximum exclusive="true">36.71</maximum>
+        </bounds>
+       </numericDomain>
+      </interval>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361202">
+     <attributeName>CLEAR_TO_BOTTOM</attributeName>
+     <attributeDefinition>Clear all the way to the bottom (Y/blank)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>Y</code>
+          <definition>Clear to bottom</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361203">
+     <attributeName>COMMENT_SECCHI</attributeName>
+     <attributeDefinition>Comments and flag explanations for Secchi
+      determination</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>comments</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361204">
+     <attributeName>VISIT_ID</attributeName>
+     <attributeDefinition>ID of site visit</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>visit ID</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1343943361205">
+     <attributeName>FLAG_SECCHI</attributeName>
+     <attributeDefinition>Data Qualifier flag for Secchi determination</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>flag</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+   </attributeList>
+   <numberOfRecords>1326</numberOfRecords>
+  </dataTable>
+ </dataset>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="uS" multiplierToSI=" " name="uS" parentSI="siemen" unitType="conductance">
+     <description>micro seimen at 20 degC</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="ueq/L" multiplierToSI=" " name="ueq/L" parentSI="kilogramsPerCubicMeter"
+     unitType="massDensity">
+     <description>microequivalentsPerLiter</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount">
+     <description>turbidity</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="PCU" multiplierToSI=" " name="PCU" parentSI="mole" unitType="amount">
+     <description>Platinum Cobalt Units</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+</eml:eml>

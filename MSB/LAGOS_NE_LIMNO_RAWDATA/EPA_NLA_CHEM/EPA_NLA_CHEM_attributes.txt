@@ -1,0 +1,131 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+SITE_ID			character	ID assigned to each site	ID assigned to each site	character		
+YEAR	YYYY				Sample Year	Date		
+VISIT_NO		dimensionless	real		Sequential visit number within year	numeric		
+SITE_TYPE			character	Site type	Site type	factor		
+LAKE_SAMP			character	Evaluation status	Evaluation status	character		
+SAMPLED			character	Was lake sampled? (Yes/No)	Was lake sampled? (Yes/No)	factor		
+DATE_COL	MM/DD/YYYY				Date of site visit	Date		
+SAMPLE_CATEGORY			character	Sample type	Sample type	factor		
+DATECHEM	MM/DD/YYYY				Date water chemistry sample collected	Date		
+SAMPLED_CHEM			character	Site Sampled Code for Water Chemistry Data	Site Sampled Code for Water Chemistry Data	character		
+INDXSAMP_CHEM			character	Index chemistry sample for site (YES/NO)	Index chemistry sample for site (YES/NO)	factor		
+PH_FIELD		dimensionless	real		Field pH from Profile DO data (pH measured at first non-zero depth unless only depth was zero)	numeric		
+PH_FIELD_DEPTH		meter	real		Depth at which Field pH was Measured (m)	numeric		
+SAMPLE_DEPTH		meter	real		Depth of integrated sample (typically 2 m)	numeric		
+SAMPLE_ID_CHEM			natural	Sample ID number	Sample ID number	character		
+LAB_ID_CHEM			natural	Laboratory Sample Identification Number	Laboratory Sample Identification Number	character		
+PH_LAB		dimensionless	real		pH measured at laboratory	numeric		
+PHLAB_FLAG			character	Flag for PH_LAB	Flag for PH_LAB	character		
+COND		microsiemensPerCentimeter	real		Conductivity (uS/cm at 25 C)	numeric		
+COND_FLAG			character	Flag for COND	Flag for COND	character		
+COND_RL_ALERT			character	COND Value Below Reporting Limit of 2.0 uS/cm at 25 C (Y/N)	COND Value Below Reporting Limit of 2.0 uS/cm at 25 C (Y/N)	factor		
+ANC		microequivalentsPerLiter	real		Gran ANC (ueq/L)	numeric		
+ANC_FLAG			character	Flag for ANC	Flag for ANC	character		
+TURB		dimensionless	real		Turbidity (NTU)	numeric		
+TURB_FLAG			character	Flag for TURB	Flag for TURB	character		
+TURB_RL_ALERT			character	TURB Value Below Reporting Limit of 2.0 NTU (Y/N)	TURB Value Below Reporting Limit of 2.0 NTU (Y/N)	factor		
+TOC		milligramsPerLiter	real		Total Organic Carbon (mg/L)	numeric		
+TOC_FLAG			character	Flag for TOC	Flag for TOC	character		
+TOC_RL_ALERT			character	TOC Value Below Reporting Limit of 0.20 mg/L (Y/N)	TOC Value Below Reporting Limit of 0.20 mg/L (Y/N)	factor		
+DOC		milligramsPerLiter	real		Dissolved Organic Carbon (mg/L)	numeric		
+DOC_FLAG			character	Flag for DOC	Flag for DOC	character		
+DOC_RL_ALERT			character	DOC Value Below Reporting Limit of 0.20 mg/L (Y/N)	DOC Value Below Reporting Limit of 0.20 mg/L (Y/N)	factor		
+NH4N_PPM		milligramsPerLiter	real		Ammonium (mg/L)	numeric		
+NH4		microequivalentsPerLiter	real		Ammonium (ueq/L)	numeric		
+NH4_FLAG			character	Flag for NH4	Flag for NH4	factor		
+NH4_RL_ALERT			character	NH4 Value Below Reporting Limit of 1.43 ueq/L (Y/N)	NH4 Value Below Reporting Limit of 1.43 ueq/L (Y/N)	factor		
+NO3_NO2		milligramsPerLiter	real		Nitrate + Nitrite by Flow Injection Analysis (mg N/L)	numeric		
+NO3NO2_FLAG			character	Flag for NO3_NO2	Flag for NO3_NO2	factor		
+NO3NO2_RL_ALERT			character	NO3NO2 Value Below Reporting Limit of 0.02 mg N/L (Y/N)	NO3NO2 Value Below Reporting Limit of 0.02 mg N/L (Y/N)	factor		
+NTL_PPM		milligramsPerLiter	real		Total Nitrogen (mg/L)	numeric		
+NTL		microgramsPerLiter	natural		Total Nitrogen (ug/L)	numeric		
+NTL_FLAG			character	Flag for NTL	Flag for NTL	factor		
+NTL_RL_ALERT			character	NTL Value Below Reporting Limit of 20.00 ug/L (Y/N)	NTL Value Below Reporting Limit of 20.00 ug/L (Y/N)	factor		
+PTL		microgramsPerLiter	whole		Total Phosphorus (ug/L)	numeric		
+PTL_FLAG			character	Flag for PTL	Flag for PTL	factor		
+PTL_RL_ALERT			character	PTL Value Below Reporting Limit of 4.00 ug/L (Y/N)	PTL Value Below Reporting Limit of 4.00 ug/L (Y/N)	factor		
+CL_PPM		milligramsPerLiter	real		Chloride (mg/L)	numeric		
+CL		microequivalentsPerLiter	real		Chloride (ueq/L)	numeric		
+CL_FLAG			character	Flag for CL	Flag for CL	factor		
+CL_RL_ALERT			character	CL Value Below Reporting Limit of 5.64 ueq/L (Y/N)	CL Value Below Reporting Limit of 5.64 ueq/L (Y/N)	factor		
+NO3N_PPM		milligramsPerLiter	real		Nitrate (mg/L)	numeric		
+NO3		microequivalentsPerLiter	real		Nitrate (ueq/L)	numeric		
+NO3_FLAG			character	Flag for NO3	Flag for NO3	factor		
+NO3_RL_ALERT			character	NO3 Value Below Reporting Limit of 1.43 ueq/L (Y/N)	NO3 Value Below Reporting Limit of 1.43 ueq/L (Y/N)	factor		
+SO4_PPM		milligramsPerLiter	real		Sulfate (mg/L)	numeric		
+SO4		microequivalentsPerLiter	real		Sulfate (ueq/L)	numeric		
+SO4_FLAG			character	Flag for SO4	Flag for SO4	factor		
+SO4_RL_ALERT			character	SO4 Value Below Reporting Limit of 10.41 ueq/L (Y/N)	SO4 Value Below Reporting Limit of 10.41 ueq/L (Y/N)	factor		
+CA_PPM		milligramsPerLiter	real		Calcium (mg/L)	numeric		
+CA		microequivalentsPerLiter	real		Calcium (ueq/L)	numeric		
+CA_FLAG			character	Flag for CA	Flag for CA	character		
+CA_RL_ALERT			character	CA Value Below Reporting Limit of 4.99 ueq/L (Y/N)	CA Value Below Reporting Limit of 4.99 ueq/L (Y/N)	factor		
+MG_PPM		milligramsPerLiter	real		Magnesium (mg/L)	numeric		
+MG		microequivalentsPerLiter	real		Magnesium (ueq/L)	numeric		
+MG_FLAG			character	Flag for MG	Flag for MG	factor		
+MG_RL_ALERT			character	MG Value Below Reporting Limit of 8.23 ueq/L (Y/N)	MG Value Below Reporting Limit of 8.23 ueq/L (Y/N)	factor		
+NA_PPM		milligramsPerLiter	real		Sodium (mg/L)	numeric		
+NA.		microequivalentsPerLiter	real		Sodium (ueq/L)	numeric		
+NA_FLAG			character	Flag for NA	Flag for NA	character		
+NA_RL_ALERT			character	NA Value Below Reporting Limit of 4.35 ueq/L (Y/N)	NA Value Below Reporting Limit of 4.35 ueq/L (Y/N)	factor		
+K_PPM		milligramsPerLiter	real		Potassium (mg/L)	numeric		
+K		microequivalentsPerLiter	real		Potassium (ueq/L)	numeric		
+K_FLAG			character	Flag for K	Flag for K	factor		
+K_RL_ALERT			character	K Value Below Reporting Limit of 2.56 ueq/L (Y/N)	K Value Below Reporting Limit of 2.56 ueq/L (Y/N)	factor		
+COLOR		dimensionless	whole		Color (PCU)	numeric		
+COLOR_FLAG			character	Flag for COLOR	Flag for COLOR	factor		
+COLOR_RL_ALERT			character	COLOR Value Below Reporting Limit of 5.0 PCU (Y/N)	COLOR Value Below Reporting Limit of 5.0 PCU (Y/N)	factor		
+SIO2		milligramsPerLiter	real		Silica (mg/L SiO2)	numeric		
+SIO2_FLAG			character	Flag for SIO2	Flag for SIO2	factor		
+SIO2_RL_ALERT			character	SIO2 Value Below Reporting Limit of 0.10 mg/L SiO2 (Y/N)	SIO2 Value Below Reporting Limit of 0.10 mg/L SiO2 (Y/N)	factor		
+NH4ION		microequivalentsPerLiter	real		Calculated NH4 protolyte (ueq/L)	numeric		
+CATSUM		microequivalentsPerLiter	real		Sum of Cations (ueq/L)	numeric		
+ANSUM2		microequivalentsPerLiter	real		Sum of Anions using ANC (ueq/L)	numeric		
+DAY_SHIP		dimensionless	whole		Number of Days between Sample Collection (DATECHEM) and Sample Filtering at Lab (DATE_FILTERED)	numeric		
+DAYSHIP_ALERT			character	Number of Days between Sample Collection (DATECHEM) and Sample Filtering at Lab (DATE_FILTERED) Exceeded 2 Days (Y/N)	Number of Days between Sample Collection (DATECHEM) and Sample Filtering at Lab (DATE_FILTERED) Exceeded 2 Days (Y/N)	factor		
+DATE_RECEIVED	MM/DD/YYYY				Date Sample was Received by Lab (from tracking data or WRS lab file 2007 Plan 0331081.xls)	Date		
+DATE_FILTERED	MM/DD/YYYY				Date Sample was Filtered at Lab	Date		
+DATEFILT_ALERT			character	Sample Filtered at Lab Date (DATE_FILTERED) is AFTER Sample Received by Lab Date (DATE_RECEIVED) (Y/N)	Sample Filtered at Lab Date (DATE_FILTERED) is AFTER Sample Received by Lab Date (DATE_RECEIVED) (Y/N)	factor		
+PHLAB_HT_ALERT			character	PH_LAB Holding Time Exceeded Limit of 3 Days (Y/N)	PH_LAB Holding Time Exceeded Limit of 3 Days (Y/N)	factor		
+COND_HT_ALERT			character	COND Holding Time Exceeded Limit of 7 Days (Y/N)	COND Holding Time Exceeded Limit of 7 Days (Y/N)	factor		
+ANC_HT_ALERT			character	Holding Time Exceeded Limit of 7 Days (Y/N)	Holding Time Exceeded Limit of 7 Days (Y/N)	factor		
+TURB_HT_ALERT			character	TURB Holding Time Exceeded Limit of 3 Days (Y/N)	TURB Holding Time Exceeded Limit of 3 Days (Y/N)	factor		
+TOC_HT_ALERT			character	TOC Holding Time Exceeded Limit of 14 Days (Y/N)	TOC Holding Time Exceeded Limit of 14 Days (Y/N)	factor		
+DOC_HT_ALERT			character	DOC Holding Time Exceeded Limit of 14 Days (Y/N)	DOC Holding Time Exceeded Limit of 14 Days (Y/N)	factor		
+NH4_HT_ALERT			character	Holding Time Exceeded Limit of 28 Days (Y/N)	Holding Time Exceeded Limit of 28 Days (Y/N)	factor		
+NO3NO2_HT_ALERT			character	NO3NO2 Holding Time Exceeded Limit of 7 Days (Y/N)	NO3NO2 Holding Time Exceeded Limit of 7 Days (Y/N)	factor		
+NTL_HT_ALERT			character	Total N Holding Time Exceeded Limit of 28 Days (Y/N)	Total N Holding Time Exceeded Limit of 28 Days (Y/N)	factor		
+PTL_HT_ALERT			character	PTL Holding Time Exceeded Limit of 28 Days (Y/N)	PTL Holding Time Exceeded Limit of 28 Days (Y/N)	factor		
+CL_HT_ALERT			character	CL Holding Time Exceeded Limit of 7 Days (Y/N)	CL Holding Time Exceeded Limit of 7 Days (Y/N)	factor		
+NO3_HT_ALERT			character	Holding Time Exceeded Limit of 7 Days (Y/N)	Holding Time Exceeded Limit of 7 Days (Y/N)	factor		
+SO4_HT_ALERT			character	Holding Time Exceeded Limit of 7 Days (Y/N)	Holding Time Exceeded Limit of 7 Days (Y/N)	factor		
+CA_HT_ALERT			character	CA Holding Time Exceeded Limit of 180 Days (Y/N)	CA Holding Time Exceeded Limit of 180 Days (Y/N)	factor		
+MG_HT_ALERT			character	MG Holding Time Exceeded Limit of 180 Days (Y/N)	MG Holding Time Exceeded Limit of 180 Days (Y/N)	factor		
+NA_HT_ALERT			character	NA Holding Time Exceeded Limit of 180 Days (Y/N)	NA Holding Time Exceeded Limit of 180 Days (Y/N)	factor		
+K_HT_ALERT			character	K Holding Time Exceeded Limit of 180 Days (Y/N)	K Holding Time Exceeded Limit of 180 Days (Y/N)	factor		
+COLOR_HT_ALERT			character	COLOR Holding Time Exceeded Limit of 3 Days (Y/N)	COLOR Holding Time Exceeded Limit of 3 Days (Y/N)	factor		
+SIO2_HT_ALERT			character	SIO2 Holding Time Exceeded Limit of 7 Days (Y/N)	SIO2 Holding Time Exceeded Limit of 7 Days (Y/N)	factor		
+COM_FIELD_PH			character	Field pH comment from Profile_do_com data	Field pH comment from Profile_do_com data	character		
+COMMENT_FLD_CHEM			character	Field Sampling Comments	Field Sampling Comments	character		
+COMMENT_LAB_CHEM			character	Laboratory Analysis Comments	Laboratory Analysis Comments	character		
+COMMENT_IM_CHEM			character	IM Data Validation Comments	IM Data Validation Comments	character		
+INDXSAMP_CHLA			character	Index chlorophyll sample for site (YES/NO)-typically the Visit 1 Primary sample	Index chlorophyll sample for site (YES/NO)-typically the Visit 1 Primary sample	factor		
+DATECHLA	MM/DD/YYYY				Date chlorophyll a sample collected	Date		
+SAMPLED_CHLA			character	CHLA SAMPLE COLLECTED/ANALYZED	CHLA SAMPLE COLLECTED/ANALYZED	factor		
+CHLA		microgramsPerLiter	real		Chlorophyll a concentration (µg/L). Calculated as CHLA_ADJ*(40/VOL_FILTERED)	numeric		
+SAMPLE_ID_CHLA			character	Sample ID number	Sample ID number	character		
+LAB_ID_CHLA			character	Laboratory sample ID	Laboratory sample ID	character		
+CHLA_RL_ALERT			character	CHLA REPORTING LIMIT (< 0.1 ug/L) ALERT (Y/N)	CHLA REPORTING LIMIT (< 0.1 ug/L) ALERT (Y/N)	factor		
+FLAG_FLD_CHLA			character	Data qualifier (Field Crew)	Data qualifier (Field Crew)	factor		
+COMMENT_FLD_CHLA			character	CHLA comments recorded by field crew	CHLA comments recorded by field crew	character		
+FLAG_LAB_CHLA			character	Data qualifier (laboratory)	Data qualifier (laboratory)	factor		
+COMMENT_LAB_CHLA			character	CHLA comments recorded by lab personnel	CHLA comments recorded by lab personnel	character		
+CHLA_HT_ALERT			character	CHLA HOLDING TIME (> 28 days) ALERT (Y/N)	CHLA HOLDING TIME (> 28 days) ALERT (Y/N)	factor		
+DATESECCHI	MM/DD/YYYY				Date of Secchi transparency determination	Date		
+SAMPLED_SECCHI			character	Secchi transparency determined	Secchi transparency determined	factor		
+SECMEAN		meter	real		Secchi transparency (m)(=avg. of disk disappearance and reappearance depths)	numeric		
+CLEAR_TO_BOTTOM			character	Clear all the way to the bottom (Y/blank)	Clear all the way to the bottom (Y/blank)	factor		
+COMMENT_SECCHI			character	Comments and flag explanations for Secchi determination	Comments and flag explanations for Secchi determination	character		
+VISIT_ID			character	ID of site visit	ID of site visit	character		
+FLAG_SECCHI			character	Data Qualifier flag for Secchi determination	Data Qualifier flag for Secchi determination	character		
