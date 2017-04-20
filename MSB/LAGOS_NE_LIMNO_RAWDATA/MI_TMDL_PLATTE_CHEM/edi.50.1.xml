@@ -1,0 +1,516 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.50.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>The Big Platte Lake and Platte River watershed monitoring program, 1993-2012</title>
+    <creator>
+      <individualName>
+        <givenName>Ray</givenName>
+        <surName>Canale</surName>
+      </individualName>
+      <organizationName>Department of Civil and Environmental Engineering, University of Michigan</organizationName>
+      <positionName>Emeritus Professor</positionName>
+      <address>
+        <deliveryPoint>710 S. Manitou Trail</deliveryPoint>
+        <city>Lake Leelanau</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>49653</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>rpcanale@charter.net</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Gary</givenName>
+        <surName>Whelan</surName>
+      </individualName>
+      <organizationName>Michigan Department of Natural Resources, Fisheries Division</organizationName>
+      <positionName>Fish Production Manager</positionName>
+      <address>
+        <deliveryPoint>P.O. Box 30446</deliveryPoint>
+        <city>Lansing</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>48909</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>whelang@michigan.gov</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Wilfred</givenName>
+        <surName>Swiecki</surName>
+      </individualName>
+      <organizationName>Platte Lake Improvement Association</organizationName>
+      <positionName>President - Platte Lake Improvement Association</positionName>
+      <address>
+        <deliveryPoint>2899I Glenbrook</deliveryPoint>
+        <city>Farmington Hills</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>48331</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>wswieck.i@twmi.rr.com</electronicMailAddress>
+    </creator>
+    <pubDate>2017-04-20</pubDate>
+    <abstract>
+      <para>The Clean Water Act of 1972 mandates that analyses be performed to determine allowable phosphorus loads from point and nonpoint sources that are consistent with the water quality standards. This allowable loading is called a total maximum daily load (TMDL). The purpose of this program is to monitor the lake and rivers to develop a credible TMDL for Big Platte Lake. The only significant point source of phosphorus in the watershed is the Platte River State Fish Hatchery operated by the Michigan Department of Natural Resources (MI DNR). The outflow from the Hatchery discharges into the Platte River 17 km upstream of Big Platte Lake. The maximum Hatchery phosphorus loading was estimated to be 1,960 kg/year in 1974. Today, the mean net loading from the Hatchery is only about 79 kg/year. This reduction was attained by upgrading the solids handling technology at the facility and by using low phosphorus fish feed. The Hatchery contributes approximately 3% of the total phosphorus load that enters the Lake and is currently compliant with National Pollutant Discharge Elimination System (NPDES) requirements.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Platte Lake</keyword>
+      <keyword>Water chemistry</keyword>
+      <keyword>Long-term data</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Big Platte lake, and Little Platte lake in NW lower Michigan</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-86.07</westBoundingCoordinate>
+          <eastBoundingCoordinate>-86.02</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.43</northBoundingCoordinate>
+          <southBoundingCoordinate>44.39</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1990</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Ray</givenName>
+        <surName>Canale</surName>
+      </individualName>
+      <organizationName>Department of Civil and Environmental Engineering, University of Michigan</organizationName>
+      <positionName>Emeritus Professor</positionName>
+      <address>
+        <deliveryPoint>710 S. Manitou Trail</deliveryPoint>
+        <city>Lake Leelanau</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>49653</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>rpcanale@charter.net</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Gary</givenName>
+        <surName>Whelan</surName>
+      </individualName>
+      <organizationName>Michigan Department of Natural Resources, Fisheries Division</organizationName>
+      <positionName>Fish Production Manager</positionName>
+      <address>
+        <deliveryPoint>P.O. Box 30446</deliveryPoint>
+        <city>Lansing</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>48909</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>whelang@michigan.gov</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Wilfred</givenName>
+        <surName>Swiecki</surName>
+      </individualName>
+      <organizationName>Platte Lake Improvement Association</organizationName>
+      <positionName>President - Platte Lake Improvement Association</positionName>
+      <address>
+        <deliveryPoint>2899I Glenbrook</deliveryPoint>
+        <city>Farmington Hills</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>48331</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>wswieck.i@twmi.rr.com</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sampling position and retrieval</title>
+            <para>The depth from surface in meters is recorded with water samples. Many depths are provided in addition to surface.</para>
+            <para>All samples are grab in Little Platte lake. In Big Platte lake, all samples are grab, except for chlorophyll in which an integrated sample was taken from 0-9m as the mixed layer for every sampling event. In the database, this is listed as COMPOSITE</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Water chemistry analysis methods</title>
+            <para>Alk – SM-2320. APHA 1995. Standard Methods</para>
+            <para>Ca – SM 3500-Ca B) EDTA Titrimetric Method. APHA 1995. Standard Methods</para>
+            <para>Chl  - Chlorophyll a, phaeophytin corrected. Standard Methods 1998 (SM 10200 H-2)</para>
+            <para>TDS – SM-2540B. APHA 1995. Standard Methods</para>
+            <para>TP – SSM 4500 P-E. Standard methods. APHA. 1995</para>
+            <para>TDP - SSM 4500 P-E. Standard methods. APHA. 1995</para>
+            <para>NOX - SM-4500-NO3-F; Standard methods. APHA 1995; method described by Stainton et al. 1977. Detection limit is 1 ug/L</para>
+            <para>TDSi – SM 4500 Si. Standard Methods. APHA 1995</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Big Platte lake, and Little Platte lake in NW lower Michigan</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Big Platte lake and little Platte lake have been sampled since 1993 as part of a Consent Agreement. The lakes are sampled biweekly during the open water season. 3 replicate samples at each depth, AND a 10m vertical integrated sample for chlorophyll are taken.</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>MI_TMDL_PLATTE_CHEM.csv</entityName>
+      <entityDescription>The Big Platte Lake and Platte River watershed monitoring program, 1993-2012</entityDescription>
+      <physical>
+        <objectName>MI_TMDL_PLATTE_CHEM.csv</objectName>
+        <size unit="bytes">400996</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MI_TMDL_PLATTE_CHEM/MI_TMDL_PLATTE_CHEM.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SampDate</attributeName>
+          <attributeDefinition>The sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteName</attributeName>
+          <attributeDefinition>The name of the lake and basin if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The name of the lake and basin if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteID</attributeName>
+          <attributeDefinition>Site id label for original database</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DepthM</attributeName>
+          <attributeDefinition>The depth the sample was taken</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MAbbr</attributeName>
+          <attributeDefinition>The sample type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Grab</code>
+                    <definition>Grab</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Composite</code>
+                    <definition>Integrated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DNU</attributeName>
+          <attributeDefinition>If this value is TRUE then should not use</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FALSE</code>
+                    <definition>Ok to use this sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRUE</code>
+                    <definition>Do not use this sample</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Alk</attributeName>
+          <attributeDefinition>Alkalinity total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Ca</attributeName>
+          <attributeDefinition>Calcium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Chl</attributeName>
+          <attributeDefinition>Chlorophyll a corrected for pheophytin</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NOx</attributeName>
+          <attributeDefinition>Nitrogen, nitrite + nitrate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TDP</attributeName>
+          <attributeDefinition>Phosphorus total dissolved</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TDS</attributeName>
+          <attributeDefinition>Solids total suspended</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TDSi</attributeName>
+          <attributeDefinition>Unknown</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TP</attributeName>
+          <attributeDefinition>Phosphorus total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SecchiM</attributeName>
+          <attributeDefinition>Secchi depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_MI_TMDL_PLATTE_CHEM.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_MI_TMDL_PLATTE_CHEM.R</objectName>
+        <size unit="bytes">33603</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MI_TMDL_PLATTE_CHEM/DataImport_MI_TMDL_PLATTE_CHEM.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+  
+</eml:eml>
