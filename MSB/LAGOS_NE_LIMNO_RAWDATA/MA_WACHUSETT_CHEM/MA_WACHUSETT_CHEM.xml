@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.152.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Massachusetts Department of Conservation and Recreation (DCR): Wachusetts Reservoir Sampling Program, 1998-2013</title>
+ <creator id="1379446370993"> <individualName><givenName>Lawrence</givenName>
+<surName>Pistrang</surName>
+</individualName>
+<organizationName>Department of Conservation and Recreation</organizationName>
+<positionName>Environmental Analyst, Division of Water Supply Protection</positionName>
+<address><deliveryPoint>180 Beaman Street</deliveryPoint>
+<city>West Boylston</city>
+<administrativeArea>MA</administrativeArea>
+<postalCode>01583</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">508-792-7423 x 403</phone>
+<electronicMailAddress>larry.pistrang@state.ma.us</electronicMailAddress>
+</creator>
+ <abstract><para>The Department of Conservation and Recreation Division of Water Supply Protection Office of Watsershed Management (DCR/DWSP) was established by Chapter 372 of the Acts of 1984. The Division was created to manage and maintain a system of watersheds and reservoirs and provide pure water to the Massachusetts Water Resources Authority (MWRA), which in turn supplies drinking water to approximately 2.5 million people in fifty-one communities and thousands of industrial users. 
+The Surface Water Treatment Rule requires filtration of all surface water supplies unless several criteria are met, including development and implementation of a detailed watershed protection plan. The Division and the MWRA have a joint waiver from the filtration requirement and continue to aggressively manage the watershed in order to maintain this waiver. Water quality sampling and field inspections help identify tributaries with water quality problems, aid in the implementation of the most recent watershed protection plan, and ensure compliance with state and federal water quality criteria for public drinking water supply sources. Division staff also sample to better understand the responses of the reservoir and its tributaries to a variety of physical, chemical, and biological inputs, and to assess the ecological health of the reservoir and the watershed.
+Wachusett Environmental Quality staff collected routine water quality samples from 23 stations on 19 tributaries and from three stations on the Wachusett Reservoir in 2012. Additional stations were sampled to support special studies or potential enforcement actions, and storm events were
+sampled on twelve separate occasions.</para>
+</abstract>
+<keywordSet><keyword>Massachusetts</keyword>
+<keyword>Reservoir</keyword>
+<keyword>water quality</keyword>
+<keyword>nutrients</keyword>
+</keywordSet>
+<intellectualRights><para>Data are public</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Wachusett Reservoir, MA, USA</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-71.48</westBoundingCoordinate>
+<eastBoundingCoordinate>-71.41</eastBoundingCoordinate>
+<northBoundingCoordinate>42.24</northBoundingCoordinate>
+<southBoundingCoordinate>42.2</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1998-10-01</calendarDate>
+</beginDate>
+<endDate><calendarDate>2013-05-01</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1379446370993</references>
+</contact>
+<methods><methodStep><description><section><title>Lab anlayses</title>
+<para>All samples were analyzed at the MWRA Lab at Deer Island</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Water chemistry units</title>
+<para>Alkalinity (Mg/L)</para>
+<para>Ammonia (Mg/L)</para>
+<para>Dissolved Silica (Ug/L)</para>
+<para>Nitrate (Mg/L)</para>
+<para>Nitrate/Nitrite (Mg/L)</para>
+<para>Nitrite (Mg/L)</para>
+<para>Silica (Ug/L)</para>
+<para>Total Kjeldahl Nitrogen (Mg/L)</para>
+<para>Total Phosphorus (Mg/L)</para>
+<para>UV-Absorbing Organic Constituents - Mean U254 (ABU/cm)</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Samples were collected at 3 main monitoring stations: Basin North/Station 3417, Basin South/Station 3412, and Thomas Basin
+Wachusett Environmental Quality staff collected routine water quality samples from 23 stations on 19 tributaries and from three stations on the Wachusett Reservoir in 2012. Additional stations
+were sampled to support special studies or potential enforcement actions, and storm events were
+sampled on twelve separate occasions.</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Nutrient measured quarterly &#8211; at onset of thermal stratification (May), in the middle of stratification (July), near end of stratification (October) and during winter mixis before ice cover (December). Samples were collected at 3 main monitoring stations: Basin North/Station 3417, Basin South/Station 3412, and Thomas Basin. 
+Nutrients &#8211; grab samples collected in epilimnion, meta, and hypo during stratification and top middle and bottom of water column during mixis</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1379448172781"><entityName>MA_WACHUSETT_CHEM.csv</entityName>
+<entityDescription>Massachusetts Department of Conservation and Recreation (DCR): Wachusetts Reservoir Sampling Program, 1998-2013</entityDescription>
+<physical id="1379447760053"><objectName>MA_WACHUSETT_CHEM.csv</objectName>
+<size unit="byte">244741</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1379448172782"><attributeName>DATE_COLLECTED</attributeName>
+<attributeLabel>Sample date</attributeLabel>
+<attributeDefinition>Sample date</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><dateTime><formatString>DD-MMM-YY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1379448172783"><attributeName>LOCATION_ID</attributeName>
+<attributeLabel>Site ID</attributeLabel>
+<attributeDefinition>Site ID which specifies sample depth</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID which specifies sample depth</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1379448172784"><attributeName>COMPONENT</attributeName>
+<attributeLabel>water chemistry variable</attributeLabel>
+<attributeDefinition>water chemistry variable</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>ALKALINITY</code>
+<definition>Alkalinity</definition>
+</codeDefinition>
+<codeDefinition><code>AMMONIA</code>
+<definition>Nitrogen, NH3</definition>
+</codeDefinition>
+<codeDefinition><code>NITRATE</code>
+<definition>Nitrogen, nitrate (NO3)</definition>
+</codeDefinition>
+<codeDefinition><code>SILICA</code>
+<definition>Silica</definition>
+</codeDefinition>
+<codeDefinition><code>TOTAL KJELDAHL NITROGEN</code>
+<definition>Nitrogen, total Kjeldahl</definition>
+</codeDefinition>
+<codeDefinition><code>TOTAL PHOSPHORUS</code>
+<definition>Phosphorus, total</definition>
+</codeDefinition>
+<codeDefinition><code>NITRITE</code>
+<definition>Nitrogen, nitrite (NO2)</definition>
+</codeDefinition>
+<codeDefinition><code>NITRATE/NITRITE</code>
+<definition>Nitrogen, nitrite (NO2) + nitrate (NO3)</definition>
+</codeDefinition>
+<codeDefinition><code>Mean U254</code>
+<definition>Color, true spec</definition>
+</codeDefinition>
+<codeDefinition><code>DISSOLVED SILICA</code>
+<definition>Silica, dissolved</definition>
+</codeDefinition>
+<codeDefinition><code>Alkalinity</code>
+<definition>Alkalinity</definition>
+</codeDefinition>
+<codeDefinition><code>SiO2 Final</code>
+<definition>Silica</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1379448172785"><attributeName>RESULT</attributeName>
+<attributeLabel>water chemistry values</attributeLabel>
+<attributeDefinition>water chemistry values that correspond to the chemistry component column</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1379448172786"><attributeName>UNIT</attributeName>
+<attributeLabel>unit of measurement</attributeLabel>
+<attributeDefinition>unit of measurement</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>unit of measurement</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1379448172787"><attributeName>ANALYSIS_DATE</attributeName>
+<attributeLabel>Date of analysis</attributeLabel>
+<attributeDefinition>Date of analysis</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><dateTime><formatString>dd-mmm-yy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>3589</numberOfRecords>
+</dataTable>
+</dataset>
+ </eml:eml>
