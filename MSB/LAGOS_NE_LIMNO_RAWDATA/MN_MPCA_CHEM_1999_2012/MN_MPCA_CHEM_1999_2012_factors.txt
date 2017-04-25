@@ -1,0 +1,13 @@
+attributeName	code	definition
+SAMPLE_TYPE_CODE	Sample	A routine sample
+SAMPLE_TYPE_CODE	QC-FR	QC field replicate
+SAMPLE_TYPE_CODE	QC-LD	QC lab duplicate
+SAMPLE_TYPE_CODE	FMO	A Field measurement or observation
+SAMPLE_TYPE_CODE	QC-F	QC field replicate measurement or observation
+SAMPLE_TYPE_CODE	QC-IP	QC inter-lab-split
+SAMPLE_TYPE_CODE	QC-FS	QC field spike
+DEPTH_UNIT	m	Meter
+FRACTION	Total	The total of all fractions of the analyte
+FRACTION	Non-filter	That portion of the analyte which is in or absorbed to material wchich passes through the filter during sample filtration
+FRACTION	Dissolved	That portion of the analyte found in the liquid medium. Cannot be removed by filtration
+LOC_TYPE	Lake	Lake
