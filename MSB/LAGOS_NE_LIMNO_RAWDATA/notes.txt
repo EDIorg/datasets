@@ -1,45 +1,87 @@
-
-EML data table attributes
-=========================
-When character strings are present in otherwise numeric column. Attributes are defined as numeric so units will show in EML.
+datasets with issues:
+=====================
 
 
+Unprocessed, with knowns solutions
+==================================
+MN_MPCA_CHEM_1999_2012 - Additionally, convert from wide to long format. Do this after MSB compiles into single data table.
+NH_LKTROPH_1995_2014 - Convert from long to wide format (metadata reflects the long format, but for sake of preventing information loss, convert to wide).
+NH_VLAP - Convert from long to wide format (metadata reflects the long format, but for sake of preventing information loss, convert to wide).
+NH_VLAP_1995_20140 - Convert from long to wide format (metadata reflects the long format, but for sake of preventing information loss, convert to wide).
+WI_BIOCOM - Create single .xml out of 4, which includes the 4 data tables.
+WI_CROSS_LAKE - Create single .xml, which includes the 3 data tables.
 
-skipped datasets (additional skipped datasets are under problematic datasets/Datasets)
-======================================================================================
-CT_DEEP_CHEM - Convert from wide to long format.
-EPA_EMAP_CHEM - How to deal with microEquivalentsPerLiter as custom unit for different ions? Stopped at editing attributes.
-EPA_NLA_CHEM
+
+
+Convert from long to wide format
+--------------------------------
+CT_DEEP_CHEM
+IL_ALMP_SPRNGFLD_2004_2006
+MA_DEP_2005_2010
+MN_SENTINEL
+NH_LKTROPH
+VT_DWQ_NUTRIENT
+WI_LDF_CHEM
+
+
+Data table in pieces
+--------------------
+ME_DEP_CHEM
+MN_GPR_CHEM
+OH_MIAMI_CHEM
+MN_MPCA_CHEM_1999_2012
+MN_FDL_chemistry - Additionally, convert from long to wide format.
+
+
+Type 1. More attributes listed in .xml than in table. Add missing attributes to table or delete excessive attributes from .xml.
+-------------------------------------------------
 EPA_TIME_CHEM
-IL_ALMP_SPRNGFLD_2004_2006 - Convert from wide to long format. Commas have been removed from this table.
-MA_DEP_2005_2010 - Convert from wide to long format. Commas have been removed from this table. Commas have been removed from this table.
-MA_WACHUSETT_CHEM - Convert from wide to long format.
-ME_DEP_CHEM - Data table in pieces. Must wrangle.
+CT_DEEP_SECCHI
+NH_SUNAPEE
+NY_SENECA
+NY_ADIRONDACK_1984 - This data table also has columns that are not listed in the .xml.
+IN_chemistry - Lacking .R code.
 
-problematic datasets
-====================
 
-Definitions:
-------------
-Type 1. Data table does not include all attributes listed in .xml (these are highlighted yellow in datasetname_attributes_draft.xlsx files).
-Type 2. .xml includes attributes not listed in the data table.
-Type 3. Data table has more column names than described in .xml.
+Type 3. Data table has more columns than described in the .xml. Remove these columns from the table or add send attribute information.
+--------------------------------------------------------------
+EPA_ELS_PHASE_I
+MA_DEP_CHEM
+PA_DEP_CHEM
+WI_DNR_NUTRIENT
+WI_FCPC_CHEM
+WI_POSITION_CHEM
+WI_L_POSITION_CHL
+PA_WALLENPAUPACK_CHEM - Additionally data table is in pieces.
 
-Datasets (with error types):
-----------------------------
-CT_DEEP_SECCHI (1,2)
-EPA_ELS_PHASE_I (3) - Geographic coverage has been extracted. Stopped at attribute building.
+
+.xml file issues
+----------------
 EPA_ELS_PHASE_II - .xml file doesn't match this dataset. Please provide correct metadata file.
-IA_CHEMISTRY - Lacking .R code.
-IA_RATHBUN_CHEM - Lacking .xml file. There is metadata.html that can be used to build from scratch.
 IA_ALMP_1999_2000 - .xml file doesn't match this dataset. Please provide correct metadata file.
 IA_ALMP_2001_2004 - .xml file doesn't match this dataset. Please provide correct metadata file.
 IA_ALMP_2004_2005 - .xml file doesn't match this dataset. Please provide correct metadata file.
 IA_ALMP_2006_2008 - .xml file doesn't match this dataset. Please provide correct metadata file.
 IA_ALMP_2009 - .xml file doesn't match this dataset. Please provide correct metadata file.
 IA_ALMP_CHMPG_2006 - .xml file doesn't match this dataset. Please provide correct metadata file.
-IN_chemistry - .xml file missing for data table 'IUSPEA ALL Data_EB_6_17_2013_Primary. Lacking .R code files for both data tables.
-MA_DEP_CHEM (3)
+IA_RATHBUN_CHEM - Lacking .xml file. There is metadata.html that can be used to build from scratch.
+NY_LCI_CHEM - No .xml file. Can be built from scratch.
+NY_ONEIDA_CHEM - No .xml file. Can be built from scratch.
+UMWLTM - No .xml file. Can be built from scratch.
+WI_HANSON - No .xml file. Can be built from scratch.
+WI_WERL - No .xml file. Can be built from scratch.
+
+
+
+Lacking .R code for these datasets.
+----------------------------------
+IA_CHEMISTRY - Lacking .R code.
+
+
+Misc. issues
+------------
+MI_MSU_CHERUVELIL - Read only problems with this file. Please provide new copy I can edit.
+
 
 
 

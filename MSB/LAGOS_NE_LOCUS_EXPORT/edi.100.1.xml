@@ -1,0 +1,577 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="edi.100.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>LAGOS-NE-LOCUS v1.01: A module for LAGOS-NE, a multi-scaled geospatial and temporal database of lake ecological context and water quality for thousands of U.S. Lakes: 1925-2013</title>
+    <creator>
+      <individualName>
+        <givenName>Patricia A</givenName>
+        <surName>Soranno</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <electronicMailAddress>soranno@msu.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0003-1668-9271</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kendra S</givenName>
+        <surName>Cheruvelil</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <electronicMailAddress>ksc@msu.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0003-1880-2880</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Edward G</givenName>
+        <surName>Bissel</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <electronicMailAddress>bissell3@msu.edu</electronicMailAddress>
+      <role>Database administrator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Nicole J</givenName>
+        <surName>Smith</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <electronicMailAddress>nicole.j.smith@gmail.com</electronicMailAddress>
+      <role>GIS analyst</role>
+    </associatedParty>
+    <pubDate>2017-04-28</pubDate>
+    <abstract>
+      <para>
+  This data package, LAGOS-NE-LOCUS v1.01, is 1 of 5 data packages
+  associated with the LAGOS-NE database-- the LAke multi-scaled
+  GeOSpatial and temporal database. Three of the data packages each
+  contain different types of data for 51,101 lakes and reservoirs larger
+  than 4 ha in 17 lake-rich U.S. states to support research on thousands
+  of lakes. These three package are: (1) LAGOS-NE-LOCUS v1.01: lake
+  location and physical characteristics for all lakes. (2) LAGOS-NEGEO
+  v1.05: ecological context (i.e., the land use, geologic, climatic, and
+  hydrologic setting of lakes) for all lakes. These geospatial data were
+  created by processing national-scale and publicly-accessible datasets
+  to quantify numerous metrics at multiple spatial resolutions. And, (3)
+  LAGOS-NE-LIMNO v1.087.1: in-situ measurements of lake water quality
+  from the past three decades for approximately 2,600-12,000 lakes,
+  depending on the variable. This module was created by harmonizing 87
+  water quality datasets from federal, state, tribal, and non-profit
+  agencies, university researchers, and citizen scientists. The other
+  two data packages contain supporting data for the LAGOS-NE database:
+  (4) LAGOS-NE-GIS v1.0: the GIS data layers for lakes, wetlands, and
+  streams, as well as the spatial resolutions that were used to create
+  the LAGOS-NE-GEO module. (5) LAGOS-NE-RAWDATA: the original 87
+  datasets of lake water quality prior to processing, the R code that
+  converts the original data formats into LAGOS-NE data format, and the
+  log file from this procedure to create LAGOS-NE. This latter data
+  package supports the reproducibility of LAGOS-NE-LIMNO.
+</para>
+      <para>
+  The LAGOS-NE-LOCUS v1.01 module includes information on the physical
+  location and features of all lakes &gt; 4 ha. The information provided
+  for this population of lakes includes: lake unique identifiers, lake
+  area, perimeter, latitude and longitude, and the zone IDs that the
+  lake is located within (e.g., state, county, the hydrologic unit at
+  each level (4, 8, and 12).
+</para>
+      <para>
+  Citation for the full documentation of this database:
+</para>
+      <para>
+  Soranno, P.A., E.G. Bissell, K.S. Cheruvelil, S.T. Christel, S.M.
+  Collins, C.E. Fergus, C.T. Filstrup, J.F. Lapierre, N.R. Lottig, S.K.
+  Oliver, C.E. Scott, N.J. Smith, S. Stopyak, S. Yuan, M.T. Bremigan,
+  J.A. Downing, C. Gries, E.N. Henry, N.K. Skaff, E.H. Stanley, C.A.
+  Stow, P.-N. Tan, T. Wagner, K.E. Webster. 2015. Building a
+  multi-scaled geospatial temporal ecology database from disparate data
+  sources: Fostering open science and data reuse. GigaScience 4:28
+  doi:10.1186/s13742-015-0067-4
+</para>
+      <para>
+  Citation for the data paper for this database:
+</para>
+      <para>
+  Soranno, P.A., L.C. Bacon, M. Beauchene, K.E. Bednar, E.G. Bissell,
+  C.K. Boudreau, M.G. Boyer, M.T. Bremigan, S.R. Carpenter, J.W. Carr,
+  K.S. Cheruvelil, S.T. Christel, M. Claucherty, S.M.Collins, J.D.
+  Conroy, J.A. Downing, J. Dukett, C.E. Fergus, C.T. Filstrup, C. Funk,
+  M.J. Gonzalez, L.T. Green, C. Gries, J.D. Halfman, S.K. Hamilton, P.C.
+  Hanson, E.N. Henry, E.M. Herron, C. Hockings, J.R. Jackson, K.
+  Jacobson-Hedin, L.L. Janus, W.W. Jones, J.R. Jones, C.M. Keson, K.B.S.
+  King, S.A. Kishbaugh, J.-F. Lapierre, B. Lathrop, J.A. Latimore, Y.
+  Lee, N.R. Lottig, J.A. Lynch, L.J. Matthews, W.H. McDowell, K.E.B.
+  Moore, B.P. Neff, S.J. Nelson, S.K. Oliver, M.L. Pace, D.C. Pierson,
+  A.C. Poisson, A.I. Pollard, D.M. Post, P.O. Reyes, D.O. Rosenberry,
+  K.M. Roy, L.G. Rudstam, O. Sarnelle, N.J. Schuldt, C.E. Scott, N.K.
+  Skaff, N.J. Smith, N.R. Spinelli, J.J. Stachelek, E.H. Stanley, J.L.
+  Stoddard, S.B. Stopyak, C.A. Stow, J.M. Tallant, P.-N. Tan, A.P.
+  Thorpe, M.J. Vanni, T. Wagner, G. Watkins, K.C. Weathers, K.E.
+  Webster, J.D. White, M.K. Wilmes, S. Yuan. In Review. LAGOS-NE: A
+  multi-scaled geospatial and temporal database of lake ecological
+  context and water quality for thousands of U.S. lakes. In Review at
+  GigaScience. Submitted April 2017.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Macrosystems Biology</keyword>
+      <keyword>MSB</keyword>
+      <keyword>Cross-scale Interactions</keyword>
+      <keyword>CSI</keyword>
+      <keyword>National Science Foundation</keyword>
+      <keyword>NSF</keyword>
+      <keyword>lakes</keyword>
+      <keyword>multi-scaled</keyword>
+      <keyword>geospatial</keyword>
+      <keyword>geography</keyword>
+      <keyword>temporal</keyword>
+      <keyword>database</keyword>
+      <keyword>LAGOS</keyword>
+      <keyword>LAGOS-NE</keyword>
+      <keyword>nutrients</keyword>
+      <keyword>dissolved nutrients</keyword>
+      <keyword>inorganic nutrients</keyword>
+      <keyword>water quality</keyword>
+      <keyword>water properties</keyword>
+      <keyword>water clarity</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>ecological context</keyword>
+      <keyword>lake trophic state</keyword>
+      <keyword>eutrophication</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license Attribution 4.0 International
+  (http://creativecommons.org/licenses/by/4.0/) and may be used for
+  academic, educational, or commercial purposes subject to the following
+  restrictions: The Data User must realize that these data sets are
+  being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Northeastern and upper Midwestern U.S. states, including: Minnesota, Iowa, Wisconsin, Illinois, Indiana, Missouri, Michigan, Ohio, Pennsylvania, New York, Connecticut, Rhode Island, New Hampshire, Vermont, Maine, New Jersey, New York</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-97.90363</westBoundingCoordinate>
+          <eastBoundingCoordinate>-66.99892</eastBoundingCoordinate>
+          <northBoundingCoordinate>49.3477</northBoundingCoordinate>
+          <southBoundingCoordinate>34.61761</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1925-07-24</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-10-27</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>complete</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Patricia A</givenName>
+        <surName>Soranno</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <electronicMailAddress>soranno@msu.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  Please see the following manuscript for detailed methods used to
+  harmonize the datasets in LAGOS-NE; in particular, many of the
+  specific methods and procedures are found in the online ‘Additional
+  Files’ available at:
+  https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0067-4
+</para>
+          <para>
+  Soranno, P.A., E.G. Bissell, K.S. Cheruvelil, S.T. Christel, S.M.
+  Collins, C.E. Fergus, C.T. Filstrup, J.F. Lapierre, N.R. Lottig, S.K.
+  Oliver, C.E. Scott, N.J. Smith, S. Stopyak, S. Yuan, M.T. Bremigan,
+  J.A. Downing, C. Gries, E.N. Henry, N.K. Skaff, E.H. Stanley, C.A.
+  Stow, P.-N. Tan, T. Wagner, K.E. Webster. 2015. Building a
+  multi-scaled geospatial temporal ecology database from disparate data
+  sources: Fostering open science and data reuse. GigaScience 4:28
+  doi:10.1186/s13742-015-0067-4
+</para>
+          <para>
+  Detailed information on data sources are found in “Additional File 5”
+  in Soranno et al. (2015). Briefly, the data source for lakes and
+  streams in the 17 state area was the NHD (http://nhd.usgs.gov). The
+  hydrologic boundaries (i.e., for three of the spatial classifications,
+  HUC12, HUC8, HUC4) came from the Watershed Boundary Dataset (WBD;
+  http://nhd.usgs.gov/wbd.html). In addition, we used the digital raster
+  dataset of elevation for watershed delineation from the National
+  Elevation Dataset (http://ned.usgs.gov/). All download dates for these
+  data sources are provided in “Additional File 5” in the above
+  citation.
+</para>
+          <para>
+  All methods to create this module are described in Soranno et al.
+  (2015). The most challenging and time-consuming part of building this
+  module was connecting the sampling locations from the lake water
+  quality datasets (which each contained different types of unique
+  identifiers, and sometimes only lake names) to a georeferenced
+  location in the NHD. When data providers included the lake latitude
+  and longitude, we were able to mostly automate the procedure.
+  Nevertheless, even when coordinates were available, there were many
+  cases where the latitude and longitude did not intersect the NHD lake
+  polygon boundary, requiring manual interpretation. We also had to
+  devote significant resources to developing automated procedures for
+  creating lake watersheds, which are all described in Soranno et al.
+  (2015).
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The effect of cross-scale interactions on freshwater ecosystem state across space and time.</title>
+      <personnel>
+        <individualName>
+          <givenName>Patricia</givenName>
+          <givenName>A</givenName>
+          <surName>Soranno</surName>
+        </individualName>
+        <electronicMailAddress>soranno@msu.edu</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0003-1668-9271</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation EF-1065786, EF-1065818, EF-1065649</funding>
+    </project>
+    <dataTable>
+      <entityName>LAGOSNE_lakeslocus101.csv</entityName>
+      <entityDescription>Lake location and physical characteristics.</entityDescription>
+      <physical>
+        <objectName>LAGOSNE_lakeslocus101.csv</objectName>
+        <size unit="bytes">19889663</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LOCUS_EXPORT/LAGOSNE_lakeslocus101.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>lagoslakeid</attributeName>
+          <attributeDefinition>unique identifier for each lake in LAGOS-NE. For each row of data in this table, the lagoslakeid identifies the focal lake for which other measures are calculated</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">141379</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nhdid</attributeName>
+          <attributeDefinition>the Permanent_identifier from the NHD, but is called the NHDID in LAGOS-NE</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the Permanent_identifier from the NHD, but is called the NHDID in LAGOS-NE</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>gnis_name</attributeName>
+          <attributeDefinition>lake name from the gnis database</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake name from the gnis database</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>nhd_lat</attributeName>
+          <attributeDefinition>latitude of centroid of the NHD lake polygon in decimal degrees (NAD83)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">34.62</minimum>
+                  <maximum exclusive="false">49.42</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nhd_long</attributeName>
+          <attributeDefinition>longitude of  centroid of the NHD lake polygon in decimal degrees (NAD83)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-97.9</minimum>
+                  <maximum exclusive="false">-67</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_area_ha</attributeName>
+          <attributeDefinition>surface area of lake waterbody polygon from NHD</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">123779.82</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_perim_meters</attributeName>
+          <attributeDefinition>perimeter of lake waterbody polygon from the NHD</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">358.29</minimum>
+                  <maximum exclusive="false">2778853.64</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nhd_fcode</attributeName>
+          <attributeDefinition>NHD five-digit integer code with feature code plus additional characteristics/values</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">39000</minimum>
+                  <maximum exclusive="false">43621</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nhd_ftype</attributeName>
+          <attributeDefinition>NHD three-digit integer code providing a unique identifier of feature type for the waterbody</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">390</minimum>
+                  <maximum exclusive="false">436</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>iws_zoneid</attributeName>
+          <attributeDefinition>the  unique ID of the IWS that is estimated for the focal lake in the row of data that is identified by the lagoslakeid.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the  unique ID of the IWS that is estimated for the focal lake in the row of data that is identified by the lagoslakeid.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>hu4_zoneid</attributeName>
+          <attributeDefinition>the  unique ID of the HU4 zone that the focal lake is located within</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the  unique ID of the HU4 zone that the focal lake is located within</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hu6_zoneid</attributeName>
+          <attributeDefinition>the  unique ID of the HU6 zone that the focal lake is located within</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the  unique ID of the HU6 zone that the focal lake is located within</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hu8_zoneid</attributeName>
+          <attributeDefinition>the  unique ID of the HU8 zone that the focal lake is located within</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the  unique ID of the HU8 zone that the focal lake is located within</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hu12_zoneid</attributeName>
+          <attributeDefinition>the  unique ID of the HU12 zone that the focal lake is located within</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the  unique ID of the HU12 zone that the focal lake is located within</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>edu_zoneid</attributeName>
+          <attributeDefinition>the  unique ID of the EDU zone that the focal lake is located within</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the  unique ID of the EDU zone that the focal lake is located within</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>county_zoneid</attributeName>
+          <attributeDefinition>the  unique ID of the county that the focal lake is located within</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the  unique ID of the county that the focal lake is located within</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>state_zoneid</attributeName>
+          <attributeDefinition>the  unique ID of the state that the focal lake is located within</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the  unique ID of the state that the focal lake is located within</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

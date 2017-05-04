@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xA;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd" packageId="edi." system="http://andrewsforest.oregonstate.edu/data/mastercatalog.cfm?topnav=97">
+   <access xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:sw="eml://ecoinformatics.org/software-2.1.0" xmlns:cit="eml://ecoinformatics.org/literature-2.1.0" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0" xmlns:prot="eml://ecoinformatics.org/protocol-2.1.0" xmlns:doc="eml://ecoinformatics.org/documentation-2.1.0" xmlns:res="eml://ecoinformatics.org/resource-2.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" scope="document" order="allowFirst" authSystem="edi">
+      <allow>
+         <principal>uid=NTL,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:sw="eml://ecoinformatics.org/software-2.1.0" xmlns:cit="eml://ecoinformatics.org/literature-2.1.0" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0" xmlns:prot="eml://ecoinformatics.org/protocol-2.1.0" xmlns:doc="eml://ecoinformatics.org/documentation-2.1.0" xmlns:res="eml://ecoinformatics.org/resource-2.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" id="" system="ESRI MetaID">
+      <title>LAGOS_NE_Study_Extent</title>
+      <creator>
+         <individualName>
+            <surName>Kendra Cheruvelil, Michigan State University, Co-Principal Investigator</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <surName>Patricia Soranno, Michigan State University, Principal Investigator</surName>
+         </individualName>
+      </creator>
+      <metadataProvider>
+         <individualName>
+            <surName>Patricia Soranno</surName>
+         </individualName>
+         <positionName>Principal Investigator</positionName>
+         <address>
+            <deliveryPoint>334 Natural Resources Bldg., 480 Wilson Rd.</deliveryPoint>
+            <city>East Lansing</city>
+            <administrativeArea>MI</administrativeArea>
+            <postalCode>48824</postalCode>
+         </address>
+         <phone phonetype="voice">517-884-1769</phone>
+         <electronicMailAddress>soranno@anr.msu.edu</electronicMailAddress>
+      </metadataProvider>
+      <pubDate>20170419</pubDate>
+      <abstract>
+         <para>LAGOS-NE contains data for all 51,102 lakes and reservoirs &gt; 4 ha in the 17 U.S. state study area and along their borders (1,800,000 sq. km.), referred to as the census lake population. The LAGOS-NE GIS Database complements three data modules called LAGOS-NE-LOCUS, LAGOS-NE-GEO, and LAGOS-NE-LIMNO. The LAGOS-NE GIS Database contains geospatial data layers describing the boundaries, spatial classifications, and freshwater features used to compile the LAGOS-NE database. The LAGOS-NE Study Extent layer contains a polygon boundary based on dissolved WBDHU8 polygons. See the Process Step(s) for more details about how it was defined.
+							
+							Note: Complete metadata is available within the download file. This metadata can be viewed with
+							esri ArcGIS software or by viewing the imbedded .xml file.  Coverages and grids contain a file called metadata.xml
+							and shapefiles contain a file called  (shapefile_name.xml).  These files can be exported to FGDC and ISO metadata formats.
+						</para>
+      </abstract>
+      <keywordSet>
+         <keyword keywordType="theme">Landscape limnology</keyword>
+         <keyword keywordType="theme">LAGOS</keyword>
+         <keyword keywordType="theme">Data sharing</keyword>
+         <keyword keywordType="theme">Ecoinformatics</keyword>
+         <keyword keywordType="theme">Integrated Database</keyword>
+         <keyword keywordType="theme">Data reuse</keyword>
+         <keyword keywordType="theme">LAGOS-NE</keyword>
+         <keyword keywordType="theme">Database documentation</keyword>
+         <keyword keywordType="theme">Macrosystems ecology</keyword>
+         <keyword keywordType="theme">Water quality</keyword>
+         <keyword keywordType="theme">Data harmonization</keyword>
+         <keyword keywordType="theme">inlandWaters</keyword>
+         <keywordThesaurus>None</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword keywordType="place">Missouri</keyword>
+         <keyword keywordType="place">U.S.</keyword>
+         <keyword keywordType="place">Rhode Island</keyword>
+         <keyword keywordType="place">Iowa</keyword>
+         <keyword keywordType="place">United States</keyword>
+         <keyword keywordType="place">New York</keyword>
+         <keyword keywordType="place">Minnesota</keyword>
+         <keyword keywordType="place">Wisconsin</keyword>
+         <keyword keywordType="place">Michigan</keyword>
+         <keyword keywordType="place">Ohio</keyword>
+         <keyword keywordType="place">New Hampshire</keyword>
+         <keyword keywordType="place">Vermont</keyword>
+         <keyword keywordType="place">Indiana</keyword>
+         <keyword keywordType="place">Massachusetts</keyword>
+         <keyword keywordType="place">Illinois</keyword>
+         <keyword keywordType="place">New Jersey</keyword>
+         <keyword keywordType="place">Connecticut</keyword>
+         <keyword keywordType="place">Maine</keyword>
+         <keyword keywordType="place">Pennsylvania</keyword>
+         <keywordThesaurus>None</keywordThesaurus>
+      </keywordSet>
+      <additionalInfo>
+         <section>
+            <title>Edition: Version of title</title>
+            <para>Version 1.0</para>
+         </section>
+         <section>
+            <title>Data presentation form</title>
+            <para>vector digital data</para>
+         </section>
+      </additionalInfo>
+      <intellectualRights>
+         <section>
+            <title>Access constraints</title>
+            <para>None</para>
+         </section>
+         <section>
+            <title>Use Constraints</title>
+            <para>The LAGOS-NE database should be acknowledged in products derived from these data. The citation may include the DOI of the database and/or the accompanying manuscript.</para>
+         </section>
+         <section>
+            <title>Data Credit</title>
+            <para>METHODS PUBLICATION: Soranno, Patricia A., Edward G. Bissell, Kendra S. Cheruvelil, Samuel T. Christel, Sarah M. Collins, C. Emi Fergus, Christopher T. Filstrup et al. "Building a multi-scaled geospatial temporal ecology database from disparate data sources: fostering open science and data reuse." GigaScience 4, no. 1 (2015): 28. ACKNOWLEDGEMENTS: Support for creating LAGOS-NE was provided by the National Science Foundation MacroSystems Biology Program in the Emerging Frontiers Division of the Biological Sciences Directorate (EF-1065786and EF-1638679 to MSU, EF-1065649 to ISU, and EF-1065818 and EF-1638554 to UW) and the USDA National Institute of Food and Agriculture, Hatch project 176820 to PAS. Author KEW thanks the STRIVE Programme (2011-W-FS-7) from the Environmental Protection Agency, Ireland. Author SMC also thanks the NSF Division of Biological Infrastructure (1401954). Further credits for other modules LAGOS-NE beyond the GIS Database are detailed in Soranno et al. 2017.</para>
+         </section>
+      </intellectualRights>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>MissouriU.S.Rhode IslandIowaUnited StatesNew YorkMinnesotaWisconsinMichiganOhioNew HampshireVermontIndianaMassachusettsIllinoisNew JerseyConnecticutMainePennsylvania</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-98.153592</westBoundingCoordinate>
+               <eastBoundingCoordinate>-65.937352</eastBoundingCoordinate>
+               <northBoundingCoordinate>50.139238</northBoundingCoordinate>
+               <southBoundingCoordinate>32.119283</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <singleDateTime>
+               <calendarDate>2017-04-14</calendarDate>
+            </singleDateTime>
+         </temporalCoverage>
+      </coverage>
+      <purpose>
+         <para>We have created a database for lakes in the northeastern-most 17 U.S. states called LAGOS-NE (LAke multi-scaled GeOSpatial and temporal database). We had three related motivations for developing this database: (1) to develop the basic understanding of lake nutrients and productivity at sub-continental scales, with a focus on studying cross-scale interactions and their drivers using water quality data on thousands of lakes collected overacross the last several decades (see Soranno et al. 2014 and Soranno et al. 2015 for details); (2) to build the capacity to apply this scientific understanding to environmental management and policy of freshwaters; and, (3) to foster broad-scale research by designing an open-science database infrastructure that includes detailed characterization of lake ecological context that is extensible for future uses and by making the data and methods publicly accessible. The LAGOS-NE GIS Database is provided for the purposes of displaying LAGOS-NE data, understanding their geospatial relationships, and supporting further spatial analyses with these data. The LAGOS-NE Study Extent layer was used for determining the WBD-based spatial classification regions that would be included in the study based on their substantial overlap with the 17-state region. It is used to reshape their boundaries at the edges of the study extent (for example, the subregion polygons were clipped to the LAGOS-NE Study Extent geometry) and to provide an extent guide for geodata processed for LAGOS-NE-GEO.</para>
+      </purpose>
+      <maintenance>
+         <description>
+            <section>
+               <title>Progress</title>
+               <para>Complete</para>
+            </section>
+            <section>
+               <title>Update</title>
+               <para>Biannually</para>
+            </section>
+         </description>
+         <maintenanceUpdateFrequency>otherMaintenancePeriod</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+         <individualName>
+            <surName>Patricia Soranno</surName>
+         </individualName>
+         <organizationName>Michigan State University</organizationName>
+         <positionName>Principal Investigator</positionName>
+         <address>
+            <deliveryPoint>334 Natural Resources Bldg., 480 Wilson Rd</deliveryPoint>
+            <city>East Lansing</city>
+            <administrativeArea>MI</administrativeArea>
+            <postalCode>48824</postalCode>
+         </address>
+         <phone phonetype="voice">517-884-1769</phone>
+         <electronicMailAddress>soranno@anr.msu.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Patricia Soranno, Michigan State University, Principal Investigator</organizationName>
+      </publisher>
+      <pubPlace>334 Natural Resources Bldg., 480 Wilson Rd., East Lansing, MI, 48824</pubPlace>
+      <spatialVector>
+         <entityName>LAGOS_NE_Study_Extent</entityName>
+         <entityDescription>LAGOS-NE contains data for all 51,102 lakes and reservoirs &gt; 4 ha in the 17 U.S. state study area and along their borders (1,800,000 sq. km.), referred to as the census lake population. The LAGOS-NE GIS Database complements three data modules called LAGOS-NE-LOCUS, LAGOS-NE-GEO, and LAGOS-NE-LIMNO. The LAGOS-NE GIS Database contains geospatial data layers describing the boundaries, spatial classifications, and freshwater features used to compile the LAGOS-NE database. The LAGOS-NE Study Extent layer contains a polygon boundary based on dissolved WBDHU8 polygons. See the Process Step(s) for more details about how it was defined.</entityDescription>
+         <physical>
+            <objectName>LAGOS_NE_Study_Extent</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url/>
+               </online>
+            </distribution>
+         </physical>
+         <methods>
+            <methodStep>
+               <description>
+                  <para>We downloaded the version of the NRCS Water Boundary Dataset issued on June 2013. We used the HUC8 layer to create a master study boundary to be used to clip the other hydrologic unit spatial classifications to a common study extent. Methods: 1) Clip the features to the United States boundaries. HUC8s that were entirely in Canada were removed entirely, while those that were at least partly in the US were kept, but their geometry was modified to be clipped at the border. This clip operation was performed using the US_Study_Bounds polygon in CSI_Master_Geodatabase_2014_*.gdb. 2) Select HUC8s with ? 10% of their area within the 17 study states to retain in the feature class. This was accomplished by first using Tabulate Intersection to identify the percentage of a HUC8 falling within the state boundaries above. HUCs that were clipped at the border in step 1 were considered 100% within the US for this step and so none of these HUCs were removed in this step-the order of the steps is important if this process is repeated. 3) Drop the HUC8s that correspond to the Long Island Sound, the Delaware Bay, and the five Great Lakes. 4) Dissolve the polygons to form the master study extent polygon.</para>
+               </description>
+            </methodStep>
+         </methods>
+         <attributeList>
+            <attribute id="FID">
+               <attributeName>FID</attributeName>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="SHAPE">
+               <attributeName>SHAPE</attributeName>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="Shape_Leng">
+               <attributeName>Shape_Leng</attributeName>
+               <attributeDefinition>Not used.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>None</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>1</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="USA Contiguous Albers Equal Area Conic USGS version">
+               <projCoordSys>
+                  <geogCoordSys>
+                     <datum name="D North American 1983"/>
+                     <spheroid name="GRS 1980" semiAxisMajor="6378137.0" denomFlatRatio="298.257222101"/>
+                     <primeMeridian name=" Greenwich" longitude="0.0"/>
+                     <unit name="degree"/>
+                  </geogCoordSys>
+                  <projection name="Albers Conical Equal Area Section">
+                     <parameter name="Standard Parallel" description="Line of constant latitude at which the Earth and the plane intersect" value="45.5"/>
+                     <parameter name="Longitude at central meridian" description="The line of logitude at the center of the map projection" value="-96.0"/>
+                     <parameter name="Latitude of projection origin" description="The latitude chosen as center of the projection" value="23.0"/>
+                     <parameter name="False Easting" description="A value added in a rectangular coordinate system, usually used to avoid negative values" value="0.0"/>
+                     <parameter name="False Northing" description="A value added in a rectangular coordinate system, usually used to avoid negative values" value="0.0"/>
+                     <unit name="meter"/>
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+      </spatialVector>
+   </dataset>
+</eml:eml>

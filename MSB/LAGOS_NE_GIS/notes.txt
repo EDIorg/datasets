@@ -1,0 +1,2 @@
+The EML for this data package was compiled manually from ESRI formatted .xml files to EML formatted .xml files. 
+The procedures listed in 'esri2eml_procedures.doc' were used.
