@@ -1,3 +1,7 @@
+Check for updated data package
+a. look in dropbox
+b. Copy over new files.
+
 Data table (remove commas)
 a. Open write protected, note date time format, close
 b. Open, remove commas
