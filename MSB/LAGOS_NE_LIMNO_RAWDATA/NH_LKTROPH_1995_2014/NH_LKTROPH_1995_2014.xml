@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.163.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>NH Department of Environmental Services (NHDES) Watershed Management Bureau Biology Section:  Lake Trophic Survey Environmental Monitoring data, 1995-2014</title>
+ <creator id="1403899117029"> <individualName><givenName>Andy</givenName>
+ <surName>Chapman</surName>
+ </individualName>
+ <organizationName>New Hampshire Department of Environmental Services (NHDES)</organizationName>
+ <positionName>Environmentalist IV Clean Lakes Program</positionName>
+ <address><deliveryPoint>29 Hazen Dr. P.O. Box 95</deliveryPoint>
+ <city>Concord</city>
+ <administrativeArea>NH</administrativeArea>
+ <postalCode>03302-0095</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">603-271-5334</phone>
+ <electronicMailAddress>andrew.chapman@des.nh.gov</electronicMailAddress>
+ </creator>
+ <creator id="1403899539551"><individualName><givenName>Melanie</givenName>
+ <surName>Titus</surName>
+ </individualName>
+ <organizationName>New Hampshire Department of Environmental Services (NHDES)</organizationName>
+ <positionName>Data Management Specialist</positionName>
+ <address><deliveryPoint>29 Hazen Dr. P.O. Box 95</deliveryPoint>
+ <city>Concord</city>
+ <administrativeArea>NH</administrativeArea>
+ <postalCode>03302-0095</postalCode>
+ <country>USA</country>
+ </address>
+ <electronicMailAddress>Melanie.Titus@des.nh.gov</electronicMailAddress>
+ </creator>
+ <abstract><para>This program was initially established in 1975 in order to identify the trophic state of NH lakes and ponds, as required by Section 314(a) of PL 92-500 (the Federal Water Pollution Control Act Amendments of 1972). The purpose of the program is to determine lake trophic class and monitor physical, chemical and biological water quality parameters. Each year, 40 different lakes and ponds are surveyed, once in the summer and once in the winter. The surveys are comprehensive physical, chemical and biological surveys, including electronic depth soundings, macrophyte identifications and abundance ratings, shoreline bacteria sampling and at the deep spot a temperature/dissolved oxygen/percent saturation profile, Secchi disk transparency reading, samples for chlorophyll, Ca, Mg Na, and K in the upper water layer, phytoplankton and zooplankton net hauls for identification and counts and discrete water samples at two or three depths for pH, acid neutralization capacity, apparent color, conductivity, TP, Total Kjeldahl nitrogen, nitrite+nitrate nitrogen, chloride, and sulfate. The surveys are designed to assess current baseline conditions and compliance with water quality criteria, identify the lake&#8217;s trophic status, determine acid rain impacts and the existence of exotic aquatic plants and provide information for gross long-term trend analyses.</para>
+ </abstract>
+ <keywordSet><keyword>New Hampshire</keyword>
+ <keyword>State monitoring</keyword>
+ <keyword>water quality</keyword>
+ <keyword>nutrients</keyword>
+ </keywordSet>
+ <intellectualRights><para>Publicly available data via http://www2.des.state.nh.us/OneStop/Environmental_Monitoring_Menu.aspx</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Inland lakes throughout the state of New Hampshire, USA.</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-72.32</westBoundingCoordinate>
+ <eastBoundingCoordinate>-70.43</eastBoundingCoordinate>
+ <northBoundingCoordinate>45.17</northBoundingCoordinate>
+ <southBoundingCoordinate>42.42</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1995</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2014</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1403899117029</references>
+ </contact>
+ <contact><references>1403899539551</references>
+ </contact>
+<methods><methodStep><description><section><title>Field Sampling overview</title>
+<para>Each lake was sampled twice during the year; once during the winter and once during the summer.</para>
+<para>The main purpose of winter sampling was to determine the phosphorus and pH levels during a time of low biological production.  In addition, the possibility of dissolved oxygen depletion under the ice was investigated, as well as the types of plankton present.</para>
+<para>Summer sampling consisted of evaluating various physical, chemical, and biological parameters during a time of maximum biological production.  The purpose of the summer sampling was to describe the trophic state of the lake, as well as to determine the limiting nutrient.</para>
+<para>At both sampling dates, the station was located over the greatest depth of the lake.  In addition to trophic data, pH and alkalinity measurements were performed in both winter and summer, as a check on acid deposition effects.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Winter field sampling</title>
+<para>Winter sampling &#8211; chop a hole in the ice over the deepest spot of the lake, collect water one foot off the bottom with a Kemmerer bottle for dissolved oxygen analysis by the Winkler method. Collect water samples with the Kemmerer bottle at 1/3/ and 2/3 water depth to analyze for all other parameters.</para>
+</section>
+</description>
+<instrumentation>Kemmerer bottle</instrumentation>
+</methodStep>
+<methodStep><description><section><title>Summer field sampling</title>
+<para>Summer sampling &#8211; Record depths of lake from numerous transects across the lake to record depths on a lake map. At the deep spot of the lake, measure and record a temperature and dissolved oxygen profile, using a meter and probe. Collect water samples with a Kemmerer bottle at the mid-epilimnion, mid-metalimnion, and mid-hypolimnion depths for chemical analysis. If the lake is not stratified, collect samples at 1/3 and 2/3 the water depth.   Collect a composite sample of the entire epilimnion by repeatedly lowering a weighted tygon tubing to the depth of the mid-metalimnion, pinching it off, and collecting the contained water.  The sample is used for chlorophyll-a analysis.  If the lake is not thermally stratified, collect a composite sample of the entire oxygenated water column (dissolved oxygen &gt; 1 mg/L), but no greater than 50 feet and no closer to the bottom than 3 feet</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Chlorophyll a field sampling</title>
+<para>For the chlorophyll a sample, a composite sample of the entire epilimnion was collected by repeatedly lowering a weighted tygon tubing to the depth of the mid-metalimnion, pinching it off, and collecting the contained water.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Oxygen measurements</title>
+<para>In the winter, a hole in the ice over the deepest spot of the lake was opened up to collect water one foot off the bottom with a Kemmerer bottle for dissolved oxygen analysis by the Winkler method. In the summer measured and recorded a temperature and dissolved oxygen profile using a meter and probe at the deep spot of the lake.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Carbon, total organic</title>
+<para>USEPA 415.3 (DL = 0.5)</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Nitrogen, total kjeldahl</title>
+<para>USEPA 351.2 (DL = 0.25 &#8211; 0.3)</para>
+<para>LACHAT 10-107-06-2-E (DL = 0.25)</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Nitrogen, nitrite (NO2) + nitrate (NO3)</title>
+<para>LACHAT 10-107-04-1-C (DL = 0.05)</para>
+<para>USEPA 353.2 (DL = 0.05-0.1)</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Phosphorus, total</title>
+<para>LACHAT 10-115-01-1-F (DL =  0.005)</para>
+<para>USEPA 365.3 (DL = 0.005 &#8211; 0.01)</para>
+<para>USEPA 365.2 (DL = NA)</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>CHLOROPHYLL A, UNCORRECTED FOR PHEOPHYTIN</title>
+<para>CHLOROPHYLL A, UNCORRECTED FOR PHEOPHYTIN</para>
+<para>NHDES_10200H; APHA_10200H.3; EPA_445</para>
+<para>Detection Limits</para>
+<para>NHDES_10200H = 0.2; APHA_10200H.3 = NA; EPA_445 = NA</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>CHLOROPHYLL A (PROBE)</title>
+<para>Chlorophyll a</para>
+<para>APHA_10200H.3</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>SECCHI DISK TRANSPARENCY</title>
+<para>Secchi (m)</para>
+</section>
+</description>
+<instrumentation>Secchi disk</instrumentation>
+</methodStep>
+<methodStep><description><section><title>SECCHI DISK TRANSPARENCY with View scope</title>
+<para>Secchi, view</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Inland lakes in the state of New Hampshire, USA from 1995-2014</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Each year, 40 different lakes and ponds are surveyed, once in the summer and once in the winter as a means to determine the trophic state of NH lakes and ponds, as required by Section 314(a) of PL 92-500 (the Federal Water Pollution Control Act Amendments of 1972).</para>
+</samplingDescription>
+</sampling>
+</methods>
+  <dataTable id="1404327501320"><entityName>NH_LKTROPH_1995_2014</entityName>
+ <entityDescription>NH Department of Environmental Services (NHDES) Watershed Management Bureau Biology Section: Lake Trophic Survey Environmental Monitoring data, 1995-2014</entityDescription>
+ <physical id="1404325783448"><objectName>NH_LKTROPH_1995toPresent_morpho.csv</objectName>
+ <size unit="byte">2027377</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><offline><mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404327501321"><attributeName>Row ID</attributeName>
+ <attributeLabel>Row ID</attributeLabel>
+ <attributeDefinition>Unique ID?</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ordinal><nonNumericDomain><textDomain><definition>unique ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501322"><attributeName>STATION_ID</attributeName>
+ <attributeLabel>station identifier</attributeLabel>
+ <attributeDefinition>station identifier</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>station identifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501323"><attributeName>STATION_NAME</attributeName>
+ <attributeLabel>station name</attributeLabel>
+ <attributeDefinition>station name</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501324"><attributeName>STATION_TYPE</attributeName>
+ <attributeLabel>station type</attributeLabel>
+ <attributeDefinition>station type</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>station type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501325"><attributeName>TOWN</attributeName>
+ <attributeLabel>town</attributeLabel>
+ <attributeDefinition>town</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>town</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501326"><attributeName>COUNTY</attributeName>
+ <attributeLabel>county</attributeLabel>
+ <attributeDefinition>county</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>county</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501333"><attributeName>WATERBODY_ID</attributeName>
+ <attributeLabel>waterbody identifier</attributeLabel>
+ <attributeDefinition>If a station is surface water based, then the ID of the waterbody it resides on will be displayed. This ID is assigned to the waterbody by the NHDES Watershed Management Bureau. These IDs are the same as those used for assessment purposes and are based on the 1:100,000 digital line graph dataset. In some cases a waterbody ID can encompass more than one stream in an area if the water quality and other parameters are similar for all river segments.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>waterbody identifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501334"><attributeName>WATERBODY_NAME</attributeName>
+ <attributeLabel>Name of waterbody</attributeLabel>
+ <attributeDefinition>The name of the waterbody. Has descriptors that are associated with site (beach, dam, etc)</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>waterbody name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501335"><attributeName>RIVER_NAME</attributeName>
+ <attributeLabel>River name</attributeLabel>
+ <attributeDefinition>If the station lies on a river, this is the river name. This includes water bodies that are reservoirs, and this field would indicate which river feeds the reservoir.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>River name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501336"><attributeName>DESIGNATED_RIVER</attributeName>
+ <attributeLabel>designated river name</attributeLabel>
+ <attributeDefinition>designated river name</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>designated river name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501337"><attributeName>RELATED_LAKE_NAME</attributeName>
+ <attributeLabel>related lake name</attributeLabel>
+ <attributeDefinition>For volunteer lake assessments, tributaries are sampled in addition to the lake being studied. To relate these tributary samples back to the lake studied, this column is used.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>related lake name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501338"><attributeName>HUC12</attributeName>
+ <attributeLabel>Hydrologic unit code (level 12) identifier</attributeLabel>
+ <attributeDefinition>The 12 digit hydrologic unit code (HUC) the station resides in.  Major river basins are divided into smaller hydrogeographic regions based upon a coding system developed by the United States Geological Survey and adopted by the State of New Hampshire. This numbering scheme is called the Hydrologic Unit Code (HUC). Each Hydrologic Unit is further divided into smaller sections, which we call the watershed, and each watershed is assigned a 3-digit code. This makes the numeric watershed identifier a rather lengthy number, but useful for cataloguing and communicating electronic information. However, for the sake of recognition and dialog, the watersheds are also referred to by name, usually by a significant waterbody within the watershed.</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Hydrologic unit code (level 12) identifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501339"><attributeName>STATION_ACTIVE</attributeName>
+ <attributeLabel>station active</attributeLabel>
+ <attributeDefinition>Whether the station is active or inactive. For example, a well station could become inactive if the well was removed or filled in.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Y</code>
+ <definition>Yes</definition>
+ </codeDefinition>
+ <codeDefinition><code>N</code>
+ <definition>No</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501340"><attributeName>ACTIVITY_ID</attributeName>
+ <attributeLabel>activity identifier</attributeLabel>
+ <attributeDefinition>An identifier for the activity (sample, measurement, or observation) conducted at the station.</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>activity identifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501341"><attributeName>ACTIVITY_TYPE</attributeName>
+ <attributeLabel>Activity type</attributeLabel>
+ <attributeDefinition>Type of activity conducted (i.e., routine sample, field replicate, field duplicate, etc.)</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Activity type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501342"><attributeName>REPLICATE_ID</attributeName>
+ <attributeLabel>replicate identifier</attributeLabel>
+ <attributeDefinition>laboratory identifier for replicate samples</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>replicate identifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501343"><attributeName>DATA_STATUS</attributeName>
+ <attributeLabel>data status</attributeLabel>
+ <attributeDefinition>Status of the activity record &#8211; Preliminary, Reviewed, or Final data. Only Final data is accessible through this web site.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>FINAL</code>
+ <definition>FINAL</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501351"><attributeName>MEDIUM</attributeName>
+ <attributeLabel>sampling medium</attributeLabel>
+ <attributeDefinition>Sampling media (water, soil, sediment, air, or tissue).</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>WATER</code>
+ <definition>Water</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501352"><attributeName>DEPTH</attributeName>
+ <attributeLabel>sampling depth</attributeLabel>
+ <attributeDefinition>Depth in the water column the sample was taken at. Some observations do not have any depth info. Melanie Titus commented on this: &#8220;In regards to the depth information, if it&#8217;s blank then it wasn&#8217;t entered by the sampler.  Almost always that means it was a surface water sample but we don&#8217;t assume that in our database so it&#8217;s left blank.  Sometimes the depth will be entered as parameter/substance or in the comments but not always.&#8221;</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501353"><attributeName>DEPTH_UNITS</attributeName>
+ <attributeLabel>depth units</attributeLabel>
+ <attributeDefinition>Units for the Depth (FT = feet and M = meters, CM = centimeters).</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>M</code>
+ <definition>Meters</definition>
+ </codeDefinition>
+ <codeDefinition><code>FT</code>
+ <definition>Feet</definition>
+ </codeDefinition>
+ <codeDefinition><code>CM</code>
+ <definition>centimeters</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501354"><attributeName>DEPTH_MEAS_FROM</attributeName>
+ <attributeLabel>depth measured from</attributeLabel>
+ <attributeDefinition>Whether the depth value (&#8220;Depth&#8221;) was measured from the surface or the bottom of the water column</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>SURFACE</code>
+ <definition>Surface</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501355"><attributeName>UPPER_DEPTH</attributeName>
+ <attributeLabel>upper depth</attributeLabel>
+ <attributeDefinition>If  &#8220;SAMPLE_COLLECTION_METHOD&#8221; = &#8220;INTEGRATED&#8221;, this value represents the top of the collection interval.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501356"><attributeName>LOWER_DEPTH</attributeName>
+ <attributeLabel>lower depth</attributeLabel>
+ <attributeDefinition>If  &#8220;SAMPLE_COLLECTION_METHOD&#8221; = &#8220;INTEGRATED&#8221;, this value represents the bottom of the collection interval.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501357"><attributeName>RANGE_UNITS</attributeName>
+ <attributeLabel>range units</attributeLabel>
+ <attributeDefinition>Depth units for &#8220;UPPER_DEPTH&#8221; and &#8220;LOWER_DEPTH&#8221; measures</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501358"><attributeName>DEPTH_ZONE</attributeName>
+ <attributeLabel>depth zone</attributeLabel>
+ <attributeDefinition>The layer of the lake sample (if applicable). Examples: Metalimnion, Hypolimnion, Surface.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>EPILIMNION</code>
+ <definition>Epilimnion</definition>
+ </codeDefinition>
+ <codeDefinition><code>HYPOLIMNION</code>
+ <definition>Hypolimnion</definition>
+ </codeDefinition>
+ <codeDefinition><code>UPPER</code>
+ <definition>Upper</definition>
+ </codeDefinition>
+ <codeDefinition><code>LOWER</code>
+ <definition>Lower</definition>
+ </codeDefinition>
+ <codeDefinition><code>METALIMNION</code>
+ <definition>Metalimnion</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501359"><attributeName>START_DATE</attributeName>
+ <attributeLabel>start date</attributeLabel>
+ <attributeDefinition>Date the activity (sample, measurement, or observation) was started/collected.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><dateTime><formatString>DD-MM-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501360"><attributeName>START_TIME</attributeName>
+ <attributeLabel>start time</attributeLabel>
+ <attributeDefinition>Time the activity began or was collected.</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><dateTime><formatString>m/dd/yyyy hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501361"><attributeName>ACTIVITY_COMMENTS</attributeName>
+ <attributeLabel>activity comments</attributeLabel>
+ <attributeDefinition>Field or lab technician comments. Includes some depth information that may not be in depth fields. For example, designations are made here if sample is from epilimnion (&#8220;EPI&#8221;), metalimnion (&#8220;MET&#8221;) or hypolimnion (&#8220;HYP&#8221;)</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>activity comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501362"><attributeName>SAMPLE_COLLECTION_METHOD</attributeName>
+ <attributeLabel>sample collection method</attributeLabel>
+ <attributeDefinition>LAKETRIP = unclear what this stands for
+PROFILE = part of a sampling profile through the water column (as in temperature or DO)
+RIVERTRIP = unclear what this stands for
+VLAPTRIP = collected on a VLAP program sampling trip following VLAP methods</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>LAKETRIP</code>
+ <definition>Lake trophic trip</definition>
+ </codeDefinition>
+ <codeDefinition><code>VLAPTRIP</code>
+ <definition>VLAP trip</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501363"><attributeName>PARAMETER</attributeName>
+ <attributeLabel>parameter</attributeLabel>
+ <attributeDefinition>Name of measured analyte. Below is a list of all variables that are associated with records from the LKTROPH program.  Methods for each \ analyte are described in the table below called &#8220;Analyte Methods&#8221;</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CARBON, ORGANIC</code>
+ <definition>Carbon, organic</definition>
+ </codeDefinition>
+ <codeDefinition><code>NITROGEN, NITRITE (NO2) + NITRATE (NO3) AS N</code>
+ <definition>Nitrogen, nitrite (NO2) + nitrate (NO3)</definition>
+ </codeDefinition>
+ <codeDefinition><code>NITROGEN,KJELDAHL</code>
+ <definition>Nitrogen, total Kjeldahl</definition>
+ </codeDefinition>
+ <codeDefinition><code>PHOSPHORUS AS P</code>
+ <definition>Phosphorus, total</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501364"><attributeName>RESULTS</attributeName>
+ <attributeLabel>results</attributeLabel>
+ <attributeDefinition>Text or numeric results for a particular parameter/analyte. 
+-Number indicates a result of analyte measure.
+- &#8220;&lt;&#8221; symbol indicates result was below detection limit. 
+-&#8220;ND&#8221; = not detected, below detection limit 
+-&#8220;Not run&#8221; = water sample was collected in field but not processed by lab</attributeDefinition>
+ <storageType typeSystem="excel">integer/text</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501365"><attributeName>RESULTS_UNITS</attributeName>
+ <attributeLabel>results units</attributeLabel>
+ <attributeDefinition>Units (feet, meters, mg/l etc.) for the results.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>results units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501366"><attributeName>LAB_QUALIFIER</attributeName>
+ <attributeLabel>laboratory qualifier</attributeLabel>
+ <attributeDefinition>The qualifier (flag) a lab applies to the results.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>laboratory qualifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501367"><attributeName>DETECTION_LIMIT</attributeName>
+ <attributeLabel>detection limit</attributeLabel>
+ <attributeDefinition>The limit of detection for the analyses or reporting detection limit</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501368"><attributeName>MDL</attributeName>
+ <attributeLabel>method detection limit</attributeLabel>
+ <attributeDefinition>The method detection limit. From Melanie Titus: MDL is a lower limit (less conservative) but might not be as accurate [compared to DETECTION_LIMIT].</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501369"><attributeName>LIMIT_UNITS</attributeName>
+ <attributeLabel>limit units</attributeLabel>
+ <attributeDefinition>The unit for value reported in &#8220;DETECTION_LIMIT&#8221;</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>limit units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501370"><attributeName>LIMIT_COMMENT</attributeName>
+ <attributeLabel>limit comments</attributeLabel>
+ <attributeDefinition>limit comments</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>limit comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501371"><attributeName>RESULTS_VALID</attributeName>
+ <attributeLabel>results valid</attributeLabel>
+ <attributeDefinition>results valid</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ <codeDefinition><code>Y</code>
+ <definition>Yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501372"><attributeName>ANALYTICAL_METHOD</attributeName>
+ <attributeLabel>analytical method</attributeLabel>
+ <attributeDefinition>The method used to analyze the sample. See section titled &#8220;Analyte Methods&#8221; below for a record of all methods associated with each LAGOS variable that was present in this database.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>analytical method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501373"><attributeName>AM_SOURCE_ID</attributeName>
+ <attributeLabel>analytical method source identifier</attributeLabel>
+ <attributeDefinition>The source documentation for the analytical method. 
+USEPA = United States Environmental Protection Agency
+LACHAT = Lachat nitrate/nitrite method</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>analytical method source identifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501374"><attributeName>RESULTS_COMMENT</attributeName>
+ <attributeLabel>results comment</attributeLabel>
+ <attributeDefinition>Any comment on results from lab or field collector.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Any comment on results from lab or field collector.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501375"><attributeName>LAB_ID</attributeName>
+ <attributeLabel>lab identifier</attributeLabel>
+ <attributeDefinition>Code for lab where analysis was conducted. Definitions for lab codes listed in file: Dropbox/CSI-LIMNO_DATA/DATA-lake/NH data/NHDES_1995toPresent/Lab_ID</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>lab identifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501376"><attributeName>STATISTIC_TYPE</attributeName>
+ <attributeLabel>statistic type</attributeLabel>
+ <attributeDefinition>Number of samples used to generate the Statistic_Type.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>statistic type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501377"><attributeName>SAMPLE_SIZE</attributeName>
+ <attributeLabel>sample size</attributeLabel>
+ <attributeDefinition>Number of samples used to generate the Statistic_Type.</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501378"><attributeName>VALUE_TYPE</attributeName>
+ <attributeLabel>value type</attributeLabel>
+ <attributeDefinition>Unclear what this field represents. All observations documented as &#8220;Actual&#8221;.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ <codeDefinition><code>ACTUAL</code>
+ <definition>Actual</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501379"><attributeName>FRACTION_TYPE</attributeName>
+ <attributeLabel>fraction type</attributeLabel>
+ <attributeDefinition>Describes the fraction of an analyte reported (if applicable). All observations in from LKTROPH in this file are total.
+TOTAL = not filtered, particulate + dissolved
+DISSOLVED = filtered, dissolved fraction</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>TOTAL</code>
+ <definition>TOTAL</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501380"><attributeName>LKTROPH</attributeName>
+ <attributeLabel>LKTROPH program</attributeLabel>
+ <attributeDefinition>LKTROPH program</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>program name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404327501381"><attributeName>VLAP</attributeName>
+ <attributeLabel>VLAP program</attributeLabel>
+ <attributeDefinition>VLAP program</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>VLAP</code>
+ <definition>VLAP program</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5834</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>
