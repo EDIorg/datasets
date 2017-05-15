@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.67.3" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Grand Portage Band of the Lake Superior Chippewa Water Quality Program, MN, 1999-2011</title>
+ <creator id="1347392090270"> <individualName><givenName>Margaret</givenName>
+ <surName>Watkins</surName>
+ </individualName>
+ <organizationName>Grand Portage Reservation Water Quality</organizationName>
+ <positionName>Water Quality Specialist</positionName>
+ <address><deliveryPoint>PO Box 428</deliveryPoint>
+ <city>Grand Portage</city>
+ <administrativeArea>MN</administrativeArea>
+ <postalCode>55605</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">218-475-2415 x36</phone>
+ <electronicMailAddress>Watkins@boreal.org</electronicMailAddress>
+ </creator>
+ <abstract><para>This database includes 15 lakes located in the Grand Portage Tribe reservation in Northeastern  Minnesota. Grand Portage has federally approved Water Quality Standards based on this sampling program and is working towards a federal mandate to establish nutrient criteria for fifteen inland lakes. The lakes have been sampled for physical, chemistry and chlorophyll data beginning in 1999, once per month from May to October.
+The variables sampled include: alkalinity, calcium, chloride, chlorophyll, Mg, total nitrogen, organic nitrogen, nitrate/nitrite, total phosphorus, total suspended solids, specific conductance, sulfate, pH, DOC, color, Secchi depth, dissolved oxygen, temperature, total dissolved solids, turbidity, chloride, Secchi depth.</para>
+ </abstract>
+ <keywordSet><keyword>MN</keyword>
+ <keyword>lake water chemistry</keyword>
+ <keyword>tribal</keyword>
+ </keywordSet>
+ <intellectualRights><para>Data are public in that they are part of a tribal agency program.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Grand Portage Band of the Lake Superior Chippewa reservation</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-90.26</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.14</eastBoundingCoordinate>
+ <northBoundingCoordinate>48.22</northBoundingCoordinate>
+ <southBoundingCoordinate>48.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1999</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2011</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1347392090270</references>
+ </contact>
+ <methods><methodStep><description><section><title>Water sample collection</title>
+ <para>Surface water is collected with an integrated tube sampler for the entire depth of the lake for those that are shallow and well mixed, and for the upper 2 m for those lakes that are stratified (Taylor and Trout lakes).</para>
+ </section>
+ </description>
+ <instrumentation>Integrated tube sampler</instrumentation>
+ </methodStep>
+ <methodStep><description><section><title>Lab methods</title>
+ <para>Sample collection, preservation and analysis used to determine water quality and to maintain the standards set forth in the Water Quality Standards shall be performed in accordance with procedures prescribed by the latest editions of the following authorities:</para>
+ <para>a. American Public Health Association, Standard Methods for the Examination of Water and Wastewater;</para>
+ <para>b. &#8220;Methods for Chemical Analysis of Water and Wastes&#8221;; and</para>
+ <para>c. &#8220;EPA Guidelines Establishing Test Procedures for Analysis of Pollutants&#8221;.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>QA/QC Methods</title>
+ <para>Sample collection, preservation and analysis used to determine water quality and to maintain the standards set forth in the Water Quality Standards shall be performed in accordance with procedures prescribed by the latest editions of the following authorities:</para>
+ <para>a. American Public Health Association, Standard Methods for the Examination of Water and Wastewater;</para>
+ <para>b. &#8220;Methods for Chemical Analysis of Water and Wastes&#8221;; and</para>
+ <para>c. &#8220;EPA Guidelines Establishing Test Procedures for Analysis of Pollutants&#8221;.</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling><studyExtent><description><para>Fifteen lakes located on the Grand Portage Tribe reservation in Northeastern MN</para>
+ </description>
+ </studyExtent>
+ <samplingDescription><para>Lakes were sampled monthly during open water (approximately May-October) every other year from 1999-2011</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1347394007497"><entityName>Center_lake_CHEM.csv</entityName>
+ <entityDescription>Grand Portage Band of the Lake Superior Chippewa Water Quality Program, MN, 1999-2011</entityDescription>
+ <physical id="1347393320001"><objectName>Center_lake_CHEM.csv</objectName>
+ <size unit="byte">230</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><offline><mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1347394007498"><attributeName>Site</attributeName>
+ <attributeLabel>Lake name</attributeLabel>
+ <attributeDefinition>Lake name</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Lake name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007500"><attributeName>Site ID</attributeName>
+ <attributeLabel>the lake name along with the location in the lake</attributeLabel>
+ <attributeDefinition>the lake name along with the location in the lake</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>the lake name along with the location in the lake</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007501"><attributeName>UTM_X</attributeName>
+ <attributeLabel>coordinates</attributeLabel>
+ <attributeDefinition>coordinates</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><interval><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007502"><attributeName>UTM_Y</attributeName>
+ <attributeLabel>coordinates</attributeLabel>
+ <attributeDefinition>coordinates</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><interval><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007503"><attributeName>Date</attributeName>
+ <attributeLabel>sample date</attributeLabel>
+ <attributeDefinition>sample date</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><dateTime><formatString>YYYYMMDD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007504"><attributeName>Time</attributeName>
+ <attributeLabel>sample time</attributeLabel>
+ <attributeDefinition>sample time</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007505"><attributeName>Alk_mgL</attributeName>
+ <attributeLabel>Alkalinity, total</attributeLabel>
+ <attributeDefinition>Alkalinity, total</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007506"><attributeName>Ca_mgL</attributeName>
+ <attributeLabel>Calcium</attributeLabel>
+ <attributeDefinition>Calcium</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007507"><attributeName>Cl_mgL</attributeName>
+ <attributeLabel>Chloride</attributeLabel>
+ <attributeDefinition>Chloride</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007508"><attributeName>Chla_ugL</attributeName>
+ <attributeLabel>Chlorophyll a</attributeLabel>
+ <attributeDefinition>Chlorophyll a</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007509"><attributeName>Hard_mgL</attributeName>
+ <attributeLabel>Hardness, total</attributeLabel>
+ <attributeDefinition>Hardness, total</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007510"><attributeName>Mg_mgL</attributeName>
+ <attributeLabel>Magnesium</attributeLabel>
+ <attributeDefinition>Magnesium</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007511"><attributeName>TKN_mgL</attributeName>
+ <attributeLabel>Nitrogen, total kjeldahl</attributeLabel>
+ <attributeDefinition>Nitrogen, total kjeldahl</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007512"><attributeName>N_rate_rite</attributeName>
+ <attributeLabel>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeLabel>
+ <attributeDefinition>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007513"><attributeName>TN_mgL</attributeName>
+ <attributeLabel>Nitrogen, total</attributeLabel>
+ <attributeDefinition>Nitrogen, total</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007514"><attributeName>TP_MGL</attributeName>
+ <attributeLabel>Phosphorus, total</attributeLabel>
+ <attributeDefinition>Phosphorus, total</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007515"><attributeName>TSS_mgL</attributeName>
+ <attributeLabel>Solids, total suspended</attributeLabel>
+ <attributeDefinition>Solids, total suspended</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007518"><attributeName>SPC_umhoscm</attributeName>
+ <attributeLabel>Conductance, specific</attributeLabel>
+ <attributeDefinition>Conductance, specific</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><customUnit>UmhoCm</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007519"><attributeName>S04_mgL</attributeName>
+ <attributeLabel>Sulfate</attributeLabel>
+ <attributeDefinition>Sulfate</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007520"><attributeName>pH_units</attributeName>
+ <attributeLabel>pH</attributeLabel>
+ <attributeDefinition>pH</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007521"><attributeName>DOC_mgL</attributeName>
+ <attributeLabel>Carbon, dissolved organic</attributeLabel>
+ <attributeDefinition>Carbon, dissolved organic</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1347394007522"><attributeName>Color_PCCU</attributeName>
+<attributeLabel>Color, true</attributeLabel>
+<attributeDefinition>Color, true</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>PCCU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ </attributeList>
+ <numberOfRecords>10</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unit id="UmhoCm" multiplierToSI=" " name="UmhoCm" parentSI="mole" unitType="amount"><description>UmhoCm</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="PCCU" multiplierToSI=" " name="PCCU" parentSI="mole" unitType="amount"><description>PCCU</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

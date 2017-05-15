@@ -1,0 +1,2 @@
+id	unitType	parentSI	multiplierToSI	description
+micromhosPerCentimeter	conductance	siemensPerMeter	1e-04	micro mhos Per Centimeter

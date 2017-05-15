@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="edi.53.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Grand Portage Band of the Lake Superior Chippewa Water Quality Program, MN, 1999-2011</title>
+    <creator>
+      <individualName>
+        <givenName>Margaret</givenName>
+        <surName>Watkins</surName>
+      </individualName>
+      <organizationName>Grand Portage Reservation Water Quality</organizationName>
+      <positionName>Water Quality Specialist</positionName>
+      <address>
+        <deliveryPoint>PO Box 428</deliveryPoint>
+        <city>Grand Portage</city>
+        <administrativeArea>MN</administrativeArea>
+        <postalCode>55605</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">218-475-2415 x36</phone>
+      <electronicMailAddress>Watkins@boreal.org</electronicMailAddress>
+    </creator>
+    <pubDate>2017-05-15</pubDate>
+    <abstract>
+      <para>This database includes 15 lakes located in the Grand Portage Tribe reservation in Northeastern  Minnesota. Grand Portage has federally approved Water Quality Standards based on this sampling program and is working towards a federal mandate to establish nutrient criteria for fifteen inland lakes. The lakes have been sampled for physical, chemistry and chlorophyll data beginning in 1999, once per month from May to October.
+The variables sampled include: alkalinity, calcium, chloride, chlorophyll, Mg, total nitrogen, organic nitrogen, nitrate/nitrite, total phosphorus, total suspended solids, specific conductance, sulfate, pH, DOC, color, Secchi depth, dissolved oxygen, temperature, total dissolved solids, turbidity, chloride, Secchi depth.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>MN</keyword>
+      <keyword>lake water chemistry</keyword>
+      <keyword>tribal</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Grand Portage Band of the Lake Superior Chippewa reservation</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-90.26</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.14</eastBoundingCoordinate>
+          <northBoundingCoordinate>48.22</northBoundingCoordinate>
+          <southBoundingCoordinate>48.0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Margaret</givenName>
+        <surName>Watkins</surName>
+      </individualName>
+      <organizationName>Grand Portage Reservation Water Quality</organizationName>
+      <positionName>Water Quality Specialist</positionName>
+      <address>
+        <deliveryPoint>PO Box 428</deliveryPoint>
+        <city>Grand Portage</city>
+        <administrativeArea>MN</administrativeArea>
+        <postalCode>55605</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">218-475-2415 x36</phone>
+      <electronicMailAddress>Watkins@boreal.org</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Water sample collection</title>
+            <para>Surface water is collected with an integrated tube sampler for the entire depth of the lake for those that are shallow and well mixed, and for the upper 2 m for those lakes that are stratified (Taylor and Trout lakes).</para>
+          </section>
+        </description>
+        <instrumentation>Integrated tube sampler</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Lab methods</title>
+            <para>Sample collection, preservation and analysis used to determine water quality and to maintain the standards set forth in the Water Quality Standards shall be performed in accordance with procedures prescribed by the latest editions of the following authorities:</para>
+            <para>a. American Public Health Association, Standard Methods for the Examination of Water and Wastewater;</para>
+            <para>b. “Methods for Chemical Analysis of Water and Wastes”; and</para>
+            <para>c. “EPA Guidelines Establishing Test Procedures for Analysis of Pollutants”.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>QA/QC Methods</title>
+            <para>Sample collection, preservation and analysis used to determine water quality and to maintain the standards set forth in the Water Quality Standards shall be performed in accordance with procedures prescribed by the latest editions of the following authorities:</para>
+            <para>a. American Public Health Association, Standard Methods for the Examination of Water and Wastewater;</para>
+            <para>b. “Methods for Chemical Analysis of Water and Wastes”; and</para>
+            <para>c. “EPA Guidelines Establishing Test Procedures for Analysis of Pollutants”.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Fifteen lakes located on the Grand Portage Tribe reservation in Northeastern MN</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Lakes were sampled monthly during open water (approximately May-October) every other year from 1999-2011</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>MN_GPR_CHEM.csv</entityName>
+      <entityDescription>Grand Portage Band of the Lake Superior Chippewa Water Quality Program, MN, 1999-2011</entityDescription>
+      <physical>
+        <objectName>MN_GPR_CHEM.csv</objectName>
+        <size unit="bytes">4541</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MN_GPR_CHEM/MN_GPR_CHEM.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_ID</attributeName>
+          <attributeDefinition>the lake name along with the location in the lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the lake name along with the location in the lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UTM_X</attributeName>
+          <attributeDefinition>coordinates</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UTM_Y</attributeName>
+          <attributeDefinition>coordinates</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYYMMDD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>sample time</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hhmm</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Alk_mgL</attributeName>
+          <attributeDefinition>Alkalinity, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ca_mgL</attributeName>
+          <attributeDefinition>Calcium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cl_mgL</attributeName>
+          <attributeDefinition>Chloride</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chla_ugL</attributeName>
+          <attributeDefinition>Chlorophyll a</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hard_mgL</attributeName>
+          <attributeDefinition>Hardness, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mg_mgL</attributeName>
+          <attributeDefinition>Magnesium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TKN_mgL</attributeName>
+          <attributeDefinition>Nitrogen, total kjeldahl</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N_rate_rite</attributeName>
+          <attributeDefinition>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TN_mgL</attributeName>
+          <attributeDefinition>Nitrogen, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TP_MGL</attributeName>
+          <attributeDefinition>Phosphorus, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TSS_mgL</attributeName>
+          <attributeDefinition>Solids, total suspended</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SPC_umhoscm</attributeName>
+          <attributeDefinition>Conductance, specific</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromhosPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S04_mgL</attributeName>
+          <attributeDefinition>Sulfate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pH_units</attributeName>
+          <attributeDefinition>pH</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DOC_mgL</attributeName>
+          <attributeDefinition>Carbon, dissolved organic</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Color_PCCU</attributeName>
+          <attributeDefinition>Color, true (PCCU)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_MN_GPR_CHEM.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_MN_GPR_CHEM.R</objectName>
+        <size unit="bytes">29785</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MN_GPR_CHEM/DataImport_MN_GPR_CHEM.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <unit id="micromhosPerCentimeter" name="micromhosPerCentimeter" parentSI="siemensPerMeter" unitType="conductance" multiplierToSI="1e-04">
+          <description>micro mhos Per Centimeter</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
