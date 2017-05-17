@@ -1,0 +1,10 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+date	MM/DD/YYYY				Sample date	Date		
+Depth_m		meter	real		sample depth	numeric		
+layer			character	Sample position	Sample position	factor		
+TP_mgl		milligramsPerLiter	real		Phosphorus, total	numeric		
+chla_ugl		microgramsPerLiter	real		Chlorophyll a	numeric		
+alk_mglCaCO3		milligramsPerLiter	real		Alkalinity	numeric		
+pH		dimensionless	real		pH	numeric		
+DO_mgl		milligramsPerLiter	real		Oxygen, dissolved	numeric		
+temp_C		celsius	real		Temperature	numeric		
