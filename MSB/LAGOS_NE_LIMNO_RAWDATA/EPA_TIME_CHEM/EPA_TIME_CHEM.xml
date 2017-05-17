@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.72.8" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Northeast temporal lake water chemistry data compiled from four federally funded programs: RLTM, TIME, HELM, ALPS, 1982-2010</title>
+ <creator id="1348782811638"> <individualName><givenName>Sarah</givenName>
+ <surName>Nelson</surName>
+ </individualName>
+ <organizationName>University of Maine, Watershed Biogeochemistry, School of Forest Resources</organizationName>
+ <positionName>Assistant Research Professor</positionName>
+ <address><deliveryPoint>University of Maine</deliveryPoint>
+ <deliveryPoint>5710 Norman Smith Hall</deliveryPoint>
+ <city>Orono</city>
+ <administrativeArea>ME</administrativeArea>
+ <postalCode>04469</postalCode>
+ </address>
+ <phone phonetype="voice">(207) 581-3454</phone>
+ <electronicMailAddress>sarah.nelson@umit.maine.edu</electronicMailAddress>
+ </creator>
+ <abstract><para>These chemistry data were collected from Maine and Northeast lakes that are part of the Environmental Protection Agency (EPA)&#8217;s ongoing Regionalized Long-term Monitoring Program (RLTM), begun in 1982; Temporally Integrated Monitoring of Ecosystems (TIME) program that began in 1999; High Elevation Lake Monitoring (HELM); and completed Aquifer Lakes Project (ALPS). The EPA&#8217;s RLTM project began in 1982, expanded to include 16 lakes in 1993, and is ongoing as of 2003. The continuous record of chemical data provides information for regional acid rain assessments. Sampling is done in the spring, summer (stratified conditions, both hypolimnion and epilimnion samples are taken), and fall, just at lake overturn. Companion data for lake inlet and outlet streams have been collected. The TIME project includes lakes across New England and New York to examine changes and trends in aquatic chemistry over time.  All samples collected before 1999 in the TIME dataset are from a University of Maine EMAP follow-up study. The ALPS program sampled seepage lakes (no surface inlets) with mapped sand and gravel aquifers that are strongly influenced by precipitation chemistry. The survey was done by the University of Maine in 1986-1987, and 1998-2002, and involved the sampling of 128 lakes. The University of Maine&#8217;s HELM project was designed to complement the 1984 Eastern Lakes Survey (ELS) by sampling lakes at an elevation of greater than 600m that had been omitted due to size restrictions. The objective was to highlight lakes that are more susceptible to the effects of acid deposition because they receive higher amounts of precipitation, and their watersheds are less able to neutralize acidic inputs because of steep slopes, shallow soils, and resistant bedrock. In 1986-87 all 90 lakes in Maine at an elevation of 600 meters or higher were sampled. A subset of the original 90 lakes has been sampled since 1997 for logistical and financial reasons. The HELM data set contains chemical data for additional lakes in Baxter State Park (BSP). Most lakes are sampled by helicopter because of their remote locations. Samples were analyzed at the University of Maine laboratory, Plymouth State University, and University of New Hampshire laboratories, using standard methods in place for more than a decade as part of several major Environmental Protection Agency (EPA) projects (see D.V. Peck, M. Morrison, W. Mader, D.J. Chaloud, EPA 600/X-91/080, Rev. 1.01, June, 1993).</para>
+ </abstract>
+ <keywordSet><keyword>Northeast</keyword>
+ <keyword>Acid precipitation</keyword>
+ <keyword>temporal montoring</keyword>
+ <keyword>EPA</keyword>
+ </keywordSet>
+ <intellectualRights><para>Data are public
+Long-term lakes data users are asked to contact a project PI if: a) long-term/time series data are used, b) data are being used that have not been published previously, or c) new data analyses or interpretation are to be performed using lakes data developed by the project PIs.  
+Professional ethics require acknowledgement of the work of others. The UNH/UMaine group requests appropriate citation and acknowledgement for subsequent distribution or publication of any work derived from these data sets.
+
+ Data users are asked to send two reprints of any publications, flyers, proposals, or documents resulting from use of these data to:
+Sarah Nelson, Mitchell Center
+5710 Norman Smith Hall
+University of Maine
+Orono, ME 04469-5710
+
+or electronically to: 
+sarah.nelson@umit.maine.edu
+
+Please include this acknowledgement in any document using these data
+The US EPA&#8722;USGS LTM/TIME and portions of the HELM project was funded by EPA ORD to J.S. Kahl, W. McDowell, S.J. Nelson, K.E. Webster; and EPA CAMD to W.H. McDowell, J.S. Kahl, S.J. Nelson (IAG 06HQGR0143), processed through Grant/Cooperative Agreement G11AP20128 from the United States Geological Survey. The contents are solely the responsibility of the authors and do not necessarily represent the official views of the USGS. HELM and ALPS projects also received funding from the Maine DEP.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Maine, New York, Vermont</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-78.125</westBoundingCoordinate>
+ <eastBoundingCoordinate>-65.375</eastBoundingCoordinate>
+ <northBoundingCoordinate>47.375</northBoundingCoordinate>
+ <southBoundingCoordinate>41.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1983</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2010</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1348782811638</references>
+ </contact>
+ <methods><methodStep><description><section><title>Sampling</title>
+ <para>RLTM lakes are sampled quarterly (spring, summer, fall) plus additional coverage of some high-frequency events at lake outlets in some project years. TIME: lakes are sampled during an annual late summer index period. HELM: lakes were sampled annually in late summer in early project years and during a fall index period, mostly via helicopter, in later project years. Lakes in Maine have a unique MIDAS number (ID code) and TIME lakes have an EPA-assigned code that includes the state, 3 numbers, and &#8216;L&#8217; for lakes. The EPA code is the same code used in EPA&#8217;s EMAP monitoring during the 1990s (these TIME lakes were selected from the statistical set of EMAP lakes). Each lake has one sample per sampling event; samples are epilimnetic grabs (sampled at ~0.5 m depth), hypolimnetic samples collected using a Kemmerer sampler, or outlet grab samples. Samples were typically taken from an inflatable (plastic) boat or for HELM, from a float helicopter.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>QA/QC</title>
+ <para>Data have been collected and analyzed by a team including founding PI Kahl since project inception. The QA/QC methods in early project years were summarized in: Peck, D.V., M. Morrison, W. Mader, and D.J. Chaloud. June, 1993. Environmental Monitoring and Assessment Program: Integrated quality assurance project plan for the surface waters resource group. EPA 600/X-91/080. Ongoing analysis uses the same QA/QC protocols and criteria such as acceptance values, ion balance calculations, and sample handling, but some analytical methods have changed as new instrumentation has become available. The current QA plan is available on request.</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling><studyExtent><description><para>Maine, New York, Vermont</para>
+ </description>
+ </studyExtent>
+ <samplingDescription><para>Each lake has one sample per sampling event; samples are epilimnetic grabs (sampled at ~0.5 m depth), hypolimnetic samples collected using a Kemmerer sampler, or outlet grab samples. Samples were typically taken from an inflatable (plastic) boat or for HELM, from a float helicopter.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1348858574372"><entityName>TIME Nutrients_EF.csv</entityName>
+ <entityDescription>Northeast temporal lake water chemistry data compiled from four federally funded programs: RLTM, TIME, HELM, ALPS</entityDescription>
+ <physical id="1348851627330"><objectName>TIME Nutrients_EF.csv</objectName>
+ <size unit="byte">0</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><offline><mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1348858574373"><attributeName>Affiliation1</attributeName>
+ <attributeLabel>Sampling program</attributeLabel>
+ <attributeDefinition>Federally funded sampling program</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>HELM</code>
+ <definition>High Elevation Lake Monitoring</definition>
+ </codeDefinition>
+ <codeDefinition><code>ALPS</code>
+ <definition>Aquifer Lakes Project</definition>
+ </codeDefinition>
+ <codeDefinition><code>OTHER</code>
+ <definition>Other</definition>
+ </codeDefinition>
+ <codeDefinition><code>RLTM</code>
+ <definition>Regionalized Long-Term Monitoring Project (EPA)</definition>
+ </codeDefinition>
+ <codeDefinition><code>TIME</code>
+ <definition>Temporally Integrated Monitoring of Ecosystems (EPA)</definition>
+ </codeDefinition>
+ <codeDefinition><code>BSP</code>
+ <definition>Baxter State Park (UM)</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574374"><attributeName>Affiliation2</attributeName>
+ <attributeLabel>Sampling program</attributeLabel>
+ <attributeDefinition>Sampling program</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>BSP</code>
+ <definition>Baxter State Park</definition>
+ </codeDefinition>
+ <codeDefinition><code>RLTM</code>
+ <definition>Regionalized Long-Term Monitoring (EPA)</definition>
+ </codeDefinition>
+ <codeDefinition><code>HELM</code>
+ <definition>High Elevation Lake Monitoring (UM)</definition>
+ </codeDefinition>
+ <codeDefinition><code>TIME</code>
+ <definition>Temporally Integrated Monitoring of Ecosystems (EPA)</definition>
+ </codeDefinition>
+ <codeDefinition><code>ALPS</code>
+ <definition>Aquifer Lakes Project</definition>
+ </codeDefinition>
+ <codeDefinition><code>ACAD</code>
+ <definition>Acadia</definition>
+ </codeDefinition>
+ <codeDefinition><code>ALPS?</code>
+ <definition>Aquifer Lakes Project ?</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574375"><attributeName>Affiliation3</attributeName>
+ <attributeLabel>Sampling program</attributeLabel>
+ <attributeDefinition>Sampling program</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>EMAP</code>
+ <definition>Environmental Monitoring and Assessment Program (EPA)</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574380"><attributeName>SITE_ID</attributeName>
+ <attributeLabel>Site ID</attributeLabel>
+ <attributeDefinition>TIME/LTM Site ID</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>TIME/LTM Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574381"><attributeName>SAMSTRAT</attributeName>
+ <attributeLabel>Sample position</attributeLabel>
+ <attributeDefinition>Sample position. Epilimnion = a sample generally taken at approximately 0.5 meters below the lake's surface. Hypolimnion = a sample taken from between the thermocline and the lake bottom</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>EPI</code>
+ <definition>Epilimnion</definition>
+ </codeDefinition>
+ <codeDefinition><code>HYP</code>
+ <definition>Hypolimnion</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574382"><attributeName>MIDAS</attributeName>
+ <attributeLabel>State of Maine Lake ID number</attributeLabel>
+ <attributeDefinition>State of Maine Lake ID number, Only included for the ME data</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State of Maine Lake ID number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574383"><attributeName>SITE_NAME</attributeName>
+ <attributeLabel>Lake name</attributeLabel>
+ <attributeDefinition>Lake name</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Lake name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574384"><attributeName>YEAR</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year sample was collected</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574385"><attributeName>MO</attributeName>
+ <attributeLabel>Month</attributeLabel>
+ <attributeDefinition>month (1-12) sample was collected</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><dateTime><formatString>MM</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574386"><attributeName>DA</attributeName>
+ <attributeLabel>Day</attributeLabel>
+ <attributeDefinition>day of month sampled was collected</attributeDefinition>
+ <storageType typeSystem="excel">integer</storageType>
+ <measurementScale><dateTime><formatString>DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574387"><attributeName>ELSID</attributeName>
+ <attributeLabel>ELS ID Code</attributeLabel>
+ <attributeDefinition>If the lake was an ELS-I or II lake, its EPA ELS ID code (Eastern Lake Survey?)</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>ELS ID Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574388"><attributeName>SAMFREQ</attributeName>
+ <attributeLabel>Sampling frequency</attributeLabel>
+ <attributeDefinition>Sample frequency - Weekly, Monthly, Quarterly, Weekly sample applied to Quarterly sample, Annual, Episodic</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>QUARTERLY</code>
+ <definition>Quarterly</definition>
+ </codeDefinition>
+ <codeDefinition><code>SPR/QTRLY</code>
+ <definition>Spring quarterly</definition>
+ </codeDefinition>
+ <codeDefinition><code>FALL ONLY</code>
+ <definition>Fall only</definition>
+ </codeDefinition>
+ <codeDefinition><code>A</code>
+ <definition>Annual</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574389"><attributeName>TYPE</attributeName>
+ <attributeLabel>Type</attributeLabel>
+ <attributeDefinition>Reg = regular, 1 &amp; LLL unknown</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>LLL</code>
+ <definition>Unknown</definition>
+ </codeDefinition>
+ <codeDefinition><code>REG</code>
+ <definition>Regular</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574390"><attributeName>LAKENAME</attributeName>
+ <attributeLabel>Lake or site name</attributeLabel>
+ <attributeDefinition>Lake or site name used by project investigators; may differ from official name.</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Lake or site name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574391"><attributeName>PH_S</attributeName>
+ <attributeLabel>pH, closed</attributeLabel>
+ <attributeDefinition>Closed-cell pH</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574392"><attributeName>PH_B</attributeName>
+ <attributeLabel>pH, equilibriated</attributeLabel>
+ <attributeDefinition>Air-equilibrated pH pH</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574393"><attributeName>ANC</attributeName>
+ <attributeLabel>Acid neutralizing capacity</attributeLabel>
+ <attributeDefinition>Acid neutralizing capacity</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ueq/L</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574394"><attributeName>DIC</attributeName>
+ <attributeLabel>Carbon, dissolved inorganic</attributeLabel>
+ <attributeDefinition>Carbon, dissolved inorganic
+Detection limit = 0.1 mg/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574395"><attributeName>DOC</attributeName>
+ <attributeLabel>Carbon, dissolved organic</attributeLabel>
+ <attributeDefinition>Carbon, dissolved organic
+Detection limit = 0.1 mg/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574396"><attributeName>COND</attributeName>
+ <attributeLabel>Conductivity</attributeLabel>
+ <attributeDefinition>Conductivity</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>uS/s</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574397"><attributeName>COLOR_T</attributeName>
+ <attributeLabel>Color, true</attributeLabel>
+ <attributeDefinition>True color</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>Pt-Co Units</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574398"><attributeName>COLOR_A</attributeName>
+ <attributeLabel>Color, apparent</attributeLabel>
+ <attributeDefinition>Color, apparent</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>Pt-Co Units</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574399"><attributeName>CA</attributeName>
+ <attributeLabel>Calcium</attributeLabel>
+ <attributeDefinition>Calcium
+Detection limit = 0.5 ueq/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ueq/L</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574400"><attributeName>MG</attributeName>
+ <attributeLabel>Magnesium</attributeLabel>
+ <attributeDefinition>Magnesium
+detection limit = 0.8 ueq/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ueq/L</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574401"><attributeName>K</attributeName>
+ <attributeLabel>Potassium</attributeLabel>
+ <attributeDefinition>Potassium
+detection limit = 0.3 ueq/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ueq/L</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574402"><attributeName>NA</attributeName>
+ <attributeLabel>Sodium</attributeLabel>
+ <attributeDefinition>Sodium
+Detection limit = 0.4 ueq/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ueq/L</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574403"><attributeName>SO4</attributeName>
+ <attributeLabel>Sulfate</attributeLabel>
+ <attributeDefinition>Sulfate
+Detection limits = 0.5 ueq/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ueq/L</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574404"><attributeName>NO3</attributeName>
+ <attributeLabel>Nitrogen, nitrate (NO3)</attributeLabel>
+ <attributeDefinition>Nitrogen, nitrate (NO3)
+Detection limits = 0.1 ueq/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ueq/L</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574405"><attributeName>CL</attributeName>
+ <attributeLabel>Chloride</attributeLabel>
+ <attributeDefinition>Chloride
+Detection limit = 0.5 ueq/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ueq/L</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574406"><attributeName>P_TD</attributeName>
+ <attributeLabel>Phosphorus, total dissolved</attributeLabel>
+ <attributeDefinition>Phosphorus, total dissolved
+Detection limit = 0.5 ug/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574407"><attributeName>N_TD</attributeName>
+ <attributeLabel>Nitrogen, total dissolved</attributeLabel>
+ <attributeDefinition>Nitrogen, total dissolved
+Detection limit = 25 mg/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574408"><attributeName>SI</attributeName>
+ <attributeLabel>Silica</attributeLabel>
+ <attributeDefinition>Silicon as Si
+Detection limit = 0.1 mg/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574409"><attributeName>SIO2</attributeName>
+ <attributeLabel>Silica</attributeLabel>
+ <attributeDefinition>Silica as SiO2
+Detection limit = 0.1 mg/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574410"><attributeName>NH4</attributeName>
+ <attributeLabel>Nitrogen, NH4</attributeLabel>
+ <attributeDefinition>Nitrogen, NH4 (Ammonium)
+Detection limit = 2.7 ueq/L</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>ueq/L</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574411"><attributeName>TURB</attributeName>
+ <attributeLabel>Turbidity</attributeLabel>
+ <attributeDefinition>Turbidity</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><customUnit>NTU</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574412"><attributeName>TSS</attributeName>
+ <attributeLabel>Solids, total suspended</attributeLabel>
+ <attributeDefinition>Solids, total suspended</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574413"><attributeName>SECCHI</attributeName>
+ <attributeLabel>Secchi depth</attributeLabel>
+ <attributeDefinition>Secchi depth</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574414"><attributeName>CHLA</attributeName>
+ <attributeLabel>Chlorophyll a</attributeLabel>
+ <attributeDefinition>Chlorophyll a</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858574415"><attributeName>WTEMP</attributeName>
+ <attributeLabel>Temperature</attributeLabel>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <storageType typeSystem="excel">float</storageType>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1348858685206"><attributeName>HYDROTYPE</attributeName>
+ <attributeLabel>Lake type</attributeLabel>
+ <attributeDefinition>Lake hydrological type</attributeDefinition>
+ <storageType typeSystem="excel">text</storageType>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Drainage</code>
+ <definition>Drainage</definition>
+ </codeDefinition>
+ <codeDefinition><code>Seepage</code>
+ <definition>Seepage</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>Blank</code>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1348858718419"><attributeName>Depth</attributeName>
+<attributeLabel>Lake depth (mixed)</attributeLabel>
+<attributeDefinition>Lake depth mixed attributes and depends on teh program. HELM is max depth, ALPS reports in ft and m, RLTM is max depth (m), TIME no depths reported (yet)</attributeDefinition>
+<storageType typeSystem="excel">Float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1353355199582"><attributeName>Depth Mean (ft)</attributeName>
+<attributeLabel>Depth, mean</attributeLabel>
+<attributeDefinition>Mean depth for some ALPS lakes that were pulled from a ME lake database and appended to the Locations file</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>foot</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1353355332294"><attributeName>Depth Max (ft)</attributeName>
+<attributeLabel>Depth, maximum</attributeLabel>
+<attributeDefinition>Maximum lake depth for ALPS lakes from ME lake database. Values were added to the Location file at a later date</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>foot</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+ <numberOfRecords>0</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unit id="ueq/L" multiplierToSI=" " name="ueq/L" parentSI="mole" unitType="amount"><description>ueq/L</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="uS/s" multiplierToSI=" " name="uS/s" parentSI="siemen" unitType="conductance"><description>uS/s</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="Pt-Co Units" multiplierToSI=" " name="Pt-Co Units" parentSI="mole" unitType="amount"><description>Pt-Co Units</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount"><description>NTU</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

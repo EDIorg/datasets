@@ -1,0 +1,40 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Affiliation1			character	Federally funded sampling program	Federally funded sampling program	factor		
+Affiliation2			character	Sampling program	Sampling program	factor		
+Affiliation3			character	Sampling program	Sampling program	factor		
+SITE_ID			character	TIME/LTM Site ID	TIME/LTM Site ID	character		
+SAMSTRAT			character	Sample position. Epilimnion = a sample generally taken at approximately 0.5 meters below the lake's surface. Hypolimnion = a sample taken from between the thermocline and the lake bottom	Sample position. Epilimnion = a sample generally taken at approximately 0.5 meters below the lake's surface. Hypolimnion = a sample taken from between the thermocline and the lake bottom	character		
+MIDAS		dimensionless	natural		State of Maine Lake ID number, Only included for the ME data	numeric		
+SITE_NAME			character	Lake name	Lake name	character		
+YEAR	YYYY				Year sample was collected	Date		
+MO	MM				month (1-12) sample was collected	Date		
+DA	DD				day of month sampled was collected	Date		
+ELSID			character	If the lake was an ELS-I or II lake, its EPA ELS ID code (Eastern Lake Survey?)	If the lake was an ELS-I or II lake, its EPA ELS ID code (Eastern Lake Survey?)	character		
+SAMFREQ			character	Sample frequency - Weekly, Monthly, Quarterly, Weekly sample applied to Quarterly sample, Annual, Episodic	Sample frequency - Weekly, Monthly, Quarterly, Weekly sample applied to Quarterly sample, Annual, Episodic	factor		
+TYPE			character	Reg = regular, 1 & LLL unknown	Reg = regular, 1 & LLL unknown	factor		
+LAKENAME			character	Lake or site name used by project investigators; may differ from official name.	Lake or site name used by project investigators; may differ from official name.	character		
+PH_S		dimensionless	real		Closed-cell pH	numeric		
+PH_B		dimensionless	real		Air-equilibrated pH pH	numeric		
+ANC		microequivalentsPerLiter	real		Acid neutralizing capacity	numeric		
+DIC		milligramsPerLiter	real		Carbon, dissolved inorganic Detection limit = 0.1 mg/L	numeric		
+DOC		milligramsPerLiter	real		Carbon, dissolved organic Detection limit = 0.1 mg/L	numeric		
+COND		dimensionless	real		Conductivity (uS/s)	numeric		
+COLOR_T		dimensionless	whole		True color (PCU)	numeric		
+COLOR_A		dimensionless	whole		Color, apparent (PCU)	numeric		
+CA		microequivalentsPerLiter	real		Calcium Detection limit = 0.5 ueq/L	numeric		
+MG		microequivalentsPerLiter	real		Magnesium detection limit = 0.8 ueq/L	numeric		
+K		microequivalentsPerLiter	real		Potassium detection limit = 0.3 ueq/L	numeric		
+NA		microequivalentsPerLiter	real		Sodium Detection limit = 0.4 ueq/L	numeric		
+SO4		microequivalentsPerLiter	real		Sulfate Detection limits = 0.5 ueq/L	numeric		
+NO3		microequivalentsPerLiter	real		Nitrogen, nitrate (NO3) Detection limits = 0.1 ueq/L	numeric		
+CL		microequivalentsPerLiter	real		Chloride Detection limit = 0.5 ueq/L	numeric		
+P_TD		microgramsPerLiter	real		Phosphorus, total dissolved Detection limit = 0.5 ug/L	numeric		
+N_TD		milligramsPerLiter	natural		Nitrogen, total dissolved Detection limit = 25 mg/L	numeric		
+SI		milligramsPerLiter	real		Silicon as Si Detection limit = 0.1 mg/L	numeric		
+SIO2		milligramsPerLiter	real		Silica as SiO2 Detection limit = 0.1 mg/L	numeric		
+NH4		microequivalentsPerLiter	real		Nitrogen, NH4 (Ammonium) Detection limit = 2.7 ueq/L	numeric		
+TURB		dimensionless	real		Turbidity (NTU)	numeric		
+TSS		milligramsPerLiter	real		Solids, total suspended	numeric		
+SECCHI			character	Secchi depth (meter)	Secchi depth (meter)	character		
+CHLA		microgramsPerLiter	real		Chlorophyll a	numeric		
+WTEMP		celsius	integer		Temperature	numeric		
