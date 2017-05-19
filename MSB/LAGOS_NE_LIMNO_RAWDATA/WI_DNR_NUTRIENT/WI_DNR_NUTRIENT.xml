@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.57.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Wisconsin Surface Water Integrated Monitoring System (SWIMS) Department of Natural Resources lake nutrient data, 1970-2011</title>
+ <creator id="1345492525250"> <individualName><givenName>Jennifer</givenName>
+<surName>Filbert</surName>
+</individualName>
+<organizationName>Wisconsin Department of Natural Resources - Water Quality Bureau</organizationName>
+<positionName>Lake data contact</positionName>
+<phone phonetype="voice">608-264-8533</phone>
+<electronicMailAddress>Jennifer.filbert@wi.gov</electronicMailAddress>
+</creator>
+ <abstract><para>The Wisconsin Surface Water Integrated Monitoring System (SWIMS) program is the state&#180;s repository for water and sediment monitoring data collected for Clean Water Act work and is the source of data sharing through the federal Water Quality Exchange Network. DNR Fisheries and Water Quality Biologists use the system to locate monitoring stations, providing a gateway to final, reviewed fisheries management datasets housed at the U.S. Geological Survey. SWIMS is also the data system that citizen volunteers use to document water monitoring results for our state&#180;s lakes, streams and wetlands. Parameters typically collected on lakes are total phosphorus, chlorophyll a and Secchi.  Through the DNR Long-Term Trend monitoring program, additional parameters such as Nitrogen have been collected.  Lake data in SWIMS generally goes back to the 1970s (1970s data was imported in from the EPA STORET database, where DNR laboratory results went historically).  The database is updated daily.</para>
+</abstract>
+<keywordSet><keyword>Wisconsin</keyword>
+<keyword>Surface water chemistry</keyword>
+</keywordSet>
+<intellectualRights><para>Data are all public</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Wisconsin</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-92.48</westBoundingCoordinate>
+<eastBoundingCoordinate>-86.56</eastBoundingCoordinate>
+<northBoundingCoordinate>46.56</northBoundingCoordinate>
+<southBoundingCoordinate>42.29</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1970</calendarDate>
+</beginDate>
+<endDate><calendarDate>2011</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1345492525250</references>
+</contact>
+<methods><methodStep><description><section><title>Quality Assurance/ Quality Control of field and lab data</title>
+<para>Blanks and duplicates are done on 10% of volunteer water chemistry sites each year.  Blanks and duplicates are done on DNR Long Term Trend sites from time-to-time, but I do not know if that is systematically done.  The State Laboratory of Hygiene is a quality assured lab and certified by the State of Wisconsin and follows EPA standards and protocols.</para>
+</section>
+</description>
+<instrumentation>Unknown</instrumentation>
+</methodStep>
+<sampling><studyExtent><description><para>Wisconsin Statewide</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Volunteers (who collect the majority of our state's lake data) monitor lakes at 4 times per year for water chemistry and as often as every two weeks for Secchi.  DNR Staff who monitor through the long term trends program visit each of the 50+ lakes once a year, and sometimes multiple times during the summer</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1345501566605"><entityName>WI_DNR_NUTRIENTS_for_MORPHO.csv</entityName>
+<entityDescription>Wisconsin Surface Water Integrated Monitoring System (SWIMS) DNR, 1970-2011</entityDescription>
+<physical id="1345494715012"><objectName>WI_DNR_NUTRIENTS_for_MORPHO.csv</objectName>
+<size unit="byte">2505</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1345501566606"><attributeName>Official Lakel Name</attributeName>
+<attributeLabel>Lake Name</attributeLabel>
+<attributeDefinition>The lake name from the DNR Register of Waterbodies, which corresponds with the name recognized by the Geographic Names Council and in the USGS Geographic Names Information System</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>lake name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566607"><attributeName>Waterbody ID Code (WBIC)</attributeName>
+<attributeLabel>Unique ID</attributeLabel>
+<attributeDefinition>A unique identifier for each waterbody.  Stored in the DNR Register of Waterbodies database</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>unique ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566608"><attributeName>Lake Latitude</attributeName>
+<attributeLabel>Latitude</attributeLabel>
+<attributeDefinition>Approximate center of lake based on DNR 24k hydrolayer</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566620"><attributeName>Lake Longitude</attributeName>
+<attributeLabel>Longitude</attributeLabel>
+<attributeDefinition>Approximate center of lake based on DNR 24k hydrolayer</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566621"><attributeName>County Name</attributeName>
+<attributeLabel>County</attributeLabel>
+<attributeDefinition>Name of county where lake is located</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>county name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566622"><attributeName>Station ID</attributeName>
+<attributeLabel>Station ID</attributeLabel>
+<attributeDefinition>The Unique identifier for the monitoring station, stored in the Surface Water Integrated Monitoring System (SWIMS) database and is also the US EPA STORET Station ID.</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>unique station ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566623"><attributeName>Station Name</attributeName>
+<attributeLabel>Station name</attributeLabel>
+<attributeDefinition>Name of the monitoring station where the sample was taken</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566624"><attributeName>Station Type</attributeName>
+<attributeLabel>Station type</attributeLabel>
+<attributeDefinition>These correspond to the US EPA STORET database Station Types</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>LAKE</code>
+<definition>Lake station</definition>
+</codeDefinition>
+<codeDefinition><code>RIVERINE IMPOUNDMENT</code>
+<definition>Riverine impoundment</definition>
+</codeDefinition>
+<codeDefinition><code>RESERVOIR</code>
+<definition>Reservoir</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566625"><attributeName>Secondary Station Type</attributeName>
+<attributeLabel>description of station type</attributeLabel>
+<attributeDefinition>Some of these correspond to the US EPA STORET database &quot;sub types&quot; for stations, but some are also unique to SWIMS.  For instance, DEEPEST SPOT is one we created to flag stations that are actually relatively in the center or deepest part of the lake (as opposed to a bay, or along a lake edge)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>DEEPEST SPOT</code>
+<definition>sample station relatively at the deepest part of the lake</definition>
+</codeDefinition>
+<codeDefinition><code>BOAT LANDING - PRIVATE</code>
+<definition>Boat landing</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566626"><attributeName>Station Latitude</attributeName>
+<attributeLabel>station latitude</attributeLabel>
+<attributeDefinition>Station latitude</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566627"><attributeName>Station Longitude</attributeName>
+<attributeLabel>Station Longitude</attributeLabel>
+<attributeDefinition>Station longitude</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566628"><attributeName>Project</attributeName>
+<attributeLabel>Project</attributeLabel>
+<attributeDefinition>In SWIMS we use these to track why the data was collected</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Sampling Project Names how data were collected</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566629"><attributeName>Date</attributeName>
+<attributeLabel>Date of sample collection</attributeLabel>
+<attributeDefinition>Date of sample collection</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>variable date formats</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566630"><attributeName>Date_Formatted</attributeName>
+<attributeLabel>Date of sample collection</attributeLabel>
+<attributeDefinition>Date of sample collection - standardized across projects</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1345501566631"><attributeName>START_AMT</attributeName>
+<attributeLabel>Start depth of sampling</attributeLabel>
+<attributeDefinition>the sample depth (starting point). Often 3 feet below surface</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566632"><attributeName>END_AMT</attributeName>
+<attributeLabel>Sampling depth end point for integrated samples</attributeLabel>
+<attributeDefinition>The sample depth end point.  The same as the starting point, unless it was an integrated sample.</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566633"><attributeName>UNIT_CODE</attributeName>
+<attributeLabel>Unit of sample depth</attributeLabel>
+<attributeDefinition>Unit of sample depth</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>FEET</code>
+<definition>feet</definition>
+</codeDefinition>
+<codeDefinition><code>METER</code>
+<definition>meter</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566634"><attributeName>METHOD_CODE</attributeName>
+<attributeLabel>Sample Collection method code</attributeLabel>
+<attributeDefinition>Sample Collection method code</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CBSM_PP_FIELD_METHODS</code>
+<definition>CBSM_PP_FIELD_METHODS</definition>
+</codeDefinition>
+<codeDefinition><code>CLMN GRAB SAMPLE: MASON JAR SAMPLER</code>
+<definition>CLMN GRAB SAMPLE: MASON JAR</definition>
+</codeDefinition>
+<codeDefinition><code>CLMN GRAB SAMPLE: VAN DORN</code>
+<definition>CLMN GRAB SAMPLE: VAN DORN</definition>
+</codeDefinition>
+<codeDefinition><code>CLMN INTEGRATED SAMPLE</code>
+<definition>CLMN INTEGRATED SAMPLE</definition>
+</codeDefinition>
+<codeDefinition><code>CLMN SECCHI</code>
+<definition>CLMN SECCHI</definition>
+</codeDefinition>
+<codeDefinition><code>CLMN TEMP-D.O. METER 2005-</code>
+<definition>CLMN TEMP-D.O. METER 2005-</definition>
+</codeDefinition>
+<codeDefinition><code>CLMN TEMPERATURE: DIGITAL PROBE</code>
+<definition>CLMN TEMPERATURE: DIGITAL PROBE</definition>
+</codeDefinition>
+<codeDefinition><code>CLMN TEMPERATURE: DORIC PROBE</code>
+<definition>CLMN TEMPERATURE: DORIC PROBE</definition>
+</codeDefinition>
+<codeDefinition><code>DNR-FPM-SONDES2006</code>
+<definition>DNR-FPM-SONDES2006</definition>
+</codeDefinition>
+<codeDefinition><code>GRAB SAMPLE</code>
+<definition>GRAB SAMPLE</definition>
+</codeDefinition>
+<codeDefinition><code>WATER GRAB: VAN DORN</code>
+<definition>WATER GRAB: VAN DORN</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566635"><attributeName>Observer Comments</attributeName>
+<attributeLabel>COMMENTS</attributeLabel>
+<attributeDefinition>whatever the data collector noted such as weather conditions</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>observations</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566636"><attributeName>Total Phosphorus</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>result value as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>values as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566637"><attributeName>Total Phosphorus Amt</attributeName>
+<attributeLabel>phosphorus, total</attributeLabel>
+<attributeDefinition>total phosphorus at a number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">-0.003</minimum>
+<maximum exclusive="true">102</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566638"><attributeName>Total Phosphorus Units</attributeName>
+<attributeLabel>TP units</attributeLabel>
+<attributeDefinition>TP units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>MG/L</code>
+<definition>MG/L</definition>
+</codeDefinition>
+<codeDefinition><code>MG/L AS P</code>
+<definition>MG/L AS P</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566639"><attributeName>Total Phosphorus Comm</attributeName>
+<attributeLabel>TP COMMENTS</attributeLabel>
+<attributeDefinition>comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566640"><attributeName>NITROGEN KJELDAHL TOTAL</attributeName>
+<attributeLabel>Nitrogen, total Kjeldahl as text</attributeLabel>
+<attributeDefinition>Nitrogen, total Kjeldahl as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>TN values as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566641"><attributeName>NITROGEN KJELDAHL TOTAL Amt</attributeName>
+<attributeLabel>Nitrogen, total Kjeldahl</attributeLabel>
+<attributeDefinition>Nitrogen, total Kjeldahl as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566642"><attributeName>NITROGEN KJELDAHL TOTAL Units</attributeName>
+<attributeLabel>Nitrogen, total Kjeldahl units</attributeLabel>
+<attributeDefinition>Nitrogen, total Kjeldahl units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>TN units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566643"><attributeName>NITROGEN KJELDAHL TOTAL Comm</attributeName>
+<attributeLabel>TN comments</attributeLabel>
+<attributeDefinition>TN comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566644"><attributeName>NITR NO3+NO2 DISS (AS N)</attributeName>
+<attributeLabel>Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) as text</attributeLabel>
+<attributeDefinition>Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) ast text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566645"><attributeName>NITR NO3+NO2 DISS (AS N) Amt</attributeName>
+<attributeLabel>Nitrogen, dissolved nitrite (NO2) + nitrate (NO3)</attributeLabel>
+<attributeDefinition>Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) as numbers</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566646"><attributeName>NITR NO3+NO2 DISS (AS N) Units</attributeName>
+<attributeLabel>Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) units</attributeLabel>
+<attributeDefinition>Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566647"><attributeName>NITR NO3+NO2 DISS (AS N) Comm</attributeName>
+<attributeLabel>lab comments</attributeLabel>
+<attributeDefinition>Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) lab comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>lab comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566648"><attributeName>Chlorophll A</attributeName>
+<attributeLabel>Chlorophyll a as text</attributeLabel>
+<attributeDefinition>Chlorophyll a as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Chlorophyll a as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566649"><attributeName>Chlorophll A Amt</attributeName>
+<attributeLabel>Chlorophyll a as number</attributeLabel>
+<attributeDefinition>Chlorophyll a as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566650"><attributeName>Chlorophyll A Units</attributeName>
+<attributeLabel>Chlorophyll a units</attributeLabel>
+<attributeDefinition>Chlorophyll a units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566651"><attributeName>Chlorophyll A Comm</attributeName>
+<attributeLabel>Chlorophyll a comments</attributeLabel>
+<attributeDefinition>Chlorophyll a comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Chlorophyll a comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566652"><attributeName>DOC</attributeName>
+<attributeLabel>Carbon, dissolved organic as text</attributeLabel>
+<attributeDefinition>Carbon, dissolved organic as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Carbon, dissolved organic as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566653"><attributeName>DOC Amt</attributeName>
+<attributeLabel>Carbon, dissolved organic as number</attributeLabel>
+<attributeDefinition>Carbon, dissolved organic as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566654"><attributeName>DOC Units</attributeName>
+<attributeLabel>Carbon, dissolved organic units</attributeLabel>
+<attributeDefinition>Carbon, dissolved organic units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Carbon, dissolved organic units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566655"><attributeName>DOC Comm</attributeName>
+<attributeLabel>Carbon, dissolved organic comments</attributeLabel>
+<attributeDefinition>Carbon, dissolved organic comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566656"><attributeName>Color</attributeName>
+<attributeLabel>Color, true as text</attributeLabel>
+<attributeDefinition>Color, true as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Color, true as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566657"><attributeName>Color Amt</attributeName>
+<attributeLabel>Color, true as number</attributeLabel>
+<attributeDefinition>Color, true as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>PtCo</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566658"><attributeName>Color Units</attributeName>
+<attributeLabel>Color, true units</attributeLabel>
+<attributeDefinition>Color, true units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>color units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566659"><attributeName>Color Comm</attributeName>
+<attributeLabel>Color lab comments</attributeLabel>
+<attributeDefinition>Color, true comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566660"><attributeName>Color (visual)</attributeName>
+<attributeLabel>Color, true visual as text</attributeLabel>
+<attributeDefinition>Color, true visual as text</attributeDefinition>
+<storageType typeSystem="excel">initeger</storageType>
+<measurementScale><ratio><unit><customUnit>SU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566661"><attributeName>Secchi Feet</attributeName>
+<attributeLabel>Secchi, no view</attributeLabel>
+<attributeDefinition>Secchi, no view</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>foot</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566662"><attributeName>Secchi Meters</attributeName>
+<attributeLabel>Secchi, no view</attributeLabel>
+<attributeDefinition>Secchi, no view</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566663"><attributeName>Secchi Hit Bottom</attributeName>
+<attributeLabel>Secchi comments</attributeLabel>
+<attributeDefinition>Secchi comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NO</code>
+<definition>Did not hit bottom</definition>
+</codeDefinition>
+<codeDefinition><code>YES</code>
+<definition>Hit bottom</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566664"><attributeName>CONDUCTIVITY FIELD</attributeName>
+<attributeLabel>Conductance, specific</attributeLabel>
+<attributeDefinition>Conductance, specific</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>Umho/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566665"><attributeName>CONDUCTIVITY FIELD Amt</attributeName>
+<attributeLabel>Conductance, specific</attributeLabel>
+<attributeDefinition>Conductance, specific as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>Umho/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566666"><attributeName>CONDUCTIVITY FIELD Units</attributeName>
+<attributeLabel>Conductance, specific units</attributeLabel>
+<attributeDefinition>Conductance, specific units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Conductance, specific units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566667"><attributeName>CONDUCTIVITY FIELD Comm</attributeName>
+<attributeLabel>Conductance, specific comments</attributeLabel>
+<attributeDefinition>Conductance, specific comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566668"><attributeName>CONDUCTIVITY AT 25C</attributeName>
+<attributeLabel>Conductivity as text</attributeLabel>
+<attributeDefinition>Conductivity</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>conductivity as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566669"><attributeName>CONDUCTIVITY AT 25C Amt</attributeName>
+<attributeLabel>Conductivity as number</attributeLabel>
+<attributeDefinition>Conductivity as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>Umho/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566670"><attributeName>CONDUCTIVITY AT 25C Units</attributeName>
+<attributeLabel>Conductivity units</attributeLabel>
+<attributeDefinition>Conductivity units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Conductivity units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566671"><attributeName>CONDUCTIVITY AT 25C Comm</attributeName>
+<attributeLabel>Conductivity comments</attributeLabel>
+<attributeDefinition>Conductivity comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Conductivity comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566672"><attributeName>pH Field</attributeName>
+<attributeLabel>pH as text</attributeLabel>
+<attributeDefinition>pH as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>pH field</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566673"><attributeName>pH Field Amt</attributeName>
+<attributeLabel>pH as number</attributeLabel>
+<attributeDefinition>pH as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566674"><attributeName>pH Field Units</attributeName>
+<attributeLabel>pH units</attributeLabel>
+<attributeDefinition>pH units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>pH units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566675"><attributeName>pH Field Comm</attributeName>
+<attributeLabel>pH comments</attributeLabel>
+<attributeDefinition>pH comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>pH comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566676"><attributeName>pH Lab</attributeName>
+<attributeLabel>pH, equilibriated as text</attributeLabel>
+<attributeDefinition>pH lab as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>pH lab as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566677"><attributeName>pH Lab Amt</attributeName>
+<attributeLabel>pH, equilibriated as number</attributeLabel>
+<attributeDefinition>pH, equilibriated as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566678"><attributeName>pH Lab Units</attributeName>
+<attributeLabel>pH, equilibriated units</attributeLabel>
+<attributeDefinition>pH, equilibriated lab units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>pH lab units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566679"><attributeName>pH Lab Comm</attributeName>
+<attributeLabel>pH, equilibriated comments</attributeLabel>
+<attributeDefinition>pH, equilibriated comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>pH, equilibriated comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566680"><attributeName>Chloride Diss</attributeName>
+<attributeLabel>Chloride as text</attributeLabel>
+<attributeDefinition>Chloride as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Chloride</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566681"><attributeName>Chloride Diss Amt</attributeName>
+<attributeLabel>Chloride</attributeLabel>
+<attributeDefinition>Chloride as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566682"><attributeName>Chloride Diss Units</attributeName>
+<attributeLabel>Chloride units</attributeLabel>
+<attributeDefinition>Chloride units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Chloride units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566683"><attributeName>Chloride Diss Comm</attributeName>
+<attributeLabel>Chloride comments</attributeLabel>
+<attributeDefinition>Chloride comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566684"><attributeName>Total SO4 Diss</attributeName>
+<attributeLabel>Sulfate as text</attributeLabel>
+<attributeDefinition>Sulfate as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Sulfate as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566685"><attributeName>Total SO4 Diss Amt</attributeName>
+<attributeLabel>Sulfate</attributeLabel>
+<attributeDefinition>Sulfate as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566686"><attributeName>Total SO4 Diss Units</attributeName>
+<attributeLabel>Sulfate units</attributeLabel>
+<attributeDefinition>Sulfate units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Sulfate units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566687"><attributeName>Total SO4 Diss Comm</attributeName>
+<attributeLabel>Sulfate comments</attributeLabel>
+<attributeDefinition>Sulfate comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566688"><attributeName>Calcium</attributeName>
+<attributeLabel>Calcium</attributeLabel>
+<attributeDefinition>Calcium as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Calcium</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566689"><attributeName>Calcium Amt</attributeName>
+<attributeLabel>Calcium</attributeLabel>
+<attributeDefinition>Calcium as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566690"><attributeName>Calcium Units</attributeName>
+<attributeLabel>Calcium units</attributeLabel>
+<attributeDefinition>Calcium units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Calcium units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566691"><attributeName>Calcium Comm</attributeName>
+<attributeLabel>Calcium comments</attributeLabel>
+<attributeDefinition>Calcium comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566692"><attributeName>ALKALINITY TOTAL CACO3</attributeName>
+<attributeLabel>Alkalinity, total</attributeLabel>
+<attributeDefinition>Alkalinity, total as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Alkalinity, total as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566693"><attributeName>ALKALINITY TOTAL CACO3 Amt</attributeName>
+<attributeLabel>Alkalinity, total</attributeLabel>
+<attributeDefinition>Alkalinity, total as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566694"><attributeName>ALKALINITY TOTAL CACO3 Units</attributeName>
+<attributeLabel>Alkalinity, total units</attributeLabel>
+<attributeDefinition>Alkalinity, total units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566695"><attributeName>ALKALINITY TOTAL CACO3 Comm</attributeName>
+<attributeLabel>Alkalinity, total comments</attributeLabel>
+<attributeDefinition>Alkalinity, total comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566696"><attributeName>Turb Lab</attributeName>
+<attributeLabel>Turbidity, lab</attributeLabel>
+<attributeDefinition>Turbidity, lab as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Turbidity, lab as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566697"><attributeName>Turb Lab Amt</attributeName>
+<attributeLabel>Turbidity, lab</attributeLabel>
+<attributeDefinition>Turbidity, lab as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>NTU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566698"><attributeName>Turb Lab Units</attributeName>
+<attributeLabel>Turbidity, lab units</attributeLabel>
+<attributeDefinition>Turbidity, lab units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566699"><attributeName>Turb Lab Comm</attributeName>
+<attributeLabel>Turbidity, lab comments</attributeLabel>
+<attributeDefinition>Turbidity, lab comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566700"><attributeName>Turb Field</attributeName>
+<attributeLabel>Turbidity, probe</attributeLabel>
+<attributeDefinition>Turbidity, lab as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Turbidity, probe as text</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566701"><attributeName>Turb Field Amt</attributeName>
+<attributeLabel>Turbidity, probe</attributeLabel>
+<attributeDefinition>Turbidity, probe as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>NTU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566702"><attributeName>Turb Field Units</attributeName>
+<attributeLabel>Turbidity, probe untis</attributeLabel>
+<attributeDefinition>Turbidity, probe units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566703"><attributeName>Turb Field Comm</attributeName>
+<attributeLabel>Turbidity, probe comments</attributeLabel>
+<attributeDefinition>Turbidity, probe comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566704"><attributeName>Temperature Field</attributeName>
+<attributeLabel>Temperature</attributeLabel>
+<attributeDefinition>Temperature as text</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>temperature</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566705"><attributeName>Temperature Amt</attributeName>
+<attributeLabel>Temperature</attributeLabel>
+<attributeDefinition>Temperature as number</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1345501566706"><attributeName>Temperature Units</attributeName>
+<attributeLabel>Temperature units</attributeLabel>
+<attributeDefinition>Temperature units</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>temperature units</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1345501566707"><attributeName>Temperature Comm</attributeName>
+<attributeLabel>Temperature comments</attributeLabel>
+<attributeDefinition>Temperature comments</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>3</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="PtCo" multiplierToSI=" " name="PtCo" parentSI="mole" unitType="amount"><description>PCU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="SU" multiplierToSI=" " name="SU" parentSI="mole" unitType="amount"><description>SU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="Umho/cm" multiplierToSI=" " name="Umho/cm" parentSI="siemen" unitType="conductance"><description>Umho/cm</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount"><description>NTU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</eml:eml>

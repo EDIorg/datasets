@@ -1,0 +1,92 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Official_Lakel_Name			character	The lake name from the DNR Register of Waterbodies, which corresponds with the name recognized by the Geographic Names Council and in the USGS Geographic Names Information System	The lake name from the DNR Register of Waterbodies, which corresponds with the name recognized by the Geographic Names Council and in the USGS Geographic Names Information System	character		
+Waterbody_ID_Code_WBIC		dimensionless	natural		A unique identifier for each waterbody. Stored in the DNR Register of Waterbodies database	numeric		
+Lake_Latitude		meter	real		Approximate center of lake based on DNR 24k hydrolayer	numeric		
+Lake_Longitude		meter	real		Approximate center of lake based on DNR 24k hydrolayer	numeric		
+County_Name			character	Name of county where lake is located	Name of county where lake is located	character		
+Station_ID		dimensionless	natural		The Unique identifier for the monitoring station, stored in the Surface Water Integrated Monitoring System (SWIMS) database and is also the US EPA STORET Station ID.	numeric		
+Station_Name			character	Name of the monitoring station where the sample was taken	Name of the monitoring station where the sample was taken	character		
+Station_Type			character	These correspond to the US EPA STORET database Station Types	These correspond to the US EPA STORET database Station Types	factor		
+Secondary_Station_Type			character	Some of these correspond to the US EPA STORET database "sub types" for stations, but some are also unique to SWIMS. For instance, DEEPEST SPOT is one we created to flag stations that are actually relatively in the center or deepest part of the lake (as opposed to a bay, or along a lake edge)	Some of these correspond to the US EPA STORET database "sub types" for stations, but some are also unique to SWIMS. For instance, DEEPEST SPOT is one we created to flag stations that are actually relatively in the center or deepest part of the lake (as opposed to a bay, or along a lake edge)	factor		
+Station_Latitude		meter	real		Station latitude	numeric		
+Station_Longitude		meter	real		Station longitude	numeric		
+Project			character	In SWIMS we use these to track why the data was collected	In SWIMS we use these to track why the data was collected	character		
+Date	MM/DD/YYYY				Date of sample collection	Date		
+Date_Formatted	MM/DD/YYYY hh:mm				Date of sample collection - standardized across projects	Date		
+START_AMT		dimensionless	real		the sample depth (starting point). Often 3 feet below surface	numeric		
+END_AMT		dimensionless	real		The sample depth end point. The same as the starting point, unless it was an integrated sample.	numeric		
+UNIT_CODE			character	Unit of sample depth	Unit of sample depth	factor		
+METHOD_CODE			character	Sample Collection method code	Sample Collection method code	factor		
+Observer_Comments			character	whatever the data collector noted such as weather conditions	whatever the data collector noted such as weather conditions	character		
+Total_Phosphorus			character	result value as text	result value as text	character		
+Total_Phosphorus_Amt		milligramsPerLiter	real		total phosphorus at a number	numeric		
+Total_Phosphorus_Units			character	TP units	TP units	factor		
+Total_Phosphorus_Comm			character	comments	comments	character		
+NITROGEN_KJELDAHL_TOTAL			character	Nitrogen, total Kjeldahl as text	Nitrogen, total Kjeldahl as text	character		
+NITROGEN_KJELDAHL_TOTAL_Amt		milligramsPerLiter	real		Nitrogen, total Kjeldahl as number	numeric		
+NITROGEN_KJELDAHL_TOTAL_Units			character	Nitrogen, total Kjeldahl units	Nitrogen, total Kjeldahl units	character		
+NITROGEN_KJELDAHL_TOTAL_Comm			character	TN comments	TN comments	character		
+NITR_NO3_NO2_DISS_AS_N			character	Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) ast text	Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) ast text	character		
+NITR_NO3_NO2_DISS_AS_N_Amt		milligramsPerLiter	real		Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) as numbers	numeric		
+NITR_NO3_NO2_DISS_AS_N_Units			character	Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) units	Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) units	character		
+NITR_NO3_NO2_DISS_AS_N_Comm			character	Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) lab comments	Nitrogen, dissolved nitrite (NO2) + nitrate (NO3) lab comments	character		
+Chlorophll_A			character	Chlorophyll a as text	Chlorophyll a as text	character		
+Chlorophll_A_Amt		microgramsPerLiter	real		Chlorophyll a as number	numeric		
+Chlorophyll_A_Units			character	Chlorophyll a units	Chlorophyll a units	character		
+Chlorophyll_A_Comm			character	Chlorophyll a comments	Chlorophyll a comments	character		
+DOC		dimensionless	real		Carbon, dissolved organic as text	numeric		
+DOC_Amt		milligramsPerLiter	real		Carbon, dissolved organic as number	numeric		
+DOC_Units			character	Carbon, dissolved organic units	Carbon, dissolved organic units	character		
+DOC_Comm			character	Carbon, dissolved organic comments	Carbon, dissolved organic comments	character		
+Color			character	Color, true as text	Color, true as text	character		
+Color_Amt		dimensionless	whole		Color, true as number (PtCo)	numeric		
+Color_Units			character	Color, true units	Color, true units	character		
+Color_Comm			character	Color, true comments	Color, true comments	character		
+Color_visual			character	Color, true visual as text (SU)	Color, true visual as text (SU)	character		
+Secchi_Feet			character	Secchi, no view (foot)	Secchi, no view (foot)	character		
+Secchi_Meters			character	Secchi, no view (meter)	Secchi, no view (meter)	character		
+Secchi_Hit_Bottom			character	Secchi comments	Secchi comments	factor		
+CONDUCTIVITY_FIELD			character	Conductance, specific (Umho/cm)	Conductance, specific (Umho/cm)	character		
+CONDUCTIVITY_FIELD_Amt		micromhosPerCentimeter	real		Conductance, specific as number	numeric		
+CONDUCTIVITY_FIELD_Units			character	Conductance, specific units	Conductance, specific units	character		
+CONDUCTIVITY_FIELD_Comm			character	Conductance, specific comments	Conductance, specific comments	character		
+CONDUCTIVITY_AT_25C			character	Conductivity	Conductivity	character		
+CONDUCTIVITY_AT_25C_Amt		micromhosPerCentimeter	real		Conductivity as number	numeric		
+CONDUCTIVITY_AT_25C_Units			character	Conductivity units	Conductivity units	character		
+CONDUCTIVITY_AT_25C_Comm			character	Conductivity comments	Conductivity comments	character		
+pH_Field			character	pH as text	pH as text	character		
+pH_Field_Amt		dimensionless	real		pH as number	numeric		
+pH_Field_Units			character	pH units	pH units	character		
+pH_Field_Comm			character	pH comments	pH comments	character		
+pH_Lab			character	pH lab as text	pH lab as text	character		
+pH_Lab_Amt		dimensionless	real		pH, equilibriated as number	numeric		
+pH_Lab_Units			character	pH, equilibriated lab units	pH, equilibriated lab units	character		
+pH_Lab_Comm			character	pH, equilibriated comments	pH, equilibriated comments	character		
+Chloride_Diss			character	Chloride as text	Chloride as text	character		
+Chloride_Diss_Amt		milligramsPerLiter	real		Chloride as number	numeric		
+Chloride_Diss_Units			character	Chloride units	Chloride units	character		
+Chloride_Diss_Comm			character	Chloride comments	Chloride comments	character		
+Total_SO4_Diss			character	Sulfate as text	Sulfate as text	character		
+Total_SO4_Diss_Amt		milligramsPerLiter	real		Sulfate as number	numeric		
+Total_SO4_Diss_Units			character	Sulfate units	Sulfate units	character		
+Total_SO4_Diss_Comm			character	Sulfate comments	Sulfate comments	character		
+Calcium			character	Calcium as text	Calcium as text	character		
+Calcium_Amt		milligramsPerLiter	real		Calcium as number	numeric		
+Calcium_Units			character	Calcium units	Calcium units	character		
+Calcium_Comm			character	Calcium comments	Calcium comments	character		
+ALKALINITY_TOTAL_CACO3			character	Alkalinity, total as text	Alkalinity, total as text	character		
+ALKALINITY_TOTAL_CACO3_Amt		milligramsPerLiter	real		Alkalinity, total as number	numeric		
+ALKALINITY_TOTAL_CACO3_Units			character	Alkalinity, total units	Alkalinity, total units	character		
+ALKALINITY_TOTAL_CACO3_Comm			character	Alkalinity, total comments	Alkalinity, total comments	character		
+Turb_Lab			character	Turbidity, lab as text	Turbidity, lab as text	character		
+Turb_Lab_Amt		dimensionless	real		Turbidity, lab as number (NTU)	numeric		
+Turb_Lab_Units			character	Turbidity, lab units	Turbidity, lab units	character		
+Turb_Lab_Comm			character	Turbidity, lab comments	Turbidity, lab comments	character		
+Turb_Field			character	Turbidity, lab as text	Turbidity, lab as text	character		
+Turb_Field_Amt		dimensionless	real		Turbidity, probe as number (NTU)	numeric		
+Turb_Field_Units			character	Turbidity, probe units (dimensionless)	Turbidity, probe units (dimensionless)	character		
+Turb_Field_Comm			character	Turbidity, probe comments	Turbidity, probe comments	character		
+Temperature_Field			character	Temperature as text	Temperature as text	character		
+Temperature_Amt		celsius	real		Temperature as number	numeric		
+Temperature_Units			character	Temperature units	Temperature units	character		
+Temperature_Comm			character	Temperature comments	Temperature comments	character		
