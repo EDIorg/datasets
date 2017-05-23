@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.83.6" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+ <dataset>
+  <title>Pennsylvania Department of Environmental Protection Clean Lakes Program 1997-2011</title>
+  <creator id="1353948048128">
+   <individualName>
+    <givenName>Barbara</givenName>
+    <surName>Lathrop</surName>
+   </individualName>
+   <organizationName>Pennsylvania Department of Environmental Protection: PA Clean Lakes
+    Program</organizationName>
+   <positionName>lake specialist</positionName>
+   <address>
+    <deliveryPoint>Pennsylvania Department of Environmental Protection</deliveryPoint>
+    <administrativeArea>PA</administrativeArea>
+   </address>
+   <phone phonetype="voice">(717) 772-5651</phone>
+   <electronicMailAddress>blathrop@pa.gov</electronicMailAddress>
+  </creator>
+  <creator id="1353948159312">
+   <individualName>
+    <givenName>Travis</givenName>
+    <surName>Stone</surName>
+   </individualName>
+   <organizationName>Pennsylvania Department of Environmental Protection Bureau of Point &amp;
+    Non-Point Source Management</organizationName>
+   <positionName>lake specialist</positionName>
+   <address>
+    <deliveryPoint>Pennsylvania Department of Environmental Protection</deliveryPoint>
+   </address>
+   <phone phonetype="voice">(717) 783-2284</phone>
+   <electronicMailAddress>tstoe@pa.gov</electronicMailAddress>
+  </creator>
+  <abstract>
+   <para>Implements the statewide water quality monitoring network to determine the quality of
+    Pennsylvania's surface waters and identify long-term trends in quality; conducts surveys to
+    assess the quality of streams and lakes, and prepares reports identifying those streams and
+    lakes with protected uses deemed to be impaired; processes public petitions to re-designate the
+    protected use for lakes and streams; and administers the anti-degradation program in surface
+    waters designated for special protection. Reviews and proposes water quality criteria based upon
+    good science. Annually completes numerous TMDL analyses and reports. Manages aerial blackfly
+    spraying and conducts spraying to protect the public from mosquitos carrying the West Nile
+    virus. This dataset contains all water quality data for the State of Pennsylvania collected from
+    1997 &#8211; 2011. This dataset contains data for Secchi depth, dissolved and total nutrients,
+    chlorophyll, suspended sediments, trophic status indices, heavy metals, cations and anions, and
+    sediment composition.</para>
+  </abstract>
+  <keywordSet>
+   <keyword>Pennsylvania</keyword>
+   <keyword>Clean Lakes Program</keyword>
+   <keyword>water chemistry</keyword>
+  </keywordSet>
+  <intellectualRights>
+   <para>Data are public</para>
+  </intellectualRights>
+  <coverage>
+   <geographicCoverage>
+    <geographicDescription>Pennsylvania</geographicDescription>
+    <boundingCoordinates>
+     <westBoundingCoordinate>-80.3</westBoundingCoordinate>
+     <eastBoundingCoordinate>-74.42</eastBoundingCoordinate>
+     <northBoundingCoordinate>41.59</northBoundingCoordinate>
+     <southBoundingCoordinate>39.41</southBoundingCoordinate>
+    </boundingCoordinates>
+   </geographicCoverage>
+   <temporalCoverage>
+    <rangeOfDates>
+     <beginDate>
+      <calendarDate>1997</calendarDate>
+     </beginDate>
+     <endDate>
+      <calendarDate>2011</calendarDate>
+     </endDate>
+    </rangeOfDates>
+   </temporalCoverage>
+  </coverage>
+  <contact>
+   <references>1353948048128</references>
+  </contact>
+  <contact>
+   <references>1353948159312</references>
+  </contact>
+  <contact id="1353948229603">
+   <individualName>
+    <givenName>Jim</givenName>
+    <surName>Yoder</surName>
+   </individualName>
+   <organizationName>Pennsylvania Department of Environmental Protection Bureau of
+    Laboratories</organizationName>
+   <positionName>Lab</positionName>
+   <address>
+    <deliveryPoint>Pennsylvania Department of Environmental Protection</deliveryPoint>
+   </address>
+   <phone phonetype="voice">(717) 346-8232</phone>
+   <electronicMailAddress>jayoder@pa.gov</electronicMailAddress>
+  </contact>
+  <methods>
+   <methodStep>
+    <description>
+     <section>
+      <title>Sampling</title>
+      <para>Samplings typically occurred from April &#8211; mid-November although some lakes were
+       sampled in March and November</para>
+      <para>Lakes were typically sampled on multiple dates during a sampling year with lakes either
+       being sampled for a single year or for multiple years</para>
+      <para>Samples were collected using a discrete water column sampler (Van Dorn or Kemmerer).
+       NOTE: Duplicate samples may have been collected with an integrated water column sampler,
+       although this should be noted. &#8220;Surface&#8221; samples were collected at 1-m depth,
+       unless otherwise noted. &#8220;Bottom&#8221; samples were collected at 1-m above the bottom,
+       unless otherwise noted.</para>
+     </section>
+    </description>
+    <instrumentation>Can Dorn or Kemmerer water column sampler</instrumentation>
+   </methodStep>
+   <sampling>
+    <studyExtent>
+     <description>
+      <para>Pennsylvania</para>
+     </description>
+    </studyExtent>
+    <samplingDescription>
+     <para>Samplings typically occurred from April &#8211; mid-November although some lakes were
+      sampled in March and November. Lakes were typically sampled on multiple dates during a
+      sampling year with lakes either being sampled for a single year or for multiple years Samples
+      were collected using a discrete water column sampler (Van Dorn or Kemmerer). NOTE: Duplicate
+      samples may have been collected with an integrated water column sampler, although this should
+      be noted. &#8220;Surface&#8221; samples were collected at 1-m depth, unless otherwise noted.
+      &#8220;Bottom&#8221; samples were collected at 1-m above the bottom, unless otherwise
+      noted.</para>
+    </samplingDescription>
+   </sampling>
+  </methods>
+  <dataTable id="1353951299671">
+   <entityName>PA_DEP_CHEM_EF.csv</entityName>
+   <entityDescription>Pennsylvania Department of Environmental Protection Clean Lakes Program
+    1997-2011</entityDescription>
+   <physical id="1353949167978">
+    <objectName>PA_DEP_CHEM_EF.csv</objectName>
+    <size unit="byte">390</size>
+    <dataFormat>
+     <textFormat>
+      <numHeaderLines>1</numHeaderLines>
+      <recordDelimiter>#x0A</recordDelimiter>
+      <attributeOrientation>column</attributeOrientation>
+      <simpleDelimited>
+       <fieldDelimiter>,</fieldDelimiter>
+      </simpleDelimited>
+     </textFormat>
+    </dataFormat>
+    <distribution>
+     <offline>
+      <mediumName>hard drive</mediumName>
+     </offline>
+    </distribution>
+   </physical>
+   <attributeList>
+    <attribute id="1353951299672">
+     <attributeName>Lake Name</attributeName>
+     <attributeLabel>Name of lake</attributeLabel>
+     <attributeDefinition>Name of lake</attributeDefinition>
+     <storageType typeSystem="access">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>lake name</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299673">
+     <attributeName>Lake ID</attributeName>
+     <attributeLabel>DEP ID number of lake</attributeLabel>
+     <attributeDefinition>DEP ID number of lake</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Unique DEP lake ID</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299674">
+     <attributeName>Date</attributeName>
+     <attributeLabel>Date of sampling event</attributeLabel>
+     <attributeDefinition>Date of sampling event</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>mm/dd/yyyy</formatString>
+       <dateTimePrecision>0</dateTimePrecision>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299675">
+     <attributeName>Time</attributeName>
+     <attributeLabel>Time (military) of sampling event</attributeLabel>
+     <attributeDefinition>Time (military) of sampling event. Also includes designation for
+      &#8220;Seasonal Average&#8221;</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>hh:mm</formatString>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299676">
+     <attributeName>Sample No</attributeName>
+     <attributeLabel>Sample No</attributeLabel>
+     <attributeDefinition>ID generated for each sample typically consisting of 7 digits (####-###)
+      Sometimes used to designate &#8220;Surface&#8221;, &#8220;Bottom&#8221;, &#8220;Spring&#8221;,
+      &#8220;Summer&#8221;, &#8220;Fall&#8221;, or &#8220;CHL&#8221; samples</attributeDefinition>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>ID generated for each sample</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299677">
+     <attributeName>Station</attributeName>
+     <attributeLabel>Station name</attributeLabel>
+     <attributeDefinition>Description of location at which sample was collected (e.g., dam, mid,
+      inlet, Dock) and may include sample depth information in various formats (e.g., #1 deep bott,
+      #1 deep sfc, Sta. 1-1 M, Sta. 1-4.5 M)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>station name</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299678">
+     <attributeName>Secchi (m)</attributeName>
+     <attributeLabel>Secchi, unknown</attributeLabel>
+     <attributeDefinition>Secchi, unknown</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299679">
+     <attributeName>Alk (mg/L)</attributeName>
+     <attributeLabel>Alkalinity, total</attributeLabel>
+     <attributeDefinition>Alkalinity, total</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299680">
+     <attributeName>TSS (mg/L)</attributeName>
+     <attributeLabel>Solids, total suspended</attributeLabel>
+     <attributeDefinition>Solids, total suspended</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299681">
+     <attributeName>TURB (NTU)</attributeName>
+     <attributeLabel>Turbidity</attributeLabel>
+     <attributeDefinition>Turbidity</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>NTU</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299682">
+     <attributeName>Total Nitrogen (mg/L)</attributeName>
+     <attributeLabel>Nitrogen, total</attributeLabel>
+     <attributeDefinition>Nitrogen, total</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299683">
+     <attributeName>Total Phos-phorus (mg/L)</attributeName>
+     <attributeLabel>Phosphorus, total</attributeLabel>
+     <attributeDefinition>Phosphorus, total</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299684">
+     <attributeName>Chlo a</attributeName>
+     <attributeLabel>Chlorophyll a corrected for pheophytin</attributeLabel>
+     <attributeDefinition>Chlorophyll a corrected for pheophytin</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299685">
+     <attributeName>comments</attributeName>
+     <attributeLabel>Comments</attributeLabel>
+     <attributeDefinition>comments from field and laboratory technicians Includes information about
+      weather, Secchi measurements being greater than recorded value (longer than line), QA/QC
+      problems (blanks out of range), samples not preserved, interference suspected (TN color
+      interference)</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>comments</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299686">
+     <attributeName>Organic carbon, T (mg/L)</attributeName>
+     <attributeLabel>Carbon, total organic</attributeLabel>
+     <attributeDefinition>Carbon, total organic</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299688">
+     <attributeName>Ammonia-N T (mg/L)</attributeName>
+     <attributeLabel>Nitrogen, NH3</attributeLabel>
+     <attributeDefinition>Nitrogen, NH3</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299689">
+     <attributeName>Nitrate-N (mg/L)</attributeName>
+     <attributeLabel>Nitrogen, nitrate (NO3)</attributeLabel>
+     <attributeDefinition>Nitrogen, nitrate (NO3)</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299690">
+     <attributeName>Aluminum (ug/L)</attributeName>
+     <attributeLabel>Nitrogen, NH3</attributeLabel>
+     <attributeDefinition>Nitrogen, NH3</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299691">
+     <attributeName>Sodium, T (mg/L)</attributeName>
+     <attributeLabel>Sodium</attributeLabel>
+     <attributeDefinition>Sodium</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299695">
+     <attributeName>Calcium, T (mg/L)</attributeName>
+     <attributeLabel>Calcium</attributeLabel>
+     <attributeDefinition>Calcium</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299697">
+     <attributeName>Barium T (ug/L)</attributeName>
+     <attributeDefinition>dfd</attributeDefinition>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>dfd</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299698">
+     <attributeName>Manganese T ug/L</attributeName>
+     <attributeLabel>Manganese</attributeLabel>
+     <attributeDefinition>Manganese</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299699">
+     <attributeName>Magnesium T (mg/L)</attributeName>
+     <attributeLabel>Magnesium</attributeLabel>
+     <attributeDefinition>Magnesium</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299700">
+     <attributeName>Sulfate T (mg/L)</attributeName>
+     <attributeLabel>Sulfate</attributeLabel>
+     <attributeDefinition>Sulfate</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299701">
+     <attributeName>Bicarbonate (mg/L)</attributeName>
+     <attributeLabel>Alkalinity, bicarbonate</attributeLabel>
+     <attributeDefinition>Alkalinity, bicarbonate</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299702">
+     <attributeName>SpCond Umhos/cm</attributeName>
+     <attributeLabel>Conductance, specific</attributeLabel>
+     <attributeDefinition>Conductance, specific</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>Umhos/cm</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299703">
+     <attributeName>Lab pH</attributeName>
+     <attributeLabel>pH</attributeLabel>
+     <attributeDefinition>pH measured in the lab</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>pH</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299704">
+     <attributeName>Hardness (mg/L)</attributeName>
+     <attributeLabel>Hardness, total</attributeLabel>
+     <attributeDefinition>Hardness, total</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299705">
+     <attributeName>Chloride (mg/L)</attributeName>
+     <attributeLabel>Chloride</attributeLabel>
+     <attributeDefinition>Chloride</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299706">
+     <attributeName>Iron T (ug/L)</attributeName>
+     <attributeLabel>Iron, total</attributeLabel>
+     <attributeDefinition>Iron, total</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>microgramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299707">
+     <attributeName>Nitrite-N (mg/L)</attributeName>
+     <attributeLabel>Nitrogen, nitrite (NO2)</attributeLabel>
+     <attributeDefinition>Nitrogen, nitrite (NO2)</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299708">
+     <attributeName>Sulfate IC (mg/L)</attributeName>
+     <attributeLabel>Sulfate</attributeLabel>
+     <attributeDefinition>Sulfate</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299713">
+     <attributeName>TOC (mg/L)</attributeName>
+     <attributeLabel>Carbon, total organic</attributeLabel>
+     <attributeDefinition>Carbon, total organic</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>milligramsPerLiter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1353951299714">
+     <attributeName>Alkalinity (ppmCaCO3)</attributeName>
+     <attributeLabel>Alkalinity, carbonate</attributeLabel>
+     <attributeDefinition>Alkalinity, carbonate</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>ppm</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1357761639951">
+     <attributeName>AVG_DEPTH_FT</attributeName>
+     <attributeLabel>Depth, mean</attributeLabel>
+     <attributeDefinition>Depth, mean</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>foot</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1357761677498">
+     <attributeName>AVG_DEPTH_M</attributeName>
+     <attributeLabel>Depth, mean</attributeLabel>
+     <attributeDefinition>Depth, mean</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1357761713688">
+     <attributeName>MAX_DEPTH_FT</attributeName>
+     <attributeLabel>depth, maximum</attributeLabel>
+     <attributeDefinition>depth, maximum</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>foot</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1357761743294">
+     <attributeName>MAX_DEPTH_M</attributeName>
+     <attributeLabel>Depth, maximum</attributeLabel>
+     <attributeDefinition>Depth, maximum</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>meter</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+   </attributeList>
+   <numberOfRecords>10</numberOfRecords>
+  </dataTable>
+ </dataset>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount">
+     <description>NTU</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="Umhos/cm" multiplierToSI=" " name="Umhos/cm" parentSI="mole" unitType="amount">
+     <description>Umhos/cm</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="pH" multiplierToSI=" " name="pH" parentSI="mole" unitType="amount">
+     <description>pH</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="ppm" multiplierToSI=" " name="ppm" parentSI="mole" unitType="amount">
+     <description>ppm</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+</eml:eml>

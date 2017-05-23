@@ -1,0 +1,39 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Lake_Name			character	Name of lake	Name of lake	character		
+Lake_ID			character	DEP ID number of lake	DEP ID number of lake	character		
+Date	MM/DD/YYYY				Date of sampling event	Date		
+Time			character	Time (military) of sampling event. Also includes designation for “Seasonal Average”	Time (military) of sampling event. Also includes designation for “Seasonal Average”	character		
+Sample_No			character	ID generated for each sample typically consisting of 7 digits (nnnn-nnn) Sometimes used to designate “Surface”, “Bottom”, “Spring”, “Summer”, “Fall”, or “CHL” samples	ID generated for each sample typically consisting of 7 digits (nnnn-nnn) Sometimes used to designate “Surface”, “Bottom”, “Spring”, “Summer”, “Fall”, or “CHL” samples	character		
+Station			character	Description of location at which sample was collected (e.g., dam, mid, inlet, Dock) and may include sample depth information in various formats (e.g., n1 deep bott, n1 deep sfc, Sta. 1-1 M, Sta. 1-4.5 M)	Description of location at which sample was collected (e.g., dam, mid, inlet, Dock) and may include sample depth information in various formats (e.g., n1 deep bott, n1 deep sfc, Sta. 1-1 M, Sta. 1-4.5 M)	character		
+Secchi_m		meter	real		Secchi, unknown	numeric		
+Alk_mgL			character	Alkalinity, total (milligramsPerLiter)	Alkalinity, total (milligramsPerLiter)	character		
+TSS_mgL			character	Solids, total suspended (milligramsPerLiter)	Solids, total suspended (milligramsPerLiter)	character		
+TURB_NTU			character	Turbidity (NTU)	Turbidity (NTU)	character		
+Total_Nitrogen_mgL		milligramsPerLiter	real		Nitrogen, total	numeric		
+Total_Phos_phorus_mgL			character	Phosphorus, total (milligramsPerLiter)	Phosphorus, total (milligramsPerLiter)	character		
+Chlo_a		milligramsPerLiter	real		Chlorophyll a corrected for pheophytin	numeric		
+comments			character	comments from field and laboratory technicians Includes information about weather, Secchi measurements being greater than recorded value (longer than line), QA/QC problems (blanks out of range), samples not preserved, interference suspected (TN color interference)	comments from field and laboratory technicians Includes information about weather, Secchi measurements being greater than recorded value (longer than line), QA/QC problems (blanks out of range), samples not preserved, interference suspected (TN color interference)	character		
+Organic_carbon_T_mgL		milligramsPerLiter	real		Carbon, total organic	numeric		
+Ammonia_N_T_mgL			character	Nitrogen, NH3 (milligramsPerLiter)	Nitrogen, NH3 (milligramsPerLiter)	character		
+Nitrate_N_mgL			character	Nitrogen, nitrate (NO3) (milligramsPerLiter)	Nitrogen, nitrate (NO3) (milligramsPerLiter)	character		
+Aluminum_ugL			character	Nitrogen, NH3 (milligramsPerLiter)	Nitrogen, NH3 (milligramsPerLiter)	character		
+Sodium_T_mgL		milligramsPerLiter	real		Sodium	numeric		
+Calcium_T_mgL		milligramsPerLiter	real		Calcium	numeric		
+Barium_T_ugL			character	dfd	dfd	character		
+Manganese_T_ugL			character	Manganese (milligramsPerLiter)	Manganese (milligramsPerLiter)	character		
+Magnesium_T_mgL			character	Magnesium (milligramsPerLiter)	Magnesium (milligramsPerLiter)	character		
+Sulfate_T_mgL			character	Sulfate (milligramsPerLiter)	Sulfate (milligramsPerLiter)	character		
+Bicarbonate_mgL		milligramsPerLiter	real		Alkalinity, bicarbonate	numeric		
+SpCond_Umhoscm		micromhosPerCentimeter	real		Conductance, specific	numeric		
+Lab_pH			character	pH measured in the lab (dimensionless)	pH measured in the lab (dimensionless)	character		
+Hardness_mgL			character	Hardness, total (milligramsPerLiter)	Hardness, total (milligramsPerLiter)	character		
+Chloride_mgL			character	Chloride (milligramsPerLiter)	Chloride (milligramsPerLiter)	character		
+Iron_T_ugL			character	Iron, total (microgramsPerLiter)	Iron, total (microgramsPerLiter)	character		
+Nitrite_N_mgL			character	Nitrogen, nitrite (NO2) (milligramsPerLiter)	Nitrogen, nitrite (NO2) (milligramsPerLiter)	character		
+Sulfate_IC_mgL			character	Sulfate (milligramsPerLiter)	Sulfate (milligramsPerLiter)	character		
+TOC_mgL		milligramsPerLiter	real		Carbon, total organic	numeric		
+Alkalinity_ppmCaCO3		milligramsPerLiter	real		Alkalinity, carbonate	numeric		
+AVG_DEPTH_FT		foot	real		Depth, mean	numeric		
+AVG_DEPTH_M		meter	natural		Depth, mean	numeric		
+MAX_DEPTH_FT		foot	real		depth, maximum	numeric		
+MAX_DEPTH_M		meter	real		Depth, maximum	numeric		
