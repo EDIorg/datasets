@@ -1,0 +1,9 @@
+attributeName	code	definition
+secchiq	m	Method SOP not followed, only partially implemented or not implemented at all, due to complications with sample matrix
+secchiq	e	Not theoretically possible
+secbot	No	Not greater than lake bottom
+secbot	Yes	Greater than lake bottom
+secview	Yes	Secchi view scope was used
+secview	No	Secchi view scope was not used
+sampleposition	epi	Epilimnion
+sampleposition	hypo	Hypolimnion

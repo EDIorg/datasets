@@ -1,0 +1,2605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="edi.72.2" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Unpublished data, Massachusetts Department of Environment Protection, lake water chemistry data, 1995-2004</title>
+    <creator>
+      <individualName>
+        <givenName>Thomas</givenName>
+        <surName>Dallaire</surName>
+      </individualName>
+      <organizationName>Massachusetts Department of Environment Protection</organizationName>
+      <positionName>Environmental Analyst</positionName>
+      <address>
+        <deliveryPoint>627 Main Street, 2nd Floor</deliveryPoint>
+        <city>Worcester</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01608</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">508-767-2740</phone>
+      <electronicMailAddress>thams.dallaire@state.ma.us</electronicMailAddress>
+    </creator>
+    <pubDate>2017-05-23</pubDate>
+    <abstract>
+      <para>This database contains anion, nutrient, and secchi data collected by MA DEP for assessment of water quality in MA lakes. Data spans 1995-2004.  The ultimate goal of the MassDEP is to implement a comprehensive monitoring program (status/assessment, trends and flows, and targeted) that serves all water quality management needs, and addresses streams, rivers, lakes, reservoirs, estuaries, coastal areas, wetlands, and groundwater.  The five-year rotating watershed assessment program is currently the primary means of meeting the CWA objective related to assessing the status of designated uses. Requirements for the monitoring  program designed to support watershed assessments, reflecting CWA mandates, are that it be statewide in scale, comprehensive (all water bodies in the Commonwealth are assessed), and repeated at regular intervals. Water quality surveys generally consist of five sampling events interspersed throughout the water recreation season for conventional water quality analyses such as pH, dissolved oxygen, suspended and total dissolved solids, nutrients, and fecal coliform bacteria.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>MA</keyword>
+      <keyword>lake monitoring</keyword>
+      <keyword>water chemistry</keyword>
+      <keyword>secchi</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Massachusetts, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-73.32</westBoundingCoordinate>
+          <eastBoundingCoordinate>-69.55</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.52</northBoundingCoordinate>
+          <southBoundingCoordinate>41.28</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1995</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2004</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Thomas</givenName>
+        <surName>Dallaire</surName>
+      </individualName>
+      <organizationName>Massachusetts Department of Environment Protection</organizationName>
+      <positionName>Environmental Analyst</positionName>
+      <address>
+        <deliveryPoint>627 Main Street, 2nd Floor</deliveryPoint>
+        <city>Worcester</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01608</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">508-767-2740</phone>
+      <electronicMailAddress>thams.dallaire@state.ma.us</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>QA/QC</title>
+            <para>We have develop a detailed set to Standard Operating Procedures and Quality Assurance Project Plan which guide both data acquisition (monitoring) and handling (data management).  QAPPs are available from MADEP, but not included in this dataset</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cheshire Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.16979448</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.16979448</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.54995805</northBoundingCoordinate>
+                <southBoundingCoordinate>42.54995805</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Buel</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.28238571</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.28238571</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.17368078</northBoundingCoordinate>
+                <southBoundingCoordinate>42.17368078</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Garfield</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.1933783</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.1933783</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.18145247</northBoundingCoordinate>
+                <southBoundingCoordinate>42.18145247</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Laurel Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.270065</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.270065</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.32540885</northBoundingCoordinate>
+                <southBoundingCoordinate>42.32540885</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Mansfield Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.36795286</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.36795286</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.20343905</northBoundingCoordinate>
+                <southBoundingCoordinate>42.20343905</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Prospect Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.45214789</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.45214789</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.19205927</northBoundingCoordinate>
+                <southBoundingCoordinate>42.19205927</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HOUSATONIC RIVER/Woods Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.24383978</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.24383978</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.34973589</northBoundingCoordinate>
+                <southBoundingCoordinate>42.34973589</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Benton Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.04392217</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.04392217</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.18348959</northBoundingCoordinate>
+                <southBoundingCoordinate>42.18348959</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Shaw Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.12277522</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.12277522</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.25214199</northBoundingCoordinate>
+                <southBoundingCoordinate>42.25214199</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Congamond Lakes</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.75639629</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.75639629</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.02676104</northBoundingCoordinate>
+                <southBoundingCoordinate>42.02676104</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Yokum Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-73.12351281</westBoundingCoordinate>
+                <eastBoundingCoordinate>-73.12351281</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.30415153</northBoundingCoordinate>
+                <southBoundingCoordinate>42.30415153</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Pelham Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.89328838</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.89328838</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.7004708</northBoundingCoordinate>
+                <southBoundingCoordinate>42.7004708</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Plainfield Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.95597019</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.95597019</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.54426316</northBoundingCoordinate>
+                <southBoundingCoordinate>42.54426316</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Metacomet Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.43143235</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.43143235</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.30628206</northBoundingCoordinate>
+                <southBoundingCoordinate>42.30628206</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Upper Highland Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.79741678</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.79741678</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.45925147</northBoundingCoordinate>
+                <southBoundingCoordinate>42.45925147</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Bents Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.98591313</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.98591313</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.55721861</northBoundingCoordinate>
+                <southBoundingCoordinate>42.55721861</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hilchey Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.03289187</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.03289187</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.59224279</northBoundingCoordinate>
+                <southBoundingCoordinate>42.59224279</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Rohunta</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.27435857</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.27435857</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.56140445</northBoundingCoordinate>
+                <southBoundingCoordinate>42.56140445</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Stoddard Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.05839957</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.05839957</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.63545367</northBoundingCoordinate>
+                <southBoundingCoordinate>42.63545367</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MILLERS RIVER/Whitney Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.04121513</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.04121513</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.68308224</northBoundingCoordinate>
+                <southBoundingCoordinate>42.68308224</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hemingway Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.10360033</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.10360033</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.47455297</northBoundingCoordinate>
+                <southBoundingCoordinate>42.47455297</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Lorraine</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.51299231</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.51299231</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.14509062</northBoundingCoordinate>
+                <southBoundingCoordinate>42.14509062</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Quaboag Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.06562724</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.06562724</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.19196383</northBoundingCoordinate>
+                <southBoundingCoordinate>42.19196383</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Quacumquasit Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.07121519</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.07121519</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.17408444</northBoundingCoordinate>
+                <southBoundingCoordinate>42.17408444</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Alum Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.12021662</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.12021662</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.14096257</northBoundingCoordinate>
+                <southBoundingCoordinate>42.14096257</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Glen Echo Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.99070492</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.99070492</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.15817575</northBoundingCoordinate>
+                <southBoundingCoordinate>42.15817575</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Mill Road Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.21019893</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.21019893</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.1177487</northBoundingCoordinate>
+                <southBoundingCoordinate>42.1177487</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Morse Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.01070511</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.01070511</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.02739331</northBoundingCoordinate>
+                <southBoundingCoordinate>42.02739331</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sherman Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.19352508</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.19352508</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.13589728</northBoundingCoordinate>
+                <southBoundingCoordinate>42.13589728</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sibley Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.00995862</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.00995862</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.14900139</northBoundingCoordinate>
+                <southBoundingCoordinate>42.14900139</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Wielock Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.93476254</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.93476254</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.03021798</northBoundingCoordinate>
+                <southBoundingCoordinate>42.03021798</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HOBBS BROOK/Pistol Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.06957171</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.06957171</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.11557896</northBoundingCoordinate>
+                <southBoundingCoordinate>42.11557896</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Dresser Hill Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.96418674</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.96418674</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.09495126</northBoundingCoordinate>
+                <southBoundingCoordinate>42.09495126</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Gore Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.94769285</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.94769285</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.0847168</northBoundingCoordinate>
+                <southBoundingCoordinate>42.0847168</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Pierpont Meadow Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.91563863</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.91563863</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.0882841</northBoundingCoordinate>
+                <southBoundingCoordinate>42.0882841</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Rochdale Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.90464334</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.90464334</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.19747561</northBoundingCoordinate>
+                <southBoundingCoordinate>42.19747561</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Wallis Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.90712942</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.90712942</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.06434845</northBoundingCoordinate>
+                <southBoundingCoordinate>42.06434845</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Larner Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.90445175</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.90445175</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.05570614</northBoundingCoordinate>
+                <southBoundingCoordinate>42.05570614</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Coes Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.83209696</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.83209696</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.24960582</northBoundingCoordinate>
+                <southBoundingCoordinate>42.24960582</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BLACKSTONE RIVER/Fisherville Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.68815945</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.68815945</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.17958119</northBoundingCoordinate>
+                <southBoundingCoordinate>42.17958119</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Manchaug Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.77677558</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.77677558</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.09369517</northBoundingCoordinate>
+                <southBoundingCoordinate>42.09369517</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Quinsigamond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.75691119</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.75691119</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.29024395</northBoundingCoordinate>
+                <southBoundingCoordinate>42.29024395</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BLACKSTONE RIVER/Rice City Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.62245991</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.62245991</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.09848298</northBoundingCoordinate>
+                <southBoundingCoordinate>42.09848298</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sutton Falls</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.78216913</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.78216913</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.10969591</northBoundingCoordinate>
+                <southBoundingCoordinate>42.10969591</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BLACKSTONE RIVER/Singing Dam Impoundment</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.73068267</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.73068267</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.18121701</northBoundingCoordinate>
+                <southBoundingCoordinate>42.18121701</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>TEN MILE RIVER/Central Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.3434498</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.3434498</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.84738764</northBoundingCoordinate>
+                <southBoundingCoordinate>41.84738764</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>TEN MILE RIVER/Dodgeville Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.29595768</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.29595768</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.92246036</northBoundingCoordinate>
+                <southBoundingCoordinate>41.92246036</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>TEN MILE RIVER/Falls Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.32511071</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.32511071</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.96889822</northBoundingCoordinate>
+                <southBoundingCoordinate>41.96889822</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>TEN MILE RIVER/Farmers Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.29985521</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.29985521</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.95162291</northBoundingCoordinate>
+                <southBoundingCoordinate>41.95162291</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>TEN MILE RIVER/James V. Turner Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.33915659</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.33915659</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.83437496</northBoundingCoordinate>
+                <southBoundingCoordinate>41.83437496</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>TEN MILE RIVER/Mechanics Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.29498635</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.29498635</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.94484171</northBoundingCoordinate>
+                <southBoundingCoordinate>41.94484171</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>COLE RIVER/Milford Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.21163271</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.21163271</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.7634379</northBoundingCoordinate>
+                <southBoundingCoordinate>41.7634379</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Ames Long Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.11554731</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.11554731</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.07840473</northBoundingCoordinate>
+                <southBoundingCoordinate>42.07840473</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Monponsett Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.84525352</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.84525352</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.00459582</northBoundingCoordinate>
+                <southBoundingCoordinate>42.00459582</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Sabbatia</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.11197881</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.11197881</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.94460467</northBoundingCoordinate>
+                <southBoundingCoordinate>41.94460467</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Stetson Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.82611145</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.82611145</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.02849624</northBoundingCoordinate>
+                <southBoundingCoordinate>42.02849624</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Watson Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.11913351</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.11913351</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.95142643</northBoundingCoordinate>
+                <southBoundingCoordinate>41.95142643</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>WEST MEADOW BROOK/West Meadow Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.03867348</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.03867348</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.0412087</northBoundingCoordinate>
+                <southBoundingCoordinate>42.0412087</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Blacks Nook</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.15145493</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.15145493</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.38933694</northBoundingCoordinate>
+                <southBoundingCoordinate>42.38933694</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Ell Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.06369966</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.06369966</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.46076351</northBoundingCoordinate>
+                <southBoundingCoordinate>42.46076351</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Horn Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.15765018</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.15765018</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.46963022</northBoundingCoordinate>
+                <southBoundingCoordinate>42.46963022</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>ABERJONA RIVER/Judkins Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.13538287</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.13538287</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.45553</northBoundingCoordinate>
+                <southBoundingCoordinate>42.45553</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lower Mystic Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.14702488</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.14702488</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.42371963</northBoundingCoordinate>
+                <southBoundingCoordinate>42.42371963</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>ABERJONA RIVER/Mill Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.1354011</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.1354011</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.4528466</northBoundingCoordinate>
+                <southBoundingCoordinate>42.4528466</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Wedge Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.14158508</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.14158508</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.45289418</northBoundingCoordinate>
+                <southBoundingCoordinate>42.45289418</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Winter Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.15390848</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.15390848</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.456258</northBoundingCoordinate>
+                <southBoundingCoordinate>42.456258</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Chandler Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.16431301</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.16431301</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.34575017</northBoundingCoordinate>
+                <southBoundingCoordinate>42.34575017</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hammond Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.17019796</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.17019796</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.3246854</northBoundingCoordinate>
+                <southBoundingCoordinate>42.3246854</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Jamaica Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.11901573</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.11901573</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.31754129</northBoundingCoordinate>
+                <southBoundingCoordinate>42.31754129</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Mirror Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.32292825</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.32292825</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.08815509</northBoundingCoordinate>
+                <southBoundingCoordinate>42.08815509</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Pearl</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.3520429</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.3520429</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.06605001</northBoundingCoordinate>
+                <southBoundingCoordinate>42.06605001</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Uncas Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.37735091</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.37735091</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.06235299</northBoundingCoordinate>
+                <southBoundingCoordinate>42.06235299</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Weld Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.1997059</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.1997059</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.25030138</northBoundingCoordinate>
+                <southBoundingCoordinate>42.25030138</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Cobbs Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.24307751</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.24307751</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.1585643</northBoundingCoordinate>
+                <southBoundingCoordinate>42.1585643</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Gauawatte Farm Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.24217298</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.24217298</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.1085384</northBoundingCoordinate>
+                <southBoundingCoordinate>42.1085384</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Turners Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.07675019</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.07675019</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.26071391</northBoundingCoordinate>
+                <southBoundingCoordinate>42.26071391</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Bare Hill Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.5970522</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.5970522</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.49033333</northBoundingCoordinate>
+                <southBoundingCoordinate>42.49033333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Dickinson Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.70752977</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.70752977</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.6128793</northBoundingCoordinate>
+                <southBoundingCoordinate>42.6128793</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Fort Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.6880925</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.6880925</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.52346976</northBoundingCoordinate>
+                <southBoundingCoordinate>42.52346976</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Partridge Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.93878092</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.93878092</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.54048831</northBoundingCoordinate>
+                <southBoundingCoordinate>42.54048831</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CATACOONAMUG BROOK/Lake Shirley</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.68123651</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.68123651</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.5527476</northBoundingCoordinate>
+                <southBoundingCoordinate>42.5527476</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>NASHUA RIVER/Ice House Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.62012719</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.62012719</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.55232198</northBoundingCoordinate>
+                <southBoundingCoordinate>42.55232198</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>NASHUA RIVER/Pepperell Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.57975566</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.57975566</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.65660637</northBoundingCoordinate>
+                <southBoundingCoordinate>42.65660637</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Assabet River Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.6372929</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.6372929</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.26478422</northBoundingCoordinate>
+                <southBoundingCoordinate>42.26478422</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Farm Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.42271884</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.42271884</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.27822397</northBoundingCoordinate>
+                <southBoundingCoordinate>42.27822397</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Heard Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.38288793</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.38288793</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.35530001</northBoundingCoordinate>
+                <southBoundingCoordinate>42.35530001</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Walden Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.34015049</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.34015049</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.43892816</northBoundingCoordinate>
+                <southBoundingCoordinate>42.43892816</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Whitehall Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.57827544</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.57827544</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.21709615</northBoundingCoordinate>
+                <southBoundingCoordinate>42.21709615</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Willis Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.44569681</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.44569681</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.39840699</northBoundingCoordinate>
+                <southBoundingCoordinate>42.39840699</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Cochituate</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.36772536</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.36772536</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.30447696</northBoundingCoordinate>
+                <southBoundingCoordinate>42.30447696</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Fosters Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.13324366</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.13324366</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.60931121</northBoundingCoordinate>
+                <southBoundingCoordinate>42.60931121</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Long Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.25182791</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.25182791</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.59818938</northBoundingCoordinate>
+                <southBoundingCoordinate>42.59818938</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>SHAWSHEEN RIVER/Lowell Junction Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.15861617</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.15861617</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.62651109</northBoundingCoordinate>
+                <southBoundingCoordinate>42.62651109</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Chadwicks Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.07746477</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.07746477</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.74049963</northBoundingCoordinate>
+                <southBoundingCoordinate>42.74049963</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lake Cochichewick</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.09608641</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.09608641</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.70415411</northBoundingCoordinate>
+                <southBoundingCoordinate>42.70415411</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Flint Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.42770211</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.42770211</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.67298703</northBoundingCoordinate>
+                <southBoundingCoordinate>42.67298703</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Johnsons Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.05252001</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.05252001</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.73028348</northBoundingCoordinate>
+                <southBoundingCoordinate>42.73028348</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Newfield Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.38683849</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.38683849</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.63273166</northBoundingCoordinate>
+                <southBoundingCoordinate>42.63273166</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Massapoag Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.49434179</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.49434179</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.6496932</northBoundingCoordinate>
+                <southBoundingCoordinate>42.6496932</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Baldpate Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.00142335</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.00142335</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.69888619</northBoundingCoordinate>
+                <southBoundingCoordinate>42.69888619</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Rock Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.00615409</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.00615409</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.72903264</northBoundingCoordinate>
+                <southBoundingCoordinate>42.72903264</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Crystal Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.9994896</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.9994896</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.54928097</northBoundingCoordinate>
+                <southBoundingCoordinate>42.54928097</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Devils Dishfull Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.00571345</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.00571345</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.54156813</northBoundingCoordinate>
+                <southBoundingCoordinate>42.54156813</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Martins Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.12521895</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.12521895</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.59554298</northBoundingCoordinate>
+                <southBoundingCoordinate>42.59554298</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Stearns Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.06528577</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.06528577</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.61584599</northBoundingCoordinate>
+                <southBoundingCoordinate>42.61584599</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BOSTON BROOK/Upper Boston Brook Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.02025589</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.02025589</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.62068997</northBoundingCoordinate>
+                <southBoundingCoordinate>42.62068997</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Beck Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.82256461</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.82256461</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.60362715</northBoundingCoordinate>
+                <southBoundingCoordinate>42.60362715</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Coy Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.82240986</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.82240986</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.59224985</northBoundingCoordinate>
+                <southBoundingCoordinate>42.59224985</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Pillings Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.02993219</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.02993219</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.529657</northBoundingCoordinate>
+                <southBoundingCoordinate>42.529657</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BASS RIVER/Shoe Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.88923529</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.88923529</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.55631535</northBoundingCoordinate>
+                <southBoundingCoordinate>42.55631535</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>West Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.70860516</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.70860516</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.57928083</northBoundingCoordinate>
+                <southBoundingCoordinate>42.57928083</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>DRINKWATER RIVER/Forge Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.87794469</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.87794469</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.10443705</northBoundingCoordinate>
+                <southBoundingCoordinate>42.10443705</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Fresh Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.55598017</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.55598017</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.90533067</northBoundingCoordinate>
+                <southBoundingCoordinate>41.90533067</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Furnace Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.82255737</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.82255737</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.05376314</northBoundingCoordinate>
+                <southBoundingCoordinate>42.05376314</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Great Herring Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.56379741</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.56379741</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.79968239</northBoundingCoordinate>
+                <southBoundingCoordinate>41.79968239</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Jacobs Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.84795164</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.84795164</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.16031598</northBoundingCoordinate>
+                <southBoundingCoordinate>42.16031598</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>JONES RIVER/Jones River Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.78834221</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.78834221</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.01304093</northBoundingCoordinate>
+                <southBoundingCoordinate>42.01304093</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lower Chandler Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.76686592</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.76686592</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.0281424</northBoundingCoordinate>
+                <southBoundingCoordinate>42.0281424</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Musquashcut Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.75663206</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.75663206</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.22610525</northBoundingCoordinate>
+                <southBoundingCoordinate>42.22610525</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Old Oaken Bucket Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.75024781</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.75024781</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.17806932</northBoundingCoordinate>
+                <southBoundingCoordinate>42.17806932</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FIRST HERRING BROOK/Tack Factory Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.76087091</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.76087091</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.18658575</northBoundingCoordinate>
+                <southBoundingCoordinate>42.18658575</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>INDIAN HEAD BROOK/Wampatuck Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.86609113</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.86609113</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.06266435</northBoundingCoordinate>
+                <southBoundingCoordinate>42.06266435</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Crane Brook Bog Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.75533338</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.75533338</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.82006273</northBoundingCoordinate>
+                <southBoundingCoordinate>41.82006273</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Federal Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.71064942</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.71064942</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.8747594</northBoundingCoordinate>
+                <southBoundingCoordinate>41.8747594</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>New Bedford Reservoir</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.90651105</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.90651105</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.73858731</northBoundingCoordinate>
+                <southBoundingCoordinate>41.73858731</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>New Long Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.67817561</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.67817561</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.85212618</northBoundingCoordinate>
+                <southBoundingCoordinate>41.85212618</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Noquochoke Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.04582944</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.04582944</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.63981553</northBoundingCoordinate>
+                <southBoundingCoordinate>41.63981553</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>WANKINCO RIVER/Parker Mills Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.72205854</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.72205854</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.77018529</northBoundingCoordinate>
+                <southBoundingCoordinate>41.77018529</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Turner Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.97096286</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.97096286</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.68379581</northBoundingCoordinate>
+                <southBoundingCoordinate>41.68379581</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>White Island Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.61753091</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.61753091</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.80918339</northBoundingCoordinate>
+                <southBoundingCoordinate>41.80918339</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Crystal Lake</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-69.98147108</westBoundingCoordinate>
+                <eastBoundingCoordinate>-69.98147108</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.77291937</northBoundingCoordinate>
+                <southBoundingCoordinate>41.77291937</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Great Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-69.98612479</westBoundingCoordinate>
+                <eastBoundingCoordinate>-69.98612479</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.83281293</northBoundingCoordinate>
+                <southBoundingCoordinate>41.83281293</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Hinckleys Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.09062853</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.09062853</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.71377641</northBoundingCoordinate>
+                <southBoundingCoordinate>41.71377641</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lovells Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.44185472</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.44185472</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.648757</northBoundingCoordinate>
+                <southBoundingCoordinate>41.648757</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Lower Mill Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.10876811</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.10876811</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.74096475</northBoundingCoordinate>
+                <southBoundingCoordinate>41.74096475</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Red Lily Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.33032582</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.33032582</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.64245028</northBoundingCoordinate>
+                <southBoundingCoordinate>41.64245028</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Ryder Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.03152458</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.03152458</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.96729624</northBoundingCoordinate>
+                <southBoundingCoordinate>41.96729624</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Santuit Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.45633729</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.45633729</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.65324527</northBoundingCoordinate>
+                <southBoundingCoordinate>41.65324527</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Sheep Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.0673602</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.0673602</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.74072167</northBoundingCoordinate>
+                <southBoundingCoordinate>41.74072167</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Upper Mill Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.1175758</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.1175758</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.7276927</northBoundingCoordinate>
+                <southBoundingCoordinate>41.7276927</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Walkers Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.12543035</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.12543035</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.72232226</northBoundingCoordinate>
+                <southBoundingCoordinate>41.72232226</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Gibbs Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.01559636</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.01559636</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.27455134</northBoundingCoordinate>
+                <southBoundingCoordinate>41.27455134</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Tom Nevers Pond</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-69.98751914</westBoundingCoordinate>
+                <eastBoundingCoordinate>-69.98751914</eastBoundingCoordinate>
+                <northBoundingCoordinate>41.24688986</northBoundingCoordinate>
+                <southBoundingCoordinate>41.24688986</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <para>Water bodies are sampled on a five-year rotating watershed assessment program. Water quality surveys generally consist of five sampling events interspersed throughout the water recreation season.</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>MA_DEP_CHEM.csv</entityName>
+      <entityDescription>Unpublished data, Massachusetts Department of Environment Protection, lake water chemistry data, 1995-2004</entityDescription>
+      <physical>
+        <objectName>MA_DEP_CHEM.csv</objectName>
+        <size unit="bytes">369525</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MA_DEP_CHEM/MA_DEP_CHEM.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>unique_id</attributeName>
+          <attributeDefinition>Unique sampling location ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique sampling location ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>projcode</attributeName>
+          <attributeDefinition>Project sampling associated with (required to locate QAPP documents for given sampling effort)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>date sampling occurred</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>secchi</attributeName>
+          <attributeDefinition>Secchi depth (m)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>secchiq</attributeName>
+          <attributeDefinition>Secchi qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>m</code>
+                    <definition>Method SOP not followed, only partially implemented or not implemented at all, due to complications with sample matrix</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>e</code>
+                    <definition>Not theoretically possible</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>secbot</attributeName>
+          <attributeDefinition>was secchi depth greater than bottom depth</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>No</code>
+                    <definition>Not greater than lake bottom</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Yes</code>
+                    <definition>Greater than lake bottom</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>secview</attributeName>
+          <attributeDefinition>was secchi viewscope used</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Yes</code>
+                    <definition>Secchi view scope was used</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>No</code>
+                    <definition>Secchi view scope was not used</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>maxdepth</attributeName>
+          <attributeDefinition>maxdepth at sampling location</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>maxdepthq</attributeName>
+          <attributeDefinition>qualifiier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>qualifiier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fscomment</attributeName>
+          <attributeDefinition>comments about sampling</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments about sampling</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>latitude DD</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>long</attributeName>
+          <attributeDefinition>longitude DD</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>type</attributeName>
+          <attributeDefinition>df</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>df</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>saris</attributeName>
+          <attributeDefinition>Stream unique ID (data with both Saris and Palis are impoundments/reservoirs)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>palis</attributeName>
+          <attributeDefinition>Pond and lake unique ID</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>staid</attributeName>
+          <attributeDefinition>Station ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Station ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>rwbname</attributeName>
+          <attributeDefinition>waterbody name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>waterbody name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>descriptor</attributeName>
+          <attributeDefinition>description of sampling location</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>description of sampling location</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>establish</attributeName>
+          <attributeDefinition>year location established as sampling site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>projname</attributeName>
+          <attributeDefinition>name of project associated with sampling</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>name of project associated with sampling</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeDefinition>flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sdepth1</attributeName>
+          <attributeDefinition>sample depth (if noted or if integrated sample, top of integrated sample)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sdepth2</attributeName>
+          <attributeDefinition>bottom of integrated sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>smptypname</attributeName>
+          <attributeDefinition>sampling type (e.g., grab, core, not specified)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sampling type (e.g., grab, core, not specified)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeDefinition>comments about sampling effort</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments about sampling effort</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>turb</attributeName>
+          <attributeDefinition>Turbidity (NTU)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>turbq</attributeName>
+          <attributeDefinition>turbidity qualifier</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chloride</attributeName>
+          <attributeDefinition>Chloride</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chlorideq</attributeName>
+          <attributeDefinition>chloride qualifier</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>speccond</attributeName>
+          <attributeDefinition>Conductance, Specific</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemensPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>speccondq</attributeName>
+          <attributeDefinition>specific conductance qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>specific conductance qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>alk</attributeName>
+          <attributeDefinition>Alkalinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>alkq</attributeName>
+          <attributeDefinition>alkalinity qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>alkalinity qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hard</attributeName>
+          <attributeDefinition>Hardness, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hardq</attributeName>
+          <attributeDefinition>hardness qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>hardness qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chla</attributeName>
+          <attributeDefinition>Chlorophyll a</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chlaq</attributeName>
+          <attributeDefinition>chlorophyll qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>chlorophyll qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nh3n</attributeName>
+          <attributeDefinition>Nitrogen, NH3</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nh3nq</attributeName>
+          <attributeDefinition>NH3 qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NH3 qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>no3no2n</attributeName>
+          <attributeDefinition>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>no3no2nq</attributeName>
+          <attributeDefinition>nitrate/nitrate nitrogen qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>nitrate/nitrate nitrogen qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tkn</attributeName>
+          <attributeDefinition>Nitrogen, total kjeldahl</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tknq</attributeName>
+          <attributeDefinition>TKN qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>TKN qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tn</attributeName>
+          <attributeDefinition>Nitrogen, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tnq</attributeName>
+          <attributeDefinition>TN qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>TN qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tp</attributeName>
+          <attributeDefinition>Phosphorus, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tpq</attributeName>
+          <attributeDefinition>TP qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>TP qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tdphos</attributeName>
+          <attributeDefinition>Phosphorus, total dissolved</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>drp</attributeName>
+          <attributeDefinition>Phosphorus, soluble reactive</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>drpq</attributeName>
+          <attributeDefinition>DRP qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>DRP qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>appcolor</attributeName>
+          <attributeDefinition>Color, apparent (PCU)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>appcolorq</attributeName>
+          <attributeDefinition>apparent color qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>apparent color qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trucolor</attributeName>
+          <attributeDefinition>Color, true (PCU)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trucolorq</attributeName>
+          <attributeDefinition>true color qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>true color qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tss</attributeName>
+          <attributeDefinition>Solids, total suspended</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tssq</attributeName>
+          <attributeDefinition>TSS qualifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>TSS qualifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampleposition</attributeName>
+          <attributeDefinition>thermal layer (e.g., epi,hypo)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>epi</code>
+                    <definition>Epilimnion</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hypo</code>
+                    <definition>Hypolimnion</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_MA_DEP_CHEM.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_MA_DEP_CHEM.R</objectName>
+        <size unit="bytes">26238</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/MA_DEP_CHEM/DataImport_MA_DEP_CHEM.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <unit id="microsiemensPerCentimeter" name="microsiemensPerCentimeter" parentSI="siemensPerMeter" unitType="conductance" multiplierToSI="0.1">
+          <description>micro siemens Per Centimeter</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

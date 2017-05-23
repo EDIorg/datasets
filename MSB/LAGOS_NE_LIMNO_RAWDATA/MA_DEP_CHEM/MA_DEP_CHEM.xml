@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.95.3" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Unpublished data, Massachusetts Department of Environment Protection, lake water chemistry data, 1995-2004</title>
+ <creator id="1355771335344"> <individualName><givenName>Thomas</givenName>
+<surName>Dallaire</surName>
+</individualName>
+<organizationName>Massachusetts Department of Environment Protection</organizationName>
+<positionName>Environmental Analyst</positionName>
+<address><deliveryPoint>627 Main Street, 2nd Floor</deliveryPoint>
+<city>Worcester</city>
+<administrativeArea>MA</administrativeArea>
+<postalCode>01608</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">508-767-2740</phone>
+<electronicMailAddress>thams.dallaire@state.ma.us</electronicMailAddress>
+</creator>
+ <abstract><para>This database contains anion, nutrient, and secchi data collected by MA DEP for assessment of water quality in MA lakes. Data spans 1995-2004.  The ultimate goal of the MassDEP is to implement a comprehensive monitoring program (status/assessment, trends and flows, and targeted) that serves all water quality management needs, and addresses streams, rivers, lakes, reservoirs, estuaries, coastal areas, wetlands, and groundwater.  The five-year rotating watershed assessment program is currently the primary means of meeting the CWA objective related to assessing the status of designated uses. Requirements for the monitoring  program designed to support watershed assessments, reflecting CWA mandates, are that it be statewide in scale, comprehensive (all water bodies in the Commonwealth are assessed), and repeated at regular intervals. Water quality surveys generally consist of five sampling events interspersed throughout the water recreation season for conventional water quality analyses such as pH, dissolved oxygen, suspended and total dissolved solids, nutrients, and fecal coliform bacteria.</para>
+</abstract>
+<keywordSet><keyword>MA</keyword>
+<keyword>lake monitoring</keyword>
+<keyword>water chemistry</keyword>
+<keyword>secchi</keyword>
+</keywordSet>
+<intellectualRights><para>Data are public</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Massachusetts, USA</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-73.32</westBoundingCoordinate>
+<eastBoundingCoordinate>-69.55</eastBoundingCoordinate>
+<northBoundingCoordinate>42.52</northBoundingCoordinate>
+<southBoundingCoordinate>41.28</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1995</calendarDate>
+</beginDate>
+<endDate><calendarDate>2004</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1355771335344</references>
+</contact>
+<methods><methodStep><description><section><title>QA/QC</title>
+<para>We have develop a detailed set to Standard Operating Procedures and Quality Assurance Project Plan which guide both data acquisition (monitoring) and handling (data management).  QAPPs are available from MADEP, but not included in this dataset</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>All water bodies in Massachusetts, USA</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Water bodies are sampled on a five-year rotating watershed assessment program. Water quality surveys generally consist of five sampling events interspersed throughout the water recreation season.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1355774835433"><entityName>MA_DEP_CHEM_for_morpho_EF.csv</entityName>
+<entityDescription>Unpublished data, Massachusetts Department of Environment Protection, lake water chemistry data, 1995-2004</entityDescription>
+<physical id="1355772284167"><objectName>MA_DEP_CHEM_for_morpho_EF.csv</objectName>
+<size unit="byte">680</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1355774835435"><attributeName>unique_id</attributeName>
+<attributeLabel>unique id</attributeLabel>
+<attributeDefinition>Unique sampling location ID</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>unique id</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835436"><attributeName>projcode</attributeName>
+<attributeLabel>Project code</attributeLabel>
+<attributeDefinition>Project sampling associated with (required to locate QAPP documents for given sampling effort)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Project code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835437"><attributeName>date</attributeName>
+<attributeLabel>Date</attributeLabel>
+<attributeDefinition>date sampling occurred</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>MM/DD/YYYY HH:MM</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1355774835438"><attributeName>secchi</attributeName>
+<attributeLabel>Secchi depth (m)</attributeLabel>
+<attributeDefinition>Secchi depth (m)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835439"><attributeName>secchiq</attributeName>
+<attributeLabel>Secchi qualifier</attributeLabel>
+<attributeDefinition>Secchi qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>a</code>
+<definition>accuracy as estimated at WES Lab via matrix spikes, PT sample recoveries, internal check standards and lab-fortified blanks did not meet project data quality objectives</definition>
+</codeDefinition>
+<codeDefinition><code>b</code>
+<definition>blank Contamination in lab reagant blanks and/or field blank samples (indicating possible bias high and false positives).</definition>
+</codeDefinition>
+<codeDefinition><code>d</code>
+<definition>precision of field duplicates (as RPD) did not meet project data quality objectives identified for program or in QAPP.   Batched samples may also be affected</definition>
+</codeDefinition>
+<codeDefinition><code>e</code>
+<definition>not theoretically possible</definition>
+</codeDefinition>
+<codeDefinition><code>f</code>
+<definition>frequency of quality control duplicates did not meet data quality objectives</definition>
+</codeDefinition>
+<codeDefinition><code>h</code>
+<definition>holding time violation (usually indicating possible bias low)</definition>
+</codeDefinition>
+<codeDefinition><code>j</code>
+<definition>&#8216;estimated&#8217; value; can be used for lab-related issues where certain lab QC criteria are not met and re-testing is not possible (as identified by the WES lab only).   Also used to report sample data where the sample concentration is less than the &#8216;reporting&#8217; limit or RDL and greater than the method detection limit or MDL  (mdl&lt; x &lt;rdl).  Also used to note where values have been reported at levels less than the mdl.   Also used for estimated ranges based on known metadata.</definition>
+</codeDefinition>
+<codeDefinition><code>m</code>
+<definition>method SOP not followed, only partially implemented or not implemented at all, due to complications with sample matrix (</definition>
+</codeDefinition>
+<codeDefinition><code>p</code>
+<definition>samples not preserved per SOP or analytical method requirements</definition>
+</codeDefinition>
+<codeDefinition><code>r</code>
+<definition>data may not be representative due to circumstances and/or conditions at the time of sampling, including the possibility of &#8220;outlier&#8221; data</definition>
+</codeDefinition>
+<codeDefinition><code>t</code>
+<definition>tidal influence likely (not indicative of freshwater flow</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835440"><attributeName>secbot</attributeName>
+<attributeLabel>Secchi depth greater than bottom</attributeLabel>
+<attributeDefinition>was secchi depth greater than bottom depth</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+<definition>Not greater than lake bottom</definition>
+</codeDefinition>
+<codeDefinition><code>Yes</code>
+<definition>Greater than lake bottom</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835441"><attributeName>secview</attributeName>
+<attributeLabel>secview</attributeLabel>
+<attributeDefinition>was secchi viewscope used</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+<definition>Secchi viewscope was used</definition>
+</codeDefinition>
+<codeDefinition><code>No</code>
+<definition>Secchi viewscope not used</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835442"><attributeName>maxdepth</attributeName>
+<attributeLabel>maxdepth at sampling location</attributeLabel>
+<attributeDefinition>maxdepth at sampling location</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835443"><attributeName>maxdepthq</attributeName>
+<attributeLabel>qualifiier</attributeLabel>
+<attributeDefinition>qualifiier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>qualifiier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835444"><attributeName>fscomment</attributeName>
+<attributeLabel>comments about sampling</attributeLabel>
+<attributeDefinition>comments about sampling</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835447"><attributeName>lat</attributeName>
+<attributeLabel>latitude DD</attributeLabel>
+<attributeDefinition>latitude DD</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>decimal degrees</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835448"><attributeName>long</attributeName>
+<attributeLabel>longitude DD</attributeLabel>
+<attributeDefinition>longitude DD</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>decimal degrees</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835449"><attributeName>type</attributeName>
+<attributeDefinition>df</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>dfd</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835450"><attributeName>saris</attributeName>
+<attributeLabel>Stream ID</attributeLabel>
+<attributeDefinition>Stream unique ID (data with both Saris and Palis are impoundments/reservoirs)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Stream ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835451"><attributeName>palis</attributeName>
+<attributeLabel>Pond and lake unique ID</attributeLabel>
+<attributeDefinition>Pond and lake unique ID</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Pond ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835453"><attributeName>staid</attributeName>
+<attributeLabel>Station ID</attributeLabel>
+<attributeDefinition>Station ID</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835454"><attributeName>rwbname</attributeName>
+<attributeLabel>waterbody name</attributeLabel>
+<attributeDefinition>waterbody name</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>waterbody name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835455"><attributeName>descriptor</attributeName>
+<attributeLabel>description of sampling location</attributeLabel>
+<attributeDefinition>description of sampling location</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>description of sampling location</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835456"><attributeName>establish</attributeName>
+<attributeLabel>year establish</attributeLabel>
+<attributeDefinition>year location established as sampling site</attributeDefinition>
+<measurementScale><dateTime><formatString>YYYY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1355774835457"><attributeName>projname</attributeName>
+<attributeLabel>name of project associated with sampling</attributeLabel>
+<attributeDefinition>name of project associated with sampling</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>name of project associated with sampling</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835461"><attributeName>flag</attributeName>
+<attributeLabel>flag</attributeLabel>
+<attributeDefinition>flag</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flag</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835464"><attributeName>sdepth1</attributeName>
+<attributeLabel>sample depth</attributeLabel>
+<attributeDefinition>sample depth (if noted or if integrated sample, top of integrated sample)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835466"><attributeName>sdepth2</attributeName>
+<attributeDefinition>bottom of integrated sample</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835467"><attributeName>smptypname</attributeName>
+<attributeLabel>sampling type</attributeLabel>
+<attributeDefinition>sampling type (e.g., grab, core, not specified)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>sampling type (e.g., grab, core, not specified)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835469"><attributeName>comments</attributeName>
+<attributeLabel>comments</attributeLabel>
+<attributeDefinition>comments about sampling effort</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835470"><attributeName>turb</attributeName>
+<attributeLabel>Turbidity</attributeLabel>
+<attributeDefinition>Turbidity</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>NTU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835471"><attributeName>turbq</attributeName>
+<attributeLabel>turbidity qualifier</attributeLabel>
+<attributeDefinition>turbidity qualifier</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>turbidity qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835472"><attributeName>chloride</attributeName>
+<attributeLabel>Chloride</attributeLabel>
+<attributeDefinition>Chloride</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835473"><attributeName>chlorideq</attributeName>
+<attributeLabel>chloride qualifier</attributeLabel>
+<attributeDefinition>chloride qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>chloride qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835474"><attributeName>speccond</attributeName>
+<attributeLabel>Conductance, Specific</attributeLabel>
+<attributeDefinition>Conductance, Specific</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>us/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835475"><attributeName>speccondq</attributeName>
+<attributeLabel>specific conductance qualifier</attributeLabel>
+<attributeDefinition>specific conductance qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>specific conductance qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835476"><attributeName>alk</attributeName>
+<attributeLabel>Alkalinity</attributeLabel>
+<attributeDefinition>Alkalinity</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835477"><attributeName>alkq</attributeName>
+<attributeLabel>alkalinity qualifier</attributeLabel>
+<attributeDefinition>alkalinity qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>alkalinity qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835478"><attributeName>hard</attributeName>
+<attributeLabel>Hardness, total</attributeLabel>
+<attributeDefinition>Hardness, total</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835479"><attributeName>hardq</attributeName>
+<attributeLabel>hardness qualifier</attributeLabel>
+<attributeDefinition>hardness qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>hardness qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835480"><attributeName>chla</attributeName>
+<attributeLabel>Chlorophyll a</attributeLabel>
+<attributeDefinition>Chlorophyll a</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835481"><attributeName>chlaq</attributeName>
+<attributeLabel>chlorophyll qualifier</attributeLabel>
+<attributeDefinition>chlorophyll qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>chlorophyll qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835482"><attributeName>nh3n</attributeName>
+<attributeLabel>Nitrogen, NH3</attributeLabel>
+<attributeDefinition>Nitrogen, NH3</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835483"><attributeName>nh3nq</attributeName>
+<attributeDefinition>NH3 qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>NH3 qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835484"><attributeName>no3no2n</attributeName>
+<attributeLabel>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeLabel>
+<attributeDefinition>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835485"><attributeName>no3no2nq</attributeName>
+<attributeLabel>nitrate/nitrate nitrogen qualifier</attributeLabel>
+<attributeDefinition>nitrate/nitrate nitrogen qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>nitrate/nitrate nitrogen qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835486"><attributeName>tkn</attributeName>
+<attributeLabel>Nitrogen, total kjeldahl</attributeLabel>
+<attributeDefinition>Nitrogen, total kjeldahl</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835487"><attributeName>tknq</attributeName>
+<attributeLabel>TKN qualifier</attributeLabel>
+<attributeDefinition>TKN qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>TKN qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835488"><attributeName>tn</attributeName>
+<attributeLabel>Nitrogen, total</attributeLabel>
+<attributeDefinition>Nitrogen, total</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835489"><attributeName>tnq</attributeName>
+<attributeDefinition>TN qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>TN qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835490"><attributeName>tp</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>Phosphorus, total</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835491"><attributeName>tpq</attributeName>
+<attributeLabel>TP qualifier</attributeLabel>
+<attributeDefinition>TP qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>TP qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835492"><attributeName>tdphos</attributeName>
+<attributeLabel>Phosphorus, total dissolved</attributeLabel>
+<attributeDefinition>Phosphorus, total dissolved</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835494"><attributeName>drp</attributeName>
+<attributeLabel>Phosphorus, soluble reactive</attributeLabel>
+<attributeDefinition>Phosphorus, soluble reactive</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835495"><attributeName>drpq</attributeName>
+<attributeLabel>DRP qualifier</attributeLabel>
+<attributeDefinition>DRP qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>DRP qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835496"><attributeName>appcolor</attributeName>
+<attributeLabel>Color, apparent</attributeLabel>
+<attributeDefinition>Color, apparent</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>PCU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835497"><attributeName>appcolorq</attributeName>
+<attributeLabel>apparent color qualifier</attributeLabel>
+<attributeDefinition>apparent color qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>apparent color qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835498"><attributeName>trucolor</attributeName>
+<attributeLabel>Color, true</attributeLabel>
+<attributeDefinition>Color, true</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>PCU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835499"><attributeName>trucolorq</attributeName>
+<attributeDefinition>true color qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>true color qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835500"><attributeName>tss</attributeName>
+<attributeLabel>Solids, total suspended</attributeLabel>
+<attributeDefinition>Solids, total suspended</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355774835501"><attributeName>tssq</attributeName>
+<attributeDefinition>TSS qualifier</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>TSS qualifier</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355774835503"><attributeName>sampleposition</attributeName>
+<attributeLabel>thermal layer</attributeLabel>
+<attributeDefinition>thermal layer (e.g., epi,hypo)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>epi</code>
+<definition>Epilimnion</definition>
+</codeDefinition>
+<codeDefinition><code>hypo</code>
+<definition>Hypolimnion</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>10</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="decimal degrees" multiplierToSI=" " name="decimal degrees" parentSI="meter" unitType="length"><description>decimal degrees</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount"><description>NTU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="us/cm" multiplierToSI=" " name="us/cm" parentSI="siemen" unitType="conductance"><description>us/cm</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="PCU" multiplierToSI=" " name="PCU" parentSI="mole" unitType="amount"><description>PCU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</eml:eml>
