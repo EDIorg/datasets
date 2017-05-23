@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.60.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>Wisconsin Forest County Potawatomi Communit Water Resources Program lake chemistry 2003-2010</title>
+ <creator id="1346354944868"> <individualName><givenName>Mathew</givenName>
+<surName>Steinbach</surName>
+</individualName>
+<organizationName>Forest County Potawatomi Community Water Resources Program</organizationName>
+<positionName>contact</positionName>
+<address><deliveryPoint>P.O Box 340</deliveryPoint>
+<city>Crandon</city>
+<administrativeArea>WI</administrativeArea>
+<postalCode>54520</postalCode>
+</address>
+<phone phonetype="voice">715-478-7361</phone>
+<phone phonetype="fax">715-478-7225</phone>
+<electronicMailAddress>matt.steinbach@fcpotawatomi-nsn.gov</electronicMailAddress>
+</creator>
+ <abstract><para>Chemical water quality data that has been collected by the FCPC Water Resources Program since 2003.  Monthly baseline monitoring was completed in September 2010.  Quarterly monitoring has been completed since then.  Parameters measured include Alkalinity, Chloride, Chlorophyll a, Pheophyton, Nitrate/Nitrite, Ammonia, TKN, Dissolved organic carbon, Ortho Phosphorus, Total phosphorus, Total suspended solids, Sulfates, Secchi, Turbidity.</para>
+</abstract>
+<keywordSet><keyword>lake water chemistry</keyword>
+<keyword>Wisconsin</keyword>
+<keyword>Tribal</keyword>
+<keyword>long-term</keyword>
+</keywordSet>
+<intellectualRights><para>Belongs to Forest County Potawatomi Community Water Resources Program</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Forest County Potawatomi Community Trust Lands, WI</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-89.02</westBoundingCoordinate>
+<eastBoundingCoordinate>-88.42</eastBoundingCoordinate>
+<northBoundingCoordinate>45.36</northBoundingCoordinate>
+<southBoundingCoordinate>45.28</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2003</calendarDate>
+</beginDate>
+<endDate><calendarDate>2010</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1346354944868</references>
+</contact>
+<methods><methodStep><description><section><title>Sampling description</title>
+<para>All lakes were sampled at the deep hole within the lake (found using a depth finder).  Surface samples are collected within approximately 1 ft of the surface.  Deep samples were collected below the thermocline (as determined from temp/DO profile).</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Lab analysis</title>
+<para>All samples were analyzed by Northern Lake Service (www.nlslab.com).  Quality control data includes spikes, duplicates, reagent blanks, reference samples, calibration standards, and known standards.  Two LODs are reported.  First, method LOD defined by EPA, second LOD from the chem lab analyzing the samples (Northern Lake Service)</para>
+</section>
+</description>
+<instrumentation>not reported</instrumentation>
+</methodStep>
+<methodStep><description><section><title>Laboratory methods and limit of detection</title>
+<para>Report (EPA method limit of detection, NLS limit of detection, and the method name)</para>
+<para>Alkalinity (1.0 mg/L, 1.0 mg/L, EPA 310.1)</para>
+<para>Chloride (0.25 mg/L, 2.5 mg/L, EPA 300.0)</para>
+<para>Ammonia (0.025 mg/L, 0.025 mg/L, EPA 350.1)</para>
+<para>Kjeldahl Nitrogen (0.089 mg/L, 0.081 mg/L, EPA 351.2)</para>
+<para>Nitrate+Nitrite (0.05 mg/L, 0.025 mg/L, EPA 353.2)</para>
+<para>Total Phosphorus (0.007 mg/L, 0.007 mg/L, EPA 365.2)</para>
+<para>Ortho Phosphorus (0.007 mg/L, 0.007 mg/L, EPA 365.2)</para>
+<para>Dissolved organic carbon (0.54 mg/L, 0.54 mg/L, EPA 9060AM)</para>
+<para>Sulfate (2.5 mg/L, 2.5 mg/L, EPA 300.0)</para>
+<para>Chlorophyll a (no reported, 0.1 ug/L, 10200-H</para>
+<para>Flagged observations are color coded: yellow =  the value entered is the midpoint between the MDL and the LOD, blue = the value entered is half of the MDL</para>
+</section>
+</description>
+<instrumentation>not reported</instrumentation>
+</methodStep>
+<sampling><studyExtent><description><para>Forest County Potawatomi Community Trust Lands, Crandon, WI</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Samples for 4 lakes - Bug, Cloud, Devils, King. Lakes were sampled monthly through September 2010 and quarterly since October 2010</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1346356581404"><entityName>WI_FCPC_CHEM.csv</entityName>
+<entityDescription>WI Forest County Potawatomi Communit Water Resources Program lake water chemistry 2003-2010</entityDescription>
+<physical id="1346355879886"><objectName>WI_FCPC_CHEM.csv</objectName>
+<size unit="byte">170</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1346356581405"><attributeName>Date</attributeName>
+<attributeLabel>Date</attributeLabel>
+<attributeDefinition>The collection Date</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>mm/dd/yy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1346356581406"><attributeName>Sample Time</attributeName>
+<attributeLabel>time</attributeLabel>
+<attributeDefinition>The collection time</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>hh:mm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1346356581407"><attributeName>Alkalinity (mg/L)</attributeName>
+<attributeLabel>Alkalinity, total</attributeLabel>
+<attributeDefinition>Alkalinity, total</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581408"><attributeName>Chloride (mg/L)</attributeName>
+<attributeLabel>Chloride</attributeLabel>
+<attributeDefinition>Chloride</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581409"><attributeName>CC a (ug/L)</attributeName>
+<attributeLabel>Chlorophyll a, corrected for pheophytin</attributeLabel>
+<attributeDefinition>Chlorophyll a, corrected for pheophytin</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581411"><attributeName>Nitrate and Nitrite (mg/L)</attributeName>
+<attributeLabel>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeLabel>
+<attributeDefinition>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581416"><attributeName>Nitrogen, Ammonia as N (mg/L)</attributeName>
+<attributeLabel>Nitrogen, NH3</attributeLabel>
+<attributeDefinition>Nitrogen, NH3</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581417"><attributeName>TKN (mg/L)</attributeName>
+<attributeLabel>Nitrogen, total kjeldahl</attributeLabel>
+<attributeDefinition>Nitrogen, total kjeldahl</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581418"><attributeName>DOC (mg/L)</attributeName>
+<attributeLabel>Carbon, dissolved organic</attributeLabel>
+<attributeDefinition>Carbon, dissolved organic</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581420"><attributeName>Phosphorus, Ortho (mg/L)</attributeName>
+<attributeLabel>Phosphorus, orthophosphate</attributeLabel>
+<attributeDefinition>Phosphorus, orthophosphate</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581421"><attributeName>Total Phosphorus (mg/L)</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>Phosphorus, total</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581422"><attributeName>TSS (mg/L)</attributeName>
+<attributeLabel>Solids, total suspended</attributeLabel>
+<attributeDefinition>Solids, total suspended</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581423"><attributeName>Sulfates (mg/L)</attributeName>
+<attributeLabel>Sulfate</attributeLabel>
+<attributeDefinition>Sulfate</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581424"><attributeName>Secchi disc (ft)</attributeName>
+<attributeLabel>Secchi, no view</attributeLabel>
+<attributeDefinition>Secchi, no view</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>foot</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581425"><attributeName>Turbidity (NTU)</attributeName>
+<attributeLabel>Turbidity</attributeLabel>
+<attributeDefinition>Turbidity</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><customUnit>NTU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1346356581426"><attributeName>Sample Depth (ft)</attributeName>
+<attributeLabel>Depth</attributeLabel>
+<attributeDefinition>sample depth for hypolimnion samples</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><ratio><unit><standardUnit>foot</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>10</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount"><description>NTU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</eml:eml>

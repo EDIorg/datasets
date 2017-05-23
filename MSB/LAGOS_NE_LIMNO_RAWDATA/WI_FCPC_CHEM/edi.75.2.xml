@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="edi.75.2" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access scope="document" order="allowFirst" authSystem="edi">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Wisconsin Forest County Potawatomi Communit Water Resources Program lake chemistry 2003-2010</title>
+    <creator>
+      <individualName>
+        <givenName>Mathew</givenName>
+        <surName>Steinbach</surName>
+      </individualName>
+      <organizationName>Forest County Potawatomi Community Water Resources Program</organizationName>
+      <positionName>contact</positionName>
+      <address>
+        <deliveryPoint>P.O Box 340</deliveryPoint>
+        <city>Crandon</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>54520</postalCode>
+      </address>
+      <phone phonetype="voice">715-478-7361</phone>
+      <phone phonetype="fax">715-478-7225</phone>
+      <electronicMailAddress>matt.steinbach@fcpotawatomi-nsn.gov</electronicMailAddress>
+    </creator>
+    <pubDate>2017-05-23</pubDate>
+    <abstract>
+      <para>Chemical water quality data that has been collected by the FCPC Water Resources Program since 2003.  Monthly baseline monitoring was completed in September 2010.  Quarterly monitoring has been completed since then.  Parameters measured include Alkalinity, Chloride, Chlorophyll a, Pheophyton, Nitrate/Nitrite, Ammonia, TKN, Dissolved organic carbon, Ortho Phosphorus, Total phosphorus, Total suspended solids, Sulfates, Secchi, Turbidity.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>lake water chemistry</keyword>
+      <keyword>Wisconsin</keyword>
+      <keyword>Tribal</keyword>
+      <keyword>long-term</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license CC0 1.0 Universal
+  (https://creativecommons.org/publicdomain/zero/1.0/) and may be used
+  for academic, educational, or commercial purposes subject to the
+  following restrictions: The Data User must realize that these data
+  sets are being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Forest County Potawatomi Community Trust Lands, WI</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.02</westBoundingCoordinate>
+          <eastBoundingCoordinate>-88.42</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.36</northBoundingCoordinate>
+          <southBoundingCoordinate>45.28</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2003</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Mathew</givenName>
+        <surName>Steinbach</surName>
+      </individualName>
+      <organizationName>Forest County Potawatomi Community Water Resources Program</organizationName>
+      <positionName>contact</positionName>
+      <address>
+        <deliveryPoint>P.O Box 340</deliveryPoint>
+        <city>Crandon</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>54520</postalCode>
+      </address>
+      <phone phonetype="voice">715-478-7361</phone>
+      <phone phonetype="fax">715-478-7225</phone>
+      <electronicMailAddress>matt.steinbach@fcpotawatomi-nsn.gov</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sampling description</title>
+            <para>All lakes were sampled at the deep hole within the lake (found using a depth finder).  Surface samples are collected within approximately 1 ft of the surface.  Deep samples were collected below the thermocline (as determined from temp/DO profile).</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Lab analysis</title>
+            <para>All samples were analyzed by Northern Lake Service (www.nlslab.com).  Quality control data includes spikes, duplicates, reagent blanks, reference samples, calibration standards, and known standards.  Two LODs are reported.  First, method LOD defined by EPA, second LOD from the chem lab analyzing the samples (Northern Lake Service)</para>
+          </section>
+        </description>
+        <instrumentation>not reported</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Laboratory methods and limit of detection</title>
+            <para>Report (EPA method limit of detection, NLS limit of detection, and the method name)</para>
+            <para>Alkalinity (1.0 mg/L, 1.0 mg/L, EPA 310.1)</para>
+            <para>Chloride (0.25 mg/L, 2.5 mg/L, EPA 300.0)</para>
+            <para>Ammonia (0.025 mg/L, 0.025 mg/L, EPA 350.1)</para>
+            <para>Kjeldahl Nitrogen (0.089 mg/L, 0.081 mg/L, EPA 351.2)</para>
+            <para>Nitrate+Nitrite (0.05 mg/L, 0.025 mg/L, EPA 353.2)</para>
+            <para>Total Phosphorus (0.007 mg/L, 0.007 mg/L, EPA 365.2)</para>
+            <para>Ortho Phosphorus (0.007 mg/L, 0.007 mg/L, EPA 365.2)</para>
+            <para>Dissolved organic carbon (0.54 mg/L, 0.54 mg/L, EPA 9060AM)</para>
+            <para>Sulfate (2.5 mg/L, 2.5 mg/L, EPA 300.0)</para>
+            <para>Chlorophyll a (no reported, 0.1 ug/L, 10200-H</para>
+            <para>Flagged observations are color coded: yellow =  the value entered is the midpoint between the MDL and the LOD, blue = the value entered is half of the MDL</para>
+          </section>
+        </description>
+        <instrumentation>not reported</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Forest County Potawatomi Community Trust Lands, Crandon, WI</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Samples for 4 lakes - Bug, Cloud, Devils, King. Lakes were sampled monthly through September 2010 and quarterly since October 2010</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>WI_FCPC_CHEM.csv</entityName>
+      <entityDescription>WI Forest County Potawatomi Communit Water Resources Program lake water chemistry 2003-2010</entityDescription>
+      <physical>
+        <objectName>WI_FCPC_CHEM.csv</objectName>
+        <size unit="bytes">44601</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/WI_FCPC_CHEM/WI_FCPC_CHEM.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>The collection Date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lakename</attributeName>
+          <attributeDefinition>Name of lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sample_Time</attributeName>
+          <attributeDefinition>The collection time</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The collection time</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Alkalinity_mgL</attributeName>
+          <attributeDefinition>Alkalinity, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chloride_mgL</attributeName>
+          <attributeDefinition>Chloride</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CC_a_ugL</attributeName>
+          <attributeDefinition>Chlorophyll a, corrected for pheophytin</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Nitrate_and_Nitrite_mgL</attributeName>
+          <attributeDefinition>Nitrogen, nitrite (NO2) + nitrate (NO3)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Nitrogen_Ammonia_as_N_mgL</attributeName>
+          <attributeDefinition>Nitrogen, NH3</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TKN_mgL</attributeName>
+          <attributeDefinition>Nitrogen, total kjeldahl</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DOC_mgL</attributeName>
+          <attributeDefinition>Carbon, dissolved organic</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Phosphorus_Ortho_mgL</attributeName>
+          <attributeDefinition>Phosphorus, orthophosphate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Total_Phosphorus_mgL</attributeName>
+          <attributeDefinition>Phosphorus, total</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TSS_mgL</attributeName>
+          <attributeDefinition>Solids, total suspended</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sulfates_mgL</attributeName>
+          <attributeDefinition>Sulfate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Secchi_disc_ft</attributeName>
+          <attributeDefinition>Secchi, no view (feet)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Secchi, no view (feet)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turbidity_NTU</attributeName>
+          <attributeDefinition>Turbidity (NTU)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sample_Depth_ft</attributeName>
+          <attributeDefinition>sample depth for hypolimnion samples</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>DataImport_WI_FCPC_CHEM.R</entityName>
+      <entityDescription>Imports data for the LAke multi-scaled GeOSpatial database (LAGOS)</entityDescription>
+      <physical>
+        <objectName>DataImport_WI_FCPC_CHEM.R</objectName>
+        <size unit="bytes">49564</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter></fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data/LAGOS_NE_LIMNO_RAWDATA/WI_FCPC_CHEM/DataImport_WI_FCPC_CHEM.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>R code</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>
