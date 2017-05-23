@@ -1,0 +1,84 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+ALKA11		microequivalentsPerLiter	real		Alkalinity, total	numeric		
+ALKA11F			character	Alkalinity, total flagged	Alkalinity, total flagged	character		
+ALKANEW		microequivalentsPerLiter	real		Acid neutralizing capacity	numeric		
+ALKANEWF			character	Acid neutralizing capacity flag	Acid neutralizing capacity flag	character		
+ANDEF		microequivalentsPerLiter	real		Cations-Anions	numeric		
+ANSUM		microequivalentsPerLiter	real		Anions	numeric		
+ANSUMF			character	Anions flag	Anions flag	character		
+CA11		milligramsPerLiter	real		Calcium	numeric		
+CA11F			character	Calcium flag	Calcium flag	character		
+CATSUM		microequivalentsPerLiter	real		Cations	numeric		
+CATSUMF			character	Cations flag	Cations flag	character		
+CL11		milligramsPerLiter	real		Chloride	numeric		
+CL11F			character	Chloride flag	Chloride flag	character		
+COLVAL		dimensionless	real		Color, true (PCU)	numeric		
+COLVALF			character	Color, true flag	Color, true flag	character		
+CONCAL		microsiemensPerCentimeter	real		Conductance, specific	numeric		
+CONCALF			character	Conductance, specific flag	Conductance, specific flag	character		
+COND11		microsiemensPerCentimeter	real		Conductivity	numeric		
+COND11F			character	Conductivity flag	Conductivity flag	character		
+CONTOP		microsiemensPerCentimeter	whole		Conductance, specific	numeric		
+CONTOPF			character	Conductance, specific flag	Conductance, specific flag	character		
+CON_60			character	Conductance, specific mid depth (microsiemensPerCentimeter)	Conductance, specific mid depth (microsiemensPerCentimeter)	character		
+CON_B			character	Conductance, specific bottom (microsiemensPerCentimeter)	Conductance, specific bottom (microsiemensPerCentimeter)	character		
+COUNTY		dimensionless	natural		county code	numeric		
+DATSMP	MM/DD/YYYY				Sample date	Date		
+DICVAL		milligramsPerLiter	real		Carbon, dissolved inorganic	numeric		
+DICVALF			character	dissolved inorganic carbon (mg/l) flag	dissolved inorganic carbon (mg/l) flag	character		
+DOC11		milligramsPerLiter	real		Carbon, dissolved organic	numeric		
+DOC11F			character	Carbon, dissolved organic flag	Carbon, dissolved organic flag	character		
+ELEV		meter	real		elevation, lake	numeric		
+FTL11		milligramsPerLiter	real		Fluoride	numeric		
+FTL11F			character	Fluoride flag	Fluoride flag	character		
+HYD_ID			character	Hydrolab ID Form 1	Hydrolab ID Form 1	character		
+K11		milligramsPerLiter	real		Potassium	numeric		
+K11F			character	Potassium flag	Potassium flag	character		
+LABNAM			character	Laboratory for analysis	Laboratory for analysis	character		
+LAKEID1			character	ERLD-UMD ID/ALSC WSHED-POND ID	ERLD-UMD ID/ALSC WSHED-POND ID	character		
+LAKEID1T			character	Lake ID tag	Lake ID tag	character		
+LAKENAME			character	Lake name	Lake name	character		
+LAKE_ID			character	Lake ID	Lake ID	character		
+LAKE_SIZ			character	Lake surface area (hectare)	Lake surface area (hectare)	character		
+LAKE_TYP			character	Lake type (pond, reservoir, lake, etc)	Lake type (pond, reservoir, lake, etc)	character		
+LAKE_VOL			character	Volume, lake calculated (10^6 cu m)	Volume, lake calculated (10^6 cu m)	character		
+LAT			character	LATITUDE (meter)	LATITUDE (meter)	character		
+LAT_DD		degree	real		latitude decimal degrees	numeric		
+LONG			character	longitude	longitude	character		
+LONG_DD		degree	real		longitude decimal degrees	numeric		
+MAP_BIG			character	Map sheet name (1:250,000 scale)	Map sheet name (1:250,000 scale)	character		
+MAP_SML			character	Map sheet name, 15 or 7.5 QUAD	Map sheet name, 15 or 7.5 QUAD	character		
+MG11		milligramsPerLiter	real		Magnesium	numeric		
+MG11F			character	Magnesium flag	Magnesium flag	character		
+MN11		milligramsPerLiter	real		Manganese	numeric		
+MN11F			character	Manganese flag	Manganese flag	character		
+NA11		milligramsPerLiter	real		Sodium	numeric		
+NA11F			character	Sodium flag	Sodium flag	character		
+NEWSR			character	New subregion code	New subregion code	character		
+NH411		milligramsPerLiter	real		Nitrogen, NH4	numeric		
+NH411F			character	Nitrogen, NH4 flag	Nitrogen, NH4 flag	character		
+NO311		milligramsPerLiter	real		Nitrogen, nitrate (NO3)	numeric		
+NO311F			character	Nitrogen, nitrate (NO3) flag	Nitrogen, nitrate (NO3) flag	character		
+PHEQ11		dimensionless	real		pH, equilibrated	numeric		
+PHEQ11F			character	pH, equilibrated flag	pH, equilibrated flag	character		
+PHSTVL		dimensionless	real		pH field lab	numeric		
+PHSTVLF			character	pH flag	pH flag	character		
+PTL11		microgramsPerLiter	real		Phosphorus, total	numeric		
+PTL11F			character	Phosphorus, total flag	Phosphorus, total flag	character		
+REGION		dimensionless	natural		NSWS Region	numeric		
+REG_SPC			character	REG SPEC LTM NRC DEW DER SAMPLE CLASS	REG SPEC LTM NRC DEW DER SAMPLE CLASS	character		
+SAM_ID		dimensionless	natural		Sample ID	numeric		
+SAM_IDF			character	Sample ID flag	Sample ID flag	character		
+SECMEAN			character	Secchi, unknown (meter)	Secchi, unknown (meter)	character		
+SITDPM		meter	real		Site depth (m)	numeric		
+SO411		milligramsPerLiter	real		Sulfate	numeric		
+SO411F			character	Sulfate flag	Sulfate flag	character		
+ST			character	State (2 letter abbreviation)	State (2 letter abbreviation)	character		
+STA_ID		dimensionless	natural		Station ID Form 2	numeric		
+SUBREG			character	Region + SUB_RGN	Region + SUB_RGN	character		
+SUB_RGN			character	NSWS Subregion	NSWS Subregion	character		
+TIMSMP			character	Time sampled (24h) HH:MM	Time sampled (24h) HH:MM	character		
+TMPTOP			character	Temperature at surface (1.5m) (DEG C)	Temperature at surface (1.5m) (DEG C)	character		
+TURVAL		dimensionless	real	Turbidity (NTU)	Turbidity (NTU)	numeric		
+TURVALF			character	Turbidity flag	Turbidity flag	character		
+WSHED			character	Watershed area (ha)	Watershed area (ha)	character		

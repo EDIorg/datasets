@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.87.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <dataset> <title>National Surface Water Survey: Eastern Lake Survey-Phase I (ELSDS4 - Chemical Survey) 1984</title>
+ <creator id="1355264877518"> <individualName><givenName>Dixon</givenName>
+<surName>Landers</surName>
+</individualName>
+<organizationName>U.S. Environmental Protection Agency, NHEERL Western Ecology Division</organizationName>
+<positionName>Principal Investigator</positionName>
+<address><deliveryPoint>200 S. W. 35th Street</deliveryPoint>
+<city>Corvallis</city>
+<administrativeArea>OR</administrativeArea>
+<postalCode>97333</postalCode>
+<country>USA</country>
+</address>
+</creator>
+ <creator id="1355264941448"><individualName><givenName>John</givenName>
+<surName>Baker</surName>
+</individualName>
+<organizationName>US EPA, NHEERL Western Ecology Division</organizationName>
+<positionName>Sample Collection Coordinator</positionName>
+<address><deliveryPoint>200 S. W. 35th Street</deliveryPoint>
+<city>Corvallis</city>
+<administrativeArea>OR</administrativeArea>
+<postalCode>97333</postalCode>
+<country>USA</country>
+</address>
+</creator>
+<abstract><para>The Eastern Lake Survey-Phase I (ELS-I), conducted in the fall of 1984, was the first part of a long-term effort by the U.S. Environmental Protection Agency known as the National Surface Water Survey. It was designed to synoptically quantify the acid-base status of surface waters in the United States in areas expected to exhibit low buffering capacity. The effort was in support of the National Acid Precipitation Assessment Program (NAPAP). The survey involved a three-month field effort in which 1612 probability sample lakes and 186 special interest lakes in the northeast, southeast, and upper midwest regions of the  United States were sampled.</para>
+</abstract>
+<keywordSet><keyword>EPA</keyword>
+<keyword>Eastern region lake survey</keyword>
+<keyword>Chemistry</keyword>
+</keywordSet>
+<intellectualRights><para>Data are public</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Upper Midwest, Northeast, and Southeast USA</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-96.29</westBoundingCoordinate>
+<eastBoundingCoordinate>-67.16</eastBoundingCoordinate>
+<northBoundingCoordinate>45.0</northBoundingCoordinate>
+<southBoundingCoordinate>24.56</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><singleDateTime><calendarDate>1984</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+</coverage>
+<contact><references>1355264877518</references>
+</contact>
+<methods><methodStep><description><section><title>Water sample objective</title>
+<para>To obtain a single grab sample of lake water for the purpose of chemical analysis during the fall season, just after lake turnover, from the center and deepest part of the lake</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Water sample collection</title>
+<para>A 6.2 L Van Dorn acrylic plastic sample bottle was filled from a depth of 1.5 m. Two 60 ml syringes and one 4L polyethylene cubitainer were filled from the Van Dorn bottle. IF site depth was &lt;3.0 m and a clean sample (free from sediment, plants or other large particulate matter) could not be obtained at 1.5 m, a sample was collected at 0.5 m.</para>
+</section>
+</description>
+<instrumentation>Van Dorn sample bottle</instrumentation>
+</methodStep>
+<sampling><studyExtent><description><para>Midwest, Northeast, and Southeast United States</para>
+</description>
+</studyExtent>
+<samplingDescription><para>A three month field survey in which 1612 probabilty sample lakes and 186 special interest lakes were sampled to quantify the acid0baes status of surface waters in the US in areas expected to exhibit low buffering capacity.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1355268172149"><entityName>ELS_Phase_I_CHEM_EF_morpho.csv</entityName>
+<entityDescription>National Surface Water Survey: Eastern Lake Survey-Phase I (ELSDS4 - Chemical Survey), USA 1984</entityDescription>
+<physical id="1355265425126"><objectName>ELS_Phase_I_CHEM_EF_morpho.csv</objectName>
+<size unit="byte">1333</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><offline><mediumName>hard drive</mediumName>
+</offline>
+</distribution>
+</physical>
+<attributeList><attribute id="1355268172150"><attributeName>ALKA11</attributeName>
+<attributeLabel>Alkalinity, total</attributeLabel>
+<attributeDefinition>Alkalinity, total</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>ueq/l</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172151"><attributeName>ALKA11F</attributeName>
+<attributeLabel>Alkalinity, total flagged</attributeLabel>
+<attributeDefinition>Alkalinity, total flagged</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172152"><attributeName>ALKANEW</attributeName>
+<attributeLabel>Acid neutralizing capacity</attributeLabel>
+<attributeDefinition>Acid neutralizing capacity</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>ueq/l</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172153"><attributeName>ALKANEWF</attributeName>
+<attributeLabel>Acid neutralizing capacity flagged</attributeLabel>
+<attributeDefinition>Acid neutralizing capacity flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172154"><attributeName>ANDEF</attributeName>
+<attributeLabel>Cations-Anions</attributeLabel>
+<attributeDefinition>Cations-Anions</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>ueq/l</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172155"><attributeName>ANSUM</attributeName>
+<attributeLabel>Anions</attributeLabel>
+<attributeDefinition>Anions</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>ueq/l</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172156"><attributeName>ANSUMF</attributeName>
+<attributeLabel>Anions flag</attributeLabel>
+<attributeDefinition>Anions flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172157"><attributeName>CA11</attributeName>
+<attributeLabel>Calcium</attributeLabel>
+<attributeDefinition>Calcium</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172158"><attributeName>CA11F</attributeName>
+<attributeLabel>Calcium flag</attributeLabel>
+<attributeDefinition>Calcium flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172159"><attributeName>CATSUM</attributeName>
+<attributeLabel>Cations</attributeLabel>
+<attributeDefinition>Cations</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>ueq/l</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172160"><attributeName>CATSUMF</attributeName>
+<attributeLabel>Cations flag</attributeLabel>
+<attributeDefinition>Cations flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172161"><attributeName>CL11</attributeName>
+<attributeLabel>Chloride</attributeLabel>
+<attributeDefinition>Chloride</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172162"><attributeName>CL11F</attributeName>
+<attributeLabel>Chloride flag</attributeLabel>
+<attributeDefinition>Chloride flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172163"><attributeName>COLVAL</attributeName>
+<attributeLabel>Color, true</attributeLabel>
+<attributeDefinition>Color, true</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>PCU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172164"><attributeName>COLVALF</attributeName>
+<attributeLabel>Color, true flag</attributeLabel>
+<attributeDefinition>Color, true flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172165"><attributeName>CONCAL</attributeName>
+<attributeLabel>Conductance, specific</attributeLabel>
+<attributeDefinition>Conductance, specific</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>uS/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172166"><attributeName>CONCALF</attributeName>
+<attributeLabel>Conductance, specific flag</attributeLabel>
+<attributeDefinition>Conductance, specific flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172167"><attributeName>COND11</attributeName>
+<attributeLabel>Conductivity</attributeLabel>
+<attributeDefinition>Conductivity</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>uS/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172168"><attributeName>COND11F</attributeName>
+<attributeLabel>Conductivity flag</attributeLabel>
+<attributeDefinition>Conductivity flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172169"><attributeName>CONTOP</attributeName>
+<attributeLabel>Conductance, specific</attributeLabel>
+<attributeDefinition>Conductance, specific</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>uS/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172170"><attributeName>CONTOPF</attributeName>
+<attributeLabel>Conductance, specific flag</attributeLabel>
+<attributeDefinition>Conductance, specific flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172171"><attributeName>CON_60</attributeName>
+<attributeLabel>Conductance, specific</attributeLabel>
+<attributeDefinition>Conductance, specific mid depth</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>uS/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172172"><attributeName>CON_B</attributeName>
+<attributeLabel>Conductance, specific bottom</attributeLabel>
+<attributeDefinition>Conductance, specific bottom</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>uS/cm</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172173"><attributeName>COUNTY</attributeName>
+<attributeLabel>County code</attributeLabel>
+<attributeDefinition>county code</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>county code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172174"><attributeName>DATSMP</attributeName>
+<attributeLabel>Sample date</attributeLabel>
+<attributeDefinition>Sample date</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>DD-MM-YY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1355268172175"><attributeName>DICVAL</attributeName>
+<attributeLabel>dissolved inorganic carbon (mg/l)</attributeLabel>
+<attributeDefinition>Carbon, dissolved inorganic</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172176"><attributeName>DICVALF</attributeName>
+<attributeLabel>dissolved inorganic carbon (mg/l) flag</attributeLabel>
+<attributeDefinition>dissolved inorganic carbon (mg/l) flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172177"><attributeName>DOC11</attributeName>
+<attributeLabel>Carbon, dissolved organic</attributeLabel>
+<attributeDefinition>Carbon, dissolved organic</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172178"><attributeName>DOC11F</attributeName>
+<attributeLabel>Carbon, dissolved organic flag</attributeLabel>
+<attributeDefinition>Carbon, dissolved organic flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172184"><attributeName>ELEV</attributeName>
+<attributeLabel>elevation, lake</attributeLabel>
+<attributeDefinition>elevation, lake</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172185"><attributeName>FTL11</attributeName>
+<attributeLabel>Fluoride</attributeLabel>
+<attributeDefinition>Fluoride</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172186"><attributeName>FTL11F</attributeName>
+<attributeLabel>Fluoride flag</attributeLabel>
+<attributeDefinition>Fluoride flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172187"><attributeName>HYD_ID</attributeName>
+<attributeLabel>Hydrolab ID Form 1</attributeLabel>
+<attributeDefinition>Hydrolab ID Form 1</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Hydrolab ID Form 1</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172188"><attributeName>K11</attributeName>
+<attributeLabel>Potassium</attributeLabel>
+<attributeDefinition>Potassium</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172189"><attributeName>K11F</attributeName>
+<attributeLabel>Potassium flag</attributeLabel>
+<attributeDefinition>Potassium flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172190"><attributeName>LABNAM</attributeName>
+<attributeLabel>Laboratory for analysis</attributeLabel>
+<attributeDefinition>Laboratory for analysis</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Laboratory for analysis</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172191"><attributeName>LAKEID1</attributeName>
+<attributeLabel>ERLD-UMD ID/ALSC WSHED-POND ID</attributeLabel>
+<attributeDefinition>ERLD-UMD ID/ALSC WSHED-POND ID</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>ERLD-UMD ID/ALSC WSHED-POND ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172192"><attributeName>LAKEID1T</attributeName>
+<attributeLabel>Lake ID tag</attributeLabel>
+<attributeDefinition>Lake ID tag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>lake ID tag</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172193"><attributeName>LAKENAME</attributeName>
+<attributeLabel>Lake name</attributeLabel>
+<attributeDefinition>Lake name</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Lake name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172194"><attributeName>LAKE_ID</attributeName>
+<attributeLabel>Lake ID</attributeLabel>
+<attributeDefinition>Lake ID</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Lake ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172195"><attributeName>LAKE_SIZ</attributeName>
+<attributeLabel>Lake surface area</attributeLabel>
+<attributeDefinition>Lake surface area</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>hectare</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172196"><attributeName>LAKE_TYP</attributeName>
+<attributeLabel>Lake type</attributeLabel>
+<attributeDefinition>Lake type (pond, reservoir, lake, etc)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Lake type</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172197"><attributeName>LAKE_VOL</attributeName>
+<attributeLabel>Lake volume</attributeLabel>
+<attributeDefinition>Volume, lake calculated</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>10^6 cu m</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172198"><attributeName>LAT</attributeName>
+<attributeLabel>LATITUDE</attributeLabel>
+<attributeDefinition>LATITUDE</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><interval><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1355268172199"><attributeName>LAT_DD</attributeName>
+<attributeLabel>latitude decimal degrees</attributeLabel>
+<attributeDefinition>latitude decimal degrees</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>decimal degrees</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172200"><attributeName>LONG</attributeName>
+<attributeLabel>longitude</attributeLabel>
+<attributeDefinition>longitude</attributeDefinition>
+<storageType typeSystem="exce">integer</storageType>
+<measurementScale><interval><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1355268172201"><attributeName>LONG_DD</attributeName>
+<attributeLabel>longitude decimal degrees</attributeLabel>
+<attributeDefinition>longitude decimal degrees</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><interval><unit><customUnit>decimal degrees</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1355268172202"><attributeName>MAP_BIG</attributeName>
+<attributeLabel>Map sheet name (1:250,000 scale)</attributeLabel>
+<attributeDefinition>Map sheet name (1:250,000 scale)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Map sheet name (1:250,000 scale)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172203"><attributeName>MAP_SML</attributeName>
+<attributeLabel>Map sheet name, 15 or 7.5 QUAD</attributeLabel>
+<attributeDefinition>Map sheet name, 15 or 7.5 QUAD</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Map sheet name, 15 or 7.5 QUAD</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172204"><attributeName>MG11</attributeName>
+<attributeLabel>Magnesium</attributeLabel>
+<attributeDefinition>Magnesium</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172205"><attributeName>MG11F</attributeName>
+<attributeLabel>Magnesium flag</attributeLabel>
+<attributeDefinition>Magnesium flag</attributeDefinition>
+<storageType typeSystem="excel">textt</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172206"><attributeName>MN11</attributeName>
+<attributeLabel>Manganese</attributeLabel>
+<attributeDefinition>Manganese</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172207"><attributeName>MN11F</attributeName>
+<attributeLabel>Manganese flag</attributeLabel>
+<attributeDefinition>Manganese flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172208"><attributeName>NA11</attributeName>
+<attributeLabel>Sodium</attributeLabel>
+<attributeDefinition>Sodium</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172209"><attributeName>NA11F</attributeName>
+<attributeLabel>Sodium flag</attributeLabel>
+<attributeDefinition>Sodium flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172210"><attributeName>NEWSR</attributeName>
+<attributeLabel>New subregion code</attributeLabel>
+<attributeDefinition>New subregion code</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>New subregion code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172211"><attributeName>NH411</attributeName>
+<attributeLabel>Nitrogen, NH4</attributeLabel>
+<attributeDefinition>Nitrogen, NH4</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172212"><attributeName>NH411F</attributeName>
+<attributeLabel>Nitrogen, NH4 flag</attributeLabel>
+<attributeDefinition>Nitrogen, NH4 flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172213"><attributeName>NO311</attributeName>
+<attributeLabel>Nitrogen, nitrate (NO3)</attributeLabel>
+<attributeDefinition>Nitrogen, nitrate (NO3)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172214"><attributeName>NO311F</attributeName>
+<attributeLabel>Nitrogen, nitrate (NO3) flag</attributeLabel>
+<attributeDefinition>Nitrogen, nitrate (NO3) flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172215"><attributeName>PHEQ11</attributeName>
+<attributeLabel>pH, equilibrated</attributeLabel>
+<attributeDefinition>pH, equilibrated</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172216"><attributeName>PHEQ11F</attributeName>
+<attributeLabel>pH, equilibrated flag</attributeLabel>
+<attributeDefinition>pH, equilibrated flag</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172217"><attributeName>PHSTVL</attributeName>
+<attributeLabel>pH</attributeLabel>
+<attributeDefinition>pH field lab</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172218"><attributeName>PHSTVLF</attributeName>
+<attributeLabel>pH flag</attributeLabel>
+<attributeDefinition>pH flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172219"><attributeName>PTL11</attributeName>
+<attributeLabel>Phosphorus, total</attributeLabel>
+<attributeDefinition>Phosphorus, total</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172220"><attributeName>PTL11F</attributeName>
+<attributeLabel>Phosphorus, total flag</attributeLabel>
+<attributeDefinition>Phosphorus, total flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172221"><attributeName>REGION</attributeName>
+<attributeLabel>NSWS Region</attributeLabel>
+<attributeDefinition>NSWS Region</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>NSWS Region</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172222"><attributeName>REG_SPC</attributeName>
+<attributeLabel>REG SPEC LTM NRC DEW DER SAMPLE CLASS</attributeLabel>
+<attributeDefinition>REG SPEC LTM NRC DEW DER SAMPLE CLASS</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>REG SPEC LTM NRC DEW DER SAMPLE CLASS</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172223"><attributeName>SAM_ID</attributeName>
+<attributeLabel>Sample ID</attributeLabel>
+<attributeDefinition>Sample ID</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Sample ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172224"><attributeName>SAM_IDF</attributeName>
+<attributeLabel>Sample ID flag</attributeLabel>
+<attributeDefinition>Sample ID flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged samples</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172225"><attributeName>SECMEAN</attributeName>
+<attributeLabel>Secchi, mean depth (m)</attributeLabel>
+<attributeDefinition>Secchi, unknown</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172226"><attributeName>SITDPM</attributeName>
+<attributeLabel>Site depth (m)</attributeLabel>
+<attributeDefinition>Site depth (m)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172227"><attributeName>SO411</attributeName>
+<attributeLabel>Sulfate</attributeLabel>
+<attributeDefinition>Sulfate</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172228"><attributeName>SO411F</attributeName>
+<attributeLabel>Sulfate flag</attributeLabel>
+<attributeDefinition>Sulfate flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172229"><attributeName>ST</attributeName>
+<attributeLabel>State</attributeLabel>
+<attributeDefinition>State (2 letter abbreviation)</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>state abbreviation</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172230"><attributeName>STA_ID</attributeName>
+<attributeLabel>Station ID Form 2</attributeLabel>
+<attributeDefinition>Station ID Form 2</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station ID Form 2</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172231"><attributeName>SUBREG</attributeName>
+<attributeLabel>Region + SUB_RGN</attributeLabel>
+<attributeDefinition>Region + SUB_RGN</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Region + SUB_RGN</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172232"><attributeName>SUB_RGN</attributeName>
+<attributeLabel>NSWS Subregion</attributeLabel>
+<attributeDefinition>NSWS Subregion</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>NSWS Subregion</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172233"><attributeName>TIMSMP</attributeName>
+<attributeLabel>Time sampled (24h) HH:MM</attributeLabel>
+<attributeDefinition>Time sampled (24h) HH:MM</attributeDefinition>
+<storageType typeSystem="excel">integer</storageType>
+<measurementScale><dateTime><formatString>HH:MM</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1355268172234"><attributeName>TMPTOP</attributeName>
+<attributeLabel>Temperature at surface (1.5m) (DEG C)</attributeLabel>
+<attributeDefinition>Temperature at surface (1.5m) (DEG C)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1355268172235"><attributeName>TURVAL</attributeName>
+<attributeLabel>Turbidity</attributeLabel>
+<attributeDefinition>Turbidity</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><customUnit>NTU</customUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1355268172236"><attributeName>TURVALF</attributeName>
+<attributeLabel>Turbidity flag</attributeLabel>
+<attributeDefinition>Turbidity flag</attributeDefinition>
+<storageType typeSystem="excel">text</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>flagged obs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1355268172237"><attributeName>WSHED</attributeName>
+<attributeLabel>Watershed area (ha)</attributeLabel>
+<attributeDefinition>Watershed area (ha)</attributeDefinition>
+<storageType typeSystem="excel">float</storageType>
+<measurementScale><ratio><unit><standardUnit>hectare</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>2</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="ueq/l" multiplierToSI=" " name="ueq/l" parentSI="mole" unitType="amount"><description>ueq/l</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="PCU" multiplierToSI=" " name="PCU" parentSI="mole" unitType="amount"><description>PCU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="uS/cm" multiplierToSI=" " name="uS/cm" parentSI="mole" unitType="amount"><description>uS/cm</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="10^6 cu m" multiplierToSI=" " name="10^6 cu m" parentSI="liter" unitType="volume"><description>10^6 cu m</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="decimal degrees" multiplierToSI=" " name="decimal degrees" parentSI="metersPerSecondSquared" unitType="acceleration"><description>decimal degrees</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount"><description>NTU</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</eml:eml>
