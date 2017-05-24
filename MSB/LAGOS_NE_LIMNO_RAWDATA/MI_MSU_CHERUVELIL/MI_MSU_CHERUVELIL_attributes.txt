@@ -1,0 +1,17 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+NEW_KEY			character	Lake unique ID	Lake unique ID	character		
+Lake			character	lake name	lake name	character		
+County			character	county name lake is in	county name lake is in	character		
+X		meter	natural		lat recorded in the field - in utm's (m) using NAD 84	numeric		
+Y		meter	natural		lon recorded in the field - in utm's (m) using NAD 84	numeric		
+MAP_AREA_ha		hectare	real		lake area (ha) from lake maps	numeric		
+STAveDep_m		meter	real		lake average depth (m) from Storet	numeric		
+Limno_date	MM/DD/YYYY				date of sampling	Date		
+DeepStat_m		meter	real		depth of sample location (m)	numeric		
+EpiDepth_m		meter	real		depth of epilimnion (m) determined with temp probe	numeric		
+AlkmgLCaCO3		milligramsPerLiter	natural		Alkalinity	numeric		
+WatColAPHA		dimensionless	natural		Color, apparent (PCU)	numeric		
+Secchi_m		meter	real		Secchi, no view	numeric		
+TP_ug_L		microgramsPerLiter	real		Phosphorus, total	numeric		
+TN_ug_L		microgramsPerLiter	real		Nitrogen, total	numeric		
+chl_ug_L		microgramsPerLiter	real		Chlorophyll a	numeric		
