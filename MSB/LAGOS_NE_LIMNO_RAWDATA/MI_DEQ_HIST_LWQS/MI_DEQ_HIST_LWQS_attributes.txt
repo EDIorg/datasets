@@ -1,0 +1,13 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+ID		dimensionless	natural		US EPA STORET ID	numeric		
+Primary_Station_ID		dimensionless	natural		Primary Station ID	numeric		
+Parameter_Code		dimensionless	natural		Parameter Code	numeric		
+Parameter_Long_Name			character	parameter name	parameter name	factor		
+Result_Value		dimensionless	real		Result value - vertical data structure so many different variables are represented in this column	numeric		
+Remark_Code			character	Remark Code	Remark Code	factor		
+Remark_Description			character	Remark descriptions	Remark descriptions	character		
+Start_Date	MM/DD/YYYY				start date	Date		
+Sample_Code		dimensionless	natural		Sample Code	numeric		
+Sample_Depth		inch	real		distance from the water surface the sample was taken	numeric		
+Composite_Method_Code			character	Composite Method Code	Composite Method Code	factor		
+Composite_Method_Description			character	Composite method description	Composite method description	character		

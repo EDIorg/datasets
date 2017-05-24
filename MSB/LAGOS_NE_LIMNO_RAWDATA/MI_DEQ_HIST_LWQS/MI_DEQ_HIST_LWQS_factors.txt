@@ -1,0 +1,35 @@
+attributeName	code	definition
+Parameter_Long_Name	TRANSPARENCY SECCHI DISC (INCHES)	Sechi depth (inch)
+Parameter_Long_Name	PH (STANDARD UNITS)	pH (dimensionless)
+Parameter_Long_Name	PHOSPHORUS TOTAL (MG/L AS P)	Total P (milligramsPerLiter)
+Parameter_Long_Name	PHOSPHORUSIN TOTAL ORTHOPHOSPHATE (MG/L AS P)	Phosphorus in total orthophosphate (milligramsPerLiter)
+Parameter_Long_Name	SPECIFIC CONDUCTANCE (UMHOS/CM at 25C)	Specific conductance (micromhosPerCentimeter)
+Parameter_Long_Name	ALKALINITY TOTAL (MG/L AS CACO3)	Total alkalinity (milligramsPerLiter as CaCO3)
+Parameter_Long_Name	NITROGEN ORGANIC TOTAL (MG/L AS N)	Total organic nitrogen (milligramsPerLiter as N)
+Parameter_Long_Name	NITROGEN AMMONIA TOTAL (MG/L AS N)	Total ammonia nitrogen (milligramsPerLiter as N)
+Parameter_Long_Name	OXYGEN DISSOLVED                             MG/L	Dissolved oxygen (milligramsPerLiter)
+Parameter_Long_Name	COLOR (PLATINUM-COBALT UNITS)	Color (PCU)
+Parameter_Long_Name	NITRITE PLUS NITRATE TOTAL 1 DET. (MG/L AS N)	Nitrite plus nitrate total 1 det. (milligramsPerLiter as N)
+Parameter_Long_Name	CHLORIDETOTAL IN WATER                MG/L	Total chloride in water (milligramsPerLiter)
+Parameter_Long_Name	TURBIDITYHACH TURBIDIMETER (FORMAZIN TURB UNIT)	Turbidity Hach Turbidimeter (Formazin Turb Unit)
+Parameter_Long_Name	CALCIUM TOTAL (MG/L AS CA)	Total Calcium (milligramsPerLiter as Ca)
+Parameter_Long_Name	SULFATE DISSOLVED (MG/L AS SO4)	Dissolved sulfate (milligramsPerLiter SiO3 as Si)
+Parameter_Long_Name	SILICATE UNFILTERED REACTIVE    (MG/L SIO3 AS SI)	Silicate unfiltered reactive (milligramsPerLiter SiO3 as Si)
+Parameter_Long_Name	CHLOROPHYLL A UG/L FLUOROMETRIC CORRECTED	Chlorophyll a fluorometric corrected (microgramsPerLiter)
+Parameter_Long_Name	SPECIFIC CONDUCTANCEFIELD (UMHOS/CM at 25C)	Specific conductance (micromhosPerCentimeter)
+Parameter_Long_Name	NITROGEN KJELDAHL TOTAL (MG/L AS N)	Total nitrogen Kjedahl (milligramsPerLiter as N)
+Parameter_Long_Name	SULFATE TOTAL (MG/L AS SO4)	Total sulfate (milligramsPerLiter as SO4)
+Parameter_Long_Name	CALCIUM DISSOLVED (MG/L AS CA)	Dissolved calcium (milligramsPerLiter as Ca)
+Parameter_Long_Name	CARBON TOTAL ORGANIC (MG/L AS C)	Total Organic Carbon (milligramsPerLiter as C)
+Remark_Code	K	Off-scale low. Actual value not known but known to be less than value shown
+Remark_Code	C	Calculated. Value stored was not measured directly but was calculated from other data available.
+Remark_Code	D	Field measurement. Some parameter codes (e.g. 401 Field pH) imply this condition without this remark).
+Remark_Code	T	Value reported is less than the criteria of detection.
+Remark_Code	W	Value observed is less than the lowest value reportable under remark T
+Remark_Code	L	Off-scale high. Actual value not known but known to be greater than value shown.
+Remark_Code	Q	Sample held beyond normal holding time.
+Remark_Code	J	Estimated. Value shown is not a result of analytical measurement.
+Remark_Code	A	Value reported is the mean of two or more determinations
+Composite_Method_Code	B	Samples are not collected continuously or as a grap. STORET used this code for replicate samples
+Composite_Method_Code	C	Samples collected continuously
+Composite_Method_Code	G	Samples collected as a grab. The number comprising the sample may or may not be reported. If the number comrising the sample is reported the number will be stored in the composite grap number column of the sample table

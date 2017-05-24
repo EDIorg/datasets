@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="emifergus.121.4" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+ <dataset>
+  <title>Michigan Department of Environmental Quality (MI): water quality sampling program,
+   1967-1997</title>
+  <creator id="1370030694252">
+   <individualName>
+    <givenName>Ralph</givenName>
+    <surName>Bednarz</surName>
+   </individualName>
+   <organizationName>Michigan Department of Environmental Quality</organizationName>
+   <positionName>Retired</positionName>
+   <electronicMailAddress>BednarzR@michigan.gov</electronicMailAddress>
+  </creator>
+  <creator id="1370030737599">
+   <individualName>
+    <givenName>James</givenName>
+    <surName>Breck</surName>
+   </individualName>
+   <organizationName>Michigan Department of Environmental Quality</organizationName>
+   <positionName>retired</positionName>
+   <electronicMailAddress>BreckJ@michigan.gov</electronicMailAddress>
+  </creator>
+  <abstract>
+   <para>This program is the water quality sampling program for the state of Michigan (formerly the
+    Department of Natural Resources, then the Department of Environmental Quality). Most, if not all
+    lakes are public and &gt; 25 acres. The goal of the program is to determine inland lake trophic
+    status. Spring samples are taken to determine total phosphorus and other parameter levels of the
+    lake while it is well mixed. Summer samples were also performed for other parameters.</para>
+  </abstract>
+  <keywordSet>
+   <keyword>MI</keyword>
+   <keyword>State Department of Environmental Quality</keyword>
+   <keyword>lake water quality</keyword>
+  </keywordSet>
+  <intellectualRights>
+   <para>Public</para>
+  </intellectualRights>
+  <coverage>
+   <geographicCoverage>
+    <geographicDescription>Inland lakes, Michigan, USA</geographicDescription>
+    <boundingCoordinates>
+     <westBoundingCoordinate>-90.29</westBoundingCoordinate>
+     <eastBoundingCoordinate>-82.26</eastBoundingCoordinate>
+     <northBoundingCoordinate>45.0</northBoundingCoordinate>
+     <southBoundingCoordinate>41.42</southBoundingCoordinate>
+    </boundingCoordinates>
+   </geographicCoverage>
+   <temporalCoverage>
+    <rangeOfDates>
+     <beginDate>
+      <calendarDate>1967</calendarDate>
+     </beginDate>
+     <endDate>
+      <calendarDate>1997</calendarDate>
+     </endDate>
+    </rangeOfDates>
+   </temporalCoverage>
+  </coverage>
+  <contact>
+   <references>1370030694252</references>
+  </contact>
+  <contact>
+   <references>1370030737599</references>
+  </contact>
+  <contact id="1370030792060">
+   <individualName>
+    <givenName>Patricia</givenName>
+    <surName>Soranno</surName>
+   </individualName>
+   <organizationName>Fisheries and Wildlife, Michigan State University</organizationName>
+   <positionName>Professor</positionName>
+   <address>
+    <deliveryPoint>13 Natural Resources Building, 480 Wilson Rd</deliveryPoint>
+    <deliveryPoint>Michigan State University</deliveryPoint>
+    <city>East Lansing</city>
+    <administrativeArea>MI</administrativeArea>
+    <postalCode>48824</postalCode>
+    <country>USA</country>
+   </address>
+   <electronicMailAddress>Soranno@msu.edu</electronicMailAddress>
+  </contact>
+  <methods>
+   <methodStep>
+    <description>
+     <section>
+      <title>Chemical Analyses</title>
+      <para>Chemical analyses performed by the MI DNR-Environmental Laboratory</para>
+      <para>Turbidity - NA</para>
+      <para>color &#8211; P310001WI; Standard Methods; 14th edition, 1975</para>
+      <para>specific_conductance &#8211; P340001WF; flow-through specific conductance electrode;
+       Standard Methods. 1975</para>
+      <para>specific_conductance_field</para>
+      <para>oxygen_dissolved &#8211; dissolved oxygen using a probe unless value is between 0 and
+       1.5 mg/L, at which point Winkler titration is recommended</para>
+      <para>ph- measured using a pH meter with glass pH electrode; Standard Methods. 1975</para>
+      <para>alkalinity_total &#8211; E 820000WF; Colorimetric, automated methyl orange, AAII. (EPA
+       1979; Methods for chemical analyses of water and wastes)</para>
+      <para>nitrogen_organic_total - NA</para>
+      <para>nitrogen_ammonia_total &#8211; EPA E430000WF; Colorimetric, automated Phenolate, AAII
+       (EPA 1979: Methods for chemical analyses of water and wastes)</para>
+      <para>nitrogen_kjeldahl_total &#8211; EPA E 450001WF; Colorimetric, block digestor, automated
+       salicylate (EPA 1979: Methods for chemical analyses of water and wastes)</para>
+      <para>nitrite_plus_nitrate &#8211; EPA Method E400000WF (EPA 1979; Methods for chemical
+       analyses of water and wastes). Colorimetric, automated cadmium reduction AAII.</para>
+      <para>phosphorus_total - EPA Method E550001WF; Methods for chemical analysis of water and
+       wastes (EPA 1974). Colorimetric, Block Digestor, Mercury, Automated Ascorbic Acid Reduction;.
+       Storet number 00665</para>
+      <para>carbon_total_organic - NA</para>
+      <para>calcium_dissolved &#8211; Atomic Absorption &#8211; Direct Aspiration</para>
+      <para>calcium_total - &#8211; Atomic Absorption &#8211; Direct Aspiration</para>
+      <para>chloride_total &#8211; E720000WF; Colorimetric, Automated Ferricyanide AAII; (EPA 1979;
+       Methods for chemical analyses of water and wastes)</para>
+      <para>sulfate_total &#8211; EPA E 790010WF; Colorimetric, automated methelthymol blue method.
+       (EPA 1979: Methods for chemical analyses of water and wastes)</para>
+      <para>sulfate_dissolved - EPA E 790010WF; Colorimetric, automated methelthymol blue method.
+       (EPA 1979: Methods for chemical analyses of water and wastes)</para>
+      <para>silicate_unfiltered_reactive &#8211; E 760000WF; Colorimetric, Automated
+       Molybdosilicate, AAII. (EPA 1979; Methods for chemical analyses of water and wastes)</para>
+      <para>chlorophyll_a &#8211;Method P210001WF; (Standard Methods for the Examination of water
+       and wastewater); extracted using acetone</para>
+      <para>phosphorus_total_orthophosphate &#8211; EPA Method E550001WF; Methods for chemical
+       analysis of water and wastes (EPA 1974). Colorimetric, Block Digestor, Mercury, Automated
+       Ascorbic Acid Reduction;. Storet number 00665</para>
+      <para>Detection Limits</para>
+      <para>nitrite_plus_nitrate &#8211; 0.0059 mg/L</para>
+      <para>phosphorus_total &#8211;</para>
+      <para>[BEFORE 1983] &#8211; Detection limit of 0.0052 mg/L</para>
+      <para>[FOR 1983-1997] - Detection limit of 0.0019 mg/L</para>
+      <para>phosphorus_total_orthophosphate &#8211;Detection limit of 0.003 mg/L</para>
+      <para>nitrogen_kjeldahl_total &#8211; Detection limit of 0.064 mg/L</para>
+      <para>nitrogen_ammonia_total &#8211;Detection limit of 0.0071 mg/l</para>
+      <para>chlorophyll_a &#8211; Detection limit .2 ug/L</para>
+      <para>specific_conductance &#8211; Detection limit of 10 umho/cm</para>
+      <para>alkalinity_total &#8211; Detection limit of 2.63 mg/L</para>
+      <para>chloride_total &#8211; Detection limit of 0.28 mg/L</para>
+      <para>calcium_dissolved &#8211; 1.0 mg/L</para>
+      <para>calcium_total - &#8211; 1.0 mg/L</para>
+      <para>silicate_unfiltered_reactive &#8211; Detection limit of 0.019 mg/L</para>
+      <para>sulfate_total &#8211; Detection limit of 0.82 mg/L</para>
+      <para>color &#8211; Detection limit of 3 Pt-Co units</para>
+      <para>Remark Codes:</para>
+      <para>A = Value reported is the mean of two or more determinations</para>
+      <para>C = Calculated. Value stored was not measured directly- but was calculated from other
+       data available</para>
+      <para>D = Field measurement. Some parameter codes (e.g. 401 &quot;Field pH&quot;) imply this
+       condition without this remark</para>
+      <para>J = Estimated. Value shown is not a result of analytical measurement</para>
+      <para>K = Off-scale low. Actual value not known- but known to be less than value shown</para>
+      <para>L = Off-scale high. Actual value not known- but known to be greater than value
+       shown</para>
+      <para>Q = Sample held beyond normal holding time</para>
+      <para>T = Value reported is less than the criteria of detection</para>
+      <para>W = Value observed is less than the lowest value reportable under remark
+       &quot;T&quot;</para>
+     </section>
+    </description>
+   </methodStep>
+   <sampling>
+    <studyExtent>
+     <description>
+      <para>Inland lakes in MIchigan</para>
+     </description>
+    </studyExtent>
+    <samplingDescription>
+     <para>Most, if not all lakes are public and &gt; 25 acres. For some lakes, sampling twice per
+      year for each lake, once in spring during spring overturn (usually April) and once in late
+      summer (August or September) when lakes are typically thermally stratified. But in the early
+      years, often only spring or only late summer/fall. Spring surveys were conducted during spring
+      overturn, which generally in Michigan occurs within a week after ice out. Time of ice out
+      depended on geographic location and climate, but generally occurred sometime in April or early
+      May. Summer lake surveys were conducted during maximum stratification, which generally
+      occurred during late August or early September in the Upper Peninsula, and during September in
+      the lower peninsula. Lakes deeper than 25 feet generally begin to stratify after spring
+      overturn and continue until late September or early October. Lakes less than 25 feet deep may
+      not stratify or only stratify periodically for short intervals. Lakes were sampled at the deep
+      basin. If the lake is divided into 2 or more basins that have little exchange of water, then
+      each basin was sampled. The deep basin was found using a bathymetric map or a sounding line.
+      If the lake was not mapped, then the deep area was located by making 4-5 transects across the
+      lake. At a minimum, lake surveys included the following parameters: DO, temperature, pH,
+      alkalinity, conductivity, chloride, chlorophyll a, Secchi depth. Secchi readings were taken
+      between 10am-4pm. All water was collected with a Kemmerer sampler except for chlorophyll which
+      was collected using an integrated sampler (a weighted bucket with two tubes through the cover)
+      through the euphotic zone (determined to be two times the Secchi depth reading). Samples are
+      taken from the surface, mid-depth (thermocline, if one exists), and within 3 ft of the bottom
+      sediments.</para>
+    </samplingDescription>
+   </sampling>
+  </methods>
+  <dataTable id="1370032863889">
+   <entityName>MI_DEQ_HIST_LWQS_for_morpho.csv</entityName>
+   <entityDescription>Michigan Department of Environmental Quality (MI): water quality sampling
+    program, 1967-1997</entityDescription>
+   <physical id="1370031492810">
+    <objectName>MI_DEQ_HIST_LWQS_for_morpho.csv</objectName>
+    <size unit="byte">330</size>
+    <dataFormat>
+     <textFormat>
+      <numHeaderLines>1</numHeaderLines>
+      <recordDelimiter>#x0A</recordDelimiter>
+      <attributeOrientation>column</attributeOrientation>
+      <simpleDelimited>
+       <fieldDelimiter>,</fieldDelimiter>
+      </simpleDelimited>
+     </textFormat>
+    </dataFormat>
+    <distribution>
+     <offline>
+      <mediumName>hard drive</mediumName>
+     </offline>
+    </distribution>
+   </physical>
+   <attributeList>
+    <attribute id="1370032863892">
+     <attributeName>ID</attributeName>
+     <attributeLabel>US EPA STORET ID</attributeLabel>
+     <attributeDefinition>US EPA STORET ID</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>US EPA STORET ID</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863893">
+     <attributeName>Primary_Station_ID</attributeName>
+     <attributeLabel>Primary Station ID</attributeLabel>
+     <attributeDefinition>Primary Station ID</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Primary Station ID</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863894">
+     <attributeName>Parameter_Code</attributeName>
+     <attributeLabel>Parameter_Code</attributeLabel>
+     <attributeDefinition>Parameter Code</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Parameter Code</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863895">
+     <attributeName>Parameter_Long_Name</attributeName>
+     <attributeLabel>parameter name</attributeLabel>
+     <attributeDefinition>parameter name</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>parameter name</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863896">
+     <attributeName>Result_Value</attributeName>
+     <attributeLabel>Result value</attributeLabel>
+     <attributeDefinition>Result value - vertical data structure so many different variables are
+      represented in this column</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>dimensionless</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863897">
+     <attributeName>Remark_Code</attributeName>
+     <attributeLabel>Remark Code</attributeLabel>
+     <attributeDefinition>Remark Code</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>A</code>
+          <definition>Value reported is the mean of two or more determinations</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>C</code>
+          <definition>Calculated. Value stored was not measured directly- but was calculated from
+           other data available</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>D</code>
+          <definition>Field measurement. Some parameter codes (e.g. 401 &quot;Field pH&quot;) imply
+           this condition without this remark</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>J</code>
+          <definition>Estimated. Value shown is not a result of analytical measurement</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>K</code>
+          <definition>Off-scale low. Actual value not known- but known to be less than value
+           shown</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>L</code>
+          <definition>Off-scale high. Actual value not known- but known to be greater than value
+           shown</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>Q</code>
+          <definition>Sample held beyond normal holding time</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>T</code>
+          <definition>Value reported is less than the criteria of detection</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>W</code>
+          <definition>Value observed is less than the lowest value reportable under remark
+           &quot;T&quot;</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863898">
+     <attributeName>Remark_Description</attributeName>
+     <attributeLabel>Remark descriptions</attributeLabel>
+     <attributeDefinition>Remark descriptions</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Remark descriptions</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863899">
+     <attributeName>Start_Date</attributeName>
+     <attributeLabel>date</attributeLabel>
+     <attributeDefinition>start date</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <dateTime>
+       <formatString>mm/dd/yyyy</formatString>
+      </dateTime>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863900">
+     <attributeName>Sample_Code</attributeName>
+     <attributeLabel>Sample Code</attributeLabel>
+     <attributeDefinition>Sample Code</attributeDefinition>
+     <storageType typeSystem="excel">integer</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Sample Code</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863901">
+     <attributeName>Sample_Depth</attributeName>
+     <attributeLabel>Sample Depth</attributeLabel>
+     <attributeDefinition>distance from the water surface the sample was taken</attributeDefinition>
+     <storageType typeSystem="excel">float</storageType>
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>inch</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863902">
+     <attributeName>Composite_Method_Code</attributeName>
+     <attributeLabel>Composite Method Code</attributeLabel>
+     <attributeDefinition>Composite Method Code</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <enumeratedDomain>
+         <codeDefinition>
+          <code>B</code>
+          <definition>Samples are not collected continuously or as a grab. STORET used this code for
+           replicate samples.</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>C</code>
+          <definition>Samples colelcted continously</definition>
+         </codeDefinition>
+         <codeDefinition>
+          <code>G</code>
+          <definition>Samples collected as a grab. The number comprising the sample may or may not
+           be reported. If the number comprising the sample is reported the number will be stored in
+           the Composite Grab Number column of the Sample table.</definition>
+         </codeDefinition>
+        </enumeratedDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+    <attribute id="1370032863903">
+     <attributeName>Composite_Method_Description</attributeName>
+     <attributeLabel>Composite method description</attributeLabel>
+     <attributeDefinition>Composite method description</attributeDefinition>
+     <storageType typeSystem="excel">text</storageType>
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Composite method description</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+    </attribute>
+   </attributeList>
+   <numberOfRecords>10</numberOfRecords>
+  </dataTable>
+ </dataset>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="PCU" multiplierToSI=" " name="PCU" parentSI="mole" unitType="amount">
+     <description>PCU</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="pH" multiplierToSI=" " name="pH" parentSI="mole" unitType="amount">
+     <description>pH</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="umho/cm" multiplierToSI=" " name="umho/cm" parentSI="siemen" unitType="conductance">
+     <description>umho/cm</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+ <additionalMetadata>
+  <metadata>
+   <unitList>
+    <unit id="NTU" multiplierToSI=" " name="NTU" parentSI="mole" unitType="amount">
+     <description>NTU</description>
+    </unit>
+   </unitList>
+  </metadata>
+ </additionalMetadata>
+</eml:eml>
