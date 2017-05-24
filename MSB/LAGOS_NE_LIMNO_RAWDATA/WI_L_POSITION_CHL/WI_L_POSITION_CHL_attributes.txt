@@ -1,0 +1,10 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+lake			character	lake name	lake name	character		
+sampledate	MM/DD/YYYY				sample date	Date		
+rep		dimensionless	natural		replicate number	numeric		
+top		meter	whole		top of vertically integrated depth	numeric		
+bottom		meter	real		bottom of vertically integrated depth	numeric		
+volfiltered		milliliter	natural		total volume of water filtered	numeric		
+chl		microgramsPerLiter	real		total chlorophyll	numeric		
+phaeo		microgramsPerLiter	real		total degraded phaeopigments	numeric		
+chl_plus_phaeo		microgramsPerLiter	real		chlorophyll plus phaeo	numeric		

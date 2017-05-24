@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd" packageId="knb-lter-ntl.LPPCHL1.30976" system="knb">
+
+<access scope="document" order="allowFirst" authSystem="knb">
+    <allow>
+    <principal>uid=NTL, o=lter, dc=ecoinformatics, dc=org</principal>
+    <permission>all</permission>
+  </allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset>
+  <title>Landscape Position Project: Chlorophyll</title>
+  <creator>
+    <individualName>
+      <givenName>Ben</givenName>
+      <surName>Greenfield</surName>
+    </individualName>
+    <organizationName>NTL LTER</organizationName>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Thomas</givenName>
+      <surName>Hrabik</surName>
+    </individualName>
+    <organizationName>University of Minnesota</organizationName>
+    <address>
+      <deliveryPoint>1035 Kirby Dr</deliveryPoint>
+      <city>Duluth</city>
+      <administrativeArea>MN</administrativeArea>
+      <postalCode>55812</postalCode>
+      <country>United States</country>
+    </address>
+    <phone phonetype="voice">(218) 726-7626</phone>
+    <phone phonetype="fax">(218) 726-8142</phone>
+    <electronicMailAddress>thrabik@d.umn.edu</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Timothy</givenName>
+      <surName>Kratz</surName>
+    </individualName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>10810 County Highway N</deliveryPoint>
+      <city>Boulder Junction</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>54512</postalCode>
+      <country>United States</country>
+    </address>
+    <phone phonetype="voice">(715) 356-9494</phone>
+    <phone phonetype="fax">(715) 356-6866</phone>
+    <electronicMailAddress>tkkratz@wisc.edu</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>David</givenName>
+      <surName>Lewis</surName>
+    </individualName>
+    <organizationName>NTL LTER</organizationName>
+    <address>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+    </address>
+    <phone phonetype="voice">(608) 262-5905</phone>
+    <electronicMailAddress>dlewis2@wisc.edu</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>David</givenName>
+      <surName>Lewis</surName>
+    </individualName>
+    <organizationName>NTL LTER</organizationName>
+    <address>
+      <city>University Park</city>
+      <administrativeArea>PA</administrativeArea>
+      <postalCode>16802</postalCode>
+    </address>
+    <electronicMailAddress>dbl11@psu.edu</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Amina</givenName>
+      <surName>Pollard</surName>
+    </individualName>
+    <organizationName>NTL LTER</organizationName>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Karen</givenName>
+      <surName>Wilson</surName>
+    </individualName>
+    <organizationName>NTL LTER</organizationName>
+    <address>
+      <country>Canada</country>
+    </address>
+    <electronicMailAddress>k.wilson@utoronto.ca</electronicMailAddress>
+  </creator>
+  <language>english</language>
+  <abstract>
+    <para>
+      <literalLayout>Parameters characterizing the chemical limnology and spatial attributes of 49 lakes were surveyed as part of the Landscape Position Project. Most parameters are measured at or close to the deepest part of the lake. Chlorophyll is measured by collecting separate integrated samples from the epilimnion, metalimnion, and hypolimnion  Sampling Frequency: generally monthly for one summer; for some lakes, one or two samples in one summer  Number of sites: 51</literalLayout>
+    </para>
+  </abstract>
+  <keywordSet>
+    <keyword>chlorophyll</keyword>
+    <keyword>chlorophyll a</keyword>
+    <keyword>primary production</keyword>
+    <keyword>North Temperate Lakes - LTER</keyword>
+    <keyword>phaeophyton</keyword>
+  </keywordSet>
+  <intellectualRights>
+    <section>
+      <title>Data Policies</title>
+      <para>
+        <literalLayout>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</literalLayout></para> 
+<para><literalLayout>The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication.  The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data.  Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</literalLayout></para>
+<para><literalLayout>The Data User must realize that the data may be misinterpreted if taken out of context.  We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</literalLayout></para>
+<para><literalLayout>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: , North Temperate Lakes Long Term Ecological Research program (http://lter.limnology.wisc.edu), NSF, , Center for Limnology, University of Wisconsin-Madison.  The data set name and contact person for each data set can be found in the metadata header of the online data sets.</literalLayout></para>
+<para><literalLayout>The Data User must send two reprints of any publications resulting from use of the data to the address above.   We would like to include such manuscripts in our LTER publications list.</literalLayout></para>
+<para><literalLayout>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</literalLayout></para>
+<para><literalLayout>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed.  All data are made available "as is".  The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.  Data users should be aware that we periodically update data sets.</literalLayout></para>
+<para><literalLayout>Our goal is to release all long term data associated with core research areas within 2 years of collection.  These data and accompanying metadata will be available for download from the NTL-LTER web site.</literalLayout></para>
+<para><literalLayout>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.</literalLayout>
+      </para>
+    </section>
+  </intellectualRights>
+  <distribution>
+    <online>
+      <url function="information">http://lter.limnology.wisc.edu/node/5654</url>
+    </online>
+  </distribution>
+  <coverage>
+    <geographicCoverage>
+      <geographicDescription>Allequash Lake,Anderson Lake,Arrowhead Lake,Beaver Lake,Big Lake,Big Crooked Lake,Big Gibson Lake,Big Muskellunge Lake,Boulder Lake,Brandy Lake,Crampton Lake,Crystal Lake,Diamond Lake,Flora Lake,Heart Lake,Ike Walton Lake,Island Lake,Johnson Lake,Katherine Lake,Kathleen Lake,Katinka Lake,Lehto Lake,Little Crooked Lake,Little Muskie,Little Spider Lake,Little Sugarbush Lake,Little Trout Lake,Lower Kaubeshine Lake,Lynx Lake,McCullough Lake,Mid Lake,Minocqua Lake,Muskesin Lake,Nixon Lake,Partridge Lake,Randall Lake,Round Lake,Sanford Lake,Sparkling Lake,Statenaker Lake,Stearns Lake,Tomahawk Lake,Trout Lake,Upper Kaubeshine Lake,Verna Lake,Ward Lake,White Birch Lake,White Sand Lake,Wild Rice Lake,Wildcat Lake,Wolf Lake,Vilas County,WI,Iron County,WI,Oneida County,WI,Gogebic County,MI,USA</geographicDescription>
+      <boundingCoordinates>
+        <westBoundingCoordinate>-90.044</westBoundingCoordinate>
+        <eastBoundingCoordinate>-88.936</eastBoundingCoordinate>
+        <northBoundingCoordinate>46.300</northBoundingCoordinate>
+        <southBoundingCoordinate>45.855</southBoundingCoordinate>
+      </boundingCoordinates>
+    </geographicCoverage>
+    <temporalCoverage>
+      <rangeOfDates>
+        <beginDate>
+          <calendarDate>1998-05-28</calendarDate>
+        </beginDate>
+        <endDate>
+          <calendarDate>2000-07-22</calendarDate>
+        </endDate>
+      </rangeOfDates>
+    </temporalCoverage>
+  </coverage>
+  <contact>
+    <positionName>NTL LTER Information Manager</positionName>
+    <organizationName>University of Wisconsin</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Street</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <contact>
+    <positionName>NTL LTER Lead PI</positionName>
+    <organizationName>Center for Limnology</organizationName>
+    <address>
+      <deliveryPoint>680 North Park Str.</deliveryPoint>
+      <city>Madison</city>
+      <administrativeArea>WI</administrativeArea>
+      <postalCode>53706</postalCode>
+      <country>United States</country>
+    </address>
+    <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+  </contact>
+  <pubPlace>North Temperate Lakes</pubPlace>
+  <dataTable>
+    <entityName>landscape_position_chlorophyll</entityName>
+    <entityDescription>Landscape Position Project: Chlorophyll</entityDescription>
+    <physical>
+      <objectName>landscapepositionchlorophyll</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>1</numHeaderLines>
+          <recordDelimiter>#x0A</recordDelimiter>
+          <attributeOrientation>column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+    </physical>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Location: Crystal Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a seepage lake with predominantly sand substrate. It has a surface area of 36.7 hectare, 2.3 kilometers of highly developed shoreline and a maximum depth of 20.4 meters.
+Crystal Lake represents one extreme in the groundwater input gradient, with a marked predominance of precipitation inputs. Groundwater accounts for only 5% of input water, yet, because groundwater is more concentrated chemically than precipitation, groundwater accounts for substantial amounts of incoming solutes. For example, about 50% of the silica budget comes into the lake via groundwater, exerting a major influence on primary production.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.612233</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.612233</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.00275</northBoundingCoordinate>
+          <southBoundingCoordinate>46.00275</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Location: Big Muskellunge Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a seepage lake with predominantly sand and gravel substrate. It has a surface area of 396.3 hectare, 16.1 kilometers of moderately developed shoreline and a maximum depth of 21.3 meters.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.611783</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.611783</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.021067</northBoundingCoordinate>
+          <southBoundingCoordinate>46.021067</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Location: Sparkling Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a seepage lake with predominantly sand and gravel substrate. It has a surface area of 64 hectare, 4.3 kilometers of moderately developed shoreline and a maximum depth of 20 meters.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.701183</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.701183</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.007733</northBoundingCoordinate>
+          <southBoundingCoordinate>46.007733</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Location: Allequash Lake is located within the Northern Highland-American Legion State Forest, Vilas County. T41N-R7E, Sections 16, 17, 20, 21. 398 acres. (detailed lake description by the WDNR)
+It is a drainage lake with predominantly sand and gravel substrate. It has a surface area of 168.4 hectare, 9.5 kilometers of mostly undeveloped shoreline and a maximum depth of 8 meters.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.620617</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.620617</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.038317</northBoundingCoordinate>
+          <southBoundingCoordinate>46.038317</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Location: Trout Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a drainage lake with predominantly gravel and sand substrate. It has a surface area of 1607.9 hectare, 25.9 kilometers of mostly undeveloped shoreline and a maximum depth of 35.7 meters.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.665017</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.665017</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.029267</northBoundingCoordinate>
+          <southBoundingCoordinate>46.029267</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <attributeList>
+      <attribute>
+        <attributeName>lake</attributeName>
+        <attributeLabel>lake name</attributeLabel>
+        <attributeDefinition>lake name</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>lake name</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>sampledate</attributeName>
+        <attributeLabel>sample date</attributeLabel>
+        <attributeDefinition>sample date</attributeDefinition>
+        <measurementScale>
+          <dateTime>
+            <formatString>YYYY-MM-DD</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>rep</attributeName>
+        <attributeLabel>replicate number</attributeLabel>
+        <attributeDefinition>replicate number</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>replicate number</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>top</attributeName>
+        <attributeLabel>depth of top of sample</attributeLabel>
+        <attributeDefinition>top of vertically integrated depth</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">40</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>bottom</attributeName>
+        <attributeLabel>depth of bottom of sample</attributeLabel>
+        <attributeDefinition>bottom of vertically integrated depth</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>meter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">0</minimum>
+                <maximum exclusive="false">40</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>volfiltered</attributeName>
+        <attributeLabel>volume of water filtered</attributeLabel>
+        <attributeDefinition>total volume of water filtered</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <standardUnit>milliliter</standardUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">150</minimum>
+                <maximum exclusive="false">5000</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>chl</attributeName>
+        <attributeLabel>total chlorophyll</attributeLabel>
+        <attributeDefinition>total chlorophyll</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">-500</minimum>
+                <maximum exclusive="false">1000</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>phaeo</attributeName>
+        <attributeLabel>total phaeopigments</attributeLabel>
+        <attributeDefinition>total degraded phaeopigments</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">-500</minimum>
+                <maximum exclusive="false">1000</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>chl_plus_phaeo</attributeName>
+        <attributeLabel>chlorophyll plus phaeo</attributeLabel>
+        <attributeDefinition>chlorophyll plus phaeo</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>microgramPerLiter</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+              <bounds>
+                <minimum exclusive="false">-500</minimum>
+                <maximum exclusive="false">1000</maximum>
+              </bounds>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+    </attributeList>
+  </dataTable>
+</dataset>
+<additionalMetadata>
+  <metadata>
+    <stmml:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+<stmml:unit id="microgramPerLiter" name="microgramPerLiter" abbreviation="µg/l" unitType="massDensity" parentSI="kilogramPerCubicMeter" multiplierToSI="0.000001" constantToSI="0"><stmml:description>micrograms / liter</stmml:description></stmml:unit>
+
+    </stmml:unitList>
+  </metadata>
+</additionalMetadata>
+</eml:eml>
