@@ -1,0 +1,16 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
+Tripid		dimensionless	natural		unique ID corresponding to the trip (can include multiple waterbodies but typically on a single sampling date)	numeric		
+tripdate	MM/DD/YYYY				date sample was collected	Date		
+run_name			character	name of survey	name of survey	character		
+sambysite		dimensionless	natural		sample ID	numeric		
+station_id		dimensionless	natural		ID associated with the nearest facility/stream	numeric		
+StreamName_FacilityName			character	nearest stream or facility name	nearest stream or facility name	character		
+basinid		dimensionless	natural		Basin ID	numeric		
+sitenumber			character	site number	site number	character		
+parameterid			character	refers to Secchi reading - either 168, 580 (no transparency tube), 581 (with transparency tube)	refers to Secchi reading - either 168, 580 (no transparency tube), 581 (with transparency tube)	factor		
+ChemParameter			character	transparency	transparency	character		
+value		dimensionless	real		Value for Secchi reading	numeric		
+unit			character	unit (feet or meter)	unit (feet or meter)	factor		
+coltime	HH:MM				time that Secchi reading was taken	Date		
+YLat		degree	real		latitude	numeric		
+XLong		degree	real		longitude	numeric		

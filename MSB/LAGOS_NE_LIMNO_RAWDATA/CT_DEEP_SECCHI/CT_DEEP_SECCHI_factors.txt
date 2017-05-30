@@ -1,0 +1,8 @@
+attributeName	code	definition
+parameterid	580	Secchi, no view
+parameterid	168	Secchi, unknown
+parameterid	581	Secchi, view
+unit	meters	Meter
+unit	feet	Foot
+unit	Feet	Foot
+unit	m	Meter
