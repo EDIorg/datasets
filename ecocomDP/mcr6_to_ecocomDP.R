@@ -4,7 +4,8 @@ setwd("./ecocomDP/")
 library(tidyr)
 library(dplyr)
 library(geosphere)
-
+library(taxize)
+library(reshape2)
 
 
 
@@ -14,6 +15,8 @@ dt1 <-read.csv(infile1, header=T, sep=",", as.is = T)
 
 #deleting the last row
 dt1 <- filter(dt1, Year > 1900)
+
+#removing erroneously included rows, may not be necessary later
 dt1 <- filter(dt1, Habitat != "error")
 
 write.csv(dt1, file = "./data/knb-lter-mcr.6.55.csv", row.names = F)
@@ -154,7 +157,7 @@ write.csv(events_final, file = "./data/events.csv", row.names = F)
 taxa <- select(dt1, Taxonomy)
 taxa <- distinct(taxa)
 
-cleaned_species_list <- as.vector(taxa)
+cleaned_species_list <- as.vector(taxa$Taxonomy)
 
 #clean up the taxon name a bit more
 for (i in 1:length(cleaned_species_list)){
@@ -164,4 +167,49 @@ for (i in 1:length(cleaned_species_list)){
   cleaned_species_list[i] <- gsub(" \\(cf\\)", "", cleaned_species_list[i])
   cleaned_species_list[i] <- gsub(" [0-9]+", "", cleaned_species_list[i])
   cleaned_species_list[i] <- trimws(cleaned_species_list[i])
+  print(cleaned_species_list[i])
 }
+
+species_list <- unique(cleaned_species_list)
+
+
+
+taxon_info <- classification(species_list, db = 'ncbi')
+
+#create the taxon table to hold the information
+df_taxon <- data.frame(matrix(nrow = 0, ncol = 7))
+col_names <- c("name", "rank", "id", "authority_system", "rs_taxon_name")
+colnames(df_taxon) <- col_names
+
+for (i in 1:length(species_list)) {
+  print(species_list[i])
+  if (length(taxon_info[[i]]) > 1) {
+    d <- nrow(melt(taxon_info[i]))
+    taxon_record <- as.data.frame(slice(melt(taxon_info[i]), d))
+    taxon_record <- select(taxon_record, name, rank, id)
+    taxon_record$rs_taxon_name <- species_list[i]
+    taxon_record <- mutate(taxon_record, authority_system = "https://www.ncbi.nlm.nih.gov/Taxonomy")
+  }else{
+    taxon_record <- data.frame("rs_taxon_name" = species_list[i],
+                               "name" = species_list[i],
+                               "rank" = "",
+                               "id" = "",
+                               "authority_system" = "")
+  }
+  df_taxon <- rbind(df_taxon, taxon_record)
+}
+
+#rename column headers
+df_taxon_ncbi <- mutate(df_taxon, taxon_name = name, taxon_rank = rank, authority_taxon_id = id)
+
+#pick the columns needed
+df_taxon_ncbi <- select(df_taxon_ncbi, rs_taxon_name, taxon_rank, taxon_name, authority_system, authority_taxon_id)
+
+write.csv(df_taxon_ncbi, "./data/taxon_all_ncbi.csv", row.names = F)
+
+not_in_itis <- as.vector(df_taxon$rs_taxon_name[df_taxon$authority_taxon_id == ""])
+
+fb_taxon_info <- classification(not_in_itis, db = "col")
+
+species_list <- not_in_itis
+taxon_info <- fb_taxon_info
