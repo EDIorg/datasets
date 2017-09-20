@@ -23,9 +23,6 @@ write.csv(dt1, file = "./data/knb-lter-mcr.6.55.csv", row.names = F)
 
 #read in the table
 dt1 <- read.csv("./data/knb-lter-mcr.6.55.csv", header = T, as.is = T)
-# attempting to convert dt1$Date dateTime string to R date structure (date or POSIXct)                                
-tmpDateFormat<-"%Y-%m-%d"
-dt1$Date<-as.Date(dt1$Date,format=tmpDateFormat)
 
 #******************************************************************************************
 
@@ -111,9 +108,9 @@ a <- data.frame("sampling_location_id" = paste("LTER", sites_4$Site, sites_4$Hab
 
 location_df <- rbind(location_df, a)
 
-write.csv(location_df, file = "./data/locations.csv", row.names = F)
+write.csv(location_df, file = "./data/sampling_location.csv", row.names = F)
 
-location_df <- read.csv("./data/locations.csv", header = T, as.is = T)
+location_df <- read.csv("./data/sampling_location.csv", header = T, as.is = T)
 
 #add location_id to data table
 dt_location_id <- left_join(dt1, location_df, by = c("Location" = "sampling_location_name"))
@@ -131,7 +128,7 @@ events <-distinct(events)
 events$event_id <- seq.int(nrow(events))
 
 dt_location_event_id <- left_join(dt_location_id, events, by = "event_link")
-dt_location_event_id <- select(dt_location_event_id, Taxonomy:Fine_Trophic, sampling_location_id, event_id)
+dt_location_event_id <- select(dt_location_event_id, Date.x, Taxonomy:Fine_Trophic, sampling_location_id, event_id)
 
 events <- select(events, -event_link)
 events$Date <- as.character(events$Date)
@@ -139,7 +136,7 @@ events_final <- gather(events, "variable_name", "value", 1:10)
 events_final$record_id <- seq.int(nrow(events_final))
 variable_names <- distinct(events_final, variable_name)
 
-write.csv(variable_names, file = "./data/event_variables. csv", row.names = F)
+#write.csv(variable_names, file = "./data/event_variables. csv", row.names = F)
 
 #add units to variables
 
@@ -147,7 +144,7 @@ variable_names <- read.csv("./data/event_variables. csv", header = T, as.is = T)
 events_final <- left_join(events_final, variable_names, by = "variable_name")
 events_final <- select(events_final, record_id, event_id, variable_name, value, unit)
 
-write.csv(events_final, file = "./data/events.csv", row.names = F)
+write.csv(events_final, file = "./data/event.csv", row.names = F)
 
 
 #************************************************************************************************
@@ -167,49 +164,89 @@ for (i in 1:length(cleaned_species_list)){
   cleaned_species_list[i] <- gsub(" \\(cf\\)", "", cleaned_species_list[i])
   cleaned_species_list[i] <- gsub(" [0-9]+", "", cleaned_species_list[i])
   cleaned_species_list[i] <- trimws(cleaned_species_list[i])
-  print(cleaned_species_list[i])
+#  print(cleaned_species_list[i])
 }
 
+taxa <- cbind(taxa, as.data.frame(cleaned_species_list))
 species_list <- unique(cleaned_species_list)
 
 
+#worms seems to be the best database here. It returns a slightly different format than ITIS, hence slight changes in for loop
+# dbs <- c("itis", "ncbi", "worms")
+# urls <- c("https://www.itis.gov/", "https://www.ncbi.nlm.nih.gov/Taxonomy", "http://www.marinespecies.org/")
 
-taxon_info <- classification(species_list, db = 'ncbi')
+taxon_info_worms <- classification(species_list, db = 'worms')
 
 #create the taxon table to hold the information
 df_taxon <- data.frame(matrix(nrow = 0, ncol = 7))
-col_names <- c("name", "rank", "id", "authority_system", "rs_taxon_name")
+col_names <- c("name", "rank", "value", "authority_system", "rs_taxon_name")
 colnames(df_taxon) <- col_names
 
 for (i in 1:length(species_list)) {
-  print(species_list[i])
-  if (length(taxon_info[[i]]) > 1) {
-    d <- nrow(melt(taxon_info[i]))
-    taxon_record <- as.data.frame(slice(melt(taxon_info[i]), d))
-    taxon_record <- select(taxon_record, name, rank, id)
+  if (length(taxon_info_worms[[i]]) > 1) {
+    d <- nrow(melt(taxon_info_worms[i]))
+    taxon_record <- as.data.frame(slice(melt(taxon_info_worms[i]), d))
+    taxon_record <- select(taxon_record, name, rank, value)
     taxon_record$rs_taxon_name <- species_list[i]
-    taxon_record <- mutate(taxon_record, authority_system = "https://www.ncbi.nlm.nih.gov/Taxonomy")
+    taxon_record <- mutate(taxon_record, authority_system = "http://www.marinespecies.org/")
   }else{
     taxon_record <- data.frame("rs_taxon_name" = species_list[i],
                                "name" = species_list[i],
                                "rank" = "",
-                               "id" = "",
+                               "value" = "",
                                "authority_system" = "")
   }
   df_taxon <- rbind(df_taxon, taxon_record)
 }
 
+#link this information back up with their taxon ids (their taxon names)
+df_taxon_worms <- left_join(df_taxon, taxa, by = c("name" = "cleaned_species_list"))
+
 #rename column headers
-df_taxon_ncbi <- mutate(df_taxon, taxon_name = name, taxon_rank = rank, authority_taxon_id = id)
+df_taxon_worms <- mutate(df_taxon_worms, taxon_id = Taxonomy, taxon_name = name, taxon_rank = rank, authority_taxon_id = value)
 
 #pick the columns needed
-df_taxon_ncbi <- select(df_taxon_ncbi, rs_taxon_name, taxon_rank, taxon_name, authority_system, authority_taxon_id)
+df_taxon_worms <- select(df_taxon_worms, taxon_id, taxon_rank, taxon_name, authority_system, authority_taxon_id)
 
-write.csv(df_taxon_ncbi, "./data/taxon_all_ncbi.csv", row.names = F)
+write.csv(df_taxon_worms, "./data/taxon.csv", row.names = F)
 
-not_in_itis <- as.vector(df_taxon$rs_taxon_name[df_taxon$authority_taxon_id == ""])
+#***************************************************************************************************
 
-fb_taxon_info <- classification(not_in_itis, db = "col")
+# taxon_ancillary table
 
-species_list <- not_in_itis
-taxon_info <- fb_taxon_info
+df_taxon_ancillary <- select(dt_location_event_id, Taxonomy, Coarse_Trophic, Fine_Trophic)
+
+df_taxon_ancillary <- gather(df_taxon_ancillary, "variable_name", "value", 2:3)
+
+df_taxon_ancillary <- distinct(df_taxon_ancillary)
+
+df_taxon_ancillary <- mutate(df_taxon_ancillary, taxon_id = Taxonomy)
+
+df_taxon_ancillary$datetime <- ""
+
+df_taxon_ancillary$author <- ""
+
+df_taxon_ancillary$taxon_ancillary_id <- seq.int(nrow(df_taxon_ancillary))
+
+df_taxon_ancillary <- select(df_taxon_ancillary, taxon_ancillary_id, taxon_id, datetime, variable_name, value, author)
+
+write.csv(df_taxon_ancillary, file = "./data/taxon_ancillary.csv", row.names = F)
+
+#****************************************************************************************************
+
+# observation table
+
+dt_location_event_taxon_id <- select(dt_location_event_id, sampling_location_id, Date.x, event_id, Taxonomy, Count, Total_Length, Biomass)
+
+dt_location_event_taxon_id <- gather(dt_location_event_taxon_id, "variable_name", "value", 5:7)
+dt_location_event_taxon_id$package_id <- "1"
+dt_location_event_taxon_id$unit[dt_location_event_taxon_id$variable_name == "Biomass"] <- "gram"
+dt_location_event_taxon_id$unit[dt_location_event_taxon_id$variable_name == "Total_Length"] <- "millimeter"
+
+dt_location_event_taxon_id <- mutate(dt_location_event_taxon_id, taxon_id = Taxonomy, observation_datetime = Date.x)
+
+dt_location_event_taxon_id$observation_id <- seq.int(nrow(dt_location_event_taxon_id))
+
+dt_location_event_taxon_id <- select(dt_location_event_taxon_id, observation_id, event_id, package_id, sampling_location_id, observation_datetime, taxon_id, variable_name, value, unit)
+
+write.csv(dt_location_event_taxon_id, file = "./data/observation.csv", row.names = F)
