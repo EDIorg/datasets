@@ -13,7 +13,7 @@ infile1  <- "https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/6/55/ac2c7a
 infile1 <- sub("^https","http",infile1) 
 dt1 <-read.csv(infile1, header=T, sep=",", as.is = T)
 
-#deleting the last row
+#deleting the last row that seems to contain number of records
 dt1 <- filter(dt1, Year > 1900)
 
 #removing erroneously included rows, may not be necessary later
@@ -21,7 +21,7 @@ dt1 <- filter(dt1, Habitat != "error")
 
 write.csv(dt1, file = "./data/knb-lter-mcr.6.55.csv", row.names = F)
 
-#read in the table
+#read in the table without factors
 dt1 <- read.csv("./data/knb-lter-mcr.6.55.csv", header = T, as.is = T)
 
 #******************************************************************************************
@@ -211,6 +211,13 @@ df_taxon_worms <- select(df_taxon_worms, taxon_id, taxon_rank, taxon_name, autho
 write.csv(df_taxon_worms, "./data/taxon.csv", row.names = F)
 
 #***************************************************************************************************
+
+#discover relationships between trophic behavior and size of fish
+
+df_trophic_size <- select(dt_location_event_id, Taxonomy, Total_Length, Coarse_Trophic, Fine_Trophic )
+
+df_distinct_trophic <- distinct(df_trophic_size, Coarse_Trophic, Fine_Trophic)
+
 
 # taxon_ancillary table
 
