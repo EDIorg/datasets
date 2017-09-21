@@ -212,20 +212,16 @@ write.csv(df_taxon_worms, "./data/taxon.csv", row.names = F)
 
 #***************************************************************************************************
 
-#discover relationships between trophic behavior and size of fish
+# taxon_ancillary table - the trophic behavior of fishes is dependent on size class
 
-df_trophic_size <- select(dt_location_event_id, Taxonomy, Total_Length, Coarse_Trophic, Fine_Trophic )
-
-df_distinct_trophic <- distinct(df_trophic_size, Coarse_Trophic, Fine_Trophic)
-
-
-# taxon_ancillary table
-
-df_taxon_ancillary <- select(dt_location_event_id, Taxonomy, Coarse_Trophic, Fine_Trophic)
-
-df_taxon_ancillary <- gather(df_taxon_ancillary, "variable_name", "value", 2:3)
+df_taxon_ancillary <- select(dt_location_event_id, Taxonomy, Total_Length, Coarse_Trophic, Fine_Trophic)
 
 df_taxon_ancillary <- distinct(df_taxon_ancillary)
+
+#add taxon_ancillary_id to link size classes to trophic behavior
+df_taxon_ancillary$taxon_ancillary_id <- seq.int(nrow(df_taxon_ancillary))
+
+df_taxon_ancillary <- gather(df_taxon_ancillary, "variable_name", "value", 2:4)
 
 df_taxon_ancillary <- mutate(df_taxon_ancillary, taxon_id = Taxonomy)
 
@@ -233,9 +229,9 @@ df_taxon_ancillary$datetime <- ""
 
 df_taxon_ancillary$author <- ""
 
-df_taxon_ancillary$taxon_ancillary_id <- seq.int(nrow(df_taxon_ancillary))
+df_taxon_ancillary$record_id <- seq.int(nrow(df_taxon_ancillary))
 
-df_taxon_ancillary <- select(df_taxon_ancillary, taxon_ancillary_id, taxon_id, datetime, variable_name, value, author)
+df_taxon_ancillary <- select(df_taxon_ancillary,record_id, taxon_ancillary_id, taxon_id, datetime, variable_name, value, author)
 
 write.csv(df_taxon_ancillary, file = "./data/taxon_ancillary.csv", row.names = F)
 
@@ -245,6 +241,9 @@ write.csv(df_taxon_ancillary, file = "./data/taxon_ancillary.csv", row.names = F
 
 dt_location_event_taxon_id <- select(dt_location_event_id, sampling_location_id, Date.x, event_id, Taxonomy, Count, Total_Length, Biomass)
 
+#add an observation ID to link count and fish size class and biomass
+dt_location_event_taxon_id$observation_id <- seq.int(nrow(dt_location_event_taxon_id))
+
 dt_location_event_taxon_id <- gather(dt_location_event_taxon_id, "variable_name", "value", 5:7)
 dt_location_event_taxon_id$package_id <- "1"
 dt_location_event_taxon_id$unit[dt_location_event_taxon_id$variable_name == "Biomass"] <- "gram"
@@ -252,8 +251,8 @@ dt_location_event_taxon_id$unit[dt_location_event_taxon_id$variable_name == "Tot
 
 dt_location_event_taxon_id <- mutate(dt_location_event_taxon_id, taxon_id = Taxonomy, observation_datetime = Date.x)
 
-dt_location_event_taxon_id$observation_id <- seq.int(nrow(dt_location_event_taxon_id))
+dt_location_event_taxon_id$record_id <- seq.int(nrow(dt_location_event_taxon_id))
 
-dt_location_event_taxon_id <- select(dt_location_event_taxon_id, observation_id, event_id, package_id, sampling_location_id, observation_datetime, taxon_id, variable_name, value, unit)
+dt_location_event_taxon_id <- select(dt_location_event_taxon_id,record_id, observation_id, event_id, package_id, sampling_location_id, observation_datetime, taxon_id, variable_name, value, unit)
 
 write.csv(dt_location_event_taxon_id, file = "./data/observation.csv", row.names = F)
