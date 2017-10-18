@@ -13,7 +13,7 @@ library(reshape2)
 
 rm(list = ls())
 working_directory <- "./ecocomDP/"
-scope <- "knb-lter-mcm" # Scope of parent data package
+scope <- "knb-lter-mcr" # Scope of parent data package
 identifier <- "6"     # Identifier of parent data package
 revision <- "55"         # Revision of parent data package
 new_package_id <- "edi.125.1" # Child data package
