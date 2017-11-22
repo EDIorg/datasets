@@ -34,10 +34,10 @@ dt1 <- filter(dt1, Year > 1900)
 #removing erroneously included rows, may not be necessary later
 dt1 <- filter(dt1, Habitat != "error")
 
-write.csv(dt1, file = "./data/knb-lter-mcr.6.55.csv", row.names = F)
+write.csv(dt1, file = "./data/mcr.6.55/knb-lter-mcr.6.55.csv", row.names = F)
 
 #read in the table without factors
-dt1 <- read.csv("./data/knb-lter-mcr.6.55.csv", header = T, as.is = T)
+dt1 <- read.csv("./data/mcr.6.55/knb-lter-mcr.6.55.csv", header = T, as.is = T)
 
 #******************************************************************************************
 
@@ -47,13 +47,13 @@ locations <- distinct(locations)
 
 sites_1 <- distinct(locations, Site)
 #save the raw file and add lat longs for all locations from EML
-#write.csv(sites_1, file = "./data/knb-lter-mcr.6.55.locations.csv", row.names = F)
+#write.csv(sites_1, file = "./data/mcr.6.55/knb-lter-mcr.6.55.locations.csv", row.names = F)
 
-sites_1 <- read.csv("./data/knb-lter-mcr.6.55.latlongs.csv", header = T, as.is = T)
+sites_1 <- read.csv("./data/mcr.6.55/knb-lter-mcr.6.55.latlongs.csv", header = T, as.is = T)
 
 #put together the sampling location table
 location_df <- data.frame(matrix(ncol = 6, nrow = 0))
-col_names <- c("sampling_location_id", "sampling_location_name", "latitude", "longitude", "elevation", "parent_sampling_location_id")
+col_names <- c("location_id", "location_name", "latitude", "longitude", "elevation", "parent_location_id")
 colnames(location_df) <- col_names
 
 #calcuclate the center point for each bounding box
@@ -72,12 +72,12 @@ for(i in 1:nrow(sites_1)){
   sampling_location_id <- sites_1[i,1]
   sampling_location_name <- paste("LTER", sites_1[i,1], sep = " ")
   
-  a <- data.frame("sampling_location_id" = sampling_location_id,
-                  "sampling_location_name" = sampling_location_name,
+  a <- data.frame("location_id" = sampling_location_id,
+                  "location_name" = sampling_location_name,
                   "latitude" = latitude,
                   "longitude" = longitude,
                   "elevation" = as.numeric(""),
-                  "parent_sampling_location_id" = as.character(NA))
+                  "parent_location_id" = as.character(NA))
   
   location_df <- rbind(location_df, a)
 }
@@ -87,12 +87,12 @@ sites_2 <- select(locations, Site, Habitat)
 sites_2 <- distinct(sites_2)
 
 
-a <- data.frame("sampling_location_id" = paste(sites_2$Site, sites_2$Habitat, sep = "_"),
-                "sampling_location_name" = paste("LTER", sites_2$Site, sites_2$Habitat),
+a <- data.frame("location_id" = paste(sites_2$Site, sites_2$Habitat, sep = "_"),
+                "location_name" = paste("LTER", sites_2$Site, sites_2$Habitat),
                 "latitude" = NA,
                 "longitude" = NA,
                 "elevation" = NA,
-                "parent_sampling_location_id" = as.character(sites_2$Site))
+                "parent_location_id" = as.character(sites_2$Site))
 
 location_df <- rbind(location_df, a)
 
@@ -101,34 +101,34 @@ location_df <- rbind(location_df, a)
 sites_3 <- select(locations, Site, Habitat, Transect)
 sites_3 <- distinct(sites_3)
 
-a <- data.frame("sampling_location_id" = paste(sites_3$Site, sites_3$Habitat, sites_3$Transect, sep = "_"),
-                "sampling_location_name" = paste("LTER", sites_3$Site, sites_3$Habitat, sites_3$Transect),
+a <- data.frame("location_id" = paste(sites_3$Site, sites_3$Habitat, sites_3$Transect, sep = "_"),
+                "location_name" = paste("LTER", sites_3$Site, sites_3$Habitat, sites_3$Transect),
                 "latitude" = NA,
                 "longitude" = NA,
                 "elevation" = NA,
-                "parent_sampling_location_id" = as.character(paste(sites_3$Site, sites_3$Habitat, sep = "_")))
+                "parent_location_id" = as.character(paste(sites_3$Site, sites_3$Habitat, sep = "_")))
 
 location_df <- rbind(location_df, a)
 
 #location level 4 swath within each transect
 sites_4 <- locations
 
-a <- data.frame("sampling_location_id" = paste("LTER", sites_4$Site, sites_4$Habitat, sites_4$Transect, sites_4$Swath, sep = "_"),
-                "sampling_location_name" = sites_4$Location,
+a <- data.frame("location_id" = paste("LTER", sites_4$Site, sites_4$Habitat, sites_4$Transect, sites_4$Swath, sep = "_"),
+                "location_name" = sites_4$Location,
                 "latitude" = NA,
                 "longitude" = NA,
                 "elevation" = NA,
-                "parent_sampling_location_id" = as.character(paste(sites_4$Site, sites_4$Habitat, sites_4$Transect, sep = "_")))
+                "parent_location_id" = as.character(paste(sites_4$Site, sites_4$Habitat, sites_4$Transect, sep = "_")))
 
 location_df <- rbind(location_df, a)
 
-write.csv(location_df, file = "./data/MCR_Population_Community_Dynamics_Fishes_sampling_location.csv", row.names = F)
+write.csv(location_df, file = "./data/mcr.6.55/MCR_Population_Community_Dynamics_Fishes_location.csv", row.names = F)
 
-location_df <- read.csv("./data/MCR_Population_Community_Dynamics_Fishes_sampling_location.csv", header = T, as.is = T)
+location_df <- read.csv("./data/mcr.6.55/MCR_Population_Community_Dynamics_Fishes_location.csv", header = T, as.is = T)
 
 #add location_id to data table
-dt_location_id <- left_join(dt1, location_df, by = c("Location" = "sampling_location_name"))
-dt_location_id <- select(dt_location_id, Year:sampling_location_id)
+dt_location_id <- left_join(dt1, location_df, by = c("Location" = "location_name"))
+dt_location_id <- select(dt_location_id, Year:location_id)
 
 #****************************************************************************************
 
@@ -142,23 +142,23 @@ events <-distinct(events)
 events$event_id <- seq.int(nrow(events))
 
 dt_location_event_id <- left_join(dt_location_id, events, by = "event_link")
-dt_location_event_id <- select(dt_location_event_id, Date.x, Taxonomy:Fine_Trophic, sampling_location_id, event_id)
+dt_location_event_id <- select(dt_location_event_id, Date.x, Taxonomy:Fine_Trophic, location_id, event_id)
 
 events <- select(events, -event_link)
 events$Date <- as.character(events$Date)
 events_final <- gather(events, "variable_name", "value", 1:10)
-events_final$record_id <- seq.int(nrow(events_final))
+events_final$observation_ancillary_id <- seq.int(nrow(events_final))
 variable_names <- distinct(events_final, variable_name)
 
-#write.csv(variable_names, file = "./data/event_variables.csv", row.names = F)
+#write.csv(variable_names, file = "./data/mcr.6.55/event_variables.csv", row.names = F)
 
 #add units to variables
 
-variable_names <- read.csv("./data/event_variables.csv", header = T, as.is = T)
+variable_names <- read.csv("./data/mcr.6.55/event_variables.csv", header = T, as.is = T)
 events_final <- left_join(events_final, variable_names, by = "variable_name")
-events_final <- select(events_final, record_id, event_id, variable_name, value, unit)
+events_final <- select(events_final, observation_ancillary_id, event_id, variable_name, value, unit)
 
-write.csv(events_final, file = "./data/MCR_Population_Community_Dynamics_Fishes_event.csv", row.names = F)
+write.csv(events_final, file = "./data/mcr.6.55/MCR_Population_Community_Dynamics_Fishes_observation_ancillary.csv", row.names = F)
 
 
 #************************************************************************************************
@@ -222,7 +222,7 @@ df_taxon_worms <- mutate(df_taxon_worms, taxon_id = Taxonomy, taxon_name = name,
 #pick the columns needed
 df_taxon_worms <- select(df_taxon_worms, taxon_id, taxon_rank, taxon_name, authority_system, authority_taxon_id)
 
-write.csv(df_taxon_worms, "./data/MCR_Population_Community_Dynamics_Fishes_taxon.csv", row.names = F)
+write.csv(df_taxon_worms, "./data/mcr.6.55/MCR_Population_Community_Dynamics_Fishes_taxon.csv", row.names = F)
 
 #***************************************************************************************************
 
@@ -243,33 +243,30 @@ df_taxon_ancillary$datetime <- ""
 
 df_taxon_ancillary$author <- ""
 
-df_taxon_ancillary$record_id <- seq.int(nrow(df_taxon_ancillary))
 
-df_taxon_ancillary <- select(df_taxon_ancillary,record_id, taxon_ancillary_id, taxon_id, datetime, variable_name, value, author)
+df_taxon_ancillary <- select(df_taxon_ancillary, taxon_ancillary_id, taxon_id, datetime, variable_name, value, author)
 
-write.csv(df_taxon_ancillary, file = "./data/MCR_Population_Community_Dynamics_Fishes_taxon_ancillary.csv", row.names = F)
+write.csv(df_taxon_ancillary, file = "./data/mcr.6.55/MCR_Population_Community_Dynamics_Fishes_taxon_ancillary.csv", row.names = F)
 
 #****************************************************************************************************
 
 # observation table
 
-dt_location_event_taxon_id <- select(dt_location_event_id, sampling_location_id, Date.x, event_id, Taxonomy, Count, Total_Length, Biomass)
+dt_location_event_taxon_id <- select(dt_location_event_id, location_id, Date.x, event_id, Taxonomy, Count, Total_Length, Biomass)
 
 #add an observation ID to link count and fish size class and biomass
 dt_location_event_taxon_id$observation_id <- seq.int(nrow(dt_location_event_taxon_id))
 
 dt_location_event_taxon_id <- gather(dt_location_event_taxon_id, "variable_name", "value", 5:7)
-dt_location_event_taxon_id$package_id <- "1"
+dt_location_event_taxon_id$package_id <- "edi.125.1"
 dt_location_event_taxon_id$unit[dt_location_event_taxon_id$variable_name == "Biomass"] <- "gram"
 dt_location_event_taxon_id$unit[dt_location_event_taxon_id$variable_name == "Total_Length"] <- "millimeter"
 
 dt_location_event_taxon_id <- mutate(dt_location_event_taxon_id, taxon_id = Taxonomy, observation_datetime = Date.x)
 
-dt_location_event_taxon_id$record_id <- seq.int(nrow(dt_location_event_taxon_id))
+dt_location_event_taxon_id <- select(dt_location_event_taxon_id, observation_id, event_id, package_id, sampling_location_id, observation_datetime, taxon_id, variable_name, value, unit)
 
-dt_location_event_taxon_id <- select(dt_location_event_taxon_id,record_id, observation_id, event_id, package_id, sampling_location_id, observation_datetime, taxon_id, variable_name, value, unit)
-
-write.csv(dt_location_event_taxon_id, file = "./data/MCR_Population_Community_Dynamics_Fishes_observation.csv", row.names = F)
+write.csv(dt_location_event_taxon_id, file = "./data/mcr.6.55/MCR_Population_Community_Dynamics_Fishes_observation.csv", row.names = F)
 
 
 #******************************************************************************************************
@@ -279,22 +276,22 @@ write.csv(dt_location_event_taxon_id, file = "./data/MCR_Population_Community_Dy
 # Years
 
 dataset_summary <- data.frame(matrix(vector(), 1, 7,
-                                     dimnames=list(c(), c("dataset_summary_id", "original_package_id", "length_of_survey_years","number_of_years_samples","std_dev_interval_betw_years","max_num_taxa","geo_extent_bounding_box_m2"))),
+                                     dimnames=list(c(), c("package_id", "original_package_id", "length_of_survey_years","number_of_years_sampled","std_dev_interval_betw_years","max_num_taxa","geo_extent_bounding_box_m2"))),
                               stringsAsFactors=F)
 
-file_path <- paste("./data/", project_name, "_observation.csv", sep = "")
+file_path <- paste("./data/mcr.6.55/", project_name, "_observation.csv", sep = "")
 
 dataset <- read.csv(file_path, header = T, as.is = T)
 
-file_path <- paste("./data/", project_name, "_taxon.csv", sep = "")
+file_path <- paste("./data/mcr.6.55/", project_name, "_taxon.csv", sep = "")
 
 taxon <- read.csv(file_path, header = T, as.is = T)
 
-file_path <- paste("./data/", project_name, "_sampling_location.csv", sep = "")
+file_path <- paste("./data/mcr.6.55/", project_name, "_location.csv", sep = "")
 
 sampling_location <- read.csv(file_path, header = T, as.is = TRUE)
 
-dataset_summary$dataset_summary_id <- "1"
+dataset_summary$package_id <- "edi.125.1"
 
 tmp <- min(as.Date(dataset$observation_datetime, "%Y-%m-%d"))
 minyear <- as.numeric(format(tmp,'%Y'))
@@ -312,7 +309,7 @@ tmp <- unique(tmp)
 
 number_of_years_samples <- length(tmp)
 
-dataset_summary$number_of_years_samples <- number_of_years_samples
+dataset_summary$number_of_years_sampled <- number_of_years_samples
 
 tmp <- sort(tmp)
 tmp <- sapply(tmp, as.numeric)
@@ -341,4 +338,24 @@ area_m2 <- areaPolygon(pol)
 dataset_summary$geo_extent_bounding_box_m2 <- area_m2
 
 #this is the final data summary file
-write.csv(dataset_summary, file = "./data/MCR_Population_Community_Dynamics_Fishes_dataset_summary.csv", row.names = FALSE)
+write.csv(dataset_summary, file = "./data/mcr.6.55/MCR_Population_Community_Dynamics_Fishes_dataset_summary.csv", row.names = FALSE)
+
+#***********************************************************************
+#make the EML
+
+library(ecocomDP)
+setwd("./ecocomDP/")
+import_templates(data.path = "./data/mcr.6.55/")
+define_variables(data.path = "./data/mcr.6.55/", sep = ",")
+validate_ecocomDP(data.path = "./data/mcr.6.55/", sep = ",")
+make_eml(data.path = "./data/mcr.6.55/", 
+         code.path = "./data/mcr.6.55/",
+         eml.path = "./data/mcr.6.55/",
+         parent.package.id = "metadata", 
+         child.package.id = "edi.125.1", 
+         sep = ",", 
+         user.id = "EDI", 
+         author.system = "edi", 
+         intellectual.rights = "CCBY", 
+         datetime.format = "YYYY-MM-DD",
+         code.file.extension = ".R")
