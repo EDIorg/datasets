@@ -1,2 +1,3 @@
-# datasets
-A collection of dataset directories each containing files supporting the creation of EML for an associated dataset.
+# DataPackages
+
+A list of data package directories organized by identifier and containing files for creating components of data packages in production at EDI and managed by their curation team. Contact Colin if you have any questions (colin.smith@wisc.edu).
