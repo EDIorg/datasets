@@ -1,6 +1,0 @@
-attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
-Lake			character	Lake name	Lake name	character		
-Date	mm/dd/yyyy				Date	Date		
-TP		microgramsPerLiter	real		Phosphorus, total	numeric		
-TN		microgramsPerLiter	character	Nitrogen, total (microgramsPerLiter)	Nitrogen, total (microgramsPerLiter)	character		
-notes			character	notes	notes	factor		

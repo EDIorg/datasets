@@ -1,8 +1,0 @@
-attributeName	code	definition
-SAMPLE_FRACTION_TYPE	Total	The total of all fractions of the analyte
-SAMPLE_FRACTION_TYPE	Dissolved	That portion of the analyte found in the liquid medium. Cannot be removed by filtration
-SAMPLE_FRACTION_TYPE	Non-filter	That portion of the analyte which is in or absorbed to material which passes through the filter during sample filtration
-SAMPLE_FRACTION_TYPE	Suspended	That portion of the analyte which is suspended in the sample medium, either as or absorbed to, particles which are more or less uniformly dispersed within the medium
-GTLT	< 	Less than value listed in RESULT
-GTLT	> 	Greater than value listed in RESULT
-SAMPLE_TYPE	FMO	Field Msr/Obs

@@ -1,8 +1,0 @@
-attributeName	code	definition
-Org	UMC	University of Missouri-Columbia
-Project	LMVP	Lakes of Missouri Volunteer Program
-QA_Rated	Y	Yes does follow a QAPP approved methods
-Media_Type	Water - Raw - Grab	Grab Sample
-Media_Type	Water - Raw - Composite	Usually collected over 24-48 hrs
-Sample_Type	Grab	Grab
-Sample_Type	FieldDupl	Duplicate sample?

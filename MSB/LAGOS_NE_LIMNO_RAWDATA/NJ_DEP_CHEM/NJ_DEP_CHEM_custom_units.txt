@@ -1,2 +1,0 @@
-id	unitType	parentSI	multiplierToSI	description
-millisiemensPerCentimeter	conductance	siemensPerMeter	0.1	milli siemens Per Square Centimeter

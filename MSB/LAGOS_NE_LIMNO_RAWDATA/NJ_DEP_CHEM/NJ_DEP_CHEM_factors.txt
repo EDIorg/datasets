@@ -1,4 +1,0 @@
-attributeName	code	definition
-Season	Spring	Spring
-Season	Summer	Summer
-Season	Fall	Fall

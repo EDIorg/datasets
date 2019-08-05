@@ -1,6 +1,0 @@
-attributeName	code	definition
-layer	COMPOSITE	Integrated
-layer	EPILIMNION	Epilimnion
-layer	HYPOLIMNION	Hypolimnion
-layer	METALIMNION	Metalimnion
-layer	SURFACE	Surface

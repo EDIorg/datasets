@@ -1,4 +1,0 @@
-attributeName	code	definition
-sampleposition	EPI	Epilimnion
-sampleposition	HYPO	Hypolimnion
-sampleposition	UNKNOWN	Unknown

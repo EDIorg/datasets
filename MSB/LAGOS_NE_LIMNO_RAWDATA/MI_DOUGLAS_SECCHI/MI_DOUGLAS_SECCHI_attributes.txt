@@ -1,6 +1,0 @@
-attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
-Date	mm/dd/yyyy				Date	Date		
-Secchi_m		meter	real		Secchi depth	numeric		
-Year	yyyy				Year	Date		
-Secchi_ft		foot	real		Secchi (ft)	numeric		
-Source			character	Lists data source for observation	Lists data source for observation	character		

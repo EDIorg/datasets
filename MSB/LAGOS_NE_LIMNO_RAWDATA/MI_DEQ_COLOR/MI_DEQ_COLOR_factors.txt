@@ -1,6 +1,0 @@
-attributeName	code	definition
-sample_position	epi	Epilimnion
-sample_type	grab	Grab
-qualifier_color	LT	At or below detection limit
-agency	GLEC	Great Lakes Environmental Lab
-agency	MDEQ	Michigan Department of Environmental Quality

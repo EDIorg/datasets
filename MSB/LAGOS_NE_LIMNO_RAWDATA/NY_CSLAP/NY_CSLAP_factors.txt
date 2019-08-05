@@ -1,5 +1,0 @@
-attributeName	code	definition
-Type	surface	1.5 m from water surface
-Type	bottom	1.5 m above lake bottom
-Type	Surface	1.5 m from water surface
-Type	Bottom	1.5 m above lake bottom

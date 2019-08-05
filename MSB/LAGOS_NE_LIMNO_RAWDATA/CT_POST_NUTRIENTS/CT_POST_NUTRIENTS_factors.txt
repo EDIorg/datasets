@@ -1,4 +1,0 @@
-attributeName	code	definition
-notes	*	When a duplicate sample had greater than 10% relative mean difference, the lower value of TN or TP was selected.
-notes	survey	survey
-notes	1m	Only collected at 1m (?)

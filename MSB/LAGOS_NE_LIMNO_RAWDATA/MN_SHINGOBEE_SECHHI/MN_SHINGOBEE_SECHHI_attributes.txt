@@ -1,3 +1,0 @@
-attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	missingValueCode	missingValueCodeExplanation
-Date	mm/dd/yyyy				Sampling date	Date		
-Secchi_depth		meter	real		Secchi disk depth in m	numeric		

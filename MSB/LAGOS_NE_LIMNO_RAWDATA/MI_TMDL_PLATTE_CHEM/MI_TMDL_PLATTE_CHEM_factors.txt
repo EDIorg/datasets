@@ -1,5 +1,0 @@
-attributeName	code	definition
-MAbbr	Grab	Grab
-MAbbr	Composite	Integrated
-DNU	FALSE	Ok to use this sample
-DNU	TRUE	Do not use this sample
