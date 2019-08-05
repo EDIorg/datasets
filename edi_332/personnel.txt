@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Pedro	F	Quintana Ascencio	University of Central Florida	Pedro.Quintana-Ascencio@ucf.edu	0000-0001-7587-8166	Creator			
+Eric	S	Menges	Archbold Biological Station	emenges@archbold-station.org	0000-0002-9486-4189	Creator			
+Federico		Lopez Borghesi	University of Central Florida	flopezborghesi@Knights.ucf.edu	0000-0002-5557-0399	Contact			
+Database Manager			Archbold Biological Station	datamanager@archbold-station.org		Contact			
+Pedro	F	Quintana Ascencio	University of Central Florida	Pedro.Quintana-Ascencio@ucf.edu	0000-0001-7587-8166	PI	"Using long-term data, experiments and modeling to assess demographic effects of fire and complex interactions in Florida scrub"	National Science Foundation	1347247
+Pedro	F	Quintana Ascencio	University of Central Florida	Pedro.Quintana-Ascencio@ucf.edu	0000-0001-7587-8166	PI	Long-term Demographic Research on Florida Scrub Plants	National Science Foundation	812753

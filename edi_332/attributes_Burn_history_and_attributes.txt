@@ -1,0 +1,59 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+bald	Patch identification code	character			NA	Missing value
+name	Patch name used colloquillay in the biological station	character			NA	Missing value
+hc_2016	"Hypericum cumulicola presence in the reference patch (0 = absence, 1 = presence)."	character			NA	Missing value
+rel_eve	Elevation of the patch relative to the boundaries of nearest wetland	numeric	meter		NA	Missing value
+area	Patch area	numeric	hectare		NA	Missing value
+index	Patch aggregation using Hanski's connectivity index	character			NA	Missing value
+fires	Number of fires between 1967 and 2017	numeric	number		NA	Missing value
+1967	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1968	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1969	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1970	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1971	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1972	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1973	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1974	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1975	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1976	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1977	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1978	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1979	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1980	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1981	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1982	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1983	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1984	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1985	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1986	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1987	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1988	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1989	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1990	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1991	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1992	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1993	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1994	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1995	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1996	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1997	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1998	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+1999	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2000	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2001	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2002	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2003	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2004	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2005	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2006	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2007	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2008	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2009	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2010	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2011	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2012	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2013	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2014	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2015	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2016	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
+2017	"Occurrence of fires (0 = absence, 1 = presence)."	character			NA	Missing value
