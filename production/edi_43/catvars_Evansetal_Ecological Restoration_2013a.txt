@@ -1,0 +1,18 @@
+attributeName	code	definition
+Block	52	Site 52
+Block	57	Site 57
+Block	53N	Site 53 North
+Block	53S	Site 53 South
+Block	54N	Site 54 North
+Block	54S	Site 54 South
+Patch	B	Patch B
+Patch	C	Patch C
+Patch	D	Patch D
+Patch	E	Patch E
+PatchShape	Connected	Connected patch (always patch B)
+PatchShape	Winged	Winged patch
+PatchShape	Rectangle	Rectangle patch
+PatchType	Connected	Connected by corridor
+PatchType	Isolated	Not connected by corridor
+Season	Summer	Summer
+Season	Winter	Winter

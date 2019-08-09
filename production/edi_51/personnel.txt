@@ -1,0 +1,17 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+John		Herrmann	"Department of Landscape Ecology, University of Kiel, Olshausenstr"	eco.herrmann@gmail.com		creator			
+Nick		Haddad	"College of Natural Sciences, Michigan State University"	haddad@kbs.msu.edu		creator			
+Douglas		Levey	"Division of Environmental Biology, National Science Foundation"	dlevey@nsf.gov		creator			
+John		Herrmann	"Department of Landscape Ecology, University of Kiel, Olshausenstr"	eco.herrmann@gmail.com		contact			
+			U.S. Department of Agriculture Forest Service - Savannah River			Creating and maintaining experimental landscapes			
+Chris		Hobson	U.S. Department of Agriculture Forest Service-Savannah River	chobson@fs.fed.us		Prescribed fire and assistance during study			
+Paul		Varnedoe	"U.S. Department of Agriculture Forest Service-Cherokee NF, Ocoee/Hiwassee RD"	pvarnedoe@fs.fed.us		Prescribed fire and assistance during study			
+John		Blake	U.S. Department of Agriculture Forest Service-Savannah River (retired)	blakejohn7405@gmail.com		"Support with site creation, daily logistics, and project management"			
+Ed		Olson	U.S. Department of Agriculture Forest Service-Savannah River	eolson@fs.fed.us		"Support with site creation, daily logistics, and project management"			
+Kim		Wright	U.S. Department of Agriculture Forest Service-Savannah River	kimberlywright@fs.fed.us		"Support with site creation, daily logistics, and project management"			
+Jennifer		Chandler	"Department of Zoology, University of Wisconsin, Madison"	jchandler3@wisc.edu		Technician			
+Carrie		Barker	"Department of Biological Sciences, Louisiana State University"	cbark16@lsu.edu		Technician			
+Mike		Epperly	UC Davis Department of Entomology and Namatology	mlepperly@ucdavis.edu		Technician			
+Matt		Snyder				Technician			
+Nick		Haddad				PI	Interagency Agreement DE-AI09-00SR22188	"The USDA Forest Service-Savannah River (a National Environmental Research Park), under Interagency Agreement DE-AI09-00SR22188 with the Department of Energy, Aiken, SC"	DE-AI09-00SR22188
+Nick		Haddad				PI	Collaborative Research: Landscape connectivity and the movement ecology of plant and animal communities	National Science Foundation - Division of Integrative Organismal Systems	DEB- 1050361

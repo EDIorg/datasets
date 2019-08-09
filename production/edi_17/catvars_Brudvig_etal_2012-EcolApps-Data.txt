@@ -1,0 +1,9 @@
+attributeName	code	definition
+Plot_type	Ccenter	Center of connected patch
+Plot_type	Cedge	Edge of connected patch
+Plot_type	corridor	Within corridor
+Plot_type	matrix	Within pine plantation between patches
+Plot_type	Rcenter	Center of rectangular patch
+Plot_type	Redge	Edge of rectangular patch
+Plot_type	Wcenter	Center of winged patch
+Plot_type	Wedge	Edge of winged patch

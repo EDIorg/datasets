@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Date	Date of hive weighing	Date		YYYY-MM-DD		
+Weighing	Consecutive numbering of weighings	categorical				
+Site	One of the 8 sites in which the hive was located (see methods)	character				
+Patch	"Letter assigned to each of the peripheral fragments of each site: B, C, D, or E"	character				
+Hive	Hive number: randomly assigned number (1-64)	character				
+Weight	Hive weight (see methods)	numeric	gram			
+Patchtype	"Shape of the patch in which the hive was located (see methods): ""winged"", ""rectangular"", and ""connected"""	character				
+Vegetation	Number of flowering food plants recorded in the two transects per patch (see methods). Units = Number of flowering plants per transect.	numeric	dimensionless			

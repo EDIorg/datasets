@@ -1,0 +1,26 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+John		Herrmann	"Department of Landscape Ecology, University of Kiel, Olshausenstr"	eco.herrmann@gmail.com		creator			
+Tomas		Carlo	Penn State Department of Biology	tac17@psu.edu		creator			
+Lars		Brudvig	"Department of Plant Biology, Michigan State University"	brudvig@msu.edu		creator			
+Ellen		Damschen	"Department of Zoology, University of Wisconsin-Madison"	damschen@wisc.edu		creator			
+Nick		Haddad	"College of Natural Sciences, Michigan State University"	haddad@kbs.msu.edu		creator			
+Douglas		Levey	"Division of Environmental Biology, National Science Foundation"	dlevey@nsf.gov		creator			
+John		Orrock	"Department of Zoology, University of Wisconsin-Madison"	jorrock@wisc.edu		creator			
+Joshua		Tewksbury	World Wildlife Fund International	josh.tewksbury@futureearth.org		creator			
+John		Herrmann	"Department of Landscape Ecology, University of Kiel, Olshausenstr"	eco.herrmann@gmail.com		contact			
+			U.S. Department of Agriculture Forest Service-Savannah River			Creating and maintaining experimental landscapes			
+Chris		Hobson	U.S. Department of Agriculture Forest Service-Savannah River	chobson@fs.fed.us		Prescribed fire and assistance during study			
+Paul		Varnedoe	"U.S. Department of Agriculture Forest Service-Cherokee NF, Ocoee/Hiwassee RD"	pvarnedoe@fs.fed.us		Prescribed fire and assistance during study			
+John		Blake	U.S. Department of Agriculture Forest Service-Savannah River (retired)	blakejohn7405@gmail.com		"Support with site creation, daily logistics, and project management"			
+Ed		Olson	U.S. Department of Agriculture Forest Service-Savannah River	eolson@fs.fed.us		"Support with site creation, daily logistics, and project management"			
+Kim		Wright	U.S. Department of Agriculture Forest Service-Savannah River	kimberlywright@fs.fed.us		"Support with site creation, daily logistics, and project management"			
+Jennifer		Chandler	"Department of Zoology, University of Wisconsin, Madison"	jchandler3@wisc.edu		Technician			
+Mike		Epperly	UC Davis Department of Entomology and Namatology	mlepperly@ucdavis.edu		Technician			
+Matthew		McGee	"University of Illinois Urbana-Champaign, Natural Resources and Environmental Science"	mrmcgee@illinois.edu		Technician			
+Nick		Haddad				PI	Collaborative Research: Landscape connectivity and the movement ecology of plant and animal communities	National Science Foundation - Division of Integrative Organismal Systems	DEB- 1050361
+Joshua		Tewksbury				PI	Collaborative Research: Landscape connectivity and the movement ecology of plant and animal communities	National Science Foundation - Division of Integrative Organismal Systems	DEB-1050392
+Lars		Brudvig				PI	Collaborative research: Landscape connectivity and the movement ecology of plant and animal communities	National Science Foundation - Division of Integrative Organismal Systems	DEB-1050481
+John		Orrock				PI	Collaborative Research: Landscape connectivity and the movement ecology of plant and animal communities	National Science Foundation - Division of Integrative Organismal Systems	DEB- 1050591
+Alice		Harmon				PI	Collaborative Research: Landscape connectivity and the movement ecology of plant and animal communities	National Science Foundation - Division of Integrative Organismal Systems	DEB-1050929
+Tomas		Carlo				PI	Collaborative Research: Landscape connectivity and the movement ecology of plant and animal communities	National Science Foundation - Division of Integrative Organismal Systems	DEB-1050942
+USDA_Forest_Service						PI	Interagency Agreement DE-AI09-00SR22188	"The USDA Forest Service-Savannah River (a National Environmental Research Park), under Interagency Agreement DE-AI09-00SR22188 with the Department of Energy, Aiken, SC"	DE-AI09-00SR22188

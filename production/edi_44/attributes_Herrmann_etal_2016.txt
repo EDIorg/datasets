@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+MarkedSeeds	Number of marked seeds estimated from the seed batch using a two-source-mixing model (see methods)	numeric	dimensionless			
+Species	Abbreviation of sampled species	categorical				
+Site	"Name of site (12 in total): 8, 10, 52, 57, 40N, 40S, 53N, 53S, 54N, 54S, Burma, and Road8"	character				
+Distance	"Distance from the sprayed area. In fragmented sites, distances 160, 180, 200, 220, 240 were pooled as 200 (see methods)"	numeric	meter			
+Location	General location in which the sample was taken.	categorical				
+SamplingEffort	Number of combined sampling days of all seed traps at a specific distance at a specific site. The value equals the number of traps at a distance at a site multiplied by the number of days between the establishment and the emptying of the traps.	numeric	dimensionless			
+LengthDistanceBand	"Length of the distance band surrounding the sprayed area (e.g., in unfragmented sites, a circle surrounding the sprayed area)"	numeric	meter			
+SeedsTrapDay	"Number of marked seeds per trap per day (i.e., marked seeds dispersing from the sprayed area to the specific distance into one trap per day; see methods). Value equals MarkedSeeds / SamplingEffort."	numeric	dimensionless			
+SeedsDistanceDay	"Number of marked seeds per distance per day (i.e., marked seeds dispersing to the specific distance on one day). This accounts for decreasing detectability of seeds with increasing distance (see methods). Value equals SeedsTrapDay * LengthDistanceBand."	numeric	dimensionless			

@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Identifies at which of the 8 corridor project experimental sites the date were collected	categorical				
+Patch	"Identifies in which of the five patches per site the data were collected. Patches are lettered A, B, C, D, and E with A being the center patch, B being the connected patch, and C, D, and E labeling patches clockwise from Patch B"	categorical				
+Conn	Ideatifies whether patch is connected or not	categorical				
+Shape	Identifies the patch as one of three possible shapes.	categorical				
+Side	Identifies location of each plant within the patch based on which side of the patch plants were placed along. Corner of each patch are labeled 1-4 following corner labels based on larger focal species experiment.	categorical				
+Number	Identifies which plant data were collected from. Two plants were placed along each side of the patch	categorical				
+Disease	Identifies whether target disease was found on plant based on leaf sample taken and examined after plant was removed from field.	categorical				

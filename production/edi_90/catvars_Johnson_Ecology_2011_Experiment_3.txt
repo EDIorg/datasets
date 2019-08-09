@@ -1,0 +1,36 @@
+attributeName	code	definition
+Round	1	data were collected in round 1 of sampling
+Round	2	data were collected in round 4 of sampling
+Site	8A	Site 8
+Site	10A	Site 10
+Site	52A	Site 52
+Site	53N	Site 53 North
+Site	53S	Site 53 South
+Site	54N	Site 54 North
+Site	54S	Site 54 South
+Site	57A	Site 57
+Patch	D	Patch D
+Patch	E	Patch E
+Patch	C	Patch C
+Shape	R	Rectangle patch
+Shape	W	Winged patch
+Transect	A	denotes first of two transects where plants were placed
+Transect	B	denotes second of two transects where plants were placed
+Plant	1-1	"Corner 1, location 1 (approximately 0 meters from corner of patch)"
+Plant	1-2	"Corner 1, location 2 (approximately 20 meters from corner of patch)"
+Plant	1-3	"Corner 1, location 3 (approximately 40 meters from corner of patch)"
+Plant	2-1	"Corner 2, location 1 (approximately 0 meters from corner of patch)"
+Plant	2-2	"Corner 2, location 2 (approximately 20 meters from corner of patch)"
+Plant	2-3	"Corner 2, location 3 (approximately 40 meters from corner of patch)"
+Plant	3-1	"Corner 3, location 1 (approximately 0 meters from corner of patch)"
+Plant	3-2	"Corner 3, location 2 (approximately 20 meters from corner of patch)"
+Plant	3-3	"Corner 3, location 3 (approximately 40 meters from corner of patch)"
+Plant	4-1	"Corner 4, location 1 (approximately 0 meters from corner of patch)"
+Plant	4-2	"Corner 4, location 2 (approximately 20 meters from corner of patch)"
+Plant	4-3	"Corner 4, location 3 (approximately 40 meters from corner of patch)"
+Distance	Corner	plant was placed approximately 0 meters from corner of patch 
+Distance	Middle	plant was placed approximately 20 meters from corner of patch
+Distance	Center	plant was placed approximately 40 meters from corner of patch (near the center of the patch)
+Leaf	1	"leaf 1, marked with black marker"
+Leaf	2	"leaf 2, marked with red marker"
+Leaf	3	"leaf 3, marked with blue marker"

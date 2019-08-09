@@ -1,0 +1,22 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Lars		Brudvig	Michigan State University	brudvig@msu.edu		creator			
+Stephanie		Wagner	University of Illinois	Sawagne2@illinois.edu		creator			
+Ellen		Damschen	University of Wisconsin	damschen@wisc.edu		creator			
+Lars		Brudvig	Michigan State University	brudvig@msu.edu		contact			
+Stephanie		Wagner	University of Illinois	Sawagne2@illinois.edu		contact			
+Ellen		Damschen	University of Wisconsin	damschen@wisc.edu		contact			
+Ellen		Damschen	University of Wisconsin	damschen@wisc.edu		PI	How Landscape Connectivity and Heterogeneity Affect Wind Dispersal	National Science Foundation	DEB-0733746
+Ellen		Damschen	University of Wisconsin	damschen@wisc.edu		PI	How structural heterogeneity and connectivity of landscapes affect wind dispersal	National Science Foundation	DEB-0919074
+Alice		Harmon				PI	Collaborative Research: Effects of Corridors and Edges on Plant Populations	National Science Foundation	DEB-0614333
+Chris		Hobson	USDA Forest Service-Savannah River	chobson@fs.fed.us		Creation and maintenance of experimental landscapes			
+John		Blake	USDA Forest Service-Savannah River (Retired)	Blakejohn7405@gmail.com		Creation and maintenance of experimental landscapes			
+Ed		Clutter	USDA Forest Service-Savannah River	eclutter@fs.fed.us		Creation and maintenance of experimental landscapes			
+Jim		Segar	USDA Forest Service-Savannah River	jsegar@fs.fed.us		Creation and maintenance of experimental landscapes			
+Ed		Olson	USDA Forest Service-Savannah River	eolson@fs.fed.us		Creation and maintenance of experimental landscapes			
+Kim		Wright	USDA Forest Service-Savannah River	kimberlywright@fs.fed.us		Creation and maintenance of experimental landscapes			
+Nick		Haddad	Michigan State University	haddad@kbs.msu.edu		"Landscape experiment design, implementation, and maintenance"			
+Doug		Levey	National Science Foundation	dlevey@nsf.gov		"Landscape experiment design, implementation, and maintenance"			
+John		Orrock	University of Wisconsin-Madison	jorrock@wisc.edu		"Landscape experiment design, implementation, and maintenance"			
+Josh		Tewksbury	World Wildlife Fund International	Josh.tewksbury@futureearth.org		"Landscape experiment design, implementation, and maintenance"			
+Dirk		Baker	"Campbell Scientific, Inc."	dbaker@campbellsci.com		Insight about wind dynamics			
+Jim		Grace	United States Geological Survey	Gracej@usgs.gov		SEM model feedback			

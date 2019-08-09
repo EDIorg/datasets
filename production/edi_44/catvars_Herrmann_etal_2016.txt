@@ -1,0 +1,9 @@
+attributeName	code	definition
+Species	RHUCOP	Rhus copallina
+Species	MYRCER	Morella cerifera
+Species	EUPCUN	Eupatorium glaucescens
+Species	EUPCOM	Eupatorium compositifolium
+Location	Control	unfragmented landscape
+Location	Corridor	corridor connecting center and connected fragment
+Location	Connected	connected fragment
+Location	Center	center fragment

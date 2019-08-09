@@ -1,0 +1,11 @@
+keyword	keywordThesaurus
+SRS Corridor	
+Cochliobolus heterostrophus	
+connectivity	
+conservation	
+corridors	
+edge effects	
+habitat fragmentation	
+pathogen dispersal	
+plant disease	
+Zea mays	

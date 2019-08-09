@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Block	Identity of experimental study block	character			.	Empty value
+Plot_type	Type of study plot	categorical			.	Empty value
+Subplot	Subplot within study plot	character			.	Empty value
+Pre_woody_stems	Number of woody plant stems within subplot prior to fire	numeric	dimensionless		.	Empty value
+Pre_bunchgrass	Ground cover by bunch grass within subplot prior to fire (percent)	numeric	dimensionless		.	Empty value
+Biomass	Estimated biomass within subplot prior to fire	numeric	celsius		.	Empty value
+Fire_temperature	Recorded fire temperature within subplot	numeric	celsius		.	Empty value
+Post_woodystems	Number of woody plant stems within subplot after fire	numeric	dimensionless		.	Empty value
+Post_bunchgrass	Ground cover by bunchgrass within subplot after fire (percent cover)	numeric	dimensionless		.	Empty value

@@ -1,0 +1,5 @@
+﻿Prior studies suggest that both the mean and variation of worker size predict the performance of bumble bee colonies. The 'variation hypothesis' posits that colony performance increases with variation of worker body size due to more efficient division of labour within colonies. The 'mean size hypothesis' posits that colony performance increases with mean bumble bee size, as each individual’s efficiency tends to increase with body size.
+
+The present study tested these non-mutually exclusive hypotheses by establishing 62 Bombus impatiens Cresson (Hymenoptera, Apidae) nest boxes in 32 semi-natural savanna fragments within large-scale experimental landscapes in South Carolina (U.S.A.).
+
+Based on measurements of > 24 000 individuals and on colony growth over ca. 7 weeks, our results support the mean size hypothesis, not the variation hypothesis.

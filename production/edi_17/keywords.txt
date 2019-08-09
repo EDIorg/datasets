@@ -1,0 +1,12 @@
+keyword	keywordThesaurus
+SRS Corridor	
+ connectivity	
+ corridor	
+ disturbance	
+ ecosystem management	
+ edge effect	
+ habitat fragmentation	
+ landscape ecology	
+ longleaf pine woodland	
+ prescribed fire	
+ structural equation model	

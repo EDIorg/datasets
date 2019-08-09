@@ -1,0 +1,18 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Brenda		Johnson		Brendajohnson29@hotmail.com		creator			
+Nick		Haddad	Michigan State University	haddad@kbs.msu.edu		creator			
+Brenda		Johnson		Brendajohnson29@hotmail.com		contact			
+			USDA Forest Service-Savannah River			Maintain experimental landscapes			
+Doug		Levey	National Science Foundation	dlevey@nsf.gov		"Design, implementation, and maintenance of landscape experiment"			
+Lars		Brudvig	Michigan State University	brudvig@msu.edu		Maintenance of landscape experiment; comments on manuscript			
+Ellen		Damschen	University of Wisconsin-Madison	damschen@wisc.edu		Maintenance of landscape experiment			
+John		Orrock	University of Wisconsin-Madison	jorrock@wisc.edu		Maintenance of landscape experiment			
+Joshua		Tewksbury	World Wildlife Fund International	Josh.tewksbury@futureearth.org		Maintenance of landscape experiment			
+Kevin		Gross	North Carolina State University	krgross@ncsu.edu		Helpful comments on manuscript			
+Charles		Mitchell	University of North Carolina	mitchell@bio.unc.edu		Helpful comments on manuscript			
+David		Shew	North Carolina State University	David_shew@ncsu.edu		Technical guidance			
+Burt		Melissa	Michigan State University	Melissa.ann.burt@gmail.com		Field assistance			
+Graff		Caitlin	Towson University			Field assistance			
+Sullivan		Lauren	University of Minnesota	lsulliva@umn.edu		Field assistance			
+Nicholas		Haddad				PI	Collaborative Research: Effects of Corridors and Edges on Plant Populations	National Science Foundation	DEB-0613701
+US_Department_of_Agriculture						PI	Interagency Agreement	Department of Energy	DE-AI09- 00SR22188

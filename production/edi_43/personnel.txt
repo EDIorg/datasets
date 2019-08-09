@@ -1,0 +1,21 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Daniel		Evans	United States Agency for International Development (USAID)	brudvig@msu.edu		creator			
+Douglas		Levey	National Science Foundation	damschen@wisc.edu		creator			
+Joshua		Tewksbury	World Wildlife Fund International	haddad@kbs.msu.edu		creator			
+Daniel		Evans	United States Agency for International Development (USAID)	jorrock@wisc.edu		contact			
+Douglas		Levey	National Science Foundation	nashuagoats@gmail.com		contact			
+Lars		Brudvig	Michigan State University			Maintains landscape experiment			
+Ellen		Damschen	University of Wisconsin-Madison			Maintains landscape experiment			
+Nick		Haddad	Michigan State University			Maintains landscape experiment			
+John		Orrock	University of Wisconsin-Madison			Maintains landscape experiment			
+Nash		Turley	University of Central Florida			Contribute ideas			
+Lindsey		Fenner	NJ Audubon Society			Field assistance			
+Dan		Fuller				Field assistance			
+Caitlin		Graff				Field assistance			
+Rachel		Malinen				Field assistance			
+Heather		Nycum				Field assistance			
+Elizabeth		Smith				Field assistance			
+US_Department_of_Agriculture						PI	Interagency Agreement	Department of Energy-Savannah River Operations	DE-AI09- 00SR22188
+Daniel		Evans				PI		Sigma Xi	
+Daniel		Evans				PI		Society for Integrative and Comparative Biology	
+Daniel		Evans				PI		University of Washington Department of Biology	

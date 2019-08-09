@@ -1,0 +1,5 @@
+attributeName	code	definition
+Weighing	1	First weighing
+Weighing	2	Second weighing
+Weighing	3	Third weighing
+Weighing	4	Fourth weighing

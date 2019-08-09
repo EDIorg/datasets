@@ -1,0 +1,3 @@
+attributeName	code	definition
+Queen	no	worker/male
+Queen	yes	gyne

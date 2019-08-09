@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Hive	Hive number: randomly assigned number (1-64)	character				
+Patchtype	Shape of the patch in which the hive was located (see methods)	character				
+BumbleeIndividuals	Number of bumblebee individuals recorded in each hive	numeric	dimensionless			

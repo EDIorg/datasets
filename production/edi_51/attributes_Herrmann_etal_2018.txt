@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Hive	Hive number: randomly assigned number (1-64)	character				
+ThoraxWidth	Width of bumblebee thorax width measured at the widest point of the thorax	numeric	millimeter			
+Queen	Indicates if the measured bumblebee individual was a gyne offspring. This was determined according to the size distribution (? 9mm) (see methods)	categorical				
+Patchtype	Shape of the patch in which the hive was located (see methods)	character				
+Site	One of the 8 sites in which the hive was located (see methods)	character				
+PlantRichness	Number of potential food plant species observed on two transects in the corresponding patch (see methods)	numeric	dimensionless			
