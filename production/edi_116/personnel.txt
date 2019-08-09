@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Liu		Shaoda	Yale University	shaoda.liu@yale.edu	0000-0002-0836-5085	contact			
+Liu		Shaoda	Yale University	shaoda.liu@yale.edu	0000-0002-0836-5085	creator			
+Peter	A	Raymond	Yale University	peter.raymond@yale.edu		creator			
+David		Butman	University of Washington	dbutman@uw.edu		data compilation			
+Peter	A	Raymond	Yale University	peter.raymond@yale.edu		PI	Magnitude and Controls on the Lateral Transport of Carbon via Streams and Rivers	National Aeronautics and Space Administration	NNX17AI74G

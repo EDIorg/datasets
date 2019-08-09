@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+eu	Describes which of the 8 experimental units the observation comes from	character				
+ptype	Describes the type of patch where the observation comes from. 	categorical				
+patch	Describes the location of the patch (within an eu)  where the observation comes from	categorical				
+distance	Describes the distance of the observation from the patch edge	numeric	meter			
+distcode	Alphabetical code used to describe the 3 distances	categorical				
+site_ID	"Unique site identifier; a conctanation of eu, patch, and distcode"	character				
+spp	Code used to describe the species of seed that is represented by the observation	categorical				
+total_seeds	The total number of seeds that were placed out for the seed predation trials (across both sessions) at that location	numeric	dimensionless			
+sum_seeds_gone	The total number of that were removed during the seed predation trials (across both sessions) at that location	numeric	dimensionless			
+sum_seeds_left	The total number of seeds that were not removed during the seed predation trials (across both sessions) at that location	numeric	dimensionless			
+sum_num_husks	The total number of seed hull fragments remaining at the end of the seed predation trials	numeric	dimensionless			
+sum_num_feces	The total number of rodent fecal pellets found at the end of the seed predation trials	numeric	dimensionless			

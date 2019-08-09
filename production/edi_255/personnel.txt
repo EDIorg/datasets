@@ -1,0 +1,14 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Michael		Craig	Washington University in St. Louis	Mcraig10@gmail.com		Creator			
+John		Orrock	University of Wisconsin	jorrock@wisc.edu		Creator			
+Lars		Brudvig	Michigan State University	brudvig@msu.edu		Creator			
+Michael		Craig	Washington University in St. Louis	Mcraig10@gmail.com		Contact			
+Melissa		Burt	Michigan State University	Melissa.ann.burt@gmail.com		Field assistance			
+Lisa		Dlugolecki	US Fish and Wildlife Service	Lisa_dlugolecki@fws.gov		Field assistance			
+Melissa		Habenicht		Melissa.habenicht@gmail.com		Field assistance			
+Quinn		Mortell (Peacock)	North Carolina State University	qdmortel@ncsu.edu		Field assistance			
+Uma		Nagendra	University of Georgia	unagendra@plantbio.uga.edu		Field assistance			
+Leslie		Peck	North Carolina State University Cooperative Extension	Leslie_peck@ncsu.edu		Field assistance			
+Stephanie		Wagner	University of Illinois	Sawagne2@illinois.edu		Field assistance			
+Doug		Levey				PI	NSF REU Supplement to Collaborative Research: Effects of Corridors and Edges on Plant Populations	National Science Foundation	DEB-0614333
+US Department of Agriculture						PI	Interagency Agreement	Department of Energy	DE-AI09-00SR22188

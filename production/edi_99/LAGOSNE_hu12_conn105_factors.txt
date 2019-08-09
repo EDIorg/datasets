@@ -1,0 +1,6 @@
+attributeName	code	definition
+hu12_latewisconsinglaciation_glaciation	Not_Glaciated	Whole zone not glaciated
+hu12_latewisconsinglaciation_glaciation	Glaciated	Whole zone glaciated
+hu12_latewisconsinglaciation_glaciation	Partially_Glaciated	A part of zone was glaciated
+hu12_nwiexclusions	1	Focal zone not completely covered by NWI
+borderhu12s	1	Zone intersects the US/Canadian boundary

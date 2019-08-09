@@ -1,0 +1,1 @@
+﻿To convert the proprietary V4LOG files, the software Seanet Dumplog can be used and can be downloaded here: https://www.tritech.co.uk/support-software/tritech-seanet-tools-utility-programs-for-seanet-pro-software 

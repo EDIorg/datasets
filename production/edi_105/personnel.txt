@@ -1,0 +1,22 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Lauren		Sullivan	University of Missouri	sullivanll@missouri.edu 		creator			
+Brenda		Johnson		Brendajohnson29@hotmail.com		creator			
+Lars		Brudvig	Michigan State University	brudvig@msu.edu		creator			
+Nick		Haddad	Michigan State University	haddad@kbs.msu.edu		creator			
+Lauren		Sullivan	University of Missouri	sullivanll@missouri.edu 		contact			
+			USDA Forest Service-Savannah River			Creation and maintenance of experimental landscapes			
+Doug		Levey	National Science Foundation	dlevey@nsf.gov		"Design, implementation, and maintenance of landscape experiment; Helpful comments on manuscript"			
+Ellen		Damschen	University of Wisconsin	damschen@wisc.edu		Maintenance of landscape experiment			
+John		Orrock	University of Wisconsin	jorrock@wisc.edu		Maintenance of landscape experiment			
+Josh		Tewksbury	World Wildlife Fund International	Josh.tewksbury@futureearth.org		Maintenance of landscape experiment			
+Rob		Dunn	North Carolina State University	Rob_dunn@ncsu.edu		Helpful comments on manuscript			
+Kevin		Gross	North Carolina State University	krgross@ncsu.edu		Helpful comments on manuscript			
+Stan		Harpole	German Centre for Integrative Biodiversity Research	Stan.harpole@ufz.de		Helpful comments on manuscript			
+Andrew		Jarosz	Michigan State University	amjarosz@msu.edu		Helpful comments on manuscript			
+Charles		Mitchell	University of North Carolina	mitchell@bio.unc.edu		Helpful comments on manuscript			
+Ran		Nathan	The Hebrew University of Jerusalem	Ran.nathan@mail.huji.ac.il		Helpful comments on manuscript			
+John		Nason	Iowa State University	jnason@iastate.edu		Help in collection and identification of insects			
+Julian		Resasco	University of Colorado	Julian.resasco@colorado.edu		Help in collection and identification of insects			
+David		Shew	North Carolina State University	David_shew@ncsu.edu		Identification of fungal parasites			
+Nicholas		Haddad				PI	Collaborative Research: Effects of Corridors and Edges on Plant Populations	National Science Foundation	DEB-0613701
+USDA						PI	Interagency Agreement	Department of Energy	DE-AI09-00SR22188

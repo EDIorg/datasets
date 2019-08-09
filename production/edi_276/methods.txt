@@ -1,0 +1,46 @@
+﻿<emphasis> (1.) Data collection methods</emphasis>:
+
+Fourteen water quality stations are sampled by research vessel, near the surface and bottom of the water column during ebb slack tide along the San Joaquin River. The transect begins at Prisoner's Point in the central Delta and ends at the Stockton Turning Basin at the terminus of the channel. Sampling typically occurs during summer and fall when seasonal dissolved oxygen impairment may occur due to warmer temperatures, eutrophication, and less water mixing.  Surface dissolved oxygen concentrations were reported from Winkler titrations until 2016. A multiparameter instrument is used to determine water quality data from near surface (one meter below surface) and bottom (one meter above bottom) of the water column. The multiparameter instrument is deployed alongside the research vessel by a winch crane with a 100-foot cable that is connected to a computer. Once the sonde is equilibrated to the local conditions, the water quality data is recorded onto data sheets, then the instrument is returned on board the vessel. A secchi disk is also used to determine light penetrations below water surface. When the blue-green cyanobacteria Microcystis aeruginosa was observed then it was documented. 
+
+<emphasis>(2.) Datasheet: </emphasis> available upon request (email data contact)
+
+<emphasis> (3.) Instruments and equipment: </emphasis>
+
+Dissolved Oxygen: Modified Winkler titrations with full-bottle technique was used in 1997, and 1999 to 2015. In 1998, dissolved oxygen levels were recorded from a Hydrolab Multiparameter Surveyor, Model DS-3. As of 2016, a 6150 ROX dissolved oxygen sensor was used on Yellow Springs (YSI) 6600 V2 multi-parameter water quality instrument. 
+
+Water temperature: A Hydrolab Multiparameter Surveyor, Model DS-3 was used during 1997 to 1998.  From 1999 to 2011, a thermistor from Seabird Scientific was used to determine water temperature.  Beginning in 2012 to 2017, a YSI 6560 probe recorded water temperature on YSI 6660 multiparameter water quality instrument. 
+
+Fluorescence: During August 2003 to September 2011, a Turner Designs Fluorometer 10-AU recorded fluorescence with a blue lamp and narrow filter kit with optical kit 10-096R. As of October 2011, a YSI 6025 probe on a YSI 6600 V2 instrument is used. 
+
+Nephelometer/Turbidity: From September 1999 - September 2011, a Turner Designs Nephelometer was used to determine nephelometry. As of October 2011, a YSI 6136 turbidity probe is used to determine turbidity.
+ 
+Specific Conductance: August 2003 - September 2011, a Beckman RC-19 Conductivity Bridge was used. From October 2011 to 2017, a YSI 6560 conductivity probe on a YSI 6600 V2 instrument has been operated. 
+
+pH: From October 2011 to 2017, a YSI 6589 fast response pH sensor has been utilized. 
+
+Secchi disc: 20 cm in diameter plastic disc with alternate black and white quadrants August 2001 to present. 
+
+<emphasis>Microcystis aeruginosa: </emphasis> a visual observation ranging from (1) meaning absent, (2) low-widely scattered colonies, (3) Medium-adjacent colonies, (4) High-contiguous and (5) Very High- concentration of contiguous colonies forming mats/scum. 
+
+<emphasis>(4.) Analysis and methods (standard operating procedures): </emphasis> Data is in its original form and no calculations have been made. SOP's for methods and quality checks are available upon request. 
+
+<emphasis> (5.) Project history (change in methods and locations): </emphasis>
+
+The sampling methods and locations have been consistent over the years. However, changes in instrumentation or research vessels (RV) used have been changed throughout sampling period. Sampling typically occurred on research vessels from the Department of Water Resources (DWR) or United States Bureau of Reclamation. From DWR, RV San Carlos (1997-2016) and RV Sentinel (2017) were commonly used. From USBR, RV Compliance (1997-2003) and RV Endeavor (2004-2017). 
+
+<emphasis>(6.) QA/QC: </emphasis> The data sheets are error checked twice at each sampling location and at the end of each sampling day by the field lead. Data for each year is then entered in a spreadsheet in Microsoft Excel and is plotted for each parameter. After completion of each year, the data is compiled into a single spreadsheet in Excel and is verified with the field sheets by a separate person. 
+The instrumentation follows the manufacture's guidelines. The multiparameter instruments are calibrated prior to field runs, verified with another instrument during sampling, and are checked with calibration standards after use. 
+
+<emphasis>(7.) Contractor Information: </emphasis> All water quality sampling was conducted by staff from IEP's Environmental Monitoring Program (EMP) primarily from the California Department of Water Resources and the United States Bureau of Reclamation. 
+
+<emphasis>(8.) External review process: </emphasis> An IEP Project Work Team reviewed the EMP's sampling procedures during 2001-2002 and a summary report and recommendations was created in 2003. 
+
+<emphasis>(9.) Methods references: </emphasis>
+
+[EPA] Method 120.1: Conductance (Specific Conductance, &mu;mhos at 25 C) by Conductivity Meter
+
+[EPA] Method 150.1: pH (Electrometric) by pH Meter
+
+[EPA] Method 180.1: Determination of Turbidity by Nephelometry
+
+[EPA] Method 360.2: Dissolved Oxygen by Modified Winkler Titration or Probe

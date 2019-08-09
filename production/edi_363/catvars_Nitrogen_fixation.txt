@@ -1,0 +1,26 @@
+attributeName	code	definition
+ROUND	1	Round 1
+ROUND	2	Round 2
+ROUND	3	Round 3
+ROUND	4	Round 4
+ROUND	5	Round 5
+ROUND	6	Round 6
+ROUND	7	Round 7
+ROUND	8	Round 8
+ROUND	9	Round 9
+ROUND	10	Round 10
+ROUND	11	Round 11
+ROUND	12	Round 12
+ROUND	13	Round 13
+ROUND	14	Round 14
+ROUND	15	Round 15
+NTRT	C	"Control, no water, no N added"
+NTRT	0	0 kg N/ha/yr added as NH4NO3
+NTRT	5	5 kg N/ha/yr added as NH4NO3
+NTRT	10	10 kg N/ha/yr added as NH4NO3
+NTRT	15	15 kg N/ha/yr added as NH4NO3
+NTRT	20	20 kg N/ha/yr added as NH4NO3
+NTRT	25	25 kg N/ha/yr added as NH4NO3
+ARM	1	Arm 1
+ARM	2	Arm 2
+ARM	3	Arm 3

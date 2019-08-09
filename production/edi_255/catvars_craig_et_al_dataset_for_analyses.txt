@@ -1,0 +1,14 @@
+attributeName	code	definition
+ptype	conn	Connected patch
+ptype	rect	Rectangular patch
+ptype	wing	Winged patch
+patch	B	Connected patch
+patch	E	Winged or rectangular patch
+patch	D	Winged or rectangular patch
+patch	C	Winged or rectangular patch
+distcode	a	0 meters
+distcode	b	15 meters
+distcode	c	50 meters
+spp	AV	Anthaenatia villosa
+spp	CB	Carphephorus bellidifolius
+spp	PA	Phytolacca americana

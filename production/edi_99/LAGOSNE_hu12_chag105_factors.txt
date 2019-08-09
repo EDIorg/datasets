@@ -1,0 +1,2 @@
+attributeName	code	definition
+borderhu12s	1	HU12 intersects the Canadian border

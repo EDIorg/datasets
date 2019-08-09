@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Cecilia		Hegoburu	INEDES (CONICET-UNLu)	chegoburu@gmail.com	0000-0002-7318-8484	Creator			
+Luciana		Rocha	INEDES (CONICET-UNLu)	rochaluciana17@yahoo.com.ar	0000-0001-9362-3183	Creator			
+Ana		Torremorell	INEDES (CONICET-UNLu)	anatorremorell@gmail.com		Creator			
+Claudia	S.	Feijoó	INEDES (CONICET-UNLu)	clasife@yahoo.com.ar		Creator			
+Cecilia		Hegoburu	INEDES (CONICET-UNLu)	chegoburu@gmail.com	0000-0002-7318-8484	Contact			
+Enrique		Navarro	"Iberoamerican Network for the Development of Protocols for the Ecological Assessment, Management and Restoration of Rivers: IBEPECOR"	enrique.navarro@ipe.cesic.es	0000-0002-7318-8484	PI			

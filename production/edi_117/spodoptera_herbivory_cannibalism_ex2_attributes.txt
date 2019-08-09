@@ -1,0 +1,6 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+treatment			character	Indicates the degree of plant defense induction	Indicates the degree of plant defense induction	factor	NA	NA		
+spod_added			character	Indicates whether or not dead conspecifics (Spodoptera) were or were not added	Indicates whether or not dead conspecifics (Spodoptera) were or were not added	factor	NA	NA		
+prop_leaf_remaining		dimensionless	real		Proportion of leaf mass remaining	numeric	0	0.77		
+prop_spod_consumed		dimensionless	real		The proportion of dead Spodoptera consumed by the focal individual over the experiment	numeric	0.08	1	NA	Not available
+spod_growth_rate		dimensionless	real		The relative growth rate of the focal individual Spodoptera in the experiment	numeric	-0.16	1.1		

@@ -1,0 +1,28 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+YEAR	Year of growth: 2011-2015	Date		YYYY	-99999	Missing value
+NTRT	Field experimental N treatments were made with 8 applications per plot per year between mid-May and mid-August of each year	categorical			-99999	Missing value
+ARM	Experimental plots were located along 3 arms; each arm had one replicate each of 8 N treatments	categorical			-99999	Missing value
+FRAME	Each frame in each plot has its own designation from 1 to 21 	character			-99999	Missing value
+SFUS	Sphagnum fuscum	numeric	number		-99999	Missing value
+SANG	Sphagnum angustifolium	numeric	number		-99999	Missing value
+SMAG	Sphagnum magellanicum	numeric	number		-99999	Missing value
+PSTR	Polytricum strictum	numeric	number		-99999	Missing value
+PSCH	Pleurozium schreberi	numeric	number		-99999	Missing value
+DUND	Dicranum undulatum	numeric	number		-99999	Missing value
+MANO	Mylia anomala	numeric	number		-99999	Missing value
+APOL	Andromeda polifolia	numeric	number		-99999	Missing value
+CCAL	Chamaedaphne calyculata	numeric	number		-99999	Missing value
+KPOL	Kalmia polifolia	numeric	number		-99999	Missing value
+VOXY	Vaccinium oxycoccos	numeric	number		-99999	Missing value
+VVIT	Vaccinium vitis-idaea	numeric	number		-99999	Missing value
+RGRO	Rhododendron groenlandicum	numeric	number		-99999	Missing value
+PMAR	Picea mariana	numeric	number		-99999	Missing value
+EVAG	Eriophorum vaginatum	numeric	number		-99999	Missing value
+DROT	Drosera rotundifolia	numeric	number		-99999	Missing value
+STRI	Smilacina trifolia	numeric	number		-99999	Missing value
+RCHA	Rubus chamaemorus	numeric	number		-99999	Missing value
+FUNGUS	All fungi	numeric	number		-99999	Missing value
+DOMSHR	"Dominant shrubs which include: Chamaedaphne calyculata,  Andromeda polifolia, Rhododendron groenlandicum"	numeric	number		-99999	Missing value
+ALLSHR	"All shrubs, which include: Chamaedaphne calyculata,  Andromeda polifolia, Rhododendron groenlandicum, Vaccinium oxycoccos, Vaccinium vitis-idaea, Kalmia polifolia "	numeric	number		-99999	Missing value
+ALLVASC	"All vascular plants combined which includes:  Chamaedaphne calyculata,  Andromeda polifolia, Rhododendron groenlandicum, Vaccinium oxycoccos, Vaccinium vitis-idaea, Kalmia polifolia, Eriophorum vaginatum, Drosera rotundifolia, Smilacina trifolia, Rubus chamaemorus, Picea mariana"	numeric	number		-99999	Missing value
+ALLSPHAG	"All Sphagna species which includes: Sphagnum fuscum, Sphagnum angustifolium, Sphagnum magellanicum "	numeric	number		-99999	Missing value

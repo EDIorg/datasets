@@ -1,0 +1,11 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+csi_edu			character	unique identifier for zone developed for LAGOS-NE	unique identifier for zone developed for LAGOS-NE	character	NA	NA		
+edu_lat		degree	real		latitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	36.01	48.67		
+edu_long		degree	real		longitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	-96.45	-68.08		
+edu_country			character	zone identified as totally within the US  or crosses the US-Canada border	zone identified as totally within the US  or crosses the US-Canada border	factor	NA	NA		
+edu_zoneid			character	unique zone identifier	unique zone identifier	character	NA	NA		
+edu_pct_in_nwi		dimensionless	real		percent of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	14.69	100		
+edu_ha		hectare	real		area of zone	numeric	94631.76	5025409.52		
+edu_ha_in_nwi		hectare	real		area of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	41740.9	5024995.5		
+edu_pct_in_usa		dimensionless	real		percent of the zone (i.e., polygon) that is within the US border	numeric	99.9	100		
+edu_ha_in_usa		hectare	real		area of the zone (i.e., polygon) that is within the US border	numeric	94631.76	5025409.52		

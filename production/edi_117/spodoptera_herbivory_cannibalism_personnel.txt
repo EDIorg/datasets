@@ -1,0 +1,6 @@
+givenName	surName	organizationName	electronicMailAddress	userId	role
+John	Orrock	University of Wisconsin	jorrock@wisc.edu	0000-0003-0768-7389	pi
+John	Orrock	University of Wisconsin	jorrock@wisc.edu	0000-0003-0768-7389	creator
+John	Orrock	University of Wisconsin	jorrock@wisc.edu	0000-0003-0768-7389	contact
+Brian	Connolly	University of Wisconsin	bconnolly2@wisc.edu		creator
+Anthony	Kitchen	University of Wisconsin	unknown		creator

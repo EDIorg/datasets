@@ -1,0 +1,3 @@
+id	unitType	parentSI	multiplierToSI	description
+gramsDryMassPerSquareMeterPer15cmDepthInterval	mass per volume	kilogramPerCubicMeter	0.1	grams dry mass per meter cubed
+gramsDryMassPerSquareMeterPerYearPer15cmDepthInterval	mass per volume per year	kilogramPerCubicMeterPerSecond	0.000003154	grams dry mass per meter cubed per second

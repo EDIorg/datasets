@@ -1,0 +1,21 @@
+keyword	keywordThesaurus
+Ammophila arenaria	
+Ammophila breviligulata	
+beachgrass	
+sand dune	
+ecomorphodynamics	
+ecogeomorphology	
+ecosystem engineer	
+coastal	
+beach	
+Ammophila arenaria	
+dunes	https://vocab.lternet.edu/vocab/vocab/index.php
+geomorphology	https://vocab.lternet.edu/vocab/vocab/index.php
+sand	https://vocab.lternet.edu/vocab/vocab/index.php
+plant ecology	https://vocab.lternet.edu/vocab/vocab/index.php
+global positioning systems	https://vocab.lternet.edu/vocab/vocab/index.php
+spatial methods	https://vocab.lternet.edu/vocab/vocab/index.php
+transects	https://vocab.lternet.edu/vocab/vocab/index.php
+topography	https://vocab.lternet.edu/vocab/vocab/index.php
+accretion	https://vocab.lternet.edu/vocab/vocab/index.php
+invasive species	https://vocab.lternet.edu/vocab/vocab/index.php

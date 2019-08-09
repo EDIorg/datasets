@@ -1,0 +1,21 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Julian		Resasco	University of Colorado	jresasco@colorado.edu	https://orcid.org/0000-0003-1605-3038	creator			
+Doug		Levey	National Science Foundation	dlevey@nsf.gov		creator			
+Ellen		Damschen	University of Wisconsin-Madison	damschen@wisc.edu		creator			
+Julian		Resasco	University of Colorado	jresasco@colorado.edu	https://orcid.org/0000-0003-1605-3038	contact			
+Nick		Haddad	Michigan State University	haddad@kbs.msu.edu		Continued dialogue and insight on corridor function			
+Josh		Tewksbury	World Wildlife Fund International	Josh.tewksbury@futureearth.org		Continued dialogue and insight on corridor function			
+John		Orrock	University of Wisconsin-Madison	jorrock@wisc.edu		Continued dialogue and insight on corridor function			
+Lars		Brudvig	Michigan State University	brudvig@msu.edu		Continued dialogue and insight on corridor function			
+John		Blake	USDA Forest Service-Savannah River (Retired)	Blakejohn7405@gmail.com		Creation and maintenance of experimental landscapes			
+Ed		Olson	USDA Forest Service- Savannah River	eolson@fs.fed.us		Creation and maintenance of experimental landscapes			
+Chris		Hobson	USDA Forest Service- Savannah River	chobson@fs.fed.us		Creation and maintenance of experimental landscapes			
+Jim		Segar	USDA Forest Service- Savannah River	jsegar@fs.fed.us		Creation and maintenance of experimental landscapes			
+Chris		Romanek				Stable isotope analyses			
+Camille		Beasley				Field data collection			
+Candice		Hardwick				Field data collection			
+Craig		Layman	North Carolina State University	calayman@ncsu.edu		Feedback			
+Dave		Armitage	University of Notre Dame	Dave.armitage@gmail.com		Feedback			
+Julian		Resasco			https://orcid.org/0000-0003-1605-3038	PI	Graduate Research Fellowship	National Science Foundation	
+Alice		Harmon				PI	Collaborative Research: Effects of Corridors and Edges on Plant Populations	National Science Foundation	DEB-0614333
+USDA						PI	Interagency Agreement	Department of Energy	DE-AI09-00SR22188

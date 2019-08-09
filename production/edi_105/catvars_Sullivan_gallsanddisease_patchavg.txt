@@ -1,0 +1,16 @@
+attributeName	code	definition
+Block	52	Site 52
+Block	57	Site 57
+Block	53N	Site 53 North
+Block	53S	Site 53 South
+Block	54N	Site 54 North
+Block	54S	Site 54 South
+Patch	B	Patch B
+Patch	D	Patch D
+Patch	E	Patch E
+Patch	C	Patch C
+Patch_Type	Connected	Connected patch (always patch B)
+Patch_Type	Rectangle	Rectangle patch
+Patch_Type	Winged	Winged patch
+Edge_Int	Edge	Sampled plants occurred less than 12.5 meters from patch edge
+Edge_Int	Interior	Interior = Sampled plants occurred within the center 25x25 meters of each patch (greater than 37.5 meters from patch edge)

@@ -1,0 +1,6 @@
+attributeName	code	definition
+lakeconnection	Headwater	No inflowing streams
+lakeconnection	DR_Stream	Drainage-stream lakes with inflowing stream(s) with or without outflows and no upstream lakes >= 10 ha
+lakeconnection	Isolated	No inflow or outflow streams 
+lakeconnection	DR_LakeStream	Drainage-lake-stream with inflowing streams(s) and at least one upstream lake >= 10 ha
+borderiws	1	Is a border IWS zone

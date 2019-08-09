@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+distance	"Downstream distance (meters) from the point of injection (WCC1359, which is 1359 m upstream from Spencer Road on the East Branch of White Clay Creek)."	numeric	meter			
+elapsmin	Elapsed time in minutes after start of injection at 09:43 EDT on 02 Oct 2002	numeric	minute			
+brom_mgl	Concentration of bromide as Br  (mg/L) water sample taken at indicated distance and time	numeric	milligramsPerLiter			

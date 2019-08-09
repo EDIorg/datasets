@@ -1,0 +1,2 @@
+attributeName	code	definition
+borderhu12s	1	Focal zone intersects the US/Canadian border

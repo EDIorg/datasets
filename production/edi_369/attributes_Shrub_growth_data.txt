@@ -1,0 +1,20 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+YEAR	Year of growth: 2011-2015	Date		YYYY	-99999	Missing value
+NOMINAL_N_TREATMENT	Field experimental N treatments were made with 8 applications per plot per year between mid May and mid August of each year	categorical			-99999	Missing value
+ARM	Experimental plots were located along 3 arms; each arm had one replicate each of 8 N treatments	categorical			-99999	Missing value
+Andromeda_polifolia_new_segment_mass	Dried mass of new growth segments of Andromeda polifolia	numeric	gram		-99999	Missing value
+Andromeda_polifolia_new_segment_density	Number of new growth segments of A. polifolia counted in each plot per meter squared	numeric	numberPerMeterSquared		-99999	Missing value
+Andromeda_polifolia_net_primary_production	Plot level net primary production calculated as the product of the mean mass per growth segment and average number of segments per area	numeric	gramsPerMeterSquaredPerYear		-99999	Missing value
+Andromeda_polifolia_N_assimilation	"Nitrogen assimilated into plant tissue on a per area, per year basis"	numeric	gramsPerMeterSquaredPerYear		-99999	Missing value
+Chamaedaphne_calyculata_new_segment_mass	Dried mass of new growth segments of C. Calyculata	numeric	gram		-99999	Missing value
+Chamaedaphne_calyculata_new_segment_density	All new growth segments of C. Calyculata counted in plot and reported as per meter	numeric	numberPerMeterSquared		-99999	Missing value
+Chamaedaphne_calyculata_net_primary_production	Plot level net primary production calculated as the product of the mean mass per growth segment and average number of segments per area production calculated as the product of the mean mass per growth segment and average number of segments per area	numeric	gramsPerMeterSquaredPerYear		-99999	Missing value
+Chamaedaphne_calyculata_N_assimilation	"Nitrogen assimilated into plant tissue on a per area, per year basis"	numeric	gramsPerMeterSquaredPerYear		-99999	Missing value
+Rhododendron_groenlandicum_new_segment_mass	Dried mass of new growth segments of R. groenlandicum	numeric	gram		-99999	Missing value
+Rhododendron_groenlandicum_new_segment_density	All new growth segments of R. groenlandicum counted in plot and reported as per meter	numeric	numberPerMeterSquared		-99999	Missing value
+Rhododendron_groenlandicum_net_primary_production	Plot level net primary production of R. groenlandicum calculated as the product of the mean mass per growth segment and average number of segments per area	numeric	gramsPerMeterSquaredPerYear		-99999	Missing value
+Rhododendron_groenlandicum_N_assimilation	"Nitrogen assimilated into plant tissue of R. groenlandicum on a per area, per year basis"	numeric	gramsPerMeterSquaredPerYear		-99999	Missing value
+A_polifolia_and_C_calyculata_R_groenlandicum_new_segment_mass	"Dried mass of new growth segments of A. polifolia, C. calyculata, and R. groenlandicum"	numeric	gram		-99999	Missing value
+A_polifolia_and_C_calyculata_and_R_groenlandicum_new_segment_density	"All new growth segments of A. polifolia, C. calyculata, and R. groenlandicum counted in plot and reported as per meter"	numeric	numberPerMeterSquared		-99999	Missing value
+A_polifolia_and_C_calyculata_and_R_groenlandicum_net_primary_production	"Plot level net primary production of A. polifolia, C. calyculata, and R. groenlandicum calculated as the product of the mean mass per growth segment and average number of segments per area"	numeric	gramsPerMeterSquaredPerYear		-99999	Missing value
+A_polifolia_and_C_calyculata_and_R_groenlandicum_N_assimilation	"Sum of Nitrogen assimilated into plant tissue of A. polifolia, C. calyculata, and R. groenlandicum on a per area, per year basis"	numeric	gramsPerMeterSquaredPerYear		-99999	Missing value

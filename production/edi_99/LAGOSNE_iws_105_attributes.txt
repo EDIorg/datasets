@@ -1,0 +1,13 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+iws_nhdid			character	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	character	NA	NA		
+iws_ha		hectare	real		area of zone	numeric	0.04	3204167.25		
+iws_perimkm		kilometer	real		perimeter of zone	numeric	0.71	7179.32		
+iws_lat		degree	real		latitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	34.71	49.42		
+iws_long		degree	real		longitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	-97.9	-67.1		
+iws_lakeareaha		hectare	real		surface area of lake for which the lake watershed (IWS) is calculated	numeric	4	123779.82		
+iws_pct_in_usa		dimensionless	real		percent of the zone (i.e., polygon) that is within the US border	numeric	0	100		
+iws_ha_in_usa		hectare	real		area of the zone (i.e., polygon) that is within the US border	numeric	0	3204167.25		
+iws_pct_in_nwi		dimensionless	real		percent of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	0	100		
+iws_ha_in_nwi		hectare	real		area of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	0	3204167.25		
+iws_zoneid			character	a unique identifier for each IWS in LAGOS-NE, numbered 1:n with "IWS" prefix (e.g., "IWS_1")	a unique identifier for each IWS in LAGOS-NE, numbered 1:n with "IWS" prefix (e.g., "IWS_1")	character	NA	NA		
+lagoslakeid		dimensionless	natural		unique lake identifier developed for LAGOS-NE	numeric	1	141376		

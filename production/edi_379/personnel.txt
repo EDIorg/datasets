@@ -1,0 +1,11 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Reuben	G	Biel	Department of Integrative Biology, Oregon State University	reuben.biel@gmail.com	0000-0001-7489-7808	creator			
+Reuben	G	Biel	Department of Integrative Biology, Oregon State University	reuben.biel@gmail.com	0000-0001-7489-7808	PI		US EPA	F13B20274
+Reuben	G	Biel	Department of Integrative Biology, Oregon State University	reuben.biel@gmail.com	0000-0001-7489-7808	contact			
+Sally	D	Hacker	Department of Integrative Biology, Oregon State University	hackers@science.oregonstate.edu	0000-0002-5036-9629	PI		US EPA	R833836
+Sally	D	Hacker	Department of Integrative Biology, Oregon State University	hackers@science.oregonstate.edu	0000-0002-5036-9629	PI		US NOAA	NA15OAR4310243
+Sally	D	Hacker	Department of Integrative Biology, Oregon State University	hackers@science.oregonstate.edu	0000-0002-5036-9629	creator			
+Peter		Ruggiero	College of Earth, Ocean, and Atmospheric Sciences, Oregon State University	pruggier@coas.oregonstate.edu	0000-0001-7425-9953	creator			
+Peter		Ruggiero	College of Earth, Ocean, and Atmospheric Sciences, Oregon State University	pruggier@coas.oregonstate.edu	0000-0001-7425-9953	PI		US EPA	R833836
+Peter		Ruggiero	College of Earth, Ocean, and Atmospheric Sciences, Oregon State University	pruggier@coas.oregonstate.edu	0000-0001-7425-9953	PI		US NOAA	NA15OAR4310243
+Lindsay		Carroll	Department of Integrative Biology, Oregon State University			creator			

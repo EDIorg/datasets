@@ -1,0 +1,3 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+plant_ID_number		dimensionless	natural		Unique identifier for plant that leaf was removed from	numeric	13	53		
+prop_plant_mass_lost		dimensionless	real		Proportion of leaf mass lost after two days	numeric	0.18	0.34		

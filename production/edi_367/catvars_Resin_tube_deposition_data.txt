@@ -1,0 +1,1 @@
+attributeName	code	definitionTYPE	OPEN	No tree coverTYPE	THROUGHFALL	Tree coverSEASON	SUMMER	SummerSEASON	WINTER	Winter

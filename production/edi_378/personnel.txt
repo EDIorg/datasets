@@ -1,0 +1,14 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	The application of scaling rules to energy flow in stream ecosystems	National Science Foundation	DEB-0109122
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	LTREB: Stream ecosystem structure and function in a maturing deciduous forest	National Science Foundation	DEB-0096276
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	creator			
+J	Denis	Newbold	Stroud Water Research Center	newbold@stroudcenter.org		creator			
+Tracy	N	Wiegner	University of Hawai'i Hilo	wiegner@hawaii.edu	0000-0002-8162-4047	creator			
+Margaret	H	Ostrom	Michigan State University	ostrom@msu.edu	0000-0002-9953-8809	creator			
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	contact			
+Sherman	L	Roberts	Stroud Water Research Center	sroberts@stroudcenter.org		Sample collection and analysis			
+Michael	D	Gentile	Stroud Water Research Center	mgentile@stroudcenter.org		Sample collection and analysis			
+Hasand	A	Ghandi	Michigan State University	gandhiha@msu.edu		Preparation and analysis of C stable isotopes			
+David	J	Van Horn	University of New Mexico			Sample collection and analysis			
+Heather	P	Brooks	Stroud Water Research Center	hbrooks @stroudcenter.org		Sample collection			
+Will		Milliken	Stroud Water Research Center	wmilliken@stroudcenter.org		Sample collection			

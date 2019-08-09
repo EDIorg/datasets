@@ -1,0 +1,13 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+session		dimensionless	natural		Indicates which of the two sessions when a particular trial was conducted	numeric	1	2		
+arena_number		dimensionless	natural		Unique number given to each arena (an arena consisted of a plant and 8 larval lepidoptera at the beginning of the experiment).	numeric	1	40		
+treatment			character	Indicates the degree of plant defense induction	Indicates the degree of plant defense induction	factor	NA	NA		
+shelf			character	Indicates which of two shelves where plants were grown and arenas were placed during the experiment	Indicates which of two shelves where plants were grown and arenas were placed during the experiment	factor	NA	NA		
+avg_hours_expired		hour	real		Indicates the average number of hours that had expired when an arena was checked to determine how many larval S. exigua were still alive	numeric	0	169.75		
+plant_length		centimeter	real		Indicates plant height at the start of the experiment	numeric	3.4	6.7	NA	Not available
+plant_width		centimeter	real		Indicates plant width at the start of the experiment	numeric	1.5	5.2	NA	Not available
+number_of_leaves		dimensionless	real		Indicates the number of true leaves on the plant at the start of the experiment	numeric	2	5	NA	Not available
+start_spod_wt		milligram	real		Indicates the starting mass of one randomly selected S. exigua from each arena at the start of the experiment	numeric	6.96	67.9	NA	Not available
+final_plant_mass		gram	real		Indicates the final aboveground biomass of each focal plant at the end of the experiment	numeric	0	2.87	NA	Not available
+number_spod_eaten		dimensionless	whole		Indicates the number of S. exigua consumed by other S. exigua during the experiment	numeric	0	7	NA	Not available
+less_than_10_pct			character	Indicates that less than 10 percent of the aboveground portion of the plant remained at the end of the experiment (ascertained by visual assessment)	Indicates that less than 10 percent of the aboveground portion of the plant remained at the end of the experiment (ascertained by visual assessment)	factor	NA	NA		

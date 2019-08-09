@@ -1,0 +1,6 @@
+attributeName	code	definition
+Alive_or_Dead	Dead	Organisms thought to be dead
+Alive_or_Dead	Alive	Organisms thought to be alive
+Alive_or_Dead	na	Empty plot photos with no organisms present
+Site	NH	New Harbor
+Site	SB	Salmon Bay

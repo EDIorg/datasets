@@ -1,0 +1,9 @@
+attributeName	code	definition
+treatment	2_low	Low plant defense induction
+treatment	1_control	Control
+treatment	4_high	High plant defense induction
+treatment	3_medium	Medium plant defense induction
+shelf	Lower	Lower shelf
+shelf	Upper	Upper shelf
+less_than_10_pct	0	More than 10 percent
+less_than_10_pct	1	Less than 10 percent

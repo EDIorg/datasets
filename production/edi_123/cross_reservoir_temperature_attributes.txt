@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+sampledate	"Month, day, and year of data collection"	Date		MM/DD/YYYY		
+waterdepth_m	Depth from water surface of temperature reading	numeric	meter			
+watertemp_C	Water temperature at depth	numeric	celsius			

@@ -1,0 +1,1 @@
+Detailed methods are described in Biel et al. 2017, Biel et al. 2019, and closely follow methods described by Zarnetske et al. 2012 and Seabloom et al. 1988.

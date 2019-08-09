@@ -1,0 +1,1 @@
+attributeName	code	definitionlakeid	AL	Allequash Lakelakeid	BM	Big Muskellunge Lakelakeid	CB	Bog 27-2 (Crystal Bog)lakeid	CR	Crystal Lakelakeid	LRN	Unknownlakeid	LRS	Unknownlakeid	SP	Sparkling Lakelakeid	TB	Bog 12-15 (Trout Bog)lakeid	TR	Trout Lakelakeid	ME	Lake Mendotalakeid	MO	Lake Mononalakeid	L1	Unknownlakeid	L2	Unknown

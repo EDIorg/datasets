@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station	Station number	character				
+StationID	Light channel marker number or reference area	character				
+Latitude	Latitude	numeric	degree			
+Longitude	Latitude	numeric	degree			

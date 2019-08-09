@@ -1,0 +1,11 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Carrie		Wells	University of North Carolina Charlotte	Cwells19@uncc.edu		creator			
+Ray		Williams	Appalachian State University	Willmsrs@appstate.edu		creator			
+Gary		Walker	Appalachian State University	walkergl@appstate.edu		creator			
+Nick		Haddad	Michigan State University	haddad@kbs.msu.edu		creator			
+Carrie		Wells	University of North Carolina Charlotte	Cwells19@uncc.edu		contact			
+Ellen		Damschen	University of Wisconsin-Madison	damschen@wisc.edu		Help at Savannah River Site			
+Jeff		White				Help with butterfly collections			
+Aaron		Kennedy				Assistance in allozyme analysis			
+Matt		Estep	Appalachian State University	estepmc@appstate.edu		Assistance in allozyme analysis			
+US_Department_of_Agriculture						PI	Interagency agreement	US Department of Energy	DE-IA09-00SR22188

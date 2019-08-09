@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Date	"Date of sampling. All data were collected in the eastern time zone of the U.S., with daylight savings time observed"	Date		YYYY-MM-DD		
+SummedFlow_cmd	The total volume of water entering Falling Creek Reservoir in its primary tributary through a gauged weir per day	numeric	cubicMetersPerDay			
+Temp_C	The temperature of the water entering Falling Creek Reservoir in its primary tributary through a gauged weir	numeric	celsius			

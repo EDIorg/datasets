@@ -1,0 +1,4 @@
+id	unitType	parentSI	multiplierToSI	description
+cubicMetersPerDay	volumetricRate	cubicMetersPerSecond	1/86400	cubic Meters Per Day
+gramsPerSquareMeterPerDay	areal mass density	kiliogramsPerSquareMeterPerSecond	1/86400000	grams Per Square Meter Per Day
+microAtmosphere	pressure	pascal	0.101325	micro Atmosphere

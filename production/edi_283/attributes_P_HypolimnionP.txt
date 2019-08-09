@@ -1,0 +1,1 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationSampleDate	Date the sample was taken	Date		YYYY-MM-DD		obsHypoP	Observational hypolimnetic phosphorus concentration	numeric	gramsPerCubicMeter			modelHypoP	Model predictions for hypolimnetic phosphorus concentrations	numeric	gramsPerCubicMeter			

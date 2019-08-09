@@ -1,0 +1,7 @@
+﻿Publications associated with this dataset:
+ 
+Quintana-Ascencio, P. F., E. S. Menges, and C. Weekley. 2003. A fire-explicit population viability analysis of Hypericum cumulicola in Florida rosemary scrub. Conservation Biology 17: 433-449.
+
+Metcalf CJE, McMahon SM, Salguero-Gómez R & Jongejans E. 2013. IPMpack: an R package for Integral Projection Models. Methods in Ecology and Evolution 4:195-200
+
+Quintana-Ascencio, P.F., Koontz, S. Smith, S., Sclater, V., David, A., & E. S. Menges. 2018. Predicting landscape-level distribution and abundance: Integrating demography, fire, elevation, and landscape habitat configuration. Journal of Ecology, accepted

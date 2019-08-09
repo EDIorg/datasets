@@ -1,0 +1,10 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+hu4_states			character	state(s) in which the HU4 is located	state(s) in which the HU4 is located	character	NA	NA		
+hu4		dimensionless	natural		NHD unique zone identifier	numeric	101	1107		
+hu4_name			character	name of zone	name of zone	character	NA	NA		
+hu4_ha		hectare	real		area of zone	numeric	284215.9	8535348.58		
+hu4_pct_in_nwi		dimensionless	real		percent of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	14.69	100		
+hu4_ha_in_nwi		hectare	real		area of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	41740.9	8535348.58		
+hu4_lat		degree	real		latitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	36.01	48.16		
+hu4_long		degree	real		longitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	-96.44	-68.32		
+hu4_zoneid			character	unique zone identifier	unique zone identifier	character	NA	NA		

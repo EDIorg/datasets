@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Date	"Date of sampling. All data were collected in the eastern time zone of the U.S., with daylight savings time observed."	Date		YYYY-MM-DD		
+DOC_Inflow_Conc	Dissolved organic carbon (DOC) concentration measured at the gauged weir of the primary inflow tributary entering Falling Creek Reservoir	numeric	milligramsPerLiter			
+DOC_epi	Dissolved organic carbon (DOC) concentration measured at 0.1 m depth at the deepest site of Falling Creek Reservoir	numeric	milligramsPerLiter			
+DOC_hypo	Dissolved organic carbon (DOC) concentration measured at 9 m depth at the deepest site of Falling Creek Reservoir	numeric	milligramsPerLiter			
+CO2_epi	Dissolved carbon dioxide (CO2) concentration measured at 0.1 m depth at the deepest site of Falling Creek Reservoir	numeric	microAtmosphere			
+CO2_hypo	Dissolved carbon dioxide (CO2) concentration measured at 9 m depth at the deepest site of Falling Creek Reservoir	numeric	microAtmosphere			
+Inflow_DO	Dissolved oxygen (DO) concentration measured at the gauged weir of the primary inflow tributary entering Falling Creek Reservoir	numeric	milligramsPerLiter			
+Inflow_CO2	Dissolved carbon dioxide (CO2) concentration measured at the gauged weir of the primary inflow tributary entering Falling Creek Reservoir	numeric	microAtmosphere			
+OC_deposition_rates	Organic carbon (OC) deposition rates measured at 8 m depth at the deepest site of Falling Creek Reservoir	numeric	gramsPerSquareMeterPerDay		NA	Data not available

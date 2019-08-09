@@ -1,0 +1,12 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+hu12		dimensionless	real		NHD unique zone identifier	numeric	10100020101	1.10702e+11		
+hu12_name			character	name of zone	name of zone	character	NA	NA		
+hu12_country			character	zonal totally within the US or cross the US-Canada border	zonal totally within the US or cross the US-Canada border	factor	NA	NA		
+hu12_zoneid			character	unique zone identifier	unique zone identifier	character	NA	NA		
+hu12_pct_in_nwi		dimensionless	real		percent of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	0	100		
+hu12_ha		hectare	real		area of zone	numeric	35.19	127612.28		
+hu12_ha_in_nwi		hectare	real		area of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	0	127607.87		
+hu12_pct_in_usa		dimensionless	real		percent of zone within the U.S. boundary	numeric	100	100		
+hu12_ha_in_usa		hectare	real		area of the zone within the U.S. boundary	numeric	35.19	127612.28		
+hu12_lat		degree	real		latitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	34.68	49.33		
+hu12_long		degree	real		longitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	-97.96	-67.08		

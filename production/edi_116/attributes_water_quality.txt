@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Site number	character				
+Date	Measurement date	Date		MM/DD/YYYY		
+Time	Measurement time	Date		hh:mm:ss		
+pH	pH value	numeric	dimensionless			
+Tw	Water temperature	numeric	celsius			
+Alk	Alkalinity (mg_CaCO3/L)	numeric	dimensionless			
+Q	Discharge	numeric	cubicFeetPerSecond			

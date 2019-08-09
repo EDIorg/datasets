@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year of encounter	Date		YYYY	NA	Not applicable
+Site	Patch id	numeric	dimensionless		NA	Not applicable
+Gap	Gap id	numeric	dimensionless		NA	Not applicable
+Tag	Plant id	numeric	dimensionless		NA	Not applicable
+Burn_yr	Fire year	Date		YYYY	NA	Not applicable
+Time	Year of collection 	Date		YYYY	NA	Not applicable
+Surv_init	Plant stage	categorical			NA	Not applicable
+init_height	Maximun stem height	numeric	centimeter		NA	Not applicable
+Rep_init	Reproductive structures 	numeric	dimensionless		NA	Not applicable
+Stems	number of reprductive stems	numeric	dimensionless		NA	Not applicable
+Surv_fin	Plant stage	categorical			NA	Not applicable
+Fin_height	Maximun stem height	numeric	centimeter		NA	Not applicable
+Rep_fin	Reproductive structures 	numeric	dimensionless		NA	Not applicable

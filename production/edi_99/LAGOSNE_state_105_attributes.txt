@@ -1,0 +1,9 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+state			character	NHD two-letter state abbreviation	NHD two-letter state abbreviation	character	NA	NA		
+state_name			character	state name	state name	character	NA	NA		
+state_zoneid			character	unique zone identifier	unique zone identifier	character	NA	NA		
+state_lat		degree	real		latitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	38.37	46.32		
+state_long		degree	real		longitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	-94.31	-69.23		
+state_pct_in_nwi		dimensionless	natural		percent of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	100	100		
+state_ha_in_nwi		hectare	real		area of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	280909.37	21854347.13		
+state_ha		hectare	real		area of zone	numeric	280909.37	21854347.13		

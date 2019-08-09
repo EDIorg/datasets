@@ -1,0 +1,1 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationday	Date the sample was taken	Date		YYYY-MM-DD		AirTemp_C	Air temperature	numeric	celsius			ShortWave_W_m2	Shortwave radiation	numeric	wattPerMeterSquared			Rain_m	Precipitation	numeric	meter			WindSpeed_m_s	Windspeed	numeric	metersPerSecond			

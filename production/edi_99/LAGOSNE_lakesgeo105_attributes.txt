@@ -1,0 +1,32 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+lagoslakeid		dimensionless	natural		unique identifier for each lake in LAGOS-NE. For each row of data in this table, the lagoslakeid identifies the focal lake for which other measures are calculated	numeric	1	141379		
+lakes_nhdid			character	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	character	NA	NA		
+iws_zoneid			character	the  unique ID of the IWS that is estimated for the focal lake in the row of data that is identified by the lagoslakeid.	the  unique ID of the IWS that is estimated for the focal lake in the row of data that is identified by the lagoslakeid.	character	NA	NA	NA	not available
+hu4_zoneid			character	the  unique ID of the HU4 zone that the focal lake is located within	the  unique ID of the HU4 zone that the focal lake is located within	character	NA	NA		
+hu6_zoneid			character	the  unique ID of the HU6 zone that the focal lake is located within	the  unique ID of the HU6 zone that the focal lake is located within	character	NA	NA		
+hu8_zoneid			character	the  unique ID of the HU8 zone that the focal lake is located within	the  unique ID of the HU8 zone that the focal lake is located within	character	NA	NA		
+hu12_zoneid			character	the  unique ID of the HU12 zone that the focal lake is located within	the  unique ID of the HU12 zone that the focal lake is located within	character	NA	NA		
+edu_zoneid			character	the  unique ID of the EDU zone that the focal lake is located within	the  unique ID of the EDU zone that the focal lake is located within	character	NA	NA		
+county_zoneid			character	the  unique ID of the county that the focal lake is located within	the  unique ID of the county that the focal lake is located within	character	NA	NA		
+state_zoneid			character	the  unique ID of the state that the focal lake is located within	the  unique ID of the state that the focal lake is located within	character	NA	NA		
+upstream_lakes_4ha_count		dimensionless	whole		count of lakes >= 4 ha upstream of the focal lake, connected via surface streams	numeric	0	7367	NA	not available
+upstream_lakes_4ha_area_ha		hectare	real		total area of lakes >= 4 ha upstream of the focal lake, connected via surface streams	numeric	0	8229788.82	NA	not available
+upstream_lakes_10ha_count		dimensionless	whole		count of lakes >= 10 ha upstream of the focal lake, connected via surface streams	numeric	0	4584	NA	not available
+upstream_lakes_10ha_area_ha		hectare	real		total area of lakes >= 10ha upstream of the focal lake, connected via surface streams	numeric	0	8229788.82	NA	not available
+latewisconsinglaciation_glacial			character	glaciation status during the Late Wisconsin glaciation	glaciation status during the Late Wisconsin glaciation	factor	NA	NA	NA	not available
+wlconnections_allwetlands_count		dimensionless	whole		the count of the wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	841	NA	not available
+wlconnections_allwetlands_contributing_area_ha		hectare	real		the sum of the area of all wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	34066.28	NA	not available
+wlconnections_allwetlands_shoreline_km		kilometer	real		the sum of the length the lake shoreline that intersects or touches wetland polygons	numeric	0	219.73	NA	not available
+wlconnections_forestedwetlands_count		dimensionless	whole		the count of forested wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	466	NA	not available
+wlconnections_forestedwetlands_contributing_area_h		hectare	real		the sum of the area of  forested wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	34041.22	NA	not available
+wlconnections_forestedwetlands_shoreline_km		kilometer	real		the sum of the length the lake shoreline that intersects or touches forested wetland polygons	numeric	0	92.68	NA	not available
+wlconnections_scrubshrubwetlands_count		dimensionless	whole		the count of scrub-shrub wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	225	NA	not available
+wlconnections_scrubshrubwetlands_contributing_area		hectare	real		the sum of the area of  scrub-shrub wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	20759.26	NA	not available
+wlconnections_scrubshrubwetlands_shoreline_km		kilometer	real		the sum of the length the lake shoreline that intersects or touches shrub-scrub wetland polygons	numeric	0	32.32	NA	not available
+wlconnections_openwaterwetlands_count		dimensionless	whole		the count of open-water wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	392	NA	not available
+wlconnections_openwaterwetlands_contributing_area_		hectare	real		the sum of the area of  open-water wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	12586.5	NA	not available
+wlconnections_openwaterwetlands_shoreline_km		kilometer	real		the sum of the length the lake shoreline that intersects or touches open-water wetland polygons	numeric	0	138.26	NA	not available
+wlconnections_otherwetlands_count		dimensionless	whole		the count of other-wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	7	NA	not available
+wlconnections_otherwetlands_contributing_area_ha		hectare	real		the sum of the area of  other-wetland polygons that interesect or are within 30 m buffer around a lake shoreline.	numeric	0	397.25	NA	not available
+wlconnections_otherwetlands_shoreline_km		kilometer	real		the sum of the length the lake shoreline that intersects or touches other-wetland polygons	numeric	0	2.49	NA	not available
+lakeconnection			character	hydrologic connectivity class of the focal lake determined from the NHD network	hydrologic connectivity class of the focal lake determined from the NHD network	factor	NA	NA		

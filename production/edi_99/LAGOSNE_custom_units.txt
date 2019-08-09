@@ -1,0 +1,6 @@
+id	unitType	parentSI	multiplierToSI	description
+metersPerHectare	lengthDensisty	metersPerSquareMeter	0.001	meters Per Hectare
+numberPerHectare	arealDensity	numberPerSquareMeter	0.001	number Per Hectare
+numberPerKilometerSquared	arealDensity	numberPerMeterSquared	1e-06	number Per Kilometer Squared
+millimetersPerYear	speed	metersPerSecond	NA	millimeters Per Year
+inchesPerYear	speed	metersPerSecond	NA	inches Per Year

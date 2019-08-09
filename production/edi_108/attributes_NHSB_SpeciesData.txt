@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+PhotoID	"Photo ID from SCUBA or ROV transect; 1 photo = 1 sample; ID is coded. One transect from each depth comprised of multiple images, each taken of a different position along the transect. Code:SiteWaterDepth(ft)_Replicate Photo: NH=New Harbor OR SB=Salmon Bay; 1974 = year of data collection 1974 OR 1975 = year of data collection 1975 OR 1976 = year of data collection 1976 OR 1976 = year of data 1976 OR 1977 = year of data collection 1977 OR 1988 = year of data collection 1988 OR 2010 = year of data collection 2010; Second value=water depth in feet, ranges from 30 to 140. Third value = Replicate photo from transect at that particular site, year, and water depth, ranges from 1 to 35."	character				
+Organism	"Nickname, Common Name and/or Species name given to a particular taxa identified in the photo * see methods notes."	character				
+Count	"Individual organism counts per photo. If no organisms present, Count = 1."	numeric	dimensionless			
+Alive_or_Dead	Refers to whether the organism counted was thought to be alive or dead based on visual characteristics.	categorical			NA	"The photo contained no organisms, alive or dead."
+Site	Refers to site at which data were collected.	categorical				
+Depth	Transect depth	numeric	foot			
+Year	Year of data collection	Date		YYYY		
+Area	Areal coverage of the photo	numeric	squareMeter			
+Empty_Plot	Designates photos which had no organisms present (Cell is empty if organisms were present; Cell contains empty if plot had no organisms; always accompanied by Organism = Emptyp Plot and Alive_or_Dead = NA in the same data row).	character				

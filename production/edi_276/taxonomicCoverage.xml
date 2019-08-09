@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:taxonomicCoverage xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" system="uuid">
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Bacteria</taxonRankValue>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Negibacteria</taxonRankValue>
+      <taxonomicClassification>
+        <taxonRankName>phylum</taxonRankName>
+        <taxonRankValue>Cyanobacteria</taxonRankValue>
+        <taxonomicClassification>
+          <taxonRankName>class</taxonRankName>
+          <taxonRankValue>Cyanophyceae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>order</taxonRankName>
+            <taxonRankValue>Chroococcales</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>family</taxonRankName>
+              <taxonRankValue>Chroococcaceae</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>genus</taxonRankName>
+                <taxonRankValue>Microcystis</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>Microcystis aeruginosa</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+</eml:taxonomicCoverage>

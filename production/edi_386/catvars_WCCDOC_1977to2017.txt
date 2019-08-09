@@ -1,0 +1,5 @@
+attributeName	code	definition
+site	WCCLAB	White Clay Creek at Stroud Water Research Center
+site	WCCPH	White Clay Creek at pumphouse
+sampletype	GRAB	"Samples collected by ""grab"" method (see methods)"
+sampletype	AUTO	Samples collected by automated sampler (see methods)

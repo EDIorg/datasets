@@ -1,0 +1,9 @@
+﻿US surface water pH, alkalinity and temperature (water_quality.csv) were retrieved from the USGS National Water Information System (NWIS) web interface (https://waterdata.usgs.gov/nwis/qwdata). Query terms include “stream” for site type, “surface water” for sample medium type and a series of parameter code for alkalinity, etc. (e.g., 00410). 
+
+Stream order and slope (NHDplus_slopeSO.csv) were extracted from NHDplus National database (downloadable through http://www.horizon-systems.com/NHDPlus/V2NationalData.php) with ESRI Arcgis 10.6.
+
+Hydraulic equations in lm_vQ.csv were calculated from a river USGS hydraulics dataset containing velocity and discharge measurements. 
+
+Watershed area (watersheds_area.csv) and coordinates (coor_sites.xls) were retrieved from USGS site inventory (https://waterdata.usgs.gov/nwis/inventory) by providing a file of site numbers.
+
+USGS hydrological unit codes (HUC.csv) were extracted from the USGS Watershed Boundary Dataset (downloadable through https://water.usgs.gov/GIS/huc.html) using ESRI Arcgis 10.6.

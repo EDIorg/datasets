@@ -1,0 +1,3 @@
+attributeName	code	definition
+borderiws	1	Zone intersects the US/Canadian boundary
+iws_nwiexclusions	1	Focal zone not completely covered by NWI

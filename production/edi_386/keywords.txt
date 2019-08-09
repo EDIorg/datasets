@@ -1,0 +1,9 @@
+keyword	keywordThesaurus
+White Clay Creek	
+Stroud Water Research Center	
+dissolved organic carbon	
+streams	
+aquatic ecosystems	
+biogeochemistry	
+long term monitoring	
+stream ecology	

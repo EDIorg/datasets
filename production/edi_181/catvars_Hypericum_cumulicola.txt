@@ -1,0 +1,10 @@
+attributeName	code	definition
+Surv_init	3	New plant
+Surv_init	5	New yearling
+Surv_init	0	Dead
+Surv_init	1	Alive
+Surv_init	2	Missing
+Surv_fin	0	Dead
+Surv_fin	1	Alive
+Surv_fin	9	Previously dead
+Surv_fin	2	Missing

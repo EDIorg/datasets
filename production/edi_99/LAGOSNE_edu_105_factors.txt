@@ -1,0 +1,3 @@
+attributeName	code	definition
+edu_country	US	Zone completely within US
+edu_country	US_CA	Zone intersects the US-Canadian border

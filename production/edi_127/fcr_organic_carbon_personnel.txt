@@ -1,0 +1,11 @@
+givenName	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Cayelan C	Carey	Virginia Polytechnic Institute and State University	cayelan@vt.edu	0000-0001-8835-4476	pi	No project title	Western Virginia Water Authority	
+Cayelan C	Carey	Virginia Polytechnic Institute and State University	cayelan@vt.edu	0000-0001-8835-4476	pi	Dynamics of coupled P-Fe-Mn cycling in drinking water reservoirs and implications for water quality	Institute of Critical Technology and Applied Science	
+Cayelan C	Carey	Virginia Polytechnic Institute and State University	cayelan@vt.edu	0000-0001-8835-4476	pi	No project title	Virginia Tech Global Change Center	
+Cayelan C	Carey	Virginia Polytechnic Institute and State University	cayelan@vt.edu	0000-0001-8835-4476	pi	No project title	Fralin Life Sciences Institute	
+Cayelan C	Carey	Virginia Polytechnic Institute and State University	cayelan@vt.edu	0000-0001-8835-4476	creator			
+Cayelan C	Carey	Virginia Polytechnic Institute and State University	cayelan@vt.edu	0000-0001-8835-4476	contact			
+Jonathan P	Doubek	Virginia Polytechnic Institute and State University	jpdoubek@vt.edu		creator			
+Ryan P	McClure	Virginia Polytechnic Institute and State University	ryan333@vt.edu	0000-0001-6370-3852	creator			
+Paul C	Hanson	University of Wisconsin-Madison	pchanson@wisc.edu	0000-0001-8533-6061	creator			
+Paul C	Hanson	University of Wisconsin-Madison	pchanson@wisc.edu	0000-0001-8533-6061	test			

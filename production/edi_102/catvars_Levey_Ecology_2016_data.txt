@@ -1,0 +1,67 @@
+attributeName	code	definition
+Round	Round1	Data collected in 3 rounds. Round 1 of 3.
+Round	Round2	Data collected in 3 rounds. Round 2 of 3.
+Round	Round3	Data collected in 3 rounds. Round 3 of 3.
+Block	10	Block 10, Blocks are labeled as the Forest Service timber compartment.
+Block	52	Block 52, Blocks are labeled as the Forest Service timber compartment.
+Block	57	Block 57, Blocks are labeled as the Forest Service timber compartment.
+Block	8	Block 8, Blocks are labeled as the Forest Service timber compartment.
+Block	53N	Block 53N, Blocks are labeled as the FOrest Service timber compartment.
+Block	53S	Block 53S, Blocks are labeled as the Forest Service timber compartment.
+Block	54N	Block 54N, Blocks are labeled as the Forest Service timber compartment.
+Block	54S	Block 54S, Blocks are labeled as the Forest Service timber compartment.
+Patch_ID	10_A	Patch A from Block 10. 
+Patch_ID	10_B	Patch B from Block 10.
+Patch_ID	10_C	Patch C from Block 10.
+Patch_ID	10_D	Patch D from Block 10.
+Patch_ID	10_E	Patch E from Block 10.
+Patch_ID	52_A	Patch A from Block 52.
+Patch_ID	52_B	Patch B from Block 52.
+Patch_ID	52_C	Patch C from Block 52.
+Patch_ID	52_D	Patch D from Block 52.
+Patch_ID	52_E	Patch E from Block 52.
+Patch_ID	53N_A	Patch A from Block 53N.
+Patch_ID	53N_B	Patch B from Block 53N.
+Patch_ID	53N_C	Patch C from Block 53N.
+Patch_ID	53N_D	Patch D from Block 53N.
+Patch_ID	53N_E	Patch E from Block 53N.
+Patch_ID	53S_A	Patch A from Block 53S.
+Patch_ID	53S_B	Patch B from Block 53S.
+Patch_ID	53S_C	Patch c from Block 53S.
+Patch_ID	53S_D	Patch D from Block 53S.
+Patch_ID	53S_E	Patch E from Block 53S.
+Patch_ID	54N_A	Patch A from Block 54N.
+Patch_ID	54N_B	Patch B from Block 54N.
+Patch_ID	54N_C	Patch C from Block 54N.
+Patch_ID	54N_D	Patch D from Block 54N.
+Patch_ID	54N_E	Patch E from Block 54N.
+Patch_ID	54S_A	Patch A from Block 54S.
+Patch_ID	54S_B	Patch B from Block 54S.
+Patch_ID	54S_C	Patch C from Block 54S.
+Patch_ID	54S_D	Patch D from Block 54S.
+Patch_ID	54S_E	Patch E from Block 54S.
+Patch_ID	57_A	Patch A from Block 57.
+Patch_ID	57_B	Patch B from Block 57.
+Patch_ID	57_C	Patch C from Block 57.
+Patch_ID	57_D	Patch D from Block 57.
+Patch_ID	57_E	Patch E from Block 57.
+Patch_ID	8_A	Patch A from Block 8.
+Patch_ID	8_B	Patch B from Block 8.
+Patch_ID	8_C	Patch C from Block 8.
+Patch_ID	8_D	Patch D from Block 8.
+Patch_ID	8_E	Patch E from Block 8.
+Patch_Type	Connected	All PatchTypes are equal in area. Connected denotes patch type with a 25x150 meter corridor added to 100x100 meter square such that it is connected to the center patch.
+Patch_Type	Rectangular	All Patchtypes are equal in area. Rectangular denotes isolated patch type with area same sized as corridor added to the back of a 100x100 meter square such that the patch is rectangular in shape.
+Patch_Type	Winged	All Patchtypes are equal in area. Winged denotes isolated patch type with two half-corridors on either side of a 100x100 meter square.  
+Transect	I	I denotes transect 1 out of 4 total
+Transect	II	II denotes transect 2 out of 4 total
+Transect	III	III denotes transect 3 out of 4 total
+Transect	IV	IV denotes transect 4 out of 4 total
+Species	AB	AB = two letter species code abbreviation for Aristida beyrichiana
+Species	AV	AV = two letter species code abbreviation for Anthaenantia villosa
+Species	CB	CB = two letter species code abbreviation for Carphephorus bellidifolius
+Species	NG	NG = two letter species code abbreviation for Nolina georgiana
+Species	LE	LE = two letter species code abbreviation for Liatris earlii
+Species	SS	SS = two letter species code abbreviation for Sorghastrum secundum
+Species	PA	PA = two letter species code abbreviation for Phytolacca americana 
+Species	GD	GD = two letter species code abbreviation for Gaylussacia dumosa

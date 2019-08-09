@@ -1,0 +1,1 @@
+attributeName	code	definitionStratified	FALSE	Not stratifiedStratified	TRUE	Stratified

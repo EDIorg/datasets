@@ -1,0 +1,18 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+lagoslakeid		dimensionless	natural		unique identifier for each lake in LAGOS-NE. For each row of data in this table, the lagoslakeid identifies the focal lake for which other measures are calculated	numeric	1	141379		
+nhdid			character	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	character	NA	NA		
+gnis_name			character	lake name from the gnis database	lake name from the gnis database	character	NA	NA	NA	not available
+nhd_lat		degree	real		latitude of centroid of the NHD lake polygon in decimal degrees (NAD83)	numeric	34.62	49.42		
+nhd_long		degree	real		longitude of  centroid of the NHD lake polygon in decimal degrees (NAD83)	numeric	-97.9	-67		
+lake_area_ha		hectare	real		surface area of lake waterbody polygon from NHD	numeric	1	123779.82		
+lake_perim_meters		meter	real		perimeter of lake waterbody polygon from the NHD	numeric	358.29	2778853.64		
+nhd_fcode		dimensionless	natural		NHD five-digit integer code with feature code plus additional characteristics/values	numeric	39000	43621		
+nhd_ftype		dimensionless	natural		NHD three-digit integer code providing a unique identifier of feature type for the waterbody	numeric	390	436		
+iws_zoneid			character	the  unique ID of the IWS that is estimated for the focal lake in the row of data that is identified by the lagoslakeid.	the  unique ID of the IWS that is estimated for the focal lake in the row of data that is identified by the lagoslakeid.	character	NA	NA	NA	not available
+hu4_zoneid			character	the  unique ID of the HU4 zone that the focal lake is located within	the  unique ID of the HU4 zone that the focal lake is located within	character	NA	NA		
+hu6_zoneid			character	the  unique ID of the HU6 zone that the focal lake is located within	the  unique ID of the HU6 zone that the focal lake is located within	character	NA	NA		
+hu8_zoneid			character	the  unique ID of the HU8 zone that the focal lake is located within	the  unique ID of the HU8 zone that the focal lake is located within	character	NA	NA		
+hu12_zoneid			character	the  unique ID of the HU12 zone that the focal lake is located within	the  unique ID of the HU12 zone that the focal lake is located within	character	NA	NA		
+edu_zoneid			character	the  unique ID of the EDU zone that the focal lake is located within	the  unique ID of the EDU zone that the focal lake is located within	character	NA	NA		
+county_zoneid			character	the  unique ID of the county that the focal lake is located within	the  unique ID of the county that the focal lake is located within	character	NA	NA		
+state_zoneid			character	the  unique ID of the state that the focal lake is located within	the  unique ID of the state that the focal lake is located within	character	NA	NA		

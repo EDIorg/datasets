@@ -1,0 +1,1 @@
+id	unitType	parentSI	multiplierToSI	descriptionmicrogramsPerMeterSquaredPerDay	areal mass flux	kilogramsPerSquareMeterPerSecond	1.73E+11	micrograms per meter squared per day

@@ -1,0 +1,36 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Transect_Name	Name of the cross-shore transect	categorical				
+Transect_ID	unique ID value, ordered North to South	numeric	dimensionless			
+Replicate	Replicate Transect ID: 1=10N replicate, 2 = center replicate, 3=10S replicate	numeric	dimensionless			
+Littoral_Cell	Blocking factor for sites located in the same littoral or sublittoral cell	numeric	dimensionless			
+HRABlock	Blocking factor for sites located in the same habitat restoration area	numeric	dimensionless			
+HRA	Indicator variable for sites that have undergone habitat restoration (beachgrass removal). 1 = removal occurred, 0 = No removal	numeric	dimensionless			
+start_UTMx	NAD83 CORS96 easting coordinate marking the seaward-most point of assocated vegetation survey transects.	numeric	meter			
+start_UTMy	NAD83 CORS96 northing coordinate marking the seaward-most point of assocated vegetation survey transects.	numeric	meter			
+end_UTMx	NAD83 CORS96 easting coordinate marking the landward-most point of assocated vegetation survey transects.	numeric	meter			
+end_UTMy	NAD83 CORS96 northing coordinate marking the landward-most point of assocated vegetation survey transects.	numeric	meter			
+shore_UTMx_data	NAD83 CORS96 easting coordinate of the shoreline location (defined as MHW).	numeric	meter			
+shore_UTMy_data	NAD83 CORS96 northing coordinate of the shoreline location (defined as MHW).	numeric	meter			
+backshore_beach_slope_data	Slope between the shoreline and the foredune toe.	numeric	dimensionless			
+backshore_width	Horizontal distance between the shoreline and the foredune toe.	numeric	meter			
+backshore_beach_slope_4m_data	Slope between the shoreline and the NAVD88 4m topographic contour of the foredune.	numeric	dimensionless			
+backshore_width_4m	Horizontal distance between the shoreline and the NAVD88 4m topographic contour of the foredune.	numeric	meter			
+dtoe_UTMx_data	NAD83 CORS96 easting coordinate of the foredune toe (identified using the cubic approximation, described in Mull and Ruggiero 2014).	numeric	meter			
+dtoe_UTMy_data	NAD83 CORS96 northing coordinate of the foredune toe location (identified using the cubic method, described in Mull and Ruggiero 2014).	numeric	meter			
+dtoe_elev_data	Elevation of the foredune toe (m NAVD88).	numeric	meter			
+dtoe_4m_UTMx_data	NAD83 CORS96 easting coordinate of the foredune toe (defined as an NAVD88 elevation of 4m - approx. 1.9m above local mean sea level).	numeric	meter			
+dtoe_4m_UTMy_data	NAD83 CORS96 northing coordinate of the shoreline location (defined as an NAVD88 elevation of 4m - approx. 1.9m above local mean sea level).	numeric	meter			
+dcrest_UTMx_data	NAD83 CORS96 easting coordinate of the foredune crest location.	numeric	meter			
+dcrest_UTMy_data	NAD83 CORS96 northing coordinate of the foredune crest location.	numeric	meter			
+dcrest_elev_data	Elevation of the foredune crest (m NAVD88).	numeric	meter			
+dheel_UTMx_data	NAD83 CORS96 easting coordinate of the foredune crest location.	numeric	meter		NaN	dheel not identifiable from cross-shore topographic profile
+dheel_UTMy_data	NAD83 CORS96 northing coordinate of the foredune crest location.	numeric	meter		NaN	dheel not identifiable from cross-shore topographic profile
+dheel_elev_data	Elevation of the foredune crest (m NAVD88).	numeric	meter		NaN	dheel not identifiable from cross-shore topographic profile
+foredune_width	Horizontal distance between the foredune toe and the foredune heel.	numeric	meter		NaN	dheel not identifiable from cross-shore topographic profile
+median_sed_diam	median sand grain size diameter at STATION 0.	numeric	phi		NaN	No data available
+mean_sed_diam	median sand grain size diameter at STATION 0.	numeric	phi		NaN	No data available
+sed_sorting	sorting of grain size distribution at STATION 0.	numeric	phi		NaN	No data available
+sed_skewness	skewness of sediment grain size distribution at STATION 0.	numeric	phi		NaN	No data available
+sed_kurtosis	kurtosis of sediment grain size distribution at STATION 0.	numeric	phi		NaN	No data available
+ST_SCR	Short term rate of shoreline change. Derived from Ruggiero et al. 2013, UGSG OFR 2012-1007	numeric	metersPerYear			
+LT_SCR	Long term rate of shoreline change. Derived from Ruggiero et al. 2013, UGSG OFR 2012-1007	numeric	metersPerYear			

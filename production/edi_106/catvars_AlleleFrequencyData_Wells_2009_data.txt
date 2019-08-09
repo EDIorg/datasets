@@ -1,0 +1,21 @@
+attributeName	code	definition
+Locus	AAT	AAT loci
+Locus	TPI	TPI loci
+Locus	PGI	PGI loci
+Locus	PGM	PGM loci
+Locus	IDH	IDH loci
+Locus	MDH	MDH loci
+Locus	NA	Not available
+Block	1-C	Block 1 connected
+Block	1-U	Block 1 unconected
+Block	2-C	Block 2 connected
+Block	2-U	Block 2 unconnected
+Block	3-C	Block 3 connected
+Block	3-U	Block 3 unconnected
+Block	4-C	Block 4 connected
+Block	4-U	Block 4 unconnected
+Block	5-C	Block 5 connected
+Block	5-U	Block 5 unconnected
+Block	6-C	Block 6 connected
+Block	6-U	Block 6 unconnected
+Block	NA	Not available

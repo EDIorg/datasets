@@ -1,0 +1,5 @@
+givenName	surName	organizationName	electronicMailAddress	userId	role
+Jerry	deNoyelles	Kansas Biological Survey	jdsfile@aol.com	0000-0002-6085-4396	creator
+Jerry	deNoyelles	Kansas Biological Survey	jdsfile@aol.com	0000-0002-6085-4396	contact
+Dean	Kettle	Kansas Biological Survey	kettle@ku.edu	0000-0002-6406-1035	creator
+Dean	Kettle	Kansas Biological Survey	kettle@ku.edu	0000-0002-6406-1035	pi

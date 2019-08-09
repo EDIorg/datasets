@@ -1,0 +1,14 @@
+keyword	keywordThesaurus
+SRS Corridor	
+Cercospora	
+Colletotrichum	
+dispersal	
+gall-inducing insects	
+habitat fragmentation	
+landscape corridors	
+Lespedeza spp.	
+movement ecology	
+pine plantation	
+plant disease	
+Solidago odora	
+Uromyces	

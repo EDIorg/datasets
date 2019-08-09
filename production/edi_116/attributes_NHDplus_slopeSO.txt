@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SOURCE_FEA	Site number	character				
+StreamOrde	Stream order	numeric	dimensionless			
+SLOPE	Channel slope	numeric	dimensionless			

@@ -1,0 +1,3 @@
+attributeName	code	definition
+hu12_country	US	Zone completely within US
+hu12_country	US_CA	Zone intersects US/Canada boundary

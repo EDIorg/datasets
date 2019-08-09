@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+HydraulicResidenceTime_min	Empty-bed contact time (EBCT) of bioreactor	numeric	minute			
+CumulativeBDOCaspctofDOC_Streamwater	Influent DOC concentration less reactor effluent DOC as % of influent DOC for water from White Clay Creek sampled 04 October 2002	numeric	dimensionless			
+CumulativeBDOCaspctofDOC_Leachate13C	Influent leachate-associated 13C-DOC less effluent leachate-associated 13C as % of influent 13C for 13C-labeled leachate added to streamwater 04 October 2002	numeric	dimensionless			

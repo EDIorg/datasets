@@ -1,0 +1,1 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationoutput	Process-guided recursive neural network model predicted lake phosphorus concentrations when validated on segment 1	numeric	gramsPerCubicMeter			

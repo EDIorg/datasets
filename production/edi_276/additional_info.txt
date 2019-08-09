@@ -1,0 +1,1 @@
+﻿NOTE: Station 10 (stationid lt40) is the same as station p8 from IEP's Environmental Monitoring Program. Fluorescence data is available by request from September 1999 to April 2004 that was from a Turner Designs fluorometer model 10AU with a white lamp and wide filter with an optical kit 10-037R.   This period of fluorescence data is still undergoing data evaluation.

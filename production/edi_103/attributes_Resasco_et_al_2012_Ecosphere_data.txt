@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+EU	"Experimental unit (block) n = 10 (8, 10, 52, 57, 53N, 53S, 54N, 54S, 75E, 75W)"	character				
+Patch	"Patch identifier (B, C, D, E)"	categorical				
+Type	Type of patch	categorical				
+Colony	S. invicta colony sampled within patch. Numbered left-to-right with back to center patch.	character				
+dN	delta-N-15 of colony sample	numeric	dimensionless			
+dC	delta-C-13 of colony sample	numeric	dimensionless			

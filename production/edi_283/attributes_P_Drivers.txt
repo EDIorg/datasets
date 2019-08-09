@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SampleDate	Date the sample was taken	Date		YYYY-MM-DD		
+EpiTemp	Water temperature of epilimnion	numeric	celsius			
+HypoTemp	Water temperature of hypolimnion	numeric	celsius			
+Stratified	Whether the lake was stratified or not on that day	categorical				
+Thermocline	Thermocline depth measured from lake surface	numeric	meter			
+EpiVolume	Volume of the epilimnion	numeric	cubicMeter			
+HypoVolume	Volume of the hypolimnion	numeric	cubicMeter			
+Discharge	Overland flow into the lake	numeric	cubicMetersPerDay			
+PLoad	Lake phosphorus load	numeric	gramsPerSecond		NA	No data

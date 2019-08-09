@@ -1,0 +1,153 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+buffer100m_nhdid			character	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	character	NA	NA		
+buffer100m_canopy2001_min		dimensionless	whole		minimum tree canopy cover within the zone in 2001 (percent)	numeric	0	85		
+buffer100m_canopy2001_max		dimensionless	whole		maximum tree canopy cover within the zone in 2001 (percent)	numeric	0	100		
+buffer100m_canopy2001_mean		dimensionless	real		mean tree canopy cover within the zone in 2001 (percent)	numeric	0	97.97		
+buffer100m_canopy2001_std		dimensionless	real		standard deviation of tree canopy cover within the zone in 2001 (percent)	numeric	0	48.94		
+buffer100m_nlcd1992_ha_0		hectare	real		area of zone with no land use/land cover data in 1992	numeric	0	12282.3		
+buffer100m_nlcd1992_pct_0		dimensionless	real		dimensionless of zone with no land use/land cover data in 1992 (percent)	numeric	0	95.85		
+buffer100m_nlcd1992_ha_11		hectare	real		area of zone classified as open water in 1992	numeric	0	2259.27		
+buffer100m_nlcd1992_pct_11		dimensionless	real		dimensionless of zone classified as open water in 1992 (percent)	numeric	0	99.22		
+buffer100m_nlcd1992_ha_21		hectare	real		area of zone classified as residential, low intensity in 1992	numeric	0	494.46		
+buffer100m_nlcd1992_pct_21		dimensionless	real		dimensionless of zone classified as residential, low intensity in 1992 (percent)	numeric	0	89.52		
+buffer100m_nlcd1992_ha_22		hectare	real		area of zone classified as residential, high intensity in 1992	numeric	0	220.86		
+buffer100m_nlcd1992_pct_22		dimensionless	real		dimensionless of zone classified as residential, high intensity in 1992 (percent)	numeric	0	82.13		
+buffer100m_nlcd1992_ha_23		hectare	real		area of zone classified as commercial/industrial/transportation in 1992	numeric	0	431.01		
+buffer100m_nlcd1992_pct_23		dimensionless	real		dimensionless of zone classified as commercial/industrial/transportation in 1992 (percent)	numeric	0	93.45		
+buffer100m_nlcd1992_ha_31		hectare	real		area of zone classified as bare rock/sand/clay in 1992	numeric	0	252.81		
+buffer100m_nlcd1992_pct_31		dimensionless	real		dimensionless of zone classified as bare rock/sand/clay in 1992 (percent)	numeric	0	84.94		
+buffer100m_nlcd1992_ha_32		hectare	real		area of zone classified as quarries/strip mines/gravel pits in 1992	numeric	0	152.46		
+buffer100m_nlcd1992_pct_32		dimensionless	real		dimensionless of zone classified as quarries/strip mines/gravel pits in 1992 (percent)	numeric	0	99.5		
+buffer100m_nlcd1992_ha_33		hectare	real		area of zone classified as transitional (barren) in 1992	numeric	0	191.25		
+buffer100m_nlcd1992_pct_33		dimensionless	real		dimensionless of zone classified as transitional (barren) in 1992 (percent)	numeric	0	92.72		
+buffer100m_nlcd1992_ha_41		hectare	real		area of zone classified as deciduous forest in 1992	numeric	0	7533.18		
+buffer100m_nlcd1992_pct_41		dimensionless	real		dimensionless of zone classified as deciduous forest in 1992 (percent)	numeric	0	98.58		
+buffer100m_nlcd1992_ha_42		hectare	real		area of zone classified as evergreen forest in 1992	numeric	0	2975.04		
+buffer100m_nlcd1992_pct_42		dimensionless	real		dimensionless of zone classified as evergreen forest in 1992 (percent)	numeric	0	97.01		
+buffer100m_nlcd1992_ha_43		hectare	real		area of zone classified as mixed forest in 1992	numeric	0	2263.14		
+buffer100m_nlcd1992_pct_43		dimensionless	real		dimensionless of zone classified as mixed forest in 1992 (percent)	numeric	0	86.26		
+buffer100m_nlcd1992_ha_51		hectare	real		area of zone classified as shrubland in 1992	numeric	0	119.07		
+buffer100m_nlcd1992_pct_51		dimensionless	real		dimensionless of zone classified as shrubland in 1992 (percent)	numeric	0	86.49		
+buffer100m_nlcd1992_ha_61		hectare	real		area of zone classified as orchards/vineyards/other in 1992	numeric	0	1.26		
+buffer100m_nlcd1992_pct_61		dimensionless	real		dimensionless of zone classified as orchards/vineyards/other in 1992 (percent)	numeric	0	4.53		
+buffer100m_nlcd1992_ha_71		hectare	real		area of zone classified as grasslands/herbaceous in 1992	numeric	0	359.1		
+buffer100m_nlcd1992_pct_71		dimensionless	real		dimensionless of zone classified as grasslands/herbaceous in 1992 (percent)	numeric	0	80.24		
+buffer100m_nlcd1992_ha_81		hectare	real		area of zone classified as pasture/hay in 1992	numeric	0	749.52		
+buffer100m_nlcd1992_pct_81		dimensionless	real		dimensionless of zone classified as pasture/hay in 1992 (percent)	numeric	0	99.13		
+buffer100m_nlcd1992_ha_82		hectare	real		area of zone classified as row crops in 1992	numeric	0	813.69		
+buffer100m_nlcd1992_pct_82		dimensionless	real		dimensionless of zone classified as row crops in 1992 (percent)	numeric	0	99.19		
+buffer100m_nlcd1992_ha_83		hectare	real		area of zone classified as small grains  in 1992	numeric	0	33.39		
+buffer100m_nlcd1992_pct_83		dimensionless	real		dimensionless of zone classified as small grains in 1992 (percent)	numeric	0	80.76		
+buffer100m_nlcd1992_ha_85		hectare	real		area of zone classified as urban/recreational grasses in 1992	numeric	0	105.3		
+buffer100m_nlcd1992_pct_85		dimensionless	real		dimensionless of zone classified as urban/recreational grasses in 1992 (percent)	numeric	0	99.13		
+buffer100m_nlcd1992_ha_91		hectare	real		area of zone classified as woody wetlands in 1992. The equivalent code for the 2001, 2006 and 2011 NLCD dataset is 90.	numeric	0	784.35		
+buffer100m_nlcd1992_pct_91		dimensionless	real		dimensionless of zone classified as woody wetlands in 1992. The equivalent code for the 2001, 2006 and 2011 NLCD dataset is 90. (percent)	numeric	0	99.59		
+buffer100m_nlcd1992_ha_92		hectare	real		area of zone classified as emergent herbaceous wetlands in 1992. The equivalent code for the 2001, 2006, and 2011 NLCD datasets is 95.	numeric	0	976.86		
+buffer100m_nlcd1992_pct_92		dimensionless	real		dimensionless of zone classified as emergent herbaceous wetlands in 1992. The equivalent code for the 2001, 2006, and 2011 NLCD datasets is 95. (percent)	numeric	0	99.36		
+buffer100m_nlcd2001_ha_0		hectare	real		area of zone with no land use/land cover data in 2001	numeric	0	12280.95		
+buffer100m_nlcd2001_pct_0		dimensionless	real		dimensionless of zone with no land use/land cover data in 2001 (percent)	numeric	0	94.95		
+buffer100m_nlcd2001_ha_11		hectare	real		area of zone with open water in 2001	numeric	0	1021.23		
+buffer100m_nlcd2001_pct_11		dimensionless	real		dimensionless of zone with open water in 2001 (percent)	numeric	0	99.26		
+buffer100m_nlcd2001_ha_21		hectare	real		area of zone classified as residential, low intensity in 2001	numeric	0	3195.45		
+buffer100m_nlcd2001_pct_21		dimensionless	real		dimensionless of zone classified as residential, low intensity in 2001 (percent)	numeric	0	95.02		
+buffer100m_nlcd2001_ha_22		hectare	real		area of zone classified as residential, high intensity in 2001	numeric	0	603.18		
+buffer100m_nlcd2001_pct_22		dimensionless	real		dimensionless of zone classified as residential, high intensity in 2001 (percent)	numeric	0	89.19		
+buffer100m_nlcd2001_ha_23		hectare	real		area of zone classified as commercial/industrial/transportation in 2001	numeric	0	266.67		
+buffer100m_nlcd2001_pct_23		dimensionless	real		dimensionless of zone classified as commercial/industrial/transportation in 2001 (percent)	numeric	0	76.76		
+buffer100m_nlcd2001_ha_24		hectare	real		area of zone classified as developed, high Intensity in 2001. Note, this variable was not measured in 1992.	numeric	0	48.06		
+buffer100m_nlcd2001_pct_24		dimensionless	real		dimensionless of zone classified as developed, high Intensity 2001. Note, this variable was not measured in 1992. (percent)	numeric	0	87.15		
+buffer100m_nlcd2001_ha_31		hectare	real		area of zone classified as bare rock/sand/clay in 2001	numeric	0	534.15		
+buffer100m_nlcd2001_pct_31		dimensionless	real		dimensionless of zone classified as bare rock/sand/clay in 2001 (percent)	numeric	0	99.21		
+buffer100m_nlcd2001_ha_41		hectare	real		area of zone classified as deciduous forest in 2001.	numeric	0	7619.76		
+buffer100m_nlcd2001_pct_41		dimensionless	real		dimensionless of zone classified as deciduous forest in 2001 (percent)	numeric	0	99.25		
+buffer100m_nlcd2001_ha_42		hectare	real		area of zone classified as evergreen forest in 2001	numeric	0	1620.99		
+buffer100m_nlcd2001_pct_42		dimensionless	real		dimensionless of zone classified as evergreen forest in 2001 (percent)	numeric	0	98.42		
+buffer100m_nlcd2001_ha_43		hectare	real		area of zone classified as mixed forest in 2001	numeric	0	1015.74		
+buffer100m_nlcd2001_pct_43		dimensionless	real		dimensionless of zone classified as mixed forest in 2001 (percent)	numeric	0	81.22		
+buffer100m_nlcd2001_ha_52		hectare	real		area of zone classified as scrub/shrub. Note, this variable not measured in 1992.	numeric	0	237.06		
+buffer100m_nlcd2001_pct_52		dimensionless	real		dimensionless of zone classified as scrub/shrub. Note, this variable not measured in 1992. (percent)	numeric	0	74.53		
+buffer100m_nlcd2001_ha_71		hectare	real		area of zone classified as grasslands/herbaceous in 2001	numeric	0	1204.56		
+buffer100m_nlcd2001_pct_71		dimensionless	real		dimensionless of zone classified as grasslands/herbaceous in 2001 (percent)	numeric	0	99.18		
+buffer100m_nlcd2001_ha_81		hectare	real		area of zone classified as pasture/hay in 2001	numeric	0	853.11		
+buffer100m_nlcd2001_pct_81		dimensionless	real		dimensionless of zone classified as pasture/hay in 2001 (percent)	numeric	0	97.85		
+buffer100m_nlcd2001_ha_82		hectare	real		area of zone classified as row crops in 2001	numeric	0	603.18		
+buffer100m_nlcd2001_pct_82		dimensionless	real		dimensionless of zone classified as row crops in 2001 (percent)	numeric	0	99.28		
+buffer100m_nlcd2001_ha_90		hectare	real		area of zone classified as woody wetlands in 2001. The equivalent code for the 1992 NLCD dataset is 91.	numeric	0	1002.51		
+buffer100m_nlcd2001_pct_90		dimensionless	real		dimensionless of zone classified as woody wetlands in 2001. The equivalent code for the 1992 NLCD dataset is 91. (percent)	numeric	0	99.15		
+buffer100m_nlcd2001_ha_95		hectare	real		area of zone classified as emergent herbaceous wetlands in 2001. The equivalent code for the 1992 NLCD datasets is 92.	numeric	0	1114.02		
+buffer100m_nlcd2001_pct_95		dimensionless	real		dimensionless of zone classified as emergent herbaceous wetlands in 2001. The equivalent code for the 1992 NLCD datasets is 92. (percent)	numeric	0	99.25		
+buffer100m_nlcd2006_ha_0		hectare	real		area of zone with no land use/land cover data in 2006	numeric	0	12280.95		
+buffer100m_nlcd2006_pct_0		dimensionless	real		dimensionless of zone with no land use/land cover data in 2006 (percent)	numeric	0	94.95		
+buffer100m_nlcd2006_ha_11		hectare	real		area of zone with open water in 2006	numeric	0	1018.26		
+buffer100m_nlcd2006_pct_11		dimensionless	real		dimensionless of zone with open water in 2006 (percent)	numeric	0	99.26		
+buffer100m_nlcd2006_ha_21		hectare	real		area of zone classified as residential, low intensity in 2006	numeric	0	3199.86		
+buffer100m_nlcd2006_pct_21		dimensionless	real		dimensionless of zone classified as residential, low intensity in 2006 (percent)	numeric	0	99.13		
+buffer100m_nlcd2006_ha_22		hectare	real		area of zone classified as residential, high intensity in 2006	numeric	0	611.64		
+buffer100m_nlcd2006_pct_22		dimensionless	real		dimensionless of zone classified as residential, high intensity in 2006 (percent)	numeric	0	89.19		
+buffer100m_nlcd2006_ha_23		hectare	real		area of zone classified as commercial/industrial/transportation in 2006	numeric	0	266.76		
+buffer100m_nlcd2006_pct_23		dimensionless	real		dimensionless of zone classified as commercial/industrial/transportation in 2006 (percent)	numeric	0	76.76		
+buffer100m_nlcd2006_ha_24		hectare	real		area of zone classified as developed, high Intensity in 2006. Note, this variable was not measured in 1992.	numeric	0	48.06		
+buffer100m_nlcd2006_pct_24		dimensionless	real		dimensionless of zone classified as developed, high Intensity 2006. Note, this variable was not measured in 1992. (percent)	numeric	0	87.15		
+buffer100m_nlcd2006_ha_31		hectare	real		area of zone classified as bare rock/sand/clay in 2006	numeric	0	544.77		
+buffer100m_nlcd2006_pct_31		dimensionless	real		dimensionless of zone classified as bare rock/sand/clay in 2006 (percent)	numeric	0	99.21		
+buffer100m_nlcd2006_ha_41		hectare	real		area of zone classified as deciduous forest in 2006.	numeric	0	7537.86		
+buffer100m_nlcd2006_pct_41		dimensionless	real		dimensionless of zone classified as deciduous forest in 2006 (percent)	numeric	0	99.25		
+buffer100m_nlcd2006_ha_42		hectare	real		area of zone classified as evergreen forest in 2006	numeric	0	1616.67		
+buffer100m_nlcd2006_pct_42		dimensionless	real		dimensionless of zone classified as evergreen forest in 2006 (percent)	numeric	0	98.42		
+buffer100m_nlcd2006_ha_43		hectare	real		area of zone classified as mixed forest in 2006	numeric	0	1011.15		
+buffer100m_nlcd2006_pct_43		dimensionless	real		dimensionless of zone classified as mixed forest in 2006 (percent)	numeric	0	81.22		
+buffer100m_nlcd2006_ha_52		hectare	real		area of zone classified as scrub/shrub. Note, this variable not measured in 1992.	numeric	0	233.82		
+buffer100m_nlcd2006_pct_52		dimensionless	real		dimensionless of zone classified as scrub/shrub. Note, this variable not measured in 1992. (percent)	numeric	0	74.53		
+buffer100m_nlcd2006_ha_71		hectare	real		area of zone classified as grasslands/herbaceous in 2006	numeric	0	1135.71		
+buffer100m_nlcd2006_pct_71		dimensionless	real		dimensionless of zone classified as grasslands/herbaceous in 2006 (percent)	numeric	0	99.18		
+buffer100m_nlcd2006_ha_81		hectare	real		area of zone classified as pasture/hay in 2006	numeric	0	846.18		
+buffer100m_nlcd2006_pct_81		dimensionless	real		dimensionless of zone classified as pasture/hay in 2006 (percent)	numeric	0	97.85		
+buffer100m_nlcd2006_ha_82		hectare	real		area of zone classified as row crops in 2006	numeric	0	603.18		
+buffer100m_nlcd2006_pct_82		dimensionless	real		dimensionless of zone classified as row crops in 2006 (percent)	numeric	0	99.28		
+buffer100m_nlcd2006_ha_90		hectare	real		area of zone classified as woody wetlands in 2006. The equivalent code for the 1992 NLCD is 91.	numeric	0	1052.82		
+buffer100m_nlcd2006_pct_90		dimensionless	real		dimensionless of zone classified as woody wetlands in 2006. The equivalent code for the 1992 NLCD is 91. (percent)	numeric	0	99.15		
+buffer100m_nlcd2006_ha_95		hectare	real		area of zone classified as emergent herbaceous wetlands in 2006. The equivalent code for the 1992 NLCD is 92.	numeric	0	1076.58		
+buffer100m_nlcd2006_pct_95		dimensionless	real		dimensionless of zone classified as emergent herbaceous wetlands in 2006. The equivalent code for the 1992 NLCD is 92. (percent)	numeric	0	99.25		
+buffer100m_nlcd2011_ha_0		hectare	real		area of zone with no land use/land cover data in 2011	numeric	0	12280.95		
+buffer100m_nlcd2011_pct_0		dimensionless	real		dimensionless of zone with no land use/land cover data in 2011 (percent)	numeric	0	95.49		
+buffer100m_nlcd2011_ha_11		hectare	real		area of zone with open water in 2011	numeric	0	1034.82		
+buffer100m_nlcd2011_pct_11		dimensionless	real		dimensionless of zone with open water in 2011 (percent)	numeric	0	100		
+buffer100m_nlcd2011_ha_21		hectare	real		area of zone classified as residential, low intensity in 2011	numeric	0	2340.81		
+buffer100m_nlcd2011_pct_21		dimensionless	real		dimensionless of zone classified as residential, low intensity in 2011 (percent)	numeric	0	95.07		
+buffer100m_nlcd2011_ha_22		hectare	real		area of zone classified as residential, high intensity in 2011	numeric	0	1118.79		
+buffer100m_nlcd2011_pct_22		dimensionless	real		dimensionless of zone classified as residential, high intensity in 2011 (percent)	numeric	0	89.47		
+buffer100m_nlcd2011_ha_23		hectare	real		area of zone classified as commercial/industrial/transportation in 2011	numeric	0	536.85		
+buffer100m_nlcd2011_pct_23		dimensionless	real		dimensionless of zone classified as commercial/industrial/transportation in 2011 (percent)	numeric	0	88.72		
+buffer100m_nlcd2011_ha_24		hectare	real		area of zone classified as developed, high Intensity in 2011. Note, this variable was not measured in 1992.	numeric	0	81.63		
+buffer100m_nlcd2011_pct_24		dimensionless	real		dimensionless of zone classified as developed, high Intensity 2011. Note, this variable was not measured in 1992. (percent)	numeric	0	88.59		
+buffer100m_nlcd2011_ha_31		hectare	real		area of zone classified as bare rock/sand/clay in 2011	numeric	0	515.52		
+buffer100m_nlcd2011_pct_31		dimensionless	real		dimensionless of zone classified as bare rock/sand/clay in 2011 (percent)	numeric	0	100		
+buffer100m_nlcd2011_ha_41		hectare	real		area of zone classified as deciduous forest in 2011.	numeric	0	7042.14		
+buffer100m_nlcd2011_pct_41		dimensionless	real		dimensionless of zone classified as deciduous forest in 2011 (percent)	numeric	0	100		
+buffer100m_nlcd2011_ha_42		hectare	real		area of zone classified as evergreen forest in 2011	numeric	0	1610.01		
+buffer100m_nlcd2011_pct_42		dimensionless	real		dimensionless of zone classified as evergreen forest in 2011 (percent)	numeric	0	97.67		
+buffer100m_nlcd2011_ha_43		hectare	real		area of zone classified as mixed forest in 2011	numeric	0	998.37		
+buffer100m_nlcd2011_pct_43		dimensionless	real		dimensionless of zone classified as mixed forest in 2011 (percent)	numeric	0	84.92		
+buffer100m_nlcd2011_ha_52		hectare	real		area of zone classified as scrub/shrub. Note, this variable not measured in 1992.	numeric	0	256.77		
+buffer100m_nlcd2011_pct_52		dimensionless	real		dimensionless of zone classified as scrub/shrub. Note, this variable not measured in 1992. (percent)	numeric	0	84.5		
+buffer100m_nlcd2011_ha_71		hectare	real		area of zone classified as grasslands/herbaceous in 2011	numeric	0	1114.92		
+buffer100m_nlcd2011_pct_71		dimensionless	real		dimensionless of zone classified as grasslands/herbaceous in 2011 (percent)	numeric	0	100		
+buffer100m_nlcd2011_ha_81		hectare	real		area of zone classified as pasture/hay in 2011	numeric	0	811.98		
+buffer100m_nlcd2011_pct_81		dimensionless	real		dimensionless of zone classified as pasture/hay in 2011 (percent)	numeric	0	97.52		
+buffer100m_nlcd2011_ha_82		hectare	real		area of zone classified as row crops in 2011	numeric	0	550.35		
+buffer100m_nlcd2011_pct_82		dimensionless	real		dimensionless of zone classified as row crops in 2011 (percent)	numeric	0	100		
+buffer100m_nlcd2011_ha_90		hectare	real		area of zone classified as woody wetlands in 2011. The equivalent code for the 1992 datasets is 91.	numeric	0.09	837.45	NA	not available
+buffer100m_nlcd2011_pct_90		dimensionless	real		dimensionless of zone classified as woody wetlands in 2011. The equivalent code for the 1992 datasets is 91. (percent)	numeric	0	100	NA	not available
+buffer100m_nlcd2011_ha_95		hectare	real		area of zone classified as emergent herbaceous wetlands in 2011. The equivalent code for the 1992 dataset is 92.	numeric	0	1073.52		
+buffer100m_nlcd2011_pct_95		dimensionless	real		dimensionless of zone classified as emergent herbaceous wetlands in 2011. The equivalent code for the 1992 dataset is 92. (percent)	numeric	0	100		
+buffer100m_roaddensity_sum_lengthm		meter	real		the sum of the length of roads within the zone	numeric	0	1355885.87		
+buffer100m_roaddensity_density_mperha		metersPerHectare	real		road density within the zone, calculated as sum of the length of roads in the zone divided by the area of the zone	numeric	0	536.78		
+buffer100m_slope_min		degree	real		minimum slope of the cells within the zone, where the slope is calculated as the slope at each cell with respect to its immediate neighbors (the cell size is 10 m square).	numeric	0	2.48		
+buffer100m_slope_max		degree	real		maximum slope of cells within within the zone, where the slope is calculated as the slope at each cell with respect to its immediate neighbors (the cell size is 10 m square).	numeric	0	85.21		
+buffer100m_slope_mean		degree	real		mean of the slope of the cells within the zone, where the slope is calculated as the slope at each cell with respect to its immediate neighbors (the cell size is 10 m square).	numeric	0	36.9		
+buffer100m_slope_std		degree	real		standard deviation of the slope of the cells within the zone, where the slope is calculated as the slope at each cell with respect to its immediate neighbors (the cell size is 10 m square).	numeric	0	23.93		
+buffer100m_tri_min		meter	real		minimum terrain ruggedness index (TRI) of cells within the zone, where TRI at each cell is the absolute difference in meters between the elevation of the focal cell and its immediate neighbors (the cell size is 10 m square).	numeric	0	0.79		
+buffer100m_tri_max		meter	real		maximum terrain ruggedness index (TRI) of cells within the zone, where TRI at each cell is the absolute difference in meters between the elevation of the focal cell and its immediate neighbors (the cell size is 10 m square).	numeric	0	107.4		
+buffer100m_tri_mean		meter	real		mean terrain ruggedness index (TRI) of cells within the zone, where TRI at each cell is the absolute difference in meters between the elevation of the focal cell and its immediate neighbors (the cell size is 10 m square).	numeric	0	6.69		
+buffer100m_tri_std		meter	real		standard deviation of the terrain ruggedness index (TRI) of cells within the zone, where TRI at each cell is the absolute difference in meters between the elevation of the focal cell and its immediate neighbors (the cell size is 10 m square).	numeric	0	10.33		
+lagoslakeid		dimensionless	natural		unique lake identifier developed for LAGOS-NE	numeric	1	141376		

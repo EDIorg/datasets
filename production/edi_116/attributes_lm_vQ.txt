@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Site number	character				
+n	Number of measurements per site	numeric	dimensionless			
+slope	Log-linear regression slope between velocity and discharge	numeric	dimensionless			
+y_inter	Y intercept of log-linear regressions	numeric	dimensionless			
+r2	r square	numeric	dimensionless			
+p	p value	numeric	dimensionless			

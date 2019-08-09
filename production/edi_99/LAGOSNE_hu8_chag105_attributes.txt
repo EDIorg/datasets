@@ -1,0 +1,144 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+hu8_zoneid			character	unique zone (HU8) identifier	unique zone (HU8) identifier	character	NA	NA		
+hu8_baseflowindex_min		dimensionless	natural		minimum within the zone of the percent of streamflow that can be attributed to groundwater discharge into streams in the zone (baseflow/totalflow *100) based on data from 1951-1980	numeric	6	82		
+hu8_baseflowindex_max		dimensionless	natural		maximum within the zone of the percent of streamflow that can be attributed to groundwater discharge into streams in the zone (baseflow/totalflow *100) based on data from 1951-1980	numeric	12	91		
+hu8_baseflowindex_mean		dimensionless	real		mean within the zone of the percent of streamflow that can be attributed to groundwater discharge into streams in the zone (baseflow/totalflow *100) based on data from 1951-1980	numeric	9.82	86.36		
+hu8_baseflowindex_std		dimensionless	real		standard deviation within the zone of the percent of streamflow that can be attributed to groundwater discharge into streams in the zone (baseflow/totalflow *100) based on data from 1951-1980	numeric	0	14.86		
+hu8_dep_no3_1985_min		kilogramsPerHectare	real		minimum of nitrate ion wet deposition in zone during 1985	numeric	3.99	22.87		
+hu8_dep_no3_1985_max		kilogramsPerHectare	real		maximum of nitrate ion wet deposition in zone during 1985	numeric	6.04	38.17		
+hu8_dep_no3_1985_mean		kilogramsPerHectare	real		mean of nitrate ion wet deposition in zone during 1985	numeric	5.47	28.73		
+hu8_dep_no3_1985_std		kilogramsPerHectare	real		standard deviation of nitrate ion wet deposition in zone during 1985	numeric	0.03	3.89		
+hu8_dep_no3_1990_min		kilogramsPerHectare	real		minimum of nitrate ion wet deposition in zone during 1990	numeric	3.25	24.59		
+hu8_dep_no3_1990_max		kilogramsPerHectare	real		maximum of nitrate ion wet deposition in zone during 1990	numeric	4.24	37		
+hu8_dep_no3_1990_mean		kilogramsPerHectare	real		mean of nitrate ion wet deposition in zone during 1990	numeric	3.83	29.61		
+hu8_dep_no3_1990_std		kilogramsPerHectare	real		standard deviation of nitrate ion wet deposition in zone during 1990	numeric	0.07	4.07		
+hu8_dep_no3_1995_min		kilogramsPerHectare	real		minimum of nitrate ion wet deposition in zone during 1995	numeric	4.36	17.72		
+hu8_dep_no3_1995_max		kilogramsPerHectare	real		maximum of nitrate ion wet deposition in zone during 1995	numeric	5.24	32.82		
+hu8_dep_no3_1995_mean		kilogramsPerHectare	real		mean of nitrate ion wet deposition in zone during 1995	numeric	4.9	22.64		
+hu8_dep_no3_1995_std		kilogramsPerHectare	real		standard deviation of nitrate ion wet deposition in zone during 1995	numeric	0.05	3.35		
+hu8_dep_no3_2000_min		kilogramsPerHectare	real		minimum of nitrate ion wet deposition in zone during 2000	numeric	6.25	21.86		
+hu8_dep_no3_2000_max		kilogramsPerHectare	real		maximum of nitrate ion wet deposition in zone during 2000	numeric	7.16	33.11		
+hu8_dep_no3_2000_mean		kilogramsPerHectare	real		mean of nitrate ion wet deposition in zone during 2000	numeric	6.72	26.87		
+hu8_dep_no3_2000_std		kilogramsPerHectare	real		standard deviation of nitrate ion wet deposition in zone during 2000	numeric	0.04	3.34		
+hu8_dep_no3_2005_min		kilogramsPerHectare	real		minimum of nitrate ion wet deposition in zone during 2005	numeric	4.26	14.5		
+hu8_dep_no3_2005_max		kilogramsPerHectare	real		maximum of nitrate ion wet deposition in zone during 2005	numeric	6.77	20.1		
+hu8_dep_no3_2005_mean		kilogramsPerHectare	real		mean of nitrate ion wet deposition in zone during 2005	numeric	5.67	15.56		
+hu8_dep_no3_2005_std		kilogramsPerHectare	real		standard deviation of nitrate ion wet deposition in zone during 2005	numeric	0.03	1.86		
+hu8_dep_no3_2010_min		kilogramsPerHectare	real		minimum of nitrate ion wet deposition in zone during 2010	numeric	3.02	11.52		
+hu8_dep_no3_2010_max		kilogramsPerHectare	real		maximum of nitrate ion wet deposition in zone during 2010	numeric	3.94	13.3		
+hu8_dep_no3_2010_mean		kilogramsPerHectare	real		mean of nitrate ion wet deposition in zone during 2010	numeric	3.68	12.44		
+hu8_dep_no3_2010_std		kilogramsPerHectare	real		standard deviation of nitrate ion wet deposition in zone during 2010	numeric	0.03	1.19		
+hu8_dep_so4_1985_min		kilogramsPerHectare	real		minimum of sulfate ion wet deposition in zone during 1985	numeric	4.41	37		
+hu8_dep_so4_1985_max		kilogramsPerHectare	real		maximum of sulfate ion wet deposition in zone during 1985	numeric	7.08	55.31		
+hu8_dep_so4_1985_mean		kilogramsPerHectare	real		mean of sulfate ion wet deposition in zone during 1985	numeric	6.37	41.01		
+hu8_dep_so4_1985_std		kilogramsPerHectare	real		standard deviation of sulfate ion wet deposition in zone during 1985	numeric	0.03	5.9		
+hu8_dep_so4_1990_min		kilogramsPerHectare	real		minimum of sulfate ion wet deposition in zone during 1990	numeric	2.86	38.51		
+hu8_dep_so4_1990_max		kilogramsPerHectare	real		maximum of sulfate ion wet deposition in zone during 1990	numeric	3.72	49.79		
+hu8_dep_so4_1990_mean		kilogramsPerHectare	real		mean of sulfate ion wet deposition in zone during 1990	numeric	3.39	42.38		
+hu8_dep_so4_1990_std		kilogramsPerHectare	real		standard deviation of sulfate ion wet deposition in zone during 1990	numeric	0.08	4.74		
+hu8_dep_so4_1995_min		kilogramsPerHectare	real		minimum of sulfate ion wet deposition in zone during 1995	numeric	3.47	23.59		
+hu8_dep_so4_1995_max		kilogramsPerHectare	real		maximum of sulfate ion wet deposition in zone during 1995	numeric	4.15	34.05		
+hu8_dep_so4_1995_mean		kilogramsPerHectare	real		mean of sulfate ion wet deposition in zone during 1995	numeric	3.92	25.59		
+hu8_dep_so4_1995_std		kilogramsPerHectare	real		standard deviation of sulfate ion wet deposition in zone during 1995	numeric	0.04	3.41		
+hu8_dep_so4_2000_min		kilogramsPerHectare	real		minimum of sulfate ion wet deposition in zone during 2000	numeric	3.9	26.38		
+hu8_dep_so4_2000_max		kilogramsPerHectare	real		maximum of sulfate ion wet deposition in zone during 2000	numeric	5.04	34.34		
+hu8_dep_so4_2000_mean		kilogramsPerHectare	real		mean of sulfate ion wet deposition in zone during 2000	numeric	4.4	27.87		
+hu8_dep_so4_2000_std		kilogramsPerHectare	real		standard deviation of sulfate ion wet deposition in zone during 2000	numeric	0.04	3.68		
+hu8_dep_so4_2005_min		kilogramsPerHectare	real		minimum of sulfate ion wet deposition in zone during 2005	numeric	3.13	21.67		
+hu8_dep_so4_2005_max		kilogramsPerHectare	real		maximum of sulfate ion wet deposition in zone during 2005	numeric	5.35	27.73		
+hu8_dep_so4_2005_mean		kilogramsPerHectare	real		mean of sulfate ion wet deposition in zone during 2005	numeric	4.29	22.98		
+hu8_dep_so4_2005_std		kilogramsPerHectare	real		standard deviation of sulfate ion wet deposition in zone during 2005	numeric	0.01	2.34		
+hu8_dep_so4_2010_min		kilogramsPerHectare	real		minimum of sulfate ion wet deposition in zone during 2010	numeric	2.05	12.62		
+hu8_dep_so4_2010_max		kilogramsPerHectare	real		maximum of sulfate ion wet deposition in zone during 2010	numeric	3.51	15.61		
+hu8_dep_so4_2010_mean		kilogramsPerHectare	real		mean of sulfate ion wet deposition in zone during 2010	numeric	3.07	13.91		
+hu8_dep_so4_2010_std		kilogramsPerHectare	real		standard deviation of sulfate ion wet deposition in zone during 2010	numeric	0.02	1.53		
+hu8_dep_totaln_1985_min		kilogramsPerHectare	real		minimum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1985	numeric	2.21	8.09		
+hu8_dep_totaln_1985_max		kilogramsPerHectare	real		maximum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1985	numeric	2.84	12.8		
+hu8_dep_totaln_1985_mean		kilogramsPerHectare	real		mean of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1985	numeric	2.7	10.15		
+hu8_dep_totaln_1985_std		kilogramsPerHectare	real		standard deviation of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1985	numeric	0.01	1.37		
+hu8_dep_totaln_1990_min		kilogramsPerHectare	real		minimum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1990	numeric	2.03	8.84		
+hu8_dep_totaln_1990_max		kilogramsPerHectare	real		maximum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1990	numeric	2.49	13.16		
+hu8_dep_totaln_1990_mean		kilogramsPerHectare	real		mean of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1990	numeric	2.33	10.57		
+hu8_dep_totaln_1990_std		kilogramsPerHectare	real		standard deviation of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1990	numeric	0.02	1.46		
+hu8_dep_totaln_1995_min		kilogramsPerHectare	real		minimum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1995	numeric	2.02	7.18		
+hu8_dep_totaln_1995_max		kilogramsPerHectare	real		maximum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1995	numeric	2.66	11.49		
+hu8_dep_totaln_1995_mean		kilogramsPerHectare	real		mean of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1995	numeric	2.57	8.37		
+hu8_dep_totaln_1995_std		kilogramsPerHectare	real		standard deviation of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 1995	numeric	0.02	1.16		
+hu8_dep_totaln_2000_min		kilogramsPerHectare	real		minimum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2000	numeric	2.23	8.08		
+hu8_dep_totaln_2000_max		kilogramsPerHectare	real		maximum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2000	numeric	2.6	12.08		
+hu8_dep_totaln_2000_mean		kilogramsPerHectare	real		mean of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2000	numeric	2.46	9.82		
+hu8_dep_totaln_2000_std		kilogramsPerHectare	real		standard deviation of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2000	numeric	0.02	1.22		
+hu8_dep_totaln_2005_min		kilogramsPerHectare	real		minimum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2005	numeric	2.15	7.52		
+hu8_dep_totaln_2005_max		kilogramsPerHectare	real		maximum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2005	numeric	2.69	8.6		
+hu8_dep_totaln_2005_mean		kilogramsPerHectare	real		mean of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2005	numeric	2.52	8.08		
+hu8_dep_totaln_2005_std		kilogramsPerHectare	real		standard deviation of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2005	numeric	0.01	0.85		
+hu8_dep_totaln_2010_min		kilogramsPerHectare	real		minimum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2010	numeric	1.48	7.2		
+hu8_dep_totaln_2010_max		kilogramsPerHectare	real		maximum of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2010	numeric	1.76	8.27		
+hu8_dep_totaln_2010_mean		kilogramsPerHectare	real		mean of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2010	numeric	1.62	7.78		
+hu8_dep_totaln_2010_std		kilogramsPerHectare	real		standard deviation of total inorganic nitrogen (ammonium plus nitrate) ion wet deposition in zone during 2010	numeric	0.01	0.65		
+hu8_groundwaterrecharge_min		millimetersPerYear	natural		minimum within the zone of mean annual natural groundwater recharge (based on data from 1951-1980), which is an estimated value derived from multiplying the baseflow by the runoff data that are also provided in this dataset	numeric	3	396		
+hu8_groundwaterrecharge_max		millimetersPerYear	natural		maximum within the zone of mean annual natural groundwater recharge (based on data from 1951-1980), which is an estimated value derived from multiplying the baseflow by the runoff data that are also provided in this dataset	numeric	20	545		
+hu8_groundwaterrecharge_mean		millimetersPerYear	real		mean within the zone of mean annual natural groundwater recharge (based on data from 1951-1980), which is an estimated value derived from multiplying the baseflow by the runoff data that are also provided in this dataset	numeric	8.76	474.43		
+hu8_groundwaterrecharge_std		millimetersPerYear	real		standard deviation within the zone of mean annual natural groundwater recharge (based on data from 1951-1980), which is an estimated value derived from multiplying the baseflow by the runoff data that are also provided in this dataset	numeric	1.58	162.54		
+hu8_prism_ppt_30yr_normal_800mm2_annual_min		millimetersPerYear	real		minimum value of cells within the zone for the 30-yr normal annual mean precipitation (calculated for data from 1980-2010)	numeric	0	1215.01		
+hu8_prism_ppt_30yr_normal_800mm2_annual_max		millimetersPerYear	real		maximum value of cells within the zone for the 30-yr normal annual mean precipitation (calculated for data from 1980-2010)	numeric	601.49	2416.35		
+hu8_prism_ppt_30yr_normal_800mm2_annual_mean		millimetersPerYear	real		mean value of cells within the zone for the 30-yr normal annual mean precipitation (calculated for data from 1980-2010)	numeric	550.19	1376.61		
+hu8_prism_ppt_30yr_normal_800mm2_annual_std		millimetersPerYear	real		standard deviation of cells within the zone for the 30-yr normal annual mean precipitation (calculated for data from 1980-2010)	numeric	4.57	289.7		
+hu8_prism_tmax_30yr_normal_800mm2_annual_min		celsius	real		minimum value of cells within the zone for the 30-yr normal annual maximum temperature (calculated for data from 1980-2010)	numeric	0	20.5		
+hu8_prism_tmax_30yr_normal_800mm2_annual_max		celsius	real		maximum value of cells within the zone for the 30-yr normal annual maximum temperature (calculated for data from 1980-2010)	numeric	9.12	22.39		
+hu8_prism_tmax_30yr_normal_800mm2_annual_mean		celsius	real		mean value of cells within the zone for the 30-yr normal annual maximum temperature (calculated for data from 1980-2010)	numeric	8.37	21.4		
+hu8_prism_tmax_30yr_normal_800mm2_annual_std		celsius	real		standard deviation of cells in the zone for the 30-yr normal annual maximum temperature (calculated for data from 1980-2010)	numeric	0.07	4.47		
+hu8_prism_tmean_30yr_normal_800mm2_annual_min		celsius	real		minimum value of cells within the zone for the 30-yr normal annual mean temperature (calculated for data from 1980-2010)	numeric	-1.78	14.22		
+hu8_prism_tmean_30yr_normal_800mm2_annual_max		celsius	real		maximum value of cells within the zone for the 30-yr normal annual mean temperature (calculated for data from 1980-2010)	numeric	3.3	16.65		
+hu8_prism_tmean_30yr_normal_800mm2_annual_mean		celsius	real		mean value of cells within the zone for the 30-yr normal annual mean temperature (calculated for data from 1980-2010)	numeric	3.03	15.71		
+hu8_prism_tmean_30yr_normal_800mm2_annual_std		celsius	real		standard deviation of cells in the zone for the 30-yr normal annual mean temperature (calculated for data from 1980-2010)	numeric	0.05	1.26		
+hu8_prism_tmin_30yr_normal_800mm2_annual_min		celsius	real		minimum value of cells within the zone for the 30-yr normal annual minimum temperature (calculated for data from 1980-2010)	numeric	-5.22	8.41		
+hu8_prism_tmin_30yr_normal_800mm2_annual_max		celsius	real		maximum value of cells within the zone for the 30-yr normal annual minimum temperature (calculated for data from 1980-2010)	numeric	-2.6	11.16		
+hu8_prism_tmin_30yr_normal_800mm2_annual_mean		celsius	real		mean value of cells within the zone for the 30-yr normal annual minimum temperature (calculated for data from 1980-2010)	numeric	-3.12	10.01		
+hu8_prism_tmin_30yr_normal_800mm2_annual_std		celsius	real		standard deviation of cells in the zone for the 30-yr normal annual minimum temperature (calculated for data from 1980-2010)	numeric	0.06	1.56		
+hu8_runoff_min		inchesPerYear	real		minimum of the annual runoff in the zone, based on data from 1951-1980	numeric	0.62	27.19		
+hu8_runoff_max		inchesPerYear	real		maximum of the annual runoff in the zone, based on data from 1951-1980	numeric	1.86	41.58		
+hu8_runoff_mean		inchesPerYear	real		mean of the annual runoff in the zone, based on data from 1951-1980	numeric	1.08	30.11		
+hu8_runoff_std		inchesPerYear	real		standard deviation of the annual runoff in the zone, based on data from 1951-1980	numeric	0.02	8.65		
+hu8_surficialgeology_alluv_ha		hectare	real		area of zone with alluvial of all ages	numeric	0	783306.52		
+hu8_surficialgeology_alluv_pct		dimensionless	real		percent of zone with alluvial of all ages	numeric	0	88.98		
+hu8_surficialgeology_beach_ha		hectare	real		area of zone with beach deposits of Holocene age	numeric	0	18401.65		
+hu8_surficialgeology_beach_pct		dimensionless	real		percent of zone with beach deposits of Holocene age	numeric	0	6.52		
+hu8_surficialgeology_colluv_ha		hectare	real		area of zone with colluvium of all ages	numeric	0	449241.89		
+hu8_surficialgeology_colluv_pct		dimensionless	real		percent of zone with colluvium of all ages	numeric	0	99.88		
+hu8_surficialgeology_dec_resid_ha		hectare	real		area of zone with decomposition residuum of all ages	numeric	0	393706.68		
+hu8_surficialgeology_dec_resid_pct		dimensionless	real		percent of zone with decomposition residuum of all ages	numeric	0	88.16		
+hu8_surficialgeology_eolian_ha		hectare	real		area of zone with silt (loess), sand of all ages	numeric	0	118457.37		
+hu8_surficialgeology_eolian_pct		dimensionless	real		percent of zone with silt (loess), sand of all ages	numeric	0	27.61		
+hu8_surficialgeology_gf_out_ha		hectare	real		area of zone with glaciofluvial (outwash) deposits of all ages	numeric	0	619151.11		
+hu8_surficialgeology_gf_out_pct		dimensionless	real		percent of zone with glaciofluvial (outwash) deposits of all ages	numeric	0	61.77		
+hu8_surficialgeology_grus_ha		hectare	real		area of zone with glaciated, granitic grus of Quaternary and Tertiary age	numeric	0	2618.78		
+hu8_surficialgeology_grus_pct		dimensionless	real		percent of zone with glaciated, granitic grus of Quaternary and Tertiary age	numeric	0	2.76		
+hu8_surficialgeology_ice_ha		hectare	real		area of zone with ice-contact depositives of lake Wisconsin and Holocene age	numeric	0	157684.12		
+hu8_surficialgeology_ice_pct		dimensionless	real		percent of zone with ice-contact depositives of lake Wisconsin and Holocene age	numeric	0	51.92		
+hu8_surficialgeology_lac_ha		hectare	real		area of zone with a combination of: Glacial-lake clay and silt lake deposits of pre-Illinoian and Illinoin age; Glacial and postglacial lake deposits (delta, clay, silt and sand,  sand and gravel, density-current underflow-fan) of Holocene and late Wisconsin age; Beach sand and dune sand deposits of Holocene age; and Lake slack-water and alluvium deposits of pre-Illinoian, Illinoian, and late Wisconsin ages	numeric	0	143886.17		
+hu8_surficialgeology_lac_pct		dimensionless	real		percent of zone with a combination of: Glacial-lake clay and silt lake deposits of pre-Illinoian and Illinoin age; Glacial and postglacial lake deposits (delta, clay, silt and sand,  sand and gravel, density-current underflow-fan) of Holocene and late Wisconsin age; Beach sand and dune sand deposits of Holocene age; and Lake slack-water and alluvium deposits of pre-Illinoian, Illinoian, and late Wisconsin ages	numeric	0	57.74		
+hu8_surficialgeology_lac_clay_ha		hectare	real		area of zone with glacial and postglacial lake deposits (clay and silt) of Holocene and late Wisconsin age	numeric	0	315514.93		
+hu8_surficialgeology_lac_clay_pct		dimensionless	real		percent of zone with glacial and postglacial lake deposits (clay and silt) of Holocene and late Wisconsin age	numeric	0	91.68		
+hu8_surficialgeology_marine_ha		hectare	real		area of zone with coastal-plain marine deposits of Pleistocene and Pliocene ages, and glaciomarine deposits of late Wisconsin age	numeric	0	334525.16		
+hu8_surficialgeology_marine_pct		dimensionless	real		percent of zone with coastal-plain marine deposits of Pleistocene and Pliocene ages, and glaciomarine deposits of late Wisconsin age	numeric	0	100		
+hu8_surficialgeology_open_water_ha		hectare	real		area of zone with open water	numeric	0	120971.88		
+hu8_surficialgeology_open_water_pct		dimensionless	real		percent of zone with open water	numeric	0	40.82		
+hu8_surficialgeology_other_ha		hectare	real		area of zone with surficial deposits, surficial materials, and bedrock masses that were deformed and (or) transported intact by glacial ice	numeric	0	3540.83		
+hu8_surficialgeology_other_pct		dimensionless	real		percent of zone with surficial deposits, surficial materials, and bedrock masses that were deformed and (or) transported intact by glacial ice	numeric	0	1.17		
+hu8_surficialgeology_peat_mrsh_ha		hectare	real		area of zone with coastal or inland deposits of freshwater, brackish-water, peat and muck or freshwater swamps of Holocene and late Wisconsin age	numeric	0	164877.74		
+hu8_surficialgeology_peat_mrsh_pct		dimensionless	real		percent of zone with coastal or inland deposits of freshwater, brackish-water, peat and muck or freshwater swamps of Holocene and late Wisconsin age	numeric	0	67.44		
+hu8_surficialgeology_saprol_ha		hectare	real		area of zone with saprolite of quaternary and tertiary age on crystalline igneous and metamorphic rocks mostly	numeric	0	266038.99		
+hu8_surficialgeology_saprol_pct		dimensionless	real		percent of zone with saprolite of quaternary and tertiary age on crystalline igneous and metamorphic rocks mostly	numeric	0	48.63		
+hu8_surficialgeology_solif_ha		hectare	real		area fo zone with solifluction deposits of Holocene and late to middle Pleistocene age, and lake Wisconsin age	numeric	0	402521.09		
+hu8_surficialgeology_solif_pct		dimensionless	real		percent fo zone with solifluction deposits of Holocene and late to middle Pleistocene age, and lake Wisconsin age	numeric	0	100		
+hu8_surficialgeology_solut_ha		hectare	real		area of zone with solution residuum of Quaternary and tertiary age	numeric	0	558951.1		
+hu8_surficialgeology_solut_pct		dimensionless	real		percent of zone with solution residuum of Quaternary and tertiary age	numeric	0	85.78		
+hu8_surficialgeology_till_clay_ha		hectare	real		area of zone with till, clay of pre-Illinoian age, late Wisconsin and Holocene age	numeric	0	382461.59		
+hu8_surficialgeology_till_clay_pct		dimensionless	real		percent of zone with till, clay of pre-Illinoian age, late Wisconsin and Holocene age	numeric	0	99.97		
+hu8_surficialgeology_till_loam_ha		hectare	real		area of zone with till, loam of pre-Illinoian, Illinoian, and late Wisconsin and Holocene age	numeric	0	701025.67		
+hu8_surficialgeology_till_loam_pct		dimensionless	real		percent of zone with till, loam of pre-Illinoian, Illinoian, and late Wisconsin and Holocene age	numeric	0	100		
+hu8_surficialgeology_till_oth_ha		hectare	real		area of zone with till, complex depositions of lake Wisconsin and Illinoian age	numeric	0	37118.92		
+hu8_surficialgeology_till_oth_pct		dimensionless	real		percent of zone with till, complex depositions of lake Wisconsin and Illinoian age	numeric	0	9.33		
+hu8_surficialgeology_till_sand_ha		hectare	real		area of zone with till, sand of pre-Illinoian age, late Wisconsin and Holocene age	numeric	0	569724.13		
+hu8_surficialgeology_till_sand_pct		dimensionless	real		percent of zone with till, sand of pre-Illinoian age, late Wisconsin and Holocene age	numeric	0	97.88		

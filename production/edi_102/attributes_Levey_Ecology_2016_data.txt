@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+height	Height of plant	numeric	centimeter		NA	Missing value
+length	Length of plant	numeric	centimeter		NA	Missing value
+width	Width of plant	numeric	centimeter		NA	Missing value
+Total_leaves	Total number of leaves measured	numeric	dimensionless			
+Round	"Categorical variable representing Round 1 (30 May-13), Round 2 (30 June-11 July), and Round 3 (8-23 September)"	categorical				
+EU	Experimental unit code	categorical				
+Patch_ID	Patch code	categorical				
+Patch_Type	Patch type code	categorical				
+Transect	Transect code	categorical				
+Species	Species code	categorical				
+Survival	Survival	numeric	dimensionless			
+Herbivory	Total number of leaves with herbivory	numeric	dimensionless			
+Plant_ID	Individual plant id	character				
+Edge_distance	Diestance from edge of plot	numeric	meter			

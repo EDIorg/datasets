@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+datetime	Date and Time (EST)	Date		YYYY-MM-DD hh:mm		
+site	Site where sample was taken	categorical				
+method	Analytical method	character				
+sampletype	Sample Type: Auto (ISCO) or Grab	categorical				
+doc	Dissolved Organic Carbon	numeric	milligramsPerLiter		-9999	Missing value

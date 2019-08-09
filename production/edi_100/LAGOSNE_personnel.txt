@@ -1,0 +1,7 @@
+givenName	surName	organizationName	electronicMailAddress	userId	role
+Patricia A	Soranno	Michigan State University	soranno@msu.edu	0000-0003-1668-9271	pi
+Patricia A	Soranno	Michigan State University	soranno@msu.edu	0000-0003-1668-9271	creator
+Patricia A	Soranno	Michigan State University	soranno@msu.edu	0000-0003-1668-9271	contact
+Kendra S	Cheruvelil	Michigan State University	ksc@msu.edu	0000-0003-1880-2880	creator
+Edward G	Bissel	Michigan State University	bissell3@msu.edu		Database administrator
+Nicole J	Smith	Michigan State University	nicole.j.smith@gmail.com		GIS analyst

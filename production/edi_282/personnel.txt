@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Paul	C	Hanson	"University of Wisconsin-Madison, Center for Limnology"	pchanson@wisc.edu	0000-0001-8533-6061	PI	"CNH-L: Linking Land-Use Decision Making, Water Quality, and Lake Associations to Understand Human-Natural Feedbacks in Lake Catchments"	National Science Foundation (NSF)	1517823
+Aviah	B	Stillman	"University of Wisconsin-Madison, Center for Limnology"	aviah.stillman@gmail.com		Creator			
+Paul	C	Hanson	"University of Wisconsin-Madison, Center for Limnology"	pchanson@wisc.edu	0000-0001-8533-6061	Creator			
+Dante	O	Fratta	"University of Wisconsin-Madison, Geological Engineering"	fratta@wisc.edu	0000-0003-0478-6760	Creator			
+Aviah	B	Stillman	"University of Wisconsin-Madison, Center for Limnology"	aviah.stillman@gmail.com		Contact			

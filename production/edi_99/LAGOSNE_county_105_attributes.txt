@@ -1,0 +1,9 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+county_state			character	state in which the county is located	state in which the county is located	character	NA	NA		
+county_name			character	name of county	name of county	character	NA	NA		
+county_ha_in_nwi		hectare	real		area of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	38.27	1767897.64		
+county_ha		hectare	real		area of zone	numeric	5931.68	1768199.91		
+county_zoneid			character	unique zone identifier	unique zone identifier	character	NA	NA		
+county_pct_in_nwi		dimensionless	natural		percent of the zone (i.e., polygon) that is within the USFWS National Wetland Inventory (NWI) boundary	numeric	100	100		
+county_lat		degree	real		latitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	36.21	48.78		
+conty_long		degree	real		longitude of the centroid of the zone polygon in decimal degrees (NAD83)	numeric	-96.78	-67.64		

@@ -1,0 +1,24 @@
+keyword	keywordThesaurus
+discharge	LTER Controlled Vocabulary
+modeling	LTER Controlled Vocabulary
+concentration	LTER Controlled Vocabulary
+alkalinity	LTER Controlled Vocabulary
+ph	LTER Controlled Vocabulary
+carbon flux	LTER Controlled Vocabulary
+emissions	LTER Controlled Vocabulary
+water quality	LTER Controlled Vocabulary
+stream order	LTER Controlled Vocabulary
+carbon flux	LTER Controlled Vocabulary
+carbon dioxide	LTER Controlled Vocabulary
+biocarbonate	LTER Controlled Vocabulary
+dissolved inorganic carbon	LTER Controlled Vocabulary
+gases	LTER Controlled Vocabulary
+runoff	LTER Controlled Vocabulary
+streams	LTER Controlled Vocabulary
+rivers	LTER Controlled Vocabulary
+freshwater	LTER Controlled Vocabulary
+aquatic ecosystems	LTER Controlled Vocabulary
+geography	LTER Controlled Vocabulary
+hydrologic processes	LTER Controlled Vocabulary
+watersheds	LTER Controlled Vocabulary
+biogeochemistry	LTER Controlled Vocabulary

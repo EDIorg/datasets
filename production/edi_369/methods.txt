@@ -1,0 +1,57 @@
+Non-destructive measurement of aboveground NPP for the three dominant shrub species, <emphasis>Andromeda polifolia</emphasis>, <emphasis>Chamaedaphne calyculata</emphasis>, and <emphasis>Rhododendron groenlandicum</emphasis> was based on allometric equations developed after destructively sampling 50 new growth segments (shoots with leaves), thereby collecting all mass from the most recent bud scar collected in late July 2014, for each of the three species.  For each growth segment, we measured total length (mm), counted the number of leaves, measured the length and width of each leaf (mm), and dried each of the growth segments at 55 C for 5 days before weighing.  From these measurements, for each species, we developed an allometric equation that gave the best linear fit to the measured mass per growth segment (MPS; mg segment-1).  These allometric equations (all significant, p < 0.01) are for <emphasis>A. polifolia</emphasis>:
+
+
+
+MPS = 0.646xSqrt(0.5xLLAx0.5xLLWx&pi;xSLxLPS) - 17.2; R<superscript>2</superscript> = 0.86,
+
+
+
+for <emphasis>C. calyculata</emphasis>:
+
+
+
+MPS = 0.523xSqrt(0.5xLLAx0.5xLLWx&pi;xSLxLPS) - 20.0; R<superscript>2</superscript> = 0.92,
+
+
+
+and for <emphasis>R. groenlandicum</emphasis>:
+
+
+
+MPS = 0.712xSqrt(0.5xLLAx0.5xLLWx&pi;xSLxLPS) - 10.0; R<superscript>2</superscript> = 0.85,
+
+
+
+where LLA is the average length of leaves per segment (mm), LLW is the average width of leaves per segment (mm), SL is segment length (cm), and LPS is the number of leaves per segment. 
+
+In the second week of June 2014, we determined the density of the new growth segments (segments m<superscript>-2</superscript>) by counting all the new growth segments for each of the selected species in each 7.2 m<superscript>2</superscript> plot.  In the last week of July 2014, we measured new growth segment lengths, number of leaves, and leaf dimensions for 5 individual segments of each of the species per plot, and calculated MPS.  We calculated plot-level aboveground NPP (g m<superscript>-2</superscript> yr<superscript>-1</superscript>) for each species as the product of the mean MPS (g segment<superscript>-1</superscript> yr<superscript>-1</superscript>) and the density of new growth segments (segments m<superscript>-2</superscript>).  
+
+In 2015, we revised the allometric growth metrics to allow for more shoots per plot to be measured by overcoming the time constraints imposed by measuring the dimensions of each leaf per shoot.  Using the average leaf area (calculated as the area of an ellipse using the leaf dimensions) of all measured leaves for each species per plot, the revised allometric equations (all significant, p < 0.01) for mass per growth segment (MPS<subscript>b</subscript>, mg segment<superscript>-1</superscript>) are for <emphasis>A. polifolia:</emphasis> 
+
+MPS<subscript>b</subscript> = 0.3xSqrt((ALA+LLA)<superscript>2</superscript>xSLxLPS)+0.2; R<superscript>2</superscript> = 0.85,
+
+
+
+for <emphasis>C. calyculata</emphasis>:
+
+
+
+MPS<subscript>b</subscript> = 0.01xSqrt((ALA+LLA)<superscript>2</superscript>xSLxLPS)+8.3; R<superscript>2</superscript> = 0.91,
+
+
+
+and for <emphasis>R. groenlandicum</emphasis>:
+
+
+
+MPS<subscript>b</subscript> = 0.002xSqrt((ALA+LLA)<superscript>2</superscript>xSLxLPS)+4.3; R<superscript>2</superscript> = 0.85,
+
+
+
+where ALA is the average leaf area for a new growth segment (mm<superscript>2</superscript>), LLA is the area of the largest leaf on a segment (mm<superscript>2</superscript>), SL is segment length (cm), and LPS is the number of leaves per segment.  
+
+In late July 2015, we measured five plants of each species per plot as in 2014, in addition to 15 new growth segments per species measuring length of the new shoot, number of leaves, and dimensions of the largest leaf.  In the second week of June 2015, we counted shoot densities in the same manner as 2014.  We found no significant differences in predicted new growth segment masses between the original and revised models.  In 2015, we calculated aboveground NPP for each species as the product of shoot density and the mean of the 20 derived new shoot masses. 
+
+
+
+We collected samples of new vascular plant growth in 2011-2015 (current year growth leaves or needles). We marked individuals from which leaves were collected to avoid resampling in subsequent years.  All samples for N analysis were sorted for removal of debris, dried for a minimum of 6 days at 55 C, homogenized in a Thomas Wiley Mini-Mill, and analyzed on a Flash EA 1112 Series CN Soil Analyzer.

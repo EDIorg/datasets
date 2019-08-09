@@ -1,0 +1,8 @@
+attributeName	code	definition
+latewisconsinglaciation_glacial	Glaciated	Whole zone glaciated
+latewisconsinglaciation_glacial	Not_Glaciated	Whole zone not glaciated
+latewisconsinglaciation_glacial	Partially_Glaciated	Part of zone glaciated
+lakeconnection	DR_LakeStream	Drainage-lake-stream with inflowing stream(s) and at least one upstream lake >= 10 ha
+lakeconnection	Headwater	No inflowing streams
+lakeconnection	DR_Stream	Drainage-stream lakes with inflowing stream(s), with or without outflows, and no upstream lakes >= 10 ha
+lakeconnection	Isolated	No inflow or outflow streams

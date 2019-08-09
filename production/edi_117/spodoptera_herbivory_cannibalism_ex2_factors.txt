@@ -1,0 +1,5 @@
+attributeName	code	definition
+treatment	MeJA	MeJA applied
+treatment	Control	Control
+spod_added	1	Dead conspecifics added
+spod_added	0	No dead conspecifics added

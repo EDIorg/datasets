@@ -1,0 +1,36 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Douglas		Levey	National Science Foundation	dlevey@nsf.gov		creator			
+Trevor		Caughlin	Boise State University	trevorcaughlin@boisestate.edu		creator			
+Lars		Brudvig	Michigan State University	brudvig@msu.edu		creator			
+Nick		Haddad	Michigan State University	haddad@kbs.msu.edu		creator			
+Ellen		Damschen	University of Wisconsin-Madison	damschen@wisc.edu		creator			
+Joshua		Tewksbury	World Wildlife Fund International	Josh.tewksbury@futureearth.org		creator			
+Daniel		Evans	United States Agency for International Development (USAID)	dmevans@uw.edu		creator			
+Douglas		Levey	National Science Foundation	dlevey@nsf.gov		contact			
+John		Blake	USDA Forest Service-Savannah River (Retired)	Blakejohn7405@gmail.com		"Landscape experiment design, implementation, and maintenance"			
+Ed		Olson	USDA Forest Service- Savannah River	eolson@fs.fed.us		"Landscape experiment design, implementation, and maintenance"			
+Chris		Hobson	USDA Forest Service- Savannah River	chobson@fs.fed.us		"Landscape experiment design, implementation, and maintenance"			
+John		Orrock	University of Wisconsin-Madison	jorrock@wisc.edu		Intellectual and physical help			
+Nadia		Benner	Groves Academy			Field assistance			
+Melissa		Burt	Michigan State University	Melissa.ann.burt@gmail.com		Field assistance			
+Michael		Craig	Washington University in St. Louis	Mcraig10@gmail.com		Field assistance			
+Matt		Dalke				Field assistance			
+Lisa		Dlugolecki	US Fish and Wildlife Service	Lisa_dlugolecki@fws.gov		Field assistance			
+Melissa		Habenicht		Melissa.habenicht@gmail.com		Field assistance			
+Caleb		Hickman	Eastern Band of Cherokee Indians	calebhickman@gmail.com		Field assistance			
+Brenda		Johnson				Field assistance			
+Rebecca		Loiselle				Field assistance			
+Elizabeth		Long	Ohio State University	long.1541@osu.edu		Field assistance			
+Becky		Mau				Field assistance			
+Quinn		Mortell (Peacock)	North Carolina State University	qdmortel@ncsu.edu		Field assistance			
+Marilena		Nunez				Field assistance			
+Leslie		Peck	North Carolina State University Cooperative Extension	Leslie_peck@ncsu.edu		Field assistance			
+Julian		Resasco	University of Colorado	jresasco@colorado.edu		Field assistance			
+Lauren		Sullivan	University of Minnesota	lsulliva@umn.edu		Field assistance			
+Anna		Treado	Clemson University	unknown		Field assistance			
+Nash		Turley	University of Central Florida	nashuagoats@gmail.com		Field assistance			
+Stephanie		Wagner	University of Illinois	Sawagne2@illinois.edu		Field assistance			
+Nick		Haddad				PI	Collaborative Research: Effects of Corridors and Edges on Plant Populations	National Science Foundation	DEB-0613701
+Alice		Harmon				PI	Collaborative Research: Effects of Corridors and Edges on Plant Populations	National Science Foundation	DEB-0614333
+Alice		Harmon				PI	Collaborative Research: Effects of Corridors and Edges on Plant Populations	National Science Foundation	DEB-0613975
+USDA						PI	Interagency Agreement	Department of Energy-Savannah River Operations	DE-AI09-00SR22188

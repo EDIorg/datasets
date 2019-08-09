@@ -1,0 +1,1 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationSampleDate	Date the sample was taken	Date		YYYY-MM-DD		obsEpiP	Observational epilimnetic phosphorus concentration	numeric	gramsPerCubicMeter			modelEpiP	Model predictions for epilimnetic phosphorus concentrations	numeric	gramsPerCubicMeter			

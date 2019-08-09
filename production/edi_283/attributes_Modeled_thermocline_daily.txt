@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+datetime	Date the sample was taken	Date		YYYY-MM-DD		
+thermo_depth	Depth to the thermocline from the surface of the lake	numeric	meter		NaN	No data
+EpiTemp	Water temperature in the epilimnion	numeric	celsius			
+HypoTemp	Water temperature in the hypolimnion	numeric	celsius			

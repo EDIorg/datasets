@@ -1,0 +1,17 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+station	Station number (increasing downstream) at which sample was collected	character				
+date	Date sample collected.	Date		D-MMM-YY		
+time	Time of day sample collected - during conservative tracer (bromide) plateau (EDT).	Date		hh:mm		
+xdel13c	"<superscript>13</superscript>C content of DOC in streamwater sample, expressed as &#948;<superscript>13</superscript>C = [(R<subscript>sample</subscript>/R<subscript>PBD</subscript>)-1] x 1000, where R is the isotopic mole ratio of <superscript>13</superscript>C/<superscript>12</superscript>C, and the standard, RPBD=0.0112372"	numeric	dimensionless			
+elapsmin	Elapsed time (minutes) after start of injection at 09:43 EDT on 02 Oct 2002	numeric	minute			
+distance	Downstream distance of sampling station from point of injection.	numeric	meter			
+R	"Mole ratio, R of <superscript>13</superscript>C/<superscript>13</superscript>C"	numeric	dimensionless			
+F	Isotopic mole fraction F = <superscript>13</superscript>C/(<superscript>13</superscript>C+<superscrip>12</superscript>C) = R/(R+1)	numeric	dimensionless			
+DOCmm	"DOC concentration (millimoles/liter) in streamwater, sampled during injection plateau"	numeric	millimolesPerLiter			
+C13mm	"<superscript>13</superscript>C concentration (millimoles/liter) in streamwater, sampled injection plateau"	numeric	millimolesPerLiter			
+del13back	"Background &#948;13C of streamwater, taken immediately prior to injection and averaged over all stations  in study reach"	numeric	dimensionless			
+fback	"Background mole fraction, F, calculated from del13back"	numeric	dimensionless			
+fa	"Mole fraction, F, of added DOC leachate"	numeric	dimensionless			
+C13add	"13C (millimoles/liter) added to stream (i.e., background-corrected) as leachate, calculated by mixing model from DOCmm, F, fa, and fback"	numeric	millimolesPerLiter			
+brom_mgl	Bromide concentration (mg/L) averaged over the five plateau samples collected at the respective station	numeric	milligramsPerLiter			
+c13brom	Mole ratio of added <superscript>13</superscript>C to added bromide [C13add/(brom_mgl/80)] in plateau sample	numeric	dimensionless			

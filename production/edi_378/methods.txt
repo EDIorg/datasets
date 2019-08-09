@@ -1,0 +1,16 @@
+﻿All of the methods briefly described below are presented in detail in a 2008 publication in Freshwater Biology, doi:10.1111/j.1365-2427.01941.x
+
+Sample preparation - DOC and &#x00B9;&#x00B3;C-DOC samples were filtered through pre-combusted Whatman GF/F filters and the Br- samples were filtered through 0.2 &#x00B9;m Gelman HT filters. 
+
+&#x00B9;&#x00B3;C tracer generation - Tulip poplar seedlings were grown in a &#x00B9;&#x00B3;C-CO&#x2082; atmosphere and dried leaves, stems, and roots were ground and extracted in deionized water in the dark at 4&#176;C as described in Weigner, T. N., Kaplan, L.A., Newbold, J. D., and Ostrom, P. H. 2005. Synthesis of &#x00B9;&#x00B3;C-labeled tracer for stream DOC, labeling tulip poplar carbon with &#x00B9;&#x00B3;CO<subscript>2</subscript>.  Ecosystems 8:501-511. doi 10.1007/s10021-003-0043-1. The infusion was processed to remove particles, stabilized through Tyndallization, and stored at 4&#176;C prior to use. 
+
+Dissolved organic carbon (DOC) - Measurements were made by Pt-catalyzed persulfate oxidation in an OI 1010 analyzer.
+
+&#x00B9;&#x00B3;C-DOC - Analyses were performed as described in Gandhi, H., Wiegner, T. N., Ostrom, P. H., Kaplan, L. A., and Ostrom, N. E. 2004. Isotopic (13C) analysis of dissolved organic carbon in stream water using an elemental analyzer coupled to a stable isotope ratio mass spectrometer. Rapid Communication in Mass Spectrometry 18:903-906. doi 10.1002/rcm.1426. Filtered stream samples were concentrated with rotary evaporation, acidified, lyophilized, combusted, and the CO<subscript>2</subscript> analyzed with an elemental analyzer (EA 3000, Eurovector) interfaced to an isotope ratio mass spectrometer (GV Instruments).
+ 
+Bromide - Bromide was measured as an anion with ion chromatography (Dionex Model 500).
+&#x00B9;&#x00B3;C-DOC tracer calculations - The &#x00B9;&#x00B3;C enrichment or fractional abundance in the stream water DOC following the tracer addition was calculated from the measured &#948; &#x00B9;&#x00B3;C-DOC values and used in a mixing model to estimate the fractional abundance of the for the &#x00B9;&#x00B3;C-DOC from the tracer and from White Clay Creek water prior to the tracer addition. 
+
+&#x00B9;&#x00B3;C-DOC uptake in White Clay Creek - The longitudinal loss rate curve for the &#x00B9;&#x00B3;C-DOC tracer was approximated from the sum of two first-order loss rate curves associated with labile and semi-labile biodegradable DOC fractions. We used averaged, background-corrected, bromide-normalized 13C-DOC plateau concentrations from the downstream sampling sites in a nonlinear least squares analysis (PROC NLIN, SAS Institute). From the longitudinal loss rate coefficients we calculated uptake lengths and mass transfer coefficients for the two lability classes. 
+
+&#x00B9;&#x00B3;C-DOC tracer and stream water DOC lability profiling- White Clay Creek stream water or stream water amended with the &#x00B9;&#x00B3;C-DOC tracer were pumped into 8 bioreactors with empty bed contact times ranging from 0.5 to 73.8 minutes.  Influent and effluent waters from the bioreactors were sampled and analyzed for DOC and &#x00B9;&#x00B3;C-DOC. Biodegradable DOC concentrations were calculated from the differences in concentrations between the influents and effluents to the bioreactors.

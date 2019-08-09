@@ -1,0 +1,1 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationlakeid	Lake identification	categorical				depth	Depth below the lake surface	numeric	meter			hp_factor	Hypsometry factor (volume percent for that layer)	numeric	dimensionless			

@@ -1,0 +1,4 @@
+attributeName	formatString	unit	numberType	definition	attributeDefinition	columnClasses	minimum	maximum	missingValueCode	missingValueCodeExplanation
+buffer500m_nhdid			character	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	the "Permanent_identifier" from the NHD, but is called the NHDID in LAGOS-NE	character	NA	NA		
+lagoslakeid		dimensionless	natural		unique lake identifier developed for LAGOS-NE	numeric	1	141376		
+buffer500m_ha		hectare	real		area of zone	numeric	114.53	46028.28		

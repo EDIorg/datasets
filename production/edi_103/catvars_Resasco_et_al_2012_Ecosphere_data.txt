@@ -1,0 +1,8 @@
+attributeName	code	definition
+Patch	B	Peripheral patch connected by a corridor
+Patch	C	Peripheral patch clockwise from B
+Patch	D	Peripheral patch clockwise from C
+Patch	E	Peripheral patch clockwise from D
+Type	Con	Connected
+Type	Wing	Winged
+Type	Rect	Rectangular

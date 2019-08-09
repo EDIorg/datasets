@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Pedro	F	Quintana-Ascencio	University of Central Florida	pedro.quintana-ascencio@ufc.edu		creator			
+Eric	S	Menges	Archbold Biological Station	emenges@archbold-station.org		creator			
+Database Manager			Archbold Biological Station	DatabaseManager@archbold-station.org		contact			
+Pedro	F	Quintana-Ascencio	University of Central Florida	pedro.quintana-ascencio@ufc.edu		PI	LTREB Demographic research on Florida scrub plants	National Science Foundation	"DEB98-15370, DEB02-33899, DEB08-12717, and DEB-1347843"
+Eric	S	Menges	Archbold Biological Station	emenges@archbold-station.org		PI			

@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+YEAR	Year of Sampling: 2011-2015	Date		YYYY	-99999	Missing value
+COLLECTION_DATE	Day of collection	Date		MM/DD/YYYY	-99999	Missing value
+COLLECTION	Successive field sampling dates are assigned successive round designations from 1 to 30	character			-99999	Missing value
+N_TREATMENT	Field experimental N treatments were made with 8 applications per plot per year between mid-May and mid-August of each year	categorical			-99999	Missing value
+ARM	Experimental plots were located along 3 arms; each arm had one replicate each of 8 N treatments	categorical			-99999	Missing value
+DEPTH_INTERVAL_AT_TOP_OF_THE_WATER_TABLE	Location of top of the water table: depth sampled	categorical			-99999	Missing value
+NO3_N_CONCENTRATION	Concentration of nitrate measured in the sample	numeric	milligramsPerLiter		-99999	Missing value
+NH4_N_CONCENTRATION	Concentration of ammonium measured in the sample	numeric	milligramsPerLiter		-99999	Missing value
+DISSOLVED_INORGANIC_N_CONCENTRATION	Concentrations of nitrate and ammonium added together	numeric	milligramsPerLiter		-99999	Missing value
+DISSOLVED_ORGANIC_N_CONCENTRATION	Total nitrogen minus inorganic nitrogen in the sample	numeric	milligramsPerLiter		-99999	Missing value

@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Locus	Loci identified for each Allele	categorical				
+Allele	Alleles detected in each block	numeric	dimensionless			
+Block	Identifier assigned to each bock and patch type combination	categorical				
+n	Number of Common Buckeye butterflies collected in patches	numeric	dimensionless			
+AlleleFreqency	Frequency of allel within site calculated as proportion	numeric	dimensionless			

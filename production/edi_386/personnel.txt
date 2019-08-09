@@ -1,0 +1,24 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	LTREB: Stream Ecosystem Structure and Function within a Maturing Deciduous Forest	"National Science Foundation, DEB"	9726986
+Thomas	L	Bott				PI	Doctoral Dissertation Research in Ecosystem Studies	"National Science Foundation, DEB"	7712902
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	LTREB: Stream Ecosystem Structure and Function within a Maturing Deciduous Forest	"National Science Foundation, DEB"	424681
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	LTREB: Trajectory for the recovery of stream ecosystem structure and function during reforestation	"National Science Foundation, DEB"	1052716
+Bernard	W	Sweeney				PI	LTREB: Trajectory for the recovery of stream ecosystem structure and function during reforestation	"National Science Foundation, DEB"	1557063
+Thomas	L	Bott				PI	Dissolved Organic Matter Utilization and Bacterial Productivity in a Stream System	"National Science Foundation, DEB"	7921963
+Thomas	L	Bott				PI	Fates of Benthic Bacterial Productivity in a Stream System	"National Science Foundation, DEB"	8217482
+Thomas	L	Bott				PI	ROA: Dissolved Organic Carbon Dynamics in a Piedmont Stream: A Microbiological Perspective	"National Science Foundation, DEB"	8706667
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	Sources and Biological Lability of Terrestrial Dissolved Organic Carbon Entering Streams: Implications for Stream Ecosystem Metabolism	"National Science Foundation, DEB"	9308000
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	"Dissolved Organic Matter Biogeochemistry: Linking Ecosystem Processes, Community Structure and Microbial Dynamics in Streams"	"National Science Foundation, DEB"	9904047
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	WCR - Hydrologic Regulation of Dissolved Organic Matter Biogeochemistry from Forests through River Networks	"National Science Foundation, EAR"	450331
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	Collaborative Research: The Application of Scaling Rules to Energy Flow in Stream Ecosystems	"National Science Foundation, DEB"	516449
+Donald		Sparks				PI	CZO: Spatial and temporal integration of carbon and mineral fluxes: A whole watershed approach to quantifying anthropogenic modification of critical zone carbon sequestration	"National Science Foundation, EAR"	724971
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	PI	Collaborative Research: Meta-Ecosystems and the Upstream Legacy: Influence of Dissolved Organic Matter on the Structure and Function of Streambed Bacterial Communities	"National Science Foundation, DEB"	1120717
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	Creator			
+Louis	A	Kaplan	Stroud Water Research Center	lakaplan@stroudcenter.org	0000-0002-8262-1788	Contact			
+Sherman	L	Roberts	Stroud Water Research Center	sroberts@stroudcenter.org		sample collection and analysis			
+Mike	D	Gentile	Stroud Water Research Center	mgentile@stroudcenter.org		sample collection and analysis			
+Heather	P	Brooks	Stroud Water Research Center	hbrooks@stroudcenter.org		"sample collection, analysis and data management"			
+Melanie	L	Arnold	Stroud Water Research Center	marnold@stroudcenter.org		data management			
+Charlie	L	Dow	Stroud Water Research Center	cdow@stroudcenter.org		data management			
+Barbara		Funk	Stroud Water Research Center			sample collection and analysis			
+Michelle	A	Lorek	Stroud Water Research Center			sample collection and analysis			

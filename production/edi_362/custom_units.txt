@@ -1,0 +1,2 @@
+id	unitType	parentSI	multiplierToSI	descriptionmilligramsPerGram	mass	kilogram	1000	milligrams per grammicrogramsPerGram	mass	kilogram	1000000	micrograms per grammicrogramsPerGramPerDay	mass flux	kilogramPerSecond	11.5740741	micrograms per gram per daymicrogramsPerMeterSquaredPerDay	areal mass flux	kilogramsPerSquareMeterPerSecond	1.728E+11	micrograms per meter squared per day
+

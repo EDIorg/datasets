@@ -1,0 +1,15 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+		Interagency Ecological Program (IEP)	Interagency Ecological Program (IEP)			PI			
+Sarah		Lesmeister	California Department of Water Resources	sarah.lesmeister@water.ca.gov	0000-0001-5492-1188	contact			
+Jenna		Rinde	California Department of Water Resources	jenna.rinde@water.ca.gov	0000-0001-6677-4701	contact			
+		Interagency Ecological Program (IEP)				creator			
+Sarah		Lesmeister	California Department of Water Resources	sarah.lesmeister@water.ca.gov	0000-0001-5492-1188	creator			
+Jenna		Rinde	California Department of Water Resources	jenna.rinde@water.ca.gov	0000-0001-6677-4701	creator			
+Sarah		Lesmeister	California Department of Water Resources	sarah.lesmeister@water.ca.gov	0000-0001-5492-1188	supervisor			
+Jenna		Rinde	California Department of Water Resources	jenna.rinde@water.ca.gov	0000-0001-6677-4701	lead			
+Karen		Gehrts	California Department of Water Resources			supervisor			
+Shaun		Philippart	California Department of Water Resources			supervisor			
+Scott		Waller	California Department of Water Resources			supervisor			
+Brianne		Noble Sakata	California Department of Water Resources			lead			
+Dempsey		Mike	California Department of Water Resources			associate			
+Nick		Sakata	United States Bureau of Reclamation			associate			

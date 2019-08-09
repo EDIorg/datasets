@@ -1,0 +1,17 @@
+﻿Instruments :
+
+Analyses were performed using SM5310C persulfate oxidation method as detailed in the following publication: Kaplan, L. A. 1992. Comparison of high-temperature and persulfate oxidation methods for determination of dissolved organic carbon in freshwaters. Limnology and Oceanography 37:1119-1125. 
+
+Dohrman 
+
+OI1010
+
+OI700
+
+Sievers800
+
+Sievers900
+
+Sample Methods: 
+
+Water from White Clay Creek was sampled in accordance with the procedures outlined in the following publication: Kaplan, L. A. 1994. A field and laboratory procedure to collect, process, and preserve freshwater samples for dissolved organic carbon analysis. Limnology and Oceanography 39(6): 1470-1476. Briefly, water was collected from beneath the surface of White Clay Creek with a 60-ml polypropylene syringe (Becton Dickson and Co.) A three-way Luer lock stainless steel stopcock (Popper and Sons, Inc.) was placed between the syringe and a filter holder, allowing water to be drawn into the syringe through Teflon tubing and then filtered through a precombusted (500 C, 6 h) 25-mm-diameter glass-microfiber filter (Whatman GF/F) held in an acetyl resin syringe-type filter holder (Gelman Sci.). One syringe volume was filtered to waste prior to collection. Filtrate was collected in precombusted (550 C, 6 h) 40-ml borosilicate glass vials that were sealed with a screw cap containing a Teflon-backed-silicone septa. The septa and the syringe-type filter holder were cleaned by soaking them in 10% (w:v) sodium persulfate (Fluka Chem. Corp.) solution for 1h at 60 C and then rinsing them with laboratory-grade deionized water. Samples collected in this manner, or samples collected directly into precombusted, borosilicate glass vessels and then filtered are designated as GRAB samples. Other samples, especially those collected during storms, were collected via an automated sampler (ISCO 6712 full-size portable sampler, or similar models) and brought into the laboratory for filtration. Whenever possible, filtered samples were analyzed within 24h of collection and stored unamended at 5 C, isolated from the atmosphere and away from sunlight.
