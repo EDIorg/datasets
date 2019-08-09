@@ -103,16 +103,37 @@ convert_mcr4_to_ecocomDP <- function(path, parent_pkg_id, child_pkg_id){
   
   # location_id
   # Trim white space
+  # Use "unknown" for empty values
   
   data$Site <- trimws(data$Site, 'both')
   data$Habitat <- trimws(data$Habitat, 'both')
   data$Section_of_Transect <- trimws(data$Section_of_Transect, 'both')
   data$Quadrat <- trimws(data$Quadrat, 'both')
-  data$Location <- trimws(data$Location, 'both')
   
-  names(data)[
-    names(data) == 'Location'
-    ] <- 'location_id'
+  data$Site[data$Site == ''] <- 'Unknown'
+  data$Habitat[data$Habitat == ''] <- 'Unknown'
+  data$Section_of_Transect[is.na(data$Section_of_Transect)] <- 'Unknown'
+  data$Quadrat[is.na(data$Quadrat)] <- 'Unknown'
+  
+  data$location_id <- paste0(
+    data$Site,
+    '_',
+    data$Habitat,
+    '_',
+    data$Section_of_Transect,
+    '_',
+    data$Quadrat
+  )
+  
+  location_id_map <- data.frame(
+    key = unique(data$location_id),
+    id = paste0('lo_', seq(length(unique(data$location_id)))),
+    stringsAsFactors = F
+  )
+  
+  data$location_id <- location_id_map$id[
+    match(data$location_id, location_id_map$key)
+    ]
   
   # taxon_id
   # Use NA to fill empty record
@@ -185,10 +206,12 @@ convert_mcr4_to_ecocomDP <- function(path, parent_pkg_id, child_pkg_id){
   
   location <- ecocomDP::make_location(
     x = data,
-    cols = c('Site', 'Habitat', 'Section_of_Transect', 'Quadrat', 'location_id')
+    cols = c('Site', 'Habitat', 'Section_of_Transect', 'Quadrat')
   )
 
-  # Update observation table location_id
+  # Update observation table --------------------------------------------------
+  
+  # location_id
   
   observation$location_id <- location$location_id[
     match(observation$location_id, location$location_name)

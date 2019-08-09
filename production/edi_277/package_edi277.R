@@ -36,8 +36,10 @@ catvars <- ecocomDP::define_variables(
   parent.pkg.id = parent_pkg_id
 )
 
-use_i <- catvars$code == 'actual_temporal_resolution'
-catvars$definition[use_i] <- 'Actual temporal resolution of this data set is YYYY-MM, not YYYY-MM-DD'
+use_i <- catvars$code == 'DRY_GM2'
+catvars$definition[use_i] <- 'Dry mass density derived from estimates of density or percent cover and laboratory estimates of taxa dry mass.'
+catvars$unit[use_i] <- 'gramPerMeterSquared'
+
 
 # Add contact information for the creator of this script
 
@@ -56,7 +58,7 @@ message('Creating EML')
 ecocomDP::make_eml(
   data.path = path,
   code.path = path,
-  code.files = c('convert_mcr4_to_ecocomDP.R', 'package_edi277.R'),
+  code.files = c('convert_sbc50_to_ecocomDP.R', 'package_edi281.R'),
   parent.package.id = parent_pkg_id,
   child.package.id = child_pkg_id,
   sep = ',',
