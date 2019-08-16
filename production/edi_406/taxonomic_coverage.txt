@@ -1,0 +1,3 @@
+name	name_type	name_resolved	authority_system	authority_id
+Lupinus lepidus	scientific	Lupinus lepidus	ITIS	26048
+Lupinus lepidus	common	NA	NA	NA

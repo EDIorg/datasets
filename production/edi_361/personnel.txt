@@ -1,0 +1,14 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Monica	G	Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	creator			
+Kristin	H	Braziunas	University of Wisconsin-Madison	braziunas@wisc.edu		creator			
+Winslow	D	Hansen	Columbia University	whansen@ldeo.columbia.edu		creator			
+Brian	J	Harvey	University of Washington	bjharvey@uw.edu		creator			
+Shauna	L	Jacobs	University of Wisconsin-Madison	sljacobs3@wisc.edu		Field crew  data entry			
+Jacob		Gold	University of Wisconsin-Madison	jgold5@wisc.edu		Field crew			
+Deirdre	E	Turner	Loyola University-Chicago	dturner7@luc.edu		Field crew			
+Alexandra		Orrego	Georgia State University	aorrego1@student.gsu.edu		Field crew			
+Saba		Saberi	University of Washington	sjsaberi@uw.edu		Field crew			
+Tanjona		Ramiadantsoa	University of Wisconsin-Madison	ramiadantsoa@wisc.edu		"Postdoc, Field crew"			
+Monica	G	Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	contact			
+Monica	G	Turner			0000-0003-1903-2822	PI	RAPID: Collaborative Research: The 2016 Yellowstone Fires: early indicators of ecosystem transitions in a changing fire regime	NSF	DEB-1719905
+Monica	G	Turner			0000-0003-1903-2822	PI	"What makes for a resilient landscape? Climate, fire and forests in the Northern Rockies"	Joint Fire Science Program	16-3-01-4

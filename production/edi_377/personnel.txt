@@ -1,0 +1,5 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Hilary 		Dugan	University of Wisconsin-Madison	hdugan@wisc.edu	0000-0003-4674-1149	creator			
+Thomas		Shannon	University of Wisconsin-Madison	tshannon3@wisc.edu		creator			
+Carly		Ziter	Concordia University	carly.ziter@concordia.ca	0000-0002-3731-9678	creator			
+Hilary 		Dugan	University of Wisconsin-Madison	hdugan@wisc.edu	0000-0003-4674-1149	contact			

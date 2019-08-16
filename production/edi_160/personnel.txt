@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Natalie	M.	Flores	"Rubenstein Ecosystem Science Laboratory, University of Vermont"	natalie.flores@uvm.edu	0000-0002-3989-0544	creator			
+Todd	R.	Miller	"Joseph J. Zilber School of Public Health, University of Wisconsin-Milwaukee"	millertr@uwm.edu		creator			
+Jason	D.	Stockwell	"Rubenstein Ecosystem Science Laboratory, University of Vermont"	jason.stockwell@uvm.edu	0000-0003-3393-6799	creator			
+Natalie	M.	Flores	"Rubenstein Ecosystem Science Laboratory, University of Vermont"	natalie.flores@uvm.edu	0000-0002-3989-0544	contact			
+Jason	D.	Stockwell	"Rubenstein Ecosystem Science Laboratory, University of Vermont"	jason.stockwell@uvm.edu	0000-0003-3393-6799	contact			
+Jason	D.	Stockwell	"Rubenstein Ecosystem Science Laboratory, University of Vermont"	jason.stockwell@uvm.edu	0000-0003-3393-6799	PI	Global to Local Assessment of Cyanotoxins in Fish	Lintilhac Foundation	
+Jason	D.	Stockwell	"Rubenstein Ecosystem Science Laboratory, University of Vermont"	jason.stockwell@uvm.edu	0000-0003-3393-6799	PI	Global to Local Assessment of Cyanotoxins in Fish	Vermont Water Resources and Lake Studies Center	

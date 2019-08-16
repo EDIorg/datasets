@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+sample_id	Unique ID for each leaf collected for sequencing. Links to table msb-diversity-samples.csv	character				
+OTU	specific taxonomic group	character				
+number	Number of reads of a specific OTU XXX	numeric	number			

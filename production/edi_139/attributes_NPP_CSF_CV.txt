@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+line_number	Sequential line numbers	character			NA	not available
+year	Year data were collected	numeric	nominalYear		NA	not available
+quad_ID	Quadrat identification number	character			NA	not available
+tot_PP	Total biomass per quadrat	numeric	gramsPerSquareMeter		NA	not available
+time	Time index to order data for autocorrelation	numeric	dimensionless		NA	not available
+biome	Site location by biome 	categorical			NA	not available
+annual	Annual rainfall (calendar year)	numeric	millimeter		NA	not available
+monsoon	Total monsoon rainfall	numeric	millimeter		NA	not available
+SPEI	Standardized Precipitation Evaporation Index - a measure or aridity where lower values are more arid and higher values are more mesic	numeric	dimensionless		NA	not available
+maxsuT	Maximum summer temperature	numeric	celsius		NA	not available
+CVSPEI6	Coefficient of Variation of 6 month SPEI	numeric	dimensionless		NA	not available
+PP_roll	Data for calculating five year rolling mean of annual precipitation	numeric	millimeter		NA	not available
+SPEI_roll	Data for calculating five year rolling mean of SPEI	numeric	dimensionless		NA	not available

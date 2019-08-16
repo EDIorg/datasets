@@ -1,0 +1,2 @@
+geographicDescription	westBoundingCoordinate	eastBoundingCoordinate	northBoundingCoordinate	southBoundingCoordinate
+"Madison, Wisconsin, USA"	-89.55248	-89.26	43.15226	43.02255

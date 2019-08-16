@@ -1,0 +1,24 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+authors	authors and year of the article/report from which data were collected	character				
+citation	citation for the data source	character				
+DOI	"DOI for the article, if applicable"	character				
+water_body	name of the freshwater system from which the sample(s) were collected	character				
+country	"country where the study site (lake, pond, reservoir, etc.) is located"	character				
+state_or_prov	"state or province where the study site (lake, pond, reservoir, etc.) is located"	character				
+sample_location	This column specifies the sample site in the lake/freshwater system and distinguishes samples that were collected from different locations in the same body of water.	character				
+fish_collection_method	"method used to collect fish samples, if available"	character				
+trophic_stat	"trophic status of the freshwater system, if available"	character				
+lat	"latitude coordinates of the water body (or specific sample site) in decimal degrees, if available. If the coordinate is for a specific sample site, it will be specified in the ""notes"" column. Otherwise the coordinate is for the body of water and not associated with the specific sampling location."	numeric	degree			
+long	"longitude coordinates of the water body (or specific sample site) in decimal degrees, if available. If the coordinate is for a specific sample site, it will be specified in the ""notes"" column. Otherwise the coordinate is for the body of water and not associated with the specific sampling location."	numeric	degree			
+TN	"total nitrogen in ug/L, if available"	numeric	microgramsPerLiter			
+TN_error	error value for TN	numeric	microgramsPerLiter			
+TN_error_type	"error type associated with ""TN_error"""	categorical				
+TP	"total phosphorus in ug/L, if available"	numeric	microgramsPerLiter			
+TP_error	error value for TP	numeric	microgramsPerLiter			
+TP_error_type	"Error type associated with ""TP_error"""	categorical				
+max_depth	"maximum depth of the water body (not the specific sample location) in meters, if available"	numeric	meter			
+mean_depth	"mean depth of the water body (not the specific sample location) in meters, if available"	numeric	meter			
+SA	"surface area of the water body in square kilometers, if available"	numeric	squareKilometers			
+volume	"volume of the water body in meters cubed, if available"	numeric	cubicMeter			
+water_samples	yes (Y) or no (N) if water samples were collected concurrently with fish samples	categorical				
+notes	notes/comments section	character				

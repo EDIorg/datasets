@@ -1,0 +1,77 @@
+attributeName	code	definition
+units_sample_weight	g.FW	gram fresh weight
+units_sample_weight	mg.DW	milligram dry weight
+units_sample_weight	g.DW	gram dry weight
+units_sample_weight	mg.FW	milligram fresh weight
+sample	water	water
+sample	fish	fish
+type_error	st.dev	standard deviation
+type_error	0.95.conf.interval	95 percent confidence interval
+type_error	st.err	standard error
+type_error	RSD.percent	residual standard error
+units	ug/L	microGramsPerLiter
+units	ug/kg	microGramsPerKilogram
+units	ng/g	nanoGramsPerGram
+units	ng/L	nanoGramsPerLiter
+units	ug/g	microgramsPerGram
+units	ng/mL	nanoGramsPerMilliLiter
+units	ug/mg	microGramsPerMilligram
+units	mg/kg	milliGramsPerKilogram
+units	ug/100 g	migroGramPerHundredGram
+units	ppb	partPerBillion
+units	pg/mL	picoGramsPerMilliliter
+DW_or_FW	FW	Fresh weight
+DW_or_FW	DW	Dry weight
+DW_or_FW	AFDW	ash-free dry weight
+sex	M	male
+sex	F	female
+type_length	NS	not specified
+type_length	TL	total length
+type_length	SL	standard length
+units_length	mm	millimeter
+units_length	cm	centimeter
+units_length	in	inch
+type_error_length	st.err	standard error
+type_error_length	st.dev	standard deviation
+units_BW	g	gram
+units_BW	lbs	pound
+type_error_BW	st.err	standard error
+type_error_BW	st.dev	standard deviation
+toxin	1-MCLR	[D-Glu-OC2H3(CH3)OH6]microcystin-LR
+toxin	AtxA	anatoxin-a
+toxin	BMAA	beta-N-methylamino-L-alanine
+toxin	CYN	cylindrospermopsin
+toxin	DABA	"2,4-diaminobutyric acid dihydrochloride"
+toxin	Dem.MC-LR	demethylated microcystin-LR
+toxin	Dem.MC-RR	demethylated microcystin-RR
+toxin	GTX1	goniautoxin 1
+toxin	GTX2	goniautoxin 2
+toxin	GTX3	goniautoxin 3
+toxin	MC-987	an unknown microcystin named by the author of the data source
+toxin	MC-FR	microcystin-FR
+toxin	MC-LA	microcystin-LA
+toxin	MC-LF	microcystin-LF
+toxin	MC-LR	microcystin-LR
+toxin	MC-LR.equiv	microcystins reported in microcystin-LR equivalents
+toxin	MC-LW	microcystin-LW
+toxin	MC-LY	microcystin-LY
+toxin	MC-RR	microcystin-RR
+toxin	MC-WR	microcystin-WR
+toxin	MC-YR	microcystin-YR
+toxin	STX	saxitoxin
+toxin	STX.equiv	saxitoxin and saxitoxin analogs reported in saxitoxin equivalents
+toxin	total.MC	the sum of microcystin congeners detected by the authors
+toxin	total.PST	the sum of saxitoxin and saxitoxin analogs detected by the authors
+analysis_method	anti-MCLR ELISA	anti-microcystin-LR enzyme-linked immunosorbent assay
+analysis_method	ELISA (anti-ADDA enzyme-linked immunosorbent assay)	ELISA (anti-ADDA enzyme-linked immunosorbent assay)
+analysis_method	GC/MS (MMPB)	gas chromatography-mass spectrometry (using the 2-methyl-3-methoxy-4-phenylbutyric acid (MMPB) method)
+analysis_method	HPLC/FD	high pressure liquid chromatography with fluorescence detection
+analysis_method	HPLC/PDA	HPLC with photodiode array detection
+analysis_method	HPLC/UV	HPLC with ultra violet detection
+analysis_method	LC/MS	liquid chromatography-mass spectrometry
+analysis_method	LC/MS/MS	liquid chromatography tandem mass spectrometry
+analysis_method	LC/MS/MS (MMPB)	LC/MS/MS using the MMPB method
+analysis_method	LDTD/APCI/HRMS (MMPB)	laser thermal desorption-atmospheric pressure chemical ionization-high-resolution mass spectrometry using the MMPB method
+analysis_method	PP1A inhibition assay	protein phosphatase type 1A inhibition assay
+analysis_method	PP2A inhibition assay	protein phosphatase type 2A inhibition assay
+analysis_method	UPLC/MS/MS	ultra-performance liquid chromatography tandem mass spectrometry

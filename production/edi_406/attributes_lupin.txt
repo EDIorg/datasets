@@ -1,0 +1,26 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	Year that point or plot was surveyed	numeric	nominalYear			
+transect	Name of transect; in some cases denotes a plot rather than transect	character				
+point	Location along transect	numeric	meter		NA	not measured
+direction	Direction around point or transect	character			NA	not measured
+subpoint	subsample number 	character			NA	not measured
+site	some points are grouped into sites because they have been regularly surveyed over time	character				
+region	All sites are grouped in six regions for purpose of grouped data analyses	character			NA	not measured
+core_edge	location of sampling point relative to the spread of lupin	character			NA	not measured
+survtype	Type of survey	character				
+mon	Month point or plot was surveyed	numeric	dimensionless		NA	not measured
+day	Day of month that point or plot was surveyed	numeric	dimensionless		NA	not measured
+area	Surface area surveyed	numeric	squareMeter		NA	not measured
+bare_pr	"Proportion of surface area (""area"") with exposed bare rock or soil"	numeric	dimensionless		NA	not measured
+moss_pr	"Proportion of surface area (""area"") covered by moss"	numeric	dimensionless		NA	not measured
+other_pr	"Proportion of surface area (""area"") covered by vascular plants (not including lupin) + moss and litter.  The type of estimate is denoted by the attribute ""othertype.""  If vascular cover was estimated separately, then the value is entered under ""nlvascvr"" and ""separate"" is entered here.  "	numeric	dimensionless		NA	not measured
+scat_pr	"Proportion of surface area (""area"") covered elk feces"	numeric	dimensionless		NA	not measured
+vasc_litter_pr	"Proportion of surface area (""area"") covered by litter from vascular plants"	numeric	dimensionless		NA	not measured
+lup_litter_pr	"Proportion of surface area (""area"") covered by  lupin that died before current growing season. This can be used to estimate root borer/pathogen damage from year before."	numeric	dimensionless		NA	not measured
+vascular_pr	"Proportion of surface area (""area"") covered by live NON-Lupin vascular plants"	numeric	dimensionless		NA	not measured
+lup_pr	"Proportion of surface area (""area"") covered by live lupin"	numeric	dimensionless		NA	not measured
+lup_sqrs	Quadrat squares (1/256 per square meter equal to 1 square centimeter) covered by live lupin	numeric	squareCentimeters		NA	not measured
+stmbr_dmg_pr	Proportion of lupin with visible damage caused by stem borer	numeric	dimensionless		NA	not measured
+stmbr_dmg_sqrs	number of quadrat squares of lupin damaged by stem borers	numeric	squareCentimeters		NA	not measured
+stmbr_dmg_sqrs_py	number of quadrat squares of lupin killed by stem borers in prior year	numeric	squareCentimeters		NA	not measured
+stmbr_dmg_pr_py	proportion of lupin killed by stem borers in prior year	numeric	dimensionless		NA	not measured

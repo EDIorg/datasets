@@ -1,0 +1,5 @@
+attributeName	code	definition
+DOC_treatment	Bog	Water from Bog
+DOC_treatment	DCM	Water from deep chlorophyll maximum in Lake George
+Heat_treatment	Heated	Heated
+Heat_treatment	Unheated	Unheated

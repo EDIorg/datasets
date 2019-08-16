@@ -1,0 +1,7 @@
+keyword	keywordThesaurus
+small lakes	
+remote sensing	
+Chl-a	
+Landsat	
+eutrophication	
+in situ measurements

@@ -1,0 +1,5 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+Hall's Prairie: Restored native tallgrass prairie, subset of the Nutrient Network. Auburn, Kentucky.	36.87	36.87	-86.7	-86.7
+Konza LTER: Tallgrass prairie, subset of the Nutrient Network. Manhattan, KS.	39.07	39.07	-96.58	-96.58
+Chichaqua Bottoms: Tallgrass prairie, subset of the Nutrient Network. Maxwell, IA.	41.79	41.79	-93.39	-93.39
+Cedar Creek LTER: Experimental ecological reserve containing oak savannas, prairies, hardwood and pine forests, ash and cedar swamps, acid bogs, marshes, and sedge meadows. Subset of the Nutrient Network. East Bethel, MN.	45.43	45.43	-93.21	-93.21

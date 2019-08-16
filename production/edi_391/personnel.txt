@@ -1,0 +1,18 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Joshua	S	Lynn	University of New Mexico; Rocky Mountain Biological Laboratory	jslynn@unm.edu	https://orcid.org/0000-0002-7190-7991	creator			
+Melanie	R	Kazenel	University of New Mexico; Rocky Mountain Biological Laboratory	mkazenel@unm.edu		creator			
+Stephanie	N 	Kivlin	"University of New Mexico; Rocky Mountain Biological Laboratory; The University of Tennessee, Knoxville"	skivlin@utk.edu	https://orcid.org/0000-0003-2442-7773	creator			
+Jennifer	A	Rudgers	University of New Mexico; Rocky Mountain Biological Laboratory	jrudgers@unm.edu	https://orcid.org/0000-0001-7094-4857	creator			
+Joshua	S	Lynn	University of New Mexico; Rocky Mountain Biological Laboratory	jslynn@unm.edu	https://orcid.org/0000-0002-7190-7991	contact			
+Jennifer	A	Rudgers	University of New Mexico; Rocky Mountain Biological Laboratory	jrudgers@unm.edu	https://orcid.org/0000-0001-7094-4857	contact			
+Wendy		Brown	Rocky Mountain Biological Laboratory			Assisted in data collection			
+Samuel 		Canfield	Rocky Mountain Biological Laboratory			Assisted in data collection			
+Chiara		Forrester	Rocky Mountain Biological Laboratory			Assisted in data collection			
+Ian		Spellman	Rocky Mountain Biological Laboratory			Assisted in data collection			
+Joshua	S	Lynn			https://orcid.org/0000-0002-7190-7991	PI	Graduate Student Research Award	Western Ag Innovations 	
+Joshua	S	Lynn			https://orcid.org/0000-0002-7190-7991	PI	King of the Hill? Potential for novel biotic interactions	Botanical Society of America Graduate Student Research Award	
+Joshua 	S	Lynn			https://orcid.org/0000-0002-7190-7991	PI	Harry Wayne Springfield and Grove Scholarships	University of New Mexico Biology Department 	
+Joshua	S	Lynn			https://orcid.org/0000-0002-7190-7991	PI	King of the hill? Climate change effects on biotic interactions in alpine plant communities	Rocky Mountain Biological Laboratory Jean Langenheim Graduate Student Fellowship	
+Joshua	S	Lynn			https://orcid.org/0000-0002-7190-7991	PI	King of the Hill? Predicting the population consequences of climate change altered species interactions	American Philosophical Society Lewis and Clark Fund	
+Joshua	S	Lynn			https://orcid.org/0000-0002-7190-7991	PI	DISSERTATION RESEARCH: King of the hill? How competitive interactions affect biogeographical pattern and species responses to environmental variability	NSF-DEB	1701221
+Jennifer	A	Rudgers			https://orcid.org/0000-0001-7094-4857	PI	The potential for climate-induced disruption of plant-microbe symbioses along altitudinal gradients	NSF-DEB	1354972

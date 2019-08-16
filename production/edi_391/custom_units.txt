@@ -1,0 +1,5 @@
+id	unitType	parentSI	multiplierToSI	description
+microGramsNitrogenPerTenCentimeterSquareExchangeResinPerTenWeeks				ion exchange rate
+microGramsNitratePerTenCentimeterSquareExchangeResinPerTenWeeks				ion exchange rate
+microGramsAmmoniumPerTenCentimeterSquareExchangeResinPerTenWeeks				ion exchange rate
+microGramsPhosphorusPerTenCentimeterSquareExchangeResinPerTenWeeks				ion exchange rate

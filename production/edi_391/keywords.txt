@@ -1,0 +1,11 @@
+keyword	keywordThesaurus
+Ecological niche model	
+species distribution model	
+stress-gradient hypothesis	
+Dobzhansky-MacArthur hypothesis	
+mountain ecosystems	
+plants	
+abundance	
+biotic interactions	
+soil nutrients	
+climate	

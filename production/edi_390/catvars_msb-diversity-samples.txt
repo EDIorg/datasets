@@ -1,0 +1,17 @@
+attributeName	code	definition
+State	Minnesota	Minnesota
+State	Kentucky	Kentucky
+State	Iowa	Iowa
+State	Kansas	Kansas
+site_name	Cedar Creek LTER	Cedar Creek LTER
+site_name	Hall's Prairie	Hall's Prairie
+site_name	Chichaqua Bottoms	Chichaqua Bottoms
+site_name	Konza LTER	Konza LTER
+Site	CC	Cedar Creek LTER
+Site	HP	Hall's Prairie
+Site	IA	Chichaqua Bottoms
+Site	KZ	Konza LTER
+fert	1	plot receives all nutrients
+fert	0	control
+exclose	1	fenced
+exclose	0	control

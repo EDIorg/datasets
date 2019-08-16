@@ -1,0 +1,3 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Datetime_UTC	Date and time of reading in coordinated universal time (UTC)	Date		YYYY-MM-DD hh:mm:ss		
+Solar_Rad	Shortwave radiation measured by pyranometer	numeric	WattsPerSquareMeter			

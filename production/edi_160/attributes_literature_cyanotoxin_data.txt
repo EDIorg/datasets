@@ -1,0 +1,32 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+authors	authors and year of the article/report from which data were collected	character				
+water_body	name of the freshwater system from which the sample(s) were collected	character				
+sample_location	This column specifies the sample site in the lake/freshwater system and distinguishes samples that were collected from different locations in the same body of water. 	character				
+toxin	cyanotoxin type 	categorical				
+no_observations	"number of individual samples (water or fish) averaged or pooled to estimate the toxin value (i.e., how many fish or water samples that were used to get the value listed)"	character				
+analysis_method	method used to quantify cyanotoxins in the fish or water sample	categorical				
+day	"day of sample collection, if available"	character				
+month	"month of sample collection, if available"	character				
+year	"year of sample collection, if available"	character				
+sample_weight	"amount of tissue or cyanobacterial sample used in the analysis, see units column"	numeric	dimensionless			
+units_sample_weight	"units for ""sample_weight"""	categorical				
+sample	identifies if the sample is water or fish	categorical				
+sample_type	specifies the type of water or fish sample. 	character				
+value	"toxin concentration value, see units column"	numeric	dimensionless			
+error	"error value associated with ""value"", if available"	numeric	dimensionless			
+type_error	"error type, if available"	categorical				
+units	"units of toxin concentration associated with the ""value"" column"	categorical				
+DW_or_FW	specifies if the toxin value is in units of dry or fresh weight. 	categorical				
+fish_species	Latin name of fish species; genus or common name if species is unavailable	character				
+forage_mode	fish forage mode	character				
+comments	"notes about the sample or study ""LOD"" (detection limit), ""LOQ"" (quantification limit), ""YOY"" (young of year)"""	character				
+sex	"sex of the fish, if available"	categorical				
+type_length	"fish length type, if available"	categorical				
+length	"fish length value, see units column"	numeric	dimensionless			
+units_length	"units associated with ""length"""	categorical				
+error_length	error associated with length	numeric	dimensionless			
+type_error_length	"error type associated with ""error_length"""	categorical				
+BW	"body weight of the fish, if available, see units column"	numeric	dimensionless			
+units_BW	"units of ""BW"""	categorical				
+error_BW	"error value associated with ""BW"""	numeric	dimensionless			
+type_error_BW	"error type associated with ""error_BW"""	categorical				

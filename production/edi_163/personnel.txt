@@ -1,0 +1,9 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jonah		Boucher	Hamilton College Department of Biology			creator			
+Kathleen		Weathers	Cary Institute of Ecosystem Studies	weathersk@caryinstitute.org	0000-0002-3575-6508	creator			
+Hamidreza		Norouzi	"New York City College of Technology, Earth and Environmental Sciences"	hnorouzi@citytech.cuny.edu	0000-0003-0405-5108	creator			
+Bethel		Steele	Cary Institute of Ecosystem Studies	steeleb@caryinstitute.org	0000-0003-4365-4103	creator			
+Kathleen		Weathers	Cary Institute of Ecosystem Studies	weathersk@caryinstitute.org	0000-0002-3575-6508	contact			
+Bethel		Steele	Cary Institute of Ecosystem Studies	steeleb@caryinstitute.org	0000-0003-4365-4103	contact			
+Alan		Berkowitz		berkowitza@caryinstitute.org	0000-0002-3557-4181	PI	NSF-REU site program	NSF	NSF 1559769
+Kathleen		Weathers		weathersk@caryinstitute.org	0000-0002-3575-6508	PI	NSF Macrosystems Biology grant	NSF	1137327

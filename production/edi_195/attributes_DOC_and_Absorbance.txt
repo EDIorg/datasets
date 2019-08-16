@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+MesocosmID	Unique ID used to identify individual mesocosm	character				
+collection_date	Date water sample was taken from the mesocosm	Date		YYYY-MM-DD		
+analysis_date	Date sample was analyzed in the lab	Date		YYYY-MM-DD		
+DOC	Dissolved organic carbon concentration of the sample	numeric	milligramsPerLiter			
+SUVA	Specific UV absorbance at 254 nm	numeric	dimensionless			
+SR	Spectral ratio	numeric	dimensionless			
+comment	Any relevant comments	character				

@@ -1,0 +1,4 @@
+attributeName	code	definition
+biome	B	bluegrama grassland
+biome	C	creosote shrubland
+biome	G	black grama grassland

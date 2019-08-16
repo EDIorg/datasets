@@ -1,0 +1,9 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jennifer		Rudgers	University of New Mexico	jrudgers@unm.edu		creator			
+Y. Anny		Chung	Utah State Univ	yyachung@usu.edu		creator			
+Gregory		Maurer	UC Berkeley	gregmaurer@berkeley.edu		creator			
+Douglas		Moore	UNM	dmoore@unm.edu		creator			
+Esteban		Muldavin	UNM	muldavin@unm.edu		creator			
+Marcy		Litvak	UNM	mlitvak@unm.edu		creator			
+Scott		Collins	UNM	scollins@unm.edu	0000-0002-0193-2892	creator			
+Jennifer		Rudgers	University of New Mexico	jrudgers@unm.edu		contact			

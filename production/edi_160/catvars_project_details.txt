@@ -1,0 +1,7 @@
+attributeName	code	definition
+TN_error_type	st.dev	standard deviation
+TN_error_type	st.err	standard error
+TP_error_type	st.dev	standard deviation
+TP_error_type	st.err	standard error
+water_samples	Y	yes
+water_samples	N	no

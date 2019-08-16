@@ -1,0 +1,44 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Lake_ID	"A code given to each studied lake, e.g. TR_BEY_I, TR = country code (Turkey), BEY = three first letters of lake name (Lake Beysehir), I = if more than one lake basins were sampled"	character				
+Date	Date of sample collection	Date		YYYY-MM-DD	NA	not available
+LakeName	Name of lake that is commonly used	character				
+LabName	"The name of the laboratory organized the local sampling, was up to data collectors to choose. Usually the abbreviation of their lab along with the country code was used."	character				
+Country	Geographic location of lake	character				
+Latitude	Latitude coordinate of lake (WGS84)	numeric	degree		NA	not available
+Longitude	Longitude coordinate of lake (WGS84)	numeric	degree		NA	not available
+Altitude_m	Maximum depth of lake	numeric	meter		NA	not available
+MaximumDepth_m	Mean depth of lake	numeric	meter		NA	not available
+MeanDepth_m	Altitude of lake meter above sea level	numeric	meter		NA	not available
+SecchiDepth_m	Secchi depth reading	numeric	meter		NA	not available
+SamplingDepth_m	Depth of sample collection	numeric	meter		NA	not available
+ThermoclineDepth_m	Depth of Thermocline	numeric	meter		NA	not available
+SurfaceTemperature_C	Lake water temperature at 0.5m under surface	numeric	celsius		NA	not available
+EpilimneticTemperature_C	Averaged lake water temperature from surface till end of thermocline	numeric	celsius		NA	not available
+TP_mgL	Concentration of total phosphorus	numeric	milligramsPerLiter		NA	not available
+TN_mgL	Concentration of total nitrogen	numeric	milligramsPerLiter		NA	not available
+NO3NO2_mgL	Concentration of nitrates and nitrites (dissolved nutrients)	numeric	milligramsPerLiter		NA	not available
+NH3_mgL	Concentration of ammonia (dissolved nutrients)	numeric	milligramsPerLiter		NA	not available
+PO4_ugL	Concentration of phosphate (dissolved nutrients)	numeric	microgramsPerLiter		NA	not available
+Chlorophylla_ugL	Concentration of photosynthetic pigment chlorophyll-a	numeric	microgramsPerLiter		NA	not available
+Chlorophyllb_ugL	Concentration of photosynthetic pigment chlorophyll-b	numeric	microgramsPerLiter		NA	not available
+Zeaxanthin_ugL	Concentration of photosynthetic pigment zeaxanthin	numeric	microgramsPerLiter		NA	not available
+Diadinoxanthin_ugL	Concentration of photosynthetic pigment diadinoxanthin	numeric	microgramsPerLiter		NA	not available
+Fucoxanthin_ugL	Concentration of photosynthetic pigment fucoxanthin	numeric	microgramsPerLiter		NA	not available
+Diatoxanthin_ugL	Concentration of photosynthetic pigment diatoxanthin	numeric	microgramsPerLiter		NA	not available
+Alloxanthin_ugL	Concentration of photosynthetic pigment alloxanthin	numeric	microgramsPerLiter		NA	not available
+Peridinin_ugL	Concentration of photosynthetic pigment peridinin	numeric	microgramsPerLiter		NA	not available
+Chlorophyllc2_ugL	Concentration of photosynthetic pigment chlorophyll-c2	numeric	microgramsPerLiter		NA	not available
+Echinenone_ugL	Concentration of photosynthetic pigment echinenone	numeric	microgramsPerLiter		NA	not available
+Lutein_ugL	Concentration of photosynthetic pigment lutein	numeric	microgramsPerLiter		NA	not available
+Violaxanthin_ugL	Concentration of photosynthetic pigment violaxanthin	numeric	microgramsPerLiter		NA	not available
+MC_YR_ugL	Concentration of cyanobacterial hepatotoxin microcystin YR	numeric	microgramsPerLiter		NA	not available
+MC_dmRR_ugL	Concentration of cyanobacterial hepatotoxin microcystin dmRR	numeric	microgramsPerLiter		NA	not available
+MC_RR_ugL	Concentration of cyanobacterial hepatotoxin microcystin RR	numeric	microgramsPerLiter		NA	not available
+MC_dmLR_ugL	Concentration of cyanobacterial hepatotoxin microcystin dmLR	numeric	microgramsPerLiter		NA	not available
+MC_LR_ugL	Concentration of cyanobacterial hepatotoxin microcystin LR	numeric	microgramsPerLiter		NA	not available
+MC_LY_ugL	Concentration of cyanobacterial hepatotoxin microcystin RY	numeric	microgramsPerLiter		NA	not available
+MC_LW_ugL	Concentration of cyanobacterial hepatotoxin microcystin RW	numeric	microgramsPerLiter		NA	not available
+MC_LF_ugL	Concentration of cyanobacterial hepatotoxin microcystin RF	numeric	microgramsPerLiter		NA	not available
+NOD_ugL	Concentration of cyanobacterial hepatotoxin nodularin	numeric	microgramsPerLiter		NA	not available
+CYN_ugL	Concentration of cyanobacterial cytotoxin cylindrospermopsin	numeric	microgramsPerLiter		NA	not available
+ATX_ugL	Concentration of cyanobacterial neurotoxin anatoxin-a	numeric	microgramsPerLiter		NA	not available

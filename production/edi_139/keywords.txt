@@ -1,0 +1,11 @@
+keyword	keywordThesaurus
+Sevilleta LTER	
+Sevilleta National Wildlife Refuge	
+net primary production	
+climate sensitivity functions	
+Blue grama grassland	
+black grama grassland	
+creosote shrubland	
+SPEI	
+precipitation	
+climate variability	

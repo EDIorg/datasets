@@ -1,0 +1,117 @@
+latitude	longitude	site
+-37.936811	-57.735439	Los Padres Lake
+36.844892	8.389097	Lake Oubeira
+19.637456	-101.628761	Lago de Patzcuaro
+-31.373283	-64.467861	San Roque Reservoire
+31.529517	117.542756	Lake Chaohu
+31.275897	120.148728	Lake Taihu
+-22.544244	-44.623167	Funil reservoir
+-21.402917	-45.814517	Furnas reservoir
+47.17065	-122.564431	Lake Waughop
+48.282136	-122.345542	Lake Ketchum
+48.052261	-122.094975	Lake Cassidy
+46.992594	-122.7733	Lake Pattison
+47.645697	-121.727319	Lake Black
+48.018222	-122.801808	Lake Anderson
+47.847761	-117.711422	Lake Spokane
+52.777347	5.381214	Lake Ijsselmeer
+39.666592	20.883544	Lake Pamvotis
+59.749292	17.601042	Lake Ekoln
+59.591478	17.526928	Lake Lilla Ullfjarden
+59.737972	17.838883	Lake Valloxen
+63.218892	14.281594	Lake Storsjon
+41.745444	12.670722	Lake Albano
+39.489425	22.825533	Lake Karla
+38.567239	21.565447	Lake Trichonis
+38.564583	21.369528	Lake Lyshimachia
+40.760047	21.093261	Lake Mikri Prespa
+40.755661	21.790217	Lake Vegoritis
+40.525989	21.296053	Lake Kastoria
+40.625442	21.547742	Lake Zazari
+40.727803	21.697506	Lake Petron
+40.592611	21.566486	Lake Chimaditis
+40.682003	23.152375	Lake Koronia
+40.67775	23.480117	Lake Volvi
+41.2147	22.745217	Lake Doirani
+41.212169	23.144053	Lake Kerkini
+1.612936	30.862822	Lake Albert
+-0.360803	29.594211	Lake Edward
+-0.003775	30.2129	Lake George
+-0.647331	31.093231	Lake Mburo
+0.250806	32.644156	Lake Victoria
+0.516967	30.302906	Lake Nkuruba
+0.681553	30.235017	Lake Saka
+44.149444	-77.154722	Lake Ontario
+41.724936	-83.394617	Lake Erie
+25.309942	83.000033	Lakshmikund Pond
+45.728711	5.867636	Lake Bourget
+47.284794	8.215564	Lake Hallwil
+36.05	138.083333	Lake Suwa
+29.708739	113.540764	Lake Huanggai
+29.533044	113.232256	Lake Bajiao
+31.598419	119.80955	Lake Gehu
+31.102131	120.946197	Lake Dianshan
+30.563539	114.38795	Lake Donghu
+29.914111	115.586878	Lake Wushan
+40.781375	-96.633222	Holmes Reservoir
+40.843169	-96.872042	Pawnee Reservoir
+40.222075	-96.581453	Rockford Reservoir
+40.187531	-95.993064	Kirkman's Cove Reservoir
+40.511464	-97.252914	Swan Creek Reservoir
+40.7665	-96.849092	Conestoga Reservoir
+42.179167	-97.572792	Willow Creek Reservoir
+40.971733	-96.862836	Branched Oak Reservoir
+41.976589	-102.671867	Bluestem Reservoir
+-6.384242	-36.582928	Marechal Dutra Reservoir
+38.014717	30.8777	Lake Egirdir
+-25.431633	29.316839	Loskop Dam
+51.178961	22.529008	Zemborzycki dam reservoir
+40.542733	-84.464822	Grand Lake St. Marys
+43.190392	-70.932667	Barbadoes Pond
+29.408792	111.953319	Lake Maoli
+57.020433	24.174728	Lake Kisezers
+56.990439	24.217978	Lake Babelitis
+57.028347	24.295214	Lake Lielais Baltezers
+57.046722	24.327928	Lake Mazais Baltezers
+57.011586	24.338875	Lake Langstini
+57.736822	25.247033	Lake Burtnieks
+57.314456	25.165428	Lake Raiskums
+-25.009167	-50.018725	Alagados Reservoir
+56.133333	13.7	Lake Finjasjon
+-6.528778	-36.111931	Boqueirao do Cais reservoir
+-7.839083	-36.697547	Cordeiro reservoir
+-7.452775	-35.583789	Acaua reservoir
+-6.688781	-35.78475	Cacimba de Varzea reservoir
+-6.735064	-35.416853	Aracagi reservoir
+39.425817	-6.486364	Barruecos de Arriba Pond
+39.422172	-6.500933	Barruecos de Abajo Pond
+30.272792	120.18675	Huajiachi Lake
+51.286742	23.237908	Lake Syczynskie
+37.476936	49.335864	Anzali wetland
+26.5	31.833333	El-Dowyrat fish pond
+-38.030419	176.4126	Lake Rotoiti
+-38.021803	176.53005	Lake Rotoehu
+43.831825	10.331411	Lake Massaciuccoli
+43.04675	13.166825	Lake Fiastrone
+48.373781	2.896819	La Grande Paroisse Lake
+48.971194	2.299497	Enghien Lake
+48.938733	16.515897	Novovesky fishpond
+49.571297	16.301147	Vir reservoir
+49.400783	16.005322	Mostiste reservoir
+49.469153	17.031772	Plumlov reservoir
+44.892381	-85.705644	South Lake Leelanau
+45.022842	-85.739283	North Lake Leelanau
+44.922133	-85.840542	Little Traverse Lake
+29.097703	116.272564	Lake Poyang
+18.401375	-95.061425	Lake Catemaco
+-15.783356	-47.822208	Paranoa Lake
+38.400606	23.26915	Lake Yliki
+36.078586	-118.911294	Lake Success
+41.958542	-122.433592	Irongate Reservoir
+41.984631	-122.314697	Copco Reservoir
+45.902078	-75.606428	Lake Vert
+45.466194	-72.652464	Lake Roxton
+46.277583	-73.544614	Lake Noir
+41.437064	-96.549792	Fremont Lake 20
+41.302025	-95.916761	Carter Lake
+43.626025	-72.144697	Lake Mascoma

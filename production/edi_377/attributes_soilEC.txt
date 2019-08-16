@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SiteID	Site ID	character				
+LandCover	Land cover class abbreviation	character				
+LandCoverClass	Land cover class	character				
+EC_uS_cm	Soil electrical conductivity of soil slurry solution	numeric	microSiemenPerCentimeter		NA	not available
+BulkDensity_g_cm3	Soil bulk density (g/cm3) measured empirically	numeric	gramsPerCubicCentimeter		NA	not available
+Sand_percent	Soil percent sand measured using the hydrometer method	numeric	dimensionless		NA	not available
+Silt_percent	Soil percent silt measured using the hydrometer method	numeric	dimensionless		NA	not available
+Clay_percent	Soil percent clay measured using the hydrometer method	numeric	dimensionless		NA	not available
+Texture	Soil texture assigned according to the USDA major textural classes	character			NA	not available
+SatCond_mm_hr	Soil saturated hydraulic conductivity (mm/hr)	numeric	millimetersPerHour		NA	not available
+ImperviousSurface30mBuffer_percent	Percent impervious surface within a circular 30m radii of the sampling location.	numeric	dimensionless		NA	not available
+Latitude	Latitude of sampling site	numeric	degree		NA	not available
+Longitude	Longitude of sampling site	numeric	degree		NA	not available

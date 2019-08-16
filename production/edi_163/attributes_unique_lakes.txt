@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+GNIS_Name	"Proper name, specific term, or expression by which a particular geographic entity is known"	character			NA	not available
+GNIS_ID	Unique identifier assigned by GNIS	character			NA	not available
+Permanent_ID	Global ID and GUID data unique identifiers provided by the NHD database	character			NA	not available
+lake_a_ha	Lake surface area	numeric	hectare		NA	not available

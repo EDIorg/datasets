@@ -1,0 +1,27 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+peak	Name of the peak associated with a mountain transect	categorical				
+site	Number designation for a unique site within a transect that is loosely based on 100m elevation bands. Sites with x refer to extra sites sampled in 2016.	character				
+spp	Species code	categorical				
+year	Year that the site was sampled	numeric	nominalYear		NA	not available
+abund	Abundance of a given species at a site expressed as counts over 60m of transects	numeric	number		NA	not available
+Latitude	Latitude of the site in WGS 84	numeric	degree		NA	not available
+Longitude	Longitude of the site in WGS 84	numeric	degree		NA	not available
+Elevation_m	Elevation of the site above sea level	numeric	meter		NA	not available
+Avg_VWC1	Average soil volumetric water content for a site at first sample between 12-24 July 2014 (Water L/Soil L)*100	numeric	dimensionless		NA	not available
+Avg_VWC2	Average soil volumetric water content for a site at first sample between 23 Sept-8 Oct 2014 (Water L/Soil L)*100	numeric	dimensionless		NA	not available
+Avg_Soil_Depth	Average soil depth for a site	numeric	millimeter		NA	not available
+pH	Soil pH of the site	numeric	dimensionless		NA	not available
+p1MAT	Mean annual temperature (MAT) of the site measured	numeric	celsius		NA	not available
+tot_N	Total nitrogen ion exchange rate for a site determined by the addition of ammonium (ammon) and nitrate	numeric	microGramsNitrogenPerTenCentimeterSquareExchangeResinPerTenWeeks		NA	not available
+nitrate	Nitrate exchange rate for a site	numeric	microGramsNitratePerTenCentimeterSquareExchangeResinPerTenWeeks		NA	not available
+ammon	Ammonium exchange rate for a site	numeric	microGramsAmmoniumPerTenCentimeterSquareExchangeResinPerTenWeeks		NA	not available
+phos	Phosphate exchange rate for a site	numeric	microGramsPhosphorusPerTenCentimeterSquareExchangeResinPerTenWeeks		NA	not available
+goph	Average gopher disturbance counts across three 40m transects at a site (Lynn et al. 2018 for details)	numeric	number		NA	not available
+cov	Total vegetative % cover for a site summed across 33 20x20cm plots (maximum 3300)	numeric	dimensionless		NA	not available
+Hdiv	Shannon diversity for plants at a site based on vegetation surveys. Calculated in R with the vegan package.	numeric	dimensionless		NA	not available
+richness	Species richness of plants for a site calculated by summing the number of unique species found at a site in the vegetation surveys. 	numeric	number		NA	not available
+SimpDiv	Simpsons diversity for plants at a site based on vegetation surveys. Calculated in R with the vegan package.	numeric	dimensionless		NA	not available
+InvSimpDiv	Inverse Simpsons diversity for plants at a site based on vegetation surveys. Calculated in R with the vegan package.	numeric	dimensionless		NA	not available
+w_herb	Percent leaf area damaged by herbivory. Measure is for a site by weighted averaging (by abundance) across the grass species present at a site	numeric	dimensionless		NA	not available
+w_fung	Percent leaf area damaged by leaf pathogens. Measure is for a site by weighted averaging (by abundance) across the grass species present at a site	numeric	dimensionless		NA	not available
+AVG_amf	Percent microscope views of roots that contained aseptate fungi (candidate arbuscular mycorrhizal fungi). Measure is for a site by weighted averaging (by abundance) across the grass species present at a site	numeric	dimensionless		NA	not available

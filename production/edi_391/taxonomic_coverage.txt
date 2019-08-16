@@ -1,0 +1,14 @@
+name	name_type	name_resolved	authority_system	authority_id
+Achnatherum lettermanii	scientific	Achnatherum lettermanii	ITIS	507946
+Achnatherum nelsonii	scientific	Achnatherum nelsonii	ITIS	507948
+Elymus scribneri	scientific	Elymus scribneri	ITIS	502277
+Elymus trachycaulus	scientific	Elymus trachycaulus	ITIS	502282
+Festuca brachyphylla	scientific	Festuca brachyphylla	ITIS	40794
+Festuca rubra	scientific	Festuca rubra	ITIS	40796
+Festuca saximontana	scientific	Festuca saximontana	ITIS	502611
+Festuca thurberi	scientific	Festuca thurberi	ITIS	40828
+Poa alpina	scientific	Poa alpina	ITIS	41076
+Poa pratensis	scientific	Poa pratensis	ITIS	41088
+Poa stenantha	scientific	Poa stenantha	ITIS	41159
+Trisetum spicatum	scientific	Trisetum spicatum	ITIS	41294
+

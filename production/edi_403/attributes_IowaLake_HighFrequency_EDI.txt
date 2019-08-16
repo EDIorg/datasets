@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Lake	Name of the lake as listed in the Iowa Department of Natural Resources database	character				
+Year	Year of sampling	numeric	nominalYear		NA	not available
+DOY	Julian day of year	numeric	number		NA	not available
+Chlorophyll	"Mean chlorophyll a concentration for that day of year and lake, calculated from the higher frequency measurements"	numeric	microgramsPerLiter		NA	not available
+Phycocyanin	"Mean phycocyanin concentration for that day and lake, calculated from the higher frequency measurements"	numeric	microgramsPerLiter		NA	not available
+DissolvedOxygen_Saturation	"Mean dissolved oxygen saturation for that day and lake, calculated from the higher frequency measurements"	numeric	percentSaturation		NA	not available
+pH	"Mean pH value for that day and lake, calculated from the higher frequency measurements"	numeric	dimensionless		NA	not available
+Temperature	"Water temperature for that day and lake, calculated from the higher frequency measurements"	numeric	celsius		NA	not available

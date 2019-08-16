@@ -1,0 +1,20 @@
+keyword	keywordThesaurus
+EMLS	
+snapshot sampling	
+phytoplankton ecology	
+lake	
+Europe	
+temperature	
+total nitrogen	
+total phosphorus	
+algal pigments	
+chlorophyll-a	
+chlorophyll-b	
+zeaxanthin	
+algal toxins	
+microcystin	
+anatoxin	
+cylindrospermopsin
+Microbial Ecology Lab	
+Department F.A Forel	
+University of Geneva

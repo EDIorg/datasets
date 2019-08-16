@@ -1,0 +1,19 @@
+attributeName	code	definition
+peak	A	Avery
+peak	C	Cinnamon
+peak	HH	Hunters Hill
+peak	R	Ruby
+peak	Teo	Teocalli
+peak	TR	Treasury
+spp	ACLE	Achnatherum lettermanii  (Vasey) Barkworth
+spp	ACNE	Achnatherum nelsonii  (Scribn.) Barkworth
+spp	ELSC	Elymus scribneri  (Vasey) M.E. Jones
+spp	ELTR	Elymus trachycaulus  (Link) Gould ex Shinners
+spp	FEBR	Festuca brachyphylla  Schult. ex Schult. & Schult. f.
+spp	FERU	Festuca rubra  L.
+spp	FESA	Festuca saximontana  Rydb.
+spp	FETH	Festuca thurberi  Vasey
+spp	POAL	Poa alpina  L.
+spp	POPR	Poa pratensis  L.
+spp	POST	Poa stenantha  Trin.
+spp	TRSP	Trisetum spicatum  (L.) K. Richt.

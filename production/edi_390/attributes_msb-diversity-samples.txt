@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+sample_id	Unique ID for each leaf collected for sequencing	character				
+State	State in which site occurs	categorical				
+site_name	Name of the site where data are collected	categorical				
+Site	Code for the site where data are collected	categorical				
+Block	Experimental block	character				
+plot	Identifier for 5x5 m experimental unit	character				
+Plant	Plant that was sampled (nested) in each plot  	character				
+fert	Fertilized or unfertilized 	categorical				
+exclose	Fenced or unfenced	categorical				
+ens_pie_lg	"Fungal effective number of species based on Simpson Diversity, log10 transformed"	numeric	number			
+ens_plant_lg	"Plant effective number of species based on Simpson Diversity, log10 transformed"	numeric	dimensionless			
+total_mass_lg	"Total aboveground plant mass, log10 transformed"	numeric	gramsPerSquareMeter			
+prop_live	Proportion of total mass composed of live plants	numeric	dimensionless			
+prop_grass	Proportion of total mass composed of live grass	numeric	dimensionless			
+andger_cover	"Percent cover of Andropogon gerardii , the focal host plant"	numeric	dimensionless			

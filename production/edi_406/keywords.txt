@@ -1,0 +1,21 @@
+keyword	keywordThesaurus
+Succession	
+disturbance	
+population dynamics	
+community ecology	
+plant-insect interactions	
+herbivory	
+volcanic	
+trophic interactions	
+caterpillars	
+Lepidoptera	
+disturbance	
+ecology	
+disturbance ecology	
+community ecology
+community assembly	
+stoichiometry	
+Filatima
+Staudingeria
+Hystricophora
+Grapholita

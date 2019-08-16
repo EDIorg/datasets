@@ -1,0 +1,15 @@
+keyword	keywordThesaurus
+lake	
+algae	
+limnology	
+water temperature	
+bloom	
+sonde	
+hypereutrophic	
+eutrophic
+Iowa lakes	
+chlorophyl	
+Phycocyanin	
+Dissolved Oxygen Saturation 	
+pH	
+Temperature	

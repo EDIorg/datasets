@@ -1,0 +1,8 @@
+name	name_type	name_resolved	authority_system	authority_id
+Andropogon gerardii	scientific	Andropogon gerardii	ITIS	40462
+Ascomycota	scientific	Ascomycota	ITIS	610624
+Basidiomycota	scientific	Basidiomycota	ITIS	623881
+Chytridiomycota	scientific	Chytridiomycota	ITIS	936289
+Glomeromycota	scientific	Glomeromycota	ITIS	936290
+Rozellomycota	scientific	NA	NA	NA
+Zygomycota	scientific	Zygomycota	ITIS	936291

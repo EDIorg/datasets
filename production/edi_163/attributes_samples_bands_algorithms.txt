@@ -1,0 +1,26 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Name	Sampling location name provided by NH or ME database	character			NA	not available
+State	State where sample data originated	character			NA	not available
+Permanent_ID	Global ID and GUID data unique identifiers provided by the NHD database	character			NA	not available
+UL_Lat	Upper left corner latitude of Landsat Image used	numeric	degree		NA	not available
+UL_Long	Upper left corner longitude of Landsat image used	numeric	degree		NA	not available
+LR_Lat	Lower right corner latitude of Landsat image used	numeric	degree		NA	not available
+LR_Long	Lower right corner longitude of Landsat image used	numeric	degree		NA	not available
+Date_Sampled	Date chlorophyll-a sample obtained	Date		YYYY_MM-DD	NA	not available
+Chla_ugl	In-Situ chlorophyll-a concentration	numeric	microgramsPerLiter		NA	not available
+LandsatImageDate	Date of Landsat image	Date		YYYY_MM-DD	NA	not available
+B1	Corrected Landsat 8 band 1 (wavelength 0.43-0.45 micrometer; coastal aerosol) value	numeric	dimensionless		NA	not available
+B2	"Corrected Landsat 8 band 2 (wavelength 0.45-0.51 micrometer; blue) value, Landsat 7 band 1 value"	numeric	dimensionless		NA	not available
+B3	"Corrected Landsat 8 band 3 (wavelength 0.53-0.59 micrometer; green) value, Landsat 7 band 2"	numeric	dimensionless		NA	not available
+B4	"Corrected Landsat 8 band 4 (wavelength 0.64-0.67 micrometer; red) value, Landsat 7 band 3"	numeric	dimensionless		NA	not available
+B5	"Corrected Landsat 8 band 5 (wavelength 0.85-0.88 micrometer; near infrared) value, Landsat 7 band 4"	numeric	dimensionless		NA	not available
+B6	"Corrected Landsat 8 band 6 (wavelength 1.57-1.65 micrometer; short-wave infrared 1) value, Landsat 7 band 5"	numeric	dimensionless		NA	not available
+B7	"Corrected Landsat 8 band 7 (wavelength 2.11-2.29 micrometer; short-wave infrared 2) value, Landsat 7 band 7"	numeric	dimensionless		NA	not available
+B10	"Corrected Landsat 8 band 10 (wavelength 10.60-11.19 micrometer; thermal infrared 1) value, Landsat 7 band 6"	numeric	dimensionless		NA	not available
+B11	"Corrected Landsat 8 band 11 (wavelength 11.50-12.51 micrometer; thermal infrared 2) value, Landsat 7 band 6"	numeric	dimensionless		NA	not available
+NDVI	Calculated NDVI algorithm value	numeric	dimensionless		NA	not available
+SABI	Calculated SABI algorithm value	numeric	dimensionless		NA	not available
+KIVU	Calculated KIVU algorithm value	numeric	dimensionless		NA	not available
+X2BDA	Calculated 2BDA algorithm value	numeric	dimensionless		NA	not available
+Kabbara1	Calculated Kabbara1 algorithm value	numeric	dimensionless		NA	not available
+Kabbara2	Calculated Kabbara2 algorithm value	numeric	dimensionless		NA	not available

@@ -1,0 +1,210 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Evanthia		Mantzouki	University of Geneva	evanthia.mantzouki@unige.ch		creator			
+James	A	Campbell	University of Leiden			creator			
+Emiel	E	Van Loon	University of Amsterdam			creator			
+Petra	M	Visser	University of Amsterdam	p.m.visser@uva.nl		creator			
+Iosif		Konstantinou	Cyprus University of Technology			creator			
+Maria	G	Antoniou	Cyprus University of Technology	maria.antoniou@cut.ac.cy		creator			
+Gregory		Giuliani	University of Geneva			creator			
+Danielle		Machado-Vieira	Universidade Federal da Paraiba	daniellemachadovieira86@gmail.com		creator			
+Alinne		Gurjao de Oliveira	Universidade Federal da Paraiba	alinnegurjao@gmail.com		creator			
+Dubravka		Spoljaric Maronic	Josip Juraj Strossmayer University of Osijek	dspoljaric@biologija.unios.hr		creator			
+Filip		Stevic	Josip Juraj Strossmayer University of Osijek	fstevic@biologija.unios.hr		creator			
+Tanja		Zuna Pfeiffer	Josip Juraj Strossmayer University of Osijek	tzuna@biologija.unios.hr		creator			
+Itana		Bokan Vucelic	Teaching Institute of Public Health of Primorje-Gorski Kotar County	itana.bokan@zzjzpgz.hr		creator			
+Marija		Gligora Udovic	University of Zagreb	marija.gligora.udovic@biol.pmf.hr		creator			
+Andelka		Plenkovic-Moraj	University of Zagreb	andjelka.plenkovic-moraj@biol.pmf.hr		creator			
+Petar		Zutinic	University of Zagreb	petar.zutinic@biol.pmf.hr		creator			
+Nikoletta		Tsiarta	Cyprus University of Technology	tsiarta.nikoletta@gmail.com		creator			
+Ludek		Blaha	Masaryk University	blaha@recetox.muni.cz		creator			
+Rodan		Geris	Morava Board Authority	geris@pmo.cz		creator			
+Marketa		Frankova	The Czech Academy of Sciences	marketka.kozakova@seznam.cz		creator			
+Kirsten	Seestern	Christoffersen	University of Copenhagen	kchristoffersen@bio.ku.dk		creator			
+Trine	Perlt	Warming	University of Copenhagen	twperlt@bio.ku.dk		creator			
+Tonu		Feldmann	Estonian University of Life Sciences	tonu.feldmann@emu.ee		creator			
+Kersti		Kangro	Tartu Observatory	kiti@ut.ee		creator			
+Alo		Laas	Estonian University of Life Sciences	alo.laas@emu.ee		creator			
+Kristel		Panksep	Estonian University of Life Sciences	kristel.panksep@emu.ee		creator			
+Lea		Tuvikene	Estonian University of Life Sciences	lea.tuvikene@emu.ee		creator			
+Kerstin		Haggqvist	Abo Akademi University	kerstin.haggqvist@gmail.com		creator			
+Pauliina		Salmi	University of Jyvaskyla	pauliina.u.m.salmi@jyu.fi		creator			
+Lauri		Arvola	University of Helsinki	lauri.arvola@helsinki.fi		creator			
+Jutta		Fastner	German Environment Agency	jutta.fastner@uba.de		creator			
+Dietmar		Straile	Limnological Institute-University of Konstanz	dietmar.straile@uni-konstanz.de		creator			
+Karl-Otto		Rothhaupt	Limnological Institute-University of Konstanz	karl.rothhaupt@uni-konstanz.de		creator			
+Jeremy		Fonvielle	Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB)	fonvielle@igb-berlin.de		creator			
+Hans-Peter		Grossart	Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB)	hgrossart@igb-berlin.de		creator			
+Christos		Avagianos	Athens Water Supply and Sewerage Company-EYDAP SA	c.avagianos@icloud.com		creator			
+Triantafyllos		Kaloudis	Athens Water Supply and Sewerage Company-EYDAP SA	t_kaloudis@ath.forthnet.gr		creator			
+Theodoros		Triantis	National Center for Scientific Research DEMOKRITOS	t.triantis@inn.demokritos.gr		creator			
+Sevasti-Kiriaki		Zervou	National Center for Scientific Research DEMOKRITOS	s.zervou@inn.demokritos.gr		creator			
+Anastasia		Hiskia	National Center for Scientific Research DEMOKRITOS	a.hiskia@inn.demokritos.gr		creator			
+Spyros		Gkelis	Aristotle University of Thessaloniki	sgkelis@bio.auth.gr		creator			
+Manthos		Panou	Aristotle University of Thessaloniki	mattpano@bio.auth.gr		creator			
+Valerie		McCarthy	Dundalk Institute of Technology	valerie.mccarthy@dkit.ie		creator			
+Victor	C	Perello	Dundalk Institute of Technology	victorc.perello@dkit.ie		creator			
+Ulrike		Obertegger	Fondazione Edmund Mach	ulrike.obertegger@fmach.it		creator			
+Adriano		Boscaini	Fondazione Edmund Mach	adriano.boscaini@fmach.it		creator			
+Giovanna		Flaim	Fondazione Edmund Mach	giovanna.flaim@fmach.it		creator			
+Nico		Salmaso	Fondazione Edmund Mach	nico.salmaso@fmach.it		creator			
+Jurate		Karosiene	Nature Research Centre	jurate.karosiene@botanika.lt		creator			
+Jurate		Kasperoviciene	Nature Research Centre	jurate.kasperoviciene@botanika.lt		creator			
+Judita		Koreiviene	Nature Research Centre	judita.koreiviene@gmail.com		creator			
+Ksenija		Savadova	Nature Research Centre	ksenija.ksavadova@gamtostyrimai.lt		creator			
+Irma		Vitonyte	Nature Research Centre	irma.vitonyte@gmail.com		creator			
+Sigrid		Haande	Norwegian Institute for Water Research	sigrid.haande@niva.no		creator			
+Birger		Skjelbred	Norwegian Institute for Water Research	birger.skjelbred@niva.no		creator			
+Magdalena		Grabowska	University of Bialystok	magra@uwb.edu.pl		creator			
+Maciej		Karpowicz	University of Bialystok	m.karpowicz@uwb.edu.pl		creator			
+Damian		Chmura	University of Bielsko-Biala	dachmura@gmail.com		creator			
+Lidia		Nawrocka	The State University of Applied Sciences	nawrocka.lidia@op.pl		creator			
+Justyna		Kobos	University of Gdansk	justyna.kobos@ug.edu.pl		creator			
+Hanna		Mazur-Marzec	University of Gdansk	biohm@ug.edu.pl		creator			
+Pablo		Alcaraz-Parraga	University of Jaen	pabloalcarazparraga@gmail.com		creator			
+Wojciech		Krzton	Polish Academy of Sciences	krzton@iop.krakow.pl		creator			
+Edward		Walusiak	Polish Academy of Sciences	walusiak@iop.krakow.pl		creator			
+Elzbieta		Wilk-Wozniak	Polish Academy of Sciences	wilk@iop.krakow.pl		creator			
+Ilona		Gagala	European Regional Centre for Ecohydrology of the Polish Academy of Sciences	ilonagagala@erce.unesco.lodz.pl		creator			
+Joanna		Mankiewicz-Boczek	European Regional Centre for Ecohydrology of the Polish Academy of Sciences	j.mankiewicz@erce.unesco.lodz.pl		creator			
+Magdalena		Toporowska	University of Life Sciences in Lublin	magda.wis@interia.pl		creator			
+Barbara		Pawlik-Skowronska	University of Life Sciences in Lublin	barbara.pawlik@up.lublin.pl		creator			
+Michal		Niedzwiecki	University of Life Sciences in Lublin	michal.niedzwiecki@up.lublin.pl		creator			
+Wojciech		Peczula	University of Life Sciences in Lublin	wojciech.peczula@up.lublin.pl		creator			
+Agnieszka		Napiorkowska-Krzebietke	Inland Fisheries Institute	a.napiorkowska-krzebietke@infish.com.pl		creator			
+Julita		Dunalska	University of Warmia & Mazury	julitad@uwm.edu.pl		creator			
+Marek		Kruk	University of Warmia & Mazury	mkruk@uwm.edu.pl		creator			
+Justyna		Sienska	University of Warmia & Mazury	justyna.sienska@uwm.edu.pl		creator			
+Daniel		Szymanski	University of Warmia & Mazury	daniel.szymanski@uwm.edu.pl		creator			
+Agnieszka		Budzynska	Adam Mickiewicz University	ag.budzynska@gmail.com		creator			
+Ryszard		Goldyn	Adam Mickiewicz University	rgold@amu.edu.pl		creator			
+Anna		Kozak	Adam Mickiewicz University	akozak@amu.edu.pl		creator			
+Kinga		Kwasizur	Adam Mickiewicz University	kingakwasizur@wp.pl		creator			
+Beata		Messyasz	Adam Mickiewicz University	messyasz@amu.edu.pl		creator			
+Aleksandra		Pelechata	Adam Mickiewicz University	ola.p@amu.edu.pl		creator			
+Mariusz		Pelechaty	Adam Mickiewicz University	marpel@amu.edu.pl		creator			
+Joanna		Rosinska	Adam Mickiewicz University	rosinska.asia@gmail.com		creator			
+Elzbieta		Szelag-Wasielewska	Adam Mickiewicz University	eszelag@amu.edu.pl		creator			
+Piotr		Domek	Adam Mickiewicz University	domekp@amu.edu.pl		creator			
+Mikolaj		Kokocinski	Adam Mickiewicz University	kok@amu.edu.pl		creator			
+Natalia		Jakubowska-Krepska	Adam Mickiewicz University	jakubowskan@gmail.com		creator			
+Beata		Madrecka	Poznan University of Technology	beata.madrecka@put.poznan.pl		creator			
+Iwona		Kostrzewska-Szlakowska	University of Warsaw	iwona.ks@biol.uw.edu.pl		creator			
+Magdalena		Frak	Warsaw University of Life Sciences - SGGW	magdalena_frak@sggw.pl		creator			
+Agnieszka		Ochocka	Institute of Environmental Protection-National Research Institute	a.ochocka@ios.edu.pl		creator			
+Agnieszka		Pasztaleniec	Institute of Environmental Protection-National Research Institute	paszta@ios.edu.pl		creator			
+Iwona		Jasser	University of Warsaw	jasser.iwona@biol.uw.edu.pl		creator			
+Agnieszka		Bankowska-Sobczak	Warsaw University of Life Sciences - SGGW	agnieszka_bankowska@sggw.pl		creator			
+Michal		Wasilewicz	Warsaw University of Life Sciences - SGGW	michal_wasilewicz@sggw.pl		creator			
+Ana	M	Antao-Geraldes	Instituto Politecnico de Braganca	geraldes@ipb.pt		creator			
+Manel		Leira	University of Lisbon	mleira@fc.ul.pt		creator			
+Armand		Hernandez	"Institute of Earth Sciences Jaume Almera (ICTJA, CSIC)"	ahhernandez@fc.ul.pt		creator			
+Vitor		Vasconcelos	Interdisciplinary Centre of Marine and Environmental Research (CIIMAR) and University of Porto	vmvascon@fc.up.pt		creator			
+Joao		Morais	Interdisciplinary Centre of Marine and Environmental Research (CIIMAR) and University of Porto	joaopmorais@gmail.com		creator			
+Micaela		Vale	Interdisciplinary Centre of Marine and Environmental Research (CIIMAR) and University of Porto	mica.ciimar@gmail.com		creator			
+Pedro	M	Raposeiro	Research Center in Biodiversity and Genetic Resources (CIBIO-Azores) 	pedro.mv.raposeiro@uac.pt		creator			
+Vitor		Goncalves	Research Center in Biodiversity and Genetic Resources (CIBIO-Azores) 	vitor.mc.goncalves@uac.pt		creator			
+Boris		Aleksovski	SS Cyril and Methodius University	borisaleksovskian@yahoo.com		creator			
+Svetislav		Krstic	SS Cyril and Methodius University	skrstic@pmf.ukim.mk		creator			
+Hana		Nemova	Public Health Authority of the Slovak Republic	hana.nemova@uvzsr.sk		creator			
+Iveta		Drastichova	Public Health Authority of the Slovak Republic	iveta.drastichova@uvzsr.sk		creator			
+Lucia		Chomova	Public Health Authority of the Slovak Republic	lucia.chomova@uvzsr.sk		creator			
+Spela		Remec-Rekar	Slovenian Environmental Agency	spela.remec-rekar@gov.si		creator			
+Tina		Elersek	National Institute of Biology	tina.elersek@nib.si		creator			
+Jordi		Delgado Martin	University of A Coruna	jdelgado@udc.es		creator			
+David		Garcia	University of A Coruna	jose.cereijo@udc.es		creator			
+Jose-Luis		Cereijo	University of A Coruna	david.morrondo@udc.es		creator			
+Joan		Goma	University of Barcelona	jgoma@ub.edu		creator			
+Ana		Garcia-Murcia	AECOM URS SPAIN S.L.U.	ana.garcia@aecom.com		creator			
+Montserrat		Real	AECOM URS SPAIN S.L.U.	montserrat.real@aecom.com		creator			
+Elvira		Romans	AECOM URS SPAIN S.L.U.	elvira.romans@aecom.com		creator			
+Jordi		Noguero Ribes	AECOM URS SPAIN S.L.U.	jordi.noguero@aecom.com		creator			
+David		Parreno Duque	AECOM URS SPAIN S.L.U.			creator			
+Elisabeth		Fernandez-Moran	AECOM URS SPAIN S.L.U.	elifdzmo@gmail.com		creator			
+Mari	Carmen	Trapote	University of Barcelona	mctrapote84@gmail.com		creator			
+Teresa		Vegas-Vilarrubia	University of Barcelona	tvegas@ub.edu		creator			
+Biel		Obrador	University of Barcelona	obrador@ub.edu		creator			
+Barbara		Ubeda	University of Cadiz	barbara.ubeda@uca.es		creator			
+Jose Angel		Galvez	University of Cadiz	joseangel.galvez@uca.es		creator			
+Rafael		Marce	Catalan Institute for Water Research (ICRA)	rmarce@icra.cat		creator			
+Carmen		Perez-Martinez	University of Granada	cperezm@ugr.es		creator			
+Eloisa		Ramos-Rodriguez	University of Granada	eloisa@ugr.es		creator			
+Carmen		Cillero-Castro	3edata	carmen.cillero@3edata.es		creator			
+Enrique		Moreno-Ostos	University of Malaga	quique@uma.es		creator			
+Jose	Maria	Blanco	University of Malaga	jmblanco@uma.es		creator			
+Valeriano		Rodriguez	University of Malaga	valeriano@uma.es		creator			
+Jorge	Juan	Montes-Perez	University of Malaga	montesperezjj@gmail.com		creator			
+Roberto	L	Palomino	University of Malaga	rlpalomino@uma.es		creator			
+Estela		Rodriguez-Perez	University of Malaga			creator			
+Rafael		Carballeira	Universidade da Coruna	rafael.carballeira@usc.es		creator			
+Antonio		Camacho	University of Valencia	antonio.camacho@uv.es		creator			
+Antonio		Picazo	University of Valencia	antonio.picazo-mozo@uv.es		creator			
+Carlos		Rochera	University of Valencia	carlos.rochera@uv.es		creator			
+Anna	C	Santamans	University of Valencia	anna.santamans@gmail.com		creator			
+Carmen		Ferriol	University of Valencia	carmen.ferriol@uv.es		creator			
+Susana		Romo	University of Valencia	susana.romo@uv.es		creator			
+Juan	Miguel	Soria	University of Valencia	juan.soria@uv.es		creator			
+Lars-Anders		Hansson	Lund University	lars-anders.hansson@biol.lu.se		creator			
+Pablo		Urrutia-Cordero	Lund University	pablo.urrutiacordero@ebc.uu.se/ pablo.urrutia_cordero@biol.lu.se		creator			
+William		Colom-Montero	Uppsala University	william.colom@ebc.uu.se		creator			
+Kristiina		Mustonen	Uppsala University	kristiina.mustonen@ebc.uu.se		creator			
+Don		Pierson	Uppsala University	don.pierson@ebc.uu.se		creator			
+Yang		Yang	Uppsala University	yang.yang@hotmail.se		creator			
+Andrea	G	Bravo	Uppsala University	jandriugarcia@gmail.com		creator			
+Moritz		Buck	Uppsala University	moritz.buck@ebc.uu.se		creator			
+Nuria		Catalan	Catalan Institute for Water Research (ICRA)	ncatalangarcia@gmail.com		creator			
+Jolanda	M H	Verspagen	University of Amsterdam	j.m.h.verspagen@uva.nl		creator			
+Lisette		de Senerpont Domis	Netherlands Institute of Ecology (NIOO-KNAW)	l.desenerpontdomis@nioo.knaw.nl		creator			
+Sven		Teurlincx	Netherlands Institute of Ecology (NIOO-KNAW)	s.teurlincx@nioo.knaw.nl		creator			
+Laura		Seelen	Netherlands Institute of Ecology (NIOO-KNAW)	l.seelen@nioo.knaw.nl		creator			
+Valentini		Maliaka	Society for the Protection of Prespa (Greece) and Radboud University	valentini.maliaka@gmail.com		creator			
+Yvon		Verstijnen	Wageningen University	yvonverstijnen@hotmail.com		creator			
+Nilsun		Demir	Ankara University	nilsundemir2@gmail.com		creator			
+Ulku	Nihan	Tavsanoglu	Middle East Technical University	unyazgan@gmail.com		creator			
+Mehmet	Ali Turan	Kocer	Mediterranean Fisheries Research Production and Training Institute	matkocer@hotmail.com		creator			
+Kemal		Celik	Balikesir University	kcelik@balikesir.edu.tr		creator			
+Nusret		Karakaya	Abant Izzet Baysal University	karakaya_n@ibu.edu.tr		creator			
+Mete		Yilmaz	Bursa Technical University	mete.yilmaz@btu.edu.tr		creator			
+Arda		Ozen	University of Cankiri Karatekin	ardaozen@gmail.com		creator			
+Faruk		Maraslioglu	Hitit University	farukmaraslioglu@hitit.edu.tr		creator			
+Ozden		Fakioglu	Ataturk University	ozden.fakioglu@atauni.edu.tr		creator			
+Elif	Neyran	Soylu	Giresun University	elif.neyran.soylu@giresun.edu.tr		creator			
+Meral		Apaydin Yagci	Fisheries Research Institute	meralyagci@gmail.com		creator			
+Sakir		Cinar	Fisheries Research Institute	sakircinar@gmail.com		creator			
+Kadir		Capkin	Fisheries Research Institute	kadircapkin32@hotmail.com		creator			
+Abdulkadir		Yagci	Fisheries Research Institute	a.k.yagci58@gmail.com		creator			
+Mehmet		Cesur	Fisheries Research Institute	mehmetcesur3232@gmail.com		creator			
+Fuat		Bilgin	Fisheries Research Institute	fuatbilgin@gmail.com		creator			
+Cafer		Bulut	Fisheries Research Institute	caferbulut@gmail.com		creator			
+Rahmi		Uysal	Fisheries Research Institute	uysalrahmi@hotmail.com		creator			
+Latife		Koker	Istanbul University	latifekoker@gmail.com		creator			
+Reyhan		Akcaalan	Istanbul University	rakcaalan@gmail.com		creator			
+Meric		Albay	Istanbul University	albay.hermano@gmail.com		creator			
+Mehmet	Tair	Alp	Mersin University	talp@mersin.edu.tr		creator			
+Korhan		Ozkan	Middle East Technical University	okorhan@metu.edu.tr		creator			
+Koray		Ozhan	Middle East Technical University	koray@ims.metu.edu.tr		creator			
+Tugba		Ongun Sevindik	Sakarya University	tsevindik@sakarya.edu.tr		creator			
+Hatice		Tunca	Sakarya University	htunca@sakarya.edu.tr		creator			
+Burcin		Onem	Sakarya University	burcin.onem1@ogr.sakarya.edu.tr		creator			
+Gizem		Bezirci	Middle East Technical University	gizbezirci@gmail.com		creator			
+Meryem		Beklioglu	Middle East Technical University	meryem@metu.edu.tr		creator			
+Nur		Filiz	Middle East Technical University	nrflzster@gmail.com		creator			
+Eti	Ester	Levi	Middle East Technical University	klebe123@gmail.com		creator			
+Ugur		Iskin	Middle East Technical University	iskin.ugur@gmail.com		creator			
+Jessica		Richardson	University of Sterling	jerich15@ceh.ac.uk		creator			
+Miquel 		Lurling	Wageningen University	miquel.lurling@wur.nl		creator			
+Elisabeth	J	Faassen	Wageningen University & Research			creator			
+Tunay		Karan	Gaziosmanpasa University	biyo_tunay@hotmail.com		creator			
+Christine		Edwards	Robert Gordon University	c.edwards@rgu.ac.uk		creator			
+Victoria		Bergkemper	University of Innsbruck	Victoria.Bergkemper@uibk.ac.at		creator			
+Andrea 		Torokne	National Institute of Environmental Health	torokandrea53@gmail.com		creator			
+Leonardo		Cerasino	Fondazione Edmund Mach	leonardo.cerasino@fmach.it		creator			
+Delphine		Latour	University Blaise Pascal - Clermont-Ferrand II			creator			
+Hans	W	Paerl	University of North Carolina	hpaerl@email.unc.edu		creator			
+Cayelan	C	Carey	Virginia Tech	cayelan@vt.edu		creator			
+Bastiaan	W	Ibelings	University of Geneva	bastiaan.ibelings@unige.ch		creator			
+Evanthia		Mantzouki	University of Geneva	evanthia.mantzouki@unige.ch		contact			
+Bastiaan	W	Ibelings	University of Geneva	bastiaan.ibelings@unige.ch		contact			
+Bastiaan		Ibelings				PI		"University of Geneva, Switzerland"	
+Miquel		Lurling				PI		"University of Wageningen, The Netherlands"	
+Petra		Visser				PI		"University of Amsterdam, The Netherlands"	
+Jutta		Fastner				PI		"Federal Environmental Agency, Berlin, Germany"	

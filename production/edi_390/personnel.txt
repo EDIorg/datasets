@@ -1,0 +1,16 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Eric	W	Seabloom	"Department of Ecology, Evolution, and Behavior, University of Minnesota"	seabloom@umn.edu	https://orcid.org/0000-0001-6780-9259	creator			
+Bradford		Condon	"Department of Ecology, Evolution, and Behavior, University of Minnesota"	bcondon@utk.edu		creator			
+Linda		Kinkel	"Department of Plant Pathology, University of Minnesota"	kinkel@umn.edu	https://orcid.org/0000-0002-5331-5589	creator			
+Kimberly	J	Komatsu	Smithsonian Environmental Research Center	komatsuk@si.edu 	https://orcid.org/0000-0001-7056-4547	creator			
+Candice	Y	Lumibao	"Department of Ecology, Evolution, and Behavior, University of Minnesota"	clumibao@alumni.nd.edu 	https://orcid.org/0000-0002-1414-7949	creator			
+Georgiana		May	University of Minnesota	gmay@umn.edu	https://orcid.org/0000-0002-4507-9408	creator			
+Rebecca	L	McCulley	"Department of Plant and Soil Sciences, University of Kentucky"	rebecca.mcculley@uky.edu 	https://orcid.org/0000-0002-2393-0599	creator			
+Elizabeth	T	Borer	"Department of Ecology, Evolution, and Behavior, University of Minnesota"	borer@umn.edu	https://orcid.org/0000-0003-2259-5853	creator			
+G. David		Tilman			https://orcid.org/0000-0001-6395-7676	PI	"Biodiversity, Environmental Change and Ecosystem Functioning at the Prairie-Forest Border"	NSF	DEB-0620652
+Eric	W	Seabloom			https://orcid.org/0000-0001-6780-9259	PI	"LTER: Biodiversity, Multiple Drivers of Environmental Change and Ecosystem Functioning at the Prairie Forest Border"	NSF	DEB-1234162
+Elizabeth 	T	Borer			https://orcid.org/0000-0003-2259-5853	PI	"RCN: Coordination of the Nutrient Network (NutNet), global manipulations of nutrients and consumers"	NSF	DEB-1042132
+Eric	W	Seabloom			https://orcid.org/0000-0001-6780-9259	PI	Testing community ecology theory as a framework for predicting co-infection: host resource ratios and viral pathogens	NSF	DEB-1556649
+Elizabeth	T	Borer			https://orcid.org/0000-0003-2259-5853	PI	"Collaborative Research: Within-host Microbial Communities: Experimentally Scaling Interaction dynamics Across Sites, Regions, and Continents"	NSF	DEB-1241895
+Eric	W	Seabloom	"Department of Ecology, Evolution, and Behavior, University of Minnesota"	seabloom@umn.edu	https://orcid.org/0000-0001-6780-9259	contact			
+Elizabeth	T	Borer			https://orcid.org/0000-0003-2259-5853	contact			

@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+MesocosmID	Unique ID used to identify individual mesocosm	character				
+doy	Julian date within the year	numeric	dimensionless			
+GPP	"Calculated gross primary production for the day, as Oxygen concentration"	numeric	milligramsPerLiterPerDay			
+R	"Calculated ecosystem respiration value for the day, as Oxygen concentration"	numeric	milligramsPerLiterPerDay			
+NEP	"Calculated net ecosystem production, as Oxygen concentration"	numeric	milligramsPerLiterPerDay			

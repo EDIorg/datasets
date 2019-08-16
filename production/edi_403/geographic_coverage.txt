@@ -1,0 +1,5 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+South Twin Lake	42.463965	42.463965	-94.647793	-94.647793
+Green Valley Lake	41.101612	41.101612	-94.386716	-94.386716
+Black Hawk Lake	42.291587	42.291587	-95.024903	-95.024903
+Swan Lake	42.037089	42.037089	-94.842906	-94.842906

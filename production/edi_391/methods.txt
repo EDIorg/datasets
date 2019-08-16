@@ -1,0 +1,41 @@
+Methods copied from- 
+
+Lynn, J.S., M.R. Kazenel, S.N. Kivlin, and J.A. Rudgers. In press. Context-dependent biotic interactions control plant abundance across altitudinal environmental gradients. Ecography. doi: 10.1111/ecog.04421
+
+Study site selection, focal species, and abundance estimates
+
+We collected data in the Upper Gunnison Basin of the Colorado Rocky Mountains, USA (Figure 1). In 2014, we surveyed six independent peak-to-valley gradients spanning about 1300 m (2700 m to 4000 m a.s.l.; Figure 1). Sites were established every 100 m in elevation from peak-to-valley. This method produced 67 grassland sites, about 11 sites per gradient. To bolster data for alpine species, in 2016, we surveyed an additional 2-3 sites on five gradients (3462-3960 m a.s.l.), resulting in 79 total sites (Figure 1). 
+
+We focused on native perennial grasses. Grass abundance was estimated along three parallel 20 m transects placed perpendicular to the mountain slope and spaced 10 m apart. The focal taxa were bunch grasses (with the exception of Poa pratensis) with a maximum diameter of about 0.5 m at the ground; therefore, 20 m sufficiently captured species abundance. We estimated abundance by counting the number of individuals/species that intersected transects. This process resulted in abundance estimates for 16 species, but four were insufficiently represented (4 occurrences). 
+
+The ability to detect context-dependency may depend on spatial scale. For example, sampling the whole stress gradient occupied by a species may indicate that plant-plant interactions range from facilitation to competition, but this pattern may be obscured when only part of the species range is sampled. Therefore, we grouped species by the spatial extent of sampling effort: the whole elevation range (Elymus trachycaulus, Festuca rubra, F. saximontana, Poa stenantha, Trisetum spicatum), only the high-elevation range portion/limit (Achnatherum lettermanii, A. nelsonii, F. thurberi, P. pratensis), or only the low-elevation range portion/limit (E. scribneri, F. brachyphylla, P. alpina; summary statistics in Supplementary material Appendix 1). 
+
+Abiotic environment predictors
+
+Abiotic variables were chosen to assess hypotheses in Table 1. At each site, two 20 m transects were placed perpendicularly, with one transect horizontal to the prevailing slope. We estimated soil volumetric water content (VWC) every 5 m along transects (10 estimates per site) using a Fieldscout TDR (10 cm probes; Spectrum Technologies, Aurora, IL, USA) at two time points over the growing season (12-24 July, 23 Sept-8 Oct, 2014), then averaged VWC within a site and sampling date. We estimated soil depth at the same points with a 1.5 m tile probe (AMS, inc., American Falls, ID, USA) inserted until it met bedrock (about 10 estimates per site). We deployed Plant Root Simulator probes (Western Ag Innovations, Saskatoon, SK, Canada) at the ends of each transect for about 10 weeks (12 July - 30 Sept, 2014). The probes were analyzed together to produce a single measure of total soil N (nitrate and ammonium) and phosphorus availability per site. We also collected and pooled soil from the four transect ends to measure soil pH (Hanna Instruments HI 9813-6 Portable; Woonsocket, RI, USA). We used regional meteorological stations to interpolate climate data for each study site based on its elevation, slope, and aspect (methods in Lynn et al. 2018). Only mean annual temperature (MAT) was used in analyses due to high collinearity among climate variables. Supplementary material Appendix 2 contains a schematic diagram of site measurements. 
+
+Biotic interaction predictors
+
+We briefly describe methods for measuring biotic predictors but provide detail in Supplementary material Appendix 2. Estimates of plant cover and Shannon diversity were assessed with vegetation surveys. Herbivory and pathogen damage were visually estimated as percentage leaf area damaged on 10 individuals per focal species per site. To model consumptive interactions when a species was not present, we calculated grass community weighted means of herbivory and pathogen damage to represent the site-level herbivory and pathogen "pressure". Similar community weighted means were applied to arbuscular mycorrhizal fungi (AMF) colonization of roots, following Ranelli et al. (2015). Gopher disturbance was assessed using methods of Lynn et al. (2018).
+
+Supplementary Material Appendix 2 methods
+
+Biotic interaction predictors
+
+Competition/facilitation. 
+
+We assessed plant community composition using visual cover estimates. We placed a 0.2 m x 0.2 m quadrat every 2.5 m along four 20 m transects per site. In each quadrat, we visually estimated percentage cover of every plant species or bare ground to total 100% (33 plant cover estimates per site). Specimens were collected and identified using Shaw (2008) for grasses and Weber and Wittmann (2012) for non-grasses. We corrected for current taxonomy using the USDA PLANTS Database (USDA and NRCS 2017). Unidentified species (e.g., non-flowering sedges) were morphotyped, assigned unique species codes, and matched to unknowns at other sites. Plant cover for a site was represented by the summed percentage cover estimate across the 33 quadrats (maximum of 3300 if site was 100% vegetated). We used the vegan package in R to calculate plant species diversity indices (Oksanen et al. 2017). Because diversity metrics were highly colinear, we used Shannon diversity (hereafter diversity) in all subsequent analyses, as it had the highest correlation with other diversity metrics.
+
+Potential antagonisms.  
+
+We assessed insect herbivory and leaf pathogens via calibrated visual estimates of percentage leaf damage for 10 randomly selected individuals per focal grass species per site, with a minimum distance of two m between individuals. Insect herbivory and pathogen damage present a dilemma for niche modeling: how can one estimate a biotic interaction when a species is not present at a site? Therefore, we created a site-level metric of herbivore/pathogen pressure by calculating community weighted mean damage over all grass species present at a site. This metric estimated the expected damage that a grass individual would experience if it were present at the site. 
+
+We measured pocket gopher (Thomomys talpoides) disturbance to soil at each site along three 40 m long belt transects (methods in Lynn et al. 2018). Briefly, each belt transect was 1 m wide and each characteristic sign of gopher disturbance (e.g., mounds, eskers) were summed across the transects.
+
+Potential mutualisms.  
+
+We assessed percentage fungal colonization of roots by pooling equal amounts of root tissue by volume from six plant individuals per species per site (methods in Ranelli et al. 2015). We scored colonization of roots by arbuscular mycorrhizal fungi (AMF; aseptate hyphae with vesicles and/or arbuscules; Glomeromycotina). We estimated site-level root colonization with community weighted means over all grass species present at a site.
+
+QA/QC Procedures:
+
+We performed QA/QC checks with data entry checking (entry and rechecking the entries), outlier analysis, scatterplots, and internal consistency checks. 

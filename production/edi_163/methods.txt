@@ -1,0 +1,44 @@
+Satellite Data
+
+Five Landsat images over Maine (Path 12 Row 29) and seven over New Hampshire (Path 13 Row 30) were acquired from USGS EarthExplorer (https://earthexplorer.usgs.gov/). The Level 1 GeoTIFF Data Products from the Landsat 8 OLI_TIRS sensor were downloaded for each image, except for the August 26, 2000 image, which instead came from Landsat 7’s Level 1 Product and was used to provide a comparison between Landsat iterations. The images were processed using ENVI software. For each of Landsat 8’s eleven different bandwidths Reflective Radiometric Calibration was performed to convert radiance – the surface brightness measured directly by the satellite – to the unitless surface reflectance using metadata about the acquisition time and sun elevation when the image was taken (Harris Geospatial). A simple Dark Object Subtraction (DOS) was performed to minimize the effects of atmospheric haze (Giardino et al. 2001, Urbanski et al. 2016). A simple Dark Object Subtraction (DOS) was performed to minimize the effects of atmospheric haze (Giardino et al. 2001, Urbanski et al. 2016). Dark object subtraction searches each band for the darkest pixel value. Assuming that dark objects reflect no light, any value greater than zero must result from atmospheric scattering. The scattering is removed by subtracting this value from every pixel in the band. This method is primarily effective for haze correction in multispectral data (Harris Geospatial).
+
+Data in this data set are specific to the following satellite flyover dates: August 26, 2000, June 19, 2013, July 12, 2013, August 22, 2013, September 30, 2013, June 29, 2014, August 9, 2014, August 25, 2014, September 17, 2014, October 2, 2014, August 3, 2015, August 19, 2015
+
+In Situ Data
+
+
+In situ chlorophyll-a data have been limited to those collected within ±5 days of the Landsat flyover dates.
+
+In situ chl-a data were obtained for New Hampshire from the Department of Environmental Service's Volunteer Lake Assessment Program (VLAP) database and for Maine from the Volunteer Lake Monitoring Program (VLMP). In total, 351 chl-a samples were from 260 unique sampling points in 192 different lakes (131 in Maine and 61 in New Hampshire) comprised the dataset.
+
+Chl-a measurements taken from lakes within the satellite image and sampled within five days for New Hampshire images and five days for Maine images were recorded. Chl-a samples were taken from depths ranging from 0.5m-10m depending on the lake (mainevlmp.org and des.nh.gov/organization/divisions/water/wmb/vlap/). Reported sample locations (latitude and longitude) were matched spatially with the USGS National Hydrography Dataset best resolution files (U.S. Geological Survey, National Geospatial Program, 2017a, 2017b) using ESRI ArcMap 10.4 to extract lake area statitstics. Lakes in Maine had a median area of 100 ha (0.6–4500 ha range) and New Hampshire lakes had a median area of 62 ha (2.3–1700 ha range). In situ chl-a data were natural log transformed in our analyses because of their non-normal distribution (Kabbara et al. 2008, Watanabe et al. 2015, Urbanski et al. 2016).
+
+Assessing Algorithm Performance
+
+Six existing chl-a retrieval algorithms were chosen to incorporate several different potentially ecologically relevant bandwidths. The Surface Algal Bloom Index (SABI, Alawadi, 2010) and Normalized Difference Vegetation Index (NDVI, Mishra and Mishra 2012) were developed for satellites with narrower bandwidths and were adapted to fit the wider bands of Landsat 8. The 3BDA-like (KIVU, Brivio et al. 2001) and 2BDA (Dall’Olmo and Gitelson 2006) algorithms were developed with Landsat 7TM bands, so the band math presented here substituted the corresponding Landsat 8 bands. Kab1 and Kab 2 (Kabara et al. 2008) were best-fit algorithms built specifically for low-chl-a coastal use, and were included to assess how well a highly specific algorithm might translate to other, freshwater regions of study. The VLAP and VLMP provided exact coordinates for where each in situ sample was taken, and ENVI Geospatial Software was used to process the reflectance output values for each Landsat 8 band at each site. Reflectance values were averaged over a 3x3 pixel grid surrounding the sampling point to diminish per-pixel noise. The individual band reflectances could then be combined to find the output in remote-sensing reflectance (Rrs) of each algorithm at each sampling location. 
+
+References
+
+Alawadi, F. 2010. Detection of surface algal blooms using the newly developed algorithm surface algal bloom index (SABI). Proceedings of the International Society for Optics and Photonics 7825:1–14.
+
+Brivio, P. A., C. Giardino, and E. Zilioli. 2001. Determination of chlorophyll concentration changes in Lake Garda using an image-based radiative transfer code for Landsat TM images. International Journal of Remote Sensing 22:487–502.
+
+Dall'Olmo, G., and A. A. Gitelson. 2006. Effect of bio-optical parameter variability and uncertainties in reflectance measurements on the remote estimation of chlorophyll-a concentration in turbid productive waters: modeling results. Applied Optics 45:3577–3592.
+
+Giardino, C., M. Pepe, P. A. Brivio, P. Ghezzi, and E. Zilioli. 2001. Detecting chlorophyll, Secchi disk depth and surface temperature in a sub-alpine lake using Landsat imagery. Science of the Total Environment 268:19–29.
+
+Kabbara, N., J. Benkhelil, M. Awad, and V. Barale. 2008. Monitoring water quality in the coastal area of Tripoli (Lebanon) using high-resolution satellite data. ISPRS Journal of Photogrammetry and Remote Sensing 63:488–495.
+
+MEDEP. Maine Volunteer Lake Monitoring Program (VLMP). Maine Department of Envoritonmental Protection. Augusta, ME. 
+
+Mishra, S., and D. R. Mishra. 2012. Normalized difference chlorophyll index: a novel model for remote estimation of chlorophyll-a concentration in turbid productive waters. Remote Sensing of Environment 117:394–406.
+
+NHDES. Volunteer Lake Assessment Program (VLAP) Environmental Monitoring Data. New Hampshire Department of Environmental Services, Watershed Management Bureau – Biology Section, Concord, NH. 
+
+Urbanski, J. A., A. Wochna, I. Bubak, W. Grzybowski, K. Lukawska-Matuszewska, M. Łącka, S. Śliwińska, B. Wojtasiewicz, and M. Zajączkowski. 2016. Application of Landsat 8 imagery to regional-scale assessment of lake water quality. International Journal of Applied Earth Observation and Geoinformation 51:28–36.
+
+U.S. Geological Survey, National Geospatial Program. 2017a. USGS National Hydrography Dataset (NHD) Best Resolution 20170714 for Maine State or Territory FileGDB 10.1 Model Version 2.2.1. U.S. Geological Survey, Reston, VA
+
+U.S. Geological Survey, National Geospatial Program. 2017b. USGS National Hydrography Dataset (NHD) Best Resolution 20170714 for New Hampshire State or Territory FileGDB 10.1 Model Version 2.2.1. U.S. Geological Survey, Reston, VA
+
+Watanabe, F. S., E. Alcantara, T. W. Rodrigues, N. N. Imai, C. C. Barbosa, and L. H. Rotta. 2015. Estimation of chlorophyll-a concentration and the trophic state of the barra bonita hydroelectric reservoir using OLI/landsat-8 images. International Journal of Environmental Research and Public Health 12:10391–10417.

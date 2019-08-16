@@ -1,0 +1,48 @@
+We established nine 0.25-ha (50-m x 50-m) study plots at each of three sites. Two sites were in the Berry Fire [Berry-Glade (16 yr fire return interval (FRI)), Berry-Huck (28-yr FRI)], and one was in the Maple-North Fork (28-yr FRI). At each site, six plots were established in areas of stand-replacing fire (i.e., all trees were killed). Because some variables (e.g., volume and mass of downed coarse wood, cone density, and density of aspens) could not be reconstructed with confidence in reburned plots, three plots were established in nearby young forests that did not reburn in 2016. In each reburned plot (n = 18), we measured prefire stand structure, burn severity, postfire tree regeneration, and downed coarse wood following protocols from our previous studies (e.g., Turner et al. 2004, 2016; Harvey et al. 2016a). In each plot that did not reburn (n = 9), we measured stand structure and downed coarse wood using the same procedures. Locations of each plot center (coordinates in UTM NAD83 Zone 12N) and elevation were recorded with a GPS unit; plots were selected to have minimal slope and aspect (to avoid potential confounding effects), but both were measured in each plot.  
+
+Field sampling. 
+
+To quantify prefire stand structure and postfire tree regeneration, we tallied all prefire trees (live and fire-killed) by species, and all postfire tree seedlings and aspens (all of which were resprouts) in three 50-m x 2-m belt transects in each plot (Turner et al. 2004, 2007a, 2016). Transects were oriented to the north and generally separated by 25 m. However, in two plots in the Berry-Huck site, transects were separated by 15 m because of the configuration of reburned forest patches. Because prefire trees were fully combusted in some reburned plots, estimates of prefire tree density included burned stumps of lodgepole pines and aspens that were alive before the fire. At 5-m intervals along each transect, we located the nearest lodgepole pine and recorded its basal diameter, diameter at breast height (DBH; if height greater than  1.4 m), and the number of cones present (n = 25 trees/plot). In plots that did not reburn, we also identified serotinous cones by their age (greater than  three years) and morphology (asymmetrical shape, acute angle of branch attachment, tightly closed, and weathered gray color), as in prior studies (Tinker et al. 1994; Turner et al. 1997, 2007b; Schoennagel et al. 2003). We computed stand-level cone abundance (mean cones per stem × stem density). Burn severity was quantified within a centrally located circular sub-plot of 30-m diameter following standard protocols (Harvey et al. 2016a). The percent cover, volume, and mass of downed coarse wood (greater than  7.5 cm diameter) was quantified in each plot by sampling three 31.25-m Brown's transects per plot (Brown 1974), oriented at azimuths of 0˚, 120˚ and 240˚ to avoid potential sample bias from non-random orientation of logs. In reburned plots only, we estimated percent cover of "ghost logs" (log shadows indicating where downed wood had been consumed by the fire) by using the line intercept measurements along each Brown's transect. 
+
+Biomass and carbon stock calculations. 
+
+Because most aboveground C is in the live trees and dead wood (Kashian et al. 2013), we computed biomass and C stocks for these pools only. Foliage, bole, branch, and total aboveground live lodgepole pine biomass were estimated for each measured lodgepole pine by using allometric equations developed from destructive sampling of sixty 24-yr old lodgepole pines within our study area (Copenhaver and Tinker 2014, Turner et al. 2016). Basal diameter was used to predict each response, and the models performed well (Copenhaver and Tinker 2014). We multiplied biomass of the median tree in each plot by stem density to predict stand-level lodgepole pine aboveground biomass (Mg ha-1; Turner et al. 2004, 2016; Kashian et al. 2013). 
+
+Carbon stocks were estimated by applying empirically measured C content to foliage, live wood, and dead wood biomass pools (Kashian et al. 2013). Because coarse wood biomass could not be reconstructed on reburned plots, we assumed the mean coarse wood biomass at the three plots at each site that did not reburn represented the prefire values for the six reburned plots at each site. This is a reasonable assumption because the 1988 and 2000 fires burned through mature lodgepole pine forests greater than  150 yrs old, at which time stand density and biomass has generally converged (Kashian et al. 2013), and nearly all trees killed by the earlier fire had fallen. 
+
+Simulation modeling. 
+
+To explore longer-term consequences of short-interval fires on subsequent recovery of C stocks, we used the process-based forest simulation model, iLand (Seidl et al. 2012) to model aboveground live and dead lodgepole pine C stocks. iLand is an individual-based model that has been parameterized and performs well for the dominant conifer species in Greater Yellowstone (Braziunas et al. 2018, Hansen et al. 2018). We used iLand to simulate development of stands (1 ha) of serotinous lodgepole pine, initializing each of the 18 reburned plots with (i) reconstructed prefire stand structure and downed coarse wood estimates, representing conditions had these areas not reburned, and (b) postfire tree regeneration density, snag density, standing wood biomass, and coarse wood biomass (see Turner et al. manuscript, Table S5 for initial conditions and drivers). Because prefire downed coarse wood biomass could not be directly measured in the reburned plots, we used the mean from the three plots at each site that did not reburn. Each 1-ha stand was simulated with and without the reburn for 150 years under historical climate (1980-2017; Thornton et al. 2018) without further disturbance. Trees, saplings, and seedlings within a stand served as the only seed supply for subsequent regeneration, but stands infill readily because lodgepole pines produce cones at young age. Annual climate was drawn at random with replacement. Replicates (n = 20) were run for each simulation, and results were averaged by plot to avoid bias due to a particular climate sequence.  All simulations were performed with iLand version 1.08, SVN-Revision: 1380 – build date: 2019-01-17. All initial conditions and parameters are given in manuscript supplemental information. All simulations were conducted for monospecific stands of lodgepole pine. 
+
+References 
+
+Braziunas KB, Hansen WD, Seidl R, Rammer W, Turner MG (2018) Looking beyond the mean: Drivers of variability in postfire stand development in Rocky Mountain conifers. Forest Ecol Manag 430:460-471
+
+Brown JK (1974) Handbook for inventorying downed woody material. USDA Forest Service Gen Tech Rep INT-16, Odgen Utah: 24p.
+
+Copenhaver PE, Tinker DB (2014) Stem density and age affect tree-level structural and functional characteristics of young, postfire lodgepole pine in Yellowstone National Park. Forest Ecol Manag 320:138-148.
+
+Hansen WD, Braziunas KH, Rammer W, Seidl R, Turner MG (2018) It takes a few to tango: changing climate and fire regimes can cause regeneration failure of two subalpine conifers. Ecology 99:966-977.
+
+Harvey BJ, Donato DC, Turner M. (2016a) Drivers and trends in spatial patterns of burn severity in forests of the US Northern Rocky Mountains (1984-2010). Landscape Ecol 31: 2367-2383.
+
+Kashian DM, Romme WH, Tinker DB, Turner MG, Ryan MG (2013) Post-fire changes in forest carbon storage over a 300-year chronosequence of Pinus contorta-dominated forests. Ecol Monogr 83:49-66.
+
+Schoennagel T, Turner MG, Romme WH (2003) The influence of fire interval and serotiny on postfire lodgepole pine density in Yellowstone National Park. Ecology 84:2967-2978.
+
+Seidl R, Rammer W, Scheller RM, Spies TA (2012) An individual-based process model to simulate landscape-scale forest ecosystem dynamics. Ecol Modelling 231:87–100.
+
+Thornton PE, et al. (2018) Daymet: Daily surface weather data on a 1-km grid for North America, Version 3. Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1328
+
+Tinker DB, Romme WH, Hargrove WW, Gardner RH, Turner MG (1994) Landscape-scale heterogeneity in lodgepole pine serotiny. Can J For Res 24:897-303.
+
+Turner MG, Romme WH, Gardner RH, Hargrove WW (1997) Effects of patch size and fire pattern on succession in Yellowstone National Park. Ecol Monogr 67:411-433.
+
+Turner MG, Tinker DB, Romme WH, Kashian DM, Litton CM (2004) Landscape patterns of sapling density, leaf area, and aboveground net primary production in postfire lodgepole pine forests, Yellowstone National Park (USA). Ecosystems 7:751-775.
+
+Turner MG, Smithwick EAH, Metzger KL, Tinker DB, Romme WH  (2007a) Inorganic nitrogen availability following severe stand-replacing fire in the Greater Yellowstone Ecosystem.  Proc Natl Acad Sci USA 104:4782-4789.
+
+Turner MG, Turner DM, Romme WH, Tinker DB (2007b) Cone production in young post-fire Pinus contorta stands in Greater Yellowstone (USA). Forest Ecol Manag 242:119-206.
+
+Turner MG, Whitby TG, Tinker DB, Romme WH (2016) Twenty-four years after the Yellowstone Fires: Are postfire lodgepole pine stands converging in structure and function? Ecology 97:1260-1273.
+

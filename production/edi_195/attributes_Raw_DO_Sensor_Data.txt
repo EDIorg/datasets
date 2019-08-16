@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+MesocosmID	Unique ID used to identify individual mesocosm	character				
+DOC_treatment	Whether water in mesocosm is dominated by autochthonous (DCM) or allochthonous (Bog) dissolved organic matter	categorical				
+Heat_treatment	Whether water in mesocosm is at ambient (Unheated) or elevated (Heated) temperatures	categorical				
+UTC_Date_and_Time	Date and time of reading in coordinated universal time (UTC)	Date		YYYY-MM-DD hh:mm:ss		
+Eastern_Standard_Time	Date and time of reading in eastern standard time (local time)	Date		YYYY-MM-DD hh:mm:ss		
+Temperature	Water temperature in the mesocosm	numeric	celsius			
+Dissolved_Oxygen	Dissolved oxygen concentration in the mesocosm	numeric	milligramsPerLiter			
+Dissolved_Oxygen_Saturation	Dissolved oxygen saturation in the mesocosm in percent	numeric	dimensionless			
