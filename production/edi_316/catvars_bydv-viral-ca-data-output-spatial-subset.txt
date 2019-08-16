@@ -1,0 +1,33 @@
+attributeName	code	definition
+species	AVEFAT	Avena fatua
+species	BROHOR	Bromus hordeaceus
+species	ELYGLA	Elymus glaucus
+source	FIELD	field
+source	HASTINGS	Hastings
+source	MCLAUGHLIN	McLauchlin
+source	NURSERY	nursery
+source	NUTRIENT	Nutriend addition experiment
+source	REST	all other
+source	SEDGWICK	Sedgewick
+source	WATER	Watering experiment
+type	NATURAL	natural
+type	EXPERIMENTAL	experimental treatment
+plant	P	perennial
+plant	A	annual
+seed	0	Control
+seed	1	Annual seed added to Perennial or Perennial seed added to Annual communities
+trt	CONTROL	control
+trt	NITROGEN	4 gperm2 of N as CaNO3
+trt	WATER	Plots watered
+infect	0	uninfected
+infect	1	infected with any B/CYDV
+pav	0	uninfected
+pav	1	infected with any B/CYDV
+mav	0	uninfected
+mav	1	infected with any B/CYDV
+sgv	0	uninfected
+sgv	1	infected with any B/CYDV
+rpv	0	uninfected
+rpv	1	infected with any B/CYDV
+rmv	0	uninfected
+rmv	1	infected with any B/CYDV

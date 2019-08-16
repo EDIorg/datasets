@@ -1,0 +1,18 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Eric	W	Seabloom	University of Minnesota	Seabloom@umn.edu	https://orcid.org/0000-0001-6780-9259	creator			
+Parviez	R	Hosseini	Princeton University	hosseini@ecohealthalliance.org		creator			
+Alison	G	Power	Cornell University	agp4@cornell.edu		creator			
+Elizabeth	T	Borer	University of Minnesota	borer@umn.edu	https://orcid.org/0000-0003-2259-5853	creator			
+Eric	W	Seabloom	University of Minnesota	Seabloom@umn.edu	https://orcid.org/0000-0001-6780-9259	contact			
+K		Blaisdell				collecting/assembling data			
+A		Borcher				collecting/assembling data			
+G		Creager				collecting/assembling data			
+C		Kahlke				collecting/assembling data			
+L		Neys				collecting/assembling data			
+J		Quinn				collecting/assembling data			
+T		Yoshida				collecting/assembling data			
+Cherie	J	Briggs				PI	Productivity and Intraguild Predation in Orchard Crop Systems	USDA-NRICGP	2003-35316-13767
+Omer	J	Reichman				PI	"The Role of Seed Limitation, Resource Competition, and Community Complementarity in Invasions and Restorations"	NSF	DEB 0235624
+Alison	G	Power				PI		Cornell University	private funding
+Alison	G	Power				PI	"Host Community Diversity, Species Composition, and the Spread of Generalist Plant Pathogens"	NSF	DEB 0444639
+Elizabeth	T	Borer				PI	Predicting the Effects of Environmental Change and Host Diversity on the Dynamics of Insect-vectored Generalist Pathogens	NSF-NIH Ecology of Infectious Diseases	DEB 0525666

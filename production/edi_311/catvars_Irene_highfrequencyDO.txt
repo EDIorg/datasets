@@ -1,0 +1,3 @@
+attributeName	code	definition
+TimeZone	EDT	"Eastern Daylight Time, US"
+TimeZone	EST	"Eastern Standard Time, US"

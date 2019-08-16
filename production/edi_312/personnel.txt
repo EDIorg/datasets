@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Julie	S.	Denslow	Tulane University	jdenslow@att.net	0000-0001-9371-3269	creator			
+Luis	G.	Chaverri	Univ.  Estatal a Distancia	gmochaverri@gmail.com		creator			
+Orlando		Vargas	Organization for Tropical Studies	orlando.vargas@tropical studies.org		creator			
+Julie	S.	Denslow	Tulane University	jdenslow@att.net	0000-0001-9371-3269	contact			
+Joel		Alvarado	Organization for Tropical Studies	joel.alvarado@tropicalstudies.org		Field assistant			
+Marisol		Luna		Mluna2005@gmail.com		Herbarium assistant			
+Donald	E.	Stone				PI	Ecosystem Processes in Treefall Gaps of a Lowland Tropical Rain Forest	NSF	BSR 86-05106

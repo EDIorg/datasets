@@ -1,0 +1,18 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Name of each of the three geographic locations	character				
+rid	Unique identifier for each reburned plot. Stand development and carbon stocks were simulated with and without the short-interval fire.	character				
+int	treatment	character				
+newburnsev	Burn severity classes that include crown fire plus; same as in plot data	character				
+year	Simulation year	numeric	nominalYear		NA	not available
+tsf	Time since fire	numeric	nominalYear		NA	not available
+cal_year	The calendar year corresponding to each annual simulation	numeric	nominalYear		NA	not available
+stem_c	Modeled live lodgepole pine bole carbon stock	numeric	megaGramsPerHectare		NA	not available
+branch_c	Modeled live lodgepole pine branch carbon stock	numeric	megaGramsPerHectare		NA	not available
+foliage_c	Modeled live lodgepole pine foliage carbon stock	numeric	megaGramsPerHectare		NA	not available
+regeneration_c_ag	Modeled live lodgepole pine regeneration carbon stock	numeric	megaGramsPerHectare		NA	not available
+snags_c	Modeled standing dead lodgepole pine carbon stock	numeric	megaGramsPerHectare		NA	not available
+snagsOther_c_ag	Modeled lodgepole pine dead branche carbon stock	numeric	megaGramsPerHectare		NA	not available
+downedWood_c_ag	Modeled lodgepole pine downed wood carbon stock	numeric	megaGramsPerHectare		NA	not available
+live_c_ag	Total of modeled live lodgepole pine carbon stocks	numeric	megaGramsPerHectare		NA	not available
+dead_c_ag	Total of modeled dead lodgepole pine carbon stocks	numeric	megaGramsPerHectare		NA	not available
+total_c_ag	Total of modeled live plus dead lodgepole pine carbon stocks	numeric	megaGramsPerHectare		NA	not available

@@ -1,0 +1,2 @@
+geographicDescription	westBoundingCoordinate	eastBoundingCoordinate	northBoundingCoordinate	southBoundingCoordinate
+Northeastern North America	-76.210	-71.25	48.23	41.08912

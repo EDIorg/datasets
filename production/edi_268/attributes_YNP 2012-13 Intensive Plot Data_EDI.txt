@@ -1,0 +1,56 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SiteAbbrev	site name	character				
+EastingUTM	"plot coordinate Easting UTM Zone 12N, NAD83"	numeric	dimensionless			
+NorthingUTM	"plot coordinate Northing UTM Zone 12N, NAD83"	numeric	dimensionless			
+Soil_Moisture_GWC	Gravimetric water content ((wet wt - dry wt)/dry wt) of soils soils dried to constant weight at 60 degC	numeric	dimensionless			
+percSand	percent of sand particles in soil samples as measured by the hydrometer method	numeric	percent			
+percSilt	percent of silt particles in soil samples as measured by the hydrometer method	numeric	percent			
+percClay	percent of clay particles in soil samples as measured by the hydrometer method	numeric	percent			
+Soil_percN	percent Total Kjeldahl digested Nitrogen by UW-SPAL	numeric	percent			
+Soil_pH	pH of soils run by UW-SPAL	numeric	dimensionless			
+Soil_percOM	percent Organic Matter as mass loss on ignition at 360 degC by UW-SPAL in percent by weight	numeric	percent			
+Soil_P_ppm	Plant available phosphorus by UW-SPAL in ppm	numeric	partsPerMillion			
+Soil_K_ppm	Plant available potassium by UW-SPALV in ppm	numeric	partsPerMillion			
+Soil_Ca_ppm	Exchangeable calcium by UW-SPAL in ppm	numeric	partsPerMillion			
+Soil_Mg_ppm	Exchangeable magnesium by UW-SPAL in ppm	numeric	partsPerMillion			
+Soil_B_ppm	Plant available boron by UW-SPAL in ppm	numeric	partsPerMillion			
+X_NO3_ugg_resinday	Nitrate extracted from free resin bags using KCL in micrograms per gram resin per day	numeric	microgramsPerGramPerDay			
+X_NH4_ugg_resinday	Ammonium extracted from free resin bags using KCL in micrograms per gram resin per day	numeric	microgramsPerGramPerDay			
+LitterF_density_gm2	Weight of forest floor litter layer sampled in 30cm2 quadrats	numeric	gramsPerSquareMeter			
+LitterF_percN	percent Nitrogen by weight for forest floor litter layer sampled in 30cm2 quadrats	numeric	percent			
+LitterF_percC	percent Carbon by weight for forest floor litter layer sampled in 30cm2 quadrats	numeric	percent			
+LitterF_CN	Carbon:Nitrogen ratio for forest floor litter layer sampled in 30cm2 quadrats	numeric	dimensionless			
+LitterT_Density_gm2	Weight/area of all litter collected in traps over ~1 year in the field	numeric	gramsPerSquareMeter			
+PICO_LitterT_Density_gm2	Weight/area of only lodgepole pine litter collected in traps over ~1 year in the field	numeric	gramsPerSquareMeter			
+LitterT_percN	percent Nitrogen by weight of lodgepole pine litter collected in traps over ~1 year in the field	numeric	percent			
+LitterT_percC	percent Carbon by weight of lodgepole pine litter collected in traps over ~1 year in the field	numeric	percent			
+LitterT_CN	Carbon:Nitrogen ratio of lodgepole pine litter collected in traps over ~1 year in the field	numeric	dimensionless			
+Comp_percN	percent Nitrogen by weight for lodgepole pine composite needles	numeric	percent			
+Comp_percC	percent Carbon by weight for lodgepole pine composite needles	numeric	percent			
+Comp_CN	Carbon:Nitrogen Ratio for lodgepole pine composite needles	numeric	dimensionless			
+NOTY_percN	percent Nitrogen by weight for lodgepole pine needles of the year	numeric	percent			
+NOTY_percC	percent Carbon by weight for lodgepole pine needles of the year	numeric	percent			
+NOTY_CN	Carbon:Nitrogen Ratio for lodgepole pine needles of the year	numeric	dimensionless			
+NOTY_P_perc	Needles of the year total Phosphorus measured by ICP-OES at UW-SPAL	numeric	percent			
+NOTY_K_perc	Needles of the year total Potassium measured by ICP-OES at UW-SPAL	numeric	percent			
+NOTY_Ca_perc	Needles of the year total Calcium measured by ICP-OES at UW-SPAL	numeric	percent			
+NOTY_Mg_perc	Needles of the year total Magnesium measured by ICP-OES at UW-SPAL	numeric	percent			
+NOTY_S_perc	Needles of the year total Sulfur measured by ICP-OES at UW-SPAL	numeric	percent			
+NOTY_Zn_ppm	Needles of the year total Zinc measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+NOTY_B_ppm	Needles of the year total Boron measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+NOTY_Mn_ppm	Needles of the year total Manganese measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+NOTY_Fe_ppm	Needles of the year total Iron measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+NOTY_Cu_ppm	Needles of the year total Copper measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+NOTY_Al_ppm	Needles of the year total Aluminum measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+NOTY_Na_ppm	Needles of the year total Sodium measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+Comp_P_perc	Composite needles total Phosphorus measured by ICP-OES at UW-SPAL	numeric	percent			
+Comp_K_perc	Composite needles total Potassium measured by ICP-OES at UW-SPAL	numeric	percent			
+Comp_Ca_perc	Composite needles total Calcium measured by ICP-OES at UW-SPAL	numeric	percent			
+Comp_Mg_perc	Composite needles total Magnesium measured by ICP-OES at UW-SPAL	numeric	percent			
+Comp_S_perc	Composite needles total Sulfur measured by ICP-OES at UW-SPAL	numeric	percent			
+Comp_Zn_ppm	Composite needles total Zinc measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+Comp_B_ppm	Composite needles total Boron measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+Comp_Mn_ppm	Composite needles total Manganese measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+Comp_Fe_ppm	Composite needles total Iron measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+Comp_Al_ppm	Composite needles total Copper measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			
+Comp_Na_ppm	Composite needles total Aluminum measured by ICP-OES at UW-SPAL	numeric	partsPerMillion			

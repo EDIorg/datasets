@@ -1,0 +1,12 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Kristin	H	Braziunas	UW-Madison	braziunas@wisc.edu	0000-0001-5350-8463	creator			
+Winslow	D	Hansen	UW-Madison	whansen3@wisc.edu		creator			
+Rupert		Seidl	BOKU-Vienna	rupert.seidl@boku.ac.at		creator			
+Werner		Rammer	BOKU-Vienna	werner.rammer@boku.ac.at		creator			
+Monica	G	Turner	UW-Madison	turnermg@wisc.edu	0000-0003-1903-2822	creator			
+Kristin	H	Braziunas	UW-Madison	braziunas@wisc.edu	0000-0001-5350-8463	contact			
+Monica	G	Turner	UW-Madison	turnermg@wisc.edu		contact			
+Monica	G	Turner			0000-0003-1903-2822	PI	Pathways of resilience	Joint Fire Science Program	16-3-01-4
+Monica	G	Turner			0000-0003-1903-2822	PI	UW Vilas Research Trust	Wisconsin Alumni Research Foundation	
+Kristin	H	Braziunas			0000-0001-5350-8463	PI	First-year fellowship	UW Madison Integrative Biology Department	
+Rupert		Seidl				PI	START	Austrian Science Fund	Y895-B25

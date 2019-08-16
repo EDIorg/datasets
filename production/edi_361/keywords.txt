@@ -1,0 +1,15 @@
+keyword	keywordThesaurus
+Yellowstone National Park	
+Grand Teton National Park	
+Berry Fire	
+Maple Fire	
+North Fork Fire	
+Huck Fire	
+Glade Fire	
+lodgepole pine	
+aspen	
+fire ecology	
+burn severity	
+disturbance	
+University of Wyoming-National Park Service Research Station	
+AMK Ranch	

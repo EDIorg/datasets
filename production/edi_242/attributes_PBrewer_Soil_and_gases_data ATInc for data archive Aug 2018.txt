@@ -1,0 +1,109 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Core_name	Name identifier for each soil core.	character				
+Site	Site the soil core came from.	categorical				
+Field_trt	Agricultural practice used on the plot sampled.	categorical				
+Plot_number	"Field replicate, i.e. plot number under a certain ag. practice."	character				
+Core_Rep_Letter	"Soil core replicate from a single plot. A,B,C,D,E, or F (only 4 of these 6 were incubated)"	categorical				
+site_trt2	Site + ag practice for categorical stats.	categorical				
+plot_name	Site + ag. practice + plot # for stats.	character				
+DrySoilMass_pre_sack	"Total soil mass, dry."	numeric	gram			
+Stones_mass__g_	"Mass of stones >4mm diameter, if present"	numeric	gram			
+soil_and_water_volume_in_ml	Volume of soil + water in core.	numeric	milliliter			
+pH	pH of soil measured at end of incubation.	numeric	dimensionless			
+Inc_WHC_trt	Water holding capacity (WHC) target for core. In proportion of total WHC	numeric	dimensionless			
+SoilMoistureTargetChange_g	"Target soil moisture change from the initial mass of the core, calculated with the average core moisture from the plot and and the WHC target."	numeric	gram			
+PercGrav_pre_sack	Gravimetric moisture at the end of the incubation. In percent	numeric	dimensionless			
+T0BulkDensity	Soil bulk density at beginning of incubation.	numeric	gramsPerMilliliter			
+T0PercPorespace	Soil porespace. In percent of total core volume	numeric	dimensionless			
+T0PercVWC	Volumetric water content prior to incubation start. In percent of total core volume	numeric	dimensionless			
+T0PercAFPS	Air-filled porespace (AFPS) prior to incubation start. Percent of total porespace	numeric	dimensionless			
+T0PercWFPS	Water-filled porespace (WFPS) prior to incubation start. Percent of total porespace	numeric	dimensionless			
+T1PercVWC	"Volumetric water content, week 6. Percent of total core volume"	numeric	dimensionless			
+T1PercAFPS	Air-filled porespace (AFPS) week 6. Percent of total porespace	numeric	dimensionless			
+T1PercWFPS	Water-filled porespace (WFPS) week 6. Percent of total porespace	numeric	dimensionless			
+T2PercVWC	Volumetric water content week 21. Percent of total core volume	numeric	dimensionless			
+T2PercAFPS	Air-filled porespace (AFPS) week 21. Percent of total porespace	numeric	dimensionless			
+T2PercWFPS	Water-filled porespace (WFPS) week 21. Percent of total porespace	numeric	dimensionless			
+meanPercWFPS	Mean of week 6 and 21 WFPS. Percent of total porespace	numeric	dimensionless			
+Amm_mg_gds	Soil ammonium concentration in dry soil	numeric	milligramsPerGram			
+Nit_mg_gds	Soil nitrate concentration in dry soil	numeric	milligramsPerGram			
+TIN_mg_gds	Total inorganic N (TIN) in dry soil	numeric	milligramsPerGram			
+PercN_as_Nit	Percent of TIN as nitrate	numeric	dimensionless			
+Ratio_Amm_to_Nit	Ratio of ammonium to nitrate concentration	numeric	dimensionless			
+log10Amm_ug_gdw	Log10 of ammonium concentration	numeric	dimensionless			
+log10Nit_ug_gdw	Log10 of nitrate concentration	numeric	dimensionless			
+log10TIN_ug_gdw	Log10 of TIN	numeric	dimensionless			
+CHL_DOC_mg_gds	Extraction of dissolved organic C (DOC) from soil after chloroform in dry soil	numeric	milligramsPerGram			
+CHL_TN_mg_gds	Extraction of total N(TN) from soil after chloroform in dry soil	numeric	milligramsPerGram			
+nonCHL_DOC_mg_gds	Extraction of dissolved organic C (DOC) from soil without chloroform in dry soil	numeric	milligramsPerGram			
+nonCHL_TN_mg_gds	Extraction of total N(TN) from soil without chloroform in dry soil	numeric	milligramsPerGram			
+MBC_mg_gds	Microbial biomass C in dry soil	numeric	milligramsPerGram			
+MBN_mg_gds	Microbial biomass N in dry soil	numeric	milligramsPerGram			
+MBCtoN	Microbial biomass C to N ratio	numeric	dimensionless			
+log10MBC_mg_gdw	Log10 microbial biomass C	numeric	dimensionless			
+Fungal_presence	Clear fungal presence (e.g. mycelium) observed at end of incubation destructive sampling.	categorical				
+Macrofauna_category	"Soil faunal activity category, 4 levels"	categorical				
+Faunal_3_category	"Soil faunal activity category, 3 levels"	categorical				
+Gleying	Gleying (grey coloration indicating reduced iron) observed during destructive sampling of core.	character				
+Min_redox_mV	Minimum reduction-oxidation potential measured in core.	numeric	millivolt			
+Redox_cat	Category of redox potential.	categorical				
+Redox_binary	Binary category of redox potential.	categorical				
+T0_NO3_plot_mean_mgN_gds	"Nitrate content  in dry soil by plot at time of field extraction of cores, average of two cores."	numeric	milligramsPerGram			
+Change_in_NO3_mgN_gdw	Difference between plot's average nitrate content in dry soil at field sampling and final nitrate content of core.	numeric	milligramsPerGram			
+Perc_change_in_NO3_from_T0	Percent difference of nitrate between plot's average at field sampling and final core.	numeric	dimensionless			
+T0_NH4_plot_mean_mgN_gds	"Ammonium content in dry soil by plot at time of field extraction of cores, average of two cores."	numeric	milligramsPerGram			
+Change_in_NH4_mgN_gdw	Difference between plot's average ammonium content in dry soil at field sampling and final ammonium content of core.	numeric	milligramsPerGram			
+Perc_NH4_change_from_T0	Percent difference of ammonium between plot's average at field sampling and final core.	numeric	dimensionless			
+Run1_CH4_flux_nmole_per_day_kgdw	Week 6 net CH4 flux of core. In NanomoleCH4PerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+Run4_CH4_flux_nmole_per_day_kgdw	Week 21 net CH4 flux of core. In NanomoleCH4PerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+Run1_CO2_flux_nmole_per_day_kgdw	Week 6 net CO2 flux of core. In NanomoleCO2PerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+Run4_CO2_flux_nmole_per_day_kgdw	Week 21 net CO2 flux of core. In NanomoleCO2PerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+Run1_N2O_flux_nmole_per_day_kgdw	Week 6 net N2O flux of core. In NanomoleN2OPerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+Run4_N2O_flux_nmole_per_day_kgdw	Week 21 net N2O flux of core. In NanomoleN2OPerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+Change_in_CH4_flux_nmole_per_day_kgdw	Difference between week 6 and 21 net CH4 flux. In NanomoleCH4PerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+Change_in_CO2_flux_nmole_per_day_kgdw	Difference between week 6 and 21 net CO2 flux. In NanomoleCO2PerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+Change_in_N2O_flux_nmole_per_day_kgdw	Difference between week 6 and 21 net N2O flux. In NanomoleN2OPerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+log10_Run1_CO2_flux_nmole_per_day_kgdw	Log10 Week 6 net CO2 flux of core.	numeric	dimensionless			
+log10_Run4_CO2_flux_nmole_per_day_kgdw	Log10 Week 21 net CO2 flux of core.	numeric	dimensionless			
+log10_Run1_N2O_flux_nmole_per_day_kgdw	Log10 Week 6 net N2O flux of core.	numeric	dimensionless			
+log10_Run4_N2O_flux_nmole_per_day_kgdw	Log10 Week 21 net N2O flux of core.	numeric	dimensionless			
+Mean_N2O_flux_nmole_per_day_kgdw	Average of Week6 and 21 net N2O flux. In NanomoleN2OPerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+Mean_CO2_flux_nmole_per_day_kgdw	Average of Week6 and 21 net CO2 flux. In NanomoleCO2PerDayPerKilogramDryWeightofSoil	numeric	nanomolesPerKilogramPerDay			
+log10_Mean_N2O_flux_nmole_per_day_kgdw	Log10 Average of Week6 and 21 net N2O flux.	numeric	dimensionless			
+log10_Mean_CO2_flux_nmole_per_day_kgdw	Log10 Average of Week6 and 21 net CO2 flux.	numeric	dimensionless			
+P_IPD1	Week 6 Isotope pool dilution (IPD) P (production constant) estimate. In MillilitersCH4PerDay	numeric	millilitersPerDayPerConcentration			
+K_IPD1	Week 6 IPD K (consumption constant) estimate. In MillilitersCH4PerDayPerCH4Concentration (CH4 Concentration is vol/vol not ppm)	numeric	millilitersPerDayPerConcentration			
+CH4_slope_IPD1	Week 6 slope of linear regression of total CH4 concentration from IPD incubation over time. In ppmCH4PerDay	numeric	ppmPerDay			
+P_IPD2	Week 21 IPD P estimate. In MillilitersCH4PerDay	numeric	millilitersPerDay			
+K_IPD2	Week 21 IPD K estimate. In MillilitersCH4PerDayPerCH4Concentration (CH4 Concentration is vol/vol not ppm)	numeric	millilitersPerDayPerConcentration			
+CH4_slope_IPD2	Week 21 slope of linear regression of total CH4 concentration from IPD incubation over time. In ppmCH4PerDay	numeric	ppmPerDay			
+P_IPD1_kgdw	Week 6 IPD P divided by dry soil mass. In MillilitersCH4PerDayPerKilogramDryWeightofSoil	numeric	millilitersPerKilogramsPerDay			
+P_IPD2_kgdw	Week 21 IPD P divided by dry soil mass. In MillilitersCH4PerDayPerKilogramDryWeightofSoil	numeric	millilitersPerKilogramsPerDay			
+K_IPD1_kgdw	Week 6 IPD K divided by dry soil mass. In MillilitersCH4PerDayPerCH4ConcentrationPerKilogramDryWeightofSoil	numeric	millilitersPerKilogramsPerDayPerConcentration			
+K_IPD2_kgdw	Week 21 IPD K divided by dry soil mass.	numeric	millilitersPerKilogramsPerDayPerConcentration			
+binary_P1	"Categorical variable indicating cores with P above detection limit (DL), week 6."	categorical				
+binary_P2	"Categorical variable indicating cores with P above DL, week 21."	categorical				
+P_category	CH4 production category combining the two P binary variables.	categorical				
+Persistence	"CH4 production persistence category, indicating persistent methanogensis from week 6 to 21."	categorical				
+category_P1_60	Categorical variable indicating whether P was above DL in week 6 and also above 60percent WFPS.	character				
+category_P2_60	Categorical variable indicating whether P was above DL in week 21 and also above 60percent WFPS.	character				
+P_flux_IPD1_kgdw	"CH4 gross production flux divided by dry soil mass, week6. In NanomoleCH4PerDayPerKilogramDryWeightofSoil"	numeric	nanomolesPerKilogramPerDay			
+P_flux_IPD2_kgdw	"CH4 gross production flux divided by dry soil mass, week21. In NanomoleCH4PerDayPerKilogramDryWeightofSoil"	numeric	nanomolesPerKilogramPerDay			
+C_flux_atmConc_IPD1_kgdw	"CH4 gross consumption flux (based on 1.8ppm ambient CH4) divided by dry soil mass, week6. In NanomoleCH4PerDayPerKilogramDryWeightofSoil"	numeric	nanomolesPerKilogramPerDay			
+C_flux_atmConc_IPD2_kgdw	"CH4 gross production flux (based on 1.8ppm ambient CH4) divided by dry soil mass, week21. In NanomoleCH4PerDayPerKilogramDryWeightofSoil"	numeric	nanomolesPerKilogramPerDay			
+log10_P_flux_IPD1_kgdw	"Log10 CH4 gross production flux, week 6."	numeric	dimensionless			
+log10_P_flux_IPD2_kgdw	"Log10 CH4 gross production flux, week 21."	numeric	dimensionless			
+P_flux_IPD_mean_kgdw	"CH4 gross production flux, average of week 6 and 21. In NanomoleCH4PerDayPerKilogramDryWeightofSoil"	numeric	nanomolesPerKilogramPerDay			
+log10_P_flux_IPD_mean_kgdw	"Log10 of CH4 gross production flux, average of week 6 and 21."	numeric	dimensionless			
+areal_P_IPD1_nmolesCH4_m2	"CH4 gross production flux converted to soil surface area units, week 6. In NanomoleCH4PerDayPerMeterSquared"	numeric	nanomolesPerMeterSquaredPerDay			
+areal_P_IPD2_nmolesCH4_m2	"CH4 gross production flux converted to soil surface area units, week 21. In NanomoleCH4PerDayPerMeterSquared"	numeric	nanomolesPerMeterSquaredPerDay			
+areal_K_IPD1_nmoles_atmC_m2	"CH4 gross consumption flux (based on 1.8ppm ambient CH4) converted to soil surface area units, week 6. In NanomoleCH4PerDayPerMeterSquared"	numeric	nanomolesPerMeterSquaredPerDay			
+areal_K_IPD2_nmoles_atmC_m2	"CH4 gross consumption flux (based on 1.8ppm ambient CH4) converted to soil surface area units, week 21. In NanomoleCH4PerDayPerMeterSquared"	numeric	nanomolesPerMeterSquaredPerDay			
+Gross_C_mnlzn_t1_nmole_day_kgdw	"Gross carbon mineralization (gross CH4 + CO2 production), week 6 In NanomoleCPerDayPerKilogramDryWeightofSoil"	numeric	nanomolesPerKilogramPerDay			
+Gross_C_mnlzn_t2_nmole_day_kgdw	"Gross carbon mineralization (gross CH4 + CO2 production), week 21 In NanomoleCPerDayPerKilogramDryWeightofSoil"	numeric	nanomolesPerKilogramPerDay			
+MG_frc_t1	"Methanogenic fraction of gross C mineralization, week 6"	numeric	dimensionless			
+MG_frc_t2	"Methanogenic fraction of gross C mineralization, week 21"	numeric	dimensionless			
+MG_frc_mean	"Methanogenic fraction of gross C mineralization, average of week 6 and21"	numeric	dimensionless			
+log10_MG_frc_t1	"Log10 Methanogenic fraction of gross C mineralization, week 6"	numeric	dimensionless			
+log10_MG_frc_t2	"Log10 Methanogenic fraction of gross C mineralization, week 21"	numeric	dimensionless			
+log10_MG_frc_mean	"Log10 Methanogenic fraction of gross C mineralization, average of week 6 and21"	numeric	dimensionless			

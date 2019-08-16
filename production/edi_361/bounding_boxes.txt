@@ -1,0 +1,2 @@
+geographicDescription	westBoundingCoordinate	eastBoundingCoordinate	northBoundingCoordinate	southBoundingCoordinate
+"All sites are located in Yellowstone and Grand Teton National Parks, Wyoming, USA. Coordinates denote the North, South, East and West entrances of the national park."	-110.904	-110.6	44.688	44.092

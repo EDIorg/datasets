@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Date	"Date.  Schmidt Stability and rainfall calculated using 12:00 am to 11:59 pm.  Metabolism parameters calculated using solar day (sunrise on date listed to sunrise the following day). Eastern Daylight Time, except Lillinonah, Croche and Simoncouche which are calculated in Eastern Standard Time"	Date		YYYY-MM-DD		
+Lake	Name of individual lake	character				
+Stability	Schmidt stability calculated using Lake Analyzer	numeric	JoulesperSquareMeter		NA	not available
+Rainfall	"Summed rainfall for a 24-hour period. Rainfall data for Lacawac, Lillinonah, Sunapee, Croche, Simoncouche is from onsite meterological stations. Rainfall data for Ashokan and Rondout is from a meterological station at nearby Mohonk Preserve. Rainfall data for Onondaga is from the Syracuse airport METAR station KSYR. Rainfall data for Kensico was from the Westchester County airport METAR station KHPN."	numeric	millimeter		NA	not available
+R	Respiration rate 	numeric	MilligramsOxygenPer LiterPerDay		NA	not available
+GPP	Gross primary production	numeric	MilligramsOxygenPer LiterPerDay		NA	not available
+NEM	Net ecosystem metabolism (equal to GPP-R)	numeric	MilligramsOxygenPer LiterPerDay		NA	not available

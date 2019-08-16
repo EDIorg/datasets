@@ -1,0 +1,86 @@
+Methods are described in detail in Braziunas et al. (2018), Forest Ecology and Management. https://doi.org/10.1016/j.foreco.2018.08.034
+
+This repository includes files to recreate model simulations from the paper. This includes all files to run iLand, as well as key and database files to run the Forest Vegetation Simulator (FVS). Simulation outputs were initially processed and condensed in R prior to analysis. These R scripts and processed CSV outputs are included. This repository includes data for four separate experiments (the simulation experiment described in the main body of the aforementioned paper plus the three evaluation experiments described in the appendices). Comparison field data is not included, but see Braziunas et al. for additional information and citations for comparison data sources.
+
+A brief recap of each of the experiments:
+
+1.)	Simulation (stand variability) experiment (CSVs starting with 'variability_'). Young (less than 25-year-old), monospecific postfire stands (1 ha) were initialized from field data and simulated over 300 years of postfire stand development (historical climate, no additional disturbance) in a 2-by-2 factorial design. All stands were simulated with observed variation in postfire regeneration and abiotic conditions or with no among-stand variation, resulting in four scenarios (Both vary, Abiotic varies, Regeneration varies, Neither varies). There were n = 20 replicates simulated per scenario. Replicates and scenarios were condensed into one CSV output file per species.
+
+2.)	Single-species (initial) evaluation (CSVs starting with 'init_eval_'). Young (less than 25-year-old), monospecific postfire stands (1 ha) were initialized from field data and simulated over 300 years of postfire stand development (historical climate, no additional disturbance). There is one CSV output for each species. Outputs were compared with previously published, independent field observations and data from the Forest Inventory and Analysis (FIA) database.
+
+3.)	Succession (multispecies evaluation) experiment (CSVs starting with 'multispecies_'). 10 1-ha stands were simulated from bare ground along an elevation transect for each of three forest types. Seed inputs entered the stands from two, opposite sides (seed availability differed by forest type based on published field data on tree species composition). Once mature trees had established, simulated stands could serve as seed sources for each other. Stand development was simulated for 300 years (historical climate, no disturbance), and simulations were replicated three times for a total of n = 30 stands per forest type. There are two CSV outputs for each of the three replicates, with aggregated data for different subsets of tree sizes. Outputs were compared to published field observations.
+
+4.)	Model comparison (fvs evaluation) with Forest Vegetation Simulation (FVS) (CSVs starting with 'fvs_eval_'). The same young, monospecific 1-ha stands were simulated in both iLand and FVS (lodgepole pine and Douglas-fir only) for 300 years (historical climate, no additional disturbance). There is one CSV output per species and per model (four outputs total). Stand structure and development were compared between models.
+
+Operating systems and software: OS: Windows 7 Enterprise, iLand version: version 1.02 build date 13 March 2017, QT library: 5.8.0, R version: 3.4.3, FVS Complete Package 2015-06-26, FVS Suppose v2.06
+
+File structure (within simulations folder)
+
+There are separate folders for FVS ('fvs') and iLand ('iland').
+
+'fvs' subfolders:
+
+-	'runs': keys and suppose location files for lodgepole pine ('Pico_evaluation2' files and 'suppose_pico.loc') and Douglas-fir ('Psme_evaluation' files and 'suppose_psme.loc') simulations. Subfolders:
+
+o	'database': stand and tree initialization files for FVS runs
+
+o	'output_files': blank Access database files that will be populated when simulations are run
+
+-	'output': processed CSV outputs for lodgepole pine ('fvs_eval_fvs_pico.csv') and Douglas-fir ('fvs_eval_fvs_psme.csv'). Subfolder:
+
+o	'example_output_script': R script to create CSV output from Access database output file
+
+'iland' subfolders:
+
+-	'iland_executable': iLand executable and necessary QT library.
+
+-	'NR': 22 project files (.xml extension) for running experiments. All project files begin with 'GYE_project_file_' and the short name for a species (abla = subalpine fir, pico = lodgepole pine, pien = Engelmann spruce, psme = Douglas-fir). A key to the project files associated with each of the simulation experiments is included below. Project files are linked to the associated files within this folder structure needed to rerun each of the simulations. Subfolders:
+
+o	'database_nr': .sqlite databases of species parameters and climate data.
+
+o	'gis': contains subfolders with environment files (abiotic conditions within a stand) and stand grid files (location of stand) in .txt format. 
+
+o	'init': contains subfolders with initial vegetation conditions (trees and seedlings/saplings) in .txt format.
+
+o	'lip_nr': .bin files used by iLand for light calculations for different species and tree sizes.
+
+o	'output': contains subfolders with processed CSV outputs and R scripts to create CSVs from iLand .sqlite outputs for each of the four experiments. A key to the output folder associated with each of the simulation experiments is included below.
+
+Project file and output folder key (iLand simulations)
+
+Note that 'SPCD' below refers to a 4-character species code (abla = subalpine fir, pico = lodgepole pine, pien = Engelmann spruce, psme = Douglas-fir).
+
+1.)	Simulation (stand variability) experiment
+
+a.)	Project files: 
+
+i.)	'GYE_project_file_SPCD_all_vary.xml': Both vary scenario
+
+ii.)	'GYE_project_file_SPCD_abiotic_varies.xml': Abiotic varies scenario
+
+iii.)	'GYE_project_file_SPCD_regeneration_varies.xml': Regeneration varies scenario
+
+iv.)	'GYE_project_file_SPCD_none_vary.xml': Neither varies scenario
+
+b.)	Output folder: 'stand_variability'. One output per species, 'variability_SPCD_allsims.csv'.
+
+2.)	Single-species (initial) evaluation
+
+a.)	Project files: 'GYE_project_file_SPCD_initial_eval.xml' (all species except lodgepole pine) and 'GYE_project_file_pico_initial_fvs_eval.xml' (lodgepole pine).
+
+b.)	Output folder: 'initial_evaluation'. One output per species, 'init_eval_SPCD.csv'.
+
+3.)	Succession (multispecies evaluation) experiment
+
+a.)	Project file: 'GYE_project_file_multispecies_eval.xml'
+
+b.)	Output folder: 'multispecies_evaluation'. Two outputs per simulation replicate, with aggregated data for different subsets of tree sizes. 
+
+4.)	Model comparison (fvs evaluation) with Forest Vegetation Simulation (FVS)
+
+a.)	Project file: 'GYE_project_file_pico_initial_fvs_eval.xml' for lodgepole pine, 'GYE_project_file_psme_fvs_eval.xml' for Douglas-fir.
+
+b.)	Output folder: 'fvs_evaluation'. One output per species, 'fvs_eval_iland_SPCD.csv'.
+
+Note: Everything is here to recreate this batch of simulations. However, iLand is not a simple piece of software to use and thus implementing any simulations takes substantial effort to learn how the model works and to conduct simulations. Extensive model documentation is available online: http://iland.boku.ac.at/startpage 
+

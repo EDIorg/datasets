@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+ROUTE_ID	"Unique identifier for each sampling trip (i.e. each individual ride), comprised of the ROUTE_NAME and ROUTE_NUMB"	character				
+ROUTE_NAME	Unique identifier for each of 10 urban transects	character				
+ROUTE_NUMB	Unique number assigned to each mobile sampling trip	character				
+TIME_BLOCK	"Time of day (day, or night) when sampling was done"	character				
+DATE	Date of each sampling trip	Date		YYYY-MM-DD		
+START_TIME	The start time of each sampling trip	Date		hh:mm:ss		
+END_TIME	The end time of each sampling trip 	Date		hh:mm:ss		
+ROUTE_LENGTH_MIN	The length (minutes) of the sampling trip	numeric	number		NA	not available
+MAX_TEMP_RIDE	The maximum temperature  recorded during a given ride	numeric	celsius		NA	not available
+MIN_TEMP_RIDE	The minimum temperature  recorded during a given ride	numeric	celsius		NA	not available
+TEMP_RANGE_RIDE	The range of temperature (max - min) recorded during a given ride	numeric	celsius		NA	not available
+AIRPORT_TIME	The time closest to the sampling period at which weather data (reported in the following columns) was recorded at the Dane County Regional Airport	Date		hh:mm		
+AIRPORT_TEMP	The temperature  recorded at the Dane County Regional Airport during the recording event closest in time to the sampling period 	numeric	celsius		NA	not available
+AIRPORT_HUMIDITY	The humidity (%) recorded at the Dane County Regional Airport during the recording event closest in time to the sampling period 	numeric	dimensionless		NA	not available
+AIRPORT_WIND_KH	The windspeed (km/hr) recorded at the Dane County Regional Airport during the recording event closest in time to the sampling period 	numeric	kilometersPerHour		Calm	no wind
+AIRPORT_SUN	The reported cloud cover recorded at the Dane County Regional Airport during the recording event closest in time to the sampling period 	character				
+AIRPORT_TEMP_4HR	The average temperature  recorded at the Dane County Regional Airport during all recording events in the 4 hours prior to the sampling period 	numeric	celsius		NA	not available
+AIRPORT_MAXTEMP	The maximum temperature  recorded at the Dane County Regional Airport during the day in which sampling took place	numeric	celsius		NA	not available

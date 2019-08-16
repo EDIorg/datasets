@@ -1,0 +1,12 @@
+keyword	keywordThesaurus
+Amphibians	
+forest canopy structure	
+natural disturbance regimes	
+Plethodon richmondi	
+Plethodon kentucki	
+population dynamics	
+Lilley Cornett Woods Appalachian Ecological Research Station (LCWAERS)	
+Amphibia	
+Caudata	
+Plethodontidae	
+Plethodon	

@@ -1,0 +1,21 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+ROUTE_ID	"Unique identifier for each sampling trip (i.e. each individual ride), comprised of the ROUTE_NAME and ROUTE_NUMB"	character				
+ROUTE_NAME	Unique identifier for each of 10 urban transects	character				
+ROUTE_NUMB	Unique number assigned to each mobile sampling trip	character				
+TIME_BLOCK	"Time of day (day, or night) when sampling was done"	character				
+DATE	Date of each sampling trip	Date		YYYY-MM-DD		
+TIME	Time at which temperature measurement was recorded	Date		hh:mm:ss		
+TEMP_C	Temperature  at each measurement location	numeric	celsius		NA	not available
+LATITUDE	Latitude at which temperature measurement was recorded	numeric	degree		NA	not available
+LONGITUDE	Longitude at which temperature measurement was recorded	numeric	degree		NA	not available
+CanopyCover_10m	Canopy cover (in percent) within a 10m radius of the location at which the temperature measurement was recorded	numeric	dimensionless		NA	not available
+CanopyCover_30m	Canopy cover (in percent) within a 30m radius of the location at which the temperature measurement was recorded	numeric	dimensionless		NA	not available
+CanopyCover_60m	Canopy cover (in percent) within a 60m radius of the location at which the temperature measurement was recorded	numeric	dimensionless		NA	not available
+CanopyCover_90m	Canopy cover (in percent) within a 90m radius of the location at which the temperature measurement was recorded	numeric	dimensionless		NA	not available
+DistFromLake	Distance (m) from the location at which the temperature measurement was recorded to the nearest lake	numeric	meter		NA	not available
+ImpTot_10m	Impervious cover (in percent) within a 10m radius of the location at which the temperature measurement was recorded	numeric	dimensionless		NA	not available
+ImpTot_30m	Impervious cover (in percent) within a 30m radius of the location at which the temperature measurement was recorded	numeric	dimensionless		NA	not available
+ImpTot_60m	Impervious cover (in percent) within a 60m radius of the location at which the temperature measurement was recorded	numeric	dimensionless		NA	not available
+ImpTot_90m	Impervious cover (in percent) within a 90m radius of the location at which the temperature measurement was recorded	numeric	dimensionless		NA	not available
+REF_TEMP	Reference temperature . The temperature at a set of stationary reference sensors (see Appendix for full explanation)	numeric	celsius		NA	not available
+TEMP_ANOM	Temperature anomaly . The difference between the recorded temperature (TEMP_C) and reference temperature (REF_TEMP).	numeric	celsius		NA	not available

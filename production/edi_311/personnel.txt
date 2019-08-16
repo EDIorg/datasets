@@ -1,0 +1,21 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jennifer	L	Klug	Fairfield University	jklug@fairfield.edu	0000-0002-9659-2615	creator			
+David	C	Richardson	State University of New York at New Paltz	richardsond@newpaltz.edu	0000-0001-9374-9624	creator			
+Holly	A	Ewing	Bates College	hewing@bates.edu	0000-0001-7077-8473	creator			
+Bruce	R	Hargreaves	Lehigh University	retired		creator			
+Nihar	R	Samal	New York City Environmental Protection	nsamal@dep.nyc.gov	0000-0002-8877-7003	creator			
+Dominic		Vachon	Umea University	domvachon@gmail.com	0000-0003-1157-5240	creator			
+Donald	C	Pierson	Uppsala University	don.pierson@ebc.uu.se		creator			
+						creator			
+Bethel	G	Steele	Cary Institute of Ecosystem Studies	steeleb@caryinsitute.org	0000-0003-4365-4103	creator			
+David	M	O'Donnell	Upstate Freshwater Institute	daveod@upstatefreshwater.org		creator			
+Steven	W	Effler	Deceased			creator			
+Paul	A	del Giorgio	Universite du Quebec a Montreal	del_giorgio.paul@uqam.ca		creator			
+Kathleen	C	Weathers	Cary Institute of Ecosystem Studies	weathersk@caryinstitute.org	0000-0002-3575-6508	creator			
+Jennifer	L	Klug	Fairfield University	jklug@fairfield.edu	0000-0002-9659-2615	contact			
+			Lake Sunapee Protective Association	lspa@lakesunapee.org		data contributor			
+			Friends of the Lake	info@friendsofthelake.org		Funding and maintenance for Lillinonah buoy			
+Hubert		Morin	Laboratoire d'ecologie vegetale et animale of the Universite du Quebec a Chicoutimi			Simoncouche weather data			
+Francois		Gionest	Laboratoire d'ecologie vegetale et animale of the Universite du Quebec a Chicoutimi			Simoncouche weather data			
+Alice		Parkes	University of Quebec in Montreal	parkes.alice@uqam.ca		Lake Croche buoy data			
+			Mohonk Preserve Daniel Smiley Research Center	research@mohonkpreserve.org		Ashokan and Rondout precipitation data			

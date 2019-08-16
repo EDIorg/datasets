@@ -1,0 +1,14 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Monica	G	Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	creator			
+Timothy	G	Whitby	University of Wisconsin-Madison	whitbytimothy@gmail.com		creator			
+William	H	Romme	Colorado State University	William.Romme@colostate.edu		creator			
+Monica	G	Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	contact			
+Daniel	B	Tinker	University of Wyoming (retired)			co-PI			
+Kellen		Nelson	University of Wyoming (graduated)			field crew			
+Paige		Copenhaver	University of Wyoming (graduated)			field crew			
+Winslow	D	Hansen	University of Wisconsin-Madison (graduated)			field crew			
+Natalie		Kaner	University of Wisconsin-Madison (graduated)			field crew			
+Andy		Muench	University of Wisconsin-Madison (graduated)			field crew			
+Sarah		Winter	University of Wisconsin-Madison (graduated)			field crew			
+Monica	G	Turner	0000-0003-1903-2822			PI	"Paths of recovery: landscape variability in forest structure, function and fuels 25 years after the 1988 Yellowstone fires"	Joint Fire Science Program	11-1-1-7
+Monica	G	Turner	0000-0003-1903-2822			PI	Vilas Research Professorship	"Vilas Trust, University of Wisconsin-Madison"	

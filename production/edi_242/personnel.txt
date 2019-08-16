@@ -1,0 +1,11 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Paul	E.	Brewer	Smithsonian Env. Research Center	paulbrewer@gmail.com	0000-0002-2715-5286	creator			
+Francisco		Calderon	"USDA ARS Akron, CO"	francisco.calderon@ars.usda.gov		creator			
+Merle		Vigil	"USDA ARS Akron, CO"	merle.vigil@ars.usda.gov	0000-0003-3116-5142	creator			
+Joseph	C.	Von Fischer	Colo. State University	joe.von_fischer@colostate.edu	0000-0001-5508-6073	creator			
+Paul	E.	Brewer	Smithsonian Env. Research Center	paulbrewer@gmail.com	0000-0002-2715-5286	contact			
+Brandon		Peterson	USDA ARS Akron			"Field crew, Akron"			
+Evan		Rosenlieb	Colo. State University			Assisting in model derivation			
+Paul	E.	Brewer	Smithsonian Env. Research Center	paulbrewer@gmail.com	0000-0002-2715-5286	PI	Uncovering the mechanisms of reduced tillage effects on nutrient cycles and greenhouse gas flux	US Dept. of Agriculture - National Institutes of Food and Agriculture	 2013-67011-21119
+Paul	E.	Brewer	Smithsonian Env. Research Center	paulbrewer@gmail.com	0000-0002-2715-5286	PI	Francis Clark Award	Colorado State University - Natural Resource Ecology Laboratory	
+Paul	E.	Brewer	Smithsonian Env. Research Center	paulbrewer@gmail.com	0000-0002-2715-5286	PI	Graduate Research Grant	Colorado State University - Graduate Degree Program in Ecology	

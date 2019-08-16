@@ -1,0 +1,71 @@
+Experimental design: Fourteen sites that were previously sampled (in either 2003 by Turner or 2005 by Levitt and Turner) were re-sampled during 2012-13. See publication for full description. Plots spanned the wide range of postfire tree densities observed following the 1988 fires. 
+
+Sampling methods: General plot set up and forest structural measurements were described elsewhere (Turner et al. 2016). The following methods focus on those variables that were unique to this intensive study. All sites were initially sampled between July 3 and 23, 2012. Collection of deployed field equipment and final measurements took place between July 22 and August 2, 2013.	
+	
+Field collection: Along the three belt transects, polystyrene 1020 seedling flats were fastened to the ground with 6" landscaping staples and remained until all incident litter was collected in paper bags the following year. Adjacent to three predetermined litter traps, the nearest lodgepole pine tree was selected for foliage harvest in summer 2013. Two full branches from the upper third of the crown were cut off and collected in paper bags. Needles were stripped by hand indoors following the day's sampling. All of one branch's needles were stripped and placed back in the original paper bag for the composite sample, and for the second branch only needles of the year (NOTY) were stripped and placed in a new paper bag. These samples were air dried until complete drying @ 60 degC in the laboratory following the field season.
+
+Soil, litter, and ion exchange resin bags were collected or installed at precise distances and directions from the center point of quadrants which were delineated within the 0.25 ha site (Fig. 1). In each quadrant, three 5x15cm soil cores and 30x30cm forest floor litter quadrats were collected and composited (n=4 per site). Litter was composited by quadrant and placed in paper bags and stored at room temp until further analysis. Soils were run through a 2 mm sieve the day of collection to remove rocks and roots. A subsample of field moist soil was frozen in a separate sealed plastic bag for microbial extracellular enzyme analysis (EEA). Another subsample was used for field moisture determination by drying to a constant weight at 60 degC, and the remaining soil was air dried until further laboratory analysis. Soil resin bags were installed about 10 cm below ground by inserting a steel pry bar into the ground at 45 degree angle and prying up the soil enough to insert the bag. Bags were labeled with a forestry tag, which was tethered to the quadrant center with fishing line for relocation and removal the following year. 
+
+Plot locations (UTM Zone 12N, NAD83) 
+
+Site Full Name, Easting, Northing, Elevation
+84 Blowdown, 528426, 4951525, 2409
+Biscuit Basin, 511657, 4924851, 2224
+Cascade Creek, 538949, 4954217, 2466
+Cascade Meadows North, 537625, 4953870, 2490
+Cascade Meadows South, 536876, 4951781, 2480
+Cygnet Lake North, 532022, 4950292, 2507
+Firehole Loop South, 511433, 4940967, 2168
+Fountain East, 499486, 4943962, 2062
+Gibbon Falls, 515479, 4944380, 2140
+Gravel Pit, 500984, 4945028, 2074
+Lewis Canyon, 527329, 4896594, 2378
+Pitchstone HOBO, 528552, 4900863, 2390
+Riddle HOBO, 533157, 4911736, 2436
+South Lewis Canyon, 527134, 4893995, 2370
+
+Habitat: Coniferous forests dominated by lodgepole pine, although subalpine fir (Abies lasiocarpa (Hook.) Nutt.), Engelmann spruce (Picea engelmannii Parry), and whitebark pine (Pinus albicaulis Engelm.) may be locally abundant.
+
+Geology: Primarily rhyolite parent material.
+
+Site history: YNP is managed as wilderness, so no intervention or management affected natural succession following the 88 wildfires.
+
+Climate: The climate is generally cool and dry; on the plateau, mean January temperature is -11.4 degC and mean July temperature is 10.8 degC (Dirks and Martner 1982). Mean annual precipitation is 56.25 cm with relatively moist springs and dry summers (Dirks and Martner 1982). However, annual climate in Yellowstone is becoming more warm and dry as compared to historical averages (Shuman 2012).
+
+Plant identification in the field was performed using:
+
+Dorn, R. D. 2001. Vascular plants of Wyoming. Third. Mountain West Pub., Cheyenne, WY, USA.
+
+Pojar, J., A. MacKinnon, and L. Kershaw. 1998. Plants of the Rocky Mountains. Lone Pine Pub., Edmonton, AB, Canada.
+
+Laboratory analyses:
+
+Total Carbon and Nitrogen: Subsamples of soil, forest floor litter (LitterF), incident litter (LitterT), and foliage were dried to a constant weight at 60 degC. Homogenized and finely ground samples were weighed in tins on a microbalance; samples were 2-3mg (in duplicate) for forest floor litter, and 5-10mg (single sample) for foliage and incident litter. Samples were run on a thermo scientific Flash EA combustion analyzer using the correct standards and checks.
+
+General soil properties: Immediately after sieving, about 30 g of soil was used to determine gravimetric water content at 60 degC. Another dried sample was sent to UW-Madison's Soil and Plant Analysis Laboratory for the "general forest soils package" which gives pH, % organic matter, total N%, extractible P, K, Ca, Mg, and an additional requested test for B.
+
+Foliage general properties: Finely ground samples of foliage were composited to reduce analytical costs when sent to SPAL for "element package 1" by ICP-OES, which includes P, K, Ca, MG, S, Zn, Mn, B, Cu, Fe, Na, and Al. Composite needles (the whole-branch sample) were composited at the transect level (n = 3/site, 1.5 g each) using about 0.5g of the three constituent samples. As NOTY samples were much smaller, these needles were composited to the site level (n = 1) using about 0.2g of each individual sample (total 1.8 g). If any sample was less than this pre-determined weight, the entire sample was used in the composite and was not compensated for with other samples, such that the total weight may be lower than stated above.
+
+Resin Ammonium and Nitrate: To compare relative amounts of plant available N, free resin bags incubated in the soil were analyzed using liquid extraction of exchangeable ions (Robertson et al. 1999). Briefly, un-damaged resin bags were emptied into 125 mL specimen cups and immersed in 100 mL of 1M KCL for 1 hour on a shaker table. Damaged resin bags were emptied into a filter funnel, cleaned with DI water, and dried to a constant weight at 40 degC to normalize N values to their remaining weight before extraction. Duplicate 10 mL aliquots of the extract were passed through a 25mm glass fiber syringe filter into 15 mL falcon tubes then frozen pending analysis. Once all extracts were completed, samples were analyzed on an Astoria 2 segmented flow analyzer (Astoria-Pacific Inc, OR, USA) for total ammonium (NH4) and nitrate (NO3) following the manufacturer's protocols.  
+
+Computer programs and data processing algorithms: 
+Litter C:N : Eager 300; Thermo Fisher Scientific Inc.
+NO3 and NH4: FasPac II version 2.1.2.37; Astoria-Pacific Inc.
+
+Data forms: Field data sheets in 2012 show checklists for deployment of soil resin bags and litter traps, as well as recorded data for litter and duff depth for the LitterF samples. Field Data in 2013 are checklists for re-collection of soil resin bags and litter traps, as well as depth to refusal, a proxy for soil depth. Each laboratory assay has its own unique set of data sheets, but usually consisted of an initial sample list with sample weights, possibly hand-written notes in the Laboratory Notebook of Timothy Whitby, as well as notes taken on printed copies of the protocols used for the respective assay. Final results are usually in digital form, but printed copies can be found with the same folders as the above material.
+
+Location of completed data forms: Files of Monica G. Turner, Room 432 Birge Hall, Madison, WI 53706. 
+
+Data entry/verification procedures: Data entry was completed by Timothy Whitby by hand if it was not a direct output from the analytical software in corresponding to the given assay. All values were double-checked for accuracy with the original data sheet after all values in a column were entered. Outliers or data entry errors were also screened by analysis of the histogram or a scatterplot with other variables. Any extreme values were highlighted and corrected if there was actually an error.
+
+References
+
+Dirks, R. A., and B. E. Martner. 1982. The climate of Yellowstone and Grand Teton National Parks. U.S. Department of Interior, National Park Service, Washington, D.C., USA.
+
+Elliott, E. T., J. W. Heil, E. F. Kelly, and H. C. Monger. 1999. Particle Size (Soil Texture) Analysis. Pages 78–80 in P. G. Robertson, D. C. Coleman, C. S. Bledsoe, and P. Sollins, editors. Standard soil methods for long-term ecological research. Oxford University Press, New York.
+
+German, D. P., M. N. Weintraub, A. S. Grandy, C. L. Lauber, Z. L. Rinkes, and S. D. Allison. 2011. Optimization of hydrolytic and oxidative enzyme methods for ecosystem studies. Soil Biology & Biochemistry 43:1387–1397.
+
+Robertson, P. G., P. Sollins, B. G. Ellis, and K. Lathja. 1999. Exchangeable Ions. Pages 106–109 in P. G. Robertson, D. C. Coleman, C. S. Bledsoe, and P. Sollins, editors. Standard soil methods for long-term ecological research. Oxford University Press, New York.
+
+Shuman, B. 2011. Recent Wyoming temperature trends, their drivers, and impacts in a 14,000-year context. Climatic Change 112:429–447.

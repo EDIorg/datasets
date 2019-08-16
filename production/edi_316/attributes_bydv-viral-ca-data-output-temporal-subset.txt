@@ -1,0 +1,18 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	year of collection	numeric	nominalYear			
+site	site of collection	character				
+species	species of grass sampled	categorical				
+source	"At Sedgwick, this indicates sampling location. "	categorical				
+type	indicates experimental or host population	categorical				
+block	experimental block for experimental populations	character			NA	not available
+plot	experimental plot for experimental populations	character				
+plant	plant community	categorical			NA	not available
+seed	seeding treatment	categorical			NA	not available
+trt	treatment type	categorical			NA	not available
+infect	infection status of host	categorical			NA	not available
+pav	infection status of host	categorical			NA	not available
+mav	infection status of host	categorical			NA	not available
+sgv	infection status of host	categorical			NA	not available
+rpv	infection status of host	categorical			NA	not available
+rmv	infection status of host	categorical			NA	not available
+cnt_strain	number of strains in the host	numeric	number		NA	not available

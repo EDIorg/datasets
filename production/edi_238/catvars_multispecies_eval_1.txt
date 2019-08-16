@@ -1,0 +1,8 @@
+attributeName	code	definition
+species	Abla	Abies lasiocarpa
+species	Pico	Pinus contorta var. latifolia
+species	Pien	Picea engelmannii
+species	Psme	Pseudotsuga menziesii var. glauca
+forest_type	Psme	Pseudotsuga menziesii var. glauca
+forest_type	Pico	Pinus contorta var. latifolia
+forest_type	Pien/Abla	Picea engelmannii/Abies lasiocarpa

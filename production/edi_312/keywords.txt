@@ -1,0 +1,15 @@
+keyword	keywordThesaurus
+Plant communities	
+forest ecology	
+old growth forests	
+community composition	
+mesic soils	
+soil properties	
+plant species composition	
+diversity	
+herbs	
+shrubs	
+trees	
+La Selva Biological Station	
+tropical rain forest	
+biogeochemical processes	

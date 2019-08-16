@@ -1,0 +1,12 @@
+keyword	keywordThesaurus
+Spatial heterogeneity	
+Disturbance	
+Succession	
+Ecosystem function	
+Nutrient cycling	
+Fire ecology	
+Nitrogen	
+Carbon	
+Yellowstone National Park	
+lodgepole pine	
+Pinus contorta var. latifolia

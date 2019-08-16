@@ -1,0 +1,43 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Site-specific number (arbitrary)	character				
+Can	Canopy openness in percent	numeric	dimensionless			
+Beers	Beers Aspect as Linear transformation of aspect	numeric	dimensionless			
+Elv	Elevation	numeric	meter			
+Mst	Soil Moisture (%)	numeric	dimensionless			
+TPI	"Topographic position index measure of slope position relative to surroundings (positive values=ridges, negative values=valleys, 0=flat)"	numeric	dimensionless			
+NDVI	"Normalized Difference Vegetation Index measure of vegetative density (-1.0 = barren, 1.0 = heavily vegetated)"	numeric	dimensionless			
+Dir_sol	Direct solar radiation	numeric	kilowattsPerHourPerMeterSquare			
+cos_aspect	Cosine of aspect	numeric	dimensionless			
+sin_aspect	Sine of aspect	numeric	dimensionless			
+P_kentucki_1	Raw count of P. kentucki during survey #1	numeric	number			
+P_kentucki_2	Raw count of P. kentucki during survey #2	numeric	number			
+P_kentucki_3	Raw count of P. kentucki during survey #3	numeric	number			
+P_kentucki_4	Raw count of P. kentucki during survey #4	numeric	number			
+P_richmondi_1	Raw count of P. richmondi during survey #1	numeric	number			
+P_richmondi_2	Raw count of P. richmondi during survey #2	numeric	number			
+P_richmondi_3	Raw count of P. richmondi during survey #3	numeric	number			
+P_richmondi_4	Raw count of P. richmondi during survey #4	numeric	number			
+numCWD_I	Count of fallen coarse woody debris larger than 20 cm in diameter during survey #1	numeric	number			
+numCWD_II	Count of fallen coarse woody debris larger than 20 cm in diameter during survey #2	numeric	number			
+numCWD_III	Count of fallen coarse woody debris larger than 20 cm in diameter during survey #3	numeric	number			
+numCWD_IV	Count of fallen coarse woody debris larger than 20 cm in diameter during survey #4	numeric	number			
+numRock_I	Count rocky cover during survey #1	numeric	number			
+numRock_II	Count rocky cover during survey #2	numeric	number			
+numRock_III	Count rocky cover during survey #3	numeric	number			
+numRock_IV	Count rocky cover during survey #4	numeric	number			
+LL_depth_I	Depth of leaf litter during survey #1	numeric	centimeter			
+LL_depth_II	Depth of leaf litter during survey #2	numeric	centimeter			
+LL_depth_III	Depth of leaf litter during survey #3	numeric	centimeter			
+LL_depth_IV	Depth of leaf litter during survey #4	numeric	centimeter			
+Lux_I	Perceived power of light measured at breast height during survey #1	numeric	lumenPerMeterSquare			
+Lux_II	Perceived power of light measured at breast height during survey #2	numeric	lumenPerMeterSquare			
+Lux_III	Perceived power of light measured at breast height during survey #3	numeric	lumenPerMeterSquare			
+Lux_IV	Perceived power of light measured at breast height during survey #4	numeric	lumenPerMeterSquare			
+Julian_Day_I	Julian day during survey #1	numeric	nominalDay			
+Julian_Day_II	Julian day during survey #2	numeric	nominalDay			
+Julian_Day_III	Julian day during survey #3	numeric	nominalDay			
+Julian_Day_IV	Julian day during survey #4	numeric	nominalDay			
+Time_I	Time of day during survey #1	Date		hhmm		
+Time_II	Time of day during survey #2	Date		hhmm		
+Time_III	Time of day during survey #3	Date		hhmm		
+Time_IV	Time of day during survey #4	Date		hhmm		

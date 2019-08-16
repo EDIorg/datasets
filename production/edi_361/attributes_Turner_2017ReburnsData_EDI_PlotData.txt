@@ -1,0 +1,31 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Name of each of the three geographic locations	character				
+BurnClass	Reburn or Not reburned	character				
+Plot	"Plot numbers, 1 to 6 (for reburns) and 11-13 (did not reburn) at each site"	character				
+Fire_severity	"Categorical burn severity class, as assigned in the field"	character				
+Distance_to_SevSurf	"For reburned plots, distance from plot center to the nearest area of severe-surface fire "	numeric	meter			
+UTM_Easting	Easting for the plot center	numeric	meter			
+UTM_Northing	Northing for the plot center 	numeric	meter			
+Aspect	Aspect 	numeric	degree			
+Slope	Degree of slope for the plot	numeric	degree			
+Elevation	Elevation of the plot	numeric	meter			
+Live_PICO_density	"For plots that did not reburn, density of live lodgepole pines"	numeric	numberPerHectare			
+Postfire_dead_PICO_density	"For plots that reburned, the density of fire-killed lodgepole pine trees"	numeric	numberPerHectare			
+Postfire_dead_PICO_stumps	"For plots that, the density of stumps remaining for which the prefire lodgepole pine tree was completely combusted "	numeric	numberPerHectare			
+Prefire_total_PICO_density	"For plots that reburned, the prefire tree density is the sum of postfire stems and stumps"	numeric	numberPerHectare			
+Mean_basal_diameter	The mean value from 25 measure live trees (in plots that did not reburn) or fire-killed trees or stumps (in reburned plots)	numeric	centimeter			
+Foliage	"Predicted plot-level lodgepole pine foliage biomass (prefire in reburned plots, live trees in plots that did not reburn)"	numeric	megaGramsPerHectare			
+Bole	"Predicted plot-level lodgepole pine bole biomass (prefire in reburned plots, live trees in plots that did not reburn)"	numeric	megaGramsPerHectare			
+Branch	"Predicted plot-level lodgepole pine branch biomass (prefire in reburned plots, live trees in plots that did not reburn)"	numeric	megaGramsPerHectare			
+Total	"Predicted total aboveground lodgepole pine biomass  (prefire in reburned plots, live trees in plots that did not reburn)"	numeric	megaGramsPerHectare			
+Cone_density_on_live_trees	"In plots that did not reburn, density of cones"	numeric	numberPerHectare			
+Cone_density_on_dead_postfire_trees	"In plots that reburned, remaining identifiable cones on fire-killed lodgepole pine trees "	numeric	numberPerHectare			
+Prefire_aspen_density	"Density of live aspens in plots that did not reburn, or estimated density of prefire aspens in plots that reburned based on identifiable stumps"	numeric	numberPerHectare			
+Coarse_wood_percent_cover	"Percent of surface covered by downed coarse wood, estimated from line intercept"	numeric	dimensionless			
+Coarse_wood_volume	"Volume of coarse wood estimated from Brown's planar intercept transects; in reburned plots, this is volume of wood remaining after the short-interval fire"	numeric	cubicMetersPerHectare			
+Coarse_wood_mass	"Mass of coarse wood estimated from Brown's planar intercept transects; in reburned plots, this is volume of wood remaining after the short-interval fire"	numeric	megaGramsPerHectare			
+Ash_depth	"Where recent ash was visible, depth on soil surface"	numeric	millimeter			
+Char_depth	"If soil showed evidence of charring, depth from surface to which soil charring was evident"	numeric	millimeter			
+Percent_cover_ghost_logs	"In reburned plots, areas of soil surface covered by log shadows where downed coarse wood had been combusted completely"	numeric	dimensionless			
+Initial_regeneration_postfire_PICO_density	Density of first year seedlings of lodgepole pine	numeric	numberPerHectare			
+Initial_regeneration_postfire_aspen_density	"Density of aspen stumps that resprouted from surviving roots; if multiple leaders came from the same stump, it was scored as one."	numeric	numberPerHectare			

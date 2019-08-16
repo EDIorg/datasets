@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+MTRunID	"Group of cores run simultaneously, and "IPD run"."	character				
+MTSampleID	ID for each core and time run (6 vs 21 week)	character				
+CycleNumber	"During each cycle is a measurement of CH4 isotopes, they are typically separated by 10-11 hours."	character				
+SampleName	Soil cores’ names. Site-ag practice-plot rep-core rep	character				
+Time	Time since first cycle measurement.	numeric	second			
+Calibrated12CH4	12CH4 concentration in bag headspace.	numeric	ppm			
+Calibrated13CH4	13CH4 concentration in bag headspace.	numeric	ppm			
+ControlSDofTotal	Std deviation of total CH4 (12+13) in the controls bags during this IPD run.	numeric	ppm			
+ControlSDofRatio	Std deviation of ratio of CH4 (12/13) in the controls bags during this IPD run.	numeric	dimensionless			
+ControlSDof12	Std deviation of 12CH4 in the controls bags during this IPD run.	numeric	ppm			
+ControlSDof13	Std deviation of total 13CH4 in the controls bags during this IPD run.	numeric	ppm			
+BagVol_final_cals	Volume of bag headspace at IPD run start.	numeric	liter			
+Type	Contents of bag.	categorical				
+CyclesForPKFit	"Data from these cycles was flagged as bad during quality control and will be excluded during IPD fit. (eg, 2 = cycle 2 had bad data)"	numeric	dimensionless			

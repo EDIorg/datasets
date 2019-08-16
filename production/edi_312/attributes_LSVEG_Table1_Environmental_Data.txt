@@ -1,0 +1,18 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	"Unique 4-letter code for each sampling site. The code includes two letters for the soil consociation (AR=Arboleda, EX=Experimental, HO=Holdridge, JA=Jaguar, MA=Matabuey), one letter for topographic position (C=Ridge top, L=Slope, F=Flat) and one letter for replicate (A, B, or C)"	character				
+SoilMapUnit	Mapped soil consociation. See Sollins et al. (1994)	character				
+SoilOrigin	Soil classification according to the USDA 1975 soil taxonomy. See Sollins et al. (1994)	character				
+TopographicPosition	Geological origin of soil	categorical				
+SoilClassification	Position of the sampling site in the landscape	categorical				
+SlopeMean	Mean of measurements taken at center of quadrat (n=20) in percent	numeric	dimensionless		NA	not available
+SlopeSD	Standard deviation of 20 measurements taken at center of quadrat (n=20) in percent	numeric	dimensionless		NA	not available
+IncidentRadiationMean	Incident radiation. Mean of measurements taken at the center of each quadrats (n=20) as proportion	numeric	dimensionless		NA	not available
+IncidentRadiationSD	Incident radiation Standard deviation of measurements taken at the center of each quadrat (n=20)	numeric	dimensionless		NA	not available
+OrganicMatterMean	Percent total organic carbon. Mean of 5 samples pooled from cores taken at each of 20 quadrats. In percent dry mass	numeric	dimensionless		NA	not available
+OrganicMatterSD	Percent total organic carbon. Standard deviation of 5 samples pooled from cores taken at each of 20 quadrats.	numeric	dimensionless		NA	not available
+pHMean	Soil pH.  Mean of samples from cores taken at each quadrat (n=20)	numeric	dimensionless		NA	not available
+pHSD	Soil pH.  Standard deviation of samples from cores taken at each quadrat (n=20)	numeric	dimensionless		NA	not available
+FineLitterMean	Standing mass of leaf litter. Mean of 20 samples	numeric	gramsPerSquareMeter		NA	not available
+FineLitterSD	Standing mass of leaf litter. Standard deviation of 20 samples	numeric	gramsPerSquareMeter		NA	not available
+PhosphorusMean	"Extractable phosphorus. Mean of 20 samples, one taken at each quadrat."	numeric	microgramsPerGram		NA	not available
+PhosphorusSD	"Extractable phosphorus Standard deviation of 20 samples, one taken from each quadrat."	numeric	microgramsPerGram		NA	not available

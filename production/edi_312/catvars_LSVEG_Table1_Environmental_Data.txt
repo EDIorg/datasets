@@ -1,0 +1,7 @@
+attributeName	code	definition
+TopographicPosition	OA	old alluvium
+TopographicPosition	RA	recent alluvium
+TopographicPosition	RE	residual weathered soils on lava flows
+SoilClassification	RIDGE	top of ride
+SoilClassification	SLOPE	mid slope
+SoilClassification	FLAT	flat

@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Lake	Name of individual lake	character				
+dateTime	Date and Time	Date		YYYY-MM-DDThh:mm:ss		
+TimeZone	time zone	categorical				
+DO	"Dissolved oxygen concentration. Depth of oxygen sensor = 0.5 m for Croche and Simoncouche, 1 m for Lillinonah, Ashokan, Rondout, and Sunapee, 2 m for Onondaga "	numeric	milligramsPerLiter		NA	not available

@@ -1,0 +1,1 @@
+A bicycle-mounted measurement system was used to sample air temperature every 5 m along 10 transects (about 7 km length, sampled 3-12 times each) spanning a range of impervious and tree canopy cover (0 to 100%, each) in a mid-sized city in the Upper Midwest, USA.

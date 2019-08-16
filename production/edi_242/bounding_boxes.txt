@@ -1,0 +1,4 @@
+geographicDescription	westBoundingCoordinate	eastBoundingCoordinate	northBoundingCoordinate	southBoundingCoordinate
+"The USDA Central Great Plains ARS station is four miles east of Akron, CO, USA on the north side of route 34. At Akron we sampled the long-term tillage study plots"	-103.1422222	-103.1422222	40.15416667	40.15416667
+"The USDA Central Great Plains ARS station is four miles east of Akron, CO, USA on the north side of route 34. At Akron we sampled the organically managed wheat-fallow plots "	-103.1411111	-103.1411111	40.15666667	40.15666667
+"The Michigan State University Kellogg Biological Station LTER is located 1 mile southwest of Hickory Corner, MI, USA. At KBS we sampled soils from the Main Site of the Main Cropping System Experiment"	-85.37027778	-85.37027778	42.41055556	42.41055556

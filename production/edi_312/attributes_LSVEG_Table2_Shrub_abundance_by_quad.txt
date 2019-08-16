@@ -1,0 +1,26 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	"Unique code for sampling site. The code includes two letters for the soil consociation (AR=Arboleda, EX=Experimental, HO=Holdridge, JA=Jaguar, MA=Matabuey), one letter for topographic position (C=Ridge top, L=Slope, F=Flat) and one letter for replicate (A, B, or C)"	character				
+Family	"Abbreviation for plant family. First four letters of the family name with the following exceptions: Marantaceae=MARN, Maratiaceae=MART, Erythropalaceae=ERYP, Erythroxylaceae=ERYT, Heliconiaceae=HELI, Heliotropaceae=HELO, Unknown=UNKN"	character				
+Genus	Genus Plant genus confirmed in 2015 following the La Selva plant list.  Unidentified genus=Unknown	character				
+Species	Species name as confirmed in 2015 following the La Selva plant list.  Species known at La Selva but as yet without formal taxonomic descriptions are designated with a number (e.g. Sp. 1) or letter (e.g. Sp. A). Unidentified species=Unknown	character				
+Genspe	"Short code for Latin name. Codes generally comprise first three letters of genus and first three letters of species.   Unknown at genus and/or species level is indicated as "unk". Where there are duplicate codes, a unique number is added to preserve family or genus information.  Unknown designations may contain more than one species and are not consistent between shrub and small tree size classes."	character				
+QUAD1	Number of stems in sampling quadrat 1	numeric	number		NA	not available
+QUAD2	Number of stems in sampling quadrat 2	numeric	number		NA	not available
+QUAD3	Number of stems in sampling quadrat 3	numeric	number		NA	not available
+QUAD4	Number of stems in sampling quadrat 4	numeric	number		NA	not available
+QUAD5	Number of stems in sampling quadrat 5	numeric	number		NA	not available
+QUAD6	Number of stems in sampling quadrat 6	numeric	number		NA	not available
+QUAD7	Number of stems in sampling quadrat7	numeric	number		NA	not available
+QUAD8	Number of stems in sampling quadrat 8	numeric	number		NA	not available
+QUAD9	Number of stems in sampling quadrat 9	numeric	number		NA	not available
+QUAD10	Number of stems in sampling quadrat 10	numeric	number		NA	not available
+QUAD11	Number of stems in sampling quadrat 11	numeric	number		NA	not available
+QUAD12	Number of stems in sampling quadrat 12	numeric	number		NA	not available
+QUAD13	Number of stems in sampling quadrat 13	numeric	number		NA	not available
+QUAD14	Number of stems in sampling quadrat 14	numeric	number		NA	not available
+QUAD15	Number of stems in sampling quadrat 15	numeric	number		NA	not available
+QUAD16	Number of stems in sampling quadrat 16	numeric	number		NA	not available
+QUAD17	Number of stems in sampling quadrat 17	numeric	number		NA	not available
+QUAD18	Number of stems in sampling quadrat 18	numeric	number		NA	not available
+QUAD19	Number of stems in sampling quadrat 19	numeric	number		NA	not available
+QUAD20	Number of stems in sampling quadrat 20	numeric	number		NA	not available

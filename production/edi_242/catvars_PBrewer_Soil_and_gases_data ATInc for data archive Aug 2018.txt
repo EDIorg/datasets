@@ -1,0 +1,39 @@
+attributeName	code	definition
+Site	Akron	Akron CO USDA ARS station
+Site	KBS	Kellogg Biological Station LTER
+Field_trt	C	Conventional
+Field_trt	N	No-till
+Field_trt	O	Organic
+site_trt2	Akron-C	Akron conventional
+site_trt2	Akron-N	Akron no-till
+site_trt2	Akron-O	Akron organci
+site_trt2	KBS-C	Kellogg Biological Station LTER conventional
+site_trt2	KBS-N	Kellogg Biological Station LTER no-till
+site_trt2	KBS-O	Kellogg Biological Station LTER organic
+Fungal_presence	FALSE	no mycelium observed
+Fungal_presence	TRUE	mycelium observed
+Macrofauna_category	1	macrofauna observed alive (e.g. earthworms)
+Macrofauna_category	2	"Evidence of macrofaunal activity (e.g., earthworm castings on soil surface)"
+Macrofauna_category	3	"Mesofauna or evidence of their activity observed (e.g., ants, potworms)"
+Macrofauna_category	4	No soil fauna or evidence observed.
+Faunal_3_category	1	"macrofauna observed alive (e.g. earthworms) or evidence of macrofaunal activity (e.g., earthworm castings on soil surface)"
+Faunal_3_category	2	"Mesofauna or evidence of their activity observed (e.g., ants, potworms)"
+Faunal_3_category	3	No soil fauna or evidence observed.
+Redox_cat	1	less than 100
+Redox_cat	2	more than 100 and less than320
+Redox_cat	3	more than 320
+Redox_cat	4	Not able to measure any redox due to hardened soil surface
+Redox_binary	1	less than 320
+Redox_binary	2	more than 320
+Redox_binary	NA	Not able to measure any redox due to hardened soil surface
+binary_P1	1	above detection limit
+binary_P1	0	below detection limit
+binary_P2	1	above detection limit
+binary_P2	0	below detection limit
+P_category	Consistent	P above DL in weeks 6 and 21
+P_category	Quick	P above DL in week 6 only
+P_category	Slow	P above DL in week 21 only
+P_category	None	P always below DL
+Persistence	1	P above DL in weeks 6 and 21
+Persistence	0	P above DL in week 6 but below in week 21
+Persistence	blank	P below DL in week 6

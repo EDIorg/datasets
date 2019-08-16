@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+dateTime	date and time	Date		YYYY-MM-DDThh:mm:ss		
+TimeZone	time zone	categorical				
+Lake	Name of individual Lake	character				
+windSpeed	"Wind speed. Lacawac wind speeds are reported as average over the observed hour. Ashokan, Kensico, Lillinonah, Rondout and Onondaga are reported as 15-minute averages. Croche wind values are the instantaneous wind speeds at each hour. Simoncouche wind speeds are the average of instantaneous wind values at five minute intervals over the course of one hour. Sunapee wind values are the instantaneous wind speeds at 10 minute intervals."	numeric	metersPerSecond		NA	not available
+windSpeedCalc	How wind speed was calculated - also listed in description of 'windSpeed'	character			NA	not available

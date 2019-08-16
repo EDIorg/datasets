@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Carly 		Ziter	Concordia University Montreal			creator			
+Eric 		Pedersen	Memorial University Newfoundland			creator			
+Chris		Kucharik	University of Wisconsin-Madison	kucharik@wisc.edu	0000-0002-0400-758X	creator		National Science Foundataion	DEB-1038759
+Monica 		Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	creator			
+Carly 		Ziter	Concordia University Montreal			contact			
+Monica 		Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	contact			
+Chris		Kucharik	University of Wisconsin-Madison	kucharik@wisc.edu	0000-0002-0400-758X	PI	Water Sustainability and Climate	National Science Foundataion	DEB-1038759

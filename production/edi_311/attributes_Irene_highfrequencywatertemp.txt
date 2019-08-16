@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+dateTime	Date and time 	Date		YYYY-MM-DDThh:mm:ss		
+TimeZone	Time zone of dateTime observation	categorical				
+Lake	Name of individual Lake	character				
+Depth	Depth of water temperature sensor	numeric	meter		NA	not available
+Temperature	Value of water temperature	numeric	celsius		NA	not available

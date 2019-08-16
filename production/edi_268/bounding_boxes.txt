@@ -1,0 +1,2 @@
+geographicDescription	westBoundingCoordinate	eastBoundingCoordinate	northBoundingCoordinate	southBoundingCoordinate
+"All sites are located in Yellowstone National Park, Wyoming, USA. Coordinates denote the North, South, East and West entrances of the national park."	-110.9028139	-109.2913	45.02955278	44.13249167

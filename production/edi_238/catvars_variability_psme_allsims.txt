@@ -1,0 +1,5 @@
+attributeName	code	definition
+group	All	both vary
+group	Regen	regeneration varies
+group	Abiotic	abiotic varies
+group	None	neither vary

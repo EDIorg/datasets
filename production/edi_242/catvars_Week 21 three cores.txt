@@ -1,0 +1,2 @@
+attributeName	code	definition
+Type	Soil Core	soil core

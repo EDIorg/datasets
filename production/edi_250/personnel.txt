@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Joseph	A	Baecher	Eastern Kentucky University	jbaecher@gmail.com	0000-0003-0247-5758	creator			
+Stephen	C	Richter	Eastern Kentucky University	Stephen.richter@eku.edu		creator			
+Joseph	A	Baecher	Eastern Kentucky University	jbaecher@gmail.com	0000-0003-0247-5758	contact			
+Joseph	A	Baecher	Eastern Kentucky University	jbaecher@gmail.com	0000-0003-0247-5758	PI	Field grant-in-herpetology	Society for the Study of Amphibians and Reptiles	
+Joseph	A	Baecher	Eastern Kentucky University	jbaecher@gmail.com	0000-0003-0247-5758	PI	Student grant-in-aid program	EKU Division of Natural Areas	
+Joseph	A	Baecher	Eastern Kentucky University	jbaecher@gmail.com	0000-0003-0247-5758	PI	Marcia Athey Fund	Kentucky Academy of Science	

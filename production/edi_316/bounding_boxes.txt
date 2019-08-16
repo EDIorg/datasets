@@ -1,0 +1,4 @@
+geographicDescription	westBoundingCoordinate	eastBoundingCoordinate	northBoundingCoordinate	southBoundingCoordinate
+University of California Natural Reserve System: Sedgwick Reserve. Oak savanna grassland habitats with a Mediterranean climate.	-120.009167	-120.009167	34.6725	34.6725
+University of California Natural Reserve System: Hastings Natural History Reservation. Oak savanna grassland habitats with a Mediterranean climate.	-121.549722	-121.549722	36.388056	36.388056
+University of California Natural Reserve System: McLaughlin Natural Reserve. Oak savanna grassland habitats with a Mediterranean climate.	-122.431667	-122.431667	38.873889	38.873889

@@ -1,0 +1,2 @@
+geographicDescription	westBoundingCoordinate	eastBoundingCoordinate	northBoundingCoordinate	southBoundingCoordinate
+"Lilley Cornett Woods Appalachian Ecological Research Station (Letcher county, Kentucky); southeastern Kentucky"	-82.994424	-82.985901	37.085031	37.078547
