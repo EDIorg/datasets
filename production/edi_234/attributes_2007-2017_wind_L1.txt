@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+datetime	Date and time (GMT -4) of buoy record - no daylight savings observed in this data set	Date		YYYY-MM-DD hh:mm:ss	NA	not available
+location	Location of buoy	categorical			NA	not available
+WindDir_deg	Instantaneous wind direction	numeric	degree		NA	not available
+WindSp_ms	Instantaneous wind speed	numeric	metersPerSecond		NA	not available
+AveWindDir_deg	Average wind direction of previous 10 minutes	numeric	degree		NA	not available
+AveWindSp_ms	Average wind speed of previous 10 minutes	numeric	metersPerSecond		NA	not available
+MaxWindSp_ms	Maximum wind speed in previous 10 minutes	numeric	metersPerSecond		NA	not available
+MaxWindDir_deg	Wind direction of maximum wind speed in previous 10 minutes	numeric	degree		NA	not available

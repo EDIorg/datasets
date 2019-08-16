@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+datetime	Date and time (GMT -4) of buoy record - no daylight savings observed in this data set	Date		YYYY-MM-DD hh:mm:ss		
+location	Location of buoy	categorical			NA	not available
+AirTemp_degC	Air temperature	numeric	celsius		NA	not available
+airtemp_flag	Flag for air temperature	categorical			NA	not available

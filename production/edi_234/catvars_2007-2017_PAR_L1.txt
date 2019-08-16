@@ -1,0 +1,8 @@
+attributeName	code	definition
+location	loon	buoy at loon location
+location	harbor	buoy at harbor location
+location	offline	buoy offline no data recorded
+location	in transit	buoy being moved between harbor and loon location data presumed errant recoded as NA
+location	harbor water sensors offline	buoy in harbor only some sensors reporting
+PAR_flag	i	"data is intermittent, some functionality issues in sensor, some data may be errant "
+PAR_flag	o	"sensor likely obscured, data may be inaccurate"

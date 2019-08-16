@@ -1,0 +1,21 @@
+attributeName	code	definition
+Plant_Part	plant powder	plant powder  of whole plant
+Plant_Part	Leaf	Leaf
+Plant_Part	Seed	Seed
+Plant_Part	seed	seed
+Plant_Part	leaf	leaf
+Plant_Part	flower	flower
+Plant_Part	Fruit	Fruit
+Web	B	blue gramma core site
+Web	2	sample web
+Web	G	black grama core site
+Web	L	creosote core site
+Web	?	unknown
+Web	1	sample web
+Growth_Form	a	annual
+Growth_Form	p	perennial
+Photo_Path	C3	C3
+Photo_Path	C4	C4
+Photo_Path	NA	not available
+Photo_Path	CAM	CAM
+Photo_Path	C5	C5

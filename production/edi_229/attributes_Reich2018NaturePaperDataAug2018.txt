@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Name of the two sites where the experiment took place	categorical				
+block	Name of blocks (each is unique). There were three at each site.	categorical				
+warming_treatment	Defines whether plots were ambient or experimentally warmed	categorical				
+plot_id	Unique id for each plot	character				
+species	Latin names of each of 11 species	categorical				
+plant_id	Unique number for each seedling planted into the plots in 2008	character				
+phylo	Whether angiosperm or gymnosperm	categorical				
+year	year	numeric	nominalYear			
+doy	Day of year	numeric	dimensionless			
+Asat	Light-saturated net photosynthesis measured in situ at ambient CO2 concentrations (reference CO2 was set at 400 micromol mol-1)	numeric	micromolesPerSquareMeterPerSecond			
+gs	Leaf diffusive conductance of leaf measured for Asat	numeric	molesPerSquareMeterPerSecond			
+ci	Calculated leaf internal CO2 concentration during Asat measurement	numeric	micromolesPerMole			
+soil_water_VWC	Volumetric soil water content in cubicmeter water per cubic meter soil	numeric	dimensionless			
+tleaf	Calculated leaf temperature during Asat measurement	numeric	celsius			
+VPG	Vapor pressure gradient from leaf to air	numeric	kilopascal			
+percent_stomatal_limitation	Percent reduction in Asatt from the maximal rate estimated with no stomatal limitation	numeric	dimensionless			
+Agmax	maximal Asat rate estimated with no stomatal limitation	numeric	micromolesPerSquareMeterPerSecond			
+Vcmax25	maximum carboxylation capacity	numeric	micromolesPerSquareMeterPerSecond			

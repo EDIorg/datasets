@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SampleID	This sample number will is a unique ID for each sample collected to prevent multiple analysis of the same plant.	character				
+Date_Collected	"Sampling occurs at green up, and when plants go to seed approximately three times a year, in March/April, in May/June, and in September/October"	Date		YYYY-MM-DD		
+Month_Collected	month of sampling	character				
+USDA_Code	4 to 6 letter code based on the USDA website and codes used by the Sevilleta field crew.  	character				
+Plant_Part	"It will either be the whole plant ground into a powder from the Sevilleta field crew, or Leaf, Seed or Flower"	categorical				
+Web	"1 and 2 represent my webs detailed above, B is the blue gramma core site, G is the black grama core site, and L is the creosote core site that are established as part of the Sevilleta LTER.    "	categorical				
+Scientific_Name	The scientific name of the plant based on the Sevilleta LTER dataset #51 and the USDA website.  	character				
+Common_Name	The common name of the plant based on the Sevilleta LTER dataset #51 and the USDA website.  	character				
+Growth_Form	Plants are characterized as annual (a) or perennial (p)	categorical				
+Photo_Path	"The photosynthetic pathway utilized by the plant as determined by Sevillta dataset #51, Dr. Rudgers Plant Species List, and expert opinion   "	categorical				
+d13C	the isotopic ratio of 13C to 12C in the plant	numeric	dimensionless		NA	not available
+d15N	the isotopic value of 15N to 14N in the plant	numeric	dimensionless		NA	not available
+percentC	"this is the amount of or concentration of carbon in the sample, by weight percent"	numeric	dimensionless		NA	not available
+percentN	"this is the amount of or concentration of nitrogen in the sample, by weight percent"	numeric	dimensionless		NA	not available
+C_N	ratio of carbon to nitrogen in the sample by weight	numeric	dimensionless		NA	not available

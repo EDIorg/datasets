@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Peter	B	Reich	University of Minnesota	preich@umn.edu	http://orcid.org/0000-0003-4424-662X	creator			
+Artur		Stefanski	University of Minnesota	stefa066@umn.edu		creator			
+Kerrie	M	Sendall	Georgia Southern University	ksendall@georgiasouthern.edu	https://orcid.org/0000-0001-6175-0954 	creator			
+Roy	L	Rich	Smithsonian Environmental Research Center	RichR@si.edu	https://orcid.org/0000-0002-0461-7388 	creator			
+Peter	B	Reich	University of Minnesota	preich@umn.edu	http://orcid.org/0000-0003-4424-662X	contact			
+Peter	B	Reich	University of Minnesota	preich@umn.edu	http://orcid.org/0000-0003-4424-662X	PI	Warming-induced biome change at the temperate-boreal ecotone: an experimental test of key regeneration processes	"US Department of Energy, Office of Science, Office of Biological and Environmental Research"	DE-FG02-07ER64456

@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year the animal was trapped. Trapping occurred over four years	numeric	nominalYear			
+Date	"date the animal was trapped. Trapping occurred four days a month in July, August, September, October, November and December of 2013 and in March of 2014. From April 2014 through project completion, trapping occurred for three days each month "	Date		YYYY-MM-DD		
+Month	"month the animal was trapped. Trapping occurs once a month on the closest weekend to a New Moon minus months where nighttime temperatures go below freezing. For some trappig months, the data may span two months. For example in May 2014 we trapped May 31, June 1, and June 2 all of these dates have May in the month column for the May trapping bout."	character				
+Species	Two to four letter code for type of small mammal	categorical				
+Web	"Web 1, Web 2"	character				
+Trap	"This would be the first trap on the first spoke on web 1, spokes go from 1.1 to 1.12. Spoke one always points toward the road, then the spokes go clock wise. The traps start from the center (1.0C or 2.0C) and go from A to L with L being the last trap along a spoke.  "	character				
+SampleID	"The example provided above would be a Perognathus flavus caught on web 1 (1) on the fourth spoke (4) in the end trap (L) on November 15, 2013 (111513)"	character				
+New_C_R	"N = new, this would be a mouse that has never been caught before, C = a mouse captured in previous months, but that is new to this trapping month, R = a recapture for a second or third time within a single trapping month. "	categorical			NA	not available
+Sex	Male or Female	categorical			NA	not available
+Condition	A description of the reproductive status of the animal	character			NA	not available
+Age	Given a letter to indicate Juvenile or Adult	categorical			NA	not available
+Mass_g	The mass of the mammal in grams	numeric	gram		NA	not available
+Tag_Right	"The number of the tag in the right ear, or the number on a digital pit tag inserted subcutaneously between the shoulder blades and read with a bar code reader."	character			NA	not available
+Plasma_D13C	the isotopic value of the ratio of C13 to C12 in mouse plasma	numeric	dimensionless		NA	not available
+Plasma_D15N	the isotopic value of the ratio of N15 to N14 in mouse plasma	numeric	dimensionless		NA	not available
+Plasma_C	this is the amount of carbon by weight percent in the sample	numeric	dimensionless		NA	not available
+Plasma_N	this is the amount of nitrogen by weight percent in the sample	numeric	dimensionless		NA	not available
+Plasma_C_N	ratio of carbon to nitrogen in the sample by weight	numeric	dimensionless		NA	not available

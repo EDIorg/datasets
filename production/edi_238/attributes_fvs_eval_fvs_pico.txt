@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+StandID	Stand name	character			NA	not available
+year	Simulation year	numeric	nominalYear		NA	not available
+tph_4m	"Tree count (living, greater than 4 meters in height)"	numeric	numberPerHectare		NA	not available
+ba_4m	Total basal area at breast height	numeric	metersSquaredPerHectare		NA	not available
+ht_4m	Average tree height	numeric	meter		NA	not available
+rid	Stand ID	character			NA	not available

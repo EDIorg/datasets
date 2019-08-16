@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	Simulation year	numeric	nominalYear		NA	not available
+rid	Stand ID	character			NA	not available
+species	Tree species (species code)	categorical			NA	not available
+ba_spec	Basal area of trees greater than or equal to 15 centimeters in DBH	numeric	metersSquaredPerHectare		NA	not available
+tph_spec	Stem count of trees greater than or equal to 15 centimeters in DBH	numeric	numberPerHectare		NA	not available
+ba_all	Total (all species) basal area of trees greater than or equal to 15 centimeters in DBH	numeric	metersSquaredPerHectare		NA	not available
+tph_all	Total (all species) stem count of trees greater than or equal to 15 centimeters in DBH	numeric	numberPerHectare		NA	not available
+forest_type	Forest type	categorical			NA	not available
+tph_pct	Species proportion of trees greater than or equal to 15 cm in DBH in percent	numeric	dimensionless		NA	not available

@@ -1,0 +1,9 @@
+﻿Data were collated and cleaned using R Studio (v. 1.1.383), R version 3.4.3. Obviously errant readings, highly suspicious readings and artifacts of buoy maintenance were recoded to ‘NA’ from the raw data and columns were renamed from the raw data for consistency between data years. 
+
+Buoy above-water instrumentation approximately 1.7m above water surface:
+
+Wind speed and direction measured with Vaisala WXT52 anemometer
+
+Air Temperature measured with Vaisala HMP50
+
+PAR measured with PAR LI-COR: LI-CORLI190SB

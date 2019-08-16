@@ -1,0 +1,14 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jennifer		Nobel		j1noble@yahoo.com 		creator			
+Allyson		Richins				field crew			
+Nick		Wilson				field crew			
+Mauriel		Rogriquez Curras				field crew			
+Sarah		Lujan				field crew			
+Seth		Newsome				creator			
+Emma	E.	Smith				field crew			
+Laura		Pages				field crew			
+Ilyssa		Nelson				field crew			
+Catalina		Tome				field crew			
+Scott		Collins	University of New Mexico	scollins@unm.edu		creator			
+Jennifer		Nobel		j1noble@yahoo.com		contact			
+Scott		Collins	University of New Mexico	scollins@unm.edu		contact			

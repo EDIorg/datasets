@@ -1,0 +1,6 @@
+attributeName	code	definition
+location	loon	buoy at loon location
+location	harbor	buoy at harbor location
+location	offline	buoy offline no data recorded
+location	in transit	buoy being moved between harbor and loon location data presumed errant recoded as NA
+location	harbor water sensors offline	buoy in harbor only some sensors reporting

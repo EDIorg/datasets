@@ -1,0 +1,13 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+		LSPA	Lake Sunapee Protective Association	lspa@lakesunapee.org		creator			
+Bethel		Steele	Cary Institute of Ecosystem Studies	steeleb@caryinstitute.org	0000-0003-4365-4103	creator			
+Kathleen	C.	Weathers	Cary Instititue of Ecosystem Studies	weathersk@caryinstitute.org	0000-0002-3575-6508	creator			
+June		Fichter	Lake Sunapee Protective Association	junef@lakesunapee.org		Data collection			
+Geoff		Lizotte	Lake Sunapee Protective Association			Data collection			
+John		Merriman	Lake Sunapee Protective Association			Buoy Technical			
+Kathleen	C.	Weathers	Cary Instititue of Ecosystem Studies	weathersk@caryinstitute.org	0000-0002-3575-6508	contact			
+June		Fichter	Lake Sunapee Protective Association	junef@lakesunapee.org		contact			
+Lindsey		Rustad				PI	Development of Real-Time Environmental Sensor Technology and Applications for the Northeast: A Proposal from the NERC Northeastern Environmental Sensor Working Group (NESN)	NSRC Project	
+June		Fichter				PI		Frey Foundation	
+Kathleen	C.	Weathers		0000-0002-3575-6508		PI	"Collaborative Research: Building Analytical, Synthesis, and Human Network Skills Needed for Macrosystem Science: a Next Generation Graduate Student Training Model Based on GLEON"	National Science Foundation	1137327
+Kathleen	C.	Weathers		0000-0002-3575-6508		PI	Collaborative Research: CI-Team Demonstration: Developing a Model for Engagement of Citizen Scientists: Lake Associations	National Science Foundation	936174

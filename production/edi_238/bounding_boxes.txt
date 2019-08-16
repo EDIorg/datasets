@@ -1,0 +1,2 @@
+geographicDescription	westBoundingCoordinate	eastBoundingCoordinate	northBoundingCoordinate	southBoundingCoordinate
+"In this project we conducted simulations of stand development in the Greater Yellowstone Ecosystem. Thus, there is not actual data collected. However, I provide a geographic bounding for where the original data and climate conditions (used to initialize simulations) came from and for where we were simulating."	-111.34	-109.68	44.97	43.64

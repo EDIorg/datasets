@@ -1,0 +1,24 @@
+attributeName	code	definition
+site	cfc	Cloquet Forestry Center
+site	hwrc	Hubachcek Wilderness Research Center
+block	d	at cfc
+block	e	at cfc
+block	f	at cfc
+block	j	at hwrc
+block	k	at hwrc
+block	l	at hwrc
+warming_treatment	ambient	ambient
+warming_treatment	warmed	experimentally warmed by 3.4C on average
+species	aceru	Acer rubrum
+species	acesa	Acer saccharum
+species	betpa	Betula papyrifera
+species	poptr	Populus tremuloides
+species	quema	Quercus macrocarpa 
+species	queru	Qercus rubra
+species	rhaca	Rhamnus cathartica 
+species	abiba	Abies balsamea
+species	picgl	Picea glauca
+species	pinba	Pinus banksiana
+species	pinst	Pinus strobus
+phylo	angio	angiosperm 
+phylo	gymno	gymnosperm

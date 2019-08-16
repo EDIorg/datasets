@@ -1,0 +1,2 @@
+attributeName	code	definition
+species	Pico	Pinus contorta var. latifolia

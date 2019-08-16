@@ -1,0 +1,14 @@
+attributeName	code	definition
+Species	PGFV	Perognathus flavus
+New_C_R	C	"a mouse captured in previous months, but that is new to this trapping month"
+New_C_R	R	a recapture for a second or third time within a single trapping month
+New_C_R	N	"new, this would be a mouse that has never been caught before"
+New_C_R	NA	Not available
+Sex	M	male
+Sex	F	female
+Sex	NA	Not available
+Sex	D	don't know
+Age	A	adult
+Age	J	juvenile
+Age	NA	Not available
+Age	L	don't know

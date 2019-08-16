@@ -1,0 +1,15 @@
+Description of data processing steps: This folder contains material to recreate the model simulations from the paper. Methods are described in depth in Hansen et al: (https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.2181).
+
+Briefly: Twenty replicate simulations were run with each project file. From each output, results were condensed using R statistical software to create a txt file of each output results. These were then analyzed in R for the paper. They are in the outputs folder 
+
+Operating systems and sofware: OS: Windows 7 professional, iLand version: version 1.02, QT library: 5.8.0, R version: 3.4.0
+
+Files: At the highest file level is the iLand model executable folder which contains the model.exe and the necessary QT library and a runs folder which contains everything else.
+
+Within the runs folder there are 9 project files (.xml extension) for running each set of simulations. 
+
+There is a database folder which contains a .sqlite database of species parameters and climate data used to force the simulations.
+
+There is a gis folder which contains an environment file that tells iLand information about each resource unit and a stand grid that tells iLand where each resource unit is located. There is an init folder that tells iLand what types of trees to put in each resource unit. there is a lip_nr folder that tells iLand how to conduct light calculations for different types of trees. There is an output folder that contains the condensed output data as txt files used to conduct anovas for the publication. There is a scripts file which contains the java scripts necessary to implement the stand replacing fires.
+
+Note: Everything is here to recreate this batch of simulations. However, iLand is not a simple piece of software to use and thus implementing any simulations takes substantial effort to learn how the model works and to conduct simulations.

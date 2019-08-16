@@ -1,0 +1,36 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	Simulation year	numeric	nominalYear		NA	no trees of a given species present in that stand
+rid	Stand ID	character			NA	no trees of a given species present in that stand
+species	Tree species (species code)	categorical			NA	no trees of a given species present in that stand
+ru	Stand resource unit index	character			NA	no trees of a given species present in that stand
+area_ha	Stockable forest area on resource unit	numeric	hectare		NA	no trees of a given species present in that stand
+count_ha	"Tree count (living, greater than 4 meters in height)"	numeric	numberPerHectare		NA	no trees of a given species present in that stand
+dbh_avg_cm	Average tree diameter at breast height (DBH)	numeric	centimeter		NA	no trees of a given species present in that stand
+height_avg_m	Average tree height	numeric	meter		NA	no trees of a given species present in that stand
+volume_m3	Volume of trees in stand	numeric	cubicMeterPerHectare		NA	no trees of a given species present in that stand
+total_carbon_kg	Total carbon in living biomass (aboveground compartments and roots) of all living trees and regeneration (sapling and seedling) layer	numeric	kilogramsPerHectare		NA	no trees of a given species present in that stand
+gwl_m3	Volume of growth (live plus removed/dead trees) in stand	numeric	cubicMeterPerHectare		NA	no trees of a given species present in that stand
+basal_area_m2	Total basal area at breast height	numeric	metersSquaredPerHectare		NA	no trees of a given species present in that stand
+NPP_kg	Sum of net primary production (aboveground + belowground)	numeric	kilogramsPerHectare		NA	no trees of a given species present in that stand
+NPPabove_kg	Sum of net primary production (aboveground)	numeric	kilogramsPerHectare		NA	no trees of a given species present in that stand
+LAI	Leaf area index	numeric	meterSquaredPerMeterSquared		NA	no trees of a given species present in that stand
+cohort_count_ha	Number of cohorts in the regeneration layer (less than 4 meters in height)	numeric	numberPerHectare		NA	no trees of a given species present in that stand
+reg_bh	Stem count of trees greater than or equal to breast height (1.4 meters) but less than 4 meters in height	numeric	numberPerHectare		NA	no trees of a given species present in that stand
+reg_ba_bh	 Basal area of trees greater than or equal to breast height (1.4 meters) but less than 4 meters in height	numeric	metersSquaredPerHectare		NA	no trees of a given species present in that stand
+reg_4cm	Stem count of trees greater than or equal to 4 centimeters in diameter but less than 4 meters in height	numeric	numberPerHectare		NA	no trees of a given species present in that stand
+reg_ba_4cm	Basal area of trees greater than or equal to 4 centimeters in diameter but less than 4 meters in height	numeric	metersSquaredPerHectare		NA	no trees of a given species present in that stand
+count_bh	Stem count of trees greater than or equal to breast height (1.4 meters) 	numeric	numberPerHectare		NA	no trees of a given species present in that stand
+ba_bh	Basal area of trees greater than or equal to breast height (1.4 meters)	numeric	metersSquaredPerHectare		NA	no trees of a given species present in that stand
+count_4cm	Stem count of trees greater than or equal to 4 centimeters in DBH	numeric	numberPerHectare		NA	no trees of a given species present in that stand
+ba_4cm	Basal area of trees greater than or equal to 4 centimeters in DBH	numeric	metersSquaredPerHectare		NA	no trees of a given species present in that stand
+count_total_4cm	Total (all species) stem count of trees greater than or equal to 4 centimeters in DBH 	numeric	numberPerHectare		NA	no trees of a given species present in that stand
+ba_total_4cm	Total (all species) basal area of trees greater than or equal to 4 centimeters in DBH	numeric	metersSquaredPerHectare		NA	no trees of a given species present in that stand
+count_total_bh	Total (all species) stem count of trees greater than or equal to breast height (1.4 meters) 	numeric	numberPerHectare		NA	no trees of a given species present in that stand
+ba_total_bh	Total (all species) basal area of trees greater than or equal to breast height (1.4 meters)	numeric	metersSquaredPerHectare		NA	no trees of a given species present in that stand
+count_4cm_pct	Species proportion of trees greater than or equal to 4 centimeters in DBH proportions out of 1	numeric	dimensionless		NA	no trees of a given species present in that stand
+ba_4cm_pct	Species proportion of basal area of trees greater than or equal to 4 centimeters in DBH proportions out of 1	numeric	dimensionless		NA	no trees of a given species present in that stand
+count_bh_pct	Species proportion of trees greater than or equal to breast height (1.4 meters) proportions out of 1	numeric	dimensionless		NA	no trees of a given species present in that stand
+ba_bh_pct	Species proportion of basal area of trees greater than or equal to breast height (1.4 meters) proportions out of 1	numeric	dimensionless		NA	no trees of a given species present in that stand
+iv_4cm	Species importance value for trees greater than or equal to 4 centimeters in DBH	numeric	dimensionless		NA	no trees of a given species present in that stand
+iv_bh	Species importance value for trees greater than or equal to breast height (1.4 meters)	numeric	dimensionless		NA	no trees of a given species present in that stand
+forest_type	Forest type	categorical			NA	no trees of a given species present in that stand

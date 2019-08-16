@@ -1,0 +1,12 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Winslow	D	Hansen	UW-Madison	Winslowdhansen@gmail.com		creator			
+Monica	G	Turner	UW-Madison	turnermg@wisc.edu		creator			
+Kristin		Braziunas	UW-Madison	braziunas@wisc.edu		creator			
+Werner		Rammer	BOKU-Vienna	Werner.rammer@boku.ac.at		creator			
+Rupert		Seidl	BOKU-Vienna	Rupert.seidl@boku.ac.at		creator			
+Winslow	D	Hansen	UW-Madison	Winslowdhansen@gmail.com		contact			
+Monica	G	Turner	UW-Madison	turnermg@wisc.edu		contact			
+Monica	G	Turner				PI	Pathways of resilience	Joint Fire Science Program	16-3-01-4
+Monica	G	Turner				PI	UW Vilas Research Trust	Wisconsin Alumni Research Foundation	
+Winslow	D	Hansen				PI	GRFP	NSF	DGE-1242789
+Rupert		Seidl				PI	START	Austrian Science Fund	Y895-B25

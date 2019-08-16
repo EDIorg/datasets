@@ -1,0 +1,23 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	Simulation year	numeric	nominalYear		NA	not available
+ru	Stand resource unit index	character			NA	not available
+rid	Stand ID	character			NA	not available
+species	Tree species (species code)	categorical			NA	not available
+area_ha	Stockable forest area on resource unit	numeric	hectare		NA	not available
+count_ha	"Tree count (living, greater than 4 meters in height)"	numeric	numberPerHectare		NA	not available
+dbh_avg_cm	Average tree diameter at breast height (DBH)	numeric	centimeter		NA	not available
+height_avg_m	Average tree height	numeric	meter		NA	not available
+volume_m3	Volume of all trees in stand	numeric	cubicMeterPerHectare		NA	not available
+total_carbon_kg	Total carbon in living biomass (aboveground compartments and roots) of all living trees and regeneration (sapling and seedling) layer	numeric	kilogramsPerHectare		NA	not available
+gwl_m3	Volume of all growth (live plus removed or dead trees) in stand	numeric	cubicMeterPerHectare		NA	not available
+basal_area_m2	Total basal area at breast height	numeric	metersSquaredPerHectare		NA	not available
+NPP_kg	Sum of net primary production (aboveground plus belowground)	numeric	kilogramsPerHectare		NA	not available
+NPPabove_kg	Sum of net primary production (aboveground)	numeric	kilogramsPerHectare		NA	not available
+LAI	Leaf area index	numeric	meterSquaredPerMeterSquared		NA	not available
+cohort_count_ha	Number of cohorts in the regeneration layer (less than 4 meters in height)	numeric	numberPerHectare		NA	not available
+qmd	Stand quadratic mean diameter 	numeric	centimeter		NA	not available
+count_reg	Stem count of trees greater than or equal to 4 centimeters in diameter but less than 4 meters in height	numeric	numberPerHectare		NA	not available
+ba_reg	Basal area of trees greater than or equal to 4 centimeters in diameter but less than 4 meters in height	numeric	metersSquaredPerHectare		NA	not available
+cohorts_reg	Number of cohorts of trees greater than or equal to 4 centimeters in diameter but less than 4 meters in height	numeric	numberPerHectare		NA	not available
+count_4cm	Stem count of trees greater than or equal to 4 centimeters in DBH	numeric	numberPerHectare		NA	not available
+ba_4cm	Basal area of trees greater than or equal to 4 centimeters in DBH	numeric	metersSquaredPerHectare		NA	not available

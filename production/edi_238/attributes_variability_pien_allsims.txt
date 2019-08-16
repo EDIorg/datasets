@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+k	Replicate 	character			NA	not available
+year	Simulation year	numeric	nominalYear		NA	not available
+ba_cv	Coefficient of variation of basal area among simulated stands in percent	numeric	dimensionless		NA	not available
+tph_cv	Coefficient of variation of tree density among simulated stands in percent	numeric	dimensionless		NA	not available
+ba_mean	Mean basal area among simulated stands	numeric	metersSquaredPerHectare		NA	not available
+tph_mean	Mean tree density among simulated stands	numeric	numberPerHectare		NA	not available
+ba_se	Standard error of basal area among simulated stands	numeric	metersSquaredPerHectare		NA	not available
+tph_se	Standard error of tree density among simulated stands	numeric	numberPerHectare		NA	not available
+ba_sd	Standard deviation of basal area among simulated stands	numeric	metersSquaredPerHectare		NA	not available
+tph_sd	Standard deviation of tree density among simulated stands	numeric	numberPerHectare		NA	not available
+group	Simulation scenario	categorical			NA	not available
