@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+room_number	The number of the room in the biotron where experiment was implemented	character				
+time_period	The sampling period in which measurement came from. Note the 8th period were taken the same time as the 7th but they are seedlings that were found in the soil as seedlings were being processed at the end of the experiment.	character				
+day	Day of the month measurement was taken	Date		DD		
+month	Month of the year measurement was taken	Date		MM		
+year	Year measurement was taken	Date		YYYY		
+watering	The watering treatment implemented in the experiment	categorical				
+soil	The soil type that seeds were planted into in the pot	categorical				
+species	The tree species of the seeds that were planted into the pot	categorical				
+pot_number	The number of the pot	character				
+live_seedling_number	The number of live seedlings in the pot	numeric	number			
+new_seedlings	The number of seedlings that were newly emerged since the last sampling period	numeric	number			
+dead_seedlings	The number of dead seedlings in the pot	numeric	number			
+new_dead_seedlings	The number of seedlings that had newly died since the last sampling period	numeric	number			

@@ -1,0 +1,4 @@
+attributeName	code	definition
+experimental_treatment	historical	Historical (1955-2005)
+experimental_treatment	2020	mid 21st century (2020-2050) 
+experimental_treatment	2050	late 21st century (2050-2080)

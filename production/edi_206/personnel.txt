@@ -1,0 +1,19 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Winslow	Deming	Hansen	UW-Madison	winslowdhansen@gmail.com		creator			
+William		Romme	Colorado State University	William.Romme@colostate.edu		creator			
+Monica	G.	Turner	UW-Madison	turnermg@wisc.edu		creator			
+Winslow	Deming	Hansen	UW-Madison	winslowdhansen@gmail.com		contact			
+Monica	G.	Turner	UW-Madison	turnermg@wisc.edu		contact			
+Timothy	G.	Whitby	UW-Madison			Research Associate			
+Kellen		Nelson	U. Wyoming			Field assistant			
+Paige		Copenhaver	U. Wyoming			Field assistant			
+Catherine		Frock	UW-Madison			Field assistant			
+Natalie		Kaner	UW-Madison			Field assistant			
+Andy		Meunch	UW-Madison			Field Assistant			
+Sara		Winter	UW-Madison			Field Assistant			
+Kari		Forseth	UW-Madison			Field assistant			
+Aisha		Ba	UW-Madison			Field Assistant			
+Monica	G.	Turner				PI		Joint Fire Science Program	11-1-1-7
+Monica	G.	Turner				PI		Department of Agriculture	95-37101-1689
+Monica	G.	Turner				PI		NSF	DEB-9806440
+Winslow	D.	Hansen				PI	GRFP	NSF	DGE-1242789

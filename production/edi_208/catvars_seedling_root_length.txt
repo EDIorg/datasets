@@ -1,0 +1,10 @@
+attributeName	code	definition
+watering	A	4.3 ml every 4 to 5 days
+watering	D	6.6 ml every 4 to 5 days
+watering	E	7.8 ml every 4 to 5 days
+watering	B	5.8 ml every 4 to 5 days
+watering	C	6.2 ml every 4 to 5 days
+soil	R	Rhyolite
+soil	S	Sediment
+species	LP	Lodgepole Pine
+species	DF	Douglas Fir

@@ -1,0 +1,11 @@
+attributeName	code	definition
+substrat	3	more fertile
+substrat	2	less fertile
+substrat	4	most fertile
+substrat	1	least fertile
+potr_pres99	1	aspen present
+potr_pres99	0	aspen not present
+potr_pres12	0	aspen not present
+potr_pres12	1	aspen present
+potr_pers12	0	aspen not persistent
+potr_pers12	1	aspen persistent

@@ -1,0 +1,17 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Winslow	Deming	Hansen	UW-Madison	winslowdhansen@gmail.com		creator			
+Monica	G.	Turner	UW-Madison	turnermg@wisc.edu		creator			
+Winslow	Deming	Hansen	UW-Madison	winslowdhansen@gmail.com		contact			
+Monica	G.	Turner	UW-Madison	turnermg@wisc.edu		contact			
+Timothy	G.	Whitby	UW-Madison			Research Associate			
+Catherine		Frock	UW-Madison			Field assistant			
+Sara		Winter	UW-Madison			Field Assistant			
+Kari		Forseth	UW-Madison			Field assistant			
+Aisha		Ba	UW-Madison			Field Assistant			
+Matthew		Norman	UW-Madison			Field Assistant			
+Tyler		Hoecker	UW-Madison			Field Assistant			
+Kristin		Braziunas	UW-Madison			Field Assistant			
+Monica	G.	Turner				PI		Joint Fire Science Program	11-1-1-7
+Monica	G.	Turner				PI	UW Vilas Research Trust	Wisconsin Alumni Research Foundation	
+Winslow	D.	Hansen				PI	GRFP	NSF	DGE-1242789
+Winslow	D.	Hansen				PI	DDIG	NSF	DEB-1600716

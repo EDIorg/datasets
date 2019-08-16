@@ -1,0 +1,28 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+recordID	arbitrary record ID	character				
+rid	The stand/resource unit ID	character				
+replicate	The simulation experiment replicate	character				
+distance	postfire distance to seed source	categorical			NA	not available
+species	Species present in stand	categorical			NA	not available
+elevation	Elevation at which the stand was simulated	categorical			NA	not available
+rcp	Representative Concentration Pathway of the climate forcing	numeric	dimensionless		NA	not available
+period	Climate period used to force simulations	categorical			NA	not available
+model_soil_y	Soil type underlaying simulated stands	categorical			NA	not available
+model_stand_age_x_post	Age of stand when it burned in years	numeric	number		NA	not available
+density_post	Density of the stand 30 years post fire in number of stems per hectare	numeric	numberPerHectare		NA	not available
+w_height_post	Height of saplings and mature trees 30 years postfire	numeric	meter		NA	not available
+height_avg_m_s_post	Height of saplings 30 years postfire	numeric	meter		NA	not available
+height_avg_m_post	Height of mature trees 30 years postfire	numeric	meter		NA	not available
+density_pre	Stand density the year before the fire	numeric	numberPerHectare		NA	not available
+dens_change	Percent density change prefire to postfire	numeric	dimensionless		NA	not available
+age_burned	Same as model.stand.age.x.post in number of years	numeric	number		NA	not available
+temp_short	Average growing season temperature for the 3 years postfire	numeric	celsius		NA	not available
+temp_long	Average growing season temperature for the 30 years postfire	numeric	celsius		NA	not available
+prec_short	Average annual precipitation for the 3 years postfire	numeric	millimeter		NA	not available
+prec_long	Average annual precipitation for the 30 years postfire	numeric	millimeter		NA	not available
+potential_short	Average growing season soil water potential for the 3 years postfire	numeric	megapascal		NA	not available
+potential_long	Average growing season soil water potential for the 30 years postfire	numeric	megapascal		NA	not available
+content_short	Average growing season soil water content for the 3 years postfire	numeric	millimeter		NA	not available
+content_long	Average growing season soil watercontent for the 30 years postfire	numeric	millimeter		NA	not available
+frost_short	Average number of growing season days in which a frost event occurred for the 3 years postfire	numeric	number		NA	not available
+frost_long	Average number of growing season days in which a frost event occurred for the 30 years postfire	numeric	number		NA	not available

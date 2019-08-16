@@ -1,0 +1,9 @@
+attributeName	code	definition
+treatment	2050	mid 21st century (2020-2050)
+treatment	hist	Historical (1955-2005)
+treatment	2020	late 21st century (2050-2080)
+watering	E	7.8 ml every 4 to 5 days
+watering	C	6.2 ml every 4 to 5 days
+watering	A	4.3 ml every 4 to 5 days
+soil	R	Rhyolite
+soil	S	Sediment

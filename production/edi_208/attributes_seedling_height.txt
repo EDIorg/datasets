@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+room_number	The number of the room in the biotron where experiment was implemented	character				
+day	Day of the month measurement was taken	Date		DD		
+month	Month of the year measurement was taken	Date		MM		
+year	Year measurement was taken	Date		YYYY		
+time	The time period in which the measurement was taken	character				
+watering	The watering treatment implemented in the experiment	categorical				
+soil	The soil type that seeds were planted into in the pot	categorical				
+species	The tree species of the seeds that were planted into the pot	categorical				
+pot_number	The number of the pot	character				
+seedling_number	The number of the seedling being measured	numeric	number			
+needle_number	The number of needles on each seedling	numeric	number			
+seedling_height	The height of the seedling 	numeric	millimeter			

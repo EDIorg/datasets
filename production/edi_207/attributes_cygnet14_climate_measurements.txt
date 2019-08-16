@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+month	Month the measurement was taken	Date		MM		
+day	Day of the month the measurement was taken	Date		DD		
+year	Year the measurement was taken	Date		YYYY		
+hour	Hour of the day the measurement was taken	Date		hh:mm:ss		
+am_pm	Was hour am or pm	character				
+sedimentary_soil_water_content	Volumetric water content of the sedimentary soil core 	numeric	dimensionless		NA	not available
+sedimentary_soil_temperature	Temperature of the sedimentary core	numeric	celsius		NA	not available
+surrounding_soil_water_content_1	Volumetric water content of the first surrounding soil sensor 	numeric	dimensionless		NA	not available
+surrounding_soil_temperature_1	Temperature of the first surrounding soil sensor	numeric	celsius		NA	not available
+surrounding_soil_water_content_2	Volumetric water content of the second surrounding soil sensor 	numeric	dimensionless		NA	not available
+surrounding_soil_temperature_2	Temperature of the second surrounding soil sensor	numeric	celsius		NA	not available
+rhyolite_soil_water_content	Volumetric water content rhyolite soil core 	numeric	dimensionless		NA	not available
+rhyolite_soil_temperature	Temperature of the rhyolite core	numeric	celsius		NA	not available

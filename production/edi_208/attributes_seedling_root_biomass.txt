@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+room_number	The number of the room in the biotron where experiment was implemented	character				
+watering	The watering treatment implemented in the experiment	categorical				
+soil	The soil type that seeds were planted into in the pot	categorical				
+species	The tree species of the seeds that were planted into the pot	categorical				
+pot_number	The number of the pot	character				
+seedling_number	The number of the seedling being measured	numeric	number			
+root_biomass	Biomass of seedling roots at end of experiment	numeric	milligram			
+shoot_biomass	biomass of seedling shoot at end of experiment 	numeric	milligram			

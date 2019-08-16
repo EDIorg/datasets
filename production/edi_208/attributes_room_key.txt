@@ -1,0 +1,3 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+experimental_treatment	The temperature treatment implemented in the room	categorical				
+room_number	The number of the room in the biotron where experiment was implemented	character				

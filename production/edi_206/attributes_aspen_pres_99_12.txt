@@ -1,0 +1,22 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+recordID	arbitrary record ID	character				
+Site_Full_Name	Name of plot	character				
+SiteAbbrev_x	Abbreviation for plot names	character				
+pico_anpp12	Lodgepole pine ANPP in 2012	numeric	megagramPerHectarePerYear		NA	not available
+potr_dens12	Density of aspen in 2012	numeric	numberPerHectare		NA	not available
+substrat	Categorical variable representing soil fertility 	categorical			NA	not available
+dnbr	Satellite derived burn severity	numeric	dimensionless		NA	not available
+distance	Distance from unburned forest	numeric	meter		NA	not available
+elevation	Elevation of plot	numeric	meter		NA	not available
+temp90_99	Decadal (1990-1999) mean daily temperature during growing season 	numeric	celsius		NA	not available
+temp03_12	Decadal (2003-2012) mean daily temperature during growing season	numeric	celsius		NA	not available
+prec90_99	Decadal (1990-1999) mean annual precip	numeric	millimeter		NA	not available
+prec03_12	Decadal (2003-2012) mean annual precip	numeric	millimeter		NA	not available
+potr_dens99	Density of aspen in 1999	numeric	numberPerHectare		NA	not available
+SiteAbbrev_y	"Abbreviation for plot names, same as SiteAbbrev_X"	character			NA	not available
+pico_anpp99	Lodgepole pine ANPP in 2012	numeric	megagramPerHectarePerYear		NA	not available
+pico_dens12	Density of lodgepole pine in 2012	numeric	numberPerHectare		NA	not available
+pico_dens99	Density of lodgepole pine in 1999	numeric	numberPerHectare		NA	not available
+potr_pres99	Categorical variable describing whether aspen were present or not at a plot in 1999	categorical			NA	not available
+potr_pres12	Categorical variable describing whether aspen were present or not at a plot in 2012	categorical			NA	not available
+potr_pers12	"Categorical variable describing if aspen were present in 199, did they persist to 2012?"	categorical			NA	not available

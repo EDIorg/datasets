@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Stephen	F	Jane	Rensselaer Polytechnic Institute	janes@rpi.edu	0000-0003-2968-359X	creator			
+Kevin	C	Rose	Rensselaer Polytechnic Institute	rosek4@rpi.edu	0000-0002-1292-9381	creator			
+Stephen	F	Jane	Rensselaer Polytechnic Institute	janes@rpi.edu	0000-0003-2968-359X	contact			
+Kevin	C	Rose	Rensselaer Polytechnic Institute	rosek4@rpi.edu	0000-0002-1292-9381	contact			
+Kevin	C	Rose		rosek4@rpi.edu	0000-0002-1292-9381	PI	Macrosystems Biology and Early NEON Science grant EF 1638704	National Science Foundation	1638704

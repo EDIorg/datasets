@@ -1,0 +1,17 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+elevation	Variable identifying whether site is a high-elevation or low-elevation site	categorical				
+site	Name of the site	character				
+month	Month of the year when measurement was collected	Date		MM		
+day	Day of the month when measurement was collected	Date		DD		
+year_meas	Year the measurement was taken	Date		YYYY		
+year_planted	Year the seeds were planted in the core	Date		YYYY		
+group	The experimental group a core was located in	categorical				
+aspect	Aspect for the core	categorical				
+topography	Topographic position of the core	categorical				
+core_tag	The tag number of the core	numeric	dimensionless			
+soil_type	The soil type in the core	categorical				
+species	The species of seeds planted in the soil core	categorical				
+seedling_number	The number of the seedling being measured	numeric	number			
+alive	Was the seedling alive or dead when it was measured	categorical				
+height	The height of the seedling being measured	numeric	millimeter			
+basal_diameter	The basal diameter of the seedling being measured	numeric	millimeter			

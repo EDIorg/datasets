@@ -1,0 +1,11 @@
+attributeName	code	definition
+distance	short	50 meter
+species	DF	douglas fir
+elevation	low	"Lower treeline (2,000m)"
+elevation	med	"mid elevation (2,300m)"
+elevation	high	"upper elevation (2,600m)"
+period	hist	Historical (1950-1980)
+period	2070	late-21st century (2069-2099)
+period	2030	mid-21st century (2029-2059)
+model_soil_y	rhyolite	rhyolite
+model_soil_y	andesite	andesite

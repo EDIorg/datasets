@@ -1,0 +1,28 @@
+attributeName	code	definition
+elevation	high	high
+elevation	low	low
+group	m	middle
+group	n	North
+group	ne	NorthEast
+group	se	SouthEast
+group	s	SouthEast
+group	sw	SouthWest
+group	nw	NorthWest
+group	SE	SouthEast
+aspect	s	South
+aspect	e	East
+aspect	w	West
+aspect	sw	SouthWest
+aspect	nw	NorthWest
+aspect	flat	flat
+aspect	ne	NorthEast
+aspect	se	SouthEast
+aspect	n	North
+aspect	N	North
+topography	convex	convex
+topography	concave	concave
+topography	flat	flat
+soil	F	collected from the Fontanelle fire (andesite)
+soil	C	collected from the Cygnet fire (rhyolite)
+species	LP	lodgepole pine
+species	DF	Douglas-fir

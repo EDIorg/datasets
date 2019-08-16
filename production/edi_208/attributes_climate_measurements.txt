@@ -1,0 +1,42 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+month	Month of the measurement	Date		DD		
+day	Day of the measurement	Date		MM		
+year	Year measurement was taken	Date		YYYY		
+time	Hour of the day	Date		hh:mm:ss		
+am_pm	Was it am or pm	character				
+temp_1	Temperature measurement for port 1. See climate measurement key	numeric	celsius		NA	not available
+temp_2	Temperature measurement for port 2. See climate measurement key	numeric	celsius		NA	not available
+temp_3	Temperature measurement for port 3. See climate measurement key	numeric	celsius		NA	not available
+temp_4	Temperature measurement for port 4. See climate measurement key	numeric	celsius		NA	not available
+temp_5	Temperature measurement for port 5. See climate measurement key	numeric	celsius		NA	not available
+temp_6	Temperature measurement for port 6. See climate measurement key	numeric	celsius		NA	not available
+temp_7	Temperature measurement for port 7. See climate measurement key	numeric	celsius		NA	not available
+temp_8	Temperature measurement for port 8. See climate measurement key	numeric	celsius		NA	not available
+temp_9	Temperature measurement for port 9. See climate measurement key	numeric	celsius		NA	not available
+temp_10	Temperature measurement for port 10. See climate measurement key	numeric	celsius		NA	not available
+temp_11	Temperature measurement for port 11. See climate measurement key	numeric	celsius		NA	not available
+temp_12	Temperature measurement for port 12. See climate measurement key	numeric	celsius		NA	not available
+sm_mpa_1	Water potential measurement for port 1. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_2	Water potential measurement for port 2. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_3	Water potential measurement for port 3. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_4	Water potential measurement for port 4. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_5	Water potential measurement for port 5. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_6	Water potential measurement for port 6. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_7	Water potential measurement for port 7. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_8	Water potential measurement for port 8. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_9	Water potential measurement for port 9. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_10	Water potential measurement for port 10. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_11	Water potential measurement for port 11. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_12	Water potential measurement for port 12. See climate measurement key	numeric	megapascal		NA	not available
+temp_13	Temperature measurement for port 13. See climate measurement key	numeric	celsius		NA	not available
+temp_14	Temperature measurement for port 14. See climate measurement key	numeric	celsius		NA	not available
+temp_15	Temperature measurement for port 15. See climate measurement key	numeric	celsius		NA	not available
+temp_16	Temperature measurement for port 16. See climate measurement key	numeric	celsius		NA	not available
+temp_17	Temperature measurement for port 17. See climate measurement key	numeric	celsius		NA	not available
+temp_18	Temperature measurement for port 18. See climate measurement key	numeric	celsius		NA	not available
+sm_mpa_13	Water potential measurement for port 13. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_14	Water potential measurement for port 14. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_15	Water potential measurement for port 15. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_16	Water potential measurement for port 16. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_17	Water potential measurement for port 17. See climate measurement key	numeric	megapascal		NA	not available
+sm_mpa_18	Water potential measurement for port 18. See climate measurement key	numeric	megapascal		NA	not available

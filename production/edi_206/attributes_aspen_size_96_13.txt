@@ -1,0 +1,24 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+recordID	arbitrary record ID	character				
+Site_name	Name of site which aspen were sampled	character				
+plot_number	Number of the plot at each site where aspen were sampled	character				
+meanaspen_height96	Mean height of aspen in plot in 1996	numeric	centimeter		NA	not available
+meanaspen_height00	Mean height of aspen in plot in 2000	numeric	centimeter		NA	not available
+meanaspen_height13	Mean height of aspen in plot in 2013	numeric	centimeter		NA	not available
+meanaspen_bdiam96	Mean basal diameter of aspen at plot in 1996	numeric	millimeter		NA	not available
+meanaspen_bdiam00	Mean basal diameter of aspen at plot in 2000	numeric	millimeter		NA	not available
+meanaspen_bdiam13	Mean basal diameter of aspen at plot in 2013	numeric	millimeter		NA	not available
+picodensity_m2_13	Density of lodgepole pine at plot in 2013	numeric	numberPerMeterSquared		NA	not available
+picodensity_m2_96	Density of lodgepole pine at plot in 1996	numeric	numberPerMeterSquared		NA	not available
+picodensity_m2_00	Density of lodgepole pine at plot in 2000	numeric	numberPerMeterSquared		NA	not available
+temp03_12	Decadal (2003-2012) mean daily temperature during growing season	numeric	celsius		NA	not available
+temp90_99	Decadal (1990-1999) mean daily temperature during growing season	numeric	celsius		NA	not available
+temp86_95	Decadal (1986-1995) mean daily temperature during growing season	numeric	celsius		NA	not available
+prec86_95	Decadal (1986-1995) mean annual precip	numeric	millimeter		NA	not available
+prec90_99	Decadal (1990-1999) mean annual precip	numeric	millimeter		NA	not available
+prec03_12	Decadal (2003-2012) mean annual precip	numeric	millimeter		NA	not available
+distance	Distance to prefire aspen	numeric	kilometer		NA	not available
+ph98	Soil pH in 1998	numeric	dimensionless		NA	not available
+ph13	Soil pH in 2013	numeric	dimensionless		NA	not available
+totaln98	Total N in 1998 in percent	numeric	dimensionless		NA	not available
+totaln2013	Total N in 2013 in percent	numeric	dimensionless		NA	not available

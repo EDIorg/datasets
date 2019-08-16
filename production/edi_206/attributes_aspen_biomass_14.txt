@@ -1,0 +1,47 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+recordID	arbitrary record ID	character				
+site_name	Name of plot	character				
+aspen_number	Number of the aspen harvested (two were harvested per site)	numeric	number		NA	not available
+mean_lpheight	Mean height of lodgepole pine at the plot	numeric	centimeter		NA	not available
+max_lpheight	Height of tallest lodgepole pine in plot	numeric	centimeter		NA	not available
+median_lpheight	Median height of lodgepole pine in plot	numeric	centimeter		NA	not available
+mean_lpanpp	Mean annual net primary productivity of  lodgepole pine	numeric	megagramPerHectarePerYear		NA	not available
+northing	UTM	numeric	dimensionless		NA	not available
+easting	UTM	numeric	dimensionless		NA	not available
+basal_diameter	Basal diameter of harvested aspen	numeric	centimeter		NA	not available
+dbh	Diameter at breast height of harvested aspen	numeric	centimeter		NA	not available
+treeheight	Height of harvested aspen	numeric	centimeter		NA	not available
+crown_width1	Crown width of harvested aspen in one direction	numeric	centimeter		NA	not available
+crown_width2	Crown width of harvested aspen in perpendicular direction from first measurement	numeric	centimeter		NA	not available
+ramet_count	Number of ramets associated with harvested aspen	numeric	number		NA	not available
+meanramet_height	Mean height of ramets associated with harvested aspen	numeric	centimeter		NA	not available
+meanramet_basal_diameter	Mean basal diameter of ramets associated with harvested aspen	numeric	centimeter		NA	not available
+latroot_number	Number of lateral roots of harvested aspen	numeric	number		NA	not available
+sum_lateral_root_length	The summed length of all lateral roots of the harvested aspen	numeric	centimeter		NA	not available
+mean_lateral_root_length	Mean length of lateral roots of the harvested aspen	numeric	centimeter		NA	not available
+median_lateral_root_length	Median length of lateral roots of the harvested aspen	numeric	centimeter		NA	not available
+max_lateral_root_length	Length of longest lateral root of the harvested aspen	numeric	centimeter		NA	not available
+mean_lateral_root_diameter	Mean diameter of lateral roots of the harvested aspen	numeric	millimeter		NA	not available
+Above_Ground_Dead	Biomass of dead aboveground woody material of the harvested aspen	numeric	gram		NA	not available
+Above_Ground_Live	Biomass of live aboveground woody material of the harvested aspen	numeric	gram		NA	not available
+Below_Ground	Biomass of belowground material of the harvested aspen	numeric	gram		NA	not available
+Leaves	Biomass of leaves of the harvested aspen	numeric	gram		NA	not available
+site_pico_density	Density of lodgepole pine in transects	numeric	number		NA	not available
+site_potr_density	Density of aspen in transects	numeric	number		NA	not available
+site_abla_density	Density of subalpine fir in transects	numeric	number		NA	not available
+site_Pien_density	Density of Engelmann spruce in transects	numeric	number		NA	not available
+site_Pial_density	Density of whitebark pine in transects	numeric	number		NA	not available
+site_PSME_density	Density of Douglas-fir in transects	numeric	number		NA	not available
+Total_tree_density	Density of all trees in transects	numeric	number		NA	not available
+area	Area of transects	numeric	squareMeter		NA	not available
+picodens_ha	lodgepole density at plot per ha	numeric	numberPerHectare		NA	not available
+treedens_ha	Density of all trees at plot per ha	numeric	numberPerHectare		NA	not available
+sum_rametheight	Total summed height of all ramets per harvested aspen	numeric	centimeter		NA	not available
+lp_anpp_ha	Lodgepole pine ANPP at plot per ha	numeric	megagramPerHectarePerYear		NA	not available
+ratiowt	Ratio of live aboveground woody biomass to belowground biomass of the harvested aspen	numeric	dimensionless		NA	not available
+ratiomean_ms_length	Ratio of main stem length to mean lateral root length of the harvested aspen	numeric	dimensionless		NA	not available
+ratiomax_ms_length	Ratio of main stem length to maximum lateral root length of the harvested aspen	numeric	dimensionless		NA	not available
+ratiomedian_ms_length	Ratio of main stem length to median lateral root length of the harvested aspen	numeric	dimensionless		NA	not available
+ratio_total_tree_length	Ratio of sum of main stem and all ramet lengths to sum of all lateral root lengths of the harvested aspen	numeric	dimensionless		NA	not available
+root_wholeplant	Ratio of root biomass to aboveground woody live biomass plus leaf biomass of the harvested aspen	numeric	dimensionless		NA	not available
+picom2	Density of lodgepole at plot per m2 	numeric	numberPerMeterSquared		NA	not available

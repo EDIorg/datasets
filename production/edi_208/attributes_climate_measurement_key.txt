@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+port	arbitrary record ID	character				
+treatment	The temperature treatment implemented in the room	categorical				
+room	The number of the room where the treatment was implemented in the greenhouse	character				
+watering	The watering treatment used in the pots where climate measurements were taken	categorical				
+soil	The soil type used in the pot where climate measurements were taken	categorical				

@@ -1,0 +1,30 @@
+attributeName	code	definition
+elevation	HIGH	high
+elevation	LOW	low
+group	M	middle
+group	S	South
+group	SE	SouthEast
+group	NE	NorthEast
+group	N	North
+group	NW	NorthWest
+group	SW	SouthWest
+aspect	NW	NorthWest
+aspect	SW	SouthWest
+aspect	FLAT	flat
+aspect	NE	NorthEast
+aspect	S	South
+aspect	E	East
+aspect	SE	SouthEast
+aspect	W	West
+aspect	N	North
+aspect	SOUTH	South
+aspect	F	flat
+topography	FLAT	flat
+topography	CONVEX	convex
+topography	CONCAVE	concave
+soil_type	R	Rhyolite
+soil_type	S	Sedimentary
+species	LP	Lodgepole Pine
+species	DF	Douglas fir
+alive	1	alive
+alive	0	dead

@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+eing	UTM	numeric	dimensionless			
+ning	UTM	numeric	dimensionless			
+elevation	Variable identifying whether site is a high-elevation or low-elevation site	categorical				
+site	Name of the site	character				
+year_planted	Year that experimental cores were planted in the ground	numeric	nominalYear			
+group	The experimental group a core was located in	categorical				
+aspect	Aspect for the core	categorical				
+topography	Topographic position of the core	categorical				
+core_tag	The tag number of the core	numeric	dimensionless			
+soil	The soil type in the core	categorical				
+species	The species of seeds planted in the soil core	categorical				
