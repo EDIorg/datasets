@@ -1,0 +1,107 @@
+name	name_type	name_resolved	authority_system	authority_id
+Acer negundo	scientific	Acer negundo	ITIS	28749
+Acer rubrum	scientific	Acer rubrum	ITIS	28728
+Acer saccharinum	scientific	Acer saccharinum	ITIS	28757
+Acer saccharum	scientific	Acer saccharum	ITIS	28731
+Alnus rugosa	scientific	Alnus rugosa	ITIS	19475
+Amelanchier arborea	scientific	Amelanchier arborea	ITIS	25110
+Betula alleghaniensis	scientific	Betula alleghaniensis	ITIS	19481
+Betula nigra	scientific	Betula nigra	ITIS	19480
+Betula papyrifera	scientific	Betula papyrifera	ITIS	19489
+Carpinus caroliniana	scientific	Carpinus caroliniana	ITIS	19504
+Carya cordiformis	scientific	Carya cordiformis	ITIS	19227
+Carya ovata	scientific	Carya ovata	ITIS	19242
+Carya spp.	scientific	Carya	ITIS	19223
+Celtis occidentalis	scientific	Celtis occidentalis	ITIS	19040
+Corylus americana	scientific	Corylus americana	ITIS	19506
+Fraxinus nigra	scientific	Fraxinus nigra	ITIS	32945
+Fraxinus pennsylvanica	scientific	Fraxinus pennsylvanica	ITIS	32929
+Gleditsia triacanthos	scientific	Gleditsia triacanthos	ITIS	26714
+Hamamelis virginiana	scientific	Hamamelis virginiana	ITIS	19033
+Juglans cinerea	scientific	Juglans cinerea	ITIS	19250
+Juglans nigra	scientific	Juglans nigra	ITIS	19254
+Juglans sinensis	scientific	Juglans sinensis	GBIF Backbone Taxonomy	NA
+Juniperus virginiana	scientific	Juniperus virginiana	ITIS	18048
+Lonicera spp.	scientific	Lonicera	ITIS	35281
+Malus spp.	scientific	Malus	ITIS	25254
+Morus rubra	scientific	Morus rubra	ITIS	19070
+Ostrya virginiana	scientific	Ostrya virginiana	ITIS	19511
+Picea glauca	scientific	Picea glauca	ITIS	183295
+Pinus banksiana	scientific	Pinus banksiana	ITIS	183319
+Pinus strobus	scientific	Pinus strobus	ITIS	183385
+Populus deltoides	scientific	Populus deltoides	ITIS	22445
+Populus grandidentata	scientific	Populus grandidentata	ITIS	22463
+Populus tremuloides	scientific	Populus tremuloides	ITIS	195773
+Prunus serotina	scientific	Prunus serotina	ITIS	24764
+Prunus virginiana	scientific	Prunus virginiana	ITIS	24806
+Quercus alba	scientific	Quercus alba	ITIS	19290
+Quercus bicolor	scientific	Quercus bicolor	ITIS	19300
+Quercus ellipsoidalis	scientific	Quercus ellipsoidalis	ITIS	19327
+Quercus macrocarpa	scientific	Quercus macrocarpa	ITIS	19287
+Quercus prinoides	scientific	Quercus prinoides	ITIS	19397
+Quercus rubra	scientific	Quercus rubra	ITIS	19408
+Quercus velutina	scientific	Quercus velutina	ITIS	19447
+Rhamnus cathartica	scientific	Rhamnus cathartica	ITIS	28573
+Robinia pseudoacacia	scientific	Robinia pseudoacacia	ITIS	504804
+Salix bebbiana	scientific	Salix bebbiana	ITIS	22507
+Salix nigra	scientific	Salix nigra	ITIS	22484
+	scientific	NA	NA	NA
+Thuja occidentalis	scientific	Thuja occidentalis	ITIS	505490
+Tilia americana	scientific	Tilia americana	ITIS	21536
+Tsuga canadensus	scientific	Tsuga canadensis	ITIS	183397
+Ulmus americana	scientific	Ulmus americana	ITIS	19049
+Viburnum lentago	scientific	Viburnum lentago	ITIS	35266
+Zanthoxylum americanum	scientific	Zanthoxylum americanum	ITIS	505788
+Acer negundo	common	NA	NA	NA
+Acer rubrum	common	NA	NA	NA
+Acer saccharinum	common	NA	NA	NA
+Acer saccharum	common	NA	NA	NA
+Alnus rugosa	common	NA	NA	NA
+Amelanchier arborea	common	NA	NA	NA
+Betula alleghaniensis	common	NA	NA	NA
+Betula nigra	common	NA	NA	NA
+Betula papyrifera	common	NA	NA	NA
+Carpinus caroliniana	common	NA	NA	NA
+Carya cordiformis	common	NA	NA	NA
+Carya ovata	common	NA	NA	NA
+Carya spp.	common	NA	NA	NA
+Celtis occidentalis	common	NA	NA	NA
+Corylus americana	common	NA	NA	NA
+Fraxinus nigra	common	NA	NA	NA
+Fraxinus pennsylvanica	common	NA	NA	NA
+Gleditsia triacanthos	common	NA	NA	NA
+Hamamelis virginiana	common	NA	NA	NA
+Juglans cinerea	common	NA	NA	NA
+Juglans nigra	common	NA	NA	NA
+Juglans sinensis	common	NA	NA	NA
+Juniperus virginiana	common	NA	NA	NA
+Lonicera spp.	common	NA	NA	NA
+Malus spp.	common	Malus	ITIS	507062
+Morus rubra	common	NA	NA	NA
+Ostrya virginiana	common	NA	NA	NA
+Picea glauca	common	NA	NA	NA
+Pinus banksiana	common	NA	NA	NA
+Pinus strobus	common	NA	NA	NA
+Populus deltoides	common	NA	NA	NA
+Populus grandidentata	common	NA	NA	NA
+Populus tremuloides	common	NA	NA	NA
+Prunus serotina	common	NA	NA	NA
+Prunus virginiana	common	NA	NA	NA
+Quercus alba	common	NA	NA	NA
+Quercus bicolor	common	NA	NA	NA
+Quercus ellipsoidalis	common	NA	NA	NA
+Quercus macrocarpa	common	NA	NA	NA
+Quercus prinoides	common	NA	NA	NA
+Quercus rubra	common	NA	NA	NA
+Quercus velutina	common	NA	NA	NA
+Rhamnus cathartica	common	NA	NA	NA
+Robinia pseudoacacia	common	NA	NA	NA
+Salix bebbiana	common	NA	NA	NA
+Salix nigra	common	NA	NA	NA
+	common	NA	NA	NA
+Thuja occidentalis	common	NA	NA	NA
+Tilia americana	common	NA	NA	NA
+Tsuga canadensus	common	NA	NA	NA
+Ulmus americana	common	NA	NA	NA
+Viburnum lentago	common	NA	NA	NA
+Zanthoxylum americanum	common	NA	NA	NA

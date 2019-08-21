@@ -1,0 +1,17 @@
+keyword	keywordThesaurus
+communities	LTER Controlled Vocabulary
+community composition	LTER Controlled Vocabulary
+community dynamics	LTER Controlled Vocabulary
+community patterns	LTER Controlled Vocabulary
+species composition	LTER Controlled Vocabulary
+species diversity	LTER Controlled Vocabulary
+Bottomland hardwood	
+community composition	
+flooding regime	
+forest community	
+landscape ecology	
+land cover	
+large river	
+physiography	
+riparian	
+scale	

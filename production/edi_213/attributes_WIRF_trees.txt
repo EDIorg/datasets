@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+REACH	name of Wisconsin River reach	character				
+TRAN	transect identifier	character				
+PLOT	plot identifier	character				
+PLOTCODE	unique number for each plot	character				
+YEAR	year data recorded	Date		YYYY		
+MARKERTREE	marker tree present? Yes or no	categorical			NA	not available
+SPECIES	Scientific name of species	character			NA	not available
+Stems	number of stems	numeric	number		NA	not available
+DBH1	diameter at breast height	numeric	centimeter		NA	not available
+DBH2	diameter at breast height	numeric	centimeter		NA	not available
+DBH3	diameter at breast height	numeric	centimeter		NA	not available
+DBH4	diameter at breast height	numeric	centimeter		NA	not available
+DBH5	diameter at breast height	numeric	centimeter		NA	not available
+DBH6	diameter at breast height	numeric	centimeter		NA	not available
+DBH7	diameter at breast height	numeric	centimeter		NA	not available
+DBH8	diameter at breast height	numeric	centimeter		NA	not available
+DBH9	diameter at breast height	numeric	centimeter		NA	not available
+DBH10	diameter at breast height	numeric	centimeter		NA	not available

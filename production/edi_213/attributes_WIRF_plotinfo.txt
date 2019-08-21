@@ -1,0 +1,17 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Reach	name of Wisconsin River reach	character				
+Transect	transect identifier	character				
+Plot	plot identifier	character				
+Plotcode	unique number for each plot	character				
+X_coord	UTM easting (zone 16N)	numeric	meter		NA	not available
+Y_coord	UTM northing (zone 16N)	numeric	meter		NA	not available
+Elev	elevation of plot	numeric	meter		NA	not available
+Dist_ed	distance to nearest unforested edge (not including roads)	numeric	meter		NA	not available
+Dist_an	distance to nearest anthropogenic edge	numeric	meter		NA	not available
+Rd_dist	distance to nearest road	numeric	meter		NA	not available
+Dist_riv	distance to Wisconsin River	numeric	meter		NA	not available
+P_area	area of forested patch surrounding transect	numeric	hectare		NA	not available
+P_perim	patch perimeter	numeric	meter		NA	not available
+LC_30	landcover in 1930s 	categorical			NA	not available
+LC_60	landcover in 1960s	categorical			NA	not available
+LC90	landcover in 1990s	categorical			NA	not available

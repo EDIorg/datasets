@@ -1,0 +1,35 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Monica	G	Turner	University of Wisconsin	turnermg@wisc.edu	0000-0003-1903-2822	creator			
+Emily	H	Stanley	University of Wisconsin	ehstanley@wisc.edu	0000-0003-4922-8121	creator			
+Mark	D	Dixon	Arizona State University			creator			
+Sarah	E	Gergel	University of Brittish Columbia			creator			
+James	R	Miller	Iowa State University			creator			
+Monica	G	Turner	University of Wisconsin	turnermg@wisc.edu	0000-0003-1903-2822	contact			
+Emily	H	Stanley	University of Wisconsin	ehstanley@wisc.edu	0000-0003-4922-8121	contact			
+Monica	G	Turner	University of Wisconsin	turnermg@wisc.edu	0000-0003-1903-2822	PI	Ecological Indicators	Environmental Protection Agency STAR program	R826600
+Heather		Arrowood				Field Assistant			
+Leah		Bowe				Field Assistant			
+Angela		Braun				Field Assistant			
+Matthias		Burgi				Field Assistant			
+Jen		Fraterrigo				Field Assistant			
+Ross		Freeman				Field Assistant			
+Chris		Hammes				Field Assistant			
+Hojeong		Kang				Field Assistant			
+Adrian		Lesak				Field Assistant			
+Haven		Livingston				Field Assistant			
+Michelle		Luebke				Field Assistant			
+Isaac		Nadeau				Field Assistant			
+Adam		Narish				Field Assistant			
+Becky		Nowak				Field Assistant			
+Amy		Olson				Field Assistant			
+Katie		Predick				Field Assistant			
+Katie		Predick.				Field Assistant			
+Sara		Rigelman				Field Assistant			
+Trish		Roper				Field Assistant			
+Kim		Sash				Field Assistant			
+Josh		Sulman				Field Assistant			
+Jaime		Thibodeaux				Field Assistant			
+Aaron		Thiel				Field Assistant			
+Sally		Tinker				Field Assistant			
+Mike		Watt				Field Assistant			
+Jonathan		West				Field Assistant			

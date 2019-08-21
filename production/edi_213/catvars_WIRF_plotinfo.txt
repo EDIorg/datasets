@@ -1,0 +1,31 @@
+attributeName	code	definition
+LC_30	1	Deciduous forest
+LC_30	2	Coniferous forest
+LC_30	3	Agriculture
+LC_30	4	Grassland
+LC_30	5	Waterway
+LC_30	6	Open Wetlands
+LC_30	7	Sand/barren
+LC_30	8	Urban
+LC_30	9	Orchard
+LC_30	11	Cranberry bog
+LC_60	1	Deciduous forest
+LC_60	2	Coniferous forest
+LC_60	3	Agriculture
+LC_60	4	Grassland
+LC_60	5	Waterway
+LC_60	6	Open Wetlands
+LC_60	7	Sand/barren
+LC_60	8	Urban
+LC_60	9	Orchard
+LC_60	11	Cranberry bog
+LC90	1	Deciduous forest
+LC90	2	Coniferous forest
+LC90	3	Agriculture
+LC90	4	Grassland
+LC90	5	Waterway
+LC90	6	Open Wetlands
+LC90	7	Sand/barren
+LC90	8	Urban
+LC90	9	Orchard
+LC90	11	Cranberry bog

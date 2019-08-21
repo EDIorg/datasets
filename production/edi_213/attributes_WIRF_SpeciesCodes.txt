@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SpeciesAbbreviation	abbreviation used in data file	character				
+Scientific_name	scientific name	character				
+Common_name	common name	character				

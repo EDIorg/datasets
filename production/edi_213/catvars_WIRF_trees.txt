@@ -1,0 +1,3 @@
+attributeName	code	definition
+MARKERTREE	YES	is a marker tree
+MARKERTREE	NO	is not a marker tree
