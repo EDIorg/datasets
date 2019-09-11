@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+lake_code	"Name of lake: ME = Mendota center, MS = Mendota shoreline"	categorical				
+date	Date of collection	Date		YYYYMMDD		
+sampling	Sample number 	character				
+chamber	Chamber ID	character				
+replicate	Replicate #	numeric	number		NA	not available
+Code	Combines above 5	character				
+start_time	Start time of sample	Date		hh:mm:ss		
+end_time	End time of sample	Date		hh:mm:ss		
+Measuring_time_sec	Sample length	Date		hh:mm:ss		
+CO2_start_ppm	Concentration at start in ppm	numeric	ppm		NA	not available
+CO2_end_ppm	Concentration  at end in ppm	numeric	ppm		NA	not available
+Slope_CO2	Linear regression slope	numeric	ppmPerSecond		NA	not available
+R2_of_CO2_slope	Pearson correlation of slope	numeric	dimensionless		NA	not available
+Calculated_CO2_flux_mmol_from_regression	Calculated CO2 flux mmol from regression	numeric	millimolesPerSecond		NA	not available
+Chamber_volume_ml	Volume of chamber	numeric	milliliter		NA	not available
+Chamber_area_m2	Area of chamber	numeric	cubicMeter		NA	not available
+Air_pressure_atm	Atmospheric pressure	numeric	atmosphere		NA	not available
+Chamber_Temp	Temperature of chamber	numeric	kelvin		NA	not available

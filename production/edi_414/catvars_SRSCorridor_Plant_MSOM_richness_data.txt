@@ -1,0 +1,20 @@
+attributeName	code	definition
+PatchType	C	peripheral patch connected to center with corridor
+PatchType	W	"winged patch, treatment that has the half corridor on either side"
+PatchType	R	"rectangular patch, treatment that has the area of the corridor added to the back of the patch"
+subplot_1	1	species present
+subplot_1	0	species absent
+subplot_2	1	species present
+subplot_2	0	species absent
+subplot_3	1	species present
+subplot_3	0	species absent
+subplot_4	1	species present
+subplot_4	0	species absent
+subplot_5	1	species present
+subplot_5	0	species absent
+subplot_6	1	species present
+subplot_6	0	species absent
+subplot_7	1	species present
+subplot_7	0	species absent
+subplot_8	1	species present
+subplot_8	0	species absent

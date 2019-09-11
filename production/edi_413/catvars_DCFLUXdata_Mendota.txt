@@ -1,0 +1,3 @@
+attributeName	code	definition
+lake_code	ME	Mendota center
+lake_code	MS	Mendota shoreline

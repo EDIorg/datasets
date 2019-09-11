@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Ankur	R	Desai	UW-Madison	desai@aos.wisc.edu	0000-0002-5226-6041	creator			
+Ankur	R	Desai	UW-Madison	desai@aos.wisc.edu	0000-0002-5226-6041	contact			
+Angela		Baldocchi	UW-Madison	abaldocchi@wisc.edu		Data collection			
+Elvira		de Eyto	Marine Institute	elvira.deeyto@marine.ie		Lead of synthesis project			
+Emily		Stanley	"University of Wisconsin, Madison"	ehstanley@wisc.edu	0000-0003-4922-8121	PI	LTER: Comparative Study of a Suite of Lakes in Wisconsin	NSF	1440297

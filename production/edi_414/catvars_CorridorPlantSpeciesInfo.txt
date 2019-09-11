@@ -1,0 +1,6 @@
+attributeName	code	definition
+DispersalMode	Animal	Animal
+DispersalMode	Wind	Wind
+DispersalMode	Gravity	Gravity
+LongleafPineSpecies	0	species is not a longleaf pine savanna indicator species
+LongleafPineSpecies	1	species is a longleaf pine savanna indicator species

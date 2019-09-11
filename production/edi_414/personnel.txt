@@ -1,0 +1,22 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Ellen	I.	Damschen	University of Wisconsin	damschen@wisc.edu	https://orcid.org/0000-0001-7435-0669	creator			
+Lars	A.	Brudvig	Michigan State University	brudvig@msu.edu	https://orcid.org/0000-0002-3857-2165	creator			
+Melissa	A.	Burt	Virginia Tech University	melissaburt@vt.edu		creator			
+Robert	J.	Fletcher	University of Florida	robert.fletcher@ufl.edu	https://orcid.org/0000-0003-1717-5707	creator			
+Nick	M.	Haddad	Michigan State University	haddad@kbs.msu.edu	https://orcid.org/0000-0002-1591-9322	creator			
+Douglas	J.	Levey	National Science Foundation	dlevey@nsf.gov		creator			
+John	L.	Orrock	University of Wisconsin	jorrock@wisc.edu	https://orcid.org/0000-0003-0768-7389	creator			
+Julian		Resasco	University of Colorado	jresasco@colorado.edu		creator			
+Joshua	J.	Tewksbury	Future Earth	josh.tewksbury@futureearth.org	https://orcid.org/0000-0002-4897-9313	creator			
+Ellen	I.	Damschen	University of Wisconsin	damschen@wisc.edu	https://orcid.org/0000-0001-7435-0669	contact			
+Quinn		Sorenson	University of Wisconsin	qmsorenson@gmail.com		Field crew/graduate student			
+Christopher		Warneke	Michigan State University	warnekec@msu.edu		Field crew/graduate student			
+Joseph		Ledvina	Michigan State University	joeledvina@gmail.com		Field crew			
+John		Blake	USDA Forest Service	jblake@fs.fed.us		Site creation and maintenance			
+Andy		Horcher	USDA Forest Service	andy.horcher@usda.gov		Site creation and maintenance			
+Ellen	I.	Damschen			https://orcid.org/0000-0001-7435-0669	PI	"Collaborative Research LTREB: Understanding the strength, duration, and stability of connectivity effects on community diversity"	National Science Foundation	DEB: 1354101
+Lars	A.	Brudvig			https://orcid.org/0000-0002-3857-2165	PI	"Collaborative Research LTREB: Understanding the strength, duration, and stability of connectivity effects on community diversity"	National Science Foundation	DEB: 1354085
+Nick	M.	Haddad			https://orcid.org/0000-0002-1591-9322	PI	"Collaborative Research LTREB: Understanding the strength, duration, and stability of connectivity effects on community diversity"	National Science Foundation	DEB: 1354218
+Nick	M.	Haddad			https://orcid.org/0000-0002-1591-9322	PI		Department of Energy and USDA Forest Service	Interagency Agreement DE-EM0003622
+Lars	A.	Brudvig			https://orcid.org/0000-0002-3857-2165	PI	"LTREB Renewal: Collaborative Research: Understanding the strength, duration, and stability of connectivity effects on community diversity."	National Science Foundation	DEB: 1913501
+Ellen	I.	Damschen			https://orcid.org/0000-0001-7435-0669	PI	"LTREB Renewal: Collaborative Research: Understanding the strength, duration, and stability of connectivity effects on community diversity"	National Science Foundation	DEB: 1912729

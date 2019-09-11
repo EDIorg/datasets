@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" packageId="edi.414.3" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>SRS Corridor Experiment Annual Plant Occurrence Dataset, South Carolina, USA, 2000 - current</title>
+    <creator>
+      <individualName>
+        <givenName>Ellen</givenName>
+        <givenName>I.</givenName>
+        <surName>Damschen</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <electronicMailAddress>damschen@wisc.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Lars</givenName>
+        <givenName>A.</givenName>
+        <surName>Brudvig</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <electronicMailAddress>brudvig@msu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Melissa</givenName>
+        <givenName>A.</givenName>
+        <surName>Burt</surName>
+      </individualName>
+      <organizationName>Virginia Tech University</organizationName>
+      <electronicMailAddress>melissaburt@vt.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>J.</givenName>
+        <surName>Fletcher</surName>
+      </individualName>
+      <organizationName>University of Florida</organizationName>
+      <electronicMailAddress>robert.fletcher@ufl.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Nick</givenName>
+        <givenName>M.</givenName>
+        <surName>Haddad</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <electronicMailAddress>haddad@kbs.msu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Douglas</givenName>
+        <givenName>J.</givenName>
+        <surName>Levey</surName>
+      </individualName>
+      <organizationName>National Science Foundation</organizationName>
+      <electronicMailAddress>dlevey@nsf.gov</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <givenName>L.</givenName>
+        <surName>Orrock</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <electronicMailAddress>jorrock@wisc.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Julian</givenName>
+        <surName>Resasco</surName>
+      </individualName>
+      <organizationName>University of Colorado</organizationName>
+      <electronicMailAddress>jresasco@colorado.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Joshua</givenName>
+        <givenName>J.</givenName>
+        <surName>Tewksbury</surName>
+      </individualName>
+      <organizationName>Future Earth</organizationName>
+      <electronicMailAddress>josh.tewksbury@futureearth.org</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Quinn</givenName>
+        <surName>Sorenson</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <electronicMailAddress>qmsorenson@gmail.com</electronicMailAddress>
+      <role>Field Crew/Graduate Student</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <surName>Warneke</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <electronicMailAddress>warnekec@msu.edu</electronicMailAddress>
+      <role>Field Crew/Graduate Student</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Ledvina</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <electronicMailAddress>joeledvina@gmail.com</electronicMailAddress>
+      <role>Field Crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Blake</surName>
+      </individualName>
+      <organizationName>USDA Forest Service</organizationName>
+      <electronicMailAddress>jblake@fs.fed.us</electronicMailAddress>
+      <role>Site Creation And Maintenance</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Andy</givenName>
+        <surName>Horcher</surName>
+      </individualName>
+      <organizationName>USDA Forest Service</organizationName>
+      <electronicMailAddress>andy.horcher@usda.gov</electronicMailAddress>
+      <role>Site Creation And Maintenance</role>
+    </associatedParty>
+    <pubDate>2019-08-30</pubDate>
+    <abstract>
+      <para>
+  The impacts of habitat fragmentation and restoring connectivity are
+  difficult to disentangle from other drivers such as area and patch
+  shape and may change over longer time scales. This dataset includes
+  long-term colonization and extinction rates and plant species richness
+  data based on plant occupancy records from experimental landscapes
+  that manipulate habitat connectivity through the presence of habitat
+  corridors, while controlling for patch area and shape. The
+  experimental landscapes are located at the Savannah River Site near
+  Aiken, SC, USA (i.e., “SRS Corridor Experiment”).
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>SRS Corridor Project</keyword>
+      <keyword>habitat connectivity</keyword>
+      <keyword>habitat corridors</keyword>
+      <keyword>richness</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>extinction</keyword>
+      <keyword>colonization</keyword>
+      <keyword>communities</keyword>
+      <keyword>community composition</keyword>
+      <keyword>community dynamics</keyword>
+      <keyword>community patterns</keyword>
+      <keyword>species composition</keyword>
+      <keyword>species diversity</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data ("Data User" herein) is required
+  to cite it appropriately in any publication that results from its use.
+  The Data User should realize that these data may be actively used by
+  others for ongoing research and that coordination may be necessary to
+  prevent duplicate publication. The Data User is urged to contact the
+  authors of these data if any questions about methodology or results
+  occur. Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Data were collected at the Savannah River Site (SRS) in South Carolina. SRS is located in Aiken, Barnwell, and Allendale counties, approximately 10 miles south of Aiken, SC.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.757081</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.508008</eastBoundingCoordinate>
+          <northBoundingCoordinate>33.372281</northBoundingCoordinate>
+          <southBoundingCoordinate>33.185567</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2000-05-15</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-07-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Ellen</givenName>
+        <givenName>I.</givenName>
+        <surName>Damschen</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <electronicMailAddress>damschen@wisc.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  Landscape experiment:
+</para>
+          <para>
+  In 2000, we initiated a landscape experiment to test for connectivity
+  effects with the presence of corridors at the Savannah River Site, a
+  National Environmental Research Park in Aiken and Barnwell Counties,
+  South Carolina, USA. The experiment consists of 10 replicate
+  landscapes, each comprised of five open habitat patches created by
+  clearing mature pine plantation forest, creating a strong contrast
+  between the open focal patches and matrix of closed canopy forest.
+  Eight landscapes were created prior to the 2000 growing season and two
+  prior to the 2007 growing season. Of the original eight landscapes,
+  two were discontinued following the 2007 growing season and one
+  following the 2015 growing season. The remaining five landscapes
+  initiated in 2000 and both landscapes initiated in 2007 continue
+  through the end of this study.
+</para>
+          <para>
+  Each landscape contains a center patch (100x100m, 1ha) surrounded by
+  four peripheral patches that are each 150m from the center patch. The
+  center patch is connected to one peripheral patch by a 150x25m
+  corridor, while the other three peripheral patches are isolated from
+  the center patch by plantation forest. Unconnected patches are equal
+  in area to the connected peripheral patch plus its corridor (1.375 ha)
+  and are either rectangular (100x137.5 m) or winged; winged patches
+  have two 75x25 m projections from each side of a 100x100m patch equal
+  in area of the corridor. The identity of peripheral patches
+  (connected, rectangle, winged) was randomly assigned within each
+  landscape, with one duplicate winged or rectangle patch in each
+  landscape. This study design allows us to separate influences of
+  corridors mediated through connectivity from the influence of
+  corridors on patch shape (edge:area) effects, by comparing connected
+  to winged patches (comparable edge:area, different connectivity) and
+  winged to rectangle patches (comparable connectivity, different
+  edge:area).
+</para>
+          <para>
+  Through periodic prescribed fire and removal of encroaching hardwood
+  trees we have restored patches to their historical ecosystem type:
+  open canopy longleaf pine savanna. These are standard management
+  practices in this system. Prescribed fires are implemented and
+  controlled by our partners at the USDA Forest Service in a way that is
+  consistent with the historical fire regime and how fire management
+  typically occurs through conservation in longleaf pine savannas. Fires
+  are ignited every two to three years during the dormant season
+  (November - April) and allowed to burn across large burn blocks that
+  incorporate all experimental patches for a given block, the
+  surrounding matrix, and other surrounding forest. These are
+  non-catastrophic surface fires, as most longleaf pine woodland species
+  can readily resprout following burns. We have cut hardwood tree
+  species with saws every three to four years and have used targeted
+  herbicide applications to reduce woody plant encroachment in patches.
+  These management practices allow the experimental patches to undergo
+  succession toward mature longleaf pine woodland characterized by low
+  density overstory longleaf pine trees and an understory dominated by
+  perennial herbs and grasses, while maintaining the contrast between
+  our experimental patches and surrounding pine plantation matrix over
+  the long term.
+</para>
+          <para>
+  Plant Community Occurrence Surveys:
+</para>
+          <para>
+  To quantify plant species richness and rates of extinction and
+  colonization within our experiment, we annually surveyed each habitat
+  patch for all plant occurrences. We conducted surveys between May 15
+  and July 15, when most species in our system are visually
+  identifiable, from 2001 through 2017 (except 2004) by systematically
+  walking the area of each patch and compiling a list of all vascular
+  plant species observed. Resulting estimates of species richness for
+  each patch are from equal areas (1.375 ha). Taxonomy follows Radford
+  et al. (1968) and Weakley (2015). In instances where identification
+  was not possible to the species level based on visible characters
+  during the time of sampling, species were merged to the most common
+  species or to the genus level. In instances where identification was
+  unknown, we removed their records from the dataset. Additionally, we
+  do not include species that we have transplanted to our experimental
+  landscapes.
+</para>
+          <para>
+  Dispersal Mode:
+</para>
+          <para>
+  We assigned each plant species one of three primary dispersal modes,
+  each which are distinctive classes of seed movement: wind, animal, or
+  gravity. We first attemped to determine dispersal modes by searching
+  the Kew Garden Seed Information Database (http://data. kew.org/sid/).
+  If not found in that database, we then searched the primary literature
+  with ISI Web of Science for primary literature that described
+  dispersal for the species and/or genus. If not in the primary
+  literature, we also used reliable plant natural history websites to
+  cross-reference obtained information. All dispersal mode designations
+  were independently reviewed by two plant ecologists within our plant
+  ecology research team (E. Damschen, L. Brudvig, M. Burt, C. Warneke,
+  Q. Sorenson). Any conflicting or missing dispersal mode labels were
+  discussed and decided by this entire team and decided on based on
+  morphological and field observations (~11% of species). Wind dispersal
+  includes both wind and tumbling dispersal mechanisms. Animal dispersal
+  included endozoochory and epizoochory by birds and mammals and
+  myrmecochory by ants. Gravity dispersal included ballistic dispersal
+  mechanisms and species lacking apparent morphology to assist
+  dispersal.
+</para>
+          <para>
+  Longleaf Pine Species
+</para>
+          <para>
+  We classified species as longleaf pine indicator species (i.e.
+  longleaf pine species) if they met at least one of the following: 1)
+  had been previously designated as longleaf pine upland species in
+  published species lists for the Savannah River Site (Workman and
+  McLeod 1990 , Kilgo and Blake 2005), or 2) had been designated as an
+  “indicator species” in eprevious analyses of longleaf pine savanna
+  plant communities at the Savannah River Site (Turley et al. 2017) .
+</para>
+          <para>
+  Literature Cited
+</para>
+          <para>
+  A. E. Radford, Manual of the Vascular Flora of the Carolinas [by]
+  Albert E. Radford, Harry E. Ahles [and] C. Ritchie Bell (1968).
+</para>
+          <para>
+  A. S. Weakley, Flora of the Carolinas, Virginia, Georgia and
+  Surrounding Areas (University of North Carolina Herbarium, North
+  Carolina Botanical Garden, University of North Carolina at Chapel
+  Hill, 2015).
+</para>
+          <para>
+  Kew, Seed Information Database Version 7.1: Royal Botanic Gardens, Kew
+  (2017), (available at http://data. kew.org/sid/).
+</para>
+          <para>
+  S. W. Workman, K. W. McLeod, “Vegetation of the Savannah River Site:
+  major community types” (Savannah River Site National Environmental
+  Research Park Program; Aiken, SC, 1990), (available at
+  https://www.osti.gov/biblio/6877070).
+</para>
+          <para>
+  J. C. Kilgo, J. I. Blake, Eds., Ecology and Management of a Forested
+  Landscape: Fifty Years on the Savannah River Site (Island Press,
+  Washington, D.C., 2005).
+</para>
+          <para>
+  N. E. Turley, J. L. Orrock, J. A. Ledvina, L. A. Brudvig, Dispersal
+  and establishment limitation slows plant community recovery in
+  post-agricultural longleaf pine savannas. J. Appl. Ecol. 54, 1100–1109
+  (2017).
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Collaborative Research LTREB: Understanding the strength, duration, and stability of connectivity effects on community diversity</title>
+      <personnel>
+        <individualName>
+          <givenName>Ellen</givenName>
+          <givenName>I.</givenName>
+          <surName>Damschen</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation: DEB: 1354101</funding>
+      <relatedProject>
+        <title>Collaborative Research LTREB: Understanding the strength, duration, and stability of connectivity effects on community diversity</title>
+        <personnel>
+          <individualName>
+            <givenName>Lars</givenName>
+            <givenName>A.</givenName>
+            <surName>Brudvig</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation: DEB: 1354085</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Collaborative Research LTREB: Understanding the strength, duration, and stability of connectivity effects on community diversity</title>
+        <personnel>
+          <individualName>
+            <givenName>Nick</givenName>
+            <givenName>M.</givenName>
+            <surName>Haddad</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation: DEB: 1354218</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>No project title to report</title>
+        <personnel>
+          <individualName>
+            <givenName>Nick</givenName>
+            <givenName>M.</givenName>
+            <surName>Haddad</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Department of Energy and USDA Forest Service: Interagency Agreement DE-EM0003622</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTREB Renewal: Collaborative Research: Understanding the strength, duration, and stability of connectivity effects on community diversity.</title>
+        <personnel>
+          <individualName>
+            <givenName>Lars</givenName>
+            <givenName>A.</givenName>
+            <surName>Brudvig</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation: DEB: 1913501</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTREB Renewal: Collaborative Research: Understanding the strength, duration, and stability of connectivity effects on community diversity</title>
+        <personnel>
+          <individualName>
+            <givenName>Ellen</givenName>
+            <givenName>I.</givenName>
+            <surName>Damschen</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation: DEB: 1912729</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Species code explanation and dispersal information</entityName>
+      <entityDescription>Species code explanation and dispersal information</entityDescription>
+      <physical>
+        <objectName>CorridorPlantSpeciesInfo.csv</objectName>
+        <size unit="bytes">11186</size>
+        <authentication method="MD5">862fac4140ff6095965060309fb19822</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SppCode</attributeName>
+          <attributeDefinition>Six-character code that represents each plant species. First three letters typically the first three letters of the genus. Second three letters typically the first three letters of the species.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Six-character code that represents each plant species. First three letters typically the first three letters of the genus. Second three letters typically the first three letters of the species.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeDefinition>Full genus name corresponding to the first three letters of the SppCode</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Full genus name corresponding to the first three letters of the SppCode</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Full species epithet corresponding to the last three letters of the SppCode</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Full species epithet corresponding to the last three letters of the SppCode</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DispersalMode</attributeName>
+          <attributeDefinition>Mode of dispersal as determined in the methods above</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Animal</code>
+                    <definition>Animal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Wind</code>
+                    <definition>Wind</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gravity</code>
+                    <definition>Gravity</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LongleafPineSpecies</attributeName>
+          <attributeDefinition>Designates when a plant species is indicative of longleaf pine savanna systems</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species is not a longleaf pine savanna indicator species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species is a longleaf pine savanna indicator species</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>310</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Data for the colonization/extinction over time models</entityName>
+      <entityDescription>Data for the colonization/extinction over time models</entityDescription>
+      <physical>
+        <objectName>SRSCorridor_Plant_MSOM_col_ext_data.csv</objectName>
+        <size unit="bytes">8130324</size>
+        <authentication method="MD5">93423880ed12e89cd693354fce6b34d4</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeDefinition>Unique number assigned to each species.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique number assigned to each species.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>Unique number assigned to each treatment fragment within each block (four fragments for each of ten blocks).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique number assigned to each treatment fragment within each block (four fragments for each of ten blocks).</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EU</attributeName>
+          <attributeDefinition>Site name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PatchType</attributeName>
+          <attributeDefinition>Letter indicates treatment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>peripheral patch connected to center with corridor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>winged patch, treatment that has the half corridor on either side</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>rectangular patch, treatment that has the area of the corridor added to the back of the patch</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>YearSiteCreated</attributeName>
+          <attributeDefinition>Year site was created at the Savannah River Site in South Carolina (either 2000 or 2007)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2000</minimum>
+                  <maximum exclusive="false">2007</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Number that indicates the number of years since site creation.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">17</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_1</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_2</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_3</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_4</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_5</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_6</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_7</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_8</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SppCode</attributeName>
+          <attributeDefinition>Six-character code that represents each plant species. First three letters typically the first three letters of the genus. Second three letters typically the first three letters of the species.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Six-character code that represents each plant species. First three letters typically the first three letters of the genus. Second three letters typically the first three letters of the species.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>162520</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Data for the analyses of species richness over time</entityName>
+      <entityDescription>Data for the analyses of species richness over time</entityDescription>
+      <physical>
+        <objectName>SRSCorridor_Plant_MSOM_richness_data.csv</objectName>
+        <size unit="bytes">7831766</size>
+        <authentication method="MD5">84abf12748c51f94d260595a2dc9284d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeDefinition>Unique number assigned to each species.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique number assigned to each species.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SppCode</attributeName>
+          <attributeDefinition>Six-character code that represents each plant species. First three letters typically the first three letters of the genus. Second three letters typically the first three letters of the species.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Six-character code that represents each plant species. First three letters typically the first three letters of the genus. Second three letters typically the first three letters of the species.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>Unique number assigned to each treatment fragment within each block within each year (four fragments for each of ten blocks).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique number assigned to each treatment fragment within each block within each year (four fragments for each of ten blocks).</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EU</attributeName>
+          <attributeDefinition>Site name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PatchType</attributeName>
+          <attributeDefinition>Letter indicates treatment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>peripheral patch connected to center with corridor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>winged patch, treatment that has the half corridor on either side</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>rectangular patch, treatment that has the area of the corridor added to the back of the patch</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>YearSiteCreated</attributeName>
+          <attributeDefinition>Year site was created at the Savannah River Site in South Carolina (either 2000 or 2007)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2000</minimum>
+                  <maximum exclusive="false">2007</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year that survey was completed.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2001</minimum>
+                  <maximum exclusive="false">2017</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Number that indicates the number of years since site creation.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">18</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_1</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_2</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_3</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_4</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_5</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_6</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_7</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>subplot_8</attributeName>
+          <attributeDefinition>equal area subplot in each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>species present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>species absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>146320</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

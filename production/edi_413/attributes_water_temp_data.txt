@@ -1,0 +1,35 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+lake_code	"Name of lake: ME = Mendota center, MS = Mendota shoreline"	categorical				
+date	Date of collection	Date		YYYYMMDD		
+sampling	Sample number 	character				
+Code	combination of the above	character				
+ATM_CO2_ppm	Atmospheric CO2 (from US-PnP flux tower)	numeric	ppm		NA	not available
+Chl_a	Chlorophyll a from Buoy	numeric	microgramsPerLiter		NA	not available
+pCO2_ppm_water	pCO2 of water  from buoy	numeric	ppm		NA	not available
+Wind_Speed	Wind speed from buoy	numeric	metersPerSecond		NA	not available
+PAR	Photosynthetic  active radiation	numeric	micromolesPerMeterSquarePerSecond		NA	not available
+Alternative_flux_measurment	Flux estimated by eddy covariance tower US-PnP	numeric	millimolesPerMeterSquarePerDay		NA	not available
+wtr_0_15	Water temp at 0.15 m depth from buoy	numeric	celsius		NA	not available
+wtr_0_25	Water temp at 0.25 m depth from buoy	numeric	celsius		NA	not available
+wtr_0_5	Water temp at 0.5 m depth from buoy	numeric	celsius		NA	not available
+wtr_0_75	Water temp at 0.75 m depth from buoy	numeric	celsius		NA	not available
+wtr_1	Water temp at 1 m depth from buoy	numeric	celsius		NA	not available
+wtr_1_5	Water temp at 1.5 m depth from buoy	numeric	celsius		NA	not available
+wtr_2	Water temp at 2 m depth from buoy	numeric	celsius		NA	not available
+wtr_2_5	Water temp at 2.5 m depth from buoy	numeric	celsius		NA	not available
+wtr_3	Water temp at 3 m depth from buoy	numeric	celsius		NA	not available
+wtr_3_5	Water temp at 3.5 m depth from buoy	numeric	celsius		NA	not available
+wtr_4	Water temp at 4 m depth from buoy	numeric	celsius		NA	not available
+wtr_4_5	Water temp at 4.5 m depth from buoy	numeric	celsius		NA	not available
+wtr_5	Water temp at 5 m depth from buoy	numeric	celsius		NA	not available
+wtr_6	Water temp at 6 m depth from buoy	numeric	celsius		NA	not available
+wtr_7	Water temp at 7 m depth from buoy	numeric	celsius		NA	not available
+wtr_8	Water temp at 8 m depth from buoy	numeric	celsius		NA	not available
+wtr_9	Water temp at 9 m depth from buoy	numeric	celsius		NA	not available
+wtr_10	Water temp at 10 m depth from buoy	numeric	celsius		NA	not available
+wtr_12	Water temp at 12 m depth from buoy	numeric	celsius		NA	not available
+wtr_14	Water temp at 14 m depth from buoy	numeric	celsius		NA	not available
+wtr_15	Water temp at 15 m depth from buoy	numeric	celsius		NA	not available
+wtr_16	Water temp at 16 m depth from buoy	numeric	celsius		NA	not available
+wtr_18	Water temp at 18 m depth from buoy	numeric	celsius		NA	not available
+wtr_20	Water temp at 20 m depth from buoy	numeric	celsius		NA	not available

@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SppCode	Six-character code that represents each plant species. First three letters typically the first three letters of the genus. Second three letters typically the first three letters of the species.	character				
+Genus	Full genus name corresponding to the first three letters of the SppCode	character				
+Species	Full species epithet corresponding to the last three letters of the SppCode	character				
+DispersalMode	Mode of dispersal as determined in the methods above	categorical				
+LongleafPineSpecies	Designates when a plant species is indicative of longleaf pine savanna systems	categorical				

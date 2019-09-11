@@ -1,0 +1,6 @@
+id	unitType	parentSI	multiplierToSI	description
+millimolesPerSecond	flux	moles per hour		CO2 flux
+ppm				parts per million
+micromolesPerMeterSquarePerSecond				Photosynthetic active radiation
+millimolesPerMeterSquarePerDay				CO2 flux
+ppmPerSecond				parts per million per second

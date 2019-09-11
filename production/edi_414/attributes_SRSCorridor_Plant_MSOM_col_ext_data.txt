@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+species	Unique number assigned to each species.	character				
+site	Unique number assigned to each treatment fragment within each block (four fragments for each of ten blocks).	character				
+EU	Site name 	character				
+PatchType	Letter indicates treatment	categorical				
+YearSiteCreated	Year site was created at the Savannah River Site in South Carolina (either 2000 or 2007)	numeric	nominalYear		NA	not available
+time	Number that indicates the number of years since site creation.	numeric	number		NA	not available
+subplot_1	equal area subplot in each site	categorical			NA	not available
+subplot_2	equal area subplot in each site	categorical			NA	not available
+subplot_3	equal area subplot in each site	categorical			NA	not available
+subplot_4	equal area subplot in each site	categorical			NA	not available
+subplot_5	equal area subplot in each site	categorical			NA	not available
+subplot_6	equal area subplot in each site	categorical			NA	not available
+subplot_7	equal area subplot in each site	categorical			NA	not available
+subplot_8	equal area subplot in each site	categorical			NA	not available
+SppCode	Six-character code that represents each plant species. First three letters typically the first three letters of the genus. Second three letters typically the first three letters of the species.	character			NA	not available

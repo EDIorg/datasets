@@ -1,0 +1,2 @@
+Instrument: Bastviken, D., Sundgren, I., Natchimuthu, S., Reyier, H., and Galfalk, M.: Technical Note: Cost-efficient approaches to measure carbon dioxide (CO2) fluxes and concentrations in terrestrial and aquatic environments using mini loggers, Biogeosciences, 12, 3849-3859, https://doi.org/10.5194/bg-12-3849-2015, 2015.
+Protocol: to be published soon
