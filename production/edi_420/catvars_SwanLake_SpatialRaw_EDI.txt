@@ -1,0 +1,3 @@
+attributeName	code	definition
+Macrophyte	1	present
+Macrophyte	0	absent

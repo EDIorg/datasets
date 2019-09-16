@@ -1,0 +1,18 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Lake	Name of the lake as listed in the Iowa Department of Natural Resources database	character				
+Site	Spatial sampling location	character				
+DOY	Julian day of year	numeric	nominalDay		NA	not available
+TimeFraction	Fraction of the time that the measurement was taken	numeric	dimensionless		NA	not available
+DOY_TimeFraction	Day of year with time fraction	numeric	dimensionless		NA	not available
+Year	Year of sampling	numeric	nominalYear		NA	not available
+Latitude	North coordinates	numeric	degree		NA	not available
+Longitude	West coordinates	numeric	degree		NA	not available
+Chlorophyll	Chlorophyll a concentration for that sample site for that day	numeric	microgramsPerLiter		NA	not available
+Phycocyanin	Phycocyanin concentration for that sample site for that day	numeric	microgramsPerLiter		NA	not available
+pH	pH value for that sample site for that day	numeric	dimensionless		NA	not available
+DissolvedOxygen_Saturation	Dissolved oxygen saturation for that sample site for that day	numeric	percentSaturation		NA	not available
+DO_mg	Dissolved oxygen concentration for that sample site for that day	numeric	milligramsPerLiter		NA	not available
+Temperature	Water temperature for that sample site for that day	numeric	celsius		NA	not available
+Specific_Conductivity	Specific conductivity for that sample site for that day	numeric	microSiemensPerCentimeter		NA	not available
+TotalDissolved_Soilds	Total Dissolved Solids for that sample site for that day	numeric	gramsPerLiter		NA	not available
+Macrophyte	Macrophyte presence at sample site for that day 	categorical			NA	not available

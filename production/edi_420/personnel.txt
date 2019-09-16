@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+David	A	Ortiz	Iowa State University	daortiz@iastate.edu	https://orcid.org/0000-0003-4605-3530	creator			
+Grace	M	Wilkinson	Iowa State University	wilkinso@iastate.edu 	https://orcid.org/0000-0003-4051-2249	creator			
+Ryan		Wagner	Iowa State University	rsw@iastate.edu		Field crew			
+Rachel		Fleck	Iowa State University	rfleck@iastate.edu		Quality assurance manager			
+David	A	Ortiz	Iowa State University	daortiz@iastate.edu	https://orcid.org/0000-0003-4605-3530	contact			
+Grace	M	Wilkinson	Iowa State University	wilkinso@iastate.edu 	https://orcid.org/0000-0003-4051-2249	contact			
+Grace	M	Wilkinson	Iowa State University	wilkinso@iastate.edu 	https://orcid.org/0000-0003-4051-2249	PI	Developing early warning tools of harmful algal blooms in lakes	Center for Global and Regional Environmental Research	
