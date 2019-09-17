@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Location	Sampling location	character				
+Site	Specific sampling site within each location	character				
+Species	Dominant seagrass species	categorical				
+Treatment	"grazed or ungrazed native Thalassia testudinum area, or invasive Halophila stipulacea meadow"	categorical				
+Date	Sampling date	Date		YYYY-MM-DD		
+n	Blade ID number for measurements	character			NA	not available
+blade_length	Seagrass blade length	numeric	centimeter		NA	not available
+blade_width	Seagrass blade width	numeric	centimeter		NA	not available

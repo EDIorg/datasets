@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Location	Sampling location	character				
+Site	Specific sampling site within each location	character				
+Species	Dominant seagrass species	categorical				
+Treatment	"grazed or ungrazed native Thalassia testudinum area, or invasive Halophila stipulacea meadow"	categorical				
+Date	Sampling date	Date		YYYY-MM-DD		
+Tt_density	Thalassia testudinum shoot density	numeric	numberPerMeterSquared		NA	not available
+Hs_density	Halophila stipulacea shoot density	numeric	numberPerMeterSquared		NA	not available
+Sf_density	Syringodium filiforme shoot density	numeric	numberPerMeterSquared		NA	not available
+Hw_density	Halodule wrightii shoot density	numeric	numberPerMeterSquared		NA	not available
+He_density	Halophila engelmanii shoot density	numeric	numberPerMeterSquared		NA	not available
+Macroalgal_density	Total macroalgae density	numeric	numberPerMeterSquared		NA	not available
+Tt_biomass	Thalassia testudinum aboveground biomass as dry mass	numeric	gramsPerSquareMeter		NA	not available
+Hs_biomass	Halophila stipulacea aboveground biomass as dry mass	numeric	gramsPerSquareMeter		NA	not available
+Sf_biomass	Syringodium filiforme aboveground biomass as dry mass	numeric	gramsPerSquareMeter		NA	not available
+Hw_biomass	Halodule wrightii aboveground biomass as dry mass	numeric	gramsPerSquareMeter		NA	not available

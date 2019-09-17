@@ -1,0 +1,5 @@
+Seagrass ecosystem metabolic rates were measured in grazed and adjacent ungrazed areas of Thalassia testudinum meadows and nearby meadows of the invasive seagrass Halophila stipulacea. Metabolic rates were estimated from the difference in dissolved oxygen concentration within benthic incubation chambers before and after an incubation period. Dissolved oxygen concentrations were measured with a YSI ProODO handheld DO meter. 
+
+Seagrass and macroalgal densities were counted using 25 x 25 cm quadrats. Seagrass blade morphometrics and aboveground biomass were collected using 10 x 10 cm quadrats and were measured in the laboratory. 
+
+For a detailed description of all methods, please see the accompanying publication to this dataset. 

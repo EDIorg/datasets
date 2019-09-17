@@ -1,0 +1,6 @@
+name	name_type	name_resolved	authority_system	authority_id
+Thalassia testudinum	scientific	Thalassia testudinum	ITIS	38954
+Halophila stipulacea	scientific	Halophila stipulacea	GBIF Backbone Taxonomy	5329631
+Syringodium filiforme	scientific	Syringodium filiforme	ITIS	39083
+Halodule wrightii	scientific	Halodule wrightii	ITIS	514405
+Halophila engelmanii	scientific	Halophila engelmannii	ITIS	38963

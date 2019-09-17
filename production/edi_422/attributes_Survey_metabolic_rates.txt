@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Location	Sampling location	character				
+Site	Specific sampling site within each location	character				
+Species	Dominant seagrass species	categorical				
+Treatment	"grazed or ungrazed native Thalassia testudinum area, or invasive Halophila stipulacea meadow"	categorical				
+Date	Sampling date	Date		YYYY-MM-DD		
+GPP	Gross primary production	numeric	millimolesCarbonPerSquareMeterPerDay		NA	not available
+RE	Ecosystem respiration	numeric	millimolesCarbonPerSquareMeterPerDay		NA	not available
+NEP	Net ecosystem production	numeric	millimolesCarbonPerSquareMeterPerDay		NA	not available

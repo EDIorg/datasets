@@ -1,0 +1,6 @@
+attributeName	code	definition
+Species	Tt	Thalassia testudinum
+Species	Hs	Halophila stipulacea
+Treatment	grazed	grazed native Thalassia testudinum area
+Treatment	ungrazed	ungrazed native Thalassia testudinum area
+Treatment	invasive	Halophila stipulacea meadow

@@ -1,0 +1,12 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Robert	A.	Johnson	University of Florida	johnson.robert@ufl.edu	0000-0002-9082-3136	creator			
+Alexandra	G.	Gulick	University of Florida	alexandra.gulick@ufl.edu	0000-0002-9082-3136	creator			
+Nerine		Constant	University of Florida	nconstant@ufl.edu	0000-0003-2561-719X	creator			
+Alan	B.	Bolten	University of Florida	abolten@ufl.edu	0000-0002-4834-2742	creator			
+Fee	O. H.	Smulders	Wageningen University & Research	fee.smulders@wur.nl	0000-0003-4124-8355	creator			
+Marjolijn	J. A.	Christianen	Wageningen University & Research	marjolijn.christianen@wur.nl	0000-0001-5839-2981	creator			
+Mabel	I.	Nava	Sea Turtle Conservation Bonaire	stcb@bonaireturtles.org		creator			
+Keith		Kolasa	Hernando County Public Works	KKolasa@co.hernando.fl.us		creator			
+Karen	A.	Bjorndal	University of Florida	bjorndal@ufl.edu	000-0002-6286-1901	creator			
+Robert	A.	Johnson	University of Florida	johnson.robert@ufl.edu	0000-0002-9082-3136	contact			
+Robert	A.	Johnson	University of Florida	johnson.robert@ufl.edu	0000-0002-9082-3136	PI	Graduate Research Fellowship Program	National Science Foundation	DGE-1315138
