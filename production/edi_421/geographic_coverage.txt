@@ -1,0 +1,1 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinateLakes in the USA	49.76142	23.65915	-65.49976	-125.88888Lakes in New Zealand	-33.8356	-46.10511	179.42739	165.98013

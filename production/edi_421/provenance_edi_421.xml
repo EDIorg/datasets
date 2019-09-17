@@ -1,0 +1,136 @@
+<methodStep>
+    <description>
+        <para>
+            This provenance metadata does not contain entity specific information.
+        </para>
+    </description>
+    <dataSource>
+        <title>National Lakes Assessment</title>
+        <creator>
+            <organizationName>US Environmental Protection Agency</organizationName>
+        </creator>
+        <distribution>
+            <online>
+                <onlineDescription>
+                    This online link references a data source in this derivative data package.
+                </onlineDescription>
+                <url function="information">https://www.epa.gov/national-aquatic-resource-surveys/data-national-aquatic-resource-surveys</url>
+            </online>
+        </distribution>
+        <contact>
+            <organizationName>US Environmental Protection Agency</organizationName>
+            <onlineUrl>https://www.epa.gov/national-aquatic-resource-surveys/forms/contact-us-about-national-aquatic-resource-surveys</onlineUrl>
+        </contact>
+    </dataSource>
+</methodStep>
+<methodStep>
+    <description>
+        <para>
+            This provenance metadata does not contain entity specific information.
+        </para>
+    </description>
+    <dataSource>
+        <title>New Zealand Lakes</title>
+        <creator>
+            <organizationName>Land, Air, Water Aotearoa (LAWA)</organizationName>
+        </creator>
+        <distribution>
+            <online>
+                <onlineDescription>
+                    This online link references a data source in this derivative data package.
+                </onlineDescription>
+                <url function="information">https://www.lawa.org.nz</url>
+            </online>
+        </distribution>
+        <contact>
+            <organizationName>Land, Air, Water Aotearoa (LAWA)</organizationName>
+            <electronicMailAddress>info@lawa.org.nz></electronicMailAddress>
+        </contact>
+    </dataSource>
+</methodStep>
+<methodStep>
+    <description>
+        <para>
+            This provenance metadata does not contain entity specific information.
+        </para>
+    </description>
+    <dataSource>
+        <title>Ohio lakes</title>
+        <creator>
+            <individualName>
+                <givenName>Nicole</givenName>
+                <surName>Hayes</surName>
+            </individualName>
+            <electronicMailAddress>hayes.nicolemarie@gmail.com</electronicMailAddress>
+        </creator>
+        <distribution>
+            <online>
+                <onlineDescription>
+                    This online link references a data source in this derivative data package.
+                </onlineDescription>
+                <url function="information">https://doi.org/10.1080/20442041.2018.1446408</url>
+            </online>
+        </distribution>
+        <contact>
+            <individualName>
+                <givenName>Nicole</givenName>
+                <surName>Hayes</surName>
+            </individualName>
+            <electronicMailAddress>hayes.nicolemarie@gmail.com</electronicMailAddress>
+        </contact>
+    </dataSource>
+</methodStep>
+<methodStep>
+    <description>
+        <para>
+            This provenance metadata does not contain entity specific information.
+        </para>
+    </description>
+    <dataSource>
+        <title>Waikato (New Zealand) Lakes</title>
+        <creator>
+            <organizationName>Wildland Consultants</organizationName>
+            <electronicMailAddress>rotorua@wildlands.co.nz</electronicMailAddress>
+        </creator>
+        <distribution>
+            <online>
+                <onlineDescription>
+                    This online link references a data source in this derivative data package.
+                </onlineDescription>
+                <url function="information">https://www.waikatoregion.govt.nz/assets/PageFiles/19300/2011-05.pdf</url>
+            </online>
+        </distribution>
+        <contact>
+            <organizationName>Wildland Consultants</organizationName>
+            <electronicMailAddress>rotorua@wildlands.co.nz</electronicMailAddress>
+        </contact>
+    </dataSource>
+</methodStep>
+<methodStep>
+    <description>
+        <para>
+            This provenance metadata does not contain entity specific information.
+        </para>
+    </description>
+    <dataSource>
+        <title>Western Lakes survey</title>
+        <creator>
+            <organizationName>US Environmental Protection Agency</organizationName>
+        </creator>
+        <distribution>
+            <online>
+                <onlineDescription>
+                    This online link references a data source in this derivative data package.
+                </onlineDescription>
+                <url function="information">https://archive.epa.gov/emap/archive-emap/web/html/wls.html</url>
+            </online>
+        </distribution>
+        <contact>
+            <individualName>
+                <givenName>Michael</givenName>
+                <surName>McDonald</surName>
+            </individualName>
+            <electronicMailAddress>mcdonald.michael@epa.gov</electronicMailAddress>
+        </contact>
+    </dataSource>
+</methodStep>
