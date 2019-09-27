@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	year data were collected	Date		YYYY		
+site	LTER site or research station	categorical				
+habitat	environment or geophysical template	categorical				
+plot	replicate plot name	categorical				
+subplot	replicate subplot name	categorical				
+uniqueID	unique name for the smallest scale of replication	character				
+guild	group that a taxon belongs to	categorical				
+species	taxon code	character				
+abundance	TO DO	numeric	dimensionless			
+unitAbund	unit of abundance	categorical				
+scaleAbund	plot size at which abundance was measured	categorical				

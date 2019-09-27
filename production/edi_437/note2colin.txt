@@ -1,0 +1,46 @@
+Hi Colin -
+Here are the files I am using for edi.437. 
+
+Hoping that I included them all (I have many more temp files in my working dir from my many tests)
+There are no custom units, and no taxonomic coverage, although this might be added later
+
+I did not check in the data file; you can find it here (along with the spreadsheet versions of the template files):
+https://drive.google.com/drive/folders/1n4F72NokMYgTPA-v2ZpTM_zlN3Xxlz-h
+
+I still have not got it all the way thru the assembly line. when I run 
+
+> source('assemble_EML_437.R')
+
+Making EML ...
+Error in utils::read.table(paste0(path, "/", templates[i]), header = T,  : 
+  duplicate 'row.names' are not allowed
+>
+
+The only thing I can think of was that a table had something to do with:
+https://www.rdocumentation.org/packages/utils/versions/3.6.1/topics/read.table
+
+row.names:
+a vector of row names. This can be a vector giving the actual row names, or a single number giving the column of the table which contains the row names, or character string giving the name of the table column containing the row names.
+
+If there is a header and the first row contains one fewer field than the number of columns, the first column in the input is used for the row names. Otherwise if row.names is missing, the rows are numbered.
+
+Using row.names = NULL forces row numbering. Missing or NULL row.names generate row names that are considered to be `automatic' (and not preserved by as.matrix). 
+---------
+
+e.g, maybe one of my tables has fewer fields in the first row than it had in the header row (documentation says one-fewer forces the first column to become row names). 
+I tried to ensure this was not happening by putting a long row in the first place (the PI, not the first creator). 
+
+The only other metadata table with repeated info in the first column is the catvars, but that is not jagged either. 
+
+It looks like the solution to that issue is to add row.names=NULL
+but I don't know if that will have some other unplanned effect
+https://stackoverflow.com/questions/8854046/duplicate-row-names-are-not-allowed-error
+
+
+If jagged first rows (or some other arcane feature) is what is causing the problem then I recommend (in this order)
+1. validate_metadata(): validate the text metadata tables first and report errors for each table.
+2. allow a shorter first row. Its entirely reasonable for the creators to appear first.
+3. the utils::read.table error msg (is this EDI utils?) should return the name of the file that could not be read to reduce guesswork
+4. describe all the arcane but required features in the readme.
+
+

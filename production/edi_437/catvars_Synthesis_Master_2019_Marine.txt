@@ -1,0 +1,90 @@
+attributeName	code	definition
+site	mcr	Moorea Coral Reef LTER
+site	sbc	Santa Barbara Coastal LTER
+site	csun.usvi	US Virgin Islands LTREB
+site	Main_Hawaiian_Islands	Maui, US Hawaiian Islands
+site	Florida_Keys	Florida Keys
+habitat	Backreef	Reef inshore of the reef crest, including lagoon
+habitat	Fringing	Reef along the shore (in-shore of the lagoon)
+habitat	Outer 10	Fore Reef (open ocean side of reef crest) along 10 m isobath
+habitat	Outer 17	Fore Reef (open ocean side of reef crest) along 17 m isobath
+habitat	kelp.forest	Macrocystis pyrifera forest, located at the land-ocean margin in temperate
+habitat	NA	TO DO
+plot	location_1	TO DO
+plot	location_2	TO DO
+plot	location_3	TO DO
+plot	location_4	TO DO
+plot	location_5	TO DO
+plot	location_6	TO DO
+plot	ABUR	ABUR
+plot	AHND	AHND
+plot	AQUE	AQUE
+plot	BULL	BULL
+plot	CARP	CARP
+plot	GOLB	GOLB
+plot	IVEE	IVEE
+plot	MOHK	MOHK
+plot	NAPL	NAPL
+plot	location_Cabritte Horn	Cabritte Horn
+plot	location_East Tektite	East Tektite
+plot	location_Europa Bay	Europa Bay
+plot	location_Neptunes Table	Neptunes Table
+plot	location_West Little Lameshur	West Little Lameshur
+plot	location_White Point	White Point
+plot	Honolua_North_3	Honolua North 3
+plot	Olowalu_3	Olowalu 3
+plot	Olowalu_7	Olowalu 7
+plot	Puamana_13	Puamana 13
+plot	Molokini_13	Molokini 13
+plot	Molokini_8	Molokini 8
+plot	Kahekili_3	Kahekili 3
+plot	Kanahena_Bay_3	Kanahena Bay 3
+plot	Kanahena_Point_10	Kanahena Point 10
+plot	Admiral	Admiral
+plot	Alligator_Deep	Alligator Deep
+plot	Alligator_Shallow	Alligator Shallow
+plot	Carysfort_Deep	Carysfort Deep
+plot	Carysfort_Shallow	Carysfort Shallow
+plot	Cliff_Green	Cliff Green
+plot	Conch_Deep	Conch Deep
+plot	Conch_Shallow	Conch Shallow
+plot	Dustan_Rocks	Dustan Rocks
+plot	Eastern_Sambo_Deep	Eastern Sambo Deep
+plot	Eastern_Sambo_Shallow	Eastern Sambo Shallow
+plot	Grecian_Rocks	Grecian Rocks
+plot	Jaap_Reef	Jaap Reef
+plot	Looe_Key_Deep	Looe Key Deep
+plot	Looe_Key_Shallow	Looe Key Shallow
+plot	Molasses_Deep	Molasses Deep
+plot	Molasses_Shallow	Molasses Shallow
+plot	Porter_Patch	Porter Patch
+plot	Rock_Key_Deep	Rock Key Deep
+plot	Rock_Key_Shallow	Rock Key Shallow
+plot	Sand_Key_Deep	Sand Key Deep
+plot	Sand_Key_Shallow	Sand Key Shallow
+plot	Sombrero_Deep	Sombrero Deep
+plot	Sombrero_Shallow	Sombrero Shallow
+plot	Tennessee_Deep	Tennessee Deep
+plot	Tennessee_Shallow	Tennessee Shallow
+plot	Turtle	Turtle
+plot	West_Turtle_Shoal	West Turtle Shoal
+plot	West_Washer_Women	West Washer Women
+plot	Western_Head	Western Head
+plot	Western_Sambo_Deep	Western Sambo Deep
+plot	Western_Sambo_Shallow	Western Sambo Shallow
+plot	Bird_Key_Reef	Bird Key Reef
+plot	Black_Coral_Rock	Black Coral Rock
+plot	White_Shoal	White Shoal
+plot	Mayers_Peak	Mayers Peak
+plot	Palmata_Patch	Palmata Patch
+plot	Prolifera_Patch	Prolifera Patch
+plot	Temptation_Rock	Temptation Rock
+plot	Loggerhead_Patch	Loggerhead Patch
+guild	algae	algae
+guild	coral	coral
+guild	sessile.invert	sessile invertebrate
+unitAbund	mean.percent.cover	mean percent cover
+unitAbund	biomass_g_per_m2	biomass, gram per m2
+unitAbund	percent.cover	percent cover
+scaleAbund	0.25_m2	0.25 m2
+scaleAbund	80_m2_transect	80 m2 transect
