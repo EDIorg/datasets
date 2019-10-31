@@ -1,0 +1,1 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinateForest Block WN	39.353	39.353	-82.268	-82.268Forest Block WS	39.346	39.346	-82.265	-82.265Forest Block ZL	39.276	39.276	-82.317	-82.317

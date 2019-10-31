@@ -1,0 +1,1 @@
+attributeName	code	definitionSite	South	"Southeast Ohio, USA"Forest.Block	WS	Forest 2Forest.Block	WN	Forest 1Forest.Block	ZL	Forest 3Rep	3	Third groupRep	2	Second groupRep	1	First groupLime	1	YesLime	0	NoTSP	0	NoTSP	1	YesTreatment	Lime	Elevated soil pHTreatment	Xtrt	Elevated pH and PTreatment	Control	Native conditionsTreatment	TSP	Elevated soil phosphorus (P)
