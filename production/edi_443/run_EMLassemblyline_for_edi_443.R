@@ -68,24 +68,32 @@ make_eml(
     "Vortjarv.csv" 
   ), 
   data.table.description = c(
-    "Buffalo_lake_data",
-    "Croche_lake_data",
-    "Harp2013_lake_data",
-    "Harp2014_lake_data",
-    "Lillsjolidtjarnen_lake_data",
-    "Mangstrettjarn_lake_data",
-    "Nastjarn_lake_data",
-    "OvreBjorntjarn_lake_data",
-    "Simoncouche_lake_data",
-    "Stortjarn_lake_data",
-    "Struptjarn_lake_data",
-    "Vortjarv_lake_data" 
+    "Buffalo lake data",
+    "Croche lake data",
+    "Harp2013 lake data",
+    "Harp2014 lake data",
+    "Lillsjolidtjarnen lake data",
+    "Mangstrettjarn lake data",
+    "Nastjarn lake data",
+    "OvreBjorntjarn lake data",
+    "Simoncouche lake data",
+    "Stortjarn lake data",
+    "Struptjarn lake data",
+    "Vortjarv lake data" 
   ), 
-  other.entity = "methods.pdf", 
-  other.entity.description = "Methods for these data", 
+  other.entity = c(
+    "methods.pdf",
+    "O2CO2metrics.r",
+    "lake1.txt"
+  ), 
+  other.entity.description = c(
+    "Methods for these data",
+    "Script to calculate cloud metrics using time series of dissolved O2 and CO2 departure measurements",
+    "Example input data for O2CO2metrics.r"
+  ), 
   user.id = "csmith",
   user.domain = "LTER",
-  package.id = "edi.332.2"
+  package.id = "edi.443.2"
 )
 
 
