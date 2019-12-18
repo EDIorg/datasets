@@ -1,0 +1,1 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationDate	Date of calculated flux	Date		YYYY-MM-DD		flux	"Darcy flux in west flanking wetland of stream channel, determined using surface and groundwater head and temperature measurements.  Positive values for upward flux."	numeric	millimetersPerDay			

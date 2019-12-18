@@ -1,0 +1,1 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationDate	Date of head measurement	Date		YYYY-MM-DD		Time	Time of head measurement	Date		hh:mm:ss		Head_masl	"Head measurement for groundwater, in stream channel just west (~3 m) of channel center"	numeric	metersAboveSeaLevel			

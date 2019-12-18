@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" packageId="edi.457.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Summer 2016 hydrology and water chemistry data at Second Creek, a sulfate-impacted riparian wetland in northeast Minnesota</title>
+    <creator>
+      <individualName>
+        <givenName>G.H.</givenName>
+        <givenName>Crystal</givenName>
+        <surName>Ng</surName>
+      </individualName>
+      <organizationName>University of Minnesota</organizationName>
+      <electronicMailAddress>gcng@umn.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7399-6617</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Cara</givenName>
+        <givenName>M</givenName>
+        <surName>Santelli</surName>
+      </individualName>
+      <organizationName>University of Minnesota</organizationName>
+      <electronicMailAddress>santelli@umn.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-8617-0008</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Amanda</givenName>
+        <surName>Yourd</surName>
+      </individualName>
+      <organizationName>University of Minnesota</organizationName>
+      <electronicMailAddress>aryourd@umn.edu</electronicMailAddress>
+      <role>Data Collector</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jack</givenName>
+        <surName>Lange</surName>
+      </individualName>
+      <organizationName>University of Minnesota</organizationName>
+      <electronicMailAddress>lange679@umn.edu</electronicMailAddress>
+      <role>Data Processor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Carla</givenName>
+        <surName>Rosenfeld</surName>
+      </individualName>
+      <organizationName>Northwestern University</organizationName>
+      <electronicMailAddress>carla.rosenfeld@gmail.com</electronicMailAddress>
+      <role>Data Collector</role>
+    </associatedParty>
+    <pubDate>2019-12-18</pubDate>
+    <abstract>
+      <para>
+  Hydrological and water chemistry data were collected at Second Creek,
+  a riparian wetland study site near Aurora, MN, to understand sulfur
+  and methane processes. Data were collected over the summer of 2016.
+  Hydrological data were collected using temperature probes and pressure
+  transducers installed in surface water gauges and shallow piezometers.
+  Water chemistry was analyzed in surface water samples and porewater
+  samples collected with “peepers” (passive diffusive samplers).
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Northeast Minnesota</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>wetlands</keyword>
+      <keyword>streams</keyword>
+      <keyword>hydrological properties</keyword>
+      <keyword>water level</keyword>
+      <keyword>water quality</keyword>
+      <keyword>biogeochemistry</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data ("Data User" herein) is required
+  to cite it appropriately in any publication that results from its use.
+  The Data User should realize that these data may be actively used by
+  others for ongoing research and that coordination may be necessary to
+  prevent duplicate publication. The Data User is urged to contact the
+  authors of these data if any questions about methodology or results
+  occur. Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Second Creek, riparian wetland near Aurora, MN</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-92.192634</westBoundingCoordinate>
+          <eastBoundingCoordinate>-92.192352</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.520509</northBoundingCoordinate>
+          <southBoundingCoordinate>47.520351</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2016-05-31</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-10-02</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>Completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>G.H.</givenName>
+        <givenName>Crystal</givenName>
+        <surName>Ng</surName>
+      </individualName>
+      <organizationName>University of Minnesota</organizationName>
+      <electronicMailAddress>gcng@umn.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7399-6617</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  Hydrology:
+</para>
+          <para>
+  Head (water-level) - A Schlumberger Micro-Diver (DI601) pressure
+  transducer was deployed in a manually installed stream gauge to record
+  surface water head, and Schlumberger Baro (DI500) pressure transducers
+  were deployed in three manually installed shallow piezometers to
+  record subsurface head levels at ~35 cm depth; calculations accounted
+  for the contribution of air pressure recorded by an additional
+  Schlumberger Baro. Two of the piezometers were deployed at the main
+  monitoring/sampling sites: in the center of the stream channel, and in
+  the west-flanking wetland sufficiently close to the channel such that
+  inundated conditions persisted throughout the summer. To assess
+  variability within Second Creek, the third piezometer was deployed
+  between the first two locations in the channel near its west bank.
+</para>
+          <para>
+  Temperature - Vertical temperature probes collocated with the
+  piezometers measured porewater temperature at 0, 5, 10, 15, 20, and 30
+  cm depths below the sediment-water interface. The temperature probes
+  were constructed using wooden dowels, housed thermistors potted at the
+  dowel surface in waterproof epoxy, and were connected to an
+  open-source “ALog” data-logger (an intermediary version between that
+  presented in Wickert [2014] and Wickert et al. [2018].
+</para>
+          <para>
+  Flux - Time series data of temperature profile and hyporheic zone head
+  gradients in the center channel, west wetland, and west channel were
+  incorporated in the heat-transport inverse model 1DTempPro [Voytek et
+  al., 2014] to estimate the time series of hyporheic flux at each
+  location. For parameters required by 1DTempPro model, we used sediment
+  porosity of 0.51 previously measured by Myrbo et al. [2017], thermal
+  conductivity of 0.56 W/m/C, and saturated heat capacity of 2.44 × 10 6
+  J/m^3/C estimated assuming 80% sediment organic matter and 20%
+  siliciclastic material in the approach by Farouki [1986], and heat
+  dispersivity of 0.1 m assigned based on typical solute dispersivity
+  for the tens of centimeters spatial scale considered here [Zheng and
+  Bennett, 2002].
+</para>
+          <para>
+  Water chemistry:
+</para>
+          <para>
+  On June 14 and August 15, 2016, we sampled porewater at 1.56 cm depth
+  intervals from 1.56 cm above the sediment-water interface to about
+  40-50 cm depth below the interface using passive porewater
+  equilibrators (“peepers”) following the method described in Ng et al.
+  [2017]. In June, duplicate peepers were deployed in the channel and
+  wetland monitoring/sampling locations. In August, duplicate peepers
+  were deployed again in the channel; intended peeper deployment in the
+  wetland in August was later found to be mislocated in channel
+  sediments and failed to capture actual wetland conditions. For all
+  peeper samples, pH was analyzed in the field using a Thermo Scientific
+  Orion STAR A329. Fe^2+ was quantified in the field using the
+  phenanthroline method [Eaton et al., 2005]. Methane samples were
+  collected and analyzed using the same methods described in [Ng et al.,
+  2017]. For select peeper samples, we acidified cation samples of about
+  12 mL volume with one drop of 6N HCl before analysis using a Thermo
+  Scientific iCAP 6500 dual view ICP-OES (for Al, Ba, Ca, Fe, K, Li, Mg,
+  Mn, Na, P, Si, and Sr) at University of Minnesota, Twin Cities; anion
+  samples were analyzed using a Thermo Dionex ICS 5000+ ion
+  chromatography system (for F−, Cl− ,NO3− ,Br− , and SO4^2− ) at
+  University of Minnesota, Twin Cities.
+</para>
+          <para>
+  References:
+</para>
+          <para>
+  Eaton, D. A., L. S. Clesceri, and others (2005), Standard Methods for
+  the Examination of Water &amp;amp; Wastewater–3500-Fe- B. Phenanthroline
+  Method.
+</para>
+          <para>
+  Farouki, O. (1986), Thermal properties of soils, 136 pp., Trans Tech
+  Publications, Limited, Clausthal-Zellerfeld, Germany.
+</para>
+          <para>
+  Myrbo, A., E. B. Swain, D. R. Engstrom, J. Coleman Wasik, J. Brenner,
+  M. Dykhuizen Shore, E. B. Peters, and G. Blaha (2017), Sulfide
+  Generated by Sulfate Reduction is a Primary Controller of the
+  Occurrence of Wild Rice ( Zizania palustris ) in Shallow Aquatic
+  Ecosystems, Journal of Geophysical Research: Biogeosciences, 122(11),
+  2736–2753, doi:10.1002/2017JG003787.
+</para>
+          <para>
+  Ng, G.-H. C., A. R. Yourd, N. W. Johnson, and A. E. Myrbo (2017),
+  Modeling hydrologic controls on sulfur processes in sulfate-impacted
+  wetland and stream sediments, Journal of Geophysical Research:
+  Biogeosciences, 122(9), 2435–2457, doi:10.1002/2017JG003822.
+</para>
+          <para>
+  Voytek, E. B., A. Drenkelfuss, F. D. Day-Lewis, R. Healy, J. W. Lane,
+  and D. Werkema (2014), 1DTempPro: Analyzing Temperature Profiles for
+  Groundwater/Surface-water Exchange, Groundwater, 52(2), 298–302,
+  doi:10.1111/gwat.12051.
+</para>
+          <para>
+  Wickert, A. D. (2014), The ALog: Inexpensive, Open-Source, Automated
+  Data Collection in the Field, Bulletin of the Ecological Society of
+  America, 95(2), 166–176, doi:10.1890/0012-9623-95.2.68.
+</para>
+          <para>
+  Wickert, A. D., C. T. Sandell, B. Schulz, and G.-H. C. Ng (2018),
+  Open-source Arduino-derived data loggers designed for field research,
+  Hydrology and Earth System Sciences, (December), 1–16,
+  doi:10.5194/hess-2018-591.
+</para>
+          <para>
+  Zheng, C., and G. D. Bennett (2002), Applied Contaminant Transport
+  Modeling, 2nd ed., 656 pp., Wiley and Sons, New York, NY
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>No project title to report</title>
+      <personnel>
+        <individualName>
+          <givenName>G.H.</givenName>
+          <givenName>Crystal</givenName>
+          <surName>Ng</surName>
+        </individualName>
+        <organizationName>University of Minnesota</organizationName>
+        <electronicMailAddress>gcng@umn.edu</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0002-7399-6617</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Department of Earth and Environmental Sciences, University of Minnesota</funding>
+      <relatedProject>
+        <title>No project title to report</title>
+        <personnel>
+          <individualName>
+            <givenName>Cara</givenName>
+            <givenName>M</givenName>
+            <surName>Santelli</surName>
+          </individualName>
+          <organizationName>University of Minnesota</organizationName>
+          <electronicMailAddress>santelli@umn.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0001-8617-0008</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>MnDRIVE, University of Minnesota</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Center Channel Flux</entityName>
+      <entityDescription>Daily water flux time series at the center of the stream channel, determined via inverse modeling of vertical temperature profile time series and hydraulic gradient between surface water and groundwater.</entityDescription>
+      <physical>
+        <objectName>dailyflux_CenterChannel.csv</objectName>
+        <size unit="bytes">2432</size>
+        <authentication method="MD5">a92144f53e6f98ef564d3a41d724cf0c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of calculated flux</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flux</attributeName>
+          <attributeDefinition>Darcy flux at channel center, determined using surface and groundwater head and temperature measurements.  Positive values for upward flux.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimetersPerDay</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">6.29</minimum>
+                  <maximum exclusive="false">28.43</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>116</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>West Channel Flux</entityName>
+      <entityDescription>Daily water flux time series about 3 m west of channel center, determined via inverse modeling of vertical temperature profile time series and hydraulic gradient between surface water and groundwater.</entityDescription>
+      <physical>
+        <objectName>dailyflux_WestChannel.csv</objectName>
+        <size unit="bytes">2245</size>
+        <authentication method="MD5">34643d2339130451a81e062bec48d0ec</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of calculated flux</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flux</attributeName>
+          <attributeDefinition>Darcy flux in stream channel just west (~3 m) of channel center, determined using surface and groundwater head and temperature measurements.  Positive values for upward flux.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimetersPerDay</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.2</minimum>
+                  <maximum exclusive="false">5.24</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>112</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>West Wetland Flux</entityName>
+      <entityDescription>Daily water flux time series in west-flanking wetland of the stream channel, determined via inverse modeling of vertical temperature profile time series and hydraulic gradient between surface water and groundwater.</entityDescription>
+      <physical>
+        <objectName>dailyflux_WestWetland.csv</objectName>
+        <size unit="bytes">2390</size>
+        <authentication method="MD5">bb58cdf1dae7acc24739b1eeba78b90d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of calculated flux</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flux</attributeName>
+          <attributeDefinition>Darcy flux in west flanking wetland of stream channel, determined using surface and groundwater head and temperature measurements.  Positive values for upward flux.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimetersPerDay</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.84</minimum>
+                  <maximum exclusive="false">17.11</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>115</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Center Channel Groundwater Head</entityName>
+      <entityDescription>Groundwater head time series measured below the center of the stream channel.</entityDescription>
+      <physical>
+        <objectName>PZ-CC_161005_Calib20161001_1300_TotHead.csv</objectName>
+        <size unit="bytes">345622</size>
+        <authentication method="MD5">d1f55cc85c3c7f2a698e78721da35cc4</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Time of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Head_masl</attributeName>
+          <attributeDefinition>Head measurement for groundwater, in center of stream channel</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersAboveSeaLevel</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">428.3</minimum>
+                  <maximum exclusive="false">428.88</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>11827</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>West Wetland Groundwater Head</entityName>
+      <entityDescription>Groundwater head time series measured below the west-flanking wetland of the stream channel.</entityDescription>
+      <physical>
+        <objectName>PZ-CW_161005_Calib20161001_1400_TotHead.csv</objectName>
+        <size unit="bytes">335227</size>
+        <authentication method="MD5">da8a97b4242b0fdebf3157120f9c341a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Time of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Head_masl</attributeName>
+          <attributeDefinition>Head measurement for surface water, at a first stream gauge location</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersAboveSeaLevel</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">428.33</minimum>
+                  <maximum exclusive="false">428.88</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>11467</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>West Channel Groundwater Head</entityName>
+      <entityDescription>Groundwater head time series measured below the channel about 3 m west of the center of the channel.</entityDescription>
+      <physical>
+        <objectName>PZ-In_161005_Calib20160531_0900_TotHead.csv</objectName>
+        <size unit="bytes">534498</size>
+        <authentication method="MD5">aa2e414c3266a44c7b3f9d6b05da64d2</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Time of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Head_masl</attributeName>
+          <attributeDefinition>Head measurement for groundwater, in stream channel just west (~3 m) of channel center</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersAboveSeaLevel</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">428.29</minimum>
+                  <maximum exclusive="false">428.86</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>17740</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Surface Water Head - Early Summer Position</entityName>
+      <entityDescription>Surface water head time series measured by the stream gauge installed over the first part of summer 2016.</entityDescription>
+      <physical>
+        <objectName>SG-1_1st_Position_161005_Calib20160531_0945_TotHead.csv</objectName>
+        <size unit="bytes">157883</size>
+        <authentication method="MD5">8a40a3a4a3767ce206ef86096c5ae8e5</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Time of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Head_masl</attributeName>
+          <attributeDefinition>Head measurement for surface water, at a first stream gauge location</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersAboveSeaLevel</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">428.35</minimum>
+                  <maximum exclusive="false">428.72</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>5310</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Surface Water Head - Late Summer Position</entityName>
+      <entityDescription>Surface water head time series measured by the stream gauge after it was moved for the second part of summer 2016, in order to avoid dry (no surface water) conditions.</entityDescription>
+      <physical>
+        <objectName>SG-1_2nd_Position_161005_Calib20161001_1430_TotHead.csv</objectName>
+        <size unit="bytes">174099</size>
+        <authentication method="MD5">9b09f92a30dae27a08576730b5082629</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Time of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Head_masl</attributeName>
+          <attributeDefinition>Head measurement for surface water, at a second stream gauge location (moved ~1 m water channel center, partway through summer due to drying conditions)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>metersAboveSeaLevel</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">428.26</minimum>
+                  <maximum exclusive="false">428.87</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>5855</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Water Chemistry Data</entityName>
+      <entityDescription>Water chemistry data from surface water and porewater samples collected by 'peepers' (passive diffusive samplers) in the center channel and west-flanking wetland locations.</entityDescription>
+      <physical>
+        <objectName>SCAllData2016.csv</objectName>
+        <size unit="bytes">16142</size>
+        <authentication method="MD5">36221cb4ddc4a7b238c82d63b28d22fa</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>PeeperID</attributeName>
+          <attributeDefinition>ID of peeper.  Peeper has "wells" at multiple depths. Month of sample: "Jun" or "Aug".  Part of site: "Wetland" for west-flanking wetland, "Channel" for channel center.  Peeper replicate: "1" or "2".</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID of peeper.  Peeper has "wells" at multiple depths. Month of sample: "Jun" or "Aug".  Part of site: "Wetland" for west-flanking wetland, "Channel" for channel center.  Peeper replicate: "1" or "2".</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of water sampling from peeper</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Depth of peeper sample in sediment. Positive value is below sediment-water interface and negative value is above sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.56</minimum>
+                  <maximum exclusive="false">48.36</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pH</attributeName>
+          <attributeDefinition>pH of peeper sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.02</minimum>
+                  <maximum exclusive="false">8.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Fe_field</attributeName>
+          <attributeDefinition>Iron concentration in peeper water sample (in-field analysis). -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolar</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-999</minimum>
+                  <maximum exclusive="false">716.32</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CH4</attributeName>
+          <attributeDefinition>Methane concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.63</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Al</attributeName>
+          <attributeDefinition>Aluminum concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">7</minimum>
+                  <maximum exclusive="false">10760</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Ba</attributeName>
+          <attributeDefinition>Barium concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">31</minimum>
+                  <maximum exclusive="false">827</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Ca</attributeName>
+          <attributeDefinition>Calcium concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">12533</minimum>
+                  <maximum exclusive="false">2036567</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Fe_lab</attributeName>
+          <attributeDefinition>Iron concentration in peeper water sample (lab analysis). -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">4198</minimum>
+                  <maximum exclusive="false">48011</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>K</attributeName>
+          <attributeDefinition>Potassium concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1847</minimum>
+                  <maximum exclusive="false">36157</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Li</attributeName>
+          <attributeDefinition>Lithium concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">59</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Mg</attributeName>
+          <attributeDefinition>Magnesium concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">14595</minimum>
+                  <maximum exclusive="false">693590</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Mn</attributeName>
+          <attributeDefinition>Manganese concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1987</minimum>
+                  <maximum exclusive="false">13709</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Na</attributeName>
+          <attributeDefinition>Sodium concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">4200</minimum>
+                  <maximum exclusive="false">510197</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>P</attributeName>
+          <attributeDefinition>Phospohrus concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">154</minimum>
+                  <maximum exclusive="false">22038</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Si</attributeName>
+          <attributeDefinition>Silicon concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">8910</minimum>
+                  <maximum exclusive="false">54170</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Sr</attributeName>
+          <attributeDefinition>Strontium concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">49</minimum>
+                  <maximum exclusive="false">63670</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Fluoride</attributeName>
+          <attributeDefinition>Fluoride concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Chloride</attributeName>
+          <attributeDefinition>Chloride concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.4</minimum>
+                  <maximum exclusive="false">673.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Bromide</attributeName>
+          <attributeDefinition>Bromide concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-999</minimum>
+                  <maximum exclusive="false">3.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Nitrate_N</attributeName>
+          <attributeDefinition>Nitrate concentration in peeper water sample, as mass of Nitrogen. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-999</minimum>
+                  <maximum exclusive="false">11.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Sulfate</attributeName>
+          <attributeDefinition>Sulfate concentration in peeper water sample. -999: Below detection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">13.4</minimum>
+                  <maximum exclusive="false">678.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-888</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>120</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>West Channel Temperature Profile</entityName>
+      <entityDescription>Vertical temperature profile time series measured in the streambed about 3 m west of the channel center.</entityDescription>
+      <physical>
+        <objectName>TPA.csv</objectName>
+        <size unit="bytes">1270237</size>
+        <authentication method="MD5">00630ad302ff886ba9c758a5fbe773ad</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Time of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_0cm</attributeName>
+          <attributeDefinition>Porewater temperature in stream channel just west (~3 m) of channel center (collocated with piezometer PZ-In). At 0 cm depth (sediment-water interface).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">11.21</minimum>
+                  <maximum exclusive="false">28.04</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_5cm</attributeName>
+          <attributeDefinition>Porewater temperature in stream channel just west (~3 m) of channel center (collocated with piezometer PZ-In). At 5 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">11.74</minimum>
+                  <maximum exclusive="false">24.92</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_10cm</attributeName>
+          <attributeDefinition>Porewater temperature in stream channel just west (~3 m) of channel center (collocated with piezometer PZ-In). At 10 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.09</minimum>
+                  <maximum exclusive="false">22.74</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_15cm</attributeName>
+          <attributeDefinition>Porewater temperature in stream channel just west (~3 m) of channel center (collocated with piezometer PZ-In). At 15 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.45</minimum>
+                  <maximum exclusive="false">21.44</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_20cm</attributeName>
+          <attributeDefinition>Porewater temperature in stream channel just west (~3 m) of channel center (collocated with piezometer PZ-In). At 20 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.42</minimum>
+                  <maximum exclusive="false">20.06</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_30cm</attributeName>
+          <attributeDefinition>Porewater temperature in stream channel just west (~3 m) of channel center (collocated with piezometer PZ-In). At 30 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">11.7</minimum>
+                  <maximum exclusive="false">17.89</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>17972</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Center Channel Temperature Profile</entityName>
+      <entityDescription>Vertical temperature profile time series measured in the streambed at the center of the stream channel.</entityDescription>
+      <physical>
+        <objectName>TPB.csv</objectName>
+        <size unit="bytes">639975</size>
+        <authentication method="MD5">71a0a6ce4616ace13b5a0a222fe5b044</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Time of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_0cm</attributeName>
+          <attributeDefinition>Porewater temperature at stream channel center (collocated with piezometer PZ-CC). At 0 cm depth (sediment-water interface).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.91</minimum>
+                  <maximum exclusive="false">27.23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_5cm</attributeName>
+          <attributeDefinition>Porewater temperature at stream channel center (collocated with piezometer PZ-CC). At 5 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.85</minimum>
+                  <maximum exclusive="false">24.66</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_10cm</attributeName>
+          <attributeDefinition>Porewater temperature at stream channel center (collocated with piezometer PZ-CC). At 10 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.8</minimum>
+                  <maximum exclusive="false">22.48</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_15cm</attributeName>
+          <attributeDefinition>Porewater temperature at stream channel center (collocated with piezometer PZ-CC). At 15 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.51</minimum>
+                  <maximum exclusive="false">21.07</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_20cm</attributeName>
+          <attributeDefinition>Porewater temperature at stream channel center (collocated with piezometer PZ-CC). At 20 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.15</minimum>
+                  <maximum exclusive="false">19.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_30cm</attributeName>
+          <attributeDefinition>Porewater temperature at stream channel center (collocated with piezometer PZ-CC). At 30 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">11.67</minimum>
+                  <maximum exclusive="false">17.98</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>9046</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>West Wetland Temperature Profile</entityName>
+      <entityDescription>Vertical temperature profile time series measured in the wetland sediments in the west-flanking wetland of the stream channel.</entityDescription>
+      <physical>
+        <objectName>TPC.csv</objectName>
+        <size unit="bytes">640982</size>
+        <authentication method="MD5">6fad5f503d5df120dbc16699517e74ed</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Time of head measurement</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_0cm</attributeName>
+          <attributeDefinition>Porewater temperature at west-flanking wetland of stream channel (collocated with piezometer PZ-CW). At 0 cm depth (sediment-water interface).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">11.39</minimum>
+                  <maximum exclusive="false">30.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_5cm</attributeName>
+          <attributeDefinition>Porewater temperature at west-flanking wetland of stream channel (collocated with piezometer PZ-CW). At 5 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">13.44</minimum>
+                  <maximum exclusive="false">26.25</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_10cm</attributeName>
+          <attributeDefinition>Porewater temperature at west-flanking wetland of stream channel (collocated with piezometer PZ-CW). At 10 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">13.38</minimum>
+                  <maximum exclusive="false">23.29</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_15cm</attributeName>
+          <attributeDefinition>Porewater temperature at west-flanking wetland of stream channel (collocated with piezometer PZ-CW). At 15 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">13.29</minimum>
+                  <maximum exclusive="false">21.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_20cm</attributeName>
+          <attributeDefinition>Porewater temperature at west-flanking wetland of stream channel (collocated with piezometer PZ-CW). At 20 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">13.06</minimum>
+                  <maximum exclusive="false">20.49</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_30cm</attributeName>
+          <attributeDefinition>Porewater temperature at west-flanking wetland of stream channel (collocated with piezometer PZ-CW). At 30 cm depth below sediment-water interface.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.52</minimum>
+                  <maximum exclusive="false">18.84</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>9047</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="metersAboveSeaLevel" multiplierToSI="1" name="metersAboveSeaLevel" parentSI="meter" unitType="Relative distance">
+          <description>metersAboveSeaLevel</description>
+        </unit>
+        <unit id="millimetersPerDay" multiplierToSI="86.4" name="millimetersPerDay" parentSI="metersPerSecond" unitType="Velocity">
+          <description>millimetersPerDay</description>
+        </unit>
+        <unit id="microMolar" multiplierToSI="0.001" name="microMolar" parentSI="molePerMeterCubed" unitType="amountOfSubstanceConcentration">
+          <description>micro moles per liter</description>
+        </unit>
+        <unit id="milliMolar" multiplierToSI="1" name="milliMolar" parentSI="molePerMeterCubed" unitType="amountOfSubstanceConcentration">
+          <description>milli moles per liter</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
