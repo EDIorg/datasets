@@ -1,0 +1,1 @@
+id	unitType	parentSI	multiplierToSI	descriptionmicroSeimenPerCentimeter	conductance	seimenPerMeter	0.00001	conductivity unit
