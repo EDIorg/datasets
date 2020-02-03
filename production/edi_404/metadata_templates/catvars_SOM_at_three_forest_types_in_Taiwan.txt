@@ -1,0 +1,10 @@
+attributeName	code	definition
+Vegetation	BL-SS1	Broadleaf
+Vegetation	BL-SS2	Broadleaf
+Vegetation	BL-SS3	Broadleaf
+Vegetation	CRP-SS1	cedar plantation
+Vegetation	CRP-SS2	cedar plantation
+Vegetation	CRP-SS3	cedar plantation
+Vegetation	BM-SS1	bamboo
+Vegetation	BM-SS2	bamboo
+Vegetation	BM-SS3	bamboo

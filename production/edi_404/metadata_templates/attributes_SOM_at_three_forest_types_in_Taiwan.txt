@@ -1,0 +1,29 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Vegetation	"Forest types (Broadleaf, BL; cedar plantation, CRP; bamboo, BM)"	categorical				
+Soil_water_content	Soil water content	numeric	dimensionless			
+bulk_density	Soil bulk density	numeric	gramsPerCubicCentimeter			
+pH	pH	numeric	dimensionless			
+TC	Total organic carbon	numeric	dimensionless			
+TN	Total carbon	numeric	dimensionless			
+TC_mass	Total organic carbon mass	numeric	milligramsPerHectare			
+logK	"delta-logK value was then calculated as log(A400/A600), where A400 and A600 are the humic acid absorbances at 400 and 600 nm"	numeric	dimensionless			
+Litter_Carboxyl_C	Litter 13C NMR functional group	numeric	dimensionless			
+Litter_Aromatic_C	Litter 13C NMR functional group	numeric	dimensionless			
+Litter_Di_O_alkyl	Litter 13C NMR functional group	numeric	dimensionless			
+Litter_O_alkyl_C	Litter 13C NMR functional group	numeric	dimensionless			
+Litter_alkyl_C	Litter 13C NMR functional group	numeric	dimensionless			
+Litter_A_O_A	Litter humification index	numeric	dimensionless			
+Litter_aromaticity	Litter humification index	numeric	dimensionless			
+Soil_Carboxyl_C	Soil 13C NMR functional group	numeric	dimensionless			
+Soil_Aromatic_C	Soil 13C NMR functional group	numeric	dimensionless			
+Soil_Di_O_alkyl	Soil 13C NMR functional group	numeric	dimensionless			
+Soil_O_alkyl_C	Soil 13C NMR functional group	numeric	dimensionless			
+Soil_alkyl_C	Soil 13C NMR functional group	numeric	dimensionless			
+Soil_A_O_A	Soil humification index	numeric	dimensionless			
+Soil_aromaticity	Soil humification index	numeric	dimensionless			
+LPI_C	Labile-I carbon content	numeric	dimensionless			
+LPII_C	Labile-II carbon content	numeric	dimensionless			
+RP_C	Recalcitrant carbon content	numeric	dimensionless			
+LPI_TC	Labile-I carbon / total organic carbon	numeric	gramsPerKilogram			
+LPII_TC	Labile-II carbon / total organic carbon	numeric	gramsPerKilogram			
+RP_TC	Recalcitrant Carbon / total organic carbon	numeric	gramsPerKilogram			
