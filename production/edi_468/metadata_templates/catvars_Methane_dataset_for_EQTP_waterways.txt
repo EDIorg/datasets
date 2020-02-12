@@ -1,0 +1,12 @@
+attributeName	code	definition
+Sampling_date	2016 Spring	Spring 2016
+Sampling_date	2016 Summer	Summer 2016
+Sampling_date	2016 Fall	Fall 2016
+Sampling_date	2017 Spring	Spring 2017
+Sampling_date	2017 Summer	Summer 2017
+Sampling_date	2018 Spring	Spring 2018
+Sampling_date	2018 Fall	Fall 2018
+Basins	Yellow River	The Yellow River basin
+Basins	Yangtze River	The Yangtze River basin
+Basins	Lancang River	The Lancang River basin
+Basins	Nu River	The Nu River basin

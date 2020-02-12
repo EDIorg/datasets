@@ -1,0 +1,22 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Sampling_date	"Sampling occurred in spring (May-Jun), summer (Jul-Aug) and fall (Sep-Oct)."	categorical				
+Basins	Which catchment are these sampling sites located in.	categorical				
+Sites	The name of each site is the toponym of sampling river reach (details in Sampling_sites.csv).	character				
+Altitude	The altitude of each sampling site (above sea level).	numeric	meter			
+Air_pressure	Real-time air pressure measured at each site.	numeric	kilopascal			
+LogQw	The ratio of river discharge per unit channel width (real-time measured data).	numeric	metersSquaredPerSecond			
+Flow_velocity	Real-time measured flow velocity at each sampling site.	numeric	metersPerSecond			
+mean_DOC	"Average DOC concentration measured in triplicate at each site. Water samples were filtered through 0.45 um polyethersulphone (PES) syringe filters for determination of DOC concentrations. The filtrates were collected in 50 mL plastic vials, to which 200 uL of H2SO4 was added. DOC was determined with a Vario TOC Select analyzer (Elementar, Germany) by high-temperature catalytic oxidation."	numeric	milligramsPerLiter			
+CH4_concentrations	Average CH4 concentration measured in triplicate at each site (details in Methods).	numeric	microMolar			
+CH4_ebullition_chamber_1	Ebullitive CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+CH4_ebullition_chamber_2	Ebullitive CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+CH4_ebullition_chamber_3	Ebullitive CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+CH4_ebullition_chamber_4	Ebullitive CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+CH4_diffusion_chamber_1	Diffusive CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+CH4_diffusion_chamber_2	Diffusive CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+CH4_diffusion_chamber_3	Diffusive CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+CH4_diffusion_chamber_4	Diffusive CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+Total_CH4_chamber_1	Total CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+Total_CH4_chamber_2	Total CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+Total_CH4_chamber_3	Total CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			
+Total_CH4_chamber_4	Total CH4 fluxes measured in four floating chambers at each transect (details in Methods).	numeric	millimolePerMeterSquaredPerDay			

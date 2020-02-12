@@ -1,0 +1,11 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Liwei		Zhang	Beijing Normal University	zhangliwei@mail.bnu.edu.cn	orcid.org/0000-0002-1610-2816	creator			
+Xinghui		Xia	Beijing Normal University	xiaxh@bnu.edu.cn	orcid.org/0000-0002-8663-6346	creator			
+Shaoda		Liu	Yale University	shaoda.liu@yale.edu	orcid.org/0000-0002-0836-5085	creator			
+Zhifeng		Yang	Beijing Normal University	zfyang@bnu.edu.cn		creator			
+Emily	H	Stanley	University of Wisconsin-Madison	ehstanley@wisc.edu	orcid.org/0000-0003-4922-8121	creator			
+Peter	A	Raymond	Yale University	peter.raymond@yale.edu	orcid.org/0000-0002-8564-7860	creator			
+Liwei		Zhang	Beijing Normal University	zhangliwei@mail.bnu.edu.cn	orcid.org/0000-0002-1610-2816	contact			
+Xinghui		Xia	Beijing Normal University	xiaxh@bnu.edu.cn	orcid.org/0000-0002-8663-6346	PI		National Key R&D Program of China	2017YFA0605001
+Xinghui		Xia	Beijing Normal University	xiaxh@bnu.edu.cn	orcid.org/0000-0002-8663-6346	PI		National Natural Science Foundation of China	91547207
+Xinghui		Xia	Beijing Normal University	xiaxh@bnu.edu.cn	orcid.org/0000-0002-8663-6346	PI		Innovative Research Group of the National Natural Science Foundation of China	51721093

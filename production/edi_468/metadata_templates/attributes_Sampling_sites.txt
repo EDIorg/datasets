@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+River	Name of river	character				
+Basins	River basin type	character				
+Sampling Sites	Sampling site abbreviations used in the Methane_dataset_for_EQTP_waterways.csv table	character				
+Longitude_E	Longitude East	numeric	degree			
+Latitude_N	Latitude North	numeric	degree			
+Stream_and_river_Reaches	Name of stream and river reaches	character				
+Strahler Stream Order	The Strahler Stream Order	numeric	dimensionless			
