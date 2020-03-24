@@ -1,0 +1,39 @@
+attributeName	code	definition
+NTRT	C	"Control, no water, no N added"
+NTRT	0	0 kg N/ha/yr added as NH4-NO3
+NTRT	5	5 kg N/ha/yr added as NH4-NO3
+NTRT	10	10 kg N/ha/yr added as NH4-NO3
+NTRT	15	15 kg N/ha/yr added as NH4-NO3
+NTRT	20	20 kg N/ha/yr added as NH4-NO3
+NTRT	25	25 kg N/ha/yr added as NH4-NO3
+NDEP	2	2 kg N/ha/yr added as NH4-NO3
+NDEP	3.1	3.1 kg N/ha/yr added as NH4-NO3
+NDEP	8.1	8.1 kg N/ha/yr added as NH4-NO3
+NDEP	13.1	13.1 kg N/ha/yr added as NH4-NO3
+NDEP	18.1	18.1 kg N/ha/yr added as NH4-NO3
+NDEP	23.1	23.1 kg N/ha/yr added as NH4-NO3
+NDEP	28.1	28.1 kg N/ha/yr added as NH4-NO3
+ARM	1	Arm 1
+ARM	2	Arm 2
+ARM	3	Arm 3
+FRAME	1	Frame 1
+FRAME	2	Frame 2
+FRAME	3	Frame 3
+FRAME	4	Frame 4
+FRAME	5	Frame 5
+FRAME	6	Frame 6
+FRAME	7	Frame 7
+FRAME	8	Frame 8
+FRAME	9	Frame 9
+FRAME	10	Frame 10
+FRAME	11	Frame 11
+FRAME	12	Frame 12
+FRAME	13	Frame 13
+FRAME	14	Frame 14
+FRAME	15	Frame 15
+FRAME	16	Frame 16
+FRAME	17	Frame 17
+FRAME	18	Frame 18
+FRAME	19	Frame 19
+FRAME	20	Frame 20
+FRAME	21	Frame 21

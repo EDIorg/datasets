@@ -1,0 +1,4 @@
+name	name_type	name_resolved	authority_system	authority_id
+Sphagnum fuscum	scientific	Sphagnum fuscum	ITIS	15728
+Sphagnum angustifolium	scientific	Sphagnum angustifolium	ITIS	548193
+Sphagnum magellanicum	scientific	Sphagnum magellanicum	ITIS	15689

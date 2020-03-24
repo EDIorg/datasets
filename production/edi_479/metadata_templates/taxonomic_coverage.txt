@@ -1,0 +1,6 @@
+name	name_type	name_resolved	authority_system	authority_id
+Eriophorum vaginatum	scientific	Eriophorum vaginatum	ITIS	40104
+Chamaedaphne calyculata	scientific	Chamaedaphne calyculata	ITIS	23637
+Andromeda polifolia	scientific	Andromeda polifolia	ITIS	23465
+Vaccinium oxycoccos	scientific	Vaccinium oxycoccos	ITIS	505635
+Scheuchzeria palustris	scientific	Scheuchzeria palustris	ITIS	38983

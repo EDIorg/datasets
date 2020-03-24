@@ -1,0 +1,5 @@
+name	name_type	name_resolved	authority_system	authority_id
+Sphagnum fuscum	scientific	Sphagnum fuscum	ITIS	15728
+Andromeda polifolia	scientific	Andromeda polifolia	ITIS	23465
+Eriophorum vaginatum	scientific	Eriophorum vaginatum	ITIS	40104
+Stenochlaena palustris	scientific	Stenochlaena palustris	NA	NA

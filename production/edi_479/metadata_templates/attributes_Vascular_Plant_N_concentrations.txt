@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+YEAR	Year of growth and collection: 2011-2015	Date		YYYY	-99999	 Missing value
+NTRT	Field experimental N treatments were made with 8 applications per plot per year between mid May and mid August of each year	categorical			-99999	 Missing value
+NDEP	Total N added to each of the N treatments including background N deposition (2 kg N/ha/yr in precipitation) and 1.1 kg N/ha/yr in stock water used for fertilization	categorical			-99999	 Missing value
+ARM	Experimental plots were located along 3 arms; each arm had one replicate each of 8 N treatments	categorical			-99999	 Missing value
+ERIOPH	Nitrogen concentration in ground dry leaf tissue of Eriophorum vaginatum	numeric	milligramsPerGram		-99999	 Missing value
+CHAM	Nitrogen concentration in ground dry leaf tissue of Chamaedaphne calyculata	numeric	milligramsPerGram		-99999	 Missing value
+APOLIF	Nitrogen concentration in ground dry leaf tissue of Andromeda polifolia	numeric	milligramsPerGram		-99999	 Missing value
+VACCIN	Nitrogen concentration in ground dry leaf tissue of Vaccinium oxycoccus	numeric	milligramsPerGram		-99999	 Missing value
+SCHEUCHZPAL	Nitrogen concentration in ground dry leaf tissue of Scheuchzeria palustris	numeric	milligramsPerGram		-99999	 Missing value

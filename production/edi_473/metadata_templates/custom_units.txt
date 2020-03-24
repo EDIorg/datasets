@@ -1,0 +1,4 @@
+id	unitType	parentSI	multiplierToSI	description
+microgramsPerSquareMeter	arealMassDensity	kilogramsPerSquareMeter	1.00E-09	microgramsPerSquareMeter
+microgramsPerGramPerDay	concentrationRate	kilogramsPerKilogramsPerSecond	1.157407E-11	microgramsPerGramPerDay
+microgramsPerSquareMeterPerDay	arealMassDensityRate	kilogramsPerSquareMeterPerSecond	1.157407E-14	microgramsPerSquareMeterPerDay

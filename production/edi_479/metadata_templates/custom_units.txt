@@ -1,0 +1,2 @@
+id	unitType	parentSI	multiplierToSI	description
+milligramsPerGram	massPerMass	kilogramsPerKilogram	0.001	milligramsPerGram

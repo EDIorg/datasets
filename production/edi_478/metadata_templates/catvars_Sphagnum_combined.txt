@@ -1,0 +1,42 @@
+attributeName	code	definition
+SPECIES	ANGUST	Sphagnum angustifolium
+SPECIES	FUSCUM	Sphagnum fuscumifolium
+SPECIES	MAGELL	Sphagnum magellanicum
+NTRT	C	"Control, no water, no N added"
+NTRT	0	0 kg N/ha/yr added as NH4-NO3
+NTRT	5	5 kg N/ha/yr added as NH4-NO3
+NTRT	10	10 kg N/ha/yr added as NH4-NO3
+NTRT	15	15 kg N/ha/yr added as NH4-NO3
+NTRT	20	20 kg N/ha/yr added as NH4-NO3
+NTRT	25	25 kg N/ha/yr added as NH4-NO3
+NDEP	2	2 kg N/ha/yr added as NH4-NO3
+NDEP	3.1	3.1 kg N/ha/yr added as NH4-NO3
+NDEP	8.1	8.1 kg N/ha/yr added as NH4-NO3
+NDEP	13.1	13.1 kg N/ha/yr added as NH4-NO3
+NDEP	18.1	18.1 kg N/ha/yr added as NH4-NO3
+NDEP	23.1	23.1 kg N/ha/yr added as NH4-NO3
+NDEP	28.1	28.1 kg N/ha/yr added as NH4-NO3
+PLOTID	A	Plot A
+PLOTID	B	Plot B
+PLOTID	C	Plot C
+PLOTID	D	Plot D
+PLOTID	E	Plot E
+PLOTID	F	Plot F
+PLOTID	G	Plot G
+PLOTID	H	Plot H
+PLOTID	I	Plot I
+PLOTID	J	Plot J
+PLOTID	K	Plot K
+PLOTID	L	Plot L
+PLOTID	M	Plot M
+PLOTID	N	Plot N
+PLOTID	O	Plot O
+PLOTID	P	Plot P
+PLOTID	Q	Plot Q
+PLOTID	R	Plot R
+PLOTID	S	Plot S
+PLOTID	T	Plot T
+PLOTID	U	Plot U
+ARM	1	Arm 1
+ARM	2	Arm 2
+ARM	3	Arm 3

@@ -1,0 +1,72 @@
+attributeName	code	definition
+COLLECTION	1	Collection round 1
+COLLECTION	2	Collection round 2
+COLLECTION	3	Collection round 3
+COLLECTION	4	Collection round 4
+COLLECTION	5	Collection round 5
+COLLECTION	6	Collection round 6
+COLLECTION	7	Collection round 7
+COLLECTION	8	Collection round 8
+COLLECTION	9	Collection round 9
+COLLECTION	10	Collection round 10
+COLLECTION	11	Collection round 11
+COLLECTION	12	Collection round 12
+COLLECTION	13	Collection round 13
+COLLECTION	14	Collection round 14
+COLLECTION	15	Collection round 15
+COLLECTION	16	Collection round 16
+COLLECTION	17	Collection round 17
+COLLECTION	18	Collection round 18
+COLLECTION	19	Collection round 19
+COLLECTION	20	Collection round 20
+COLLECTION	21	Collection round 21
+COLLECTION	22	Collection round 22
+COLLECTION	23	Collection round 23
+COLLECTION	24	Collection round 24
+COLLECTION	25	Collection round 25
+COLLECTION	26	Collection round 26
+COLLECTION	27	Collection round 27
+COLLECTION	28	Collection round 28
+COLLECTION	29	Collection round 29
+COLLECTION	30	Collection round 30
+NTRT	C	"Control, no water, no N added"
+NTRT	0	0 kg N/ha/yr added as NH4-NO3
+NTRT	5	5 kg N/ha/yr added as NH4-NO3
+NTRT	10	10 kg N/ha/yr added as NH4-NO3
+NTRT	15	15 kg N/ha/yr added as NH4-NO3
+NTRT	20	20 kg N/ha/yr added as NH4-NO3
+NTRT	25	25 kg N/ha/yr added as NH4-NO3
+NDEP	2	2 kg N/ha/yr added as NH4-NO3
+NDEP	3.1	3.1 kg N/ha/yr added as NH4-NO3
+NDEP	8.1	8.1 kg N/ha/yr added as NH4-NO3
+NDEP	13.1	13.1 kg N/ha/yr added as NH4-NO3
+NDEP	18.1	18.1 kg N/ha/yr added as NH4-NO3
+NDEP	23.1	23.1 kg N/ha/yr added as NH4-NO3
+NDEP	28.1	28.1 kg N/ha/yr added as NH4-NO3
+ARM	1	Arm 1
+ARM	2	Arm 2
+ARM	3	Arm 3
+PLOTID	1	Plot 1
+PLOTID	2	Plot 2
+PLOTID	3	Plot 3
+PLOTID	4	Plot 4
+PLOTID	5	Plot 5
+PLOTID	6	Plot 6
+PLOTID	7	Plot 7
+PLOTID	8	Plot 8
+PLOTID	9	Plot 9
+PLOTID	10	Plot 10
+PLOTID	11	Plot 11
+PLOTID	12	Plot 12
+PLOTID	13	Plot 13
+PLOTID	14	Plot 14
+PLOTID	15	Plot 15
+PLOTID	16	Plot 16
+PLOTID	17	Plot 17
+PLOTID	18	Plot 18
+PLOTID	19	Plot 19
+PLOTID	20	Plot 20
+PLOTID	21	Plot 21
+DEPTH_INTERVAL_AT_TOP_OF_THE_WATER_TABLE	0-20	Depth sampled = 0-20 centimeters
+DEPTH_INTERVAL_AT_TOP_OF_THE_WATER_TABLE	20-40	Depth sampled = 20-40 centimeters
+DEPTH_INTERVAL_AT_TOP_OF_THE_WATER_TABLE	40-60	Depth sampled = 40-60 centimeters

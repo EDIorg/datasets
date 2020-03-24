@@ -1,0 +1,2 @@
+id	unitType	parentSI	multiplierToSI	description
+nanogramsPerGram	massPerMass	kilogramsPerKilogram	1.00E-09	nanogramsPerGram

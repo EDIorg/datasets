@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.348.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  http://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Pore water concentrations of Nitrogen from N-Addition plots in an Alberta Poor Fen, 2011-2015</title>
+    <creator>
+      <individualName>
+        <givenName>R</givenName>
+        <givenName>Kelman</givenName>
+        <surName>Wieder</surName>
+      </individualName>
+      <organizationName>Villanova University</organizationName>
+      <electronicMailAddress>kelman.wieder@villanova.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-5856-8473</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Dale</givenName>
+        <givenName>H</givenName>
+        <surName>Vitt</surName>
+      </individualName>
+      <organizationName>Southern Illinois University</organizationName>
+      <electronicMailAddress>dvitt@siu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Melanie</givenName>
+        <givenName>A</givenName>
+        <surName>Vile</surName>
+      </individualName>
+      <organizationName>Villanova University</organizationName>
+      <electronicMailAddress>mvile@villanova.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jeremy</givenName>
+        <givenName>A</givenName>
+        <surName>Graham</surName>
+      </individualName>
+      <organizationName>Southern Illinois University</organizationName>
+      <electronicMailAddress>jeremyg@mtu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jeremy</givenName>
+        <givenName>A</givenName>
+        <surName>Hartsock</surName>
+      </individualName>
+      <organizationName>Southern Illinois University</organizationName>
+      <electronicMailAddress>hartsock@siu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jacqueline</givenName>
+        <givenName>M.A.</givenName>
+        <surName>Popma</surName>
+      </individualName>
+      <organizationName>University of Michigan</organizationName>
+      <electronicMailAddress>popmaj@umich.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Hope</givenName>
+        <surName>Fillingim</surName>
+      </individualName>
+      <organizationName>Villanova University</organizationName>
+      <electronicMailAddress>fillingimhope@gmail.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Melissa</givenName>
+        <surName>House</surName>
+      </individualName>
+      <organizationName>Southern Illinois University</organizationName>
+      <electronicMailAddress>mhouse@siu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>James</givenName>
+        <givenName>C</givenName>
+        <surName>Quinn</surName>
+      </individualName>
+      <organizationName>Villanova University</organizationName>
+      <electronicMailAddress>jcqui03@gmail.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kimberli</givenName>
+        <givenName>D</givenName>
+        <surName>Scott</surName>
+      </individualName>
+      <organizationName>Villanova University</organizationName>
+      <electronicMailAddress>kscott@villanova.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Meaghan</givenName>
+        <surName>Petix</surName>
+      </individualName>
+      <organizationName>Southern Illinois University</organizationName>
+      <electronicMailAddress>meaghan.petix@wsu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kelly</givenName>
+        <givenName>J</givenName>
+        <surName>McMillen</surName>
+      </individualName>
+      <organizationName>Villanova University</organizationName>
+      <electronicMailAddress>Kelly.Mcmillen@ttu.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2020-03-02</pubDate>
+    <abstract>
+      <para>
+  Development of the oil sands has led to increasing atmospheric N
+  deposition, with values as high as 17 kg N ha-1 yr-1; regional
+  background levels &amp;lt;2 kg N ha-1 yr-1. To examine responses to N
+  deposition, over five years, we experimentally applied N (as NH4NO3)
+  to a poor fen near Mariana Lake, Alberta, at rates of 0, 5, 10, 15,
+  20, and 25 kg N ha-1 yr-1, plus controls (no water or N addition). We
+  collected surface pore water from all plots several times a year
+  throughout the 5 year experiment. Over the 5 years of the study,
+  porewater NH4+-N, NO3--N, and DON concentrations at the top of the
+  poor fen water table were unaffected by N addition (p = 0.06, 0.30,
+  0.16, respectively). However, porewater NH4+-N, NO3--N, and DON
+  concentrations were substantially higher in 2011 than in 2012-2015
+  (Fig. 11). Water addition alone had no significant effect on porewater
+  concentrations of NH4+-N, NO3--N, or DON (p &amp;gt; 0.99).
+</para>
+      <para>
+  We hypothesized that as N deposition increases to a level that exceeds
+  the capacity of the fen vegetation to take up N, net N mineralization
+  in surface peat would be inhibited by higher NH4+-N availability, net
+  nitrification would be stimulated by higher NH4+-N availability, and
+  concentrations of DIN in porewater at the top of the water table would
+  increase, as DIN bypasses interception by the ground layer vegetation.
+  None of these hypotheses was supported with nitrogen being immediately
+  taken up by vegetation. It is unclear if longer term study would
+  reveal similar responses.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Villanova Peatland Biogeochemistry Group</keyword>
+      <keyword>MLPF</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>fens</keyword>
+      <keyword>peatland</keyword>
+      <keyword>nitrogen</keyword>
+      <keyword>porewater</keyword>
+      <keyword>inorganic nitrogen</keyword>
+      <keyword>organic nitrogen</keyword>
+      <keyword>ammonium</keyword>
+      <keyword>nitrate</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This data package is released to the "public domain" under
+  Creative Commons CC0 1.0 "No Rights Reserved" (see:
+  https://creativecommons.org/publicdomain/zero/1.0/). It is considered
+  professional etiquette to provide attribution of the original work if
+  this data package is shared in whole or by individual components. A
+  generic citation is provided for this data package on the website
+  https://portal.edirepository.org (herein "website") in the
+  summary metadata page. Communication (and collaboration) with the
+  creators of this data package is recommended to prevent duplicate
+  research or publication. This data package (and its components) is
+  made available "as is" and with no warranty of accuracy or
+  fitness for use. The creators of this data package and the website
+  shall not be liable for any damages resulting from misinterpretation
+  or misuse of the data package or its components. Periodic updates of
+  this data package may be available from the website. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Alberta, Canada, 100 km south of Fort McMurray, Canada</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-112.094</westBoundingCoordinate>
+          <eastBoundingCoordinate>-112.094</eastBoundingCoordinate>
+          <northBoundingCoordinate>55.897</northBoundingCoordinate>
+          <southBoundingCoordinate>55.897</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2011-05-31</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-08-06</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>Complete</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>R</givenName>
+        <givenName>Kelman</givenName>
+        <surName>Wieder</surName>
+      </individualName>
+      <organizationName>Villanova University</organizationName>
+      <electronicMailAddress>kelman.wieder@villanova.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-5856-8473</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  To collect peatland porewater as a function of depth, we used 2.5-cm
+  diameter slotted PVC pipe, segmented into 20 cm depth increments, with
+  Tygon tubing extending from the bottom of each section to the surface.
+  On each sampling date, we used a 60 mL syringe to evacuate the full
+  volume of water from the topmost segment from which water could be
+  collected prior to removing 60 mL of porewater and field-filtering
+  through Whatman 41 filter paper into sample bottles. In 2011 and 2012,
+  there were 11 and 10 sampling events, respectively, including 8 events
+  each year on the day following N addition. Sampling was reduced to 3
+  events (June, July, and August) per year in 2013, 2014, and 2015. We
+  froze samples prior to shipping to Villanova University for analysis
+  of NH4+-N (phenate method, Seal AA3 AutoAnalyzer), NO3--N (hydrazine
+  reduction method, Seal AA3 AutoAnalyzer), and total dissolved N
+  (Shimadzu TOC-VCSH analyzer, with prefiltration through 0.45 μm
+  filters). Dissolved organic nitrogen concentration (DON) was
+  calculated as total dissolved N minus NH4+-N and NO3- -N
+  concentrations.
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Nitrogen Addition Experiments in Boreal Ecosystems:  Understanding the Fate of Atmospherically Deposited Nitrogen in order to Determine Nitrogen Critical Loads</title>
+      <personnel>
+        <individualName>
+          <givenName>R</givenName>
+          <givenName>Kelman</givenName>
+          <surName>Wieder</surName>
+        </individualName>
+        <organizationName>Villanova University</organizationName>
+        <electronicMailAddress>kelman.wieder@villanova.edu</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0001-5856-8473</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Cumulative Environmental Management Association (CEMA): 2011-0003</funding>
+    </project>
+    <dataTable>
+      <entityName>Water chemistry</entityName>
+      <entityDescription>Water chemistry</entityDescription>
+      <physical>
+        <objectName>Water_chemistry.csv</objectName>
+        <size unit="bytes">35694</size>
+        <authentication method="MD5">a250d9e0088ff65c945729f0514c4b36</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>Year of Sampling: 2011-2015</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COLLECTION_DATE</attributeName>
+          <attributeDefinition>Day of collection</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COLLECTION</attributeName>
+          <attributeDefinition>Successive field sampling dates are assigned successive round designations from 1 to 30</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Collection round 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Collection round 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Collection round 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Collection round 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Collection round 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Collection round 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Collection round 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Collection round 8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Collection round 9</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>Collection round 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>Collection round 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>Collection round 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>Collection round 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>Collection round 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>Collection round 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>Collection round 16</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>Collection round 17</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>Collection round 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>19</code>
+                    <definition>Collection round 19</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>20</code>
+                    <definition>Collection round 20</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>21</code>
+                    <definition>Collection round 21</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>22</code>
+                    <definition>Collection round 22</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>23</code>
+                    <definition>Collection round 23</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>24</code>
+                    <definition>Collection round 24</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>25</code>
+                    <definition>Collection round 25</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>26</code>
+                    <definition>Collection round 26</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>27</code>
+                    <definition>Collection round 27</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>28</code>
+                    <definition>Collection round 28</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>29</code>
+                    <definition>Collection round 29</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>30</code>
+                    <definition>Collection round 30</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NTRT</attributeName>
+          <attributeDefinition>Field experimental N treatments were made with 8 applications per plot per year between mid-May and mid-August of each year</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Control, no water, no N added</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>0 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>5 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>10 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>15 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>20</code>
+                    <definition>20 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>25</code>
+                    <definition>25 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NDEP</attributeName>
+          <attributeDefinition>Total N added to each of the N treatments including background N deposition (2 kg N/ha/yr in precipitation) and 1.1 kg N/ha/yr in stock water used for fertilization</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>2 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3.1</code>
+                    <definition>3.1 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8.1</code>
+                    <definition>8.1 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13.1</code>
+                    <definition>13.1 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18.1</code>
+                    <definition>18.1 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>23.1</code>
+                    <definition>23.1 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>28.1</code>
+                    <definition>28.1 kg N/ha/yr added as NH4-NO3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ARM</attributeName>
+          <attributeDefinition>Experimental plots were located along 3 arms; each arm had one replicate each of 8 N treatments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Arm 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Arm 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Arm 3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PLOTID</attributeName>
+          <attributeDefinition>Each plot of the experiment has a designated identification number 1-21</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Plot 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Plot 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Plot 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Plot 8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Plot 9</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>Plot 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>Plot 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>Plot 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>Plot 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>Plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>Plot 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>Plot 16</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>Plot 17</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>Plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>19</code>
+                    <definition>Plot 19</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>20</code>
+                    <definition>Plot 20</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>21</code>
+                    <definition>Plot 21</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DEPTH_INTERVAL_AT_TOP_OF_THE_WATER_TABLE</attributeName>
+          <attributeDefinition>Location of top of the water table: depth sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0-20</code>
+                    <definition>Depth sampled = 0-20 centimeters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>20-40</code>
+                    <definition>Depth sampled = 20-40 centimeters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>40-60</code>
+                    <definition>Depth sampled = 40-60 centimeters</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NO3N_CONCENTRATION</attributeName>
+          <attributeDefinition>Concentration of nitrate measured in the sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NH4N_CONCENTRATION</attributeName>
+          <attributeDefinition>Concentration of ammonium measured in the sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2.42</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DISSOLVED_INORGANIC_N_CONCENTRATION</attributeName>
+          <attributeDefinition>Concentrations of nitrate and ammonium added together</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2.74</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DISSOLVED_ORGANIC_N_CONCENTRATION</attributeName>
+          <attributeDefinition>Total nitrogen minus inorganic nitrogen in the sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.03</minimum>
+                  <maximum exclusive="false">4.09</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>630</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

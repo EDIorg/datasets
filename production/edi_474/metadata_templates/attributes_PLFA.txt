@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+ARM	Replicate groups of treatments were on a series of 3 Arms	categorical			-99999	Missing Value
+NTRT	Field experimental N treatments were made with 8 applications per plot per year between mid May and mid August of each year	categorical			-99999	Missing Value
+NDEP	Total N added to each of the N treatments including background N deposition (2 kg N/ha/yr in precipitation) and 1.1 kg N/ha/yr in stock water used for fertilization	categorical			-99999	Missing Value
+PLOTID	Each plot of the experiment has a designated identification number	categorical			-99999	Missing Value
+DEPTH	Depth in peat from which each sample was collected in centimeters	categorical			-99999	Missing Value
+TOTBIOM	Amount of Phospholipid Fatty Acids of all microbes measured in dry peat and expressed as micrograms of PLFA per gram of dried peat	numeric	nanogramsPerGram		-99999	Missing Value
+TBACT	Amount of bacterial Phospholipid Fatty Acids measured in dry peat and expressed as micrograms of PLFA per gram of dried peat	numeric	nanogramsPerGram		-99999	Missing Value
+TGPOS	Amount of gram-positive bacterial Phospholipid Fatty Acids measured in dry peat and expressed as micrograms of PLFA per gram of dried peat	numeric	nanogramsPerGram		-99999	Missing Value
+TGNEG	Amount of gram-negative bacterial Phospholipid Fatty Acids measured in dry peat and expressed as micrograms of PLFA per gram of dried peat	numeric	nanogramsPerGram		-99999	Missing Value
+TFUNGI	Amount of fungal Phospholipid Fatty Acids measured in dry peat and expressed as micrograms of PLFA per gram of dried peat	numeric	nanogramsPerGram		-99999	Missing Value
+TACTIN	Amount of Actinomycete Phospholipid Fatty Acids measured in dry peat and expressed as micrograms of PLFA per gram of dried peat	numeric	nanogramsPerGram		-99999	Missing Value
+FBRATIO	The ratio of Fungal to Bacterial Phospholipid Fatty Acids in a sample	numeric	dimensionless		-99999	Missing Value
+POSNEG	The ratio of gram-positive to gram-negative bacterial Phospholipid Fatty Acids in a sample	numeric	dimensionless		-99999	Missing Value

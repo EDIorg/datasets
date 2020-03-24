@@ -1,0 +1,28 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+YEAR	Year of growth: 2011-2015	Date		YYYY	-99999	Missing value
+NTRT	Field experimental N treatments were made with 8 applications per plot per year between mid May and mid August of each year	categorical			-99999	Missing value
+NDEP	Total N added to each of the N treatments including background N deposition (2 kg N/ha/yr in precipitation) and 1.1 kg N/ha/yr in stock water used for fertilization	categorical			-99999	Missing value
+ARM	Experimental plots were located along 3 arms; each arm had one replicate each of 8 N treatments	categorical			-99999	Missing value
+FRAME	Each frame in each plot has its own designation from 1 to 21 	categorical			-99999	Missing value
+ANDROM	Andromeda polifolia	numeric	dimensionless		-99999	Missing value
+CHAMAE	Chamaedaphne calyculata	numeric	dimensionless		-99999	Missing value
+ERIOPH	Eriophorum vaginatum	numeric	dimensionless		-99999	Missing value
+SCHEU	Scheuchzeria palustris  	numeric	dimensionless		-99999	Missing value
+OXY	Vaccinium oxycoccos	numeric	dimensionless		-99999	Missing value
+KALMIA	Kalmia polifolia	numeric	dimensionless		-99999	Missing value
+DROS	Drosera rotundifolia	numeric	dimensionless		-99999	Missing value
+RUBUS	Rubus chamaemorus	numeric	dimensionless		-99999	Missing value
+MTRIFO	Maianthemum trifolia	numeric	dimensionless		-99999	Missing value
+PICEA	Picea mariana	numeric	dimensionless		-99999	Missing value
+FUSC	Sphagnum fuscum	numeric	dimensionless		-99999	Missing value
+ANG	Sphagnum angustifolium	numeric	dimensionless		-99999	Missing value
+MAG	Sphagnum magellanicum	numeric	dimensionless		-99999	Missing value
+RUSSO	Sphagnum russowii	numeric	dimensionless		-99999	Missing value
+MYLIA	Mylia anomala	numeric	dimensionless		-99999	Missing value
+POHLIA	Pohlia nutans	numeric	dimensionless		-99999	Missing value
+FUNGUS	All fungi	numeric	dimensionless		-99999	Missing value
+CALIM	Carex limosa	numeric	dimensionless		-99999	Missing value
+CAAQU	Carex aquatilis	numeric	dimensionless		-99999	Missing value
+DOMSHR	"Dominant shrubs which include: Chamaedaphne calyculata,  Andromeda polifolia, Vaccinium oxycoccos, Kalmia polifolia"	numeric	dimensionless		-99999	Missing value
+ALLVASC	"All vascular plants combined which includes:  Chamaedaphne calyculata, Andromeda polifolia, Eriophorum vaginatum, Scheuchzeria palustris, Vaccinium oxycoccos, Kalmia polifolia, Drosera rotundifolia, Maianthemum trifolia, Rubus chamaemorus, Picea mariana, Carex limosa, Carex aquatilis"	numeric	dimensionless		-99999	Missing value
+SPHAGNUM	"Dominant three Sphagna species: Sphagnum fuscum, Sphagnum angustifolium, Sphagnum magellanicum "	numeric	dimensionless		-99999	Missing value

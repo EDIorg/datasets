@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+YEAR_PLACED_IN_THE_FIELD	Year filters were placed in field: 2012-2014	Date		YYYY	-99999	Missing value
+NTRT	Field experimental N treatments were made with 8 applications per plot per year between mid-May and mid-August of each year	categorical			-99999	Missing value
+NDEP	Total N added to each of the N treatments including background N deposition (2 kg N/ha/yr in precipitation) and 1.1 kg N/ha/yr in stock water used for fertilization	categorical			-99999	Missing value
+ARM	Experimental plots were located along 3 arms; each arm had one replicate each of 8 N treatments	categorical			-99999	Missing value
+PLOTID	Each plot of the experiment has a designated identification number 1-21	categorical			-99999	Missing value
+YRS_AT_RETRIEVAL	Length of time in field as a fraction of a year	numeric	dimensionless		-99999	Missing value
+PERCENT_LOSS	Mass lost from original mass	numeric	dimensionless		-99999	Missing value

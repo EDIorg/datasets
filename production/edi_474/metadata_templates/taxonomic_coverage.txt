@@ -1,0 +1,3 @@
+name	name_type	name_resolved	authority_system	authority_id
+bacteria	scientific	bacteria	ITIS	50
+fungi	scientific	fungi	ITIS	555705

@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+TUBE	5 replicate tubes	categorical			-99999	Missing value
+BATCH	Each season (deployment to recovery) represents a batch	categorical			-99999	Missing value
+SEASON	Tubes are replaced in the field in May and October every year yielding growing season deposition and Non-growing season deposition	categorical			-99999	Missing value
+START	Date of tube deployment	Date		YYYY-MM-DD	-99999	Missing value
+END	Date of tube collection	Date		YYYY-MM-DD	-99999	Missing value
+DAYS	Number of days in field	numeric	number		-99999	Missing value
+DAILYNH4NDEP	Ammonium deposition per meter squared per day	numeric	milligramsPerSquareMeterPerDay		-99999	Missing value
+DAILYNO3NDEP	Nitrate deposition per meter squared per day	numeric	milligramsPerSquareMeterPerDay		-99999	Missing value
+DAILYDINDEP	Total inorganic nitrogen deposition per meter squared per day	numeric	milligramsPerSquareMeterPerDay		-99999	Missing value

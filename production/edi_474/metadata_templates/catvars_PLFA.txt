@@ -1,0 +1,41 @@
+attributeName	code	definition
+ARM	1	Arm 1
+ARM	2	Arm 2
+ARM	3	Arm 3
+NTRT	C	"Control, no water, no N added"
+NTRT	0	0 kg N/ha/yr added as NH4-NO3
+NTRT	5	5 kg N/ha/yr added as NH4-NO3
+NTRT	10	10 kg N/ha/yr added as NH4-NO3
+NTRT	15	15 kg N/ha/yr added as NH4-NO3
+NTRT	20	20 kg N/ha/yr added as NH4-NO3
+NTRT	25	25 kg N/ha/yr added as NH4-NO3
+NDEP	2	2 kg N/ha/yr added as NH4-NO3
+NDEP	3.1	3.1 kg N/ha/yr added as NH4-NO3
+NDEP	8.1	8.1 kg N/ha/yr added as NH4-NO3
+NDEP	13.1	13.1 kg N/ha/yr added as NH4-NO3
+NDEP	18.1	18.1 kg N/ha/yr added as NH4-NO3
+NDEP	23.1	23.1 kg N/ha/yr added as NH4-NO3
+NDEP	28.1	28.1 kg N/ha/yr added as NH4-NO3
+PLOTID	1	Plot 1
+PLOTID	2	Plot 2
+PLOTID	3	Plot 3
+PLOTID	4	Plot 4
+PLOTID	5	Plot 5
+PLOTID	6	Plot 6
+PLOTID	7	Plot 7
+PLOTID	8	Plot 8
+PLOTID	9	Plot 9
+PLOTID	10	Plot 10
+PLOTID	12	Plot 12
+PLOTID	13	Plot 13
+PLOTID	14	Plot 14
+PLOTID	15	Plot 15
+PLOTID	16	Plot 16
+PLOTID	17	Plot 17
+PLOTID	19	Plot 18
+PLOTID	20	Plot 20
+PLOTID	21	Plot 21
+PLOTID	11	Plot 11
+PLOTID	18	Plot 18
+DEPTH	0-5	0-5 centimeters
+DEPTH	5-10	5-10 centimeters

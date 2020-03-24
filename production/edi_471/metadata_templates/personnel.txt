@@ -1,0 +1,15 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+R	Kelman	Wieder	Villanova University	kelman.wieder@villanova.edu	0000-0001-5856-8473	Creator			
+Dale	H	Vitt	Southern Illinois University	dvitt@siu.edu		Creator			
+Melanie	A	Vile	Villanova University	mvile@villanova.edu		Creator			
+Jeremy	A	Graham	Southern Illinois University	jeremyg@mtu.edu		Creator			
+Jeremy	A	Hartsock	Southern Illinois University	hartsock@siu.edu		Creator			
+Jacqueline	M.A.	Popma	University of Michigan	popmaj@umich.edu		Creator			
+Hope		Fillingim	Villanova University	fillingimhope@gmail.com		Creator			
+Melissa		House	Southern Illinois University	mhouse@siu.edu		Creator			
+James	C	Quinn	Villanova University	jcqui03@gmail.com		Creator			
+Kimberli	D	Scott	Villanova University	kscott@villanova.edu		Creator			
+Meaghan		Petix	Southern Illinois University	meaghan.petix@wsu.edu		Creator			
+Kelly	J	McMillen	Villanova University	Kelly.Mcmillen@ttu.edu		Creator			
+R	Kelman	Wieder	Villanova University	kelman.wieder@villanova.edu	0000-0001-5856-8473	Contact			
+R	Kelman	Wieder	Villanova University	kelman.wieder@villanova.edu	0000-0001-5856-8473	PI	Nitrogen Addition Experiments in Boreal Ecosystems:  Understanding the Fate of Atmospherically Deposited Nitrogen in order to Determine Nitrogen Critical Loads	Cumulative Environmental Management Association (CEMA)	2011-0003
