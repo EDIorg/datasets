@@ -1,0 +1,31 @@
+keyword	keywordThesaurus
+Yolo Bypass	
+San Francisco Estuary	
+Sacramento-San Joaquin Delta	
+Yolo Bypass Fish Monitoring Program	
+California Department of Water Resources	
+Interagency Ecological Program	
+copepods	
+calanoids	
+cladocera	
+lower trophic monitoring	
+aquatic ecosystems	
+freshwater	
+ecology	
+estuaries	
+rivers	
+floodplain	
+seasonality	
+long term	
+communities	
+food webs	
+surveys	
+weather	
+turbidity	
+ph	
+electrical conductivity	
+water temperature	
+water quality	
+crustaceans	
+invertebrates	
+zooplankton	

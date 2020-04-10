@@ -1,0 +1,23 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+		Interagency Ecological Program (IEP)				creator			
+Brian	M	Schreier	DWR	Brian.Schreier@water.ca.gov	0000-0002-5075-3946	creator			
+Catarina	L	Pien	DWR	Catarina.Pien@water.ca.gov	0000-0003-4427-6300	creator			
+Jesse	B	Adams	DWR	Jesse.Adams@water.ca.gov	0000-0002-0739-8782	creator			
+Brian		Schreier	DWR	Brian.Schreier@water.ca.gov	0000-0002-5075-3946	contact			
+Catarina	L	Pien	DWR	Catarina.Pien@water.ca.gov	0000-0003-4427-6300	contact			
+Jesse	B	Adams	DWR	Jesse.Adams@water.ca.gov	0000-0002-0739-8782	contact			
+Mallory		Bedwell	DWR	Mallory.Bedwell@water.ca.gov	0000-0001-9553-6032	contact			
+Catarina		Pien	DWR	Catarina.Pien@water.ca.gov	0000-0003-4427-6300	Field crew			
+Jared		Frantzich	DWR	Jared.Frantzich@water.ca.gov		Field crew			
+Brittany		Davis	DWR	Brittany.Davis@water.ca.gov	0000-0003-3752-1830	Field crew			
+Naoaki		Ikemiyagi	DWR	Naoaki.Ikemiyagi@water.ca.gov		Field crew			
+Mallory		Bedwell	DWR	Mallory.Bedwell@water.ca.gov	0000-0001-9553-6032	Field crew			
+Nicole		Kwan	DWR	Nicole.Kwan@water.ca.gov	0000-0003-1178-7788	Field crew			
+Jesse		Adams	DWR	Jesse.Adams@water.ca.gov	0000-0002-0739-8782	Field crew			
+Craig		Stuart	DWR	Craig.Stuart@water.ca.gov		"Field crew, data entry"			
+James		Robinson	DWR	James.Robinson@water.ca.gov		"Field crew, data entry"			
+Amanda		Casby	DWR	Amanda.Casby@water.ca.gov		"Field crew, data entry"			
+Jeff		Jenkins	DWR	Jeff.Jenkins@water.ca.gov		"Field crew, data entry"			
+Ted		Sommer	DWR	Ted.Sommer@water.ca.gov		Associate			
+Louise		Conrad	DSC	Louise.Conrad@deltacouncil.ca.gov		Associate			
+Brian		Schreier	DWR	Brian.Schreier@water.ca.gov	0000-0002-5075-3946	Associate			

@@ -1,0 +1,48 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Date	Date of sample	Date		YYYY-MM-DD	NA	Not available
+Time	Time of sample	Date		hh:mm:ss	NA	Not available
+StationCode	Sample Site 	categorical			NA	Not available
+WeatherCode	Weather at time of water quality sample	categorical			NA	Not available
+Tide	Tidal stage	categorical			NA	Not available
+WY	Water Year	numeric	dimensionless		NA	Not available
+WaterTemperature	Temperature of water	numeric	celsius		NA	Not available
+Secchi	Secchi depth sample collected 	numeric	meter		NA	Not available
+Conductivity	Electrical conductivity of water 	numeric	microSeimenPerCentimeter		NA	Not available
+SpCnd	Specific conductivity of water 	numeric	microSeimenPerCentimeter		NA	Not available
+pH	Total pH of water 	numeric	dimensionless		NA	Not available
+DO	Dissolved oxygen concentration 	numeric	milligramsPerLiter		NA	Not available
+Turbidity	Turbidity of water 	numeric	nephelometricTurbidityUnit		NA	Not available
+MicrocystisVisualRank	Visual rating of Microcystis in sampled body	categorical			NA	Not available
+ConditionCode	Condition of gear during sample such as high debris	categorical			NA	Not available
+FieldComments	Field comments	character			NA	Not available
+LabComments	Comments from contractor	character			NA	Not available
+MeshSize	Mesh size of zooplankton net	categorical			NA	Not available
+FlowMeterSpeed	Flowmeter speed (2 types of flowmeters)	categorical			NA	Not available
+SetTime	Amount of time zooplankton net was set	numeric	minute		NA	Not available
+FlowMeterStart	Starting flowmeter value	numeric	dimensionless		NA	Not available
+FlowMeterEnd	End flowmeter value	numeric	dimensionless		NA	Not available
+Flowdiff	Original calculated flowmeter difference 	numeric	dimensionless		NA	Not available
+Flowdiff_ed	"Replaced flowmeter difference values, accounting for QC as described above"	numeric	dimensionless		NA	Not available
+VolMeso	Sample volume for mesozooplankton and microzooplankton	numeric	milliliter		NA	Not available
+SubMeso	Subsample volume for mesozooplankton and microzooplankton	numeric	milliliter		NA	Not available
+VolMicro	Sample volume for microzooplankton & nauplii	numeric	milliliter		NA	Not available
+SubMicro	Subsample volume for microzooplankton & nauplii	numeric	milliliter		NA	Not available
+Subsample	Number of subsamples	numeric	dimensionless		NA	Not available
+PropSubsampled	Proportion subsampled (total subsample volume)/(volume of sample sent to contractors)	numeric	dimensionless		NA	Not available
+VolNet	Total volume of water sampled in net	numeric	liter		NA	Not available
+VolNet_ed	Edited volume sampled based on replaced flowdiff	numeric	liter		NA	Not available
+OrganismID	In-house organism ID (Used to connect to taxonomic table)	numeric	dimensionless		NA	Not available
+TaxonName	Lowest taxon determined	character			NA	Not available
+TaxonRank	Rank of lowest taxon determined	character			NA	Not available
+LifeStage	Life stage determined 	character			NA	Not available
+Count	Number of zooplankton enumerated	numeric	number		NA	Not available
+CPUE	Catch per unit effort	numeric	numberPerMeterCubed		NA	Not available
+CPUE_ed	"Re-calculated CPUE, accounting for QC as described above"	numeric	numberPerMeterCubed		NA	Not available
+Flag_PQC	Flag for Physical data QC	numeric	dimensionless		NA	Not available
+Comment_PQC	Comment for Physical data QC (described above)	character			NA	Not available
+Flag_QC1	Flag for Flowmeter QC1 (described above)	numeric	dimensionless		NA	Not available
+Comment_QC1	Comment for QC1	character			NA	Not available
+Flag_QC2	Flag for Sampling QC2 (described above)	numeric	dimensionless		NA	Not available
+Comment_QC2	Comment for QC2	character			NA	Not available
+Flag_QC3	Flag for CPUE QC3 (described above)	numeric	dimensionless		NA	Not available
+Comment_QC3	Comment for QC3	character			NA	Not available

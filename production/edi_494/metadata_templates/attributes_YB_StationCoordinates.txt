@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+StationCode	Sampling Station	categorical				
+StationName	Station name	character				
+Latitude	Latitude of sample location	numeric	degree			
+Longitude	Longitude of sample location	numeric	degree			

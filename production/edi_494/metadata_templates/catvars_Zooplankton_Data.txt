@@ -1,0 +1,19 @@
+attributeName	code	definition
+StationCode	SHR	Sherwood Harbor
+StationCode	STTD	Screw Trap at Toe Drain
+WeatherCode	CLR	Direct sunlight
+WeatherCode	CLD	Overcast/Cloud cover >50%
+WeatherCode	RAN	Precipitation
+WeatherCode	FOG	Foggy
+Tide	Ebb	Ebb tide
+Tide	Flood	Flood tide
+Tide	High	High tide
+MicrocystisVisualRank	2	Low-widely scattered
+MicrocystisVisualRank	1	Microcystis absent
+ConditionCode	1	Good/normal
+ConditionCode	2	"Fair (partial block, etc.)"
+ConditionCode	3	Poor (total block)
+MeshSize	150_micron	150_micron
+MeshSize	50_micron	50_micron
+FlowMeterSpeed	Regular	Used for all other flows
+FlowMeterSpeed	Low	Used for low flow

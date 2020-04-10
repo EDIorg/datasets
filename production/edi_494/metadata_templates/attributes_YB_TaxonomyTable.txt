@@ -1,0 +1,22 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+OrganismID	In-house organism ID (Used to connect to catch and water quality table)	numeric	dimensionless		NA	Not available
+Kingdom	Taxonomic Kingdom	character			NA	Not available
+Phylum	Taxonomic Phylum	character			NA	Not available
+Subphylum	Taxonomic Subphylum	character			NA	Not available
+Class	Taxonomic Class	character			NA	Not available
+Subclass	Taxonomic Subclass	character			NA	Not available
+Infraclass	Taxonomic Infraclass	character			NA	Not available
+Superorder	Taxonomic Superorder	character			NA	Not available
+Order	Taxonomic Order	character			NA	Not available
+Suborder	Taxonomic Suborder	character			NA	Not available
+Infraorder	Taxonomic Infraorder	character			NA	Not available
+Superfamily	Taxonomic Superfamily	character			NA	Not available
+Family	Taxonomic Family	character			NA	Not available
+Genus	Taxonomic Genus	character			NA	Not available
+Species	Species designation	character			NA	Not available
+TaxonName	Lowest taxon determined	character			NA	Not available
+TaxonRank	Rank of lowest taxon determined	character			NA	Not available
+LifeStage	Life stage determined	character			NA	Not available
+CommonName	Common name of taxa	character			NA	Not available
+Classification	Broader taxonomic classification provided by contractor (Used for CPUE calculations – differentiates mesozooplankton and microzooplankton from microzooplankton & nauplii)	character			NA	Not available
+Organism	More specific taxonomic classification provided by contractor	character			NA	Not available
