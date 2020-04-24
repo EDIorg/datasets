@@ -1,0 +1,2 @@
+id	unitType	parentSI	multiplierToSI	description
+centimetersSquaredPerGram	Areal mass	metersSquaredPerKilogram	0.1	centimetersSquaredPerGram

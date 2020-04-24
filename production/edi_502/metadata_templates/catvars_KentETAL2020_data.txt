@@ -1,0 +1,69 @@
+attributeName	code	definition
+site	BLM	"Bureau of Land Management, Monte Vista, CO"
+site	BNP	Big Bend National Park
+site	CAD	"Lyndon B Johnson National Grasslands , Alvord, Texas"
+site	CNF	Carson National Forest
+site	CPR	Central Plains Experimental Range
+site	CPR-EDGE	Central Plains Experimental Range
+site	DMT	"Davis Mountains, Texas"
+site	FCP	Four Canyons Preserve
+site	FMT	Florida Mountains
+site	GMT	Guadelupe Mountains
+site	GNF	Gila National Forest
+site	HAR	Hays Agricultural Research Center
+site	HAR-EDGE	Hays Agricultural Research Center
+site	HPG	High Plains Grassland Research Center
+site	HPG-EDGE	High Plains Grassland Research Center
+site	KAE	Kessler Atmospheric and Ecological Field Station
+site	KNZ	Konza Prairie Biological Station
+site	KNZ-EDGE	Konza Prairie Biological Station
+site	LAR	Lillian Annette Rowe Sanctuary and Iain Nicolson Audubon Center
+site	LBJ	Ladybird Johnson Wildflower Center
+site	NWP	Nickel Family Nature and Wildlife Preserve
+site	ONF	Oauchita National Forest
+site	RNF	Rio Grande National Forest
+site	SCP	Spring Creek Prairie Audubon Center
+site	SEV	Sevilleta National Wildlife Refuge
+site	SEV-EDGE	Sevilleta National Wildlife Refuge
+site	SFA	Stephen F. Austin Experimental Forest
+site	UHC	University of Houston Coastal Center
+location	A	location A
+location	B	locatoin B
+location	C	location C
+gradient	West	West gradient
+gradient	Middle	Middle gradient
+gradient	East	East gradient
+species	BOGR	Bourteloua dactyloides
+species	SCSC	Schizachyrium scoparium
+species	BOER	Bouteloua gracilis
+species	BUDA	Schizachyrium scoparium
+species	ANGE	Andropogon gerardii
+individual	1	Individual 1
+individual	2	Individual 2
+individual	3	Individual 3
+individual	4	Individual 4
+individual	5	Individual 5
+individual	6	Individual 6
+individual	7	Individual 7
+individual	8	Individual 8
+individual	9	Individual 9
+individual	10	Individual 10
+individual	11	Individual 11
+individual	12	Individual 12
+individual	13	Individual 13
+individual	14	Individual 14
+individual	15	Individual 15
+individual	16	Individual 16
+individual	17	Individual 17
+individual	18	Individual 18
+individual	19	Individual 19
+individual	20	Individual 20
+individual	21	Individual 21
+individual	22	Individual 22
+individual	23	Individual 23
+individual	24	Individual 24
+individual	25	Individual 25
+individual	27	Individual 27
+individual	30	Individual 30
+individual	26	Individual 26
+individual	29	Individual 29

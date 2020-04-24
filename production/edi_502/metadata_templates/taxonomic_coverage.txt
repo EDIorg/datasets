@@ -1,0 +1,6 @@
+name	name_type	name_resolved	authority_system	authority_id
+Boutelou gracilis	scientific	Boutelou gracilis	IT IS	41493
+Buchloe dactyloides	scientific	Buchloe dactyloides	IT IS	41533
+Bouteloua eriopoda	scientific	Bouteloua eriopoda	IT IS	41501
+Andropogon gerardii	scientific	Andropogon gerardii	IT IS	40462
+Schizachyrium scoparium	scientific	Schizachyrium scoparium	IT IS	42076

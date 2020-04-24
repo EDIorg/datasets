@@ -1,0 +1,18 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Dylan	R	Kent	University of New Mexico	dylan.raingo@gmail.com	0000-0001-6978-6353	creator			
+Joshua	S	Lynn	"University of New Mexico; University of Bergen, Norway"	Joshua.Lynn@uib.no	0000-0002-7190-7991	creator			
+Steven	C	Pennings	University of Houston	scpennin@Central.UH.EDU	0000-0003-4757-7125	creator			
+Lara	A	Souza	University of Oklahoma	lara.souza@ou.edu	0000-0001-6005-8667	creator			
+Melinda	D	Smith	Colorado State Univsersity	Melinda.Smith@colostate.edu	0000-0003-4920-6985	creator			
+Jennifer	A	Rudgers	University of New Mexico	jrudgers@unm.edu	0000-0001-7094-4857	creator			
+Dylan	R	Kent	University of New Mexico	dylan.raingo@gmail.com	0000-0001-6978-6353	contact			
+Kendall		Beals	University of New Mexico	kendallkbeals@gmail.com		Data collection			
+Anny		Chung	University of New Mexico	yyachung@gmail.com		Data collection			
+Jennifer		Bell	University of New Mexico	jbell364@gmail.com		Data collection			
+Dave		Van Horn	University of New Mexico	vanhorn@unm.edu		Soil analysis			
+Kaitlin		Bacon	University of Oklahoma			Trait measurement			
+Tess		Hartog	University of Oklahoma			Trait measurement			
+Greg		Mauer	University of New Mexico	greg@pronghorns.net		Climate data retrieval			
+Jennifer	A	Rudgers	University of New Mexico	jrudgers@unm.edu	0000-0001-7094-4857	PI	COLLABORATIVE RESEARCH: Parsing the effects of host specificity and geography on plant-fungal symbioses under climate change	NSF DEB	1456955
+Scott		Collins		scollins@unm.edu	0000-0002-0193-2892	PI	Collaborative Research: Grassland Sensitivity to Climate Change at Local to Regional Scales: Assessing the Role of Ecosystem Attributes vs. Environmental Context	NSF EF	1137363
+Steven	C	Pennings	University of Houston	scpennin@Central.UH.EDU	0000-0003-4757-7125	PI	 LTER: Georgia Coastal Ecosystems-III	NSF OCE	1237140

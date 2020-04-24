@@ -1,0 +1,30 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Site name of data location	categorical			NA	Missing value
+location	Location within a site for data collection	categorical			NA	Missing value
+gradient	One of three longitudinal transect gradients 	categorical			NA	Missing value
+latitude	Latitude of the data collection site (WGS 84)	numeric	degree		NA	Missing value
+longitude	Longitude of the data collection site (WGS 84)	numeric	degree		NA	Missing value
+elevation	Elevation of data collection site above sea level	numeric	meter		NA	Missing value
+date_collected	Date of data collection	Date		YYYY-MM-DD	NA	Missing value
+species	"Species the data was collected for in four letter codes with first two letters referring to the genus and second two letters referring to species name (i.e., Andropogon gerardii =ANGE, Bouteloua eriopoda = BOER, Bouteloua gracilis = BOGR, Bourteloua dactyloides =BUDA; Schizachyrium scoparium= SCSC)"	categorical			NA	Missing value
+individual	Identifier of the individual plant of data collection	categorical			NA	Missing value
+herbiv1	Percent herbivory estimate of the first replicate leaf per individual	numeric	dimensionless		NA	Missing value
+herbiv1int	herbiv1 as an integer	numeric	number		NA	Missing value
+herbiv2	Percent herbivory estimate of the second replicate leaf per individual	numeric	dimensionless		NA	Missing value
+herbiv2int	herbiv2 as an integer	numeric	number		NA	Missing value
+herbavg	Mean herbivory of an individual from herbiv1 and herbiv2	numeric	dimensionless		NA	Missing value
+herb_site	Mean herbivory of a species per site based on herbavg	numeric	dimensionless		NA	Missing value
+GDD30	Growing degree days over 30-year climate average	numeric	celsius		NA	Missing value
+GDD3	Growing degree days over 3-year climate average	numeric	celsius		NA	Missing value
+GDD2015	Growing degree days in the year of sampling (2015)	numeric	celsius		NA	Missing value
+ppt30	Growing season precipitation over 30-year climate average	numeric	millimeter		NA	Missing value
+ppt3	Growing season precipitation over 3-year climate average	numeric	millimeter		NA	Missing value
+ppt2015	Growing season precipitation in year of sampling (2015)	numeric	millimeter		NA	Missing value
+pH	Soil pH from under plants per species averaged per site	numeric	dimensionless		NA	Missing value
+Phos	Soil phosphorus from under plants per species averaged per site	numeric	milligramsPerLiter		NA	Missing value
+Nitr	Soil nitrogen (NH4 + NO3) from under plants per species averaged per site	numeric	milligramsPerLiter		NA	Missing value
+SOM	Soil organic matter (SOM) from under plants per species averaged per site	numeric	dimensionless		NA	Missing value
+SLA	Specific leaf area per species averaged per site	numeric	centimetersSquaredPerGram		NA	Missing value
+SRL	Specific root length per species averaged per site	numeric	centimetersSquaredPerGram		NA	Missing value
+notes	General notes about a data row	character			NA	Missing value
+lherbsite	Logit transformed herb_site	numeric	dimensionless		NA	Missing value
