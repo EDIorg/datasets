@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station_Long_Name		character				
+Station_Short_Name		character				
+Latitude		numeric	!Add units here!			
+Longitude		numeric	!Add units here!			

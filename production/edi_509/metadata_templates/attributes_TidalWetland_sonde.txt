@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station_Short_Name		character				
+Date_Time_ISO		Date		!Add datetime specifier here!		
+Water_Temp		numeric	!Add units here!			
+Water_Temp_Qual_Code		numeric	!Add units here!			
+Depth		numeric	!Add units here!			
+Depth_Qual_Code		numeric	!Add units here!			
+Salinity		numeric	!Add units here!			
+Salinity_Qual_Code		numeric	!Add units here!			
+Turbidity		numeric	!Add units here!			
+Turbidity_Qual_Code		numeric	!Add units here!			
+Specific_Conductance		numeric	!Add units here!			
+Specific_Conductance_Qual_Code		numeric	!Add units here!			
+DO_Sat		numeric	!Add units here!			
+DO_Sat_Qual_Code		numeric	!Add units here!			
+DO		numeric	!Add units here!			
+DO_Qual_Code		numeric	!Add units here!			
+Chlorophyll		numeric	!Add units here!			
+Chlorophyll_Qual_Code		numeric	!Add units here!			

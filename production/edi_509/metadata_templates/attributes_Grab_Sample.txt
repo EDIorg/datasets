@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station_Short_Name		categorical				
+Sample_Code		categorical				
+Collection_Date_ISO		Date		!Add datetime specifier here!		
+Analyte		categorical				
+Result		categorical				
+Rpt_Limit		numeric	!Add units here!			
+Units		categorical				
+Method		categorical				
+Depth		categorical				
+Matrix		categorical				
+Purpose		categorical				
+Parent_Sample		categorical				
+Description		categorical				
+V14		categorical				

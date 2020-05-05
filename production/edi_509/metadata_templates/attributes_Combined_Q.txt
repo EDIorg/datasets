@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station_Short_Name		character				
+Date_Time_ISO		Date		!Add datetime specifier here!		
+Flow		numeric	!Add units here!			
+Flow_Qual_Code		numeric	!Add units here!			
+Velocity		numeric	!Add units here!			
+Velocity_Qual_Code		numeric	!Add units here!			
+Water_Level		numeric	!Add units here!			
+Water_Level_Qual_Code		numeric	!Add units here!			
