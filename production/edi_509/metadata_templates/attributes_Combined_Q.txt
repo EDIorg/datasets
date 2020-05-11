@@ -1,9 +1,1 @@
-attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Station_Short_Name		character				
-Date_Time_ISO		Date		!Add datetime specifier here!		
-Flow		numeric	!Add units here!			
-Flow_Qual_Code		numeric	!Add units here!			
-Velocity		numeric	!Add units here!			
-Velocity_Qual_Code		numeric	!Add units here!			
-Water_Level		numeric	!Add units here!			
-Water_Level_Qual_Code		numeric	!Add units here!			
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationStation_Short_Name	Tidal wetland sampling station short name	character				Date_Time_ISO	Date and time in ISO 8601 Pacific Standard Time. No daylight time observed.	Date		YYYY-MM-DDThh:mm:ss		Flow	Water flow	numeric	cubicFeetPerSecond			Flow_Qual_Code	Flow data quality code	categorical				Velocity	Water velocity	numeric	feetPerSecond			Velocity_Qual_Code	Velocity data quality code	categorical				Water_Level	Water level	numeric	foot			Water_Level_Qual_Code	Water level data quality code	categorical				

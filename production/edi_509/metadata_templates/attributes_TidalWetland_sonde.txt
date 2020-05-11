@@ -1,19 +1,1 @@
-attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Station_Short_Name		character				
-Date_Time_ISO		Date		!Add datetime specifier here!		
-Water_Temp		numeric	!Add units here!			
-Water_Temp_Qual_Code		numeric	!Add units here!			
-Depth		numeric	!Add units here!			
-Depth_Qual_Code		numeric	!Add units here!			
-Salinity		numeric	!Add units here!			
-Salinity_Qual_Code		numeric	!Add units here!			
-Turbidity		numeric	!Add units here!			
-Turbidity_Qual_Code		numeric	!Add units here!			
-Specific_Conductance		numeric	!Add units here!			
-Specific_Conductance_Qual_Code		numeric	!Add units here!			
-DO_Sat		numeric	!Add units here!			
-DO_Sat_Qual_Code		numeric	!Add units here!			
-DO		numeric	!Add units here!			
-DO_Qual_Code		numeric	!Add units here!			
-Chlorophyll		numeric	!Add units here!			
-Chlorophyll_Qual_Code		numeric	!Add units here!			
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationStation_Short_Name	Tidal wetland sampling station short name	character				Date_Time_ISO	Date and time in ISO 8601 Pacific Standard Time. No daylight time observed.	Date		YYYY-MM-DDThh:mm:ss		Water_Temp	Water temperature	numeric	celsius			Water_Temp_Qual_Code	Water temperature data quality code	categorical				Depth	Depth of sonde under water	numeric	meter			Depth_Qual_Code	Water depth quality code	categorical				Salinity	Water salinity (ppt)	numeric	dimensionless			Salinity_Qual_Code	Water salinity quality code	categorical				Turbidity	Water turbidity (NTU i.e. nephelometric turbidity units)	numeric	dimensionless			Turbidity_Qual_Code	Water turbidity quality code	categorical				Specific_Conductance	Water specific conductance	numeric	microSiemensPerCentimeter			Specific_Conductance_Qual_Code	Water specific conductance quality code	categorical				DO_Sat	Percent saturation of dissolved oxygen in water	numeric	percentSaturation			DO_Sat_Qual_Code	Dissolved oxygen saturation quality code	categorical				DO	Dissolved oxygen concentration in water	numeric	milligramsPerLiter			DO_Qual_Code	Dissolved oxygen concentration quality code	categorical				Chlorophyll	"Total chlorophyll (RFU, i.e. relative fluorescence units)"	numeric	dimensionless			Chlorophyll_Qual_Code	Total chlorophyll quality code	categorical				
