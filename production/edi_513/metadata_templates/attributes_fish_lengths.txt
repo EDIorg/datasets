@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site.id	Character abbreviation for village/reserve sites.	character			NA	Missing value
+res	Res = reserve; designates whether the fish survey was done inside a no-take community-based reserve or not.	categorical			NA	Missing value
+fish.id	Xx.xx abbreviation of Genus species of fish	character			NA	Missing value
+rep	Replicate number of fish length per reserve or non-reserve site	numeric	dimensionless		NA	Missing value
+length.cm	"Length estimate for fish observed by species. Lengths were estimated for each fish if fewer than 10 individuals were observed. When more than 10 individuals were observed, observers reported 10 length estimates for each species."	numeric	centimeter		NA	Missing value
+prop	Proportion of fish observed for reserve or non-reserve location corresponding to the length estimate; This was only used when we observed substantial size differences between the 2 reserve or non-reserve surveys.	numeric	dimensionless		NA	Missing value

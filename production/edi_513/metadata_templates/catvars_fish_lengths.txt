@@ -1,0 +1,3 @@
+attributeName	code	definition
+res	Y	"Yes, inside reserve"
+res	N	"No, outside reserve"

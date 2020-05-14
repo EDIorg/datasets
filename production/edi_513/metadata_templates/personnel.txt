@@ -1,0 +1,12 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Aaron	A	Koning	University of Wisconsin-Madison; Cornell University	koning@cornell.edu	0000-0002-1222-8972	creator			
+Kousei	M	Perales	University of Wisconsin-Madison	kperales@wisc.edu	0000-0003-3394-5716	creator			
+Etienne		Fluet-Chouinard	University of Wisconsin-Madison; Stanford University	efluet@stanford.edu	0000-0003-4380-2153	creator			
+Peter	B	McIntyre	University of Wisconsin-Madison; Cornell University	pbm3@cornell.edu	0000-0003-1809-7552	creator			
+Aaron	A	Koning	University of Wisconsin-Madison; Cornell University	koning@cornell.edu	0000-0002-1222-8972	contact			
+Aaron	A	Koning	University of Wisconsin-Madison; Cornell University	koning@cornell.edu	0000-0002-1222-8972	PI	Integrative Graduate Education and Research Traineeship	National Science Foundation	DGE-1144752
+Aaron	A	Koning	University of Wisconsin-Madison; Cornell University	koning@cornell.edu	0000-0002-1222-8972	PI	Graduate Research Fellowship	National Science Foundation	DGE-0718123
+Aaron	A	Koning	University of Wisconsin-Madison; Cornell University	koning@cornell.edu	0000-0002-1222-8972	PI	Dissertation Improvement Grant	National Science Foundation	DEB-15011836
+Aaron	A	Koning	University of Wisconsin-Madison; Cornell University	koning@cornell.edu	0000-0002-1222-8972	PI	Harvey Fellowship	Mustard Seed Foundation	
+Kousei	M	Perales	University of Wisconsin-Madison	kperales@wisc.edu	0000-0003-3394-5716	PI	Integrative Graduate Education and Research Traineeship	National Science Foundation	DGE-1144752
+Peter	B	McIntyre	University of Wisconsin-Madison; Cornell University	pbm3@cornell.edu	0000-0003-1809-7552	PI	Early Career Packard Award	David and Lucile Packard Foundation	NA

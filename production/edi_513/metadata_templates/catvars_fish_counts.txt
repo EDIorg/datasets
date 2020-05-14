@@ -1,0 +1,7 @@
+attributeName	code	definition
+res	N	"No, outside reserve"
+res	Y	"Yes, inside reserve"
+rep	1	Replicate 1
+rep	2	Replicate 2
+obs	aak	Aaron Koning
+obs	kmp	Martin Perales

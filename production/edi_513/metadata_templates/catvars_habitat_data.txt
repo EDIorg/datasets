@@ -1,0 +1,31 @@
+attributeName	code	definition
+res	N	"No, outside reserve"
+res	Y	"Yes, inside reserve"
+plot	1	Plot 1
+plot	2	Plot 2
+plot	3	Plot 3
+plot	4	Plot 4
+trans	2	Transect 2
+trans	3	Transect 3
+trans	4	Transect 4
+trans	5	Transect 5
+trans	6	Transect 6
+trans	1	Transect 1
+point	10	Point estimate 10
+point	3	Point estimate 3
+point	7	Point estimate 7
+point	8	Point estimate 8
+point	9	Point estimate 9
+point	2	Point estimate 2
+point	4	Point estimate 4
+point	6	Point estimate 6
+point	1	Point estimate 1
+point	5	Point estimate 5
+sub.cat	B	Boulder
+sub.cat	BR	Bedrock
+sub.cat	CB	Cobble
+sub.cat	G	Gravel
+sub.cat	PB	Pebble
+sub.cat	PG	Pea gravel
+sub.cat	SD	Sand
+sub.cat	ST	Silt

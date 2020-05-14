@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+fish.id	Ge.sp abbreviation for fish Genus and species	character			NA	Missing value
+A.cm	The A coefficient for the equation Weight = A*Length^B	numeric	dimensionless		NA	Missing value
+B	The B coefficient for the equation Weight = A*Length^B	numeric	dimensionless		NA	Missing value

@@ -1,0 +1,41 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site.id	Character abbreviation for village/reserve sites.	character			NA	Missing value
+res	Res = reserve; designates whether the fish survey was done inside a no-take community-based reserve or not.	categorical			NA	Missing value
+rep	"Replicate number, two replicate counts were made at each reserve (res) by 2 observers"	categorical			NA	Missing value
+obs	ID of observer making counts	categorical			NA	Missing value
+area	Total area surveyed by observer	numeric	number		NA	Missing value
+Ba.de	Counts of Bangana devdevi individuals	numeric	number		NA	Missing value
+Ba.or	Counts of Barilius ornatus individuals	numeric	number		NA	Missing value
+Ch.ba	Counts of Chagunius baileyi individuals	numeric	number		NA	Missing value
+Ch.bu	Counts of Channa harcourtbutleri individuals	numeric	number		NA	Missing value
+Ch.st	Counts of Channa striata individuals	numeric	number		NA	Missing value
+Cr.bu	Counts of Crossocheilus burmanicus individuals	numeric	number		NA	Missing value
+Da.pu	Counts of Danio albolineatus individuals	numeric	number		NA	Missing value
+De.sp	Counts of Devario sp. individuals	numeric	number		NA	Missing value
+Fo.br	Counts of Folifer brevifilis individuals	numeric	number		NA	Missing value
+Ga.na	Counts of Garra nasuta individuals	numeric	number		NA	Missing value
+Gl.sp	Counts of Glyptothorax sp. individuals	numeric	number		NA	Missing value
+Ha.sa	Counts of Hampala salweenensis individuals	numeric	number		NA	Missing value
+He.mi	Counts of Hemibagrus microphthalmus individuals	numeric	number		NA	Missing value
+Ho.bu	Counts of Homaloptera sp. individuals	numeric	number		NA	Missing value
+Hy.sa	Counts of Hypsibarbus salweenensis individuals	numeric	number		NA	Missing value
+La.ro	Counts of Labeo rohita individuals	numeric	number		NA	Missing value
+Ma.ar	Counts of Mastacembelus armatus individuals	numeric	number		NA	Missing value
+My.ar	Counts of Mystacoleucus argenteus  individuals	numeric	number		NA	Missing value
+Nema	Counts of nemacheiline loach individuals	numeric	number		NA	Missing value
+Ne.st	Counts of Neolissochilus stracheyi individuals	numeric	number		NA	Missing value
+No.no	Counts of Notopterus notopterus individuals	numeric	number		NA	Missing value
+Pa.vo	Counts of Parambassis vollmeri individuals	numeric	number		NA	Missing value
+Pe.st	Counts of Pethia stoliczkana individuals	numeric	number		NA	Missing value
+Po.sp	Counts of Poropuntius sp. individuals	numeric	number		NA	Missing value
+Pu.gr	Counts of unidentified Puntius-type ‘grey’ individuals	numeric	number		NA	Missing value
+Pu.re	Counts of unidentified Puntius-type ‘red’ individuals	numeric	number		NA	Missing value
+Ra.da	Counts of Rasbora daniconius individuals	numeric	number		NA	Missing value
+Ra.gu	Counts of Raiamas guttatus individuals	numeric	number		NA	Missing value
+Sc.bu	Counts of Scaphiodonichthys burmanicus individuals	numeric	number		NA	Missing value
+Sp.ac	Counts of Sperata acicularis individuals	numeric	number		NA	Missing value
+Sy.ru	Counts of Systomus rubripinnus individuals	numeric	number		NA	Missing value
+To.sp	Counts of Tor sp. individuals	numeric	number		NA	Missing value
+Xe.ca	Counts of Xenentodon cancila individuals	numeric	number		NA	Missing value
+YOY.ns	Counts of Young-of-year Neolisshochilus stracheyi individuals	numeric	number		NA	Missing value
+YOY.un	Counts of Young-of-year unidentified individuals	numeric	number		NA	Missing value

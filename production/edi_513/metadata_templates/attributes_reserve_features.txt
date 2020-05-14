@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site.id	Character abbreviation for village/reserve sites.	character			NA	Missing value
+yrs.prot	Number of years since reserve establishment as of spring 2018	numeric	number		NA	Missing value
+houses	Number of houses (households) in the community having established the reserve as reported by village leader.	numeric	dimensionless		NA	Missing value
+pen	"Whether an community had an explicit penalty for non-compliance (i.e., fishing in reserve)"	categorical			NA	Missing value
+discharge	The total flow of water in the river at the community reserve	numeric	cubicMetersPerSecond		NA	Missing value
+bet.cent.n	"A network analysis measure of the importance or a given node, in this case a reserve, in relation to the network position of all other nodes (reserves). Zero is low, 1 is maximum in normalized betweenness centrality presented here. See calculation in Methods."	numeric	dimensionless		NA	Missing value
+res.area	Total reserve area calculated as the length of a reserve along the river from GIS analysis multiplied by the average width measured in habitat variables.	numeric	squareMeter		NA	Missing value
+rd.dist	The shortest Euclidean distance between a point on the digitized road network in the valley and the digitized reserve length	numeric	meter		NA	Missing value
+vil.dist	The shortest Euclidean distance between the village center coordinates and the digitized reserve length.	numeric	meter		NA	Missing value
+clo.res.dist	The shortest distance along the river network between a reserve (the upstream or downstream border) and the nearest reserve’s border.	numeric	meter		NA	Missing value
+mouth.dist	The distance along the river network from the downstream border of a reserve and the mouth of the Ngao River.	numeric	meter		NA	Missing value

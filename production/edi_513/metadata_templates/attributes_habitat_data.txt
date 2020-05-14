@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site.id	Character abbreviation for village/reserve sites.	character			NA	Missing value
+res	Res = reserve; designates whether the fish survey was done inside a no-take community-based reserve or not.	categorical			NA	Missing value
+plot	Plot corresponds to rep number in fish_counts.csv file. Two plots were surveyed inside and outside of no-take reserves.	categorical			NA	Missing value
+trans	"transect number; there were 6 transects taken at each plot, except for 4 sites, where the river was considerably larger and 5 transects were taken."	categorical			NA	Missing value
+point	10 evenly-spaced point estimates were taken across each transect	categorical			NA	Missing value
+depth.cm	Depth of the river from river surface to substrate.	numeric	centimeter		NA	Missing value
+sub.cat	These are categorical codes for substrate categories created by combining Wentworth particle size classification categories	categorical			NA	Missing value
+width.cm	Stream width measured from wetted bank to wetted bank	numeric	centimeter		NA	Missing value
+max.depth.cm	"Maximum depth as located within the entire plot. Does not correspond to a point or transect, thus the value is shared for all within a single plot. "	numeric	centimeter		NA	Missing value
+sub.size	Substrate particle size. This is the median value for the range of values represented by sub.cat in the Wentworth particle size classification system.	numeric	centimeter		NA	Missing value

@@ -1,0 +1,3 @@
+attributeName	code	definition
+pen	Y	"Yes, an explicity penalty exists"
+pen	N	No explicitly stated penalty

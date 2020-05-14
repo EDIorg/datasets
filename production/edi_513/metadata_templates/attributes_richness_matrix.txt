@@ -1,0 +1,38 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site.id	Character abbreviation for village/reserve sites.	character			NA	Missing value
+res	Res = reserve; designates whether the fish survey was done inside a no-take community-based reserve or not.	categorical			NA	Missing value
+rep	"Replicate number, two replicate counts were made at each reserve (res) by 2 observers"	categorical			NA	Missing value
+area	Total area surveyed	numeric	squareMeter		NA	Missing value
+Ba.de	Presence of Bangana devdevi individuals	categorical			NA	Missing value
+Ba.or	Presence of Barilius ornatus individuals	categorical			NA	Missing value
+Ch.ba	Presence of Chagunius baileyi individuals	categorical			NA	Missing value
+Ch.bu	Presence of Channa harcourtbutleri individuals	categorical			NA	Missing value
+Ch.st	Presence of Channa striata individuals	categorical			NA	Missing value
+Cr.bu	Presence of Crossocheilus burmanicus individuals	categorical			NA	Missing value
+Da.pu	Presence of Danio albolineatus individuals	categorical			NA	Missing value
+De.sp	Presence of Devario sp. individuals	categorical			NA	Missing value
+Fo.br	Presence of Folifer brevifilis individuals	categorical			NA	Missing value
+Ga.na	Presence of Garra nasuta individuals	categorical			NA	Missing value
+Gl.sp	Presence of Glyptothorax sp. individuals	categorical			NA	Missing value
+Ha.sa	Presence of Hampala salweenensis individuals	categorical			NA	Missing value
+He.mi	Presence of Hemibagrus microphthalmus individuals	categorical			NA	Missing value
+Ho.bu	Presence of Homaloptera sp. individuals	categorical			NA	Missing value
+Hy.sa	Presence of Hypsibarbus salweenensis individuals	categorical			NA	Missing value
+La.ro	Presence of Labeo rohita individuals	categorical			NA	Missing value
+Ma.ar	Presence of Mastacembelus armatus individuals	categorical			NA	Missing value
+My.ar	Presence of Mystacoleucus argenteus  individuals	categorical			NA	Missing value
+Nema	Presence of nemacheiline loach individuals	categorical			NA	Missing value
+Ne.st	Presence of Neolissochilus stracheyi individuals	categorical			NA	Missing value
+No.no	Presence of Notopterus notopterus individuals	categorical			NA	Missing value
+Pa.vo	Presence of Parambassis vollmeri individuals	categorical			NA	Missing value
+Pe.st	Counts of Pethia stoliczkana individuals	categorical			NA	Missing value
+Po.sp	Counts of Poropuntius sp. individuals	categorical			NA	Missing value
+Pu.gr	Presence of unidentified Puntius-type ‘grey’ individuals	categorical			NA	Missing value
+Pu.re	Presence of unidentified Puntius-type ‘red’ individuals	categorical			NA	Missing value
+Ra.da	Presence of Rasbora daniconius individuals	categorical			NA	Missing value
+Ra.gu	Presence of Raiamas guttatus individuals	categorical			NA	Missing value
+Sc.bu	Presence of Scaphiodonichthys burmanicus individuals	categorical			NA	Missing value
+Sp.ac	Presence of Sperata acicularis individuals	categorical			NA	Missing value
+Sy.ru	Presence of Systomus rubripinnus individuals	categorical			NA	Missing value
+To.sp	Presence of Tor sp. individuals	categorical			NA	Missing value
+Xe.ca	Presence of Xenentodon cancila individuals	categorical			NA	Missing value
