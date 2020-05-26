@@ -1,0 +1,51 @@
+attributeName	code	definition
+parameterType	ABS254	Absorbance at 254nm - how much light (254nm) is absorbed by unfiltered water (absorbance units) -50 mm path cuvette
+parameterType	ABS254_02	Absorbance at 254nm - how much light (254nm) is absorbed by water filtered through a 0.2 micron pore size filter (absorbance units)-50 mm path cuvette
+parameterType	ABS254_045	Absorbance at 254nm -how much light (254nm) is absorbed by water filtered through a 0.45 micron pore size filter (absorbance units)-50 mm path cuvette
+parameterType	ABS440	Absorbance at 440nm - how much light (440nm) is absorbed by unfiltered water (absorbance units)-50 mm path cuvette
+parameterType	ABS440_02	Absorbance at 440nm - how much light (440nm) is absorbed by water filtered through a 0.2 micron pore size filter (absorbance units)-50 mm path cuvette
+parameterType	ABS440_045	Absorbance at 440nm - how much light (440nm) is absorbed by water filtered through a 0.45 micron pore size filter (absorbance units)-50 mm path cuvette
+parameterType	ABS440_15	Absorbance at 440nm - how much light (440nm) is absorbed by water filtered through a 1.5 micron pore size filter (absorbance units)-50 mm path cuvette
+parameterType	ABS750_02	Absorbance at 750nm - how much light (750nm) is absorbed by water filtered through a 0.2 micron pore size filter (absorbance units)-50 mm path cuvette
+parameterType	ABS750_045	Absorbance at 750nm - how much light (750nm) is absorbed by water filtered through a 0.45 micron pore size filter (absorbance units)-50 mm path cuvette
+parameterType	ALK	Alkalinity
+parameterType	Ca	Calcium - the dissolved calcium that is in the water
+parameterType	CHL_A_COR	Chlorophyll-a corrected -this is the chlorophyll-a pigment without pheophytin influence
+parameterType	CHL_A_lab	"Chlorophyll-a uncorrected -this is chlorophyll-a plus some pheophytin, measured in lab"
+parameterType	Cl	Chloride - measure of dissolved chloride in water
+parameterType	COLOR	Color of unfiltered water
+parameterType	COLOR254_02	Color - calculated color of filtered water (0.2 micron pore size filter) using absorbance at 254nm corrected with absorbance at 750nm
+parameterType	COLOR254_45	Color - calculated color of filtrated water (0.45 micron pore size filter) using absrobance at 254nm corrected with absorbance at 750nm
+parameterType	COLOR440_02	Color - calculated color of filtered water (0.2 micron pore size filter) using absorbance at 440nm corrected with absorbance at 750nm
+parameterType	COLOR440_45	Color - calculated color of filtered water (0.45 micron pore size filter) using absorbance at 440nm corrected with absorbance at 750nm
+parameterType	DNTU	Turbidity in water filtered trhough a 1.5 micron pore size filter
+parameterType	DO	Dissolved oxygen
+parameterType	DOC	Dissolved organic carbon
+parameterType	K	Potassium
+parameterType	Mg	Magnesium
+parameterType	Na2+	Sodium
+parameterType	nCHL_A	Nano chlorophyll uncorrected - 35 micron pre-filter used to remove large algal cells
+parameterType	nCHL_A_COR	Nano chlorophyll corrected - 35 micron pre-filter used to remove large algal cells
+parameterType	NH4	Ammonium
+parameterType	NO3+NO2	Nitrate+nitrite
+parameterType	nPHEO	Nano pheophytin - 35 micron pre-filter used to remove large algal cells
+parameterType	NVSS	Non-Volatile suspended solids (proxy for particulate inorganic matter)
+parameterType	PH_field	pH measured in-situ. Logarithmic scale used to specify how acidic or basic a water-based solution is. Unitless.
+parameterType	PH_lab	"pH measured in the lab, instead of in-situ. Logarithmic scale used to specify how acidic or basic a water-based solution is. Unitless."
+parameterType	PHEO	Pheophytin - this is the breakdown product of chlorophyll
+parameterType	SECCHI	Secchi transparency
+parameterType	SiO2	Silica
+parameterType	SO4_S	Sulfate
+parameterType	spCOND_lab	"Specific conductivity - electrical conductivity corrected by temperature, measured in lab"
+parameterType	SRP	"Soluble reactive phosphorus - the dissolved form of phosphorus that is available for plant uptake, should be less than DP"
+parameterType	TDN	Total dissolved nitrogen - the nitrogen that makes it through the filter (no particulate nitrogen)
+parameterType	TDP	Total dissolved phosphorus - the phosphorus that makes it through the filter (no particulate phosphorus)
+parameterType	TEMP	Temperature of the water
+parameterType	TN	Total nitrogen - all of the forms of nitrogen
+parameterType	TP	Total phosphorus - all forms of phosphorus
+parameterType	TSS	Total suspended solids
+parameterType	TURB_lab	"Turbidity - measure of the particulate material in the water, measured in lab"
+parameterType	uCHL_A	Ultra chlorophyll uncorrected - chlorophyll in water filtered through a 11 micron nitex mesh prefilter
+parameterType	uCHL_A_COR	Ultra chlorophyll corrected -  chlorophyll in water filtered through a 11 micron nitex mesh prefilter
+parameterType	uPHEO	Ultra pheophytin -  pheophytin in water filtered through a 11 micron nitex mesh prefilter
+parameterType	VSS	Volatile suspended solids (proxy for particulate organic matter)

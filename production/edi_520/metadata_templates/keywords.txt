@@ -1,0 +1,47 @@
+keyword	keywordThesaurus
+absorbance	
+alkalinity	
+ammonium	
+aquatic ecosystems	
+calcium	
+carbon	
+chloride	
+chlorophyll	
+conductivity	
+depth	
+dissolved nutrients	
+dissolved organic carbon	
+dissolved oxygen	
+ecosystems	
+freshwater	
+Lake of the Ozarks	
+lakes	
+Lakes of Missouri Volunteer Program	
+limnology	
+magnesium	
+Missouri	
+Missouri Statewide Lakes Assessment Project	
+MU Limnology Lab	
+nitrate	
+nitrogen	
+organic matter	
+particulate inorganic matter	
+particulate organic matter	
+pH	
+phaeophytin	
+pheophytin	
+phosphorus	
+potassium	
+reservoir	
+secchi	
+secchi depth	
+silica	
+sodium	
+soluble reactive phosphorus	
+sulfate	
+suspended solids	
+temperature	
+turbidity 	
+water chemistry	
+water color	
+water quality	

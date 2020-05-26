@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+project	project name	character				
+waterBody	name of the lake or reservoir	character				
+waterBodyType	water body type: lake or reservoir	character				
+samplingSite	name of the sampling site within the lake or reservoir	character				
+samplingSiteLatitude	latitude of the sampling site	numeric	degree			
+samplingSiteLongitude	longitude of the sampling site	numeric	degree			
+beginDateTime	date in which the sample was collected	Date		MM/DD/YYYY hh:mm		
+beginDepth	"water depth at which the sample started being collected (in meters, being zero meters the water surface). For samples collected from a single depth, no endDepth will be provided; for composite samples, there will be an endDepth."	numeric	meter		9999	Sample collected near bottom of the lake or reservoir (no specific depth value recorded)
+endDepth	"water depth at which the sample ended being collected (in meters, being zero meters the water surface). For samples collected from a single depth, no endDepth will be provided; for composite samples, there will be an endDepth."	numeric	meter		9999	Sample collected near bottom of the lake or reservoir (no specific depth value recorded)
+parameterType	name of the parameter being measured	categorical				
+parameterValue	value of the parameter being measured	numeric	number			
+unit	unit of the paramater value	character				
+sampleID	sample ID number from the MU Limnology Lab	numeric	number			
+parameterValueID	value ID number from the MU Limnology Lab	numeric	number			
