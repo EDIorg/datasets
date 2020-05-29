@@ -1,11 +1,12 @@
 givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		creator			
 Alba		Argerich	"School of Natural Resources, University of Missouri – Columbia"	argericha@missouri.edu	0000-0001-6430-0449	creator			
+Daniel	V	Obrecht	"School of Natural Resources, University of Missouri – Columbia"	obrechtd@missouri.edu		creator			
+Anthony	P	Thorpe	"School of Natural Resources, University of Missouri – Columbia"	thorpet@missouri.edu		creator			
 Rebecca	L	North	"School of Natural Resources, University of Missouri – Columbia"	northr@missouri.edu	0000-0003-3762-5939	creator			
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		contact			
 Anthony	P	Thorpe	"School of Natural Resources, University of Missouri – Columbia"	thorpet@missouri.edu		LMVP Project manager			
-Daniel	V	Obrecht	"School of Natural Resources, University of Missouri – Columbia"	obrechtd@missouri.edu		SLAP Project manager			
-John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI		Missouri Agriculture Experiment Station	
+Daniel	V	Obrecht	"School of Natural Resources, University of Missouri – Columbia"	obrechtd@missouri.edu		SLAP Project manager		Missouri Agriculture Experiment Station	
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI		Food and Agricultural Policy Research Institute	
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI		Food and Agricultural Policy Research Institute	
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI		"Missouri Agriculture Experiment Station, Missouri Department of Natural Resources"	
@@ -17,10 +18,11 @@ John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jo
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI	Lakes of Missouri Volunteer Program (2014-2015)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G15-NPS-01
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI	Lakes of Missouri Volunteer Program (2015-2016)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G16-NPS-02
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI	Lakes of Missouri Volunteer Program (2016-2017)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G17-NPS-04
-Rebecca	L	North	"School of Natural Resources, University of Missouri – Columbia"	northr@missouri.edu	0000-0003-3762-5939	PI	Lakes of Missouri Volunteer Program (2017-2018)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G17-NPS-04
-John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI	Statewide Lake Assessment (2010-2014)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G10-NPS-03
+John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI	Lakes of Missouri Volunteer Program (2017-2018)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G17-NPS-04
+Rebecca	L	North	"School of Natural Resources, University of Missouri – Columbia"	northr@missouri.edu	0000-0003-3762-5939	PI	Statewide Lake Assessment (2010-2014)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G10-NPS-03
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI	Statewide Lake Assessment (2015-2016)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G15-NPS-02
-Rebecca	L	North	"School of Natural Resources, University of Missouri – Columbia"	northr@missouri.edu	0000-0003-3762-5939	PI	Statewide Lake Assessment (2017-2018)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G17-NPS-05
-John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI	Statewide Lake Assessment (2016-2018)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G17-NPS-05
+John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI	Statewide Lake Assessment (2017-2018)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G17-NPS-05
+Rebecca	L	North	"School of Natural Resources, University of Missouri – Columbia"	northr@missouri.edu	0000-0003-3762-5939	PI	Statewide Lake Assessment (2016-2018)	"US Environmental Protection Agency, Missouri Department of Natural Resources"	G17-NPS-05
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI		Missouri Water Resources Research Center-Department of the Interior 	Project No. A095 Mo.
 John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI		Missouri Agricultural Experiment Station	
+John	R	Jones	"School of Natural Resources, University of Missouri – Columbia"	jonesj@missouri.edu		PI			

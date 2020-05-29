@@ -35,14 +35,15 @@ make_eml(
   dataset.title = "Missouri Lakes and Reservoirs Long-term Limnological Dataset",
   temporal.coverage = c("1976-06-29", "2018-10-14"), 
   geographic.description = "State of Missouri", 
-  geographic.coordinates = c("40.613560", "-95.765645", "36.497722", "-89.485083"),
+  geographic.coordinates = c("40.613560", "-89.485083", "36.497722", "-95.765645"),
   maintenance.description = "completed", 
-  data.table = "Table_1_Data_Values.csv", 
-  data.table.name = "PLACEHOLDER", 
-  data.table.description = "PLACEHOLDER", 
+  data.table = "limnological_data.csv", 
+  data.table.name = "Limnological data", 
+  data.table.description = "Historical limnological dataset for Missouri (USA) lakes and reservoirs, 1976-2018", 
   other.entity = c("methods.xlsx", "MU_Historical_Sampling_Sites.kml"),
   other.entity.name = c("Methods", "Sampling sites"),
-  other.entity.description = c("Sample analysis methods for each parameter", "Locations of sampling sites"), 
+  other.entity.description = c("Sample analysis methods for each parameter", "Sampling site locations"), 
   user.id = "csmith", 
   user.domain = "LTER", 
-  package.id = "edi.19.1")
+  package.id = "edi.520.1")
+
