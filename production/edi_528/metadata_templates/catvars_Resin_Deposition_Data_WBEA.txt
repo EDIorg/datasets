@@ -1,0 +1,14 @@
+attributeName	code	definition
+SITE	ANZACBOG	Anzac Bog
+SITE	MCKAYBOG	Mckay Bog
+SITE	MCMURRAY	McMurray Bog
+SITE	MILDREDB	Mildred Bog
+SITE	UTIKUMAB	Utikuma Bog
+SITE	JPH4BOG	JPH4 Bog
+PLACEMENT	OPEN	Open area
+PLACEMENT	TREE	Under a tree canopy
+PLOT	1	Experimental plot 1
+PLOT	2	Experimental plot 2
+PLOT	3	Experimental plot 3
+PLOT	4	Experimental plot 4
+PLOT	5	Experimental plot 5

@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+DATE	Date of collection	Date		YYYY-MM-DD	-99999	Missing value
+SITE	"Sampling site: Anzac Bog, JPH4 Bog, McKay Bog, McMurray Bog, Mildred Bog"	categorical			-99999	Missing value
+YEAR	Year of Sampling	numeric	number		-99999	Missing value
+NH4NMGL	Concentration of ammonium measured in the sample	numeric	milligramsPerLiter		-99999	Missing value
+NO3NMGL	Concentration of nitrate nitrogen measured in surface pore water	numeric	milligramsPerLiter		-99999	Missing value
+TDNMGL	Total dissolved nitrogen	numeric	milligramsPerLiter		-99999	Missing value
+DONMGL	Total nitrogen minus inorganic nitrogen in the sample	numeric	milligramsPerLiter		-99999	Missing value
+SO4SMGL	Concentration of sulfate	numeric	milligramsPerLiter		-99999	Missing value

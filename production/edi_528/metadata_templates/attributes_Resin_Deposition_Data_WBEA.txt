@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SITE	"Sampling site (Anzac Bog, McKay Bog, McMurray Bog, Mildred Bog, JPH4 Bog, Utikuma Bog)"	categorical			-99999	Missing value
+PLACEMENT	"2 tubes were deployed in each site: one in an open area, and one under a tree canopy "	categorical			-99999	Missing value
+PLOT	5 Experimental plots per site	categorical			-99999	Missing value
+STARTDATE	Date of tube deployment	Date		YYYY-MM-DD	-99999	Missing value
+ENDDATE	Date of tube retrieval	Date		YYYY-MM-DD	-99999	Missing value
+DAYS	Number of days in the field 	numeric	number		-99999	Missing value
+DAILYNH4NDEP	Amount of ammonium N deposition per meter squared per day	numeric	milligramsPerMeterSquaredPerDay		-99999	Missing value
+DAILYNO3NDEP	Amount of nitrate N deposition per meter squared per day	numeric	milligramsPerMeterSquaredPerDay		-99999	Missing value
+DAILYDINDEP	Total inorganic nitrogen deposition per meter squared per day	numeric	milligramsPerMeterSquaredPerDay		-99999	Missing value
+DAILYSO4SDEP	Amount of sulfate S deposition per meter squared per day	numeric	milligramsPerMeterSquaredPerDay		-99999	Missing value

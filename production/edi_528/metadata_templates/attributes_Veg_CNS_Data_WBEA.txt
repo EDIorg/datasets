@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+OBS	Observation. The samples were numbered in order of collection	numeric	number		-99999	Missing value
+SPECIES	"Shortened Species Name of Sample: Cladonia mitis, Evernia mesomorpha, Rhododendron groenlanicum, Vaccinium oxycoccos, Picea mariana, Rubus chamaemorus, Maianthemum trifolia, Sphagnum capillifolium, Sphagnum fuscum, Vaccinium vitis-idaea"	categorical			-99999	Missing value
+SITE	"Shortened sampling site name: Anzac Bog, McKay Bog, McMurray Bog, Mildred Bog, JPH4 Bog"	categorical			-99999	Missing value
+MONTH	"The month of the sample collection noted as chronological number of the month (May=5, June=6, July=7, Aug=8, Sept=9, October=10)"	numeric	number		-99999	Missing value
+DAY	The day of sample collection	numeric	number		-99999	Missing value
+YEAR	The year of sample collection	numeric	number		-99999	Missing value
+CMGG	Tissue concentrations of Carbon measured in mg of C per gram of tissue	numeric	milligramsPerGram		-99999	Missing value
+NMGG	Tissue concentrations of nitrogen measured in mg of N per gram of tissue	numeric	milligramsPerGram		-99999	Missing value
+SMGG	Tissue concentrations of sulfur measured in mg of S per gram of tissue	numeric	milligramsPerGram		-99999	Missing value

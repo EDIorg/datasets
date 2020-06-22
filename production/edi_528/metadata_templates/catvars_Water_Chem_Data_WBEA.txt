@@ -1,0 +1,6 @@
+attributeName	code	definition
+SITE	ANZACBOG	Anzac Bog
+SITE	JPH4BOG	JPH4 Bog
+SITE	MCKAYBOG	Mckay Bog
+SITE	MCMURRAY	McMurray Bog
+SITE	MILDREDB	Mildred Bog

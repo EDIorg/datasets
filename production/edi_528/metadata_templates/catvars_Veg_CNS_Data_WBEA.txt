@@ -1,0 +1,16 @@
+attributeName	code	definition
+SPECIES	CLADONIA	Cladonia mitis
+SPECIES	EVERNIAM	Evernia mesomorpha
+SPECIES	RHODGRND	Rhododendron groenlanicum
+SPECIES	OXYMICRO	Vaccinium oxycoccos
+SPECIES	PICEAMAR	Picea mariana
+SPECIES	RUBUSCHA	Rubus chamaemorus
+SPECIES	MTMTRIFO	Maianthemum trifolia
+SPECIES	SPHCAPIL	Sphagnum capillifolium
+SPECIES	SPHFUSCU	Sphagnum fuscum
+SPECIES	VACVITIS	Vaccinium vitis-idaea
+SITE	ANZACBOG	Anzac Bog
+SITE	JPH4BOG	JPH4 Bog
+SITE	MCKAYBOG	Mckay Bog
+SITE	MCMURRAY	McMurray Bog
+SITE	MILDREDB	Mildred Bog

@@ -1,0 +1,18 @@
+keyword	keywordThesaurus
+Villanova Peatland Biogeochemistry Group	
+bog	
+peat	
+deposition	
+precipitation	
+ammonium	
+nitrate	
+inorganic nitrogen	
+sulfate	
+WBEA	
+carbon	
+nitrogen	
+sulfur	
+oil sands mining	
+porewater	
+inorganic nitrogen	
+organic nitrogen	

@@ -1,0 +1,3 @@
+id	unitType	parentSI	multiplierToSI	description
+milligramsPerMeterSquaredPerDay	arealMassDensityRate	kilogramsPerMeterSquaredPerSecond	1.15741E-11	milligramsPerMeterSquaredPerDay
+milligramsPerGram	massPerMass	kilogramsPerKilogram	0.001	milligramsPerGram
