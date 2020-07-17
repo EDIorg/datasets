@@ -1,0 +1,18 @@
+attributeName	code	definition
+Water_Temp_Qual_Code	1	"Good quality, unedited data"
+Depth_Qual_Code	1	"Good quality, unedited data"
+Salinity_Qual_Code	1	"Good quality, unedited data"
+Salinity_Qual_Code	170	Unreliable data
+Salinity_Qual_Code	40	Fair measurement
+Turbidity_Qual_Code	1	"Good quality, unedited data"
+Turbidity_Qual_Code	170	Unreliable data
+Turbidity_Qual_Code	40	Fair measurement
+Specific_Cond_Qual_Code	1	"Good quality, unedited data"
+Specific_Cond_Qual_Code	170	Unreliable data
+Specific_Cond_Qual_Code	40	Fair measurement
+DO_Perc_Sat_Qual_Code	40	Fair measurement
+DO_Perc_Sat_Qual_Code	1	"Good quality, unedited data"
+DO_mgperL_Qual_Code	40	Fair measurement
+DO_mgperL_Qual_Code	1	"Good quality, unedited data"
+Chlorophyll_Qual_Code	1	"Good quality, unedited data"
+Chlorophyll_Qual_Code	170	Unreliable data

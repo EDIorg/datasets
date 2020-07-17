@@ -1,0 +1,10 @@
+attributeName	code	definition
+Flow_Qual_Code	1	"Good quality, uneditied data"
+Flow_Qual_Code	70	Estimated data
+Flow_Qual_Code	2	"Good quality, edited data"
+Velocity_Qual_Code	1	"Good quality, uneditied data"
+Velocity_Qual_Code	70	Estimated data
+Velocity_Qual_Code	2	"Good quality, edited data"
+Water_Level_Qual_Code	1	"Good quality, uneditied data"
+Water_Level_Qual_Code	70	Estimated data
+Water_Level_Qual_Code	2	"Good quality, edited data"

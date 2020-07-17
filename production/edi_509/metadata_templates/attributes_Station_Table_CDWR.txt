@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station_Long_Name	Long descriptive station name	character				
+Station_Short_Name	Abbreviated station name	character				
+Latitude_WGS84	Station Location Latitude WGS84	numeric	degree			
+Longitude_WGS84	Station Location Longitude WGS84	numeric	degree			

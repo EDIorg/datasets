@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station_Short_Name	Tidal wetland sampling station short name	character				
+Sample_Code	Our sampling number for all analyte samples collected at the same time and location.	character				
+Collection_Date_ISO	Date and time in ISO 8601 Pacific Standard Time. No daylight time observed.	Date		YYYY-MM-DDThh:mm:ss		
+Analyte	Sampling analyte in water	categorical				
+Result	Numerical concentration of the analyte measured. 0 means the value is either below the reporting limit and/or method detection limit.	numeric	number			
+Rpt_Limit	"Reporting Limit of the sampling analyte, in same units as sample."	numeric	number			
+MDL	"Method Detection Limit of the sampling analyte, in the same units as the sample."	numeric 	number		NA	A method detection limit was not reported. Empty value code.
+Units	Concentration units of result and reporting limit.	categorical				
+Method	"Analytical method used to measure analyte in water. United States Environmental Protection Agency (USEPA), USEPA Modified Moss Landing Marine Laboratory, and Standard Methods."	categorical				
+Depth	Sample depth in the water column from the surface.	numeric	meter			
+Matrix	All samples are natural (environmental) water samples.	character				
+Purpose	"This is the type of sample that was collected and reported, whether a simple grab sample, a composited sample, or a field duplicate or lab replicate."	categorical				
+Parent_Sample	Sample number of parent sample for duplicates and replicates. 0 indicates no duplicate or replicate was taken.	character				
+Description	"Sample description. The Ebb 1 & 2, Flood 1 & 2 samples were composited using samples collected hourly during a 25-hour sampling event. Hourly samples were a basic one-time grab samples that were often collected with a field duplicate."	character			NA	 Missing value

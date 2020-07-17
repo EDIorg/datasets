@@ -1,0 +1,29 @@
+attributeName	code	definition
+Analyte	Dissolved Mercury	Dissolved Mercury
+Analyte	Total Mercury	Total Mercury
+Analyte	Total Organic Carbon	Total Organic Carbon
+Analyte	Dissolved Organic Carbon	Dissolved Organic Carbon
+Analyte	Total Suspended Solids	Total Suspended Solids
+Analyte	Total Methylmercury	Total Methylmercury
+Analyte	Dissolved Methylmercury	Dissolved Methylmercury
+Analyte	Chlorophyll a	Chlorophyll a
+Analyte	Pheophytin a	Pheophytin a
+Units	ng/L	nanogramsPerLiter
+Units	mg/L as C	milligramsPerLiter as Carbon
+Units	mg/L	milligramsPerLiter
+Units	ug/L	microgramsPerLiter
+Method	EPA 1631 E (D)	United States Environmental Protection Agency Method 1631 Revision E Dissolved
+Method	EPA 1631 E (T)	United States Environmental Protection Agency Method 1631 Revision E Total
+Method	EPA 415.1 (T) Ox	United States Environmental Protection Agency Method 415.1 Total
+Method	EPA 415.1 (D) Ox	United States Environmental Protection Agency Method 415.1 Dissolved
+Method	EPA 160.2	United States Environmental Protection Agency Method 160.2
+Method	EPA 1630 MLML Modified (T)	United States Environmental Protection Agency Method 1630 Moss Landing Marine Laboratory Modified Total
+Method	EPA 1630 MLML Modified (D)	United States Environmental Protection Agency Method 1630 Moss Landing Marine Laboratory Modified Dissolved
+Method	Std Method 10200 H	Standard Method 10200 H
+Method	EPA 415.3 (D)	United Stated Environmental Protection Agency Method 415.3 Dissolved
+Method	EPA 415.3 (T)	United Stated Environmental Protection Agency Method 415.3 Total
+Purpose	Composited Sample	Composite sample of hourly grab samples based on flow-weight
+Purpose	Normal Sample	Grab sample
+Purpose	Duplicate Sample	A field duplicate in which two samples were taken
+Purpose	Replicate Sample	Lab replicate in which the lab ran a sample twice
+Purpose	"Replicate, Specific Analyte(s)"	Lab replicate in which the lab ran a sample twice for a specific analyte or analytes

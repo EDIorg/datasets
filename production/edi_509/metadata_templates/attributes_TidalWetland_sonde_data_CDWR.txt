@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station_Short_Name	Tidal wetland sampling station short name	character				
+Date_Time_ISO	Date and time in ISO 8601 Pacific Standard Time. No daylight time observed.	Date		YYYY-MM-DDThh:mm:ss		
+Water_Temp_C	Water temperature	numeric	celsius			
+Water_Temp_Qual_Code	Water temperature data quality code	categorical				
+Depth_m	Depth of sonde under water	numeric	meter			
+Depth_Qual_Code	Water depth quality code	categorical				
+Salinity_ppt	Water salinity (ppt)	numeric	dimensionless		NA	Missing value
+Salinity_Qual_Code	Water salinity quality code	categorical			NA	Missing value
+Turbidity_NTU	Water turbidity (NTU i.e. nephelometric turbidity units)	numeric	dimensionless		NA	Missing value
+Turbidity_Qual_Code	Water turbidity quality code	categorical			NA	Missing value
+Specific_Cond_uSpercm	Water specific conductance	numeric	microSiemensPerCentimeter		NA	Missing value
+Specific_Cond_Qual_Code	Water specific conductance quality code	categorical			NA	Missing value
+DO_Perc_Sat	Percent saturation of dissolved oxygen in water	numeric	percentSaturation		NA	Missing value
+DO_Perc_Sat_Qual_Code	Dissolved oxygen saturation quality code	categorical			NA	Missing value
+DO_mgperL	Dissolved oxygen concentration in water	numeric	milligramsPerLiter		NA	Missing value
+DO_mgperL_Qual_Code	Dissolved oxygen concentration quality code	categorical			NA	Missing value
+Chlorophyll_RFU	"Total chlorophyll (RFU, i.e. relative fluorescence units)"	numeric	dimensionless		NA	Missing value
+Chlorophyll_Qual_Code	Total chlorophyll quality code	categorical			NA	Missing value

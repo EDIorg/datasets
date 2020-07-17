@@ -1,1 +1,0 @@
-attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanationStation_Long_Name	Long descriptive station name	character				Station_Short_Name	Abbreviated station name	character				Latitude	Station Location Latitude	numeric	degree			Longitude	Station Location Longitude	numeric	degree			

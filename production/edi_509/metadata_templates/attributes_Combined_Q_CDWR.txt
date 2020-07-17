@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station_Short_Name	Tidal wetland sampling station short name	character			NA	Missing value
+Date_Time_ISO	Date and time in ISO 8601 Pacific Standard Time. No daylight time observed.	Date		YYYY-MM-DDThh:mm:ss	NA	Missing value
+Flow_CFS	Water flow	numeric	cubicFeetPerSecond		NA	Missing value
+Flow_Qual_Code	Flow data quality code	categorical			NA	Missing value
+Velocity_ftpersec	Water velocity	numeric	feetPerSecond		NA	Missing value
+Velocity_Qual_Code	Velocity data quality code	categorical			NA	Missing value
+Water_Level_ft	Water level	numeric	foot		NA	Missing value
+Water_Level_Qual_Code	Water level data quality code	categorical			NA	Missing value
