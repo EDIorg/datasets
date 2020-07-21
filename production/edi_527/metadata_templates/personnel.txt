@@ -1,0 +1,33 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+		Interagency Ecological Program (IEP)				creator			
+Lauren		Damon	California Department of Fish and Wildlife	Lauren.damon@wildlife.ca.gov		creator			
+Trishelle		Temple	California Department of Fish and Wildlife	Trishelle.temple@wildlife.ca.gov		creator			
+Adam		Chorazyczewski 	California Department of Fish and Wildlife	Adam.chorazyczewski@wildlife.ca.gov	0000-0001-5095-3553	creator			
+Lauren		Damon	California Department of Fish and Wildlife	Lauren.damon@wildlife.ca.gov		contact			
+Lauren		Damon	California Department of Fish and Wildlife	Lauren.damon@wildlife.ca.gov		PI			
+Spencer	M	Breining-Aday	California Department of Fish and Wildlife	Spencer.breining-aday@wildlife.ca.gov	0000-0001-7212-8239	Environmental Scientist			
+Jessica		Jimenez	California Department of Fish and Wildlife	Jessica.jimenez@Wildlife.ca.gov		Environmental Scientist			
+Robert		Fujimura	California Department of Fish and Wildlife			Principal Investigator			
+Linda		Warkentin 	California Department of Fish and Wildlife	Linda.warkentin@wildlife.ca.gov		Senior Lab Assistant			
+Brian		Jones	California Department of Fish and Wildlife	Brian.jones@wildlife.ca.gov	0000-0002-0359-9421	Senior Lab Assistant			
+Cynthia		Toscano	California Department of Fish and Wildlife	Cynthia.toscano@wildlife.ca.gov		Senior Lab Assistant			
+Kari		Ambrosini-Martinelli	California Department of Fish and Wildlife	Kari.ambrosini-martinelli@wildlife.ca.gov		Senior Lab Assistant			
+David		Cao	California Department of Fish and Wildlife	David.cao@wildlife.ca.gov		Scientific Aid			
+Sara		Nece	California Department of Fish and Wildlife	Sara.nece@wildlife.ca.gov	0000-0002-3771-2058	Scientific Aid			
+Carlee		Cockrum 	California Department of Fish and Wildlife	Carlee.cockrum@wildlife.ca.gov	0000-0002-7782-8741	Scientific Aid			
+Griffin		Solsburg	California Department of Fish and Wildlife	Griffin.solsburg@wildlife.ca.gov		Scientific Aid			
+Sarah		Chavez	California Department of Fish and Wildlife	Sarah.chavez@wildlife.ca.gov		Scientific Aid			
+Gabriela		Garcia	California Department of Fish and Wildlife	Gabriela.garcia@wildlife.ca.gov		Scientific Aid			
+Vanessa		Mora 	California Department of Fish and Wildlife			Scientific Aid			
+Samantha		Chavez	California Department of Fish and Wildlife			Scientific Aid			
+Ehryn		McNulty	California Department of Fish and Wildlife			Scientific Aid			
+Shelley		Hunter	California Department of Fish and Wildlife			Scientific Aid			
+Evan		Davies	California Department of Fish and Wildlife			Scientific Aid			
+Rebecca		Heisey	California Department of Fish and Wildlife			Scientific Aid			
+Tessa		Peixoto	California Department of Fish and Wildlife			Scientific Aid			
+Christian		Britton	California Department of Fish and Wildlife			Scientific Aid			
+Terence		Jarrell	California Department of Fish and Wildlife			Scientific Aid			
+Emily		Lawrence	California Department of Fish and Wildlife			Scientific Aid			
+Mark		Hilgers	California Department of Fish and Wildlife			Scientific Aid			
+Robert		McLean 	California Department of Fish and Wildlife			Scientific Aid			
+Felicia		Speizer	California Department of Fish and Wildlife			Scientific Aid			

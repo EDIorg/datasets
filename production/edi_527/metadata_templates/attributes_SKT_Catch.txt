@@ -1,0 +1,84 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year when sampling occurred	numeric				
+SurveyNumber	A sequential number indicating the completion of all or most stations in the study area on a bi-weekly basis	numeric	number			
+SampleDate	Date when sampling occurred	Date		YYYY-MM-DD		
+SampleTimeStart	Time of day when sampling started	Date		hh:mm		
+SampleTimeEnd	Time of day when sampling ended	Date		hh:mm		
+TowTime	Duration of the tow	numeric	minute			
+StationCode	Project station number	numeric	number			
+Latitude	Station latitude in WGS 1984 Coordinate (degree-minute-second)	character				
+Longitude	Station longitude WGS 1984 Coordinate (degree-minute-second)	character				
+MeterCounts	Number of rotations by flowmeter	numeric	number			
+Volume	Volume of water sampled	numeric	cubicMeter			
+DepthBottom	Water depth	numeric	foot			
+TideCode	"Tide stage (1:high, 2:ebb, 3:low, or 4:flood)"	categorical				
+WaterTemperature	Temperature of the surface water	numeric	celsius			
+ConductivityTop	Electrical conductivity of the surface water	numeric	NTU			
+Secchi	Water transparency	numeric	centimeter			
+Turbidity	Surface water turbidity	numeric	number			
+American_shad	Catch of American Shad (Alosa sapidissima)	numeric	number			
+Bay_goby	Catch of Bay Goby (Lepidogobius lepidus)	numeric	number			
+Bay_pipefish	Catch of Bay pipefish (Syngnathus leptorhynchus)	numeric	number			
+Bell_Jelly	Catch of Bell jelly	numeric	number			
+Bigscale_logperch	Catch of Bigscale Logperch (Percina macrolepida)	numeric	number			
+black_crappie	Catch of Black Crappie (Pomoxis nigromaculatus)	numeric	number			
+Blackfordia	Catch of Blackfordia	numeric	number			
+bluegill	Catch of Bluegill Sunfish (Lepomis macrochirus)	numeric	number			
+brown_bullhead	Catch of Brown bullhead catchfish (Ameiurus nebulosus	numeric	number			
+Centrarchid	Catch of unidentifiable fish in the family Centrarchidae	numeric	number			
+channel_catfish	Catch of Channel Catfish (Ictalurus punctatus)	numeric	number			
+chinook_salmon	Catch of Chinook Salmon (Oncorhynchus tshawytscha)	numeric	number			
+common_carp	Catch of common carp (Cyprinus carpio	numeric	number			
+crangon_shrimp	Catch of Cragon shrimp (Crangon crangon)	numeric	number			
+Delta_Smelt	Catch of Delta Smelt (Hypomesus transpacificus)	numeric	number			
+English_sole	Catch of English Cole (Parophrys vetulus)	numeric	number			
+golden_shiner	Catch of Golden shiner (Notemigonus crysoleucas)	numeric	number			
+goldfish	Catch of goldfish (Carassius auratus)	numeric	number			
+green_sunfish	Catch of Green sunfish (Lepomis cyanellus)	numeric	number			
+hitch	Catch of Hitch (Lavinia exilicauda)	numeric	number			
+inland_silverside	Catch of Inland Silverside (Menidia beryllina)	numeric	number			
+jacksmelt	Catch of Jacksmelt (Atherinopsis californiensis)	numeric	number			
+Jellyfish	Catch of jellyfish	numeric	number			
+Lamprey	Catch of unidentifiable Lamprey	numeric	number			
+largemouth_bass	Catch of Largemouth Bass (Micropterus salmoides)	numeric	number			
+longfin_smelt	Catch of Longfin Smelt (Spirinchus thaleichthys)	numeric	number			
+Maeotias	Catch of Maeotias jellies	numeric	number			
+Mississippi_Grass_Shrimp	Catch of Mississippi silversides (Menidia audens)	numeric	number			
+mosquitofish	Catch of Mosquitofish (Gambusia affinis)	numeric	number			
+No_Catch	No fish caught during trawl	numeric	number			
+northern_anchovy	Catch of Northern Anchovy (Engraulis mordax)	numeric	number			
+Pacific_halibut	Catch of Pacific halibut (Hippoglossus stenolepis)	numeric	number			
+Pacific_herring	Catch of Pacific Herring (Clupea pallasii)	numeric	number			
+Pacific_lamprey	Catch of Pacific Lamprey (Entosphenus tridentatus)	numeric	number			
+Pacific_staghorn_sculpin	Catch of Pacific Staghorn Sculpin (Leptocottus armatus)	numeric	number			
+palaemon_shrimp	Catch of Palaemon shrimp	numeric	number			
+Pleurobrachia	Catch of Plueribranchia jellies	numeric	number			
+prickly_sculpin	Catch of Prickly Sculpin (Cottus asper)	numeric	number			
+Rainwater_Killifish	Catch of Rainwater Killifish (Lucania parva)	numeric	number			
+redear_sunfish	Catch of Redear Sunfish (Lepomis microlophus)	numeric	number			
+river_lamprey	Catch of river lamprey (Lampetra fluviatils)	numeric	number			
+Sacramento_blackfish	Catch of Sacramento blackfish (Orthodon microlepidotus)	numeric	number			
+Sacramento_pikeminnow	Catch of Sacramento pikeminnow (Ptychocheilus grandis)	numeric	number			
+shimofuri_goby	Catch of Shimofuri Goby (Tridentiger bifasciatus)	numeric	number			
+shiner_surfperch	Catch of Shiner surfperch (Cymatogaster aggregate)	numeric	number			
+shokihaze_goby	Catch of Shokihaze Goby (Tridentiger barbatus)	numeric	number			
+Siberian_prawn	Catch of Siberian prawns (Exopalaemon modestus)	numeric	number			
+splittail	Catch of Splittail (Pogonichthys macrolepidotus)	numeric	number			
+spotted_bass	Catch of Spotted Bass (Micropterus punctulatus)	numeric	number			
+starry_flounder	Catch of starry flounder (platichthys stellatus	numeric	number			
+steelhead	Catch of Steelhead (Oncorhynchus mykiss)	numeric	number			
+striped_bass_age_0	Catch of Striped Bass (Morone saxatilis) age 0	numeric	number			
+striped_bass_age_1	Catch of Striped Bass (Morone saxatilis) age 1	numeric	number			
+striped_bass_age_2	Catch of Striped Bass (Morone saxatilis) age 2	numeric	number			
+Striped_Mullet	Catch of stripped mullet (Mugil cephalus)	numeric	number			
+surf_smelt	Catch of Surf smelt (Hypomesus pretiosus)	numeric	number			
+threadfin_shad	Catch of Threadfin Shad (Dorosoma petenense)	numeric	number			
+threespine_stickleback	Catch of Threespine Stickleback (Gasterosteus aculeatus)	numeric	number			
+topsmelt	Catch of Topsmelt (Atherinops affinis)	numeric	number			
+tule_perch	Catch of Tule perch (Hysterocarpus traskii)	numeric	number			
+Unidentified	Catch of unidentifiable fish of unknown classification	numeric	number			
+wakasagi	Catch of Wakasagi (Hypomesus nipponensis)	numeric	number			
+white_catfish	Catch of White Catfish (Ameiurus catus)	numeric	number			
+white_crappie	Catch of White Crappie (Pomoxis annularis)	numeric	number			
+white_sturgeon	Catch of White Sturgeon (Acipenser transmontanus)	numeric	number			
+yellowfin_goby	Catch of Yellowfin Goby (Acanthogobius flavimanus)	numeric	number			
