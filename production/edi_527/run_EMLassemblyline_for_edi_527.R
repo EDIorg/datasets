@@ -95,9 +95,11 @@ EMLassemblyline::make_eml(
   geographic.description = "Lower Napa River, eastern San Pablo Bay, Carquinez Strait upstream throughout Suisun Bay; San Joaquin River to Stockton, Old and Middle Rivers in the south Delta to West Canal; Sacramento River into the Sacramento Deep-water Ship Channel.", 
   geographic.coordinates = c("38.3335", "-121.368556", "37.859", "-122.309278"), 
   maintenance.description = "Ongoing", 
-  data.table = c(""), 
-  data.table.name = c(""),
-  data.table.description = c(""),
+  data.table = c("SKT_Catch.csv", "SKT_Stations.csv"), 
+  data.table.name = c("Catch data", "Location data"),
+  data.table.description = c(
+    "Spring Kodiak Trawl data file contains all historical catch data from 2002 through 2020",
+    "Location data"),
   user.id = "csmith",
   user.domain = "LTER", 
-  package.id = "edi.47.1")
+  package.id = "edi.47.3")
