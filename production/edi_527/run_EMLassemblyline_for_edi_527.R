@@ -102,4 +102,4 @@ EMLassemblyline::make_eml(
     "Location data"),
   user.id = "csmith",
   user.domain = "LTER", 
-  package.id = "edi.47.3")
+  package.id = "edi.527.1")
