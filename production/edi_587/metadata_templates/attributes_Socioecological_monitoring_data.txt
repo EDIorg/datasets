@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+EcoRestore_approximate_location	California EcoRestore is an initiative that began in 2015 and coordinates and advances critical habitat restoration in the Sacramento - San Joaquin Delta (Delta). The full list of Ecorestore projects can be found here: https://resources.ca.gov/Initiatives/California-EcoRestore/California-EcoRestore-Projects	categorical				
+Reach	Denotes the area between a point of origin and a destination.	character				
+Latitude	Approximate latitude of data collection	numeric	degree			
+Longitude	Approximate longitude of data collection	numeric	degree			
+Date	The date on which monitoring occurred	Date		YYYY-MM-DD		
+Time_of_Day	Approximate time of day in which data collection occurred	character				
+sm_boat	A motorized vessel under 15' length.	numeric	number			
+med_boat	A motorized vessel 15'- 40'	numeric	number			
+lrg_boat	A motorized vessel longer than 40'	numeric	number			
+bank_angler	An angler on the bank or shoreline of a waterway	numeric	number			
+scientist	Other monitoring groups	numeric	number			
+cars	Cars on sites of adjacent levee roads	numeric	number			
+notes	Descriptive notes and questions	character				

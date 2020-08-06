@@ -1,0 +1,11 @@
+attributeName	code	definition
+EcoRestore_approximate_location	Decker Island	Decker Island
+EcoRestore_approximate_location	SW Suisun Marsh	SW Suisun Marsh
+EcoRestore_approximate_location	Grizzly Bay	Grizzly Bay
+EcoRestore_approximate_location	Prospect	Prospect
+EcoRestore_approximate_location	SJ River	SJ River
+EcoRestore_approximate_location	Wildlands	Wildlands
+EcoRestore_approximate_location	North Delta	North Delta
+EcoRestore_approximate_location	Honker Bay/Chipps Island	Honker Bay/Chipps Island
+EcoRestore_approximate_location	Twitchell Island	Twitchell Island
+EcoRestore_approximate_location	Sherman Island	Sherman Island

@@ -1,0 +1,4 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Alejo		Kraus-Polk	"University of California, Davis"	akrauspolk@ucdavis.edu	0000-0002-5063-2060	creator			
+Brett		Milligan	"University of California, Davis"	bmilligan@ucdavis.edu		creator			
+Alejo		Kraus-Polk	"University of California, Davis"	akrauspolk@ucdavis.edu	0000-0002-5063-2060	contact			
