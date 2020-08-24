@@ -1,0 +1,27 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station	CDEC station code	character			NA	Missing value
+StationName	Station long name	character			NA	Missing value
+Contact	Station contact name(s)	character			NA	Missing value
+Program	Program managing station	character			NA	Missing value
+Email	Station contact email address(es)	character			NA	Missing value
+IncludedInDataset	"Are data included in the integrated dataset? Some stations have temperature collection at multiple depths. While these are connected to the CDEC station, data are not available on CDEC."	categorical			NA	Missing value
+SensorStatus	Is sensor currently active or discontinued?	categorical			NA	Missing value
+PositionOfSensorMeasurement	Is sensor measuring surface or bottom temperature?	categorical			NA	Missing value
+PositionOfSensorAttachment	Is sensor attached to the surface or bottom?	categorical			NA	Missing value
+DistanceFromSensorAttachmentPoint	What is the fixed distance of the sensor from attachment point?	character			NA	Missing value
+SensorDepth	Physical depth of the sensor in the water column 	numeric	meter		NA	Missing value
+ChangesSensorDeployment	Has sensor deployment method changed?	categorical			NA	Missing value
+InstrumentManufacturer	Instrument Manufacturer	character			NA	Missing value
+InstrumentModel	Instrument Model	character			NA	Missing value
+CDECUnits	CDEC water temperature units reported	categorical			NA	Missing value
+CDECPrecision	Precision of water temperature reported; Units depend on CDEC reporting units	numeric	number		NA	Missing value
+SensorAccuracy	Accuracy of sensor in degrees Celsius	character			NA	Missing value
+BackupSensor	Is there a backup sensor?	categorical			NA	Missing value
+DataTreated	Are data treated prior to being uploaded to CDEC?	categorical			NA	Missing value
+DataTreatmentDescription	How are data treated prior to being uploaded to CDEC?	character			NA	Missing value
+DistanceFromShore	Distance of sensor from shore	numeric	meter		NA	Missing value
+Comments	Additional Comments	character			NA	Missing value
+AdditionalDataSource	"Is there an additional temperature source other than CDEC? If so, list."	character			NA	Missing value
+StationNumber	"Other station numbers used for alternative data sources, eg. FLIMS, NWIS"	character			NA	Missing value
+StartDateAdditionalData	Start date of data not on CDEC	Date		YYYY-MM-DD	NA	Missing value
+EndDateAdditionalData	End date of data not on CDEC	Date		YYYY-MM-DD	NA	Missing value

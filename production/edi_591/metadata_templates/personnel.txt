@@ -1,0 +1,20 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+		Interagency Ecological Program	Interagency Ecological Program (IEP)			creator			
+Catarina		Pien	California Department of Water Resources	Catarina.Pien@water.ca.gov	0000-0003-4427-6300	creator			
+Jasmine		Hamilton	California Department of Water Resource	Jasmine.Hamilton@water.ca.gov		creator			
+Rosemary		Hartman	California Department of Water Resources	Rosemary.Hartman@water.ca.gov		creator			
+Michelle		Nelson	California Department of Water Resources	Michelle.Nelson@water.ca.gov	0000-0002-8505-2090	creator			
+JohnFranco		Saraceno	California Department of Water Resources	JohnFranco.Saraceno@water.ca.gov		creator			
+Brian	M	Schreier	California Department of Water Resources	Brian.Schreier@water.ca.gov	0000-0002-5075-3946	creator			
+Brittany		Davis	California Department of Water Resources	Brittany.Davis@water.ca.gov	0000-0003-3752-1830	creator			
+Catarina		Pien	California Department of Water Resources	Catarina.Pien@water.ca.gov	0000-0003-4427-6300	contact			
+Rosemary		Hartman	California Department of Water Resources	Rosemary.Hartman@water.ca.gov		contact			
+Brittany		Davis	California Department of Water Resources	Brittany.Davis@water.ca.gov	0000-0003-3752-1830	contact			
+Louise		Conrad	Delta Stewardship Council	Louise.Conrad@deltacouncil.ca.gov		Associate			
+Asha		Pluton	California Department of Water Resources	Asha.Pluton@water.ca.gov		Associate			
+Mike		Dempsey	California Department of Water Resources	Mike.Dempsey@water.ca.gov		Associate			
+Scott		Waller	California Department of Resources	Scott.Waller@water.ca.gov		Associate			
+Dave		Huston	California Department of Water Resources	Dave.Huston@water.ca.gov		Associate			
+Jared		Frantzich	California Department of Water Resources	Jared.Frantzich@water.ca.gov		Associate			
+Patrick		Scott	California Department of Water Resources	Patrick.Scott@water.ca.gov		Associate			
+Daniel		Wisheropp	California Department of Water Resources	Daniel.Wisheropp@water.ca.gov		Associate			

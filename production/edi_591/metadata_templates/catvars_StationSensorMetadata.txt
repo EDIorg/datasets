@@ -1,0 +1,21 @@
+attributeName	code	definition
+IncludedInDataset	Y	Yes
+IncludedInDataset	N	No
+SensorStatus	Discontinued	Discontinued
+SensorStatus	Active	Active
+PositionOfSensorMeasurement	Surface	Surface
+PositionOfSensorMeasurement	Bottom	Bottom
+PositionOfSensorMeasurement	Middle	Middle
+PositionOfSensorAttachment	Bottom	Bottom
+PositionOfSensorAttachment	Surface	Surface
+PositionOfSensorAttachment	Floating at Surface	Floating at Surface
+PositionOfSensorAttachment	Fixed from Surface	Fixed from Surface
+ChangesSensorDeployment	N	No
+ChangesSensorDeployment	Y	Yes
+CDECUnits	F	Fahrenheit
+CDECUnits	"F, C"	"Farenheit, Celsius"
+CDECUnits	C	Celsius
+BackupSensor	Y	Yes
+BackupSensor	N	No
+DataTreated	Y	Yes
+DataTreated	N	No

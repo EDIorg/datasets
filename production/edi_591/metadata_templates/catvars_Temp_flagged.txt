@@ -1,0 +1,13 @@
+attributeName	code	definition
+Flag_QC1	N	Not flagged
+Flag_QC1	Y	Flagged
+Flag_QC2	Y	Flagged
+Flag_QC2	N	Not flagged
+Flag_QC3	N	Not flagged
+Flag_QC3	Y	Flagged
+Flag_QC4	N	Not flagged
+Flag_QC4	Y	Flagged
+Flag_QC5	Y	Flagged
+Flag_QC5	N	Not flagged
+Flag_QC6	N	Not flagged
+Flag_QC6	Y	Flagged

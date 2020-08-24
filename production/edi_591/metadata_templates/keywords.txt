@@ -1,0 +1,11 @@
+keyword	keywordThesaurus
+Interagency Ecological Program	
+"CDEC, California Department of Water Resources"	
+San Francisco Estuary	
+Sacramento-San Joaquin Delta	
+estuaries	
+water	
+water quality	
+water temperature	
+"long term, monitoring"	
+climate change	

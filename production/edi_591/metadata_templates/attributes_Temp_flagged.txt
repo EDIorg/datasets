@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station	CDEC station code	character				
+StationName	CDEC station full name	character				
+Datetime	The date and time of temperature collection. Time zone = PDT.	Date		YYYY-MM-DDThh:mm:ssZ		
+Date	Date of temperature collection	Date		YYYY-MM-DD		
+Temp	Water Temperature	numeric	celsius		NA	Missing value
+Flag_QC1	Either flagged or not flagged for QC1 (Temperature limits) - see methods for more details. 	categorical			NA	Missing value
+Flag_QC2	Either flagged or not flagged for QC2 (Missing values) - see methods for more details.	categorical			NA	Missing value
+Flag_QC3	Either flagged or not flagged for QC3 (Repeating values) - see methods for more details.	categorical			NA	Missing value
+Flag_QC4	Either flagged or not flagged for QC4 (Anomaly detection) - see methods for more details.	categorical			NA	Missing value
+Flag_QC5	Either flagged or not flagged for QC5 (Spike test) - see methods for more details.	categorical			NA	Missing value
+Flag_QC6	Either flagged or not flagged for QC6 (Rate of change) - see methods for more details.	categorical			NA	Missing value
+AllFlags	Combination of all flags.	character			NA	Missing value

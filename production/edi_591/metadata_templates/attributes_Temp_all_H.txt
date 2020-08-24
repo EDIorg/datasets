@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station	CDEC station code	character				
+Datetime	The date and time of temperature collection. Time zone = PDT.	Date		YYYY-MM-DDThh:mm:ssZ		
+Temp	Water Temperature	numeric	degree		NA	Missing value
+Date	Date of temperature collection	Date		YYYY-MM-DD		
+Hour	Hour of temperature collection 	numeric	hour			

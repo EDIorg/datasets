@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station	CDEC station code	character				
+StationName	CDEC station full name	character				
+StartDateDataset	Start date of data in integrated dataset. Time zone = PDT.	Date		YYYY-MM-DD		
+EndDateDataset	End date of data in integrated dataset	Date		YYYY-MM-DD		
+Agency	Agency responsible for managing sensor	character				
+Latitude	Station latitude	numeric	degree			
+Longitude	Station longitude	numeric	degree			
+HydrologicArea	"Hydrologic area, specified by CDEC"	character				
+Basin	"Basin, specified by CDEC"	character				
+County	County in which station is located	character				
+HabitatType	"Habitat type, standardized and assigned by water quality team (see descriptions in methods)"	character				
