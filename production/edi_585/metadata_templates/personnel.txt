@@ -1,0 +1,5 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Betsy		von Holle	National Science Foundation	mvonholl@nsf.gov	0000-0002-3116-3027	creator			
+Soren	E	Weber	University of Zurich	soereneliot.weber@uzh.ch		creator			
+David	middleInitial	Nickerson	University of Central Florida	David.Nickerson@Knights.ucf.edu		creator			
+Betsy		von Holle	National Science Foundation	mvonholl@nsf.gov	0000-0002-3116-3027	contact			

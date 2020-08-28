@@ -1,0 +1,2 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+"The current home range [Central Florida (Cape Canaveral, FL), South Florida (Hugh Taylor Birch State Park)] and the projected new range [North Florida (Timucuan Ecological and Historic Preserve, Florida)]."	30.2205017	26.3951338	-80.7216025	-82.7907096

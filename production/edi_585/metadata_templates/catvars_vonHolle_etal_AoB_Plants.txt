@@ -1,0 +1,35 @@
+attributeName	code	definition
+Eugenia_species	axillaris	E. axillaris
+Eugenia_species	foetida	Eugenia foetida
+Eugenia_species	uniflora	E. Uniflora
+soil	nonsterile	Pot had a soil microbe inoculum
+soil	sterile	Pot with a sterile soil innoculum
+site	HTBSF	"Hugh Taylor Birch State Park, South Florida"
+site	PAFB	"Patrick Air Force Base, Cape Canaveral, Central Florida"
+site	TIMU	"Timucuan Ecological and Historic Preserve, North Florida"
+climate	CURRENT	30/17 C day/night temperatures
+climate	FUTURE	31/18 C day/night temperatures
+pot_num	C1	"Pot number one, in a current climate treatment"
+pot_num	C2	"Pot number two, in a current climate treatment"
+pot_num	C3	"Pot number three, in a current climate treatment"
+pot_num	C4	"Pot number four, in a current climate treatment"
+pot_num	C5	"Pot number five, in a current climate treatment"
+pot_num	C6	"Pot number six, in a current climate treatment"
+pot_num	C7	"Pot number seven, in a current climate treatment"
+pot_num	C8	"Pot number eight, in a current climate treatment"
+pot_num	C9	"Pot number nine, in a current climate treatment"
+pot_num	F1	"Pot number one, in a future climate treatment"
+pot_num	F2	"Pot number two, in a future climate treatment"
+pot_num	F3	"Pot number three, in a future climate treatment"
+pot_num	F4	"Pot number four, in a future climate treatment"
+pot_num	F5	"Pot number five, in a future climate treatment"
+pot_num	F6	"Pot number six, in a future climate treatment"
+pot_num	F7	"Pot number seven, in a future climate treatment"
+pot_num	F8	"Pot number eight, in a future climate treatment"
+pot_num	F9	"Pot number nine, in a future climate treatment"
+chamber	A	Current
+chamber	B	Future
+chamber	C	Future
+chamber	D	Future
+chamber	E	Current
+chamber	F	Current
