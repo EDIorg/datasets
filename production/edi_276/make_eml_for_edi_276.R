@@ -9,10 +9,10 @@ library(taxonomyCleanr)
 
 # Define arguments used by multiple functions ---------------------------------
 
-path_to_templates <- 'C:\\Users\\Colin\\Documents\\EDI\\data_sets\\IEP\\edi_276\\metadata_templates'
-path_to_data <- 'C:\\Users\\Colin\\Documents\\EDI\\data_sets\\IEP\\edi_276\\data'
-path_to_eml <- 'C:\\Users\\Colin\\Documents\\EDI\\data_sets\\IEP\\edi_276\\eml'
-data_file_names <- c('IEP_DOSDWSC_1997_2017', 'IEP_DOSDWSC_site_locations_latitude_and_longitude')
+path_to_templates <- 'D:\\edi\\DataPackages\\production\\edi_276'
+path_to_data <- 'D:\\edi\\DataPackages\\production\\edi_276'
+path_to_eml <- 'D:\\edi\\DataPackages\\production\\edi_276'
+data_file_names <- c('IEP_DOSDWSC_1997_2018.csv', 'IEP_DOSDWSC_site_locations_latitude_and_longitude.csv')
 
 
 # Import metadata templates ---------------------------------------------------
@@ -65,13 +65,13 @@ EMLassemblyline::make_eml(
   data.path = path_to_data,
   eml.path = path_to_eml,
   dataset.title = 'Interagency Ecological Program: Discrete dissolved oxygen monitoring in the Stockton Deep Water Ship Channel, collected by the Environmental Monitoring Program, 1997-2018',
-  data.files = data_file_names,
-  data.files.description = c('Water quality data from the Stockton Deep Water Ship Channel', 'Geospatial data'),
+  data.table = data_file_names,
+  data.table.description = c('Water quality data from the Stockton Deep Water Ship Channel', 'Geospatial data'),
   temporal.coverage = c('1997-08-04', '2018-11-08'),
   maintenance.description = 'Ongoing',
   user.id = c('iep', 'csmith'),
-  affiliation = c('EDI', 'LTER'),
-  package.id = 'edi.276.1'
+  user.domain = c('EDI', 'LTER'),
+  package.id = 'edi.276.2'
 )
 
 
