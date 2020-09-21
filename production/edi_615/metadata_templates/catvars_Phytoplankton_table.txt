@@ -1,0 +1,11 @@
+attributeName	code	definition
+Trt	Preamb	ambient lake water before
+Trt	Postamb	ambient lake water after
+Trt	Ctrl	control
+Trt	DC	PS calibration beads
+Trt	DP	PLA microplastics from a body wash
+Trt	CS	plant-derived microparticles from another body wash
+Rep	1	control
+Rep	2	PS calibration beads
+Rep	3	PLA microplastics from a body wash
+Rep	4	plant-derived microparticles from another body wash

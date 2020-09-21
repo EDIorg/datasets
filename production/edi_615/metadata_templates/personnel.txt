@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Kiyoko		Yokota	"Biology Department, State University of New York College at Oneonta"	Kiyoko.Yokota@oneonta.edu	0000-0002-4578-6540	creator			
+Marissa		Mehlrose	State University of New York College at Oneonta Biological Field Station	Kiyoko.Yokota@oneonta.edu		creator			
+Kiyoko		Yokota	"Biology Department, State University of New York College at Oneonta"	Kiyoko.Yokota@oneonta.edu	0000-0002-4578-6540	contact			
+Kiyoko		Yokota	"Biology Department, State University of New York College at Oneonta"	Kiyoko.Yokota@oneonta.edu	0000-0002-4578-6540	PI	SUNY Oneonta Faculty Research Grant	State Univeristy of New York College at Oneonta	
+Kiyoko		Yokota	"Biology Department, State University of New York College at Oneonta"	Kiyoko.Yokota@oneonta.edu	0000-0002-4578-6540	PI	Biology Field Station Sumer Faculty Research Stipend	State University of New York College at Oneonta Biological Field Station	

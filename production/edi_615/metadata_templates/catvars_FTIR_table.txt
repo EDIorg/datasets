@@ -1,0 +1,3 @@
+attributeName	code	definition
+Type	CS	plant-derived microparticles from another body wash
+Type	DP	PLA microplastics from a body wash

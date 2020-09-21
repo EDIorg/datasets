@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Trt	Treatment type	categorical				
+Rep	Replicate ID (no replicates for pre/post ambient)	categorical				
+TN_ug_L	Total nitrogen in micrograms per litre	numeric	microgramsPerLiter		NA	Missing value
+TP_ug_L	Total phosphorus in micrograms per litre	numeric	microgramsPerLiter		NA	Missing value
+chla_ug_L	Chlorophyll a in micrograms per litre	numeric	microgramsPerLiter		NA	Missing value

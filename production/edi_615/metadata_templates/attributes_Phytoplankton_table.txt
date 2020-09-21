@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Trt	Treatment type	categorical				
+Rep	Replicate ID (no replicates for pre/post ambient)	categorical				
+SW_index	Shannon-Wiener index	numeric	dimensionless			
+Total_spp	Total number of unique morphospecies	numeric	number			
+Total_cell_count	Total cell count (across taxa)	numeric	number			
+Bacillariophyta	Cell count for basillariophytes (diatoms)	numeric	number			
+Chlorophyta	Cell count for chlorophytes	numeric	number			
+Chrysophyta	Cell count for chrysophytes	numeric	number			
+Cryptophyta	Cell count for cryptophytes	numeric	number			
+Cyanophyta	Cell count for cyanophytes (cyanobacteria)	numeric	number			
+Pyrrophyta	Cell count for pyrrophytes (dinoflagellates)	numeric	number			
