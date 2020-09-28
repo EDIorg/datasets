@@ -1,0 +1,5 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Ian	B	Strachan	McGill University	ian.strachan@mcgill.ca	0000-0001-6457-5530	creator			
+Kelly	A	Nugent	McGill University	kelly.nugent@mail.mcgill.ca	0000-0001-7267-2517	creator			
+Ian	B	Strachan	McGill University	ian.strachan@mcgill.ca	0000-0001-6457-5530	contact			
+Kelly	A	Nugent	McGill University	kelly.nugent@mail.mcgill.ca	0000-0001-7267-2517	contact			

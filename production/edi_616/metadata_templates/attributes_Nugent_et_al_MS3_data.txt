@@ -1,0 +1,33 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+FEATURE	General location (ditch or field)	categorical			NaN	Missing value
+VEGETATION	Species	character			NaN	Missing value
+COLLAR	Sample Identification TY=Typha; DIT=ditch; ER=Eriophorum; SPH=Sphagnum	categorical			NaN	Missing value
+MONTH	Month of the year (1-12)	numeric	dimensionless		NaN	Missing value
+DATE	Month/Day/Year	Date		MM/DD/YYYY	NaN	Missing value
+DOY	Day of the year (1-365)	numeric	dimensionless		NaN	Missing value
+TEMP	Air temperature	numeric	celsius		NaN	Missing value
+SOIL_5	Soil temperature at 5 cm depth	numeric	celsius		NaN	Missing value
+SOIL_10	Soil temperature at 10 cm depth	numeric	celsius		NaN	Missing value
+SOIL_20	Soil temperature at 10 cm depth	numeric	celsius		NaN	Missing value
+SOIL_30	Soil temperature at 30 cm depth	numeric	celsius		NaN	Missing value
+WTD	Depth to water table	numeric	meter		NaN	Missing value
+PAR1000	Photosynthetically active radiation > 1000 umols-1m-2	numeric	micromolePerMeterSquaredPerSecond		NaN	Missing value
+NEE	Net ecosystem exchange of CO2	numeric	micromolePerMeterSquaredPerSecond		NaN	Missing value
+ER	Ecosystem respiration of CO2	numeric	micromolePerMeterSquaredPerSecond		NaN	Missing value
+GPP	Gross primary productivity of CO2	numeric	micromolePerMeterSquaredPerSecond		NaN	Missing value
+FCH4	Methane flux density	numeric	nanomolePerMeterSquaredPerSecond		NaN	Missing value
+FCH4_SD	Standard Deviation of Methane flux density	numeric	nanomolePerMeterSquaredPerSecond		NaN	Missing value
+Vascular_Plant_Volume	Vascular_Plant_Volume	numeric	centimeterCubed		NaN	Missing value
+0.2m_del13C_CH4	Delta C13 methane concentration at 0.2 m depth	numeric	perMille		NaN	Missing value
+0.2m_del13C_CO2	Delta C13 CO2 concentration at 0.2 m depth	numeric	perMille		NaN	Missing value
+alpha	carbon isotopic fractionation factor	character	dimensionless		NaN	Missing value
+0.2m_CH4	Dissolved methane concentration at 0.2 m depth	numeric	millimolePerLiter		NaN	Missing value
+0.2m_CO2	Dissolved carbon dioxide concentration at 0.2 m depth	numeric	millimolePerLiter		NaN	Missing value
+0.2m_DOC	Dissolved organic carbon concentration at 0.2 m depth	numeric	millimolePerLiter		NaN	Missing value
+0.2m_Acetate	Acetate concentration at 0.2 m depth	numeric	millimolePerLiter		NaN	Missing value
+0.8m_del13C_CH4	Delta C13 methane concentration at 0.8 m depth	numeric	perMille		NaN	Missing value
+0.8m_del13C_CO2	Delta C13 CO2 concentration at 0.8 m depth	numeric	perMille		NaN	Missing value
+0.8m_CH4	Dissolved methane concentration at 0.8 m depth	numeric	millimolePerLiter		NaN	Missing value
+0.8m_CO2	Dissolved carbon dioxide concentration at 0.8 m depth	numeric	millimolePerLiter		NaN	Missing value
+0.8m_DOC	Dissolved organic carbon concentration at 0.8 m depth	numeric	millimolePerLiter		NaN	Missing value
+0.8m_Acetate	Acetate concentration at 0.8 m	numeric	millimolePerLiter		NaN	Missing value
