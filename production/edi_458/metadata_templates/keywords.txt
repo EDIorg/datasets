@@ -1,1 +1,45 @@
-keyword	keywordThesaurusammonia	algae	carbon	calcium	chloride	chlorophylla	conductivity	depth	dissolved nutrients	dissolved organic carbon	dissolved organic nitrogen	dissolvedoxygen	Interagency Ecological Program for the San Francisco Bay Delta Estuary	California Department of Water Resources	estuaries	fluorescence	freshwater	latitude	long term monitoring	longitude	measurements	monitoring	nitrogen	nitrate	nitrite	nutrients	organic carbon	organic nitrogen	oxygen	ph	phaeophytin	phosphorus	rivers	secchi depth	silica	temperature	total organic carbon	total phosphorus	turbidity	water quality	water temperature	wind speed	
+keyword	keywordThesaurus
+ammonia	
+algae	
+carbon	
+calcium	
+chloride	
+chlorophylla	
+conductivity	
+depth	
+dissolved nutrients	
+dissolved organic carbon	
+dissolved organic nitrogen	
+dissolvedoxygen	
+Interagency Ecological Program for the San Francisco Bay Delta Estuary	
+California Department of Water Resources	
+estuaries	
+fluorescence	
+freshwater	
+latitude	
+long term monitoring	
+longitude	
+measurements	
+monitoring	
+nitrogen	
+nitrate	
+nitrite	
+nutrients	
+organic carbon	
+organic nitrogen	
+oxygen	
+ph	
+phaeophytin	
+phosphorus	
+rivers	
+secchi depth	
+silica	
+temperature	
+total organic carbon	
+total phosphorus	
+turbidity	
+water quality	
+water temperature	
+wind speed	
+San Francisco Estuary	
+Sacramento-San Joaquin Delta	

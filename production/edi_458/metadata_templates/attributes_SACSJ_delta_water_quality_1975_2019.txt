@@ -1,0 +1,49 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station	Station name	character			NA	Missing value code
+Date	Date of sample collection	Date		MM/DD/YYYY	NA	Missing value code
+Time	Time of sample collection in pacific standard time	Date		hh:mm	NA	Missing value code
+SampleDescription	Description of the sample collected	character			NA	Missing value code
+FieldNotes	Field notes recorded during sampling	character			NA	Missing value code
+Weather	Weather observations recorded during sampling	character			NA	Missing value code
+AirTemp	Air temperature recorded during sampling 	numeric	fahrenheit		NA	Missing value code
+WindVelocity	Wind velocity recorded during sampling	numeric	milesPerHour		NA	Missing value code
+WindDirection	Wind direction recorded during sampling	numeric	degree		NA	Missing value code
+NorthLat	North latitude coordinate (entrapment zone stations only) 	numeric	degree		NA	Missing value code
+WestLong	West longitude coordinate (entrapment zone stations only)	numeric	degree		NA	Missing value code
+Chla	Chlorophyll a 1-meter below water surface	numeric	microgramsPerLiter		NA	Missing value code
+Pheophytin	Pheophytin a 1-meter below water surface	numeric	microgramsPerLiter		NA	Missing value code
+TotAlkalinity	Total alkalinity 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+TotAmmonia	Total ammonia 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DissAmmonia	Dissolved ammonia 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DissBromide	Dissolved bromide 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DissCalcium	Dissolved calcium 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+TotChloride	Total chloride 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DissChloride	Dissolved chloride 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DissNitrateNitrite	Dissolved nitrate + nitrite 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DOC	Dissolved organic carbon 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+TOC	Total organic carbon 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DON	Dissolved organic nitrogen 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+TON	Total organic nitrogen 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DissOrthophos	Dissolved ortho-phosphate 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+TotPhos	Total Phosphorus 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DissSilica	Dissolved Silica (SiO2) 1-meter below water surface 	numeric	milligramsPerLiter		NA	Missing value code
+TDS	Total dissolved solids 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+TSS	Total suspended solids 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+VSS	Volatile suspended solids 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+TKN	Total Kjeldahl nitrogen 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+Depth	Water depth of station	numeric	foot		NA	Missing value code
+Secchi	Secchi depth measurement of light penetration below water surface	numeric	centimeter		NA	Missing value code
+Microcystis	"Visual observation rating of Microcystis aeruginosa, with 1 meaning absent, 2 low, 3 medium, 4 high, and 5 very high"	numeric	dimensionless		NA	Missing value code
+LightExtinction	Depth at which sunlight is extinguished to 1% of surface intensity	numeric	meter		NA	Missing value code
+SpCndSurface	Specific conductance of water 1-meter below water surface	numeric	microSeimenPerCentimeter		NA	Missing value code
+DOSurface	Dissolved oxygen concentration 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
+DOpercentSurface	Dissolved oxygen concentration 1-meter below water surface	numeric	dimensionless		NA	Missing value code
+WTSurface	Water temperature 1-meter below water surface	numeric	celsius		NA	Missing value code
+TurbiditySurface	Turbidity of water 1-meter below water surface	character	nephelometricTurbidityUnit		NA	Missing value code
+pHSurface	Total pH 1-meter below water surface	numeric	dimensionless		NA	Missing value code
+SpCndBottom	Specific conductivity 1-meter above bottom of channel	numeric	microSeimenPerCentimeter		NA	Missing value code
+DOBottom	Dissolved oxygen concentration 1-meter above bottom of channel	numeric	milligramsPerLiter		NA	Missing value code
+DOpercentBottom	Dissolved oxygen concentration 1-meter above bottom of channel	numeric	dimensionless		NA	Missing value code
+WTBottom	Water temperature 1-meter above bottom of channel	numeric	celsius		NA	Missing value code
+TurbidityBottom	Turbidity of water 1-meter above bottom of channel	numeric	nephelometricTurbidityUnit		NA	Missing value code
+pHBottom	Total pH 1-meter above bottom of channel	numeric	dimensionless		NA	Missing value code

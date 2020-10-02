@@ -1,1 +1,22 @@
-givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber		Interagency Ecological Program (IEP)				creator			Sarah		Lesmeister	California Department of Water Resources	Sarah.Lesmeister@water.ca.gov	0000-0001-5492-1188	creator			Morgan		Martinez	California Department of Water Resources	Morgan.Martinez@water.ca.gov 		creator			Sarah		Lesmeister	California Department of Water Resources	Sarah.Lesmeister@water.ca.gov	0000-0001-5492-1188	supervisor			Morgan		Martinez	California Department of Water Resources	Morgan.Martinez@water.ca.gov 		lead			Jenna		Rinde	California Department of Water Resources	Jenna.Rinde@water.ca.gov	0000-0001-6677-4701	lead			Ted		Flynn	California Department of Water Resources	Theodore.Flynn@water.ca.gov	0000-0002-1838-8942	lead			Nick		Rasmussen 	California Department of Water Resources	Nicholas.Rasmussen@water.ca.gov		lead			Shaun		Philippart	California Department of Water Resources	Shaun.Philippart@water.ca.gov		supervisor			Scott		Waller	California Department of Water Resources	Scott.Waller@water.ca.gov		supervisor			Brianne		Noble Sakata	California Department of Water Resources			lead			Sarah		Lesmeister	California Department of Water Resources	Sarah.Lesmeister@water.ca.gov	0000-0001-5492-1188	contact			Morgan		Martinez	California Department of Water Resources	Morgan.Martinez@water.ca.gov 		contact			
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+		Interagency Ecological Program (IEP)				creator			
+Morgan		Martinez	California Department of Water Resources	morgan.martinez@water.ca.gov		creator			
+Jenna		Rinde	California Department of Water Resources	jenna.rinde@water.ca.gov	0000-0001-6677-4701	creator			
+Theodore	M	Flynn	California Department of Water Resources	ted.flynn@deltacouncil.ca.gov	0000-0002-1838-8942	creator			
+Sarah		Lesmeister	California Department of Water Resources	sarah.lesmeister@water.ca.gov	0000-0001-5492-1188	creator			
+Morgan		Martinez	California Department of Water Resources	morgan.martinez@water.ca.gov		contact			
+Sarah		Lesmeister	California Department of Water Resources	sarah.lesmeister@water.ca.gov	0000-0001-5492-1188	contact			
+Shaun		Philippart	California Department of Water Resources	shaun.philippart@water.ca.gov		supervisor			
+Eric		Santos	California Department of Water Resources	eric.santos@water.ca.gov		captain			
+Nicholas		Van Ark	California Department of Water Resources	nicholas.vanark@water.ca.gov		captain			
+Nicholas		Sakata	United States Bureau of Reclamation	nsakata@usbr.gov		captain			
+Nick		Rasmussen 	California Department of Water Resources	Nicholas.Rasmussen@water.ca.gov		lead			
+Brianne		Noble Sakata	California Department of Water Resources	brianne.sakata@water.ca.gov		lead			
+Scott		Waller	California Department of Water Resources	scott.waller@water.ca.gov		field crew			
+Michelle		Nelson	California Department of Water Resources	michelle.nelson@water.ca.gov		field crew			
+Andrew		Tran	California Department of Water Resources	andrew.tran@water.ca.gov		field crew			
+Torianne		Cahoon	California Department of Water Resources	torianne.cahoon@water.ca.gov		field crew			
+Brian		Arena	California Department of Water Resources			field crew			
+Brooke		Watkins	California Department of Water Resources	brooke.watkins@water.ca.gov		field crew			
+Sarah		Perry	California Department of Water Resources	sarah.perry@water.ca.gov		field crew			
+		Interagency Ecological Program				overall guidance			

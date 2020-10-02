@@ -9,86 +9,54 @@ library(dataCleanr)
 library(data.table)
 library(EMLassemblyline)
 
-setwd("/Users/csmith/Documents/EDI/datasets/edi_458")
+path <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_458\\metadata_templates"
+data_path <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_458\\data_objects"
+eml_path <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_458\\eml"
 
 # Inspect data ----------------------------------------------------------------
 
-df <- data.table::fread("./data_objects/SACSJ_delta_water_quality_2000_2018_character.csv")
+df <- data.table::fread("C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_458\\data_objects/SACSJ_delta_water_quality_1975_2019.csv")
+
+use_i <- is.na(as.numeric(df$DissCalcium))
+unique(df$DissCalcium[use_i])
 
 # Create metadata templates ---------------------------------------------------
 
 EMLassemblyline::template_core_metadata(
-  path = "./metadata_templates", 
+  path = path, 
   license = "CCBY",
-  file.type = ".docx"
-)
+  file.type = ".docx")
 
 EMLassemblyline::template_table_attributes(
-  path = "./metadata_templates",
-  data.path = "./data_objects",
-  data.table = c(
-    "EMP_Discrete_Water_Quality_Stations.csv",
-    "SACSJ_delta_water_quality_2000_2018.csv"
-  )
-)
+  path = path,
+  data.path = data_path,
+  data.table = c("SACSJ_delta_water_quality_1975_2019.csv",
+                 "EMP_Discrete_Water_Quality_Stations_1975-2019.csv"))
+
+EMLassemblyline::template_categorical_variables(
+  path = path,
+  data.path = data_path)
 
 # Create EML ------------------------------------------------------------------
 
 EMLassemblyline::make_eml(
-  path = "./metadata_templates",
-  data.path = "./data_objects",
-  eml.path = "./eml",
-  dataset.title = "Interagency Ecological Program: Discrete water quality monitoring in the Sacramento-San Joaquin Bay-Delta, collected by the Environmental Monitoring Program, 2000-2018.", 
+  path = path,
+  data.path = data_path,
+  eml.path = eml_path,
+  dataset.title = "Interagency Ecological Program: Discrete water quality monitoring in the Sacramento-San Joaquin Bay-Delta, collected by the Environmental Monitoring Program, 1975-2019.", 
   temporal.coverage = c("2000-01-10", "2018-12-19"),
   geographic.description = "San Pablo Bay to the eastern Sacramento-San Joaquin Delta",
   geographic.coordinates = c("38.369", "121.262", "37.678", "122.393"), 
   maintenance.description = "Ongoing", 
-  data.table = c(
-    "EMP_Discrete_Water_Quality_Stations.csv",
-    "SACSJ_delta_water_quality_2000_2018.csv"
-  ),
+  data.table = c("SACSJ_delta_water_quality_1975_2019.csv",
+    "EMP_Discrete_Water_Quality_Stations_1975-2019.csv"),
   data.table.description = c(
     "Water quality data from the California Bay-Delta watershed",
-    "Sampling station coordinates"
-  ), 
-  data.table.quote.character = c(
-    "\"",
-    "\""
-  ), 
+    "Sampling station coordinates"), 
+  data.table.quote.character = c("\"", "\""),
+  other.entity = "IEP_EMP_DWQN_metadata_methods.pdf",
+  other.entity.name = "Methods tables",
+  other.entity.description = "Methods tables",
   user.id = c("csmith", "iep"),
   user.domain = c("LTER", "EDI"), 
-  package.id = "edi.329.5"
-)
-
-
-EMLassemblyline::make_eml(
-  path = "/Users/csmith/Documents/EDI/datasets/edi_458/metadata_templates",
-  data.path = "/Users/csmith/Documents/EDI/datasets/edi_458/data_objects",
-  eml.path = "/Users/csmith/Documents/EDI/datasets/edi_458/eml",
-  dataset.title = "Interagency Ecological Program: Discrete water quality monitoring in the Sacramento-San Joaquin Bay-Delta, collected by the Environmental Monitoring Program, 2000-2018.", 
-  temporal.coverage = c("2000-01-10", "2018-12-19"),
-  geographic.description = "San Pablo Bay to the eastern Sacramento-San Joaquin Delta",
-  geographic.coordinates = c("38.369", "-121.262", "37.678", "-122.393"), 
-  maintenance.description = "Ongoing", 
-  data.table = c(
-    "EMP_Discrete_Water_Quality_Stations.csv",
-    "SACSJ_delta_water_quality_2000_2018.csv"
-  ),
-  data.table.description = c(
-    "Water quality data from the California Bay-Delta watershed",
-    "Sampling station coordinates"
-  ), 
-  data.table.quote.character = c(
-    "\"",
-    "\""
-  ), 
-  user.id = c("csmith", "iep"),
-  user.domain = c("LTER", "EDI"), 
-  package.id = "edi.329.5"
-)
-
-
-
-
-
-
+  package.id = "edi.90.3")
