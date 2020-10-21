@@ -1,0 +1,13 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Mark	Torre	Jorgenson	Alaska Ecoscience	ecoscience@alaska.net	0000-0002-9834-8851	creator			
+Thomas	A	Douglas	U.S. Army Cold Regions Research and Engineering Laboratory	Tom.Douglas@erdc.dren.mil		creator			
+Anna	K.	Liljedahl	Woods Hole Research Center	aliljedahl@whrc.org		creator			
+Mark	Torre	Jorgenson	Alaska Ecoscience	ecoscience@alaska.net	0000-0002-9834-8851	contact			
+Joanna	E	Roth	"ABR, Inc-Environmental Research & Services"			Data collection and analysis			
+Wendy	A	Davis	"ABR, Inc-Environmental Research & Services"			Data collection			
+Gerald	V	Frost	"ABR, Inc-Environmental Research & Services"			Data collection			
+Patricia	F	Miller	"ABR, Inc-Environmental Research & Services"			Data collection			
+Charles	H	Racine	"ABR, Inc-Environmental Research & Services"			Data collection			
+Dana		Brown	"ABR, Inc-Environmental Research & Services"			Data collection			
+Thomas	A	Douglas	U.S. Army Cold Regions Research and Engineering Laboratory	Tom.Douglas@erdc.dren.mil		PI	ADDRESSING THE IMPACTS OF CLIMATE CHANGE ON U.S. ARMY ALASKA WITH DECISION SUPPORT TOOLS DEVELOPED THROUGH FIELD WORK AND MODELING	DOD Strategic Environmental Research and Development Program	RC-2110
+Thomas	A	Douglas	U.S. Army Cold Regions Research and Engineering Laboratory	Tom.Douglas@erdc.dren.mil		PI	"Interior Alaska DoD training land wildlife habitat vulnerability to permafrost thaw, an altered fire regime, and hydrologic changes"		RC18-C2-1170

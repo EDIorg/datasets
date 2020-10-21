@@ -1,0 +1,4 @@
+attributeName	code	definition
+Freq	H	High
+Freq	M	Medium
+Freq	L	Low

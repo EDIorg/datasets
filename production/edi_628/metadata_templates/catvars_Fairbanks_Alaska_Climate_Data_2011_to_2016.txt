@@ -1,0 +1,9 @@
+attributeName	code	definition
+Season1	SO	fall
+Season1	NDJF	winter
+Season1	MA	spring
+Season1	MJJA	summer
+Season2	MJJAS	summer
+Season2	O	October
+Season2	NDJFM	winter
+Season2	A	August

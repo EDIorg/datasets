@@ -1,0 +1,21 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SiteID	Station name	character				
+Interval	Measurement interval (hrs)	numeric	number			
+Date_Time	Date and time of measurement	Date		MM/DD/YYYY hh:mm		
+Date	"Date, without time"	Date		MM/DD/YYYY		
+Year	Year	numeric	nominalYear			
+YearHydro	Hydrologic Year	numeric	nominalYear			
+Month	Month	numeric	number			
+Jday	Julian Day of Year	character				
+Year-Jday	Concatonated Year and Jday	character				
+WaterPres_kPa	Water pressure (kPa) directly from sensor	numeric	kilopascal			
+Temp_C	Water temperature in Degree C	numeric	celsius			
+BaroPres_kPa	Baro pressure (kPa) directly from nearby sensor	numeric	kilopascal			
+WatDep-m-fld	"Barometric compensated water depth (m), output from Hoboware"	numeric	meter			
+WatDep-m-fnl	"Relative water depth based on overall mean depth of station, used to normalize depth among stations"	numeric	meter			
+WSE-amsl	Water surface elevation based on DGPS measurement of sensor elevation	numeric	meter			
+DepthAdj	Adjustment to depth to standardize relative depths amoung sensors	numeric	meter			
+Qual	Data quality	categorical				
+3DayChange	Water level change over a three day period	numeric	meter			
+UpEvents	Year-Day identified to highlight large changes due to precip	character				
+Notes	Notes	character				

@@ -1,0 +1,20 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+AutoNumb	Autonumber	numeric	number			
+SiteID	Site identification name	character				
+SiteID-Year	Site ID with Year	character				
+Year	Year	numeric	nominalYear			
+DateTime	Date	Date		MM/DD/YYYY		
+StudyArea	Study area code	character				
+PlntCodeFld	"Six letter species code (3 genus, 3 species) for plant identified in field"	character				
+PlntCodeFnl	"Six letter species code (3 genus, 3 species) for final plant ID"	character				
+PlntCodeAgg	Aggregated taxa for problem species	character				
+Freq	Groupings to identify overall frequency	categorical				
+CoverPctFld	Percent cover of taxa	numeric	dimensionless			
+CoverPctFnl	Percent cover of taxa	numeric	dimensionless			
+Cover100	Percent cover normalized to 100%	numeric	dimensionless			
+NoteFld	Notes in the field	character				
+NoteOfc	Notes in the office	character				
+SpecProb	Species identification problem if any	character				
+Collected	Whether or not specimen was collected	character				
+VoucherID	ID of voucher specimen in office	character				
+VoucherPers	Person who determined ID of voucher specimen	character				

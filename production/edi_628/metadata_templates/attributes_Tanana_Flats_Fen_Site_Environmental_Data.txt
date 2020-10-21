@@ -1,0 +1,123 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+OBJECTID	AutoNumb used for ArcMAP	numeric	number		999	Missing value
+SiteID	"Site ID, often concatenated field using Project Code and Plot ID"	character			999	Missing value
+SiteID_Short	Short SiteID for site specific maps	character			999	Missing value
+SiteID_fld	Original field ID	character			999	Missing value
+SiteID_Yr	Concatenated field using Project Code and Plot ID	character			999	Missing value
+Project	Project short name	character			999	Missing value
+Date	Date of field work	Date		MM/DD/YYYY	999	Missing value
+Time	"Time, 2Long Integerhr"	character			999	Missing value
+Year	Year of project	numeric	nominalYear		999	Missing value
+ObservEnv	Observer for environmental information	character			999	Missing value
+ObservVeg	Vegetation species and structure observer initials	character			999	Missing value
+ObservSoil	Environmental Variable observer initials	character			999	Missing value
+ObservWat	Initials of observer taking soil and surface water samples	character			999	Missing value
+ObservDLog	Initials of observer taking microclimate datalogger measurements	character			999	Missing value
+ObservOther	Initials of other observers	character			999	Missing value
+LocEcoregion	Ecoregion based on Nowacki et al. 200Yes/No Checkbox	character			999	Missing value
+LocLandmark	Geographic landmark description	character			999	Missing value
+LocCode	Two to Four letter study area identification code	character			999	Missing value
+LatWGS84	"usually WGS84, units decimal degrees, but may be different if specified in ElevMethod"	numeric	degree		999	Missing value
+LonWGS84	"usually WGS84, units decimal degrees, but may be different if specified in ElevMethod"	numeric	degree		999	Missing value
+ElevEllip	"Elevation (m), Ellipsoid Ht NAD83, typical of raw gps data"	numeric	meter		999	Missing value
+LatNAD83_11	"Latitude, NAD83, units decimal degrees, used for special map positioning"	numeric	degree		999	Missing value
+LonNAD83_11	"Longitude, NAD83, units decimal degrees, used for special map positioning"	numeric	degree		999	Missing value
+ElevOrtho	"Elevation (m), Orthometric Ht NAVD88, typically derived from DPGS data and leveling"	numeric	meter		999	Missing value
+ElevMeth	"Method for determining elevation: RecrGPS, DGPS, Level"	character			999	Missing value
+PlotType	"Plot type: MI=Monitoring Intensive, MS+Monitoring Single Parameter, SI-Survey Soil-Veg, SR=rapid/recon soil-veg,  V=Verification map, A=Air survey)"	character			999	Missing value
+PlotSize	"Plot size, radius or Length X Width in meters"	character			999	Missing value
+PlotPhotos	"Plot photos taken, y,n, or number of photos"	character			999	Missing value
+PlotVegID	SiteId for Veg plot	character			999	Missing value
+PlotSoilID	SiteID for soil sampling	character			999	Missing value
+PlotWatID	Station ID for water level measurement	character			999	Missing value
+PlotDlogID	Station ID for datalogger	character			999	Missing value
+Treatment	Experimental treatment or grouping factor	character			999	Missing value
+TreatAggr	Aggregated treatments for analysis	character			999	Missing value
+Physiog	"Physiography, see reference codes"	character			999	Missing value
+Slope	"Slope (degrees), 999 for no data"	numeric	degree		999	Missing value
+Aspect	"Aspect (degrees), if slope = 0, aspect also = 0 (not north), 999 for no data"	numeric	degree		999	Missing value
+GeomSurfFld	"Field, original from source material, for geomorphic unit"	character			999	Missing value
+GeomSurfFnl	Final Revised Codes	character			999	Missing value
+GeomSurfAlt	"Alternative geomorph class, when they are cutpoint problems"	character			999	Missing value
+GeomSubFld	"Subsurface geomorphic unit, Field Codes"	character			999	Missing value
+GeomSubFnl	"Subsurface geomorphic unit, Final Revised Codes"	character			999	Missing value
+GeomDom	"Dominant geomorphic unit in multi-layered system that best represents site characteristics, see final revised codes"	character			999	Missing value
+GeomAggr	"Geomorphic unit aggregated to generalize classes, similar to generalized geology"	character			999	Missing value
+TopoMacro	"Macrotopography, see reference codes"	character			999	Missing value
+TopoMicro	"Microtopography, see reference codes"	character			999	Missing value
+TopoRelief	"measurement of typical height range of microtopographic features in cm, 999 for no data"	numeric	centimeter		999	Missing value
+TkarstType	"Thermokarst type, see reference table"	character			999	Missing value
+TKarstStage	"Thermokarst or degradation stage, see reference table"	character			999	Missing value
+SurfRockPct	"% cover of surface frags, 999 for no data"	numeric	dimensionless		999	Missing value
+SurfFrostScarPct	"% cover of active partially vegetated frost boils, 999 for no data"	numeric	dimensionless		999	Missing value
+WaterDep	"Water depth above or below the soil surface, cm, 999 if no data"	numeric	centimeter		999	Missing value
+WaterAbvBlw	"Water depth above or below the soil surface (A/B/U), used to check WaterDep value"	character			999	Missing value
+WaterSat30	soil saturated in upper Integer0 cm. yes/no/unknown	character			999	Missing value
+WaterRegNWI	"codes for National Wetlands inventory hydrology, see REF_NWIWaterRegimeCodes"	character			999	Missing value
+WaterpH	"pH measured in ground water, where present, 999 if no data"	numeric	dimensionless		999	Missing value
+WaterEC	"EC (uS/cm) measured in ground water, where present; 999 if no data"	numeric	dimensionless		999	Missing value
+SoilpH10	"pH measure in saturated soil slurry, usually when ground water not present, 999 if no data"	numeric	dimensionless		999	Missing value
+SoilpH40	"soil pH measured from 10cm below soil surface, 999 if no data"	numeric	dimensionless		999	Missing value
+SoilpHGrad	"Soil pH at 40 cm, 999 if no data"	numeric	dimensionless		999	Missing value
+SoilEC10	"EC (uS/cm) measure in saturated soil slurry at 10 cm depth, usually when ground water not present, 999 if no data"	numeric	dimensionless		999	Missing value
+SitepH	"Water pH or soil slurry pH, water used preferentially when available, 999 if no data"	numeric	dimensionless		999	Missing value
+SiteEC	"Water EC (uS/cm) or soil slurry EC, water used preferentially when available, uS/cm, 999 if no data"	numeric	dimensionless		999	Missing value
+SiteChem	A=Alkaline; B=Basic; N=Circuneutral; S=Saline; E=brackish (see Ref_SiteChemistry for definitions)	character			999	Missing value
+SoilMotlDep	"Depth (cm) to top of first layer with mottles, enter 999 for no data"	character			999	Missing value
+SoilGleyDep	"FDepth (cm) to top of first layer with full gleying, enter 999 for no data"	character			999	Missing value
+SoilDrainage	Final Revised drainage codes	character			999	Missing value
+SoilMoisture	Final revised Soil Moisture codes	character			999	Missing value
+SoilHydric	Is it a hydric soil (yes/no/unknown) using NRCS hydric soil criteria	character			999	Missing value
+SoilOrgSurfThk	"Thickness (cm) of surface organic layer, use 999 when no data"	numeric	centimeter		999	Missing value
+SoilOrgCum40	"Cumulative thickness (cm) of surface and buried organic layer within top 40 cm, use 999 when no data"	numeric	centimeter		999	Missing value
+SoilOrgPostTK	"Thickness (cm) of new peat formed after thermokarst, 999 if no data"	numeric	centimeter		999	Missing value
+SoilTxtMin40	"Dominant mineral texture in top 40 cm, see Soil Text Dom codes"	character			999	Missing value
+SoilTxtDom40	"Dominant overall texture in top 40 cm, see Soil Text Dom codes"	character			999	Missing value
+SoilSiltThk	"Depth (cm) of surface wind blown silt, use 999 for no data"	numeric	centimeter		999	Missing value
+SoilRockDep	"Depth (cm) to rocks, when rocks are >Yes/No Checkbox5% volume, use 999 for no data"	numeric	centimeter		999	Missing value
+SoilThawDep	"Thaw depth (cm), use 999 for no data"	numeric	centimeter		999	Missing value
+SoilFrostBot	Depth (cm) to bottom of seasonal or permafrost	numeric	centimeter		999	Missing value
+SoilCryoturb	"Cryoturbation observed in soil profile: P-present or A-absent, U=Unknown"	character			999	Missing value
+SoilPFrost	"Permafrost present (either proven or highly likely): P-present or A-absent, U=Unknown"	character			999	Missing value
+SoilIceWdgDep	"Depth (cm) to top of wedge ice, 999 if no data"	numeric	centimeter		999	Missing value
+SoilObsDep	"Depth (cm) to maximum soil observation (cm), includes frost probe depth, 9999 if no data"	numeric	centimeter		999	Missing value
+SoilStrat	whether the soils were described: y/n	character			999	Missing value
+SoilSample	whether soil samples were collected: y/n	character			999	Missing value
+SoilMethod	"method by which soil/environmental variables assessed, e.g. l = soil plug, m = tile probe, see REF_SampleMeth for complete list"	character			999	Missing value
+SoilClassFld	"Soil taxonomy code used in the field or time of survey, NRCS class"	character			999	Missing value
+SoilClassFnl	NRCS Soil taxonomy final	character			999	Missing value
+SoilClassEd	Soil taxonomy Edition used for final	character			999	Missing value
+SoilLandscape	Soil landscape combined physiography and dominant texture	character			999	Missing value
+VegQual	"Quality or completeness of species listing: P=partial (often Short Text-20); D=dominants (often Integer-Date/Time), C=complete (or nearly so), N=None"	character			999	Missing value
+VegClass4Fld	"Viereck Veg class level 4 Field call, see reference table REF_Site_VegCodeLong Integer, ND=not determined"	character			999	Missing value
+VegClass4Fnl	"Viereck Veg class  level 4  Final call, see reference table REF_Site_VegCodeLong Integer, ND=not determined"	character			999	Missing value
+VegClass4Alt	"Viereck Veg class  level 4  field alternative call, REF_Site_VegCodeLong Integer"	character			999	Missing value
+VegStruct	"Code for Ecotype Vegetation Structure, see Site_Ecpotypes reference table"	character			999	Missing value
+VegDomSpec	"Listing of species codes for dominant plants, with hypen between codes"	character			999	Missing value
+VegFlorClass	Floristic Class from analysis	character			999	Missing value
+VegBiomass	Dried plant mass	numeric	gramPercentimeterSquared		999	Missing value
+VegMethod	"Method used to estimate plant cover: V=visual estimate, P=point sampling, D=dominance list"	character			999	Missing value
+DisturbClass	"Disturbance class, natural or human induced, see REF_Site_DisturbClass"	character			999	Missing value
+DisturbYear	"Year of Disturbance or onset of change, 9999 if no data"	numeric	nominalYear		999	Missing value
+DisturbInterv	"Years of recovery, or interval, after disturbance between disturbance date and sampling date"	numeric	nominalYear		999	Missing value
+EcotypeFld	"Ecotype code assigned in field, concatonate Physiog, TextDom, SoilMoist, SiteChem, VegStruct"	character			999	Missing value
+EcotypeAggr	Aggregated ecotypes (post data- analysis)	character			999	Missing value
+NotesFld	Field Notes	character			999	Missing value
+NotesOff	Office Notes	character			999	Missing value
+ClimMAAT	"Mean Annual Air Temperature (deg. C_, from field data or PRISM"	numeric	celsius		999	Missing value
+ClimMAP	Mean annual precipitation (mm)	numeric	millimeter		999	Missing value
+ClimMeth	Method for determining MAAT	character			999	Missing value
+DataRevEnv	Environmental (non-geomorphology) data completeness review completed: Y or N	character			999	Missing value
+DataRevVeg	Soil data completeness review performed: Y or N	character			999	Missing value
+DataRevSoil	"Origin of the data: organization, company, institute or individual"	character			999	Missing value
+DataOrigin	Vegetation and ecotype data completeness review performed: Y or N	character			999	Missing value
+OutlierEnv	Outlier based on evaluate of central tendencies of Environmental Variables	character			999	Missing value
+OutlierVeg	Outlier based on evaluate of central tendencies of  Veg composition	character			999	Missing value
+References	Reports and publications using data	character			999	Missing value
+WaterStore	"Total water storage, depth equivalent (), usually 0-2 m depth increment"	numeric	meter		999	Missing value
+CarbStock	"Total carbon stock (kg/m2), usually for 0-2 m depth increment"	numeric	dimensionless		999	Missing value
+CarbWat_Sum_Depth	Depth increments (m) used for summing carbon and water stocks	numeric	dimensionless		999	Missing value
+CarbStock_PostTK	PLACEHOLDER	numeric	dimensionless		999	Missing value
+SoilMass	Mass of new peat formed post thermokarst	numeric	kilogramsPerSquareMeter		999	Missing value
+DistEdgeDist	Distance to edge of disturbance or thermokarst edge	numeric	meter		999	Missing value
+SoilSurfOrgDens	Bulk density of surface organic mat	numeric	gramsPerCubicCentimeter		999	Missing value

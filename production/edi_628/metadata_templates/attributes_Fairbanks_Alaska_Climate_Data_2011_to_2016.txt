@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+DATE	Date	Date		MM/DD/YYYY		
+Year	"Year, integer"	numeric	nominalYear			
+YearHydro	"Year, integer"	numeric	nominalYear			
+Month	"Month, integer"	numeric	number			
+JulianDay	"JulianDay, integer"	numeric	number			
+Season1	Months grouped into 4 seasons	categorical				
+Season2	Months grouped into 2 seasons	categorical				
+EVAP	"Evaporation, mm"	numeric	millimeter			
+PRCP	"Precipitation, mm"	numeric	millimeter			
+SNWD	"Snow Depth, cm"	numeric	millimeter			
+SNOW	"SNOW, integer"	numeric	millimeter			
+TMAX	"Daily Maximum temperature, deg. C"	numeric	celsius			
+TMIN	"Daily Minimum temperature, deg. C"	numeric	celsius			
+TAVE-C	"Daily Average temperature, deg. C"	numeric	celsius			
+HiPrecip5days	Running 5-day sum of precipitation	numeric	millimeter			
+HighPrecipDays	Grouping of days involved in high precipitation events	character				
+EventNum	"EventNum, integer"	character				
+Notes	Notes	character				

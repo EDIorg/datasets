@@ -1,0 +1,11 @@
+keyword	keywordThesaurus
+Alaska	
+boreal	
+fen	
+thermokarst	
+water	
+temperature	
+climate	
+Fairbanks	
+precipitation	
+snow	
