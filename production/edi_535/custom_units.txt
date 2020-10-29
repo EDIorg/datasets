@@ -1,0 +1,3 @@
+id	unitType	parentSI	multiplierToSI	description
+microSiemensPerCentimeter				conductivity
+nephelometricTurbidityUnits				turbidity

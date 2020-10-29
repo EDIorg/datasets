@@ -1,0 +1,67 @@
+name	name_type	name_resolved	authority_system	authority_id
+Alosa sapidissima	scientific	Alosa sapidissima	ITIS	161702
+Clevelandia ios	scientific	Clevelandia ios	ITIS	171748
+Lepidogobius lepidus	scientific	Lepidogobius lepidus	ITIS	171762
+Syngnathus leptorhynchus	scientific	Syngnathus leptorhynchus	ITIS	166462
+Percina macrolepida	scientific	Percina macrolepida	ITIS	168487
+Ictalurus melas	scientific	Ictalurus melas	ITIS	164040
+Pomoxis nigromaxulatus	scientific	Pomoxis nigromaculatus	ITIS	168167
+Lepomis macrochirus	scientific	Lepomis macrochirus	ITIS	168141
+Ictalurus nebulosus	scientific	Ictalurus nebulosus	ITIS	164044
+Sebastes auriculatus	scientific	Sebastes auriculatus	ITIS	166708
+Symphurus atricaudus	scientific	Symphurus atricaudus	ITIS	616607
+Cyprinus carpio	scientific	Cyprinus carpio	ITIS	163344
+Centrarchidae	scientific	Centrarchidae	ITIS	168093
+Tridentiger trigonocephalus	scientific	Tridentiger trigonocephalus	ITIS	171912
+Ictalurus punctatus	scientific	Ictalurus punctatus	ITIS	163998
+Ilypnus gilberti	scientific	Ilypnus gilberti	ITIS	171892
+Oncorhynchus tshawytscha	scientific	Oncorhynchus tshawytscha	ITIS	161980
+Cyprinidae	scientific	Cyprinidae	ITIS	163342
+Hypomesus transpacificus	scientific	Hypomesus transpacificus	ITIS	162032
+Parophrys vetulus	scientific	Parophrys vetulus	ITIS	172921
+Notemigonus crysoleucas	scientific	Notemigonus crysoleucas	ITIS	163368
+Carassius auratus	scientific	Carassius auratus	ITIS	163350
+Lavinia exilicauda	scientific	Lavinia exilicauda	ITIS	163569
+Menidia beryllina	scientific	Menidia beryllina	ITIS	165993
+Atherinopsis californiensis	scientific	Atherinopsis californiensis	ITIS	166012
+Lamprey	scientific	NA	NA	NA
+Micropterus salmoides	scientific	Micropterus salmoides	ITIS	168160
+Spirinchus thaleichthys	scientific	Spirinchus thaleichthys	ITIS	162049
+Gillichthys mirabilis	scientific	Gillichthys mirabilis	ITIS	171967
+Gambusia affinis	scientific	Gambusia affinis	ITIS	165878
+Engraulis mordax	scientific	Engraulis mordax	ITIS	161828
+Clupea pallasii	scientific	Clupea pallasii	ITIS	551209
+Lampetra tridentata	scientific	Lampetra tridentata	ITIS	159713
+Leptocottus armatus	scientific	Leptocottus armatus	ITIS	167302
+Porichthys notatus	scientific	Porichthys notatus	ITIS	164414
+Cottus asper	scientific	Cottus asper	ITIS	167233
+Lucania parva	scientific	Lucania parva	ITIS	165679
+Lepomis microlophus	scientific	Lepomis microlophus	ITIS	168154
+Lampetra ayresi	scientific	Lampetra ayresi	ITIS	159704
+Orthodon microlepidotus	scientific	Orthodon microlepidotus	ITIS	163589
+Ptychocheilus grandis	scientific	Ptychocheilus grandis	ITIS	163524
+Catostomus occidentalis	scientific	Catostomus occidentalis	ITIS	163908
+Sculpin	scientific	NA	NA	NA
+Tridentiger bifasciatus	scientific	Tridentiger bifasciatus	ITIS	553361
+Cymatogaster aggregata	scientific	Cymatogaster aggregata	ITIS	169739
+Tridentiger barbatus	scientific	Tridentiger barbatus	ITIS	638138
+Osmeridae	scientific	Osmeridae	ITIS	162028
+Micropterus dolomieui	scientific	Micropterus dolomieui	ITIS	168159
+Smelt	scientific	NA	NA	NA
+Citharichthys stigmaeus	scientific	Citharichthys stigmaeus	ITIS	172717
+Pogonichthys macrolepidotus	scientific	Pogonichthys macrolepidotus	ITIS	163603
+Micropterus punctulatus	scientific	Micropterus punctulatus	ITIS	168161
+Platichthys stellatus	scientific	Platichthys stellatus	ITIS	172893
+Morone saxatilis	scientific	Morone saxatilis	ITIS	167680
+Sturgeon	scientific	NA	NA	NA
+Dorosoma petenense	scientific	Dorosoma petenense	ITIS	161738
+Gasterosteus aculeatus	scientific	Gasterosteus aculeatus	ITIS	166365
+Atherinops affinis	scientific	Atherinops affinis	ITIS	165986
+Tridentiger	scientific	Tridentiger	ITIS	171911
+Hysterocarpus traski	scientific	Hysterocarpus traski	ITIS	169763
+Hypomesus nipponensis	scientific	Hypomesus nipponensis	ITIS	162033
+Ameiurus catus	scientific	Ameiurus catus	ITIS	164037
+Pomoxis annularis	scientific	Pomoxis annularis	ITIS	168166
+Genyonemus lineatus	scientific	Genyonemus lineatus	ITIS	169257
+Acipenser transmontanus	scientific	Acipenser transmontanus	ITIS	161068
+Acanthogobius flavimanus	scientific	Acanthogobius flavimanus	ITIS	171882

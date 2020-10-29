@@ -1,0 +1,86 @@
+﻿1.) Data Collection methods:
+
+Three 10-minute stepped oblique tows are conducted at each sampling station, each following a tow schedule to sample the entire water column. Environmental conditions data, including tide, turbidity, surface and bottom electrical conductivity, water temperature, and secchi depth, are collected at each station at the time of sampling. At the end of each tow, net contents are washed into a cod-end jar, the jar is removed, and its contents preserved in 10% formalin dyed with Rose Bengal for later identification in the lab. A General Oceanics flowmeter is mounted across the net's mouth to estimate the water volume filtered. The distinctively labeled sample jars are taken to the laboratory at the California Department of Fish and Wildlife's Bay Delta Region, Stockton.  The complete contents are sorted and any larval fish present are identified and counted.  All fish are identified to species or lowest possible taxon. The first 300 fish (1995-98), or 100 fish (1999-00), or 50 fish (2001- present) from each tow are randomly selected and measured (FL, or TL if no fork) to the nearest millimeter.  All delta smelt are measured regardless of catch size.  Starting in 2020, all longfin smelt are measured regardless of catch.
+
+2.) Link to blank datasheet:
+
+Available upon request (see data contact information) 
+
+3.) Instrument and Equipment Specifications, including QAQC methods and frequency:
+
+The 20-mm Survey fish net is a cone shaped plankton net composed of 1600μm mesh and measuring 5.5 meters in length with an opening circumference of 4.93 meters and a mouth area of 1.51m2. The net is comprised of two sections: a cylindrical front section that includes a durable canvas mouth with grommets for lashing onto the D-frame, and a funnel shaped back section with a canvas collar that attaches to the cod-end jar. The weight of the metal D-frame and two attached skis is approximately 80lbs; a solid iron weight is attached at the front end of each ski leg weighing approximately 26lbs each, giving a total sled weight of approximately 132lbs before the netting is added. The cod-end jar is a 2L Nalgene® polyethylene bottle, screwed into a General Oceanics ring (cod-end ring), and attached to the canvas collar with a hose clamp.  A 3x4 opening is cut into the cod-end jar which is screened with 4x5 474μm wire bolting cloth melted into the bottle. Nets are checked for tears after each tow. 
+
+The YSI Model 30 is used to measure water temperature and electrical conductivity. The probe is rinsed between samples by storing it in a bottle of distilled water that is discarded at the end of the day. YSI units are calibrated using commercially available conductivity standards annually before the beginning of each survey season. Hach 2100P turbidity meters are used to measure turbidity in nephelometric turbidity units (NTUs). Turbidity meters are calibrated annually with commercially available standards designed specifically for the model before each field season. Secchi discs are black and white discs that measure water clarity by measuring the depth of disappearance from the water's surface, or the distance light can penetrate. Secchi discs are mounted onto rigid meter sticks, with a maximum depth of 200cm. Measurements are taken in the shade, with no sunglasses on, and are done by the same person the entire day for consistency.
+
+4.) Analysis Methods and SOPs:
+
+Water volume sampled in each tow is calculated using data collected by a flowmeter mounted to the net. The difference in flowmeter counts is calculated by subtracting the flowmeter reading when the net is put into the water from the flowmeter reading when the net is taken out of the water. This value is then multiplied by a factory calibration factor to convert the reading into a number of meters of flow. This is multiplied by the area of the net to estimate the volume of water sampled in each tow.
+
+5.) Project History:
+
+1995 – Project start.
+
+1996 – Napa River Stations (341, 342, 343, 344, 345, 346, & 347) added to sampling program.
+
+1997 – Napa River stations (341 & 347) and Big Break station (802) discontinued from sampling program.
+
+1998 – N/A
+
+1999 – Number of fish measured reduced from 300 to 100 (all delta smelt are measured regardless of catch size).
+
+2000 – N/A
+
+2001 – Number of fish measured reduced from 100 to 50 (all delta smelt are measured regardless of catch size).
+
+2002 – Napa River stations 347, 348, & 349 added to sampling program when higher outflow conditions persist in Napa River.
+
+2003 – N/A
+
+2004 – N/A
+
+2005 – N/A
+
+2006 – N/A 
+
+2007 – N/A
+
+2008- Cache Slough complex stations (718, 720, 726, 724, 723, 719) added to regular sampling program.
+
+2009- Supplemental sampling in Sacramento Deepwater Channel stations (794, 795, 796, 797, 798, 799) occurred over surveys 7 and 8.
+
+2010 – Implementation of the use of a Hach Model # 2100P Turbidimeter as Standard Operating Procedure to record turbidity in NTU's. Recorded Latitude and Longitude on datasheets, but not entered into database.
+
+2011 – Latitude and Longitude recorded in field and entered into database.
+
+2012 – N/A
+
+2013 – N/A
+
+2014 – N/A
+
+2015 – Review of project documents indicated a discrepancy between documented 20-mm net dimensions and actual 20-mm net dimensions.  In 1995 staff worked with Lodi Tent and Awning to accommodate for shrinkage of the canvas-collar mouth of the nets.  The problem was resolved by increasing the circumference of the mouth from 455 cm to 493 cm.  It appears that all subsequent 20-mm net purchases incorporated this change; however, these changes were not incorporated into documentation of net dimensions. A total of 6 additional tows were performed during surveys 6-9 at stations 706, 707 and 719 as part of a pilot study on Delta Smelt genetics at UC Davis.  Samples were preserved in 95% EtOH and sent to Mandi Finger, with Bernie May's lab.  Stations sampled each survey was based on the likelihood of Delta Smelt occurrence, as indicated by results of prior surveys.
+
+The vendor that historically supplied the net mesh to construct 20-mm nets went out of business. A new vendor was found, Christensen Net Works. New nets were constructed and used in 2015.
+
+2016 – Like 2015, no flowmeter calibration occurred in 2016. The factory value was used for all meters, and 9 meters were sent for refurbishing prior to the survey season.
+
+2017 – N/A
+
+2018 – N/A
+
+2019 – N/A
+
+2020 – All Longfin Smelt measured regardless of catch, no plus counts.
+
+6.) QA/QC
+
+Methods: After each tow, the field lead verifies that the flowmeter count is within the appropriate range, and if not, a re-tow is required. If there is an obvious reason that the flow meter was out of range, (e.g. weeds caught in the net or on the flowmeter), it is recorded as the reason for a re-tow in the comments section of the datasheet. The net can clog during algal blooms, jellyfish blooms, or heavy debris loads. If material is overfilling the cod end jar, the tow time is reduced to 5 minutes or 2.5 minutes and the appropriate tow schedule is followed. The acceptable flowmeter check range is reduced accordingly. If a 2.5 minute tow is performed and material like algae, jellyfish, or peat is still overfilling the cod end, that tow at that entire station is dropped. For consistency, all larval and juvenile fish are preserved and processed in the laboratory. Fish are separated from debris and other organisms present in a sample in a process referred to as sorting. After sorting, the sample is sorted a 2nd time by a different individual, looking for any missed fish, as a quality control check (QC).  Fish identification involves a first ID person and a QC by a fish ID specialist to confirm all species. Following a QC frequency protocol based on the experience of the identifier, fish identifiers will progressively have fewer and fewer samples QC'd until they are considered a fish ID specialist. Samples for identification QC are randomly selected. The larval fish ID specialist will confirm identification and counts for all fish in the sample. For all samples (QC required or not), all species of concern (Endangered Species Act listed) fish and any questionable fish must undergo a second ID.
+
+Data: All computer data entry into the local database undergoes two rounds of ‘line by line' checks, wherein all fields are checked against the original datasheets for fidelity. At the end of the survey field season, once all of the fish samples have been processed in the laboratory and data entry is complete, the environmental and fish data is ‘finalized' such that it is clean for analysis and available for public consumption. The first step in this process is to conduct final line-by-lines. Each survey gets two complete line-by-lines (in addition to the two line-by-lines conducted upon entry). Once the end of season line-by-line is complete a project lead will run a series of database queries called ‘Edit' queries. These queries catch outliers and other erroneous environmental and catch data. Not all data is changed because it is an outlier (outside of 2 standard deviations is the criteria for most queries). In most cases, outliers are real data. These queries are to alert the project lead of potential erroneous data, and care is taken to edit only data that truly needs to be edited.
+
+7.) Contractor Information: N/A
+
+8.) External Review Process: N/A
+
+9.) Methods References: N/A
+

@@ -1,0 +1,86 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year when sampling occurred	numeric	nominalYear		NA	not available
+Survey	A sequential number indicating the completion of all or most stations in the study area on a bi-weekly basis	character			NA	not available
+SampleDate	Date when sampling occurred	Date		YYYY-MM-DD	NA	not available
+TowTime	Time of day when sampling started	Date		hh:mm:ss	NA	not available
+Station	Project station number	character			NA	not available
+Latitude	Station latitude in WGS 1984 Coordinate in degree minute second	character			NA	not available
+Longitude	Station longitude WGS 1984 Coordinate in degree minute second	character			NA	not available
+Duration	Time of an individual tow	numeric	minute		NA	not available
+TowNum	"Number of the tow, first second or third"	character			NA	not available
+Volume	Volume of water sampled	numeric	cubicMeter		NA	not available
+BottomDepth	Water depth at station	numeric	foot		NA	not available
+Temp	Surface water temperature of a station	numeric	celsius		NA	not available
+TopEC	Surface electro-conductivity 	numeric	microSiemensPerCentimeter		NA	not available
+BottomEC	Bottom electro-conductivity	numeric	microSiemensPerCentimeter		NA	not available
+Secchi	Water transparency	numeric	centimeter		NA	not available
+Turbidity	Surface water turbidity	numeric	nephelometricTurbidityUnits		NA	not available
+American_Shad	Catch of American Shard (Alosa sapidissima)	numeric	number		NA	not available
+Arrow_Goby	Catch of Arrow Goby (Clevelandia ios)	numeric	number		NA	not available
+Bay_Goby	Catch of Bay Goby (Lepidogobius lepidus)	numeric	number		NA	not available
+Bay_Pipefish	Catch of Bay Pipefish (Syngnathus leptorhynchus)	numeric	number		NA	not available
+Bigscale_Logperch	Catch of Bigscale Logperch (Percina macrolepida)	numeric	number		NA	not available
+Black_Bullhead	Catch of Black Bullhead (Ictalurus melas)	numeric	number		NA	not available
+Black_Crappie	Catch of Black Crappie (Pomoxis nigromaxulatus)	numeric	number		NA	not available
+Bluegill_Sunfish	Catch of Bluegill Sunfish (Lepomis macrochirus)	numeric	number		NA	not available
+Brown_Bullhead	Catch of Brown Bullhead (Ictalurus nebulosus)	numeric	number		NA	not available
+Brown_Rockfish	Catch of Brown Rockfish (Sebastes auriculatus)	numeric	number		NA	not available
+California_Tonguefish	Catch of California Tonguefish (Symphurus atricaudus)	numeric	number		NA	not available
+Carp	Catch of Carp (Cyprinus carpio)	numeric	number		NA	not available
+Catfish_Unid	Catch of iunidentified catfish 	numeric	number		NA	not available
+Centrarchids_Unid	Catch of unidentifiable fish in the family Centrarchidae	numeric	number		NA	not available
+Chameleon_Goby	Catch of Chameleon Gody (Tridentiger trigonocephalus)	numeric	number		NA	not available
+Channel_Catfish	Catch of Channel Catfish (Ictalurus punctatus)	numeric	number		NA	not available
+Cheekspot_Goby	Catch of Cheekspot Goby (Ilypnus gilberti)	numeric	number		NA	not available
+Chinook_Salmon	Catch of Chinook Salmon (Oncorhynchus tshawytscha)	numeric	number		NA	not available
+Cyprinids_Unid	Catch of unidentifiable fish in the family Cyprinidae	numeric	number		NA	not available
+Delta_Smelt	Catch of Delta Smelt (Hypomesus transpacificus)	numeric	number		NA	not available
+English_Sole	Catch of English Cole (Parophrys vetulus)	numeric	number		NA	not available
+Gobies_Unid	Catch of unidentified gobies	numeric	number		NA	not available
+Golden_Shiner	Catch of Golden Shiner (Notemigonus crysoleucas)	numeric	number		NA	not available
+Goldfish	Catch of Goldfish (Carassius auratus)	numeric	number		NA	not available
+Hitch	Catch of Hitch (Lavinia exilicauda)	numeric	number		NA	not available
+Inland_Silverside	Catch of Inland Silverside (Menidia beryllina)	numeric	number		NA	not available
+Jacksmelt	Catch of Jacksmelt (Atherinopsis californiensis)	numeric	number		NA	not available
+Lampreys_Unid	Catch of unidentifiable Lamprey	numeric	number		NA	not available
+Largemouth_Bass	Catch of Largemouth Bass (Micropterus salmoides)	numeric	number		NA	not available
+Longfin_Smelt	Catch of Longfin Smelt (Spirinchus thaleichthys)	numeric	number		NA	not available
+Longjaw_Mudsucker	Catch of Longjaw Mudsucker (Gillichthys mirabilis)	numeric	number		NA	not available
+Mosquitofish	Catch of Mosquitofish (Gambusia affinis)	numeric	number		NA	not available
+Northern_Anchovy	Catch of Northern Anchovy (Engraulis mordax)	numeric	number		NA	not available
+Pacific_Herring	Catch of Pacific Herring (Clupea pallasii)	numeric	number		NA	not available
+Pacific_Lamprey	Catch of Pacific Lamprey (Lampetra tridentata)	numeric	number		NA	not available
+Pacific_Staghorn_Sculpin	Catch of Pacific Staghorn Sculpin (Leptocottus armatus)	numeric	number		NA	not available
+Plainfin_Midshipman	Catch of Plainfin Midshipman (Porichthys notatus)	numeric	number		NA	not available
+Prickly_Sculpin	Catch of Prickly Sculpin (Cottus asper)	numeric	number		NA	not available
+Rainwater_Killifish	Catch of Rainwater Killifish (Lucania parva)	numeric	number		NA	not available
+Redear_Sunfish	Catch of Redear Sunfish (Lepomis microlophus)	numeric	number		NA	not available
+River_Lamprey	Catch of River Lamprey (Lampetra ayresi)	numeric	number		NA	not available
+Sacramento_Blackfish	Catch of Sacramento Blackfish (Orthodon microlepidotus)	numeric	number		NA	not available
+Sacramento_Pikeminnow	Catch of Sacramento Pikeminnow (Ptychocheilus grandis)	numeric	number		NA	not available
+Sacramento_Sucker	Catch of Sacramento Sucker (Catostomus occidentalis)	numeric	number		NA	not available
+Sculpins_Unid	Catch of unidentified Sculpin	numeric	number		NA	not available
+Shimofuri_Goby	Catch of Shimofuri Goby (Tridentiger bifasciatus)	numeric	number		NA	not available
+Shiner_Perch	Catch of Shiner Surfperch (Cymatogaster aggregata)	numeric	number		NA	not available
+Shokihaze_Goby	Catch of Shokihaze Goby (Tridentiger barbatus)	numeric	number		NA	not available
+Silversides_Unid	Catch of unidentifiable fish in the family Osmeridae	numeric	number		NA	not available
+Smallmouth_Bass	Catch of Smallmouth Bass (Micropterus dolomieui)	numeric	number		NA	not available
+Smelt_Unid	Catch of unidentified Smelt	numeric	number		NA	not available
+Speckled_Sanddab	Catch of Speckled Sanddab (Citharichthys stigmaeus)	numeric	number		NA	not available
+Splittail	Catch of Splittail (Pogonichthys macrolepidotus)	numeric	number		NA	not available
+Spotted_Bass	Catch of Spotted Bass (Micropterus punctulatus)	numeric	number		NA	not available
+Starry_Flounder	Catch of Starry Flounder (Platichthys stellatus)	numeric	number		NA	not available
+Striped_Bass	Catch of Striped Bass (Morone saxatilis)	numeric	number		NA	not available
+Sturgeon_Unid	Catch of unidentified Sturgeon	numeric	number		NA	not available
+Threadfin_Shad	Catch of Threadfin Shad (Dorosoma petenense)	numeric	number		NA	not available
+Threespine_Stickleback	Catch of Threespine Stickleback (Gasterosteus aculeatus)	numeric	number		NA	not available
+Topsmelt	Catch of Topsmelt (Atherinops affinis)	numeric	number		NA	not available
+Tridentiger_spp	Catch of unidentifiable fish of the genus Tridentiger	numeric	number		NA	not available
+Tule_Perch	Catch of Tule Perch (Hysterocarpus traski)	numeric	number		NA	not available
+Unknown	Catch of unidentifiable fish of unknown classification	numeric	number		NA	not available
+Wakasagi	Catch of Wakasagi (Hypomesus nipponensis)	numeric	number		NA	not available
+White_Catfish	Catch of White Catfish (Ameiurus catus)	numeric	number		NA	not available
+White_Crappie	Catch of White Crappie (Pomoxis annularis)	numeric	number		NA	not available
+White_Croaker	Catch of White Croaker (Genyonemus lineatus)	numeric	number		NA	not available
+White_Sturgeon	Catch of White Sturgeon (Acipenser transmontanus)	numeric	number		NA	not available
+Yellowfin_Goby	Catch of Yellowfin Goby (Acanthogobius flavimanus)	numeric	number		NA	not available

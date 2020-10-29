@@ -1,0 +1,13 @@
+keyword	keywordThesaurus
+Interagency Ecological Program for the San Francisco Bay Delta Estuary	
+estuaries	
+long term monitoring	
+endangered species	
+fishes	
+Delta Smelt	
+population dynamics	
+larvae	
+CDFW Stockton Labs	
+turbidity	
+water temperature	
+tides	
