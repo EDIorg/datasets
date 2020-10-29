@@ -1,0 +1,5 @@
+attributeName	code	definition
+Tide	4	flood
+Tide	2	ebb
+Tide	1	high
+Tide	3	low

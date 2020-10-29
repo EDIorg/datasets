@@ -1,0 +1,45 @@
+name	name_type	name_resolved	authority_system	authority_id
+Clevelandia ios	scientific	Clevelandia ios	ITIS	171748
+Lepidogobius lepidus	scientific	Lepidogobius lepidus	ITIS	171762
+Percina macrolepida	scientific	Percina macrolepida	ITIS	168487
+Black Bullhead	scientific	NA	NA	NA
+Lepomis macrochirus	scientific	Lepomis macrochirus	ITIS	168141
+Symphurus atricaudus	scientific	Symphurus atricaudus	ITIS	616607
+Cyprinus carpio	scientific	Cyprinus carpio	ITIS	163344
+Centrarchidae	scientific	Centrarchidae	ITIS	168093
+Ictalurus punctatus	scientific	Ictalurus punctatus	ITIS	163998
+Ilypnus gilberti	scientific	Ilypnus gilberti	ITIS	171892
+Oncorhynchus tshawytscha	scientific	Oncorhynchus tshawytscha	ITIS	161980
+Cyprinidae	scientific	Cyprinidae	ITIS	163342
+Hypomesus transpacificus	scientific	Hypomesus transpacificus	ITIS	162032
+Parophrys vetulus	scientific	Parophrys vetulus	ITIS	172921
+Menidia beryllina	scientific	Menidia beryllina	ITIS	165993
+Atherinopsis californiensis	scientific	Atherinopsis californiensis	ITIS	166012
+Lamprey	scientific	NA	NA	NA
+Spirinchus thaleichthys	scientific	Spirinchus thaleichthys	ITIS	162049
+Gillichthys mirabilis	scientific	Gillichthys mirabilis	ITIS	171967
+Gambusia affinis	scientific	Gambusia affinis	ITIS	165878
+Engraulis mordax	scientific	Engraulis mordax	ITIS	161828
+Clupea pallasii	scientific	Clupea pallasii	ITIS	551209
+Leptocottus armatus	scientific	Leptocottus armatus	ITIS	167302
+Porichthys notatus	scientific	Porichthys notatus	ITIS	164414
+Cottus asper	scientific	Cottus asper	ITIS	167233
+Lucania parva	scientific	Lucania parva	ITIS	165679
+Lepomis microlophus	scientific	Lepomis microlophus	ITIS	168154
+Catostomus occidentalis	scientific	Catostomus occidentalis	ITIS	163908
+Tridentiger bifasciatus	scientific	Tridentiger bifasciatus	ITIS	553361
+Tridentiger barbatus	scientific	Tridentiger barbatus	ITIS	638138
+Osmeridae	scientific	Osmeridae	ITIS	162028
+Citharichthys stigmaeus	scientific	Citharichthys stigmaeus	ITIS	172717
+Pogonichthys macrolepidotus	scientific	Pogonichthys macrolepidotus	ITIS	163603
+Micropterus punctulatus	scientific	Micropterus punctulatus	ITIS	168161
+Morone saxatilis	scientific	Morone saxatilis	ITIS	167680
+Dorosoma petenense	scientific	Dorosoma petenense	ITIS	161738
+Gasterosteus aculeatus	scientific	Gasterosteus aculeatus	ITIS	166365
+Atherinops affinis	scientific	Atherinops affinis	ITIS	165986
+Tridentiger	scientific	Tridentiger	ITIS	171911
+Hypomesus nipponensis	scientific	Hypomesus nipponensis	ITIS	162033
+Ameiurus catus	scientific	Ameiurus catus	ITIS	164037
+Genyonemus lineatus	scientific	Genyonemus lineatus	ITIS	169257
+Acipenser transmontanus	scientific	Acipenser transmontanus	ITIS	161068
+Acanthogobius flavimanus	scientific	Acanthogobius flavimanus	ITIS	171882

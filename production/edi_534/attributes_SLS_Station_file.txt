@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Station	station ID	character				
+Lat	latitude degree minute second	character				
+Long	Longitude degree minute second	character				
