@@ -100,6 +100,6 @@ EMLassemblyline::make_eml(
   data.table.description = c(
     "Spring Kodiak Trawl data file contains all historical catch data from 2002 through 2020",
     "Location data"),
-  user.id = "csmith",
-  user.domain = "LTER", 
-  package.id = "edi.527.1")
+  user.id = "EDI",
+  user.domain = "EDI", 
+  package.id = "edi.527.2")

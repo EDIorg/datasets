@@ -1,7 +1,7 @@
 givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
 		Interagency Ecological Program (IEP)				creator			
 Lauren		Damon	California Department of Fish and Wildlife	Lauren.damon@wildlife.ca.gov		creator			
-Trishelle		Temple	California Department of Fish and Wildlife	Trishelle.temple@wildlife.ca.gov		creator			
+Trishelle		Tempel	California Department of Fish and Wildlife	Trishelle.Tempel@wildlife.ca.gov		creator			
 Adam		Chorazyczewski 	California Department of Fish and Wildlife	Adam.chorazyczewski@wildlife.ca.gov	0000-0001-5095-3553	creator			
 Lauren		Damon	California Department of Fish and Wildlife	Lauren.damon@wildlife.ca.gov		contact			
 Lauren		Damon	California Department of Fish and Wildlife	Lauren.damon@wildlife.ca.gov		PI			
