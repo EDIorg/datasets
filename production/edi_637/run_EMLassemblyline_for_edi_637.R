@@ -46,17 +46,6 @@ EMLassemblyline::template_categorical_variables(
   path = path_templates, 
   data.path = path_data)
 
-# Create geographic coverage (required when more than one geographic location
-# is to be reported in the metadata).
-
-EMLassemblyline::template_geographic_coverage(
-  path = path_templates, 
-  data.path = path_data, 
-  data.table = "", 
-  lat.col = "",
-  lon.col = "",
-  site.col = "")
-
 # Create taxonomic coverage template (Not-required. Use this to report 
 # taxonomic entities in the metadata)
 
@@ -134,6 +123,7 @@ EMLassemblyline::make_eml(
                              "University of Kansas Field Station: Capture locations and measurements of snakes collected by Henry S. Fitch, 1950 - 2001: Storeria dekayi (Dekay's Brownsnake)",
                              "University of Kansas Field Station: Capture locations and measurements of snakes collected by Henry S. Fitch, 1949 - 2006: Thamnophis sirtalis (Common Gartersnake)",
                              "University of Kansas Field Station: Capture locations and measurements of snakes collected by Henry S. Fitch and others, 1964 - 2010: Virginia valeriae (Smooth Earthsnake)"),
+  data.table.quote.character = c('"','"','"','"','"','"','"','"','"','"','"','"','"','"'),
   user.id = "csmith",
   user.domain = "LTER", 
-  package.id = "edi.100")
+  package.id = "edi.100.2")

@@ -1,0 +1,4 @@
+attributeName	code	definition
+sex	U	Unknown/not recorded
+sex	F	Female
+sex	M	Male

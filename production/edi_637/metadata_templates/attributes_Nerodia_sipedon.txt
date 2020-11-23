@@ -3,7 +3,7 @@ scientific_name	Species scientific name	character
 common_name	Species common name	character				
 date	"Month, day and year of data collection"	Date		MM/DD/YYYY		
 capture_locality	capture _locality	character				
-cover	Place where snake was found	categorical			NR	Missing value
+cover	Place where snake was found	character			NR	Missing value
 sex	Sex 	categorical				
 SVL	Snout-vent length; distance from tip of snout to posterior edge of anal plate	numeric	millimeter		-9999	Missing value
 tail_length	Tail length; distance from posterior edge of anal plate to end of tail	numeric	millimeter		-9999	Missing value
