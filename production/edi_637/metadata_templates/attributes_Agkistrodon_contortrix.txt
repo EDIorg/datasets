@@ -1,0 +1,28 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+scientific_name	Species scientific name	character				
+common_name	Species common name	character				
+date	"Month, day and year of data collection"	Date		MM/DD/YYYY		
+capture_locality	capture_locality	character				
+cover	Place where snake was found	categorical			NR	Missing value
+sex	Sex 	categorical				
+SVL	Snout-vent length; distance from tip of snout to posterior edge of anal plate	numeric	millimeters		-9999	Missing value
+tail_length	Tail length; distance from posterior edge of anal plate to end of tail	numeric	millimeters		-9999	Missing value
+TTL	Tail length as a percent of total length where total length = SVL+tail_length	numeric	percent		-9999	Missing value
+weight	Weight of animal	numeric	gram		-9999	Missing value
+clipVen	Location of scale clip on the ventral or belly scales between the back of lower jaw and the anal plate (scale covering anal opening)	character			NA	Missing value
+clipL	Location of clip on the subcaudal scales (lower surface of tail between anal plate and the tail's terminus). Count is for the left row of scales going from front to rear	character			NA	Missing value
+clipR	Location of clip on the subcaudal scales (lower surface of tail between anal plate and the tail's terminus). Count is for the right row of scales going from front to rear	character			NA	Missing value
+stomach_contents	stomach_contents	character			NR	Missing value
+bands_complete	bands_complete	character			NR	Missing value
+pattern_formula	"Example of how to read a pattern formula using 6cm+1 1/2 L+1 2/2 R+3 5/2 L+3 4/2 R: 6 complete cross bands (marks) on the animal; behind band #1, one half-band on L side and two half-bands on R side; behind band #3 are 5 half-bands L and 4 R. These can often get quite involved, such as: 11cm+4 1/2 L+1 1/2 L+8 1/2 L+10 1/2 L (#11 dbl R) or they may be quite simple such as just 15cm. As for (#11 dbl R) this indicates band 11 was split on the R side of the animal. On occasion, the + between fields of the pattern formula were omitted"	character			NR	Missing value
+fangsLeft	fangsLeft	character			NR	Missing value
+fangsRight	fangsRight	character			NR	Missing value
+f_gravid	Indicates whether or not female is gravid	character			NR	Missing value
+ripe_follicles	Number of ripe follicles	character			NR	Missing value
+embryos	Number of embryos	character			NR	Missing value
+born_to_F_clip	Clip pattern of gravid female	character			NR	Missing value
+birth_date	birth_date	Date		DD-MMM-YY	NR	Missing value
+capture_method	capture_method	character			NR	Missing value
+is_recapture	Indicates if snake is known to have been captured previously	character			NR	Missing value
+recapture_dates	recapture_dates	character			NR	Missing value
+notes	notes	character			NR	Missing value

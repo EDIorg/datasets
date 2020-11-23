@@ -1,0 +1,23 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+scientific_name		categorical				
+common_name		categorical				
+date		Date		!Add datetime specifier here!		
+capture_locality		character				
+cover		categorical				
+sex		categorical				
+SVL		numeric	!Add units here!			
+tail_length		numeric	!Add units here!			
+TTL		numeric	!Add units here!			
+weight		numeric	!Add units here!			
+clipVen		categorical				
+clipL		categorical				
+clipR		categorical				
+stomach_contents		categorical				
+pattern		categorical				
+f_gravid		categorical				
+eggs		categorical				
+eggs_from_clip		categorical				
+hatch_date		Date		!Add datetime specifier here!		
+is_recapture		categorical				
+recapture_dates		Date		!Add datetime specifier here!		
+notes		character				

@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="43c097be-9c53-412b-ba58-69082a7bf1e9" system="uuid" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Colubrinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">1081293</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Coluber</taxonRankValue>
+                              <commonName>Racers</commonName>
+                              <taxonId provider="https://itis.gov">174168</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Coluber constrictor</taxonRankValue>
+                                <commonName>Racer</commonName>
+                                <commonName>Eastern Racer</commonName>
+                                <taxonId provider="https://itis.gov">174169</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Colubrinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">1081293</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Lampropeltis</taxonRankValue>
+                              <commonName>Kingsnakes</commonName>
+                              <commonName>Milk Snakes</commonName>
+                              <taxonId provider="https://itis.gov">174184</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Lampropeltis calligaster</taxonRankValue>
+                                <commonName>Prairie Kingsnake</commonName>
+                                <commonName>Yellow-bellied Kingsnake</commonName>
+                                <taxonId provider="https://itis.gov">174185</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Colubrinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">1081293</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Lampropeltis</taxonRankValue>
+                              <commonName>Kingsnakes</commonName>
+                              <commonName>Milk Snakes</commonName>
+                              <taxonId provider="https://itis.gov">174184</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Lampropeltis triangulum</taxonRankValue>
+                                <commonName>Eastern Milk Snake</commonName>
+                                <commonName>Eastern Milksnake</commonName>
+                                <taxonId provider="https://itis.gov">174187</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Colubrinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">1081293</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Lampropeltis</taxonRankValue>
+                              <commonName>Kingsnakes</commonName>
+                              <commonName>Milk Snakes</commonName>
+                              <taxonId provider="https://itis.gov">174184</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Lampropeltis holbrooki</taxonRankValue>
+                                <commonName>Speckled Kingsnake</commonName>
+                                <taxonId provider="https://itis.gov">1082673</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Colubrinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">1081293</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Pantherophis</taxonRankValue>
+                              <taxonId provider="https://itis.gov">1081420</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Pantherophis emoryi</taxonRankValue>
+                                <commonName>Great Plains Rat Snake</commonName>
+                                <taxonId provider="https://itis.gov">914107</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Colubrinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">1081293</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Pantherophis</taxonRankValue>
+                              <taxonId provider="https://itis.gov">1081420</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Pantherophis obsoletus</taxonRankValue>
+                                <commonName>Pilot Black Snake</commonName>
+                                <commonName>Western Rat Snake</commonName>
+                                <commonName>Black Rat Snake</commonName>
+                                <commonName>Texas Ratsnake</commonName>
+                                <taxonId provider="https://itis.gov">1081826</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Colubrinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">1081293</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Pituophis</taxonRankValue>
+                              <commonName>Bullsnakes</commonName>
+                              <commonName>Gopher Snakes</commonName>
+                              <commonName>Pine Snakes</commonName>
+                              <commonName>Pinesnakes</commonName>
+                              <taxonId provider="https://itis.gov">174262</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Pituophis catenifer</taxonRankValue>
+                                <commonName>Gopher Snake</commonName>
+                                <commonName>Bullsnake</commonName>
+                                <taxonId provider="https://itis.gov">209400</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Viperidae</taxonRankValue>
+                          <commonName>Pit Vipers</commonName>
+                          <commonName>Vipers</commonName>
+                          <taxonId provider="https://itis.gov">174294</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Crotalinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">634394</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Agkistrodon</taxonRankValue>
+                              <commonName>Copperheads</commonName>
+                              <commonName>Cottonmouths</commonName>
+                              <taxonId provider="https://itis.gov">174295</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Agkistrodon contortrix</taxonRankValue>
+                                <commonName>Copperhead</commonName>
+                                <taxonId provider="https://itis.gov">174296</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Viperidae</taxonRankValue>
+                          <commonName>Pit Vipers</commonName>
+                          <commonName>Vipers</commonName>
+                          <taxonId provider="https://itis.gov">174294</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Crotalinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">634394</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Crotalus</taxonRankValue>
+                              <commonName>Rattlesnakes</commonName>
+                              <taxonId provider="https://itis.gov">174305</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Crotalus horridus</taxonRankValue>
+                                <commonName>Timber Rattlesnake</commonName>
+                                <taxonId provider="https://itis.gov">174306</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Dipsadinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">1081289</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Carphophis</taxonRankValue>
+                              <commonName>Worm Snakes</commonName>
+                              <commonName>Wormsnakes</commonName>
+                              <taxonId provider="https://itis.gov">174160</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Carphophis vermis</taxonRankValue>
+                                <commonName>Western Wormsnake</commonName>
+                                <commonName>Western Worm Snake</commonName>
+                                <taxonId provider="https://itis.gov">563908</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Natricinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">700177</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Nerodia</taxonRankValue>
+                              <commonName>Water Snakes</commonName>
+                              <commonName>North American Water Snakes</commonName>
+                              <taxonId provider="https://itis.gov">174241</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Nerodia sipedon</taxonRankValue>
+                                <commonName>Northern Water Snake</commonName>
+                                <taxonId provider="https://itis.gov">174251</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Natricinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">700177</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Storeria</taxonRankValue>
+                              <commonName>Brown-bellied Snakes</commonName>
+                              <commonName>Red-bellied Snakes</commonName>
+                              <commonName>North American Brownsnakes</commonName>
+                              <taxonId provider="https://itis.gov">174128</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Storeria dekayi</taxonRankValue>
+                                <commonName>Dekay's Brown Snake</commonName>
+                                <commonName>Dekay's Brownsnake</commonName>
+                                <commonName>Brown Snake</commonName>
+                                <taxonId provider="https://itis.gov">174129</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>kingdom</taxonRankName>
+    <taxonRankValue>Animalia</taxonRankValue>
+    <commonName>animals</commonName>
+    <taxonId provider="https://itis.gov">202423</taxonId>
+    <taxonomicClassification>
+      <taxonRankName>subkingdom</taxonRankName>
+      <taxonRankValue>Bilateria</taxonRankValue>
+      <taxonId provider="https://itis.gov">914154</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>infrakingdom</taxonRankName>
+        <taxonRankValue>Deuterostomia</taxonRankValue>
+        <taxonId provider="https://itis.gov">914156</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Chordata</taxonRankValue>
+          <commonName>chordates</commonName>
+          <taxonId provider="https://itis.gov">158852</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subphylum</taxonRankName>
+            <taxonRankValue>Vertebrata</taxonRankValue>
+            <commonName>vertebrates</commonName>
+            <taxonId provider="https://itis.gov">331030</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infraphylum</taxonRankName>
+              <taxonRankValue>Gnathostomata</taxonRankValue>
+              <taxonId provider="https://itis.gov">914179</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superclass</taxonRankName>
+                <taxonRankValue>Tetrapoda</taxonRankValue>
+                <taxonId provider="https://itis.gov">914181</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                  <taxonRankValue>Reptilia</taxonRankValue>
+                  <commonName>Reptiles</commonName>
+                  <taxonId provider="https://itis.gov">173747</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Squamata</taxonRankValue>
+                    <commonName>Amphisbaenians</commonName>
+                    <commonName>Lizards</commonName>
+                    <commonName>Snakes</commonName>
+                    <taxonId provider="https://itis.gov">173861</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>suborder</taxonRankName>
+                      <taxonRankValue>Serpentes</taxonRankValue>
+                      <commonName>Snakes</commonName>
+                      <taxonId provider="https://itis.gov">174118</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>infraorder</taxonRankName>
+                        <taxonRankValue>Alethinophidia</taxonRankValue>
+                        <taxonId provider="https://itis.gov">634390</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Colubridae</taxonRankValue>
+                          <commonName>Colubrids</commonName>
+                          <commonName>Typical Snakes</commonName>
+                          <taxonId provider="https://itis.gov">174121</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>subfamily</taxonRankName>
+                            <taxonRankValue>Natricinae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">700177</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Thamnophis</taxonRankValue>
+                              <commonName>Garter Snakes</commonName>
+                              <commonName>Ribbon Snakes</commonName>
+                              <taxonId provider="https://itis.gov">174133</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Thamnophis sirtalis</taxonRankValue>
+                                <commonName>Common Garter Snake</commonName>
+                                <taxonId provider="https://itis.gov">174136</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+  </taxonomicClassification>
+  <taxonomicClassification>
+    <taxonRankName>species</taxonRankName>
+    <taxonRankValue>Virginia valeriae</taxonRankValue>
+    <commonName>Smooth Earth Snake</commonName>
+    <commonName>Smooth Earthsnake</commonName>
+    <taxonId provider="https://itis.gov">174151</taxonId>
+  </taxonomicClassification>
+</eml:eml>

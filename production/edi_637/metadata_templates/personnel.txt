@@ -1,0 +1,5 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Henry	S	Fitch	Kansas Biological Survey			creator			
+George	R	Pisani	Kansas Biological Survey	gpisani@ku.edu		creator			
+George	R	Pisani	Kansas Biological Survey	gpisani@ku.edu		contact			
+Richard		Seigel	"Towson Univ, Towson, MD"			Greatly assisted with Thamnophis records			

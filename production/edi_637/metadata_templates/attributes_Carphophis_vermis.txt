@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+scientific_name	Species scientific name	character				
+common_name	Species common name	character				
+date	"Month, day and year of data collection"	Date		MM/DD/YYYY		
+capture_locality	capture_locality	character				
+cover	Place where snake was found	categorical			NR	Missing value
+sex	Sex 	categorical				
+SVL	Snout-vent length; distance from tip of snout to posterior edge of anal plate	numeric	millimeter		-9999	Missing value
+tail_length	Tail length; distance from posterior edge of anal plate to end of tail	numeric	millimeter		-9999	Missing value
+TTL	Tail length as a percent of total length where total length = SVL+tail_length	numeric	percent		-9999	Missing value
+weight	Weight of animal	numeric	gram		-9999	Missing value
+clipVen	Location of scale clip on the ventral or belly scales between the back of lower jaw and the anal plate (scale covering anal opening)	character			NA	Missing value
+clipL	Location of clip on the subcaudal scales (lower surface of tail between anal plate and the tail's terminus). Count is for the left row of scales going from front to rear	character			NA	Missing value
+clipR	Location of clip on the subcaudal scales (lower surface of tail between anal plate and the tail's terminus). Count is for the right row of scales going from front to rear	character			NA	Missing value
+f_gravid	Indicates whether or not female is gravid	character			NR	Missing value
+eggs	eggs	character			NR	Missing value
+is_recapture	Indicates if snake is known to have been captured previously	character			NR	Missing value
+recapture_dates	recapture_dates	character			NR	Missing value
+notes	notes	character			NR	Missing value
