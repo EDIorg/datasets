@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Lucia	H.O.	Wadt	Embrapa	lucia.wadt@embrapa.br	0000-0002-5018-7550	creator			
+Karen	A	Kainer	University of Florida	kkainer@ufl.edu	0000-0001-6967-5442 	creator			
+Christina	L	Staudhammer	University of Alabama	cstaudhammer@ua.edu	0000-0003-1887-418X	creator			
+Thiago	A	Cunha	Universidade Federal do Acre	thiago.cunha@ufac.br 		creator			
+Lucia	H.O.	Wadt	Embrapa	lucia.wadt@embrapa.br	0000-0002-5018-7550	contact			
+Lucia	H.O.	Wadt	Embrapa	lucia.wadt@embrapa.br	0000-0002-5018-7550	PI		CNPq (The National Council for Scientific and Technological Development) of Brazil	

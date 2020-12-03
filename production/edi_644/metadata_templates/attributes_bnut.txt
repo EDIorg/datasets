@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Location (Filipinas or Cachoeira)	character			NA	Missing value
+tree	Tree number within site	numeric	dimensionless		NA	Missing value
+year	Year of fruit production measurement	Date		YYYY	NA	Missing value
+comp_BA	Basal area of all competing trees with diameter > 30 cm	numeric	squareMeter		NA	Missing value
+comp_count	Number of all competing trees with diameter > 30 cm	numeric	number		NA	Missing value
+UTM_northing	Universal transmercator northing location in WGS 84/YTM zone 19S	numeric	dimensionless		NA	Missing value
+UTM_easting	Universal transmercator easting location in WGS 84/YTM zone 19S	numeric	dimensionless		NA	Missing value
+PosCros	Crown position class	categorical			NA	Missing value
+Lianas	Presence of lianas on tree crown	categorical			NA	Missing value
+Prod	Fruit production	numeric	fruitsPerIndividualPerYear		NA	Missing value
+DBH	Diameter at breast height (measured at 1.3 m above ground level)	numeric	centimeter		NA	Missing value
+crownForm	Crown form class	categorical			NA	Missing value
+sapwood_cm2	Sapwood area	numeric	centimeterSquared		NA	Missing value
+elev_GPS	Elevation of base of tree	numeric	meter		NA	Missing value
+sizecrown	Crown area	numeric	squareMeter		NA	Missing value

@@ -1,0 +1,10 @@
+attributeName	code	definition
+crownForm	1	Tolerable
+crownForm	2	Good
+crownForm	3	Poor
+Lianas	0	No lianas present
+Lianas	1	linas present
+PosCros	1	Dominant (full overhead and side light)
+PosCros	2	Co-diminant (full overhead light)
+PosCros	3	Intermediate (some overhead or side light)
+PosCros	4	Suppressed (no direct light)
