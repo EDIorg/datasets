@@ -1,0 +1,33 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Order	"A unique number for every data point (that is, each individual plant in each subplot)"	character				
+Plant_num	A unique number for each individual plant in the experiment	character				
+Community_type	Type of community in which the respective plant was grown (hardwood or pine barren)	character				
+Site	Site at which the respective plant was grown	categorical				
+Block	Block in which the respective plant was grown	character				
+Plot	Plot in which the respective plant was grown	character				
+N_Treatment	Whether nitrogen fertilizer was added or not	categorical				
+Herbivore_treatment	Whether the plants were protected from large vertebrate herbivores or not	categorical				
+Species	Species of the plant	categorical				
+Status	Whether the species is native or invasive	character				
+Family	Plant family of the given species	character				
+Initial_num_Leaves	Initial number of leaves on the respective plant (at the time of planting)	numeric	number		NA	see notes column
+Initial_Leaf_Length_cm	Length of youngest fully expanded leaf on the plant at the time of planting 	numeric	centimeter		NA	see notes column
+Initial_Notes	Notes on plant health etc. taken at the time of planting	character				
+num_Leaves_June_23	Number of leaves on the plant on June 23rd 2004	numeric	number		NA	see notes column
+Notes_June_23	Notes on plant health etc. taken on June 23rd 2004	character				
+num_leaves_7_28_04	Number of leaves on the plant on July 28th 2004	numeric	number		NA	see notes column
+num_Damaged_leaves_preharvest_7_28_04	Number of damaged leaves on the plant on July 28th 2004	numeric	number		NA	see notes column
+Notes_preharvest	Notes on plant health etc. taken on July 28th 2004	character				
+num_leaves_harvest_8_18_04	Number of Leaves harvested August 18th 2004	numeric	number		NA	see notes column
+num_Damaged_harvest_8_18_04	Number of damaged leaves harvested on August 18th 2004	numeric	number		NA	see notes column
+Leaf_Length_harvest_cm_8_18_04	Length of youngest fully expanded leaf on the plant at the time of harvesting (August 18th 2004)	numeric	centimeter		NA	see notes column
+Notes_harvest_8_18_04	Notes on plant health etc. taken at the time of harvesting	character				
+Veg_Wt_g	Dry weight of above-ground vegetative tissues of the plant	numeric	gram		NA	not available 
+Root_Wt_g	Dry weight of below-ground tissues of the plant	numeric	gram		NA	not available 
+Total_Wt_g	Total dry weight of the plant	numeric	gram		NA	not available 
+Log_Veg_Wt	Natural logarithm of above-ground dry weight	numeric	dimensionless		NA	not available 
+Log_Root_Wt	Natural logarithm of below-grownd dry weight	numeric	dimensionless		NA	not available 
+Log_Total_Wt	Natural logarithm of total dry weight	numeric	dimensionless		NA	not available 
+R_S_ratio	Ratio of below ground to above ground dry weight	numeric	dimensionless		NA	not available 
+EstIntWt	Estimated initial weight of the plant 	numeric	gram		NA	not available 
+Relative_Growth_Rate	Relative growth rate of the plant 	numeric	dimensionless		NA	not available 

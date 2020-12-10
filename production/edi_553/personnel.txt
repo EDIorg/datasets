@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Krista	L.	Thyberg	"Department of Technology and Society, Stony Brook University, Stony Brook, NY, USA"	KLThyberg@gmail.com	0000-0003-0315-7655	creator			
+David	J.	Tonjes	"Department of Technology and Society, Stony Brook University, Stony Brook, NY, USA"	david.tonjes@stonybrook.edu	0000-0003-0108-5977	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+Krista	L.	Thyberg			0000-0003-0315-7655	PI	"Professional Services Agreement with Town of Brookhaven, New York, United States"	"Town of Brookhaven, New York, United States"	
+David	J.	Tonjes			0000-0003-0108-5977	PI	"Professional Services Agreement with Town of Brookhaven, New York, United States"	"Town of Brookhaven, New York, United States"	

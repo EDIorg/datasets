@@ -1,0 +1,21 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Study_Case	Name of study from which the data is taken	character				
+Longitude	Longitude of study site	numeric	degree			
+Latitude	Latitude of study site	numeric	degree			
+LUI_range_level	Landuse intensity (classified according to table 1)	character				
+Species_Group	"Broad class of species group, i.e. vertebrates, invertebrates, and plants."	character				
+Product	"Broad class of harvested product, i.e. crop, green fodder, and wood."	character				
+main_climate	"Broad climate zone according to the Köppen-Geiger climate classification, i.e. polar, cold (continental), temperate, arid, and tropical."	character				
+landuse_history	"Broad class of time of first significant use (table 3), i.e. 5950 BC, 50 BC, 1450, 1950, after 1950. And categorized according to the major developments of agriculture."	character				
+ES_and_BD	"An indication of whether species richness and yield are measured from the same species group, in which case species richness and production are considered to be “linked” rather than “independent”."	character				
+Richness_Plot_Size	Plot size	numeric	squareMeter		NA	not available
+Log_RR	Log transformed response ratio of species richness with changing land use intensity	numeric	dimensionless		NA	not available
+Log_RR_Var	Variance of log transformed response ratio	numeric	dimensionless		NA	not available
+Mean_Low	Mean richness of the lower intensity land use	numeric	dimensionless		NA	not available
+SD_Low	Standard deviation of richness of lower intensity land use	numeric	dimensionless		NA	not available
+N_Low	Sample size of lower intensity land use	numeric	number		NA	not available
+Mean_High	Mean richness of the higher intensity land use	numeric	dimensionless		NA	not available
+SD_High	Standard deviation of richness of higher intensity land use	numeric	dimensionless		NA	not available
+N_High	Sample size of higher intensity land use	numeric	number		NA	not available
+SD_is_imputed_Low	"Whether the standard deviation of species richness in lower intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)"	character				
+SD_is_imputed_High	"Whether the standard deviation of species richness in higher intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)"	character				

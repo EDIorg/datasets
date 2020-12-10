@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jonathan	P	Doubek	Lake Superior State University	jdoubek@lssu.edu	0000-0003-2651-4715	creator			
+Sadye	K	Goldfarb	University of Vermont	Sadye.Goldfarb@uvm.edu	0000-0002-7768-6608	creator			
+Jason	D	Stockwell	University of Vermont	Jason.Stockwell@uvm.edu	0000-0003-3393-6799	creator			
+Jonathan	P	Doubek	Lake Superior State University	jdoubek@lssu.edu	0000-0003-2651-4715	contact			
+Sadye	K	Goldfarb	University of Vermont	Sadye.Goldfarb@uvm.edu	0000-0002-7768-6608	contact			
+Jason	D	Stockwell	University of Vermont	Jason.Stockwell@uvm.edu	0000-0003-3393-6799	contact			

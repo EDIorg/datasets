@@ -1,0 +1,5 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Chester	E.	Wilson	"1) Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	c9wilson@stthomas.edu		creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+Daniel		Dykhuizen				PI	Competitive Dominance at Two Soil Resource Levels: An Experimental Investigation of an Old-Field Community	"Division of Environmental Biology, National Science Foundation (NSF), USA"	BSR 8908112

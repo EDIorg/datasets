@@ -1,0 +1,19 @@
+keyword	keywordThesaurus
+LUQ LTER	
+Luquillo	
+Macrosystems Biology	
+Soil Respiration	
+Litter Decomposition	
+Stable Isotopes	
+Nitrogen Mineralization	
+Soil Carbon	
+Soil Organic Matter	
+Soil pH	
+Lignin	
+Oxisol	
+Spodosol	
+Inceptisol	
+Alfisol	
+Mollisol	
+Entisol	
+Ultisol	

@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	A unique number for every Northeastern USA site in the study	character				
+sand	Soil percent sand (data from STATGO)	numeric	percent		NA	 not available
+soilph	Soil pH (data from STATGO)	numeric	dimensionless		NA	 not available
+prec4000	"30 year mean precipitation during the growing season (data from PRISM, resolution – 4 km)"	numeric	millimeter		NA	 not available
+mint4000	"30 year mean minimum temperature during the growing season (data from PRISM, resolution – 4 km)"	numeric	celsius		NA	 not available
+land4000	"Present day land cover (data of NLCD, resolution – 4 km)"	character				
+tree4000	"Percentage tree cover (data from global forest change, resolution – 4 km)"	numeric	percent		NA	 not available
+lon	UTM Easting of the site (UTM zone 18)	numeric	dimensionless		NA	 not available
+lat	UTM Northing of the site (UTM zone 18)	numeric	dimensionless		NA	 not available
+prediction	Predicted likelihood from occurrence of C. stoebe (based on the habitat suitability model)	numeric	dimensionless		NA	 not available

@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Sharon	K	Collinge	University of Colorado-Boulder	Sharon.collinge@colorado.edu	https://orcid.org/0000-0003-2872-7618	creator			
+Akasha	M	Faist	New Mexico State University	afaist@nmsu.edu	https://orcid.org/0000-0003-3553-2739	creator			
+Sharon	K	Collinge	University of Colorado-Boulder	Sharon.collinge@colorado.edu	https://orcid.org/0000-0003-2872-7618	contact			
+Sharon	K	Collinge			https://orcid.org/0000-0003-2872-7618	PI	LTREB renewal: Evaluating the role of metacommunity dynamics in the assembly of vernal pool plant communities	NSF	1257385
+Sharon	K	Collinge			https://orcid.org/0000-0003-2872-7618	PI	LTREB: Evaluating the role of metacommunity dynamics in the assembly of vernal pool plant communities	NSF	744520
+Sharon	K	Collinge			https://orcid.org/0000-0003-2872-7618	PI	Vernal pool and endangered species habitat mitigation	Air Force Center for Environmental Excellence	Contract numbers F41624-98-C-8026 F-41624-01-F-8903 F-41624-00-C-8046

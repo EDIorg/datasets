@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.532.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Experiment on Competition and the Local Distribution of the Grass Stipa neomexicana, Arizona, 1979 - 1986</title>
+    <creator>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>David</givenName>
+        <givenName>L.</givenName>
+        <surName>Parker</surName>
+      </individualName>
+      <role>Assistance In Setting Up The Experiment</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Kristie</givenName>
+        <surName>Kreutzfeld</surName>
+      </individualName>
+      <role>Assistance In Data Collection</role>
+    </associatedParty>
+    <pubDate>2020-06-05</pubDate>
+    <abstract>
+      <para>This dataset contains the results on an experiment whose aim was to determine whether competitive displacement accounted for a species' local distribution. Within a grassland in southern Arizona, Stipa neomexicana, a C3 grass, was found to occur only on dry ridge crests with low total grass cover, while total grass cover is greater below the ridge crests in moister, low—lying areas. It was hypothesized that Stipa neomexicana was limited to these dry ridges by competitive exclusion. This hypothesis was tested by removal experiments conducted at three positions along the topographic gradient. The responses of Stipa were compared with those of Aristida glauca and other neighboring grass species, all of which are C4 grasses (Stipa being the only C3 grass in that area). This experiment was carried out from 1980 to 1983, in a grassland near Sonoita, Santa Cruz County, Arizona, USA. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Competition</keyword>
+      <keyword>Stipa neomexicana</keyword>
+      <keyword>Southern Arizona</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>species interactions</keyword>
+      <keyword>demography</keyword>
+      <keyword>grassland</keyword>
+      <keyword>grasses</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>a grassland near Sonoita, Santa Cruz County, Arizona, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-110.799498</westBoundingCoordinate>
+          <eastBoundingCoordinate>-110.461668</eastBoundingCoordinate>
+          <northBoundingCoordinate>31.731638</northBoundingCoordinate>
+          <southBoundingCoordinate>31.610085</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1979</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1986</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Stipa neomexicana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Aristida glauca</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+          <title>Study area</title>
+          <para>The study area, a grassland in southeastern Arizona, is dominated by perennial C4 grasses. Stipa neomexicana is the only C3 perennial grass in these grasslands, while approximately 40 C4 grass species are present. The experimental site was located near Sonoita (Santa Cruz County), Arizona (elevation 1450 m). The climate is semi-arid (401 mm annual precipitation), with a summer and a winter rainy season and a dry period in late spring. The experimental site, fenced rangeland, had never been plowed and was rarely grazed since the area was first settled, according to the owner. During the experiment, cattle were grazed on the site for a few days; jackrabbits, cotton-tails, small rodents, badgers, and coyotes also occur. The site included a broad, roughly north-south ridge that sloped gently to fields on the east, and on the west to a wash that drained into the Babacomari River several hundred meters to the north.</para>
+          </section>
+          <section>
+            <title>Experimental design</title>
+          <para>Three topographic positions, from the dry ridge crest to the lower slopes, were chosen to represent the dry-to-wet environmental gradient. At each of these positions, an area was chosen at random and divided into 10 blocks, each of which was subdivided into 16 approximately equal subunits. Treatments were randomly assigned to subunits. Experimental treatments consisted of removing all grass within a 0.5 m radius around a "focal" Stipa or Aristida plant, thus creating denuded circles around these center plants. These individuals were selected at random within the central area of a subunit. Control plants had no neighboring grasses removed, although the ground around control plants was disturbed to a degree comparable to that in removal treatments. Removal or control treatments were applied to 20 replicates for each species within the 10 blocks at each of the three positions along the environmental gradient.</para>
+          </section>
+          <section>
+            <title>Growth and reproduction of mature plants </title>
+          <para>Basal area was chosen as the best measure of plant size and response to treatments. Basal area was estimated from measurement of the longest axis through the base of a bunchgrass and the axis perpendicular to that, with area calculated from the formula for an ellipse. This estimate of basal area was closely correlated with aboveground dry mass (including crown) and with the number of tillers, although the relationship varied with season. A more accurate measurement was taken by forming insulated copper wire around the base of a plant so that the exact shape of the base was outlined, gently lifting the wire, and tracing the outline onto drawing paper. The cut-out tracing was weighed on an analytical balance, and the area determined from a regression of mass on known area. Correlation between the two methods for measuring basal area was highly significant (r2 = 0.86, P  less than  .001, n = 160). </para>
+          <para>Measurements of the initial sizes of mature plants were completed in January 1980. Subsequent measurements were made in January, May, August, and October 1980, and in January, May, and August 1981. Final measurements were made in January 1983. The total number of flowers produced by plants of each species for each treatment and position was sampled and counted when plants were within several days of anthesis.&#13;
+</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Crassulacean Acid Metabolism</title>
+      <personnel>
+        <individualName>
+          <givenName>James</givenName>
+          <surName>Teeri</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Division of Environmental Biology, National Science Foundation (NSF), USA 8021270</funding>
+    </project>
+    <dataTable>
+      <entityName>growth and reproduction data</entityName>
+      <entityDescription>Data from the removal experiment, on growth and reproduction of focal plants after treatment application.</entityDescription>
+      <physical>
+        <objectName>Arizona_dat.csv</objectName>
+        <size unit="bytes">28565</size>
+        <authentication method="MD5">ab4bb4244c9960aabf068e11cf60c32d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>A unique ID for every focal plant</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique ID for every focal plant</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Position</attributeName>
+          <attributeDefinition>Topographic position of the plant along the environmental gradient</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>driest location (that is, on the ridge crests)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>middle of the gradient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>wettest location (that, in the low lying areas)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Block</attributeName>
+          <attributeDefinition>Block (within position) in which the focal plant occurred</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Block (within position) in which the focal plant occurred</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SUBPlot</attributeName>
+          <attributeDefinition>Subplot within block in which the focal plant occurred</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Subplot within block in which the focal plant occurred</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SPP</attributeName>
+          <attributeDefinition>Species of the focal plant</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Stipa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Aristida</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Treatment</attributeName>
+          <attributeDefinition>Treatment applied to the focal plant</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>101</code>
+                    <definition>no grasses removed (control)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>102</code>
+                    <definition>Aristida and other C4 grasses removed (only applied in Position 2)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>201</code>
+                    <definition>Stipa removed (only applied in Position 2)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>202</code>
+                    <definition>Both C3 (Stipa) and C4 grasses removed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GramsC3removed</attributeName>
+          <attributeDefinition>Dry weight of C3 grass (Stipa) removed from around the focal plant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">257.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GramsC4removed</attributeName>
+          <attributeDefinition>Dry weight of C4 grasses removed from around the focal plant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">750.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size1</attributeName>
+          <attributeDefinition>Initial basal area of the focal species (measured before January 1980)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareCentimeters</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.27</minimum>
+                  <maximum exclusive="false">283.33</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size2</attributeName>
+          <attributeDefinition>Basal area of focal species at the time of the second measurement (measured in January 1980)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareCentimeters</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.27</minimum>
+                  <maximum exclusive="false">404.32</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size3</attributeName>
+          <attributeDefinition>Basal area of focal species at the time of the third measurement (measured in May 1980)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareCentimeters</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2</minimum>
+                  <maximum exclusive="false">374.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FLSTalks80</attributeName>
+          <attributeDefinition>Number of flowering stalks on the focal plant at the time of the third measurement</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">92</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size4</attributeName>
+          <attributeDefinition>Basal area of focal species at the time of the fourth measurement (measured in August 1980)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareCentimeters</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.03</minimum>
+                  <maximum exclusive="false">382.69</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FLSTalks81</attributeName>
+          <attributeDefinition>Number of flowering stalks on the focal plant at the time of the fourth measurement</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">87.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FLWERS81</attributeName>
+          <attributeDefinition>Number of flowers on the focal plant at the time of the fourth measurement</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">835</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size5</attributeName>
+          <attributeDefinition>Basal area of focal species at the time of the fifth measurement (measured in October 1980)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareCentimeters</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.03</minimum>
+                  <maximum exclusive="false">301.12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size6</attributeName>
+          <attributeDefinition>Basal area of focal species at the time of the sixth measurement (measured in January 1981)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareCentimeters</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.07</minimum>
+                  <maximum exclusive="false">356.13</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FLST82</attributeName>
+          <attributeDefinition>Number of flowering stalks on the focal plant at the time of the sixth measurement</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">39</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FLWERS82</attributeName>
+          <attributeDefinition>Number of flowers on the focal plant at the time of the sixth measurement</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">169</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size7</attributeName>
+          <attributeDefinition>Basal area of focal species at the time of the seventh measurement (measured in May 1981)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareCentimeters</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">361.82</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size8</attributeName>
+          <attributeDefinition>Basal area of focal species at the time of the eighth measurement (measured in August 1981)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareCentimeters</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">347.57</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size9</attributeName>
+          <attributeDefinition>Basal area of focal species at the time of the final (ninth) measurement (measured in January 1983)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareCentimeters</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">269.55</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>320</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,13 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Laura	A.	Hyatt	"1) Science and Math division, West Valley College, Saratoga, CA, USA"	laura.hyatt@westvalley.edu		creator			
+Michael	S.	Rosenberg	"1) Center for the Study of Biological Complexity, Virginia Commonwealth University, Richmond, VA, USA"	msrosenberg@vcu.edu		creator			
+Timothy	G.	Howard	"1) SUNY College of Environmental Science and Forestry, Albany NY, USA"	tghoward@esf.edu		creator			
+Gregory		Bole	"1) Department of Zoology, University of British Columbia, Vancouver, BC, Canada"	bole@zoology.ubc.ca		creator			
+Wei		Fang	"1) City University of New York-Queens College, New York City, NY, USA"			creator			
+Jean		Anastasia	"1) Department of Biology, Suffolk County Community College, Seldon, NY, USA"			creator			
+Kerry		Brown	"1) Kingston University, London, UK"	k.brown@kingston.ac.uk		creator			
+Rebecca		Grella	"1) Brentwood High School, Brentwood, NY, USA"			creator			
+Katharine		Hinman	"1) Decatur First United Methodist Church, Decatur, GA, USA"			creator			
+Josepha	P.	Kurdziel	"1) Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, MI, USA"	josephak@umich.edu		creator			
+Jessica		Gurevitch	"Department of Ecology and Evolutionary Biology, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu		creator			
+Jessica		Gurevitch	"Department of Ecology and Evolutionary Biology, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu		contact			

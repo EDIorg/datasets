@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Steven	J	Hall	Iowa State University	stevenjh@iastate.edu	0000-0002-7841-2019	creator			
+Wenjuan		Huang	Iowa State University	wjhuang@iastate.edu	0000-0003-1038-1591	creator			
+Kenneth	E	Hammel	"USDA Forest Products Laboratory, and University of Wisconsin-Madison"	kehammel@wisc.edu	0000-0002-2935-5847	creator			
+Steven	J	Hall	Iowa State University	stevenjh@iastate.edu	0000-0002-7841-2019	contact			
+Steven	J	Hall	0000-0002-7841-2019			PI	Collaborative Research: MSB-ECA: Resolving controls on lignin decomposition at the continental scale to reconcile classical and modern paradigms of soil organic matter.	"NSF DEB, Macrosystems Biology"	1802745
+William	H	McDowell				PI	Luquillo CZO: The role of hot spots and hot moments in tropical landscape evolution and functioning of the critical zone	NSF EAR	1331841

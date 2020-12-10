@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+ID	A number which identifies the original study which generated the given data (list of studies given in the data provenance section of this document)	character				
+State	The state in which the data was collected	character				
+Scale	"The spatial scale over which the food waste data was collected (e.g. state, sub-state region, city etc.)"	character				
+Sub_State_Region	The region where the study was carried out (within the respective state)	character				
+Year	Year in which study was carried out	numeric	nominalYear			
+Waste_Shed_Disposal_Tons	Total weight of waste generated in the given waste shed over the study period	numeric	ton			
+Food_Waste_Disposal_Tons	Total weight of waste generated in the given waste shed over the study period	numeric	ton			
+Food_Waste_percent	Percentage of total waste which is food waste	numeric	dimensionless			
+Population	Population of the study area at the time of study	numeric	number			
+Food_Waste_Disposal_Rate_lbs_Person_Day	Amount of food waste (in pounds) generated per person per day in the study area	numeric	poundPerPersonPerDay			

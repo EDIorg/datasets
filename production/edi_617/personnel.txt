@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Nargol		Ghazian	York University	nargolg1@my.yorku.ca	0000-0002-9710-7140	creator			
+Mario		Zuliani	York University	Zulianimario96@gmail.com	0000-0001-8114-3609	creator			
+Christopher	J.	Lortie	"York University,"	lortie@yorku.ca	0000-0002-4291-7023	creator			
+Nargol		Ghazian	York University	nargolg1@my.yorku.ca	0000-0002-9710-7140	contact			
+Christopher	J.	Lortie	"York University,"	lortie@yorku.ca	0000-0002-4291-7023	contact			
+Christopher	J.	Lortie				PI	Discovery Grant	The Natural Sciences and Engineering Research Council of Canada	
+Nargol		Ghazian				PI	Globalink	Mitacs	

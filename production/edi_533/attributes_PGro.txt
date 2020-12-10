@@ -1,0 +1,69 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Author	First author of the study from which the data was taken	character				
+Year	 Year of publication of the study	numeric	nominalYear			
+Journal	 Journal in which the study was published	character				
+Latitude_region	"Latitudinal region in which the study was carried out (e.g. tropics, temperate etc.)"	character				
+Habitat	 Habitat in which the study was carried out	character				
+Competing_for	The resource which the study organisms were competing for 	character				
+In_cages_etc	" Whether the organisms were kept in enclosures or exclosures like cages, pens, etc. (if yes, the kind of enclosure/exclosure in mentioned)"	character				
+Variation_spatial	Whether the study accounted for spatial variation	character				
+Variation_temporal	Whether the study accounted for temporal variation	character				
+Variation_resource	 Whether the study accounted for variation in resource availability	character				
+Inter_intra	 Whether interspecific competition or intraspecific competition (or both) was measured	character				
+Measured_variable	 The variable measured to quantify the growth rate of the response species	character				
+Design_problems	" Whether the study had any design problems (if yes, a short description of the problem is given)"	character				
+Source_of_data	"Which part of the publication was the data taken from (e.g. figure 1, table 2 etc.)"	character				
+Exp_time_period	Duration of the experiment	character				
+Predator_species	 Species used as predator in the experiment	character				
+Pred_Organism_type	" Broad taxonomic group which the predator belonged to (e.g. fish, copepod etc.)"	character				
+Pred_Trophic_level	Trophic level of the predator species	character				
+1st_manip_comp	Species used as competitor in the experiment (competitor 1)	character				
+1st_comp_life_stage	"Life stage of the competitor species used for the experiment (e.g. larvae, adult, etc.)"	character				
+1st_comp_organism_type	"Broad taxonomic group which the competitor belonged to (e.g. fish, copepod etc.)"	character				
+1st_comp_trophic_level	 Trophic level of the competitor species	character				
+2nd_manip_comp	Second competitor species (if any)	character				
+2nd_comp_life_stage	"Life stage of the 2nd competitor species, if any, used for the experiment (e.g. larvae, adult, etc.)"	character				
+2nd_comp_organism_type	"Broad taxonomic group which the 2nd competitor species, if any, belonged to (e.g. fish, copepod etc.)"	character				
+2nd_comp_trophic_level	" Trophic level of the 2nd competitor species, if any"	character				
+Response_species	"The focal species or response speices, i.e. the species whose response to competition and predation was quantified"	character				
+resp_sp_life_stage	"Life stage of the response species used for the experiment (e.g. larvae, adult, etc.)"	character				
+resp_sp_organism_type	"Broad taxonomic group which the response species belonged to (e.g. fish, copepod etc.)"	character				
+resp_sp_trophic_level	 Trophic level of the response species	character				
+Prey_resp_comp_both	"Whether the predator preyed on the response species, on the competitor or on both"	character				
+Enhance_reduce_comp	"Whether competition was enhanced or reduced as compared to natural conditions, in the competition manipulation treatment"	character				
+Enhance_reduce_pred	" Whether predation was enhanced or reduced as compared to natural conditions, in the predation manipulation treatment"	character				
+comp_1_natural_dens	Natural density of competitor 1	character				
+comp_1_exper_dens	Density of competitor 1 in the competition manipulation treatment	character				
+comp_2_natural_dens	Natural density of competitor 2	character				
+comp_2_exper_dens	Density of competitor 2 in the competition manipulation treatment	character				
+Y_pc	Mean response of focal species to the control + predator present treatment (see table 1)	numeric	dimensionless			
+Y_pe	Mean response of focal species to the experimental + predator present treatment (see table 1)	numeric	dimensionless			
+sd_pc	Standard deviation of response of focal species to the control + predator present treatment 	numeric	dimensionless			
+sd_pe	Standard deviation of response of focal species to the experimental + predator present treatment 	numeric	dimensionless			
+N_pc_a_pc	Sample size used for measuring Ypc multiplied by a weighing factor	numeric	dimensionless			
+N_pe_a_pe	Sample size used for measuring Ype multiplied by a weighing factor	numeric	dimensionless			
+se_pc	Standard error of Ypc	numeric	dimensionless			
+se_pe	Standard error of Ype	numeric	dimensionless			
+Y_ac	Mean response of focal species to the control + predator absent treatment (see table 1)	numeric	dimensionless			
+Y_ae	Mean response of focal species to the experimental + predator absent treatment (see table 1)	numeric	dimensionless			
+sd_ac	Standard deviation of response of focal species to the control + predator absent treatment 	numeric	dimensionless			
+sd_ae	Standard deviation of response of focal species to the experimental + predator absent treatment 	numeric	dimensionless			
+N_ac_a_ac	Sample size used for measuring Yac multiplied by a weighing factor	numeric	dimensionless			
+N_ae_a_ae	Sample size used for measuring Yae multiplied by a weighing factor	numeric	dimensionless			
+se_ac	Standard error of Yac	numeric	dimensionless			
+se_ae	Standard error of Yae	numeric	dimensionless			
+J_m_for_d_p	Correction factor J(m) used in calculation of dp (see ‘calculations’ section of methods)	numeric	dimensionless			
+d_p	"The Hedge’s d for effect of competition manipulation in the presence of predation, that is dp (see ‘calculations’ section of methods)"	numeric	dimensionless			
+s_2_d_p	Variance of dp (see ‘calculations’ section of methods)	numeric	dimensionless			
+J_m_for_d_a	Correction factor J(m) used in calculation of da (see ‘calculations’ section of methods)	numeric	dimensionless			
+d_a	"The Hedge’s d for effect of competition manipulation in the absence of predation, that is da (see ‘calculations’ section of methods)"	numeric	dimensionless			
+s_2_d_a	Variance of da (see ‘calculations’ section of methods)	numeric	dimensionless			
+J_m_for_d_I	Correction factor J(m) used in calculation of dI (see ‘calculations’ section of methods)	numeric	dimensionless			
+d_I	"The Hedge’s d for effect interaction between competition and predation, that is dI (see ‘calculations’ section of methods)"	numeric	dimensionless			
+s_2_d_I	Variance of dI (see ‘calculations’ section of methods)	numeric	dimensionless			
+J_m_for_d_R	Correction factor J(m) used in calculation of dR (see ‘calculations’ section of methods)	numeric	dimensionless			
+d_R	"The Hedge’s d for the average effect of competition, that is dR (see ‘calculations’ section of methods)"	numeric	dimensionless			
+s_2_d_R	Variance of dR (see ‘calculations’ section of methods)	numeric	dimensionless			
+J_m_for_d_H	Correction factor J(m) used in calculation of dH (see ‘calculations’ section of methods)	numeric	dimensionless			
+d_H	"The Hedge’s d for the average effect of competition, that is dH (see ‘calculations’ section of methods)"	numeric	dimensionless			
+s_2_d_H	Variance of dH (see ‘calculations’ section of methods)	numeric	dimensionless			

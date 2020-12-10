@@ -1,0 +1,7 @@
+attributeName	code	definition
+Extent	[0-10]	0-10 square kilometer
+Habitat_type	grassland	grassland
+Habitat_type	riparian(grassland)	riparian(grassland)
+Habitat_type	savanna	savanna
+Primary_data_used_for_meta_analysis	Yes	used in meta analysis
+Primary_data_used_for_meta_analysis	No	Not usd in meta analysis

@@ -1,0 +1,33 @@
+﻿Systematic review
+
+A systematic review was conducted in February 2017 for scale‐dependent NERR in plants using the keywords “biodiversity or diversity” AND “plant and inva*” in Web of Science (ISI) and Google Scholar from 1986 to 2016, limiting our search results to relevant research fields of “Ecology,” “Plant sciences,” and “Biodiversity conservation.” The Chinese National Knowledge Infrastructure (CNKI) database was also searched for relevant papers but, regrettably, no articles found in CNKI were suitable. We then screened the titles, abstracts, and results to select studies based on the following criteria: (1) Studies were observational or experimental. Literature reviews, syntheses and mathematical simulation models were excluded. (2) Studies reported NER using species richness; studies reporting other response indices (e.g., species cover, density, or abundance; biomass of one or several exotic species) were excluded. Relevant publications were further screened using the full text. We also cross‐checked studies derived from the reference lists of relevant reviews and articles we previously identified to investigate whether there were additional publications. For our systematic review, we extracted descriptive information from each study to catalog its characteristics. If a study identified study location by name only and did not provide concrete geographic data, we used Google Maps to estimate latitude and longitude. When the study area spanned a large region (e.g., California), we used the midpoint of the region. These midpoints were automatically calculated by using a Geographic Midpoint Calculator (http://www.geomidpoint.com). Few studies provided explicit values for spatial extent. To approximate the extent of study areas, we selected the four most distant points sampled in each study at the cardinal directions of the study area, calculated their distances with ImageJ software, and estimated the rectangular area (Schneider et al. 2012; available online). Extent estimates were grouped into seven categories, as shown in the table below:
+
+Case characteristics and Levels
+
+Publication journal and year: 
+
+Grain size: classified into six categories: (0, 1], (1, 10], (10, 100], (100, 500], (500, 1,000] and (1,000) m2
+
+Country: 
+
+Study area within country: 
+
+Geographic coordinates: midpoint of study area (latitude, longitude)
+
+Spatial extent: (0, 10), [10, 100), [10^2, 10^3), [10^3, 10^4), [10^4, 10^5), [10^5, 10^6) and [10^6) km2
+
+Research type: observational or experimental
+
+Habitat type: forest, grassland, shrubland, wetland, riparian, savanna, agricultural habitat (refers to the non‐crop semi‐natural areas in an agricultural landscape), urban, many habitat types included in study, and miscellaneous other habitats (e.g., freshwater, old fields)
+
+Climatic zone: tropical, temperate, or polar
+
+Meta‐analysis
+
+Our meta‐analysis used a subset of studies from the systematic review for which the correlation between native and exotic (or alien/invasive) species richness was explicitly reported or could be calculated across multiple grain sizes. We extracted Pearson's product–moment correlation coefficients (r) directly from the study, if available, or we calculated r using native and exotic species richness if reported for multiple plots, extracting data points from figures if needed with Getdata 2.26
+
+Because almost all of the experimental studies included in our systematic review were conducted in grasslands at small grain sizes and extents, we limited the meta‐analysis to natural (i.e., unmanipulated) communities rather than including experimental plant communities. Some studies incorporated more than one NERR in different habitat types, locations, or at different spatial extents. For those studies, these NERR values were included as separate individual observations (cases). We only considered neophytes to be exotic (Deutschewitz et al. 2003). We did not extract data from state species lists or other sources of this type directly, because those data do not provide information on grain sizes (Vitousek et al. 1997, Wu et al. 2010).
+
+Other details in the data collecting processes:
+
+Many studies selected several sites (with specific coordinates) within a larger region. If they reported results separately for each site, we regarded results from each site as an individual case (Belote et al. 2008). For a minority of studies that attempted to explore the effects of artificial disturbances on NERRs, if they reported results of both undisturbed and disturbed (or both pre-disturbance and post-disturbance) plots, only undisturbed (or pre-disturbance) plots were used (McGranahan et al. 2012), and if studies reported temporal dynamic change of NERRs under a disturbance regime over time, we selected the earliest measurement (Meiners et al. 2002). Some studies, especially for nested design surveys, reported both cumulative diversity (gamma diversity) and mean diversity observed at a certain grain size (Jauni and Hyvönen 2012). Researchers generally focus on actual species counts rather than aggregated means when calculating NERRs (Deutschewitz et al. 2003, Belote et al. 2008, Chen et al. 2010). We therefore used only cumulative species richness counts as long as the sample plots were separate and independent of each other.

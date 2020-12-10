@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+AuthorYear	Last name of the first author and year of publication	character				
+Year	Year of publication	numeric	nominalYear			
+Grain	"Grain size, that is, the smallest area for which data is available, or sampling unit/plot size"	numeric	dimensionless			
+Grain_units	Units of grain size	categorical				
+Latitude	"Latitude in degree decimal (positive = North, negative = South)"	character				
+Longitude	"Longitude in degree decimal (positive = East, negative = West)"	character				
+Extent	Total spatial area included in the study (see table 1 in methods for levels)	character				
+ResearchType	Whether the study was experimental or observational	character				
+HabitatType	The type of habitat in which the study was carried out (see table in methods for levels).	categorical				

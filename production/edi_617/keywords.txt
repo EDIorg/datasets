@@ -1,0 +1,9 @@
+keyword	keywordThesaurus
+Climate change	
+micro-climate	
+temperature	
+solar radiation	
+shelter	
+conservation	
+restoration	
+management	

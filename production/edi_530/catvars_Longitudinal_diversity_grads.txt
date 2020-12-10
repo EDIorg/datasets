@@ -1,0 +1,60 @@
+attributeName	code	definition
+Thermal_belt	Me	Meso?Mediterranean
+Thermal_belt	Su	Supra?Mediterranean
+Thermal_belt	Eurytherms	Eurytherms (species found across several altitudinal belts)
+Thermal_belt	Th	Thermo?Mediterranean
+Thermal_belt	Mt	Mountain?Mediterranean 
+Thermal_belt	NA	Not applicable (non-plant species)
+Raunkiaers_lifeform	NA	Not applicable (non-plant species)
+Raunkiaers_lifeform	Geophyte	Geophyte
+Raunkiaers_lifeform	Phanerophyte	Phanerophyte
+Raunkiaers_lifeform	Hemicryptophyte	Hemicryptophyte
+Raunkiaers_lifeform	Chamephyte	Chamephyte
+Raunkiaers_lifeform	Therophyte	Therophyte
+Reproduction	NA	Not applicable (non-plant species)
+Reproduction	entomogame	Entomogame
+Reproduction	anemogame	Anemogame
+Reproduction	hydrogame	Hydrogame
+Dissemination	NA	Not applicable (non-plant species)
+Dissemination	barochore	Barochore
+Dissemination	anemochore	Anemochore
+Dissemination	zoochore	Zoochore
+Dissemination	hydrochore	Hydrochore
+Diversity_metric	NucleotideDiversity	Nucleotide diversity
+Diversity_metric	AllelicRichness	Allelic richness
+Diversity_metric	He	Expected heterozygosity
+Diversity_metric	Ho	Observed heterozygosity
+Diversity_metric	HaplotypeDiversity	Haplotype diversity
+Diversity_metric	HeAFLP	"Expected heterozygosity, measured using Amplified Fragment Length Polymorphism"
+Diversity_metric	PercentagePolymorphism	Percentage polymorphism
+Diversity_metric	Shannon	Shannon's index of phenotypic diversity
+Diversity_metric	AllelicRichnessRM	"Allelic richness, estimated with rarefaction method"
+Diversity_metric	naSSR	Mean number of alleles per locus for Simple Sequence Repeats
+Diversity_metric	neSSR	Effective number of alleles per locus for Simple Sequence Repeats
+Diversity_metric	EffectiveAllelicRichness	Effective allelic richness
+Diversity_metric	He_unbiased	Unbiased estimate of expected heterozygosity
+Diversity_metric	D2sh	Mean genetic distance among individuals in population (Goldstein's genetic distance)
+Diversity_metric	HaplotypicRichness	Haplotypic richness
+Diversity_metric	HaplotypicRichnessRM	Haplotypic richness estimated with rarefaction method
+Diversity_metric	HeNei1978	Nei's unbiased expected gene diversity
+Diversity_metric	KS	Hudson's KST statistic of genetic differentiation
+Diversity_metric	MeanNumberOfPairwiseNucleotideDifferences	Mean number of pairwise nucleotide differences
+Diversity_metric	RAPD_ANPD	"Average number of pairwise difference, meausred using Random Amplification of Polymorphic DNA"
+Diversity_metric	Hgregorius	Average heterozygosity (Gregorius' method)
+Diversity_metric	Hbayesian	Bayesian estimation of heterozygosity
+Diversity_metric	HeAFLP.LM	"Expected heterozygosity, measured using Amplified Fragment Length Polymorphisms, with Lynch & Milligan's (1994) correction"
+Diversity_metric	HeAFLP.RM	"Expected heterozygosity, measured using Amplified Fragment Length Polymorphisms, and standardized using rarefaction method"
+Diversity_metric	PercentagePolymorphicLoci	Percentage of loci that are polymorphic 
+Diversity_metric	vs	A measure of haplotypic diversity that accounts for genetic distance b/w haplotypes (from Pons & Petit 1996)
+Marker_type	nuclear seq	Nuclear DNA sequence
+Marker_type	Allozymes	Allozymes
+Marker_type	cpDNA SSR	Simple Sequence Repeats in chloroplast DNA
+Marker_type	AFLP	Amplified Fragment Length Polymorphisms
+Marker_type	nuclear SSR	Simple Sequence Repeats in nuclear DNA
+Marker_type	mtDNA seq	Mitochondrial DNA sequence
+Marker_type	RAPD	Random Amplification of Polymorphic DNA
+Marker_type	cpDNA seq	Chloroplast DNA sequences
+Marker_type	mtDNA RFLP	Random Fragment Length Polymorphisms in mitochondrial DNA 
+Marker_type	cpDNA RFLP	Random Fragment Length Polymorphisms in chloroplast DNA 
+Marker_type	mtDNA SSCP	Single Strand Comformation Polymorphism in mitrochondrial DNA
+Marker_type	genomic ISSR	Internal Simple Sequence Repeats in genomic DNA

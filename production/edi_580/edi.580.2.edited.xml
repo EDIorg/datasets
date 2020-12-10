@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.580.2"
+  xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd"
+  system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst"
+    scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Projected Snow Cover Reductions and Mid-latitude Cyclone Responses in the North American
+      Great Plains, 1986 - 2005</title>
+    <creator>
+      <individualName>
+        <givenName>Ryan</givenName>
+        <givenName>M</givenName>
+        <surName>Clare</surName>
+      </individualName>
+      <organizationName>NRL-MRY</organizationName>
+      <electronicMailAddress>ryan.clare.ctr@nrlmry.navy.mil</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ankur</givenName>
+        <givenName>R</givenName>
+        <surName>Desai</surName>
+      </individualName>
+      <organizationName>UW-Madison</organizationName>
+      <electronicMailAddress>desai@aos.wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-5226-6041</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Notaro</surName>
+      </individualName>
+      <organizationName>Nelson Center for Climate Research, UW-Madison</organizationName>
+      <electronicMailAddress>mnotaro@wisc.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <givenName>E</givenName>
+        <surName>Martin</surName>
+      </individualName>
+      <organizationName>UW-Madison</organizationName>
+      <electronicMailAddress>jemarti1@wisc.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <givenName>J</givenName>
+        <surName>Vavrus</surName>
+      </individualName>
+      <organizationName>Nelson Center for Climate Research, UW-Madison</organizationName>
+      <electronicMailAddress>sjvavrus@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7612-3109</userId>
+    </creator>
+    <pubDate>2020-07-27</pubDate>
+    <abstract>
+      <para>Extratropical cyclones are responsible for major weather events and trends in the
+        mid-latitudes and preferentially develop in regions of enhanced cyclogenesis and proceed
+        along climatological storm tracks. It has been shown that terrestrial snow cover exerts
+        considerable influence on atmospheric baroclinicity which is largely responsible for the
+        aforementioned cyclogeneses and storm tracks. Research about the effect which terrestrial
+        snow cover exerts on cyclones' intensities, trajectories, and precipitation characteristics
+        is limited but indicates a robust relationship with these factors. Many examinations of
+        climate model projections have generally shown a poleward shift in storm tracks by the late
+        21st century though none have determined the degree to which the coincident poleward shift
+        in snow extent is responsible. </para>
+      <para>A method of imposing 10th, 50th, and 90th percentile values of snow retreat between the
+        late 20th and 21st centuries as projected by 14 models of the Coupled Model Intercomparison
+        Project Phase Five (CMIP5) is used to alter 20 historical cold season cyclones which tracked
+        over or adjacent to the North American Great Plains. Simulations by the Advanced Research
+        version of the Weather Research and Forecast Model (WRF-ARW) are initialized at 0 to 4 days
+        prior to cyclogenesis. Including control and sensitivity testing wherein snow is unaltered
+        or removed entirely, each cyclone case is simulated 25 times for a total of 500
+        simulations.&#13; </para>
+    </abstract>
+    <keywordSet>
+      <keyword>WRF</keyword>
+      <keyword>WRF-ARW</keyword>
+      <keyword>Snow cover</keyword>
+      <keyword>Extratropical cyclone</keyword>
+      <keyword>Midlatitude cyclone</keyword>
+      <keyword>Baroclinicity</keyword>
+      <keyword>Surface forcing</keyword>
+      <keyword>Integrated kinetic energy</keyword>
+      <keyword>Winter storm</keyword>
+      <keyword>Climate change</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY
+        (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\"
+        herein) is required to cite it appropriately in any publication that results from its use.
+        The Data User should realize that these data may be actively used by others for ongoing
+        research and that coordination may be necessary to prevent duplicate publication. The Data
+        User is urged to contact the authors of these data if any questions about methodology or
+        results occur. Where appropriate, the Data User is encouraged to consider collaboration or
+        co-authorship with the authors. The Data User should realize that misinterpretation of data
+        may occur if used out of context of the original study. While substantial efforts are made
+        to ensure the accuracy of data and associated documentation, complete accuracy of data sets
+        cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware,
+        however, that data are updated periodically and it is the responsibility of the Data User to
+        check for new versions of the data. The data authors and the repository where these data
+        were obtained shall not be liable for damages resulting from any use or misinterpretation of
+        the data. Thank you. </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Continental United States (CONUS) and surrounding regions, lambert conformal projection centered at 43.5 N 98 W with resolution of 30 km.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.991</westBoundingCoordinate>
+          <eastBoundingCoordinate>-46.001</eastBoundingCoordinate>
+          <northBoundingCoordinate>63.041</northBoundingCoordinate>
+          <southBoundingCoordinate>19.306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1986-01-17</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2005-11-11</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <organizationName>EDI</organizationName>
+      <electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ryan</givenName>
+        <givenName>M</givenName>
+        <surName>Clare</surName>
+      </individualName>
+      <organizationName>NRL-MRY</organizationName>
+      <electronicMailAddress>ryan.clare.ctr@nrlmry.navy.mil</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ankur</givenName>
+        <givenName>R</givenName>
+        <surName>Desai</surName>
+      </individualName>
+      <organizationName>UW-Madison</organizationName>
+      <electronicMailAddress>desai@aos.wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-5226-6041</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>please also see protocol.pdf</para>
+          <section>
+            <title>Experimental design and data</title>
+            <para>In order to test the effect of snow line position on extratropical cyclones, 20
+              North American cold season cyclones between 1986-2005 were simulated using the
+              Advanced Research core of the NCAR Weather Research and Forecasting model (WRF-ARW)
+              version 4.0.3 with perturbed snow cover extent (SCE). Four cyclone cases were
+              subjectively selected from each of the months from November through March based on
+              manual observational evaluation of all mid-latitude cyclones identified by
+              low-pressure centers through this period in daily surface and upper-level weather
+              charts. The criteria of selected cases required storm trajectories over or adjacent to
+              the Great Plains study area which resemble either the Alberta Clipper track or that of
+              the Colorado Low with lifetimes of at least 2 days, based on presence of well-defined
+              central minimum pressure. Cases were chosen until a sufficient variety of differences
+              in the lifetime minimum sea-level pressure (SLP) and magnitude of upper level forcings
+              in the form of 500 hPa height curvature and vorticity advection by the thermal wind
+              were found. Cases were simulated with observed initial conditions and validated
+              against observations using the 32-km spatial resolution North American Regional
+              Reanalysis (NARR) to ensure that WRF could accurately simulate each case.</para>
+            <para>Alterations to the SCE of each case were made by applying average poleward snow
+              line retreat (PSLR) from the 20-year periods of 1986-2005 (historical) to 2080-2099
+              (projected) for each of the five months examined in this study. Projected PSLR was
+              determined by examination of the grid cell snow mass change in 14 models of the 5th
+              phase of the Coupled Model Intercomparison Project (CMIP5; Taylor et al. 2012; doi in
+              Data Provenance table) wherein daily snow mass data were available and experiments
+              were conducted with two Representative Concentration Pathway forcings: RCP4.5 and
+              RCP8.5. Grid cells were identified as snow-covered if their simulated snow mass was at
+              least 5 kg m-2, which corresponds to typically 5 cm of snow depth (assuming a 10:1
+              snow to water ratio), sufficient to cover the surface. We did test other thresholds
+              and did not find a strong sensitivity to this choice in the projected snow cover maps.
+              The southernmost such grid cells were considered to comprise the snow line if the 5
+              degree span to the north of a cell had an average snow mass exceeding that threshold.
+              This search radius was employed in order to exclude outlying isolated southern patches
+              of snow. To limit artifacts that arise from small-scale variability in snow cover, a
+              600 km moving window average was then applied to all derived southern extent of snow
+              cover, hereafter referred to as the snow line. For each month, the 20-year average
+              snow line of the historical and projected periods was calculated, and the amount of
+              projected PSLR was determined from west to east in 30 km-wide bins across North
+              America. Different iterations, realizations, and physics options belonging to
+              experiments of the same model were combined in a one model, one vote scheme. With PSLR
+              calculated for both RCP forcings for each of the 14 models, each month contained 28
+              PSLR values from which the 10th, 50th, and 90th percentiles were determined. </para>
+            <para>The modeling effort involved simulating each of the 20 mid-latitude cyclone cases
+              with five degrees of snow line perturbation, each at five different initialization
+              times, from zero to four days prior to cyclogenesis, yielding a total of 500 distinct
+              simulations. One hundred simulations were generated without changes made to snow cover
+              (control). The remaining 400 runs imposed projected snow line changes of varying
+              magnitude (10th, 50th, and 90th percentiles) or complete snow removal across the
+              domain in order to determine the degree to which the position of the snow line
+              influences storms as opposed to that attributable solely to snow removal. Snow lines
+              for perturbed simulations were determined by applying values of PSLR to corresponding
+              30 km bins of the snow lines, as determined based on the method above, for each case
+              and removing all snow south of the new snow line except at altitudes greater than
+              2,000 m, where snowpack may persist even in warmer climates. It should be noted that
+              the removal of all snow south of the assigned snow line creates a discontinuous step
+              function in snow depth, a hard margin which is not necessarily characteristic of real
+              snow extent boundaries.</para>
+          </section>
+          <section>
+            <title>WRF model configuration</title>
+            <para>All WRF-ARW simulations were executed in the same domain comprised of the
+              continental United States (CONUS), central and southern Canada, northern Mexico, and
+              the surrounding oceans. 30 km horizontal resolution was used to best capture synoptic
+              scale transport with a 150 km buffer zone on each side and 45 vertical levels. Initial
+              and lateral boundary conditions were acquired from 3-hour NARR data provided in grib
+              format by NOAA/OAR/ESRL PSD, Boulder, Colorado, USA, at
+              https://www.esrl.noaa.gov/psd/. Version 4.0 of WRF offers a CONUS suite of physics
+              options which was used in this experiment. The NOAH Land Surface Model (Noah LSM) was
+              altered to reduce surface snow accumulation to zero during simulation in order to
+              avoid snow deposition prior to the arrival of the cyclone of interest into the area
+              without removing precipitation in the atmosphere. The Noah LSM uses a single layer
+              snow model which calculates the albedo of the snow-covered portion of a grid cell
+              as</para>
+            <para>∝_snow= ∝_max A^(t^B )</para>
+            <para>where αmax is the maximum albedo for fresh snow in the given grid cell, t is the
+              age of the snow in days, and A and B are coefficients which are, respectively, 0.94
+              and 0.58 (0.82 and 0.46) during periods of accumulation (ablation). Coefficients A and
+              B were set to accumulation phase for simulations in every month except for March, when
+              the snow was considered to be ablating. </para>
+          </section>
+          <section>
+            <title>Data Information</title>
+            <para>Desciptions of variables within each netCDF file are available in the attached
+              file, WRF_output_variables.txt. The file may also be found at
+              http://co2.aos.wisc.edu/data/snowcover/outputs/WRF_output_variables.txt.
+              Alternatively, if users have netCDF installed, data for each file can be viewed in a
+              Linux terminal with the command:</para>
+            <para>$ ncdump –h filename </para>
+            <para>Filename Convention</para>
+            <para>case number_T-days initialized prior_perturbation degree_datetime string </para>
+            <para>e.g. Case00_T-1_fif_1993-01-30_03:00:00</para>
+            <para/>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML
+            Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>North American Regional Reanalysis (NARR)</title>
+          <creator>
+            <individualName>
+              <givenName>Fedor</givenName>
+              <surName> Mesinger</surName>
+            </individualName>
+            <electronicMailAddress>fedor.mesinger@sanu.ac.rs</electronicMailAddress>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references a paper that describes data used in the
+                creation of this derivative data package.</onlineDescription>
+              <url function="information">https://doi.org/10.1175/BAMS-87-3-343</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Perry</givenName>
+              <surName>Shafran</surName>
+            </individualName>
+            <electronicMailAddress>perry.shafran@noaa.org</electronicMailAddress>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML
+            Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>Community Model Intercomparison Project, Phase 5 (CMIP5)</title>
+          <creator>
+            <individualName>
+              <givenName>Karl</givenName>
+              <surName>Taylor</surName>
+            </individualName>
+            <electronicMailAddress>taylor13@llnl.gov</electronicMailAddress>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references a paper that describes data used in the
+                creation of this derivative data package.</onlineDescription>
+              <url function="information">https://doi.org/10.1175/BAMS-D-11-00094.1</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Karl</givenName>
+              <surName>Taylor</surName>
+            </individualName>
+            <electronicMailAddress>taylor13@llnl.gov</electronicMailAddress>
+          </contact>
+        </dataSource>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Does Northern Hemisphere Snow Cover Influence Mid­latitude Cyclone Trajectories? Weather System Implications for a Changing Climate</title>
+      <personnel>
+        <individualName>
+          <givenName>Ankur</givenName>
+          <givenName>R</givenName>
+          <surName>Desai</surName>
+        </individualName>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0002-5226-6041</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>NSF 1640452</funding>
+    </project>
+    <otherEntity>
+      <entityName>off-line data</entityName>
+      <entityDescription>the model output is available upon request, please contact EDI info@environmentaldatainitiative.org</entityDescription>
+      <physical>
+        <objectName>Snow Cyclone Model output</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>netCDF</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <offline>
+            <mediumName>external hard drive</mediumName>
+          </offline>
+        </distribution>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <dataTable>
+      <entityName>SnowCyclone_manifest.csv</entityName>
+      <entityDescription>Manifest file with metadata for off-line netCDF files</entityDescription>
+      <physical>
+        <objectName>SnowCyclone_manifest.csv</objectName>
+        <size unit="bytes">2788917</size>
+        <authentication method="MD5">f4dcc9b761a9c4992dea9056abad4caa</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data_to_edi/SnowCyclone_manifest.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Case_ID</attributeName>
+          <attributeDefinition>Case identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Case identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Initialization_time_days</attributeName>
+          <attributeDefinition>Initial time to days</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Initial time to days</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Perturbation_type</attributeName>
+          <attributeDefinition>perturbation type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>perturbation type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>month</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Filename</attributeName>
+          <attributeDefinition>file name, format case number_T-days initialized prior_perturbation degree_datetime string</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>file name, format case number_T-days initialized prior_perturbation degree_datetime string</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Format</attributeName>
+          <attributeDefinition>file format</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>file format</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Datetime</attributeName>
+          <attributeDefinition>date time</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Interval_hours</attributeName>
+          <attributeDefinition>interval number of hours</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Checksum</attributeName>
+          <attributeDefinition>checksum of file</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>checksum of file</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>19575</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>WRF_output_variables.txt</entityName>
+      <entityDescription>output variables</entityDescription>
+      <physical>
+        <objectName>WRF_output_variables.txt</objectName>
+        <size unit="bytes">53591</size>
+        <authentication method="MD5">8dbb4b06ccf6e714bf2a0af9358f0384</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data_to_edi/WRF_output_variables.txt</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>protocol.pdf</entityName>
+      <entityDescription>formatted methods description</entityDescription>
+      <physical>
+        <objectName>protocol.pdf</objectName>
+        <size unit="bytes">167340</size>
+        <authentication method="MD5">93bc9e0bb5c946ea4af110163613c7c8</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/data_to_edi/protocol.pdf</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>pdf</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

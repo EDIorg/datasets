@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Sediment_Treatment	Assigned sediment treatment applied to plot. Numbers are in millimeters 	numeric	millimeter			
+Site	One of two sites where manipulations occured	character				
+initial	Turf height in millimeters atop of tiles after transplantation but before manipulations commenced	numeric	millimeter			
+final	Turf height in millimeters at the commencement of the manipulation	numeric	millimeter			

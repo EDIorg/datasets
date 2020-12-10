@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+solute	Name of the solute	categorical				
+date	Date of sampling	Date		YYYY-MM-DD		
+value_mg_L	Mean monthly alue of solute	numeric	milligramsPerLiter		NA	not available

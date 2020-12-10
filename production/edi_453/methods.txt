@@ -1,0 +1,7 @@
+﻿We conducted a Web of Science search engine (v. 5.32, 1982 to 18 May 2019) to find articles that reported day and night estimates of zooplankton density and biomass using the following topics:
+(zooplankton dens* OR zooplankton bioma*) AND (night AND lake).
+All articles from this search that had relevant paired entire water column zooplankton estimates were used in analyses. Data were extracted, if needed, from figures using WebPlotDigitizer (v4.2).
+
+A second Web of Science search was conducted using a slightly different set of topic search terms to more comprehensively search the literature:
+(zooplankton AND day AND night) AND (lake OR reservoir).
+This second search was used to ascertain a robust search of relevant published articles. We also broadly searched older papers than the Web of Science timeframe for relevant data.

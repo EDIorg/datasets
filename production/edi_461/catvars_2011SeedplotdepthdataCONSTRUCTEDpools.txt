@@ -1,0 +1,19 @@
+attributeName	code	definition
+Complex	N	North of the retired runway running through the center of the site
+Complex	S	South of the retired runway running through the center of the site
+Complex	0	not available
+Distance	1	Close t o runway
+Distance	2	 intermediate distance from runway
+Distance	3	far from runway
+Size	m	medium (5 m x 10 m)
+Size	s	small (5 m x 5 m)
+Size	l	large (5 m x 20 m)
+Treatment1999	Control 	NO seeds planted in plot
+Treatment1999	Group A  	"100 seeds each of DEDA, ERVA, and LACO introduced to seed plot"
+Treatment1999	Group B  	"100 seeds each of LACH, PLST, and LACO introduced to seed plot"
+Treatment1999	Lasthenia  	100 seeds of LACO introduced to seed plot
+Treatment2000	Control 	NO seeds planted in plot
+Treatment2000	Group A  	"100 seeds each of DEDA, ERVA, and LACO introduced to seed plot"
+Treatment2000	Group B 	"100 seeds each of LACH, PLST, and LACO introduced to seed plot"
+Treatment2000	Lasthenia 	100 seeds of LACO introduced to seed plot (these plots also received a third seeding of 100 LACO seeds in December 2001)
+Treatment2000	NO Lasthenia  	NO seeds planted in plot

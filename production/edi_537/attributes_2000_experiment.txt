@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+community	Type of forest community	categorical				
+Site	Site where the given plant was planted	categorical				
+Gap	Whether there was an experimental gap was created or not	categorical				
+Block	Block number in which the plant was planted	character				
+Plot	Plot in which the given plant was plant	character				
+est_inimass	Estimated initial dry mass of the plant	numeric	gram			
+N	Nitrogen treatment applied to the given plot	categorical				
+Ca	Calcium treatment applied to the given plot	categorical				
+Species	Abbreviated species name	categorical				
+Shoot_wt	Dry mass of the above-ground plant tissues (shoot) at the end of the experiment	numeric	gram			
+Total_wt	Total dry mass of the plant at the end of the experiment	numeric	gram			

@@ -1,0 +1,14 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Timothy	G.	Howard	"1) New York Natural Heritage Program, NY, USA"			creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Laura		Hyatt	"Science and Math division, West Valley College, Saratoga, CA, USA"	laura.hyatt@westvalley.edu		creator			
+Margaret		Carreiro	"Department of Biology, University of Louisville, Louisville, KY, USA"			creator			
+Manuel		Lerdau	"Department of Biology, University of Virginia, Charlottesville, VA, USA"	mlerdau@virginia.edu	0000-0003-1864-0834	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+Kerry		Brown	"Department of Geography, Geology and the Environment, Kingston University, London, UK"	k.brown@kingston.ac.uk	0000-0002-6342-8966	field assistant			
+Wei		Fang	"School of Earth and Environmental Sciences, City University of New York-Queens College, New York city, NY, USA"			field assistant			
+R.	Matthew	Landis	"ISCIENCES L.L.C., Ann Arbor, MI, USA"			field assistant			
+Maria	N.	Miriti	"Ohio State University, Columbus, OH, USA"	miriti.1@osu.edu		field assistant			
+Richa		Misra	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Heather		Throop	"School of Earth and Space Exploration Arizona State University, Tempe, AZ, USA"	Heather.Throop@asu.edu	0000-0002-7963-4342	field assistant			
+Jessica		Gurevitch			0000-0003-0157-4332	PI	An experimental study of forest invasibility by exotic species	The Nature Conservancy	HO-STEW060198NY

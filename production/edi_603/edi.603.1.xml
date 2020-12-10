@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.603.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Conifer seed delivery after the Berry Fire Grand Teton National Park, USA, 2018</title>
+    <creator>
+      <individualName>
+        <givenName>Nathan</givenName>
+        <givenName>S</givenName>
+        <surName>Gill</surName>
+      </individualName>
+      <organizationName>Texas Tech University</organizationName>
+      <electronicMailAddress>nathan.gill@ttu.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1496-8197</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Tyler</givenName>
+        <givenName>J</givenName>
+        <surName>Hoecker</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>thoecker@wisc.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Monica</givenName>
+        <givenName>G</givenName>
+        <surName>Turner</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>turnermg@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1903-2822</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Chad</givenName>
+        <surName>Kluender</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>kluender2@wisc.edu</electronicMailAddress>
+      <role>Field Crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Diane</givenName>
+        <surName>Abendroth</surName>
+      </individualName>
+      <organizationName>Teton Interagency Fire</organizationName>
+      <electronicMailAddress>Diane_abendroth@nps.gov</electronicMailAddress>
+      <role>Field Crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ron</givenName>
+        <surName>Steffens</surName>
+      </individualName>
+      <organizationName>Teton Interagency Fire</organizationName>
+      <role>Field Crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jill</givenName>
+        <surName>Stephenson</surName>
+      </individualName>
+      <organizationName>Teton Interagency Fire</organizationName>
+      <role>Field Crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Kate</givenName>
+        <surName>Patronik</surName>
+      </individualName>
+      <organizationName>Teton Interagency Fire</organizationName>
+      <role>Field Crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Leonard</givenName>
+        <surName>Rios</surName>
+      </individualName>
+      <organizationName>Teton Interagency Fire</organizationName>
+      <role>Field Crew</role>
+    </associatedParty>
+    <pubDate>2020-08-31</pubDate>
+    <abstract>
+      <para>These data were collected by NS Gill, TJ Hoecker, and MG Turner in Grand Teton National Park from July-October 2018. The dataset represents seed delivery and surrounding forest structure and demographics following the 2016 Berry Fire, used to examine the relationship between fire regime change and conifer seed delivery in Pinus contorta var. latifolia forests. Stand structure and cone abundance were quantified at 21 sites positioned at the edges of the burned area in 50-m transects. Seed delivery was measured in seed traps placed at distance intervals running out to 100 m into burned patches from the live forest edge over a period of three months. Pinus contorta, Picea engelmannii, and Abies lasiocarpa seeds were collected. Five meteorological stations were deployed throughout the study area. Wind speed and direction data were attributed to transects from the nearest of these deployed meteorological stations.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>lodgepole pine</keyword>
+      <keyword>subalpine fir</keyword>
+      <keyword>Engelmann spruce</keyword>
+      <keyword>Greater Yellowstone Ecosystem</keyword>
+      <keyword>fire frequency</keyword>
+      <keyword>forest resilience</keyword>
+      <keyword>forest structure</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>seed dispersal</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Greater Yellowstone Ecosystem (GYE), USA, in subalpine forests in Grand Teton National Park (northwest Wyoming, USA) that burned at high severity in the 2016 Berry Fire.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-110.809</westBoundingCoordinate>
+          <eastBoundingCoordinate>-110.641</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.121</northBoundingCoordinate>
+          <southBoundingCoordinate>43.962</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2018-07-12</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-10-21</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Tracheophyta</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Pinopsida</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Pinales</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Pinaceae</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Pinus</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Pinus contorta</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>variety</taxonRankName>
+                        <taxonRankValue>Pinus contorta latifolia</taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Pinopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>subclass</taxonRankName>
+                        <taxonRankValue>Pinidae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Pinales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Pinaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Picea</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Picea engelmannii</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Pinopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>subclass</taxonRankName>
+                        <taxonRankValue>Pinidae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Pinales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Pinaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Abies</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Abies lasiocarpa</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Pinus contorta var. latifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Picea engelmannii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Abies lasiocarpa</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Nathan</givenName>
+        <givenName>S</givenName>
+        <surName>Gill</surName>
+      </individualName>
+      <organizationName>Texas Tech University</organizationName>
+      <electronicMailAddress>nathan.gill@ttu.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1496-8197</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Monica</givenName>
+        <givenName>G</givenName>
+        <surName>Turner</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>turnermg@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1903-2822</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Stand structure and cone abundance were measured along 50-m live edge transects (n = 18) stratified by age of the live forest (18-yr-old [n = 5], 30-yr-old [n = 6], and  greater than 100-yr-old [n = 7]) at the edge of the burn, running 5 m inside (and parallel to) the live forest edge. Every 2 m along live transects, the species, height, diameter at breast height (DBH), and cone abundance category of the nearest live, cone-bearing tree was recorded (n = 25). Cone quantities were classified as  less than 10, 10-50, 51-100, or  greater than 100 cones per tree. For later quantitative analysis, cone count categories were assigned median values. For the  greater than 100 cones per tree category, a median value of 300 cones was selected, a conservative estimate for canopy trees in P. contorta stands  greater than 100 years old (Koch, 1996). For the  less than 10 cones per tree category, a median value of 3.7 cones per tree was assigned, as calculated for 15-yr old Pinus contorta forest in the GYE by (Turner, Turner, Romme, &amp; Tinker, 2007). The number of live, cone-bearing trees within 1 m of the transect was tallied by species. Serotiny was recorded at each edge by the percent of live, cone-bearing trees that held at least one serotinous cone.</para>
+          <para>Seed delivery into burned patches was measured along 100-m burned transects (n = 18), each running perpendicular to a live edge transect and into the burned patch, far from any  live, cone-bearing trees within the burned patch. Transects were separated by a minimum distance of 150 m. Within each age class, transects were located to capture variation in topographic position and direction relative to prevailing winds. Seed delivery was measured over three months using 0.28 x 0.54-m trays (6.20 cm deep) placed in July 2018 (n = 24 trays per site) and collected in October 2018. Trays were covered by 0.635 cm2 grain hardware cloth, large enough to allow conifer seeds to enter but fine enough to prevent seed removal by birds and rodents. Landscaping fabric was placed in the bottom of trays to retain seeds while allowing water to drain from slits in tray bottoms. Trays were secured in place with landscape staples. Starting at the live forest edge, two trays were placed at 1-, 5-, 10-, 20-, 30-, and 40-m intervals along each transect. Four trays were placed at 50 m along each transect and eight trays were placed at 100 m to account for decreased likelihood of capturing seeds at greater distances (Nathan, Safriel, Noy-Meir, &amp; Schiller, 2000). The number of standing dead trees (snags) within 1 m of transects was measured over the first 50 m to estimate snag density. The slope of each transect was recorded using a clinometer.</para>
+          <para>Wind speed and direction data were recorded at 30-minute intervals over the three and a half months of seed trapping using METER Environment meteorological stations (n = 5) distributed throughout the study area. Wind data from the nearest station were attributed to each burned transect (in all cases, transects were within 2.7 km of the nearest wind station).  &#13;
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The 2016 Yellowstone Fires: early indicators of ecosystem transitions in a changing fire regime.</title>
+      <personnel>
+        <individualName>
+          <givenName>Monica</givenName>
+          <givenName>G</givenName>
+          <surName>Turner</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>NSF DEB-1719905</funding>
+    </project>
+    <dataTable>
+      <entityName>Gill_etal_Ecology_EDI_data.csv</entityName>
+      <entityDescription>Metadata for seed delivery, wind, and forest structure and demographics data. These data were collected to study the influence of fire regime change on conifer seed delivery in P. contorta forests.</entityDescription>
+      <physical>
+        <objectName>Gill_etal_Ecology_EDI_data.csv</objectName>
+        <size unit="bytes">12352</size>
+        <authentication method="MD5">48ad26edb852df7de22b58ac815bf57b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>TransectID</attributeName>
+          <attributeDefinition>Transect identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Transect identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AgeClass</attributeName>
+          <attributeDefinition>Stand age; categorical</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stand age; categorical</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TrapDistance</attributeName>
+          <attributeDefinition>Distance interval of seed trap placement from the live forest edge</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LCB_dhb</attributeName>
+          <attributeDefinition>Mean diameter at breast height (DHB) of live, cone-bearing trees, measured at nearest live, cone-bearing tree every 2 m along 50-m live edge transect</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.5</minimum>
+                  <maximum exclusive="false">21.42</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Pico_stemsperha</attributeName>
+          <attributeDefinition>Live, cone-bearing Pinus contorta var. latifolia stems per hectare, measured along a 2 x 50 m transect running 5 m inside and parallel to the live forest edge.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">400</minimum>
+                  <maximum exclusive="false">14200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Pien_stemsperha</attributeName>
+          <attributeDefinition>Live, cone-bearing Picea engelmannii stems per hectare, measured along a 2 x 50 m transect running 5 m inside and parallel to the live forest edge.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Abla_stemsperha</attributeName>
+          <attributeDefinition>Live, cone-bearing Abies lasiocarpa stems per hectare, measured along a 2 × 50 m transect running 5 m inside and parallel to the live forest edge.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">600</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Cones_per_tree</attributeName>
+          <attributeDefinition>Mean number of cones per live, cone-bearing tree, measured categorically at nearest live, cone-bearing tree every 2 m along 50-m live edge transect, with each tree classified as having &lt;10, 10-50, 51-100, or &gt;100 cones per tree. For the &gt;100 cones category, a median value of 300 was used, a conservative estimate for canopy tree P. contorta in stands &gt;100 years old (Koch 1996). For the &lt;10 cones per tree category, a median value of 3.7 cones per tree was assigned, as calculated for 15-yr old P. contorta forest in the GYE by Turner et al. (2007).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerTree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">6</minimum>
+                  <maximum exclusive="false">204.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Cones_per_ha</attributeName>
+          <attributeDefinition>Cones per tree × stems per ha (live, cone-bearing stems of all species)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">17400</minimum>
+                  <maximum exclusive="false">192600</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ConeBearingHeight</attributeName>
+          <attributeDefinition>Mean height of live, cone-bearing trees (all species), measured n nearest live, cone-bearing tree every 2 m with a laser hypsometer along a 2 x 50 m transect running 5 m inside and parallel to the live forest edge.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.2</minimum>
+                  <maximum exclusive="false">17.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PicoHT</attributeName>
+          <attributeDefinition>Mean height of live, cone-bearing P. contorta var. latifolia, measured n nearest live, cone-bearing tree every 2 m with a laser hypsometer along a 2 x 50 m transect running 5 m inside and parallel to the live forest edge.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.2</minimum>
+                  <maximum exclusive="false">22.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PienHT</attributeName>
+          <attributeDefinition>Mean height of live, cone-bearing P. engelmannii, measured n nearest live, cone-bearing tree every 2 m with a laser hypsometer along a 2 x 50 m transect running 5 m inside and parallel to the live forest edge.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">13.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AblaHT</attributeName>
+          <attributeDefinition>Mean height of live, cone-bearing A. lasiocarpa, measured n nearest live, cone-bearing tree every 2 m with a laser hypsometer along a 2 x 50 m transect running 5 m inside and parallel to the live forest edge.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">13.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DevFromWind</attributeName>
+          <attributeDefinition>Deviation from prevailing winds, measured as the difference between the direction of the transect (running from live forest edge into burned patch) and the most frequently recorded direction of winds over 2.0 m sec-1 at the nearest deployed meteorological station.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">166</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>MedianWindSpeed</attributeName>
+          <attributeDefinition>Median wind speed over 2.0 m sec-1 at the nearest deployed meteorological station. Wind data were logged in 30-minute increments through the duration of the study period.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.26</minimum>
+                  <maximum exclusive="false">2.66</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SlopeAngle</attributeName>
+          <attributeDefinition>Angle of topographic slope in the direction of the transect, running from the live forest edge into the burned patch. Measured with a clinometer over the first 50 m of the transect.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-14.8</minimum>
+                  <maximum exclusive="false">13.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Snags_per_ha</attributeName>
+          <attributeDefinition>Density of standing dead trees and stumps over 40 cm tall within 1 m of the first 50 m of the transect running from the live forest edge into the burned patch.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">600</minimum>
+                  <maximum exclusive="false">25400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PercentSerot</attributeName>
+          <attributeDefinition>Percent of trees in a stand that hold at least one serotinous cone, measured every 2 m along a 2 x 50 m transect running 5 m inside and parallel to the live forest edge.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">41.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NumberTrays</attributeName>
+          <attributeDefinition>Number of 0.28 x 0.54 x 0.06-m trays comprising the “trap” at distance interval. Starting at the live forest edge, two trays were placed at 1-, 5-, 10-, 20-, 30-, and 40-m intervals along each transect. Four trays were placed at 50 m along each transect and eight trays were placed at 100 m to account for decreased likelihood of capturing seeds at greater distances (Nathan, Safriel, Noy-Meir, &amp; Schiller, 2000).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Picoseed</attributeName>
+          <attributeDefinition>Density of P. contorta seeds collected in trap.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">52.75035018</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Pienseed</attributeName>
+          <attributeDefinition>Density of P. engelmannii seeds collected in trap.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">26.37517509</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Ablaseed</attributeName>
+          <attributeDefinition>Density of A. lasiocarpa seeds collected in trap.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">13.18758754</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>132</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="numberPerHectare" multiplierToSI="" name="numberPerHectare" parentSI="" unitType="">
+          <description>count per area</description>
+        </unit>
+        <unit id="numberPerTree" multiplierToSI="" name="numberPerTree" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="percent" multiplierToSI="" name="percent" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

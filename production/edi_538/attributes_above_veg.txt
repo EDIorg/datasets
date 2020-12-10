@@ -1,0 +1,41 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Site abbreviation	character				
+SKY	Canopy-less area	numeric	dimensionless			
+ACRU	"Abundance of Acer rubrum, Red Maple"	numeric	dimensionless			
+ACSA	"Abundance of Acer saccharum, Sugar Maple"	numeric	dimensionless			
+AMBR	"Abundance of Ampelopis brevipedunculata, Porcelain berry"	numeric	dimensionless			
+BEAL	"Abundance of Betula alleghaniensis, Yellow Birch"	numeric	dimensionless			
+BENI	"Abundance of Betula nigra, Black birch"	numeric	dimensionless			
+CAPA	"Abundance of Carya pallida, Hickory"	numeric	dimensionless			
+CEOR	"Abundance of Celastrus orbiculatus, Bittersweet"	numeric	dimensionless			
+COFL	"Abundance of Cornus florida, Dogwood"	numeric	dimensionless			
+ELAN	"Abundance of Eleagnus angustifolia, Russian olive"	numeric	dimensionless			
+FAXX	Abundance of Beech	numeric	dimensionless			
+GABA	"Abundance of Gaylussacia baccata, Huckleberry"	numeric	dimensionless			
+HAVI	"Abundance of Hamamelis virginiana, Witch Hazel"	numeric	dimensionless			
+JUVI	"Abundance of Juniperus virginiana, Cedar/Juniper"	numeric	dimensionless			
+LIBE	"Abundance of Lindera benzoin, Spicebush"	numeric	dimensionless			
+LITU	"Abundance of Liriodendron tulipifera, Tulip tree"	numeric	dimensionless			
+LOJA	"Abundance of Lonicera japonica, Japanese Honeysuckle"	numeric	dimensionless			
+LOMA	"Abundance of Lonicera mackii, Bush Honeysuckle"	numeric	dimensionless			
+LYMA	"Abundance of Lyonia mariana, Staggerbush"	numeric	dimensionless			
+MOAL	"Abundance of Morus alba, Mulberry"	numeric	dimensionless			
+PAQU	"Abundance of Parthenocissus quinquefolia, Virginia Creeper"	numeric	dimensionless			
+PIAL	"Abundance of Pinus alba, White pine"	numeric	dimensionless			
+PIRI	"Abundance of Pinus rigida, Pitch pine"	numeric	dimensionless			
+PRSE	"Abundance of Prunus serotina, Cherry"	numeric	dimensionless			
+QUAL	"Abundance of Quecus alba, White oak"	numeric	dimensionless			
+QUIL	"Abundance of Quercus ilicifolia, Scrub oak"	numeric	dimensionless			
+QUNI	"Abundance of Quercus nigrum, Black Oak"	numeric	dimensionless			
+QUPR	"Abundance of Quercus prinus, Chestnut Oak"	numeric	dimensionless			
+QURU	"Abundance of Quercus rubrum, Red Oak"	numeric	dimensionless			
+QUVE	"Abundance of Quercus velutina, Scarlet oak"	numeric	dimensionless			
+RHTO	"Abundance of Rhus toxicodendron, Poison Ivy"	numeric	dimensionless			
+ROMU	"Abundance of Rosa multiflora, Multiflora rose"	numeric	dimensionless			
+ROPS	"Abundance of Robinia pseudoacacia, Black Locust"	numeric	dimensionless			
+SAAL	"Abundance of Sassafras albidum, Sassafras"	numeric	dimensionless			
+SMGL	"Abundance of Smilax glauca, Catbriar"	numeric	dimensionless			
+TSCA	"Abundance of Tsuga canadensis, Hemlock"	numeric	dimensionless			
+VIAC	"Abundance of Viburnum acerifolium, Maple-leaved viburnum"	numeric	dimensionless			
+VIDE	"Abundance of Viburnum dentatum, Toothed viburnum"	numeric	dimensionless			
+VIVU	"Abundance of Vitis vulpina, Grape"	numeric	dimensionless			

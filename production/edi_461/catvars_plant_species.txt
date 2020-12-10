@@ -1,0 +1,13 @@
+attributeName	code	definition
+Dicot_Monocot	Dicot	dicotyledons (Magnoliopsida)
+Dicot_Monocot	Monocot	monocotyledons (Liliopsida)
+Dicot_Monocot	Pteridophyte	Pteridophyte
+Category	gen	"Generalists species that can occur in more than one habitat, either wetland or upland, or sometimes both, including vernal pools, pool margins, disturbed areas, and grasslands."
+Category	vpa?	"a species that is a vernal pool associate in certain region(s), and is gen in other regions"
+Category	vpa	"Vernal pool associates species that regularly occur in vernal pools but are not restricted to them, also occurring in other similar wetland habitats"
+Category	vpi?	"a species that is a vernal pool indicator in certain region(s) only, and can be a vpa or gen in other regions"
+Category	vpi/vpa	"a species that is a vernal pool indicator in some regions and a vernal pool associate in other regions, yet not known to be a gen"
+Category	vpi	Vernal pool indicators species that are restricted to vernal pools and are not known from other habitats
+Category	not listed	not listed
+Native_to_California	YES	Native to California obtained from www.calflora.org
+Native_to_California	NO	Non-native to California obtained from www.calflora.org

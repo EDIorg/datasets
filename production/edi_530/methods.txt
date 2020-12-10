@@ -1,0 +1,443 @@
+Gathering data from published sources
+
+We collected published population genetic studies of terrestrial plant and animal species whose distributions were at least partially found within the Mediterranean basin, from endemic to widespread (Fig. 1). For this, we searched the Web of Knowledge for references published between January 1980 and October 2009. We used the following search expressions: “population genetics,” “phylogeo*,” “genetic diversit*,” “Mediterr*,” and individual Mediterranean country names. We also examined the references included in all retrieved publications for additional references.
+
+Defining the geographic zone of interest and population sample size
+
+From these papers, we selected all populations with estimates of genetic diversity within population (GDpop estimates) that fall within the Mediterranean basin. We used the delineation of the Mediterranean basin defined by Olson et al. (2001), which is the standard currently used by the World Wildlife Fund (WWF) to define the world eco‐regions. We used a geographic information system (GIS) for selecting among published studies, which population to allocate to that geographic envelope and to further qualify populations as continental versus insular and northern versus southern Mediterranean. 
+
+Constructing a database of GDpop estimates
+
+We created a database where each row corresponded to an individual population from the Mediterranean, characterized by its geographical coordinates and GDpop estimates. Studies sometimes contained more than one species and a single species was sometimes studied by several published papers. Also, there was often more than one marker and/or GDpop measure used for each species and population within study. We recorded all measures for each population independently and generated a code for this redundancy. When a primary study reported genotypic data from single individuals in sampled localities but with an extensive sampling effort across an area or across the whole Mediterranean Basin (as, for example, in Ronfort et al. 2006), we grouped neighboring localities into small regions for which we computed genetic diversity indices. The new georeferenced code for each of these artificial populations was the geometric center of all coordinates within the small region. For quality, we only kept in our database those studies for which sample size was more than 3 populations per study.  
+
+Raw data analysis and calculation of effect‐sizes
+
+No published paper we retrieved had testing for a correlation between longitude and GDpop as its primary goal. We used the raw data from these studies to correlate the longitudinal position of each population with its GDpop. The statistics we used was the Pearson product–moment correlation coefficient. The populations tested were not located on a straight longitudinal line, but rather spanned a small latitudinal gradient (which reaches its maximum in each of the Mediterranean peninsulas). Thus, in order to account for the effect of latitude, we calculated a partial correlation coefficient, which measured the degree of association of GDpop with longitude while latitude was held constant. Partial correlation coefficients in meta‐analysis represent the relationship between the independent and the dependent variable while controlling for other factors. In our case, the controlling factor was always the same, latitude.
+
+Publications used in this study
+
+Abellán, P., A. Millán, I. Ribera 2009. Parallel habitat-driven differences in the phylogeographical structure of two independent lineages of Mediterranean saline water beetles. Molecular Ecology 18 (8): 3885-3902.
+
+Affre, L., J. Thompson, M. Debussche 1997. Genetic structure of continental and island populations of the Mediterranean endemic Cyclamen balearicum (Primulaceae). American Journal of Botany 84 (4): 437-451. 
+
+Afzal-Rafii, Z., R. S. Dodd 2007. Chloroplast DNA supports a hypothesis of glacial refugia over postglacial recolonization in disjunct populations of black pine (Pinus nigra) in western Europe. Molecular Ecology 16: 723-736. 
+
+Agrimonti, C., R. Bianchi, A. Bianchi, M. Ballero, F. Poli, N. Marmiroli 2007. Understanding biological conservation strategies: a molecular genetic approach to the case of myrtle (Myrtus communis L.) in two Italian regions: Sardinia and Calabria. Conservation Genetics 8: 385-396. 
+
+Ainouche, M. L., R. J. Bayer, J. P. Gourret, A. Defontaine, M. T. Misset 1999. The allotetraploid invasive weed Bromus hordeaceus L. (Poaceae): Genetic diversity, origin and molecular evolution. Folia Geobotanica 34 (4): 405--419. 
+
+Albaladejo, R. G., A. Aparicio 2007. Population Genetic Structure and Hybridization Patterns in the Mediterranean Endemics Phlomis lychnitis and P. crinita (Lamiaceae). Annals of Botany 100: 735-746. 
+
+Alexandrino, J., E. Froufe, J. W. Arntzen, N. Ferrand 2000. Genetic subdivision, glacial refugia and postglacial recolonization in the golden-striped salamander, Chioglossa lusitanica (Amphibia: Urodela). Molecular Ecology 9: 771-781. 
+
+Allegrucci, G., M. G. Minasi, V. Sbordoni 1997. Patterns of gene flow and genetic structure in cave-dwelling crickets of the Tuscan endemic, Dolichopoda schiavazzii (Orthoptera, Rhaphidophoridae). Heredity 78 (6): 665-673. 
+
+Aravanopoulos, F. A., K. P. Panetsos, A. Skaltsoyiannes 2004. Genetic structure of Pinus brutia stands exposed to wild fires. Plant Ecology 171: 175-183. 
+
+Arnaud-Haond, S., M. Migliaccio, E. Diaz-Almela, S. Teixeira, M. S. van de Vliet, F. Alberto, G. Procaccini, C. M. Duarte, E. A. Serrão 2007. Vicariance patterns in the Mediterranean Sea: east–west cleavage and low dispersal in the endemic seagrass Posidonia oceanica. Journal of Biogeography 34: 963-976. 
+
+Augustinos, A. A., Z. Mamuris, E. E. Stratikopoulos, S. D'Amelio, A. Zacharopoulou, K. D. Mathiopoulos 2005. Microsatellite analysis of olive fly populations in the Mediterranean indicates a westward expansion of the species. Genetica 125: 231-241. 
+
+Baali-Cherif, D., G. Besnard 2005. High genetic diversity and clonal growth in relict populations of Olea europaea subsp laperrinei (Oleaceae) from Hoggar, Algeria. Annals of Botany 96 (5): 823-830. 
+
+Baatout, H., M. Marrakchi, D. Combes 1991. Genetic Divergence and Allozyme Variation within and among Populations of Hedysarum spinosissimum subsp. capitatum and subsp. spinosissimum (Papilionaceae). Taxon 40 (2): 239-252. 
+
+Bagnoli, F., G. G. Vendramin, A. Buonamici, A. G. Doulis, S. C. González-Martínez, N. L. Porta, D. Magri, P. Raddi, F. Sebastiani, S. Fineschi 2009. Is Cupressus sempervirens native in Italy? An answer from genetic and palaeobotanical data. Molecular Ecology 18 (10): 2276-2286. 
+
+Balfourier, F., G. Charmet, C. Ravel 1998. Genetic differentiation within and between natural populations of perennial and annual ryegrass (Lolium perenne and L. rigidum). Heredity 81: 100-110. 
+
+Ballian, D., R. Longauer, T. Mikic, L. Paule, D. Kajba, D. Gomory 2006. Genetic structure of a rare European conifer, Serbian spruce (Picea omorika (Panč.) Purk.). Plant Systematics and Evolution 260: 53-63. 
+
+Bartish, I. V., J. W. Kadereit, H. P. Comes 2006. Late Quaternary history of Hippophaë rhamnoides L. (Elaeagnaceae) inferred from chalcone synthase intron (Chsi) sequences and chloroplast DNA variation. Molecular Ecology 15: 4065-4083. 
+
+Bechir, A., A. El Mousadik, C. Pichot 2004. Allozyme diversity of natural and introduced cypress stands in Morocco: consequences for management of genetic resources. Annals of Forest Science 61 (7): 669-676. 
+
+Belaj, A., C. Munoz-Diez, L. Baldoni, A. Porceddu, D. Barranco, Z. Satovic 2007. Genetic diversity and population structure of wild Olives from the North-western Mediterranean assessed by SSR markers. Annals of Botany 100: 449-458. 
+
+Belletti, P., S. Lanteri 1996. Allozyme variation among European beech (Fagus sylvatica L) stands in Piedmont, north-western Italy. Silvae Genetica 45 (1): 33-37. 
+
+Belletti, P., S. Leonardi, I. Monteleone, R. Piovani 2005. Allozyme variation in different species of deciduous oaks from northwestern Italy. Silvae Genetica 54 (1): 9-16. 
+
+Belletti, P., I. Monteleone, D. Ferrazzini 2007. Genetic variability at allozyme markers in sycamore (Acer pseudoplatanus) populations from northwestern Italy. Canadian Journal of Forest Research 37 (2): 395-403. 
+
+de Bellocq, J. G., C. Delarbre, G. Gachelin, S. Morand 2005. Allelic diversity at the Mhc-DQA locus of woodmouse populations (Apodemus sylvaticus) present in the islands and mainland of the northern Mediterranean. Global Ecology and Biogeography 14 (2): 115-122. 
+
+Ben Othmen, A., N. Chatti, Z. Ben Ali-Haouas, I. Ouldbrahim, K. Said 2004. Allozymic differentiation of Tunisian populations of Androctonus species and Buthus occitanus (Scorpiones : Buthidae). Biological Journal of the Linnean Society 81 (2): 255--265. 
+
+Bennett, S. J., M. D. Hayward 1999. Electrophoretic differentiation in isolated populations of Lolium rigidum Gaud.. Molecular Ecology 8 (1): 123--131. 
+
+Besold, J., T. Schmitt, T. Tammaru, A. Cassel-Lundhagen 2008. Strong genetic impoverishment from the centre of distribution in southern Europe to peripheral Baltic and isolated Scandinavian populations of the pearly heath butterfly. Journal of Biogeography 35 (11): 2090--2101. 
+
+Boato, A. 1988. Microevolution in Solatopupa landsnails (Pulmonata Chondrinidae): genetic diversity and founder effects. Biological Journal of the Linnean Society 34 (4): 327-348. 
+
+Boato, A., A. Battisti 1996. High genetic variability despite haplodiploidy in primitive sawflies of the genus Cephalcia (Hymenoptera, Pamphiliidae). Experientia 52: 516-521. 
+
+Boratynski, A., A. Lewandowski, K. Boratynska, J. Montserrat, A. Romo 2009. High level of genetic differentiation of Juniperus phoenicea (Cupressaceae) in the Mediterranean region: geographic implications. Plant Systematics and Evolution 277 (3): 163-172. 
+
+Bou Dagher-Kharrat, M., S. Mariette, F. Lefèvre, B. Fady, G. Grenier-de March, C. Plomoin, A. Savouré 2007. Geographical diversity and genetic relationships among Cedrus species estimated by AFLP. Tree Genetics & Genomes 3: 1614-2942. 
+
+Breton, C., M. Tersac, A. Berville 2006. Genetic diversity and gene flow between the wild olive (oleaster, Olea europaea L.) and the olive: several Plio-Pleistocene refuge zones in the Mediterranean basin suggested by simple sequence repeats analysis. Journal of Biogeography 33 (11): 1916-1928. 
+
+Briese, D. T., C. Espiau, A. Pouchot-Lermans 1996. Micro-evolution in the weevil genus Larinus: the formation of host biotypes and speciation. Molecular Ecology 5: 531-545. 
+
+Brito, P. 2005. The influence of Pleistocene glacial refugia on tawny owl genetic diversity and phylogeography in western Europe. Molecular Ecology 14: 3077-3094. 
+
+Bruna, S., E. Portis, C. Cervelli, L. De Benedetti, T. Schiva, A. Mercuri 2007. AFLP-based genetic relationships in the Mediterranean myrtle (Myrtus communis L.). Scientia Horticulturae 113: 370-375. 
+
+Bucci, G., M. Anzidel, A. Madaghiele, G. G. Vendramin 1998. Detection of haplotypic variation and natural hybridization in halepensis-complex pine species using chloroplast simple sequence repeat (SSR) markers. Molecular Ecology 7: 1633-1643. 
+
+Bucci, G., S. C. Gonzalez-Martinez, G. Le Provost, C. Plomion, M. M. Ribeiro, F. Sebastiani, R. Alia, G. G. Vendramin 2007. Range-wide phylogeography and gene zones in Pinus pinaster Ait. revealed by chloroplast microsatellite markers. Molecular Ecology 16: 2137-2153. 
+
+Bues, R., M. Eizaguirre, J. F. Toubon, R. Albages 1996. Population generic structure and ecological differences among nine populations of Sesamia nonagrioides Lefebre (Lepidoptera: Noctuidae) from the western basin.. Canadian Entomologist 128 (5): 849--858. 
+
+Busack, S. D., R. Lawson, W. M. Arjo 2005. Mitochondrial DNA, allozymes, morphology and historical biogeography in the Podarcis vaucheri (Lacertidae) species complex. Amphibia-Reptilia 26: 239-256. 
+
+Bylebyl, K., P. Poschlod, C. Reisch 2008. Genetic variation of Eryngium campestre L. (Apiaceae) in Central Europe. Molecular Ecology 17 (14): 3379-3388. 
+
+Canestrelli, D., R. Cimmaruta, V. Costantini, G. Nascetti 2006. Genetic diversity and phylogeography of the Apennine yellow-bellied toad Bombina pachypus, with implications for conservation. Molecular Ecology 15 (12): 3741-3754. 
+
+Canestrelli, D., R. Cimmaruta, G. Nascetti 2008. Population genetic structure and diversity of the Apennine endemic stream frog, Rana italica – insights on the Pleistocene evolutionary history of the Italian peninsular biota. Molecular Ecology 17: 3856-3872. 
+
+Canestrelli, D., R. Cimmaruta, G. Nascetti 2007. Phylogeography and historical demography of the Italian treefrog, Hyla intermedia, reveals multiple refugia, population expansions and secondary contacts within peninsular Italy. Molecular Ecology 16 (22): 4808--4821. 
+
+Capula, M. 1996. Evolutionary genetics of the insular lacertid lizard Podarcis tiliguerta: Genetic structure and population heterogeneity in a geographically fragmented species. Heredity 77: 518--529. 
+
+Caujapé-Castells, J., R. K. Jansen 2003. The influence of the Miocene Mediterranean desiccation on the geographical expansion and genetic variation of Androcymbium gramineum (Cav.) McBride (Colchicaceae). Molecular Ecology 12: 1515-1525. 
+
+Cengel, B., E. Velioglu, A. A. Tolun, Z. Kaya 2000. Pattern and magnitude of genetic diversity in Pinus nigra ARNOLD subspecies pallasiana populatoins from Kazdagi: implications for in situ conservation. Silvae Genetica 49: 249-256. 
+
+Cheddadi, R., B. Fady, L. François, L. Hajar, J.-P. Suc, K. Huang, M. Demarteau, G. G. Vendramin, E. Ortu 2009. Putative glacial refugia of Cedrus atlantica deduced from Quaternary pollen records and modern genetic diversity. Journal of Biogeography 36 (7): 1361--1371. 
+
+Cleary, D. F. R., H. Descimon, S. B. J. Menken 2002. Genetic and ecological differentiation between the butterfly sisterspecies Colias alfacariensis and Colias hyale. Contributions To Zoology 71. 
+
+Coart, E., S. Van Glabeke, R. J. Petit, E. Van Bockstaele, I. Roldan-Ruiz 2005. Range wide versus local patterns of genetic diversity in hornbeam (Carpinus betulus L.). Conservation Genetics 6 (2): 259-273. 
+
+Comes, H. P., R. J. Abbott 1999. Population genetic structure and gene flow across arid versus mesic environments: A comparative study of two parapatric Senecio species from the Near East. Evolution 53 (1): 36--54. 
+
+Comes, H. P., R. J. Abbott 1998. The relative importance of historical events and gene flow on the population structure of a Mediterranean ragwort, Senecio gallicus (Asteraceae). Evolution 52 (2): 355-367. 
+
+Cozzolino, S., D. Cafasso, G. Pellegrino, A. Musacchio, A. Widmer 2003. Fine-scale phylogeographical analysis of Mediterranean Anacamptis palustris (Orchidaceae) populations based on chloroplast minisatellite and microsatellite variation. Molecular Ecology 12 (10): 2783-2792. 
+
+Cronberg, N. 2000. Genetic diversity of the epiphytic bryophyte Leucodon sciuroides in formerly glaciated versus nonglaciated parts of Europe. Heredity 84: 710-720. 
+
+Cubas, P., C. Pardo, H. Tahiri 2005. Genetic variation and relationships among Ulex (Fabaceae) species in southern spain and northern morocco assessed by chloroplast microsatellite (cpSSR) markers1. American Journal of Botany 92: 2031-2043. 
+
+Deffontaine, V., R. Libois, P. Kotlik, R. Sommer, C. Nieberding, E. Paradis, J. B. Searle, J. Michaux 2005. Beyond the Mediterranean peninsulas: evidence of central European glacial refugia for a temperate forest mammal species, the bank vole (Clethrionomys glareolus). Molecular Ecology 14 (6): 1727-1739. 
+
+Dhuyvetter, H., E. Gaublomme, P. Verdyck, K. Desender 2005. Genetic differentiation among populations of the salt marsh beetle Pogonus littoralis (Coleoptera : Carabidae): A comparison between Atlantic and Mediterranean populations. Journal of Heredity 96 (4): 381--387. 
+
+Dhuyvetter, H., J.-P. Maelfait, K. Desender 2007. Inter- and intraspecific genetic and morphological variation in a sibling pair of carabid species. Saline Systems. 
+
+Dubey, S., J.-F. Cosson, E. Magnanou, V. Vohralik, P. Benda, D. Frynta, R. Hutterer, V. Vogel, V. P 2007. Mediterranean populations of the lesser white-toothed shrew (Crocidura suaveolens group): an unexpected puzzle of Pleistocene survivors and prehistoric introductions. Molecular Ecology 16: 3438-3452. 
+
+Dubey, S., M. Zaitsev, J.-F. Cosson, A. Abdukadier, P. Vogel 2006. Pliocene and Pleistocene diversification and multiple refugia in a Eurasian shrew (Crocidura suaveolens group). Molecular Phylogenetics and Evolution 38: 635-647. 
+
+Ducci, F., R. Proietti, J. M. Favre 1999. Allozyme assessment of genetic diversity within the relic Sicilian fir Abies nebrodensis (Lojac.) Mattei. Annals of Forest Science 56 (4): 345--355. 
+
+ElenaRossello, J. A., E. Cabrera 1996. Isozyme variation in natural populations of cork-oak (Quercus suber L) - Population structure, diversity, differentiation and gene flow. Silvae Genetica 45 (4): 229-235. 
+
+Escudero, M., P. Vargas, P. Arens, N. J. Ouborg, M. Luceño 2009. The east-west-north colonization history of the Mediterranean and Europe by the coastal plant Carex extensa (Cyperaceae). Molecular Ecology 19: 352-370. 
+
+Faccoli, M., A. Piscedda, P. Salvato, M. Simonato, L. Masutti, A. Battisti 2005. Genetic structure and phylogeography of pine shoot beetle populations (Tomicus destruens and T. piniperda, Coleoptera Scolytidae) in Italy. Annals of Forest Science 62: 361-368. 
+
+Fady, B., F. Lefèvre, G. G. Vendramin, A. Ambert, C. R2gnier, M. Bariteau 2007. Genetic consequences of past climate and human impact on eastern Mediterranean Cedrus libani forests. Implications for their conservation. Conservation Genetics 9: 85-95. 
+
+Farley, R. A., T. McNeilly 2000. Diversity and divergence in Cistus salvifolius (L.) populations from contrasting habitats. Hereditas 132: 183-192. 
+
+Ferrazzini, D., I. Monteleone, P. Belletti 2007. Genetic variability and divergence among Italian populations of common ash (Fraxinus excelsior L.). Annals of Forest Science 64: 159-168. 
+
+Filippucci, M. G., E. Rodino', E. Nevo, E. Capanna 1988. Evolutionary genetics and systematics of the garden dormouse, Eliomys Wagner, 1840. 2-allozyme diversity and differentiation of chromosomal races. Bolletino di zoologia 55 (1): 47--54. 
+
+Filippucci, M.-G., G. Nascetti, E. Capanna, L. Bullini 1987. Allozyme variation and systematics of European moles of the genus Talpa (Mammalia, Insectivora). Journal of Mammalogy 68: 487-499. 
+
+Frati, F., G. Hartl, S. Lovari, M. Delibes, G. Markov 1998. Quaternary radiation and genetic structure of the red fox Vulpes vulpes in the Mediterranean Basin, as revealed by allozymes and mitochondrial DNA. Journal of Zoology 245: 43-51. 
+
+Gantenbein, B. 2004. The genetic population structure of Buthus occitanus (Scorpiones : Buthidae) across the Strait of Gibraltar: calibrating a molecular clock using nuclear allozyme variation. Biological Journal of the Linnean Society 81 (4): 519-534. 
+
+Gantenbein, B., V. Fet, A. V. Gromov 2003. The first DNA phylogeny of four species of Mesobuthus (Scorpiones, Buthidae) from Eurasia. The Journal of Arachnology 31: 412-420. 
+
+Gantenbein, B., C. R. Largiader 2002. Mesobuthus gibbosus (Scorpiones: Buthidae) on the island of Rhodes — hybridization between Ulysses’ stowaways and native scorpions?. Molecular Ecology 11: 925-938. 
+
+Gantenbein, B., M. E. Soleglad, V. Fet 2001. Euscorpius balearicus Caporiacco, 1950, stat. nov (Scorpiones : Euscorpiidae): molecular (allozymes and mtDNA) and morphological evidence for an endemic Balearic Islands species. Organisms Diversity & Evolution 1 (4): 301--320. 
+
+Garnatje, T., A. Susanna, R. Messeguer 1998. Isozyme studies in the genus Cheirolophus (Asteraceae : Cardueae-Centaureinae) in the Iberian Peninsula, North Africa and the Canary Islands. Plant Systematics And Evolution 213 (1-2): 57--70. 
+
+Garnier, S., A. P, P. Audiot, B. Prieur, J.-Y. Rasplus 2004. Isolation by distance and sharp discontinuities in gene frequencies: implications for the phylogeography of an alpine insect species, Carabus solieri. Molecular Ecology 13: 1883-1897. 
+
+George, C. 1984. Allozyme variation in natural populations of Lymantria dispar (Lepidoptera). Génétique Sélection Evolution 16: 1-14. 
+
+Godoy, J. A., J. J. Negro, F. Hiraldo, J. A. Donazar 2004. Phylogeography, genetic structure and diversity in the endangered bearded vulture (Gypaetus barbatus, L.) as revealed by mitochondrial DNA. Molecular Ecology 13 (2): 371-390. 
+
+Gomez, A., S. C. González-Martínez, C. Collada, J. Climent, L. Gil 2003. Complex population genetic structure in the endemic Canary Island pine revealed using chloroplast microsatellite markers. Theoretical and Applied Genetics 107: 1123-1131. 
+
+Gomez, A., G. G. Vendramin, S. C. González-Martínez, R. Alía 2005. Genetic diversity and differentiation of two Mediterranean pines (Pinus halepensis Mill. and Pinus pinaster Ait.) along a latitudinal cline using chloroplast microsatellite markers. Diversity and Distributions 11: 257-263. 
+
+Gomory, D., L. Paule, J. Vysny 2007. Patterns of allozyme variation in western Eurasian Fagus. Botanical Journal of the Linnean Society 154: 165-174. 
+
+Gonzalez-Martinez, Alia, R., L. Gil 2002. Population genetic structure in a Mediterranean pine (Pinus pinaster Ait.): a comparison of allozyme markers and quantitative traits. Heredity 89: 199-206. 
+
+Grant, O. M., T. McNeilly, L. D. Incoll 2006. Genetic diversity of Cistus albidus in south-east Spain does not relate to mesoclimate. Functional Plant Biology 33 (3): 247--255. 
+
+Grill, A., L. E. L. Raijmann, W. Van Ginkel, E. Gkioka, S. B. J. Menken 2007. Genetic differentiation and natural hybridization between the Sardinian endemic Maniola nurag and the European Maniola jurtina. Journal of Evolutionary Biology 20: 1255-1270. 
+
+Griswold, C. K., A. J. Baker 2002. Time to the most recent common ancestor and divergence times of populations of common Chaffinches (Fringilla coelebs) in Europe and north Africa: insights into pleistocene refugia and current levels of migration. Evolution 56: 143-153. 
+
+Grundmann, M., S. W. Ansell, S. J. Russell, A. M. Koch, J. C. Vogel 2007. Genetic structure of the widespread and common Mediterranean bryophyte Pleurochaete squarrosa (Brid.) Lindb. (Pottiaceae) - evidence from nuclear and plastidic DNA sequence variation and allozymes. Molecular Ecology 16: 709-722. 
+
+Grundmann, M., S. W. Ansell, S. J. Russell, A. M. Koch, J. C. Vogel 2007. Supplementary Material to: Genetic structure of the widespread and common Mediterranean bryophyte Pleurochaete squarrosa (Brid.) Lindb. (Pottiaceae) - evidence from nuclear and plastidic DNA sequence variation and allozymes. Molecular Ecology 16: 709-722. 
+
+Gwiazdowski, R. A., R. G. Van Driesche, A. Desnoyer, S. Lyon, S.-a. Wu, N. Kamata, B. B. Normark 2006. Possible geographic origin of beech scale, Cryptococcus fagisuga (Hemiptera: Eriococcidae), an invasive pest in North America. Biological Control 39: 9-18. 
+
+Habel, J. C., M. Meyer, A. E. Mousadik, T. Schmitt 2008. Africa goes Europe: The complete phylogeography of the marbled white butterfly species complex Melanargia galathea/M. lachesis (Lepidoptera: Satyridae). Organisms Diversity & Evolution 8 (2): 121-129. 
+
+Habel, J. C., T. Schmitt, P. Müller 2005. The fourth paradigm pattern of post-glacial range expansion of European terrestrial species: the phylogeography of the Marbled White butterfly (Satyrinae, Lepidoptera). Journal of Biogeography 32: 1489-1497. 
+
+Haddioui, A., M. Baaziz 2001. Genetic diversity of natural populations of Atriplex halimus L. in Morocco: An isoenzyme-based overview. Euphytica 121: 99-106. 
+
+Heuertz, M., S. Carnevale, S. Fineschi, F. Sebastiani, J. F. Hausman, L. Paule, G. G. Vendramin 2006. Chloroplast DNA phylogeography of European ashes, Fraxinus sp. (Oleaceae): roles of hybridization and life history traits. Molecular Ecology 15: 2131-2140. 
+
+Heuertz, M., J.-F. Hausman, I. Tsvetkov, N. Frascaria-Lacoste, X. Vekemans 2001. Assessment of genetic structure within and among Bulgarian populations of the common ash (Fraxinus excelsior L.). Molecular Ecology 10: 1615-1623. 
+
+Horn, A., G. Roux-Morabito, F. Lieutier, C. Kerdelhue 2006. Phylogeographic structure and past history of the circum-Mediterranean species Tomicus destruens Woll. (Coleoptera : Scolytinae). Molecular Ecology 15 (6): 1603-1615. 
+
+Hunt, H. V., S. W. Ansell, S. J. Russell, H. Schneider, J. C. Vogel 2009. Genetic diversity and phylogeography in two diploid ferns, Asplenium fontanum subsp. fontanum and A. petrarchae subsp. bivalens, in the western Mediterranean. Molecular Ecology 18 (23): 4940-4954. 
+
+Jimenez, P., D. Agundez, R. Alia, L. Gil 1999. Genetic variation in central and marginal populations of Quercus suber L. Silvae Genetica 48 (6): 278-284. 
+
+Kannenberg, N., K. Gross 1999. Allozymic variation in some Norway Spruce populations of the international IUFRO provenance-testing programme of 1964-1968. Silvae Genetica 48: 209-217. 
+
+Karakousis, Y., P. Kyriakopoulou-Sklavounou 1995. Genetic and morphological differentiation among populations of the green toad Bufo viridis from Northern Greece. Biochemical Systematics and Ecology 23 (1): 39 - 45. 
+
+Kerdelhue, C., G. Roux-Morabito, J. Forichon, J.-M. Chambon, A. Robert, F. Lieutier 2002. Population genetic structure of Tomicus piniperda L. (Curculionidae: Scolytinae) on different pine species and validation of T. destruens (Woll.). Molecular Ecology 11: 483-494. 
+
+Kerdelhue, C., G. Roux-Morabito, J. Forichon, J.-M. Chambon, A. Robert, F. Lieutier 2002. Supplementary Material to: Population genetic structure of Tomicus piniperda L. (Curculionidae: Scolytinae) on different pine species and validation of T. destruens (Woll.). Molecular Ecology 11: 483-494. 
+
+Ketmaier, V., M. Cobolli, E. De Matthaeis, M. Rampini 2000. Biochemical systematics and patterns of genetic divergence between the Troglophilus species of Crete and Rhodos (Orthoptera, Rhaphidophoridae). Belg. J. Zool 130-S1: 49-53. 
+
+Klein, M., A. Seitz 1994. Geographic differentiation between populations of Rhinocyllus conicus Frölich (Coleoptera: Curculionidae): concordance of allozyme and morphometric analysis. Zoological Journal of the Linnean Society 110 (2): 181-191. 
+
+Klossa-Kilia, E., G. Kilias, S. Sfenthourakis 2005. Increased genetic diversity in Greek populations of the genus Ligidium (Crustacea: Isopoda: Oniscidea) revealed by RFLP analysis of mtDNA segments. Contributions To Zoology 74: 255-264. 
+
+Koch, M. A., C. Kiefer, D. Ehrich, J. Vogel, C. Brochmann, K. Mummenhoff 2006. Three times out of Asia Minor: the phylogeography of Arabis alpina L. (Brassicaceae). Molecular Ecology 15 (3): 825-839. 
+
+Korol, L., N. Kara, K. Isik, G. Schiller 1997. Genetic differentiation among and within natural and planted Cupressus sempervirens L. eastern Mediterranean populations. Silvae Genetica 46 (2-3): 151-155. 
+
+Kourti, A. 2002. Estimates of heterozygosity and patterns of geographic differentiation in natural populations of the medfly (Ceratitis capitata). Hereditas 137 (3): 173--179. 
+
+Kropf, M., H. P. Comes, J. W. Kadereit 2006. Long-distance dispersal vs vicariance: the origin and genetic diversity of alpine plants in the Spanish Sierra Nevada. New Phytologist 172: 169-184. 
+
+Kucera, J., J. Lihova, K. Marhold 2006. Taxonomy and phylogeography of Cardamine impatiens and C. pectinata (Brassicaceae). Botanical Journal of the Linnean Society 152: 169-195. 
+
+Lazaro, A., I. Aguinagalde 1998. Genetic diversity in Brassica oleracea L. (Cruciferae) and wild relatives (2n = 18) using isozymes. Annals of Botany 82: 821-828. 
+
+Liukkonen-Anttila, T., L. Uimaniemi, M. Orell, J. Lumme 2002. Mitochondrial DNA variation and the phylogeography of the grey partridge (Perdix perdix) in Europe: from Pleistocene history to present day populations. Journal of Evolutionary Biology 15: 971-982. 
+
+Lopez-de-Heredia, U., P. Jimenez, P. Diaz-Fernandez, L. Gil 2005. The Balearic Islands: a reservoir of cpDNA genetic variation for evergreen oaks. Journal of Biogeography 32 (6): 939-949. 
+
+Lorenzini, R., S. Lovari 2006. Genetic diversity and phylogeography of the European roe deer: the refuge area theory revisited. Biological Journal of the Linnean Society 88 (1): 85-100. 
+
+Lozier, J. D., G. K. Roderick, N. J. Mills 2008. Evolutionarily significant units in natural enemies: Identifying regional populations of Aphidius transcaspicus (Hymenoptera: Braconidae) for use in biological control of mealy plum aphid. Biological Control 46 (3): 532--541. 
+
+Lumaret, R., C. Mir, H. Michaud, V. Raynal 2002. Phylogeographical variation of chloroplast DNA in holm oak (Quercus ilex L.). Molecular Ecology 11 (11): 2327-2336. 
+
+Lumaret, R., N. Ouazzani, H. Michaud, G. Vivier, M. F. Deguilloux, F. Di Giusto 2004. Allozyme variation of oleaster populations (wild olive tree) (Olea europaea L.) in the Mediterranean Basin. Heredity 92 (4): 343-351. 
+
+Lunt, D. H., K. M. Ibrahim, G. M. Hewitt 1998. mtDNA phylogeography and postglacial patterns of subdivision in the meadow grasshopper Chorthippus parallelus. Heredity 80: 633-641. 
+
+Mahy, G., X. Vekemans, A. Jacquemart, J. De Sloover 1997. Allozyme diversity and genetic structure in South-Western populations of heather, Calluna vulgaris. New Phytologist 137: 325-334. 
+
+Makrem, A., B. F. Najeh, K. M. Laarbi, B. Mohamed 2006. Genetic diversity in Tunisian Ceratonia siliqua L. (Caesalpinioideae) natural populations. Genetic Resources and Crop Evolution 53 (7): 1501-1511. 
+
+Maliouchenko, O., A. E. Palmé, A. Buonamici, G. G. Vendramin, M. Lascoux 2007. Comparative phylogeography and population structure of European Betula species, with particular focus on B. pendula and B. pubescens. Journal of Biogeography 34: 1601-1610. 
+
+Mantovani, B., V. Scali 1993. Genetic structure and phyletic relationships of eastern mediterranean Bacillus atticus Brunner (insecta phasmatodea): A biochemical study. Biochemical Genetics 31: 343-362. 
+
+Mantovani, B., V. Scali 1991. Allozymic characterization of Sardinian Bacillus rossius (Rossi) and B. atticus Brunner (Insecta Phasmatodea). Genetica 83 (3): 275--287. 
+
+Margaritopoulos, J. T., B. Gotosopoulos, Z. Mamuris, P. J. Skouras, K. C. Voudouris, N. Bacandritsos, A. A. Fantinou, J. A. Tsitsipis 2007. Genetic variation among Mediterranean populations of Sesamia nonagrioides (Lepidoptera: Noctuidae) as revealed by RFLP mtDNA analysis. Bulletin of Entomological Research 97: 299-308. 
+
+Marzouki, H., N. Nasri, B. Jouaud, C. Bonnet, A. Khaldi, S. Bouzid, B. Fady 2009. Population Genetic Structure of Laurus nobilis L. Inferred From Transferred Nuclear Microsatellites. Silvae Genetica 58: 270-276. 
+
+Maselli, S., Z. Diaz Lifante, I. Aguinagalde 1996. The mediterranean populations of Brassica insularis: A biodiversity study. Biochemical Systematics and Ecology 24 (2): 165--170. 
+
+Meloni, M., D. Perini, R. Filigheddu, G. Binelli 2006. Genetic variation in five mediterranean populations of Juniperus phoenicea as revealed by inter-simple sequence repeat (ISSR) markers. Annals of Botany 97: 299-304. 
+
+Mengoni, A., F. Selvi, N. Cusimano, F. Galardi, C. Gonnelli 2006. Genetic diversity inferred from AFLP fingerprinting in populations of Onosma echioides (Boraginaceae) from serpentine and calcareous soils. Plant Biosystems 140: 211-219. 
+
+Messaoud, C., M. L. Khoudja, M. Boussaid 2006. Genetic diversity and structure of wild Tunisian Myrtus communis L. (Myrtaceae) populations. Genetic Resources and Crop Evolution 53 (2): 407-417. 
+
+Milankov, V., G. Stahls, J. Stamenkovic, A. Vujic 2008. Genetic diversity of populations of Merodon aureus and M. cinereus species complexes (Diptera, Syrphidae): integrative taxonomy and implications for conservation priorities on the Balkan Peninsula. Conservation Genetics 9 (5): 1125-1137. 
+
+Milankov, V., J. Stamenkovic, J. Vujic, S. Simic 2002. Geographic variation of Cheilosia vernalis (Fallen, 1817) (Diptera : Syrphidae). Acta Zoologica Academiae Scientiarum Hungaricae 48 (4): 255--267. 
+
+Nascetti, G., R. Cimmaruta, B. Lanza, L. Bullini 1996. Molecular Taxonomy of European Plethodontid Salamanders (Genus Hydromantes). Journal of Herpetology 30 (2): 161-183. 
+
+Nasri, N abd Bojovic, S., G. G. Vendramin, B. Fady 2007. Population genetic structure of the relict Serbian spruce, Picea omorika , inferred from plastid DNA. Plant Systematics and Evolution EOP: EOP. 
+
+Navajas, M., A. Tsagkarakov, J. Lagnel, M.-J. Perrot-Minnot 2000. Genetic differentiation in Tetranychus urticae (Acari: Tetranychidae): polymorphism, host races or sibling species?. Experimental and Applied Acarology 24: 365-376. 
+
+Nevo, E., M.-G. Filippucci, A. Beiles 1994. Genetic polymorphisms in subterranean mammals (Spalax ehrenbergi superspecies) in the Near East revisited: patterns and theory. Heredity 72: 465-487. 
+
+Nevo, E., S. Y. Yang 1979. Genetic diversity and climatic determinants of tree frogs in Israel. Oecologia 41 (1): 47--63. 
+
+Nicholls, J. A., S. Preuss, A. Hayward, G. Melika, G. Csóka, J.-l. Nieves-aldrey, R. R. Askew, M. Tavakoli, K. Schönrogge, G. N. Stone 2010. Concordant phylogeography and cryptic speciation in two Western Palaearctic oak gall parasitoid species complexes. Molecular Ecology 9999 (9999). 
+
+Olalde, M., A. Herran, S. Espinel, P. G. Goicoechea 2002. White oaks phylogeography in the Iberian Peninsula. Forest Ecology and Management 156 (1-3): 89-102. 
+
+Orellana, M., C. Blanché, J. Simon, M. Bosch 2009. Genetic Diversity Within and among Disjunct Populations of the Mediterranean Island Endemic Delphinium pictum and D. requienii (Ranunculaceae). Folia Geobotanica 44 (1): 47-63. 
+
+Orellana, M., J. Lopez-Pujol, C. Blanché, A. Rovira, M. Bosch 2008. Genetic diversity in Delphinium staphisagria (Ranunculaceae), a rare Mediterranean dysploid larkspur with medicinal uses. Genetica 135: 221-232. 
+
+Orellana, M. R., J. Lopez-Pujol, C. Blanche, M. Bosch 2007. Genetic diversity in the endangered dysploid larkspur Delphinium bolosii and its close diploid relatives in the series Fissa of the Western Mediterranean area. Biological Journal of the Linnean Society 92 (4): 773-784. 
+
+Ortiz, M. A., K. Tremetsberger, S. Talavera, T. Stuessy, J.-L. Garcia-Castano 2007. Population structure of Hypochaeris salzmanniana DC. (Asteraceae), an endemic species to the Atlantic coast on both sides of the Strait of Gibraltar, in relation to Quaternary sea level changes. Molecular Ecology 16: 541-552. 
+
+Ortiz-Dorda, J., C. Martinez-Mora, E. Correal, B. Simon, J. L. Cenis 2005. Genetic Structure of Atriplex halimus Populations in the Mediterranean Basin. Annals of Botany 95: 827-834. 
+
+Oukil, S., R. Bues, J.-F. Toubon, S. Quilici 2002. Allozyme polymorphism in populations of Ceratitis capitata from Algeria, the northwestern Mediterranean coast and Reunion Island. Fruits 57: 183-191. 
+
+Palmé, A. E., V. Semerokov, M. Lascoux 2003. Absence of geographical structure of chloroplast DNA variation in sallow, Salix caprea L.. Heredity 91: 465-474. 
+
+Palmé, A. E., Q. Su, A. Rautenberg, F. Manni, M. Lascoux 2003. Postglacial recolonization and cpDNA variation of silver birch, Betula pendula. Molecular Ecology 12: 201-212. 
+
+Papageorgiou, A. C., R. Finkeldey, H. H. Hattemer, S. Xenopoulos 2005. Genetic differences between autochthonous and breeding populations of common cypress (Cupressus sempervirens L.) in Greece. European Journal of Forest Research 124 (2): 119-124. 
+
+Papageorgiou, A. C., A. Vidalis, O. Gailing, I. Tsiripidis, S. Hatziskakis, S. Boutsios, S. Galatsidas, R. Finkeldey 2008. Genetic variation of beech (Fagus sylvatica L.) in Rodopi (N.E. Greece). European Journal of Forest Research 127: 81-88. 
+
+Parducci, L., A. E. Szmidt, A. Madaghiele, M. Anzidei, G. G. Vendramin 2001. Genetic variation at chloroplast microsatellites (cpSSRs) in Abies nebrodensis (Lojac.) Mattei and three neighboring Abies species. Theoretical And Applied Genetics 102 (5): 733--740. 
+
+Pauls, S. U., H. T. Lumbsh, P. Haase 2006. Phylogeography of the montane caddisfly Drusus discolor: evidence for multiple refugia and periglacial survival. Molecular Ecology 15: 2153-2169. 
+
+Pellegrino, G., A. M. Palermo, M. E. Noce, F. Belliusci, A. Musacchio 2007. Genetic population structure in the Mediterranean Serapias vomeracea, a nonrewarding orchid group. Interplay of pollination strategy and stochastic forces?. Plant Systematics and Evolution 263: 145-157. 
+
+Perez-Collazos, E., P. Catalan 2006. Palaeopolyploidy, spatial structure and conservation genetics of the narrow steppe plant Vella pseudocytisus subsp paui (Vellinae, cruciferae). Annals of Botany 97 (4): 635-647. 
+
+Petit, R. J., U. Csaikl, S. Bordacs, K. Burg, E. Coart, J. Cottrell, B. van Dam, J. Deans, S. Dumolin-Lapegue, S. Fineschi, R. Finkeldey, A. Gillies, I. Glaz, P. G. Goicoechea, J. S. Jensen, A. O. König, A. J. Lowe, S. F. Madsen, G. Matyas, R. C. Munro, H. Tabbener, D. Taurchini, S. G. M. de Vries, B. Ziegenhagen, A. Kremer 2002. Chloroplast DNA variation in European white oaks Phylogeography and patterns of diversity based on data from over 2600 populations. Forest Ecology and Management 156: 5-26. 
+
+Pigliucci, M., S. Benedettelli, F. Villani 1990. Spatial patterns of genetic-variability in italian chestnut (Castanea sativa). Canadian Journal of Botany-Revue Canadienne De Botanique 68 (9): 1962-1967. 
+
+Pinceel, J., K. Jordaens, M. Pfenninger, t. Backeljau 2005. Rangewide phylogeography of a terrestrial slug in Europe: evidence for Alpine refugia and rapid colonization after the Pleistocene glaciations. Molecular Ecology 14: 1133-1150. 
+
+Pineiro, R., J. Fuertes Aguilar, D. Drappermunt, G. Nieto Feliner 2007. Ecology matters: Atlantic-Mediterranean disjunction in the sand-dune shrub Armeria pungens (Plumbaginaceae). Molecular Ecology 16: 2155-2171. 
+
+Pinho, C., D. J. Harris, N. Ferrand 2007. Contrasting patterns of population subdivision and historical demography in three western Mediterranean lizard species inferred from mitochondrial DNA variation. Molecular Ecology 16: 1191-1205. 
+
+Pinho, C., D. J. Harris, N. Ferrand 2003. Genetic Polymorphism of 11 Allozyme Loci in Populations of Wall Lizards (Podarcis sp.) From the Iberian Peninsula and North Africa. Biochemical Genetics 41: 343-359. 
+
+Prus-Glowacki, W., B. R. Stephan, E. Bujas, R. Alia, A. Marciniak 2003. Genetic differentiation of autochthonous populations of Pinus sylvestris (Pinaceae) from the Iberian peninsula. Plant Systematics and Evolution 239: 55-66. 
+
+Queney, G., N. Ferrand, S. Weiss, F. Mougel, M. Monnerot 2001. Stationary distributions of microsatellite loci between divergent population groups of the European rabbit (Oryctolagus cuniculus). Molecular Biology and Evolution 18 (12): 2169-2178. 
+
+Quintanilla, L. G., S. Pajaron, E. Pangua, J. Amigo 2007. Allozyme variation in the sympatric ferns Culcita macrocarpa and Woodwardia radicans at the northern extreme of their ranges. Plant Systematics and Evolution 263: 135-144. 
+
+Raddi, S., S. Sumer 1999. Genetic diversity in natural Cupressus sempervirens L. populations in Turkey. Biochemical Systematics and Ecology 27 (8): 799-814. 
+
+Rasplus, J. Y., E. Carcreff, J. M. Cornuet, A. Roques 2000. Genetic structure of the cypress seed chalcid Megastigmus wachtli (Torymidae) within its Mediterranean distribution.. Paper presented at the meeting of the Hymenoptera: evolution, biodiversity and biological control, Collingwood, Australia.
+
+Renau-Morata, B., S. G. Nebauer, E. Sales, J. Allainguillaume, P. Caligari, J. Segura 2005. Genetic diversity and structure of natural and managed populations of Cedrus atlantica (Pinaceae) assessed using random amplified polymorphic DNA. American Journal of Botany 92 (5): 875-884. 
+
+Ribeiro, M. M., S. Mariette, G. G. Vendramin, A. E. Szmidt, C. Plomion, A. Kremer 2002. Comparison of genetic diversity estimates within and among populations of maritime pine using chloroplast simple-sequence repeat and amplified fragment length polymorphism data. Molecular Ecology 11: 869-877. 
+
+Ribeiro, M. M., C. Plomion, R. Petit, G. G. Vendramin, A. E. Szmidt 2001. Variation in chloroplast single-sequence repeats in Portuguese maritime pine (Pinus pinaster Ait.). Theoretical and Applied Genetics 102: 97-103. 
+
+Ribera, I., D. T. Bilton, A. P. Vogler 2003. Mitochondrial DNA phylogeography and population history of Meladema diving beetles on the Atlantic Islands and in the Mediterranean basin (Coleoptera, Dytiscidae). Molecular Ecology 12 (1): 153-167. 
+
+Robledo-Arnuncio, J. J., C. Collada, R. Alía, L. Gil 2005. Genetic structure of montane isolates of Pinus sylvestris L. in a Mediterranean refugial area. Journal of Biogeography 32: 595-605. 
+
+Rokas, A., R. J. Atkinson, L. Webster, G. Csoka, G. N. Stone 2003. Out of Anatolia: longitudinal gradients in genetic diversity support an eastern origin for a circum-Mediterranean oak gallwasp Andricus quercustozae. Molecular Ecology 12 (8): 2153-2174. 
+
+Ronfort, J., T. Bataillon, S. Santoni, M. Delalande, J. L. David, J.-M. Prosperi 2006. Microsatellite diversity and broad scale geographic structure in a model legume: building a set of nested core collection for studying naturally occurring variation in Medicago truncatula. BMC Plant Biology 6: 1-13. 
+
+Rossiter, S. J., P. Benda, C. Dietz, S. Zhang, G. Jones 2007. Rangewide phylogeography in the greater horseshoe bat inferred from microsatellites: implications for population history, taxonomy and conservation. Molecular Ecology 16: 4699-4714. 
+
+Rottenberg, A., E. Nevo, D. Zohary 2000. Genetic variability in sexually dimorphic and monomorphic populations of Populus euphratica (Salicaceae). Canadian Journal of Forest Research 30 (3): 482-486. 
+
+Roux, G., A. Roques 1996. Biochemical genetic differentiation among seed chalcid species of genus Megastigmus (Hymenoptera: Torymidae). Experientia 52 (6): 522-530. 
+
+Ruedi, M., S. Walter, M. C. Fischer, D. Scaravelli, L. Excoffier, G. Heckel 2008. Italy as a major Ice Age refuge area for the bat Myotis myotis (Chiroptera: Vespertilionidae) in Europe. Molecular Ecology 17: 1801-1814. 
+
+Salvador, L., R. Alia, D. Agundez, L. Gil 2000. Genetic variation and migration pathways of maritime pine (Pinus pinaster Ait) in the Iberian peninsula. Theoretical and Applied Genetics 100: 89-95. 
+
+Salvato, P., A. Battisti, S. Concato, L. Masutti, T. Patarnello, L. Zane 2002. Genetic differentiation in the winter pine processionary moth (Thaumetopoea pityocampa-wilkinsoni complex), inferred by AFLP and mitochondrial DNA markers. Molecular Ecology 11 (11): 2435-2444. 
+
+Sanchez, J. L., G. Domina, J. Caujapé-Castells 2005. Genetic differentiation of three species of Matthiola (Brassicaceae) in the Sicilian insular system. Plant Systematics and Evolution 253: 81-93. 
+
+Scaltsoyiannes, A. 1999. Allozyme differentiation and phylogeny of cedar species. Silvae Genetica 48 (2): 61-68. 
+
+Scaltsoyiannes, a., K. P. Panestos, D. Zaragotas 1990. Genetic variation of greek fir as determined by isozyme analysis and its relation to other mediterranean firs. Paper presented at the meeting of the Proceedings of the third E. E. C. meeting - Sapins méditerranéens adaptation, sélection et sylviculture, Avignon.
+
+Schmitt, R., G. A, A. Seitz 2002. Postglacial colonisation of western Central Europe by Polyommatus coridon (Poda 1761) (Lepidoptera: Lycaenidae): evidence from population genetics. Heredity 88: 26-34. 
+
+Schmitt, T., A. Giessl, A. Seitz 2003. Did Polyommatus icarus (Lepidoptera : Lycaenidae) have distinct glacial refugia in southern Europe? Evidence from population genetics. Biological Journal of the Linnean Society 80 (3): 529-538. 
+
+Schmitt, T., J. C. Habel, M. Zimmermann, P. Müller 2006. Genetic differentiation of the marbled white butterfly, Melanargia galathea, accounts for glacial distribution patterns and postglacial range expansion in southeastern Europe. Molecular Ecology 15: 1889-1901. 
+
+Schmitt, T., S. Rober, A. Seitz 2005. Is the last glaciation the only relevant event for the present genetic population structure of the meadow brown butterfly Maniola jurtina (Lepidoptera : Nymphalidae)?. Biological Journal of the Linnean Society 85 (4): 419-431. 
+
+Seabra, S. G., J. A. Quartau, M. W. Bruford 2009. Spatio-temporal genetic variation in sympatric and allopatric Mediterranean Cicada species (Hemiptera, Cicadidae). Biological Journal of the Linnean Society 96 (2): 249-265. 
+
+Seeman, M. T., R. S. Dodd 2008. Genetic variability and structure of the remnant natural populations of Cedrus libani (Pinaceae) of Lebanon. Tree Genetics & Genomes 4: 757-766. 
+
+Segarra-Moragues, J. G., M. Palop-Esteban, P. Gonzalez-Candelas, Fand Catalan 2007. Nunatak survival vs. tabula rasa in the Central Pyrenees: a study on the endemic plant species Borderea pyrenaica (Dioscoreaceae). Journal of Biogeography EOP: EOP. 
+
+Simonato, M., Z. Mendel, C. Kerdelhué, J. Rousselet, E. Magnoux, P. Salvato, A. Roques, A. Battisti, L. Zanz 2007. Phylogeography of the pine processionary moth Thaumetopoea wilkinsoni in the Near East. Molecular Ecology 16: 2273-2283. 
+
+Soranzo, N., R. Alia, J. Provan, W. Powell 2000. Patterns of variation at a mitochondrial sequence-tagged site locus provides new insights into the postglacial history of European Pinus sylvestris populations. Molecular Ecology 9: 1205-1211. 
+
+Spagnuolo, V., L. Muscariello, S. Cozzolino, R. Castaldo Cobianchi, S. Giordano 2007. Ubiquitous genetic diversity in ISSR markers between and within populations of the asexually producing moss Pleurochaete squarrosa. Plant Ecology 188: 91-101. 
+
+Spagnuolo, V., S. Terracciano, S. Giordano 2009. Clonal diversity and geographic structure in Pleurochaete squarrosa (Pottiaceae): different sampling scale approach. Journal of Plant Research 122 (2): 161-170. 
+
+Stamatis, C., F. Suchentrunk, K. A. Moutou, M. Giacometti, G. Haerer, M. Djan, L. Vapa, M. Vukovic, N. Tvrtkovi0107, H. Sert, P. C. Alves, Z. Mamuris 2008. Phylogeography of the brown hare (Lepus europaeus) in Europe: a legacy of south-eastern Mediterranean refugia?. Journal of Biogeography 9999 (9999): 1279--1288. 
+
+Stone, G. N., R. J. Atkinson, A. Rokas, G. Csoka, J. Nieves-Aldrey 2001. Supplementary material to: Differential success in northwards range expansion between ecotypes of the marble gallwasp Andricus kollari: a tale of two lifecycles. Molecular Ecology 10: 761-778. 
+
+Stone, G. N., R. J. Atkinson, A. Rokas, G. Csoka, J.-L. Nieves-Aldrey 2001. Differential success in northwards range expansion between ecotypes of the marble gallwasp Andricus kollari: a tale of two lifecycles. Molecular Ecology 10: 761-778. 
+
+Suchentrunk, F., Z. Mamuris, A. I. Sfougaris, C. Stamatis 2003. Biochemical Genetic Variability in Brown Hares (Lepus europaeus) from Greece. Biochemical Genetics 41 (5): 127-140. 
+
+Teisseire, H., B. Fady, C. Pichot 1995. Allozyme variation in five French populations of Aleppo pine (Pinus halepensis Miller). Forest Genetics 2 (4): 227-236. 
+
+Terrab, A., O. Paun, S. Talavera, K. Tremetsberger, M. Arista, T. F. Stuessy 2006. Genetic diversity and population structure in natural populations of Moroccan atlas cedar (Cedrus atlantica; Pinaceae) determined with cpSSR markers. American Journal of Botany 93 (9): 1274-1280. 
+
+Terrab, A., P. Schönswetter, S. Talavera, E. Vela, T. F. Stuessy 2008. Rangewide phylogeography of Juniperus thurifera L., a presumptive keystone species of Western Mediterraean vegetation during cold stages of the Pleistocene. Molecular Phylogenetics and Evolution EOP: EOP. 
+
+Terrab, A., S. Talavera, M. Arista, O. Paun, T. F. Stuessy, K. Tremetsberger 2007. Genetic diversity at chloroplast microsatellites (cpSSRs) and geographic structure in endangered West Mediterranean firs (Abies spp., Pinaceae). Taxon 56: 409-416. 
+
+Tolun, A. A., E. Velioglu, B. CEngel, Z. Kaya 2000. Genetic Structure of Black Pine (Pinus nigra ARNOLD subspecies pallasiana) Populations Sampled from the Bolkar Mountains. Silvae Genetica 49: 113-119. 
+
+Toumi, L., R. Lumaret 2001. Allozyme characterisation of four Mediterranean evergreen oak species. Biochemical Systematics and Ecology 29 (8): 799-817. 
+
+Toumi, L., R. Lumaret 1998. Allozyme variation in cork oak (Quercus suber L.): the role of phylogeography and genetic introgression by other Mediterranean oak species and human activities. Theoretical and Applied Genetics 97 (4): 647-656. 
+
+Tyler, T. 2004. Studies in the Melica ciliata-complex: 1. Distribution of allozyme variation within and among individuals, populations and geographic regions. Plant Systematics and Evolution 248 (1-4): 1-30. 
+
+Vasconcelos, T., A. Horn, F. Lieutier, M. Branco, C. Kerdelhue 2006. Distribution and population genetic structure of the Mediterranean pine shoot beetle Tomicus destruens in the Iberian Peninsula and Southern France. Agricultural and Forest Entomology 8 (2): 103-111. 
+
+Velo-Anton, G., M. Garcia-Paris, A. Cordero Rivera 2008. Patterns of nuclear and mitochondrial DNA variation in Iberian populations of Emys orbicularis (Emydidae): conservation implications. Conservation Genetics 9 (5): 1263-1274. 
+
+Vendramin, G. G., M. Anzidel, A. Madaghiele, G. Bucci 1998. Distribution of genetic diversity in Pinus pinaster Ait. as revealed by chloroplast microsatellites. Theoretical and Applied Genetics 97: 456-463. 
+
+Vendramin, G. G., B. Degen, R. J. Petit, M. Anzidei, A. Madaghiele, B. Ziegenhagen 1999. High level of variation at Abies alba chloroplast microsatellite loci in Europe. Molecular Ecology 8: 11171126. 
+
+Vendramin, G. G., B. Fady, S. C. Gonzalez-Martinez, F. S. Hu, I. Scotti, F. Sebastiani, A. Soto, R. J. Petit, J. Kohn 2008. Genetically Depauperate But Widespread: The Case Of An Emblematic Mediterranean Pine. Evolution 62 (3): 680-688. 
+
+Vila, M., J. R. Vidal-Romani, M. Bjorklund 2005. The importance of time scale and multiple refugia: Incipient speciation and admixture of lineages in the butterfly Erebia triaria (Nymphalidae). Molecular Phylogenetics and Evolution 36: 249-260. 
+
+Villani, Sansotta, Cherubini, Cesaroni, Sbordoni 1999. Genetic structure of natural populations of Castanea sativa in Turkey: evidence of a hybrid zone. Journal of Evolutionary Biology 12 (2): 233-244. 
+
+Villani, F., M. Pigliucci, M. Cherubini 1994. Evolution of Castanea-sativa mill in turkey and europe. Genetical Research 63 (2): 109-116. 
+
+Vitalis, R., M. Riba, B. Colas, P. Grillas, I. Olivieri 2002. Multilocus genetic structure at contrasted spatial scales of the endangered water fern Marsilea strigosa Willd. (Marsileaceae, Pteridophyta). American Journal of Botany 89: 1142-1155. 
+
+Volis, S., S. Mendlinger, Y. Turuspekov, U. Esnazarov 2002. Phenotypic and allozyme variation in Mediterranean and desert populations of wild barley, Hordeum spontaneum Koch. Evolution 56 (7): 1403--1415. 
+
+Volis, S., S. Mendlinger, Y. Turuspekov, U. Esnazarov, S. Abugalieva, N. Orlovsky 2001. Allozyme variation in Turkmenian populations of wild barley, Hordeum spontaneum Koch.. Annals of Botany 87 (4): 435--446. 
+
+Wahid, N., S. C. Gonzalez-Martinez, I. El Hadrami, A. Boulli 2004. Genetic structure and variability of natural populations of maritime pine (Pinus pinaster Aiton) in Morocco. Silvae Genetica 53 (3): 93--99. 
+
+Westberg, E., J. W. Kadereit 2008. The influence of sea currents, past disruption of gene flow and species biology on the phylogeographical structure of coastal flowering plants. Journal of Biogeography 36: 1398-1410. 
+
+Yacine, A., R. Lumaret 1989. Genetic Diversity In Holm-Oak (Quercus Ilex L) - Insight From Several Enzyme Markers. Silvae Genetica 38 (3-4): 140-148. 
+
+Zangari, F., R. Cimmaruta, G. Nascetti 2006. Genetic relationships of the western Mediterranean painted frogs based on allozymes and mitochondrial markers: evolutionary and taxonomic inferences (Amphibia, Anura, Discoglossidae). Biological Journal of the Linnean Society 87: 515-538. 

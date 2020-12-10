@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	One of two sites where herbivorous fish were counted 	character				
+Herbivore	Classification of herbivore visualized. There were four levels	character				
+Count	Number of fish counted	numeric	number			

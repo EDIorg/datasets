@@ -1,0 +1,7 @@
+attributeName	code	definition
+Invasion	L	low
+Invasion	N	none
+Invasion	M	medium
+Invasion	H	high
+Invasion	M-H	medium to high
+Invasion	N-L	none to low

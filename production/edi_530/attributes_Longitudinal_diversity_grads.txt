@@ -1,0 +1,18 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Code	A unique code for each population included in the study	character				
+Reference	First author and year of publication of the study from which the data was taken	character				
+Effect_size_partial_r	"The effect size, that is, the partial correlation coefficient of the relationship between diversity and longitude (latitude being held constant)"	numeric	dimensionless			
+N	Sample size of the study	numeric	number			
+Species	Name of the species to which the population belonged	character				
+Class	The taxonomic class which the species belongs to	character				
+Family	The taxonomic family which the species belongs to	character				
+Phylum	The taxonomic phylum which the species belongs to	character				
+Kingdom	The taxonomic kingdom which the species belongs to	character				
+Thermal_belt	"The altitudinal belt in which the species is found, as classified by Quézel and Médail 2003. (for plant species only)"	categorical				
+Raunkiaers_lifeform	"The lifeform of the species, according to the Raunkiaer’s lifeform classification system (for plant species only)"	categorical				
+Reproduction	The mode of pollination of the species (for plant species only)	categorical				
+Dissemination	The mode of seed dispersal of the species (for plant species only)	categorical				
+Diversity_metric	The metric used to quantity genetic diversity in the given population	categorical				
+Marker_type	The type of genomic marker used to quantify genetic diversity	categorical				
+Genome_part_sampled	Part of the genome that was sampled	character				
+Equitability_type	"Whether the study measured richness (total amount of diversity, e.g., allelic richness, haplotypic richness etc.) or equitability (the way diversity is distributed among samples, e.g., heterozygosity, Shannon's index, percentage of polymorphic loci)"	character				

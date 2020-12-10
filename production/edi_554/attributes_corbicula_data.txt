@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+date	Date of sampling	Date		YYYY-MM-DD		
+station	Name of the station where sampling occurred	categorical				
+corbicula	Count of individual live clams	numeric	number		NA	 not available
+area	Area of sampling	numeric	squareMeter		NA	 not available
+dens	clam density	numeric	numberPerMeterSquared		NA	 not available

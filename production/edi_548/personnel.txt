@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Shijia		Peng	"State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-Sen University, Guangzhou, 510275, China"	pengshijia1010@163.com		creator			
+Nicole	L.	Kinlock	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA"	nicole.kinlock@stonybrook.edu	0000-0002-2917-5133	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Shaolin		Peng	"State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-Sen University, Guangzhou, 510275, China"	lsspsl@mail.sysu.edu		creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+Shaolin		Peng				PI	Study on the Resistance Mechanism of Different Plant Functional Groups to Alien Plant Invasion	National Natural Science Foundation of China (NSFC)	31030015

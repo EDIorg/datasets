@@ -1,0 +1,9 @@
+attributeName	code	definition
+thermoregulation	ecto	ectothermal organism
+thermoregulation	homeo	homeothermal organism
+thermoregulation	multiple	multiple strategies
+hemisphere	both	both hemispheres
+hemisphere	S	Southern hemisphere
+hemisphere	N	Northern hemisphere
+measure_of_richness	S	species richness
+measure_of_richness	index	other

@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Case_ID	Case identifier	character				
+Initialization_time_days	Initial time to days	character				
+Perturbation_type	perturbation type	character				
+Month	month	character				
+Filename	"file name, format case number_T-days initialized prior_perturbation degree_datetime string"	character				
+Format	file format	character				
+Datetime	date time	Date		YYYY-MM-DD hh:mm:ss		
+Interval_hours	interval number of hours	numeric	number			
+Checksum	checksum of file	character				

@@ -1,0 +1,11 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Elizabeth	A.	Leger	"Department of Biology, University of Nevada, Reno, NV, USA"	lelizabeth@unr.edu		creator			
+Katherine	M.	Howe	The Nature Conservancy	khowe@tnc.org		creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Eliza		Woo	"City College of San Francisco, San Francisco, CA, USA"	eliza.woo@mail.ccsf.edu		creator			
+Jonathan	Edward	Hickman	"NASA Goddard Institute for Space Studies, New York City, NY, USA"	jonathan.e.hickman@nasa.gov	0000-0002-7246-642X	creator			
+Isabel	W.	Ashton	"National Park Service – Inventory and Monitoring Division, Rapid City, SD, USA"	iashton@uci.edu		creator			
+Manuel		Lerdau	"Department of Biology, University of Virginia, Charlottesville, VA, USA"	mlerdau@virginia.edu	0000-0003-1864-0834	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+Jessica		Gurevitch			0000-0002-7246-642X	PI	An experimental study of biological invasions in forests of the eastern United States	"Environmental Protection Agency (EPA), USA"	R828900010
+Manuel		Lerdau			0000-0003-1864-0834	PI	An experimental study of biological invasions in forests of the eastern United States	"Environmental Protection Agency (EPA), USA"	R828900011

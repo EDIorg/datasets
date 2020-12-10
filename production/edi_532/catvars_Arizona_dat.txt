@@ -1,0 +1,10 @@
+attributeName	code	definition
+Position	1	"driest location (that is, on the ridge crests)"
+Position	2	middle of the gradient
+Position	3	"wettest location (that, in the low lying areas)"
+SPP	1	Stipa
+SPP	2	Aristida 
+Treatment	101	no grasses removed (control)
+Treatment	102	Aristida and other C4 grasses removed (only applied in Position 2)
+Treatment	201	Stipa removed (only applied in Position 2)
+Treatment	202	Both C3 (Stipa) and C4 grasses removed 

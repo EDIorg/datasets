@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Janet	A.	Morrison	"Department of Biology, The College of New Jersey, Ewin, NJ, USA"	morrisja@tcnj.edu		creator			
+Larry	Vernon	Hedges	"1) University of Chicago, Chicago, IL, USA"	l-hedges@northwestern.edu	0000-0002-7531-0631	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+Jessica		Gurevitch	0000-0003-0157-4332			PI	"Demography and Population Dynamics in a Fire-adapted Tree Species, Pinus Rigida"	"Division of Environmental Biology, National Science Foundation (NSF), USA"	9806923
+Daniel		Dykhuizen				PI	Ecological Meta-Analysis: Synthesizing the Results of Field Experiments on Competition and Predation	"Division of Environmental Biology, National Science Foundation (NSF), USA"	9113065

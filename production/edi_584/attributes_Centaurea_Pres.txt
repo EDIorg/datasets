@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+id	A unique ID for every site where C. stoebe was found or reported	character				
+source	"Source of the data (that is, who reported the presence of C. stoebe at the given site) Acronyms used: GBIF - Global Biodiversity Information Facility, IPANE - the Invasive Plant Atlas of New England, SBU – data was collected by the authors, Morris Arboretum - Morris Arboretum (The acronyms ‘GBIF’ and ‘IPANE’ are usually followed by name of person/organization that collected the data)"	character				
+Lat	Latitude of the site	numeric	degree		NA	not available
+Lon	Longitude of the site	numeric	degree		NA	not available
+STATE_NAME	Name of the state in which the given site lies	character				
+SUB_REGION	Sub region of the United States of America in which the given site lies	character				
+STATE_ABBR	Standard two letter abbreviation used for the state in which the site lies	character				
+COUNTY_NAME	Name of the county in which the site lies	character				

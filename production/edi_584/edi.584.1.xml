@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.584.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>The influence of environmental factors on the distribution and density of invasive Centaurea stoebe across Northeastern USA, 2013 - 2018</title>
+    <creator>
+      <individualName>
+        <givenName>Morodoluwa</givenName>
+        <surName>Akin-Fajiye</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>morodoluwa.akin-fajiye@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-8078-3970</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Emily</givenName>
+        <surName>Rollinson</surName>
+      </individualName>
+      <organizationName>1) Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>erollinson@esu.edu</electronicMailAddress>
+      <role>Field Work, Locating Field Sites</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>David</givenName>
+        <givenName>Edward</givenName>
+        <surName>Lowry</surName>
+      </individualName>
+      <organizationName>1) Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>delowry@hsc.edu</electronicMailAddress>
+      <role>Field Work, Locating Field Sites</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Genoveva</givenName>
+        <surName>Rodriguez-Castañeda</surName>
+      </individualName>
+      <organizationName>Department of Integrative Biology, University of Texas at Austin, Austin, TX, USA</organizationName>
+      <electronicMailAddress>genioveva@gmail.com</electronicMailAddress>
+      <role>Field Work, Locating Field Sites</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Waring</surName>
+      </individualName>
+      <organizationName>1) Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <role>Field Work, Locating Field Sites, Data Analysis</role>
+    </associatedParty>
+    <pubDate>2020-07-31</pubDate>
+    <abstract>
+      <para>Centaurea stoebe (Asteraceae; spotted knapweed) is an emerging invader in northeast US, and is a major invasive plant in the northern Midwest and western USA. Although it has been present in New York State (NYS) for over 100 years, its apparent recent population increases and spread provide a rare opportunity to study a plant in the early stages of invasion. Therefore, a study was carried out understand how distinct environmental factors influence the distribution, density and change in density C. stoebe at different spatial scales within its novel range in the northeastern USA. First, we collected field data on the occurrence, density and change in density of this species in North Eastern United States, from 2013 to 2014. Then, using species distribution models, we assessed the potential influence of environmental factors on the invasion of spotted knapweed in northeast US. Within different parts of C. stoebe‘s range, different factors explained its occurrence, density and change in density over 2 years. Across northeast US, climate and soil factors were the most influential predictors explaining C. stoebe‘s distribution, while within Long Island in southeastern NYS and the Adirondack Mountains in northern NYS, precipitation and disturbance respectively were the most important. These results are published in the paper titled The influence of environmental factors on the distribution and density of invasive Centaurea stoebe across Northeastern USA (Akin-Fajiye and Gurevitch, 2018).</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Invasive species</keyword>
+      <keyword>Spotted knapweed</keyword>
+      <keyword>Centaurea stoebe</keyword>
+      <keyword>Northeast United States</keyword>
+      <keyword>New York</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>distribution</keyword>
+      <keyword>field methods</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Northeastern parts of United States of America, including the states of Pennsylvania, New York, New Jersey, Vermont, Maine, Connecticut, Massachusetts, New Hampshire, and Rhode Island</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-80.6077</westBoundingCoordinate>
+          <eastBoundingCoordinate>-67.9247</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.0124</northBoundingCoordinate>
+          <southBoundingCoordinate>39.5818</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2013</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Asterales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Asteraceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Centaurea</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Centaurea stoebe</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>C. stoebe data collection</para>
+          <para>We obtained C. stoebe presence data for northeastern USA (Pennsylvania, New York, New Jersey, Vermont, Maine, Connecticut, Massachusetts, New Hampshire and Rhode Island), from the Invasive Plant Atlas of New England (IPANE), Global Biodiversity Information Facility (GBIF), Morris Arboretum, and our own surveys (SBU) conducted on Long Island (Suffolk and Nassau counties) and in the Adirondacks (parts of Clinton, Essex, Fulton, Hamilton, St. Lawrence, Saratoga, Warren, Washington, Franklin, Lewis, Herkimer, and Franklin counties of New York state). We examined and corrected the downloaded data for errors such as missing negative signs in the longitude coordinate, or switched latitude and longitude coordinates. We removed all the data points with no coordinates for either longitude or latitude, and removed all the duplicates.</para>
+          <para>In summer 2013 and 2014, we located sites with C. stoebe on Long Island and in the Adirondacks by selecting 10 areas that were centered on populations of spotted knapweed identified from pilot studies. Within each area, we created a list of feasible roads to be examined within a 10 mile radius centered on known location of populations, and selected sites for sampling using the following criteria: we used sites if it appeared from Google Earth imagery that the road had open canopies (i.e., non-forested) edges to provide habitat for C. stoebe, and if it was safe to stop along the road. Along each road, we established transects at exactly every mile, until we either located five C. stoebe populations or until we had sampled 25 locations (noting absences after careful examination) without locating at least five populations. If we encountered absences, we noted the latitudinal and longitudinal coordinates, and recorded that spot. When C. stoebe was determined to be present, we recorded the coordinates, and sampled the site using either an intensive or extensive protocol (described below) depending on the site population. In all, we identified 135 sites on Long Island and 106 in the Adirondacks.</para>
+          <para>Environmental predictors</para>
+          <para>We selected environmental variables (Methods table 1) based on findings of previous distribution models of C. stoebe (Broennimann et al. 2007, 2014). We used a total of 6 environmental variables at a resolution of 4000 m for the large scale/coarser grain model and 1000 m for the small scale/finer grain models (see methods table 1 for resolutions). We used the 30-year average of both average precipitation and minimum temperature during the growing season (April–September) from PRISM (PRISM Climate Group) to account for the effect of seasonality. For the change in density models, we used the mean growing season minimum temperature and mean growing season precipitation between the years 2013 and 2014. We obtained data on soil pH and percent sandiness from both Soil Survey Geographic Database (SSURGO), and States Soil Geographic database (STATSGO). We used STATSGO for the Northeast models and SSURGO for the Long Island and Adirondack models. We obtained data on the tree cover from the Global Forest Change database of the University of Maryland (Hansen et al. 2013). Finally, we used the National Land Cover Database (NLCD) developed by the Multi Resolution Land Characteristics (MRLC) to capture the land cover of these areas modelled. The NLCD classifies land cover into 8 broad categories: water, developed, barren, forest, shrub land, herbaceous, planted/cultivated and wetlands (Jin et al. 2013), each of which is further divided into various sub-categories. For this study, we classified high intensity developed areas as defined by NLCD as highly disturbed, while medium intensity developed and low intensity developed areas were less disturbed. </para>
+          <para>Methods table 1: Environmental variables used as predictors for species distribution modelling (LI – Long Island, ADK – Adirondacks)</para>
+          <para>Environmental variables, Data source, Resolution, Scale</para>
+          <para>Soil percent sand, STATSGO, 4 km, Northeast USA</para>
+          <para>Soil pH, STATSGO, 4 km, Northeast USA</para>
+          <para>Soil percent sand, SSURGO, 1 km, LI, ADK</para>
+          <para>Soil pH, SSURGO, 1 km, LI, ADK</para>
+          <para>30 year mean precipitation during the growing season, PRISM climate group, 4 km, 1 km, Northeast USA, LI, ADK</para>
+          <para>30 year mean minimum temperature during the growing season, PRISM climate group, 4 km, 1 km, Northeast USA, LI, ADK</para>
+          <para>Present day land cover (categorical), National LAND COVER DATABASE, 4 km, 1 km, Northeast USA, LI, ADK</para>
+          <para>Tree cover percentage, Global forest change, 4 km, 1 km, Northeast USA, LI, ADK</para>
+          <para>Model construction</para>
+          <para>We used Boosted Regression Trees (BRTs) to model factors associated with species presence, density and change in density. BRTs are a data mining approach that combines algorithms for regression trees and boosting (Hastie et al. 2001). The boosting process involves an iterative stage-wise process of minimizing the deviance of the model in which at each stage the tree that maximally reduces the deviance is selected (Elith et al. 2008). The final model is determined by the application of a boosting technique to a large number of regression trees produced, in order to come to an optimal prediction. To fit the models, we used the dismo package (Elith et al. 2008) in the statistical software R (R Core Team 2015) to find the optimal parameters for each of the models. In building our BRT models, we manually adjusted three model parameters, the bag size, tree complexity and learning rate in order to maximize model performance. We explored the presence of interactions between variables and obtained partial dependence plots to visualize the effect of each variable. In order to reduce sampling bias due to oversampling, we thinned the presences to within 2000 m of one another for the small grain models and 4000 m for the large grain model.</para>
+          <para>For each of our distribution models, we selected pseudo-absences (simulated absences) by defining a 25 km buffer around presences from which pseudo-absences were sampled, in order to decrease the probability of sampling from unsuitable areas. Pseudo-absences are artificially generated absence data selected from the area within which the study is being conducted without on ground visits. Known absences however, are points that have been visited and have been verified to not have the species being studied. In total, after thinning, we had 486 C. stoebe presences across the northeastern United States: 59 of these were located on Long Island and 98 from the Adirondacks region. We also had 80 known absences, which did not cover the full range of the area being studied, they were therefore supplemented by pseudo-absences. For each model, we generated ten times the number of pseudo-absences as known presences. We assigned known presences and absences a weight of 1, and down-weighted the pseudo-absences, assigning each pseudo-absence a weight of 1/(total number of pseudo-absences). We built occurrence models for Northeastern USA, Long Island and the Adirondacks using the presences, absences and pseudo-absences. We divided the data equally into training and test datasets based on geographical location (50:50), we used half of the data to train the models and the other half for model testing.</para>
+          <para/>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Collaborative research: Demographic heterogeneity at landscape scales in an emergent invasive species, Centaurea stoebe, in New York State</title>
+      <personnel>
+        <individualName>
+          <givenName>Jessica</givenName>
+          <surName>Gurevitch</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Division of Environmental Biology, National Science Foundation (NSF) 1119891</funding>
+    </project>
+    <dataTable>
+      <entityName>Centaurea_Pres.csv</entityName>
+      <entityDescription>Sites in the Northeastern United States where C. stoebe presence was reported or found by the authors</entityDescription>
+      <physical>
+        <objectName>Centaurea_Pres.csv</objectName>
+        <size unit="bytes">51268</size>
+        <authentication method="MD5">c1e691c62df29388740b31048b3360bb</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>id</attributeName>
+          <attributeDefinition>A unique ID for every site where C. stoebe was found or reported</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique ID for every site where C. stoebe was found or reported</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>source</attributeName>
+          <attributeDefinition>Source of the data (that is, who reported the presence of C. stoebe at the given site) Acronyms used: GBIF - Global Biodiversity Information Facility, IPANE - the Invasive Plant Atlas of New England, SBU – data was collected by the authors, Morris Arboretum - Morris Arboretum (The acronyms ‘GBIF’ and ‘IPANE’ are usually followed by name of person/organization that collected the data)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Source of the data (that is, who reported the presence of C. stoebe at the given site) Acronyms used: GBIF - Global Biodiversity Information Facility, IPANE - the Invasive Plant Atlas of New England, SBU – data was collected by the authors, Morris Arboretum - Morris Arboretum (The acronyms ‘GBIF’ and ‘IPANE’ are usually followed by name of person/organization that collected the data)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lat</attributeName>
+          <attributeDefinition>Latitude of the site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">39.67777</minimum>
+                  <maximum exclusive="false">44.93482</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Lon</attributeName>
+          <attributeDefinition>Longitude of the site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-80.3725</minimum>
+                  <maximum exclusive="false">-67.9247</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>STATE_NAME</attributeName>
+          <attributeDefinition>Name of the state in which the given site lies</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the state in which the given site lies</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SUB_REGION</attributeName>
+          <attributeDefinition>Sub region of the United States of America in which the given site lies</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sub region of the United States of America in which the given site lies</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>STATE_ABBR</attributeName>
+          <attributeDefinition>Standard two letter abbreviation used for the state in which the site lies</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Standard two letter abbreviation used for the state in which the site lies</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>COUNTY_NAME</attributeName>
+          <attributeDefinition>Name of the county in which the site lies</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the county in which the site lies</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>607</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>data.adk.csv</entityName>
+      <entityDescription>Environmental data for study sites in the Adirondacks</entityDescription>
+      <physical>
+        <objectName>data.adk.csv</objectName>
+        <size unit="bytes">100904</size>
+        <authentication method="MD5">4bc96dd78118d05d604b1640494c3edf</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>A unique number for every Adirondacks site in the study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique number for every Adirondacks site in the study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pres</attributeName>
+          <attributeDefinition>Whether C. stoebe was present or absent at a particular site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeDefinition>Whether the absences are true absence or pseudo-absence</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>presence or true absence</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0.1</code>
+                    <definition>pseudo-absence</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sand_statsgo</attributeName>
+          <attributeDefinition>Soil percent sand data from STATSGO</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">14.836</minimum>
+                  <maximum exclusive="false">81.417</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sand_ssurgo</attributeName>
+          <attributeDefinition>Soil percent sand data from SSURGO</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">96.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soilph_statsgo</attributeName>
+          <attributeDefinition>Soil pH data from STATSGO</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.665909091</minimum>
+                  <maximum exclusive="false">6.376</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soilph_ssurgo</attributeName>
+          <attributeDefinition>Soil pH data from SSURGO</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.327777778</minimum>
+                  <maximum exclusive="false">7.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>precip_gs</attributeName>
+          <attributeDefinition>30 year mean precipitation during the growing season (data from PRISM, resolution – 1 km)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">79.80999756</minimum>
+                  <maximum exclusive="false">154.1883392</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mintemp_gs</attributeName>
+          <attributeDefinition>30 year mean minimum temperature during the growing season (data from PRISM, resolution – 1 km)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.961666584</minimum>
+                  <maximum exclusive="false">10.70833397</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>nlcd</attributeName>
+          <attributeDefinition>Present day land cover (data from NLCD, resolution – 1 km)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Present day land cover (data from NLCD, resolution – 1 km)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>treecover_gfc</attributeName>
+          <attributeDefinition>Percentage tree cover (data from global forest change)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>UTM Easting of the site (UTM zone 18)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">456664.2247</minimum>
+                  <maximum exclusive="false">629224.2247</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>UTM Northing of the site (UTM zone 18)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4764457.599</minimum>
+                  <maximum exclusive="false">4965937.599</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>924</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>data.li.csv</entityName>
+      <entityDescription>Environmental data for study sites on Long Island</entityDescription>
+      <physical>
+        <objectName>data.li.csv</objectName>
+        <size unit="bytes">87006</size>
+        <authentication method="MD5">ff8532e1756cd508ca6e818cc4658b29</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>A unique number for every Long Island site in the study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique number for every Long Island site in the study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pres</attributeName>
+          <attributeDefinition>Whether C. stoebe was present or absent at the given site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeDefinition>Whether the absences are true absence or pseudo-absence</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>presence or true absence</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0.1</code>
+                    <definition>pseudo-absence</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sand_statsgo</attributeName>
+          <attributeDefinition>Soil percent sand data from STATSGO</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">28.18787879</minimum>
+                  <maximum exclusive="false">97.86</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sand_ssurgo</attributeName>
+          <attributeDefinition>Soil percent sand data from SSURGO</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">21.2</minimum>
+                  <maximum exclusive="false">94.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soilph_statsgo</attributeName>
+          <attributeDefinition>Soil pH data from STATSGO</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.62826087</minimum>
+                  <maximum exclusive="false">6.273809524</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soilph_ssurgo</attributeName>
+          <attributeDefinition>Soil pH data from SSURGO</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.6</minimum>
+                  <maximum exclusive="false">6.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>precip_gs</attributeName>
+          <attributeDefinition>30 year mean precipitation during the growing season (data from PRISM, resolution – 1 km)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">94.33333588</minimum>
+                  <maximum exclusive="false">113.7149963</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mintemp_gs</attributeName>
+          <attributeDefinition>30 year mean minimum temperature during the growing season (data from PRISM, resolution – 1 km)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.47666645</minimum>
+                  <maximum exclusive="false">14.75666618</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>nlcd</attributeName>
+          <attributeDefinition>Present day land cover (data from NLCD, resolution – 1 km)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Present day land cover (data from NLCD, resolution – 1 km)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>treecover_gfc</attributeName>
+          <attributeDefinition>Percentage tree cover (data from global forest change)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>UTM Easting of the site (UTM zone 18)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">620524.2247</minimum>
+                  <maximum exclusive="false">761944.2247</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>UTM Northing of the site (UTM zone 18)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4495567.599</minimum>
+                  <maximum exclusive="false">4560937.599</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>770</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>df.csv</entityName>
+      <entityDescription>Environmental data for Northeastern United States</entityDescription>
+      <physical>
+        <objectName>df.csv</objectName>
+        <size unit="bytes">466293</size>
+        <authentication method="MD5">ae8157f85899e36e19befdacbc7c74cb</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>A unique number for every Northeastern USA site in the study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique number for every Northeastern USA site in the study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sand</attributeName>
+          <attributeDefinition>Soil percent sand (data from STATGO)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">10.086</minimum>
+                  <maximum exclusive="false">97.86</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soilph</attributeName>
+          <attributeDefinition>Soil pH (data from STATGO)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.360465116</minimum>
+                  <maximum exclusive="false">6.819047619</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>prec4000</attributeName>
+          <attributeDefinition>30 year mean precipitation during the growing season (data from PRISM, resolution – 4 km)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">81.79071216</minimum>
+                  <maximum exclusive="false">175.347254</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mint4000</attributeName>
+          <attributeDefinition>30 year mean minimum temperature during the growing season (data from PRISM, resolution – 4 km)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.930807442</minimum>
+                  <maximum exclusive="false">15.88266176</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>land4000</attributeName>
+          <attributeDefinition>Present day land cover (data of NLCD, resolution – 4 km)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Present day land cover (data of NLCD, resolution – 4 km)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tree4000</attributeName>
+          <attributeDefinition>Percentage tree cover (data from global forest change, resolution – 4 km)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>UTM Easting of the site (UTM zone 18)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">34834.22468</minimum>
+                  <maximum exclusive="false">1062455.93</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>UTM Northing of the site (UTM zone 18)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4383247.599</minimum>
+                  <maximum exclusive="false">4986187.599</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>prediction</attributeName>
+          <attributeDefinition>Predicted likelihood from occurrence of C. stoebe (based on the habitat suitability model)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.022626678</minimum>
+                  <maximum exclusive="false">0.810500413</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>4496</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="percent" multiplierToSI="" name="percent" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

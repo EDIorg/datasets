@@ -1,0 +1,23 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+ID	A unique ID for every focal plant 	character				
+Position	Topographic position of the plant along the environmental gradient	categorical				
+Block	Block (within position) in which the focal plant occurred	character				
+SUBPlot	Subplot within block in which the focal plant occurred	character				
+SPP	Species of the focal plant	categorical				
+Treatment	Treatment applied to the focal plant	categorical				
+GramsC3removed	Dry weight of C3 grass (Stipa) removed from around the focal plant	numeric	gram			
+GramsC4removed	Dry weight of C4 grasses removed from around the focal plant	numeric	gram			
+Size1	Initial basal area of the focal species (measured before January 1980)	numeric	squareCentimeters			
+Size2	Basal area of focal species at the time of the second measurement (measured in January 1980)	numeric	squareCentimeters			
+Size3	Basal area of focal species at the time of the third measurement (measured in May 1980)	numeric	squareCentimeters			
+FLSTalks80	Number of flowering stalks on the focal plant at the time of the third measurement	numeric	number			
+Size4	Basal area of focal species at the time of the fourth measurement (measured in August 1980)	numeric	squareCentimeters			
+FLSTalks81	Number of flowering stalks on the focal plant at the time of the fourth measurement	numeric	number			
+FLWERS81	Number of flowers on the focal plant at the time of the fourth measurement	numeric	number			
+Size5	Basal area of focal species at the time of the fifth measurement (measured in October 1980)	numeric	squareCentimeters			
+Size6	Basal area of focal species at the time of the sixth measurement (measured in January 1981)	numeric	squareCentimeters			
+FLST82	Number of flowering stalks on the focal plant at the time of the sixth measurement	numeric	number			
+FLWERS82	Number of flowers on the focal plant at the time of the sixth measurement	numeric	number			
+Size7	Basal area of focal species at the time of the seventh measurement (measured in May 1981)	numeric	squareCentimeters			
+Size8	Basal area of focal species at the time of the eighth measurement (measured in August 1981)	numeric	squareCentimeters			
+Size9	Basal area of focal species at the time of the final (ninth) measurement (measured in January 1983)	numeric	squareCentimeters			

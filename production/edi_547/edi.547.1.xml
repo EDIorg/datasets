@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.547.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Explaining global variation in the latitudinal diversity gradient: Meta-analysis confirms known patterns and uncovers new one</title>
+    <creator>
+      <individualName>
+        <givenName>Nicole</givenName>
+        <givenName>L.</givenName>
+        <surName>Kinlock</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>nicole.kinlock@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-2917-5133</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Lisa</givenName>
+        <surName>Prowant</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>lisa.prowant@stonybrook.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Emily</givenName>
+        <givenName>M.</givenName>
+        <surName>Herstoff</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>emily.herstoff@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-5355-008X</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Catherine</givenName>
+        <givenName>M.</givenName>
+        <surName>Foley</surName>
+      </individualName>
+      <organizationName>1) Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>cmrfoley@gmail.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Morodoluwa</givenName>
+        <surName>Akin-Fajiye</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>morodoluwa.akin-fajiye@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-8078-3970</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Nicole</givenName>
+        <surName>Bender</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mihir</givenName>
+        <surName>Umarani</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>mihir.umarani@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-5509-8170</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Hae Yeong</givenName>
+        <surName>Ryu</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Bilgecan</givenName>
+        <surName>?en</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>bilgecan.sen@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7393-1805</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </creator>
+    <pubDate>2020-06-17</pubDate>
+    <abstract>
+      <para>This dataset is also available on the Dryad Digital Repository (link: https://doi.org/10.5061/dryad.rg5rd). </para>
+      <para>The code is also available on GitHub (link: https://github.com/nlkinlock/LDGmeta-analysis).</para>
+      <para>This dataset was created to explore patterns in biodiversity across latitude. The pattern of increasing biological diversity from high latitudes to the equator [latitudinal diversity gradient (LDG)] has been recognized for  greater than  200 years. Empirical studies have documented this pattern across many different organisms and locations. In order to quantify the evidence for the global LDG and the associated spatial, taxonomic and environmental factors, a systematic review, followed by a meta-analysis of the resulting dataset, were carried out. This dataset contains a large number of individual LDGs that have been published in the 14 years since Hillebrand's ground‐breaking meta‐analysis of the LDG. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Biodiversity</keyword>
+      <keyword>meta-analysis</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>latitude</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Global</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180</westBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <northBoundingCoordinate>80</northBoundingCoordinate>
+          <southBoundingCoordinate>-80</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2015</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Literature search</para>
+          <para>We searched Web of Science, Scopus and ProQuest Aquatic Database databases to identify recent, relevant scientific articles published between 2003, when Hillebrand's study (2004) ended, and 2015. We used the search phrase, latitud* NEAR/20 (diversity OR biodiversity OR species richness) for Web of Science and altered it according to the search methods required for the other databases (see search phrase section below for details). The databases Web of Science, Scopus, and ProQuest Aquatic Science Collection were searched for peer-reviewed articles reporting a latitudinal diversity gradient spanning at least 10 degrees of latitude. We required that there be at least three distinct locations where species richness was reported across the latitudinal range. Only papers published between 2002-2015 were collected, and the literature search was conducted on September 24, 2015. Papers with total species richness less than 10 were excluded. We included studies written in English in relevant disciplines (e.g., ecology, evolution), excluding non‐relevant fields. The literature search yielded 3,817 studies</para>
+          <para>Papers were eliminated via abstract inspection if they did not encompass at least 10 degrees of latitude, did not contain taxonomic species diversity, did not contain a latitudinal diversity gradient, did not contain obtainable data, had paleontological data, or was irrelevant to the current study for some other reason. Some data was obtained through direct author communication. This left us with 1,136 articles. The remaining articles were evaluated in full based on the aforementioned criteria and the accessibility of the LDG data. We decided that the data was inaccessible if it was not published, if we could not get in touch with the corresponding authors, or if latitude was not reported with a measure of diversity. When the LDG data was published in a figure, the Figure Calibration plugin (Hessman, 2009) for the program ImageJ (Schneider et al., 2012) was employed to extract the exact latitude and richness values. ImageJ was unable to be used in the case of figures with multiple overlapping LDG data points and these studies were therefore eliminated. When the LDG data was published in a table, the values were simply recorded. In some cases, diversity measures were reported on a map in which case the locations were digitized using ArcGIS software to extract the latitude and longitude values. This left us with 243 studies and 520 cases. Several of the cases needed to be eliminated during analysis. When three or fewer latitudinal locations were reported, variance could not be calculated, so those cases were also removed (20 cases). Cases where Fisher's z could not be calculated (31 cases) were removed. Cases with multiple kingdoms were reported or those with a taxonomic resolution greater than species (36 cases) were removed. Initially, studies reporting alpha, beta, and gamma diversity were included, however we only analyzed cases reporting alpha diversity and the rest were eliminated (44 cases). The final number of cases included in the meta-analysis was 389, which were derived from 199 studies. Given that a single paper may include data for multiple gradients, we defined each gradient reported in a paper as an individual gradient (i.e., as a single case). After screening, 389 cases from 199 studies were included in the meta‐analysis. Collectively, the studies were global in scope, covering all continents and oceans, and included a broad taxonomic range of organisms. We extracted potential explanatory covariates relating to characteristics of the organisms, location and the method of quantifying diversity. </para>
+          <para>Effect size calculation</para>
+          <para>Species richness was extracted along a latitudinal gradient of greater or equal to 10degree from each case. For cases describing alpha richness, which we define as the species richness of a single location, the coordinates of the sample site were used as the latitude. For cases with gamma richness, defined as species richness of a larger region (e.g., species richness of a country), we used the coordinates of the midpoint of the sampled area as latitude. We calculated Pearson's coefficient of correlation, r, between species richness and latitude to determine the strength of the LDG, and transformed to a normalized effect size using Fisher's z transformation. For each case, we also fitted a linear regression of species richness as a function of latitude, from which the slope and its standard error were extracted. The slope therefore represents the change in species richness for an increase of one degree of latitude, which is an estimate of the steepness of the latitudinal gradient. </para>
+          <para>Search terms</para>
+          <para>Web of Science's Core Collection was searched using the search term latitud* NEAR/20 (diversity OR biodiversity OR "species richness") as the Topic. The asterisk allows the search to include variations on the preceding word; in this case, latitude and latitudinal would be included in the results. The NEAR/20 function required that the term latitud* be within 20 words of the term (diversity OR biodiversity OR "species richness"). After this search, 2,401 studies were found. We then selected Articles only which brought the search results to 2,146. The search was further refined to only include English papers under the following subjects: Ecology, Geography physical, Evolutionary biology, Biodiversity conservation, Marine freshwater biology, Multidisciplinary sciences, Environmental sciences, Plant sciences, Genetics heredity, Oceanography, Zoology, Biology, Geosciences multidisciplinary, Biochemistry molecular biology, Paleontology, Entomology, Forestry, Microbiology, Fisheries, Limnology, Geology, Parasitology, Soil science, Ornithology, Mycology, Meteorology atmospheric sciences, Environmental studies, Anthropology, Geography, Remote sensing, Imaging science photographic technology, and Cell biology. In total 2,081 results were collected from Web of Science.We searched Scopus using the term latitud* W/20 (diversity OR biodiversity OR "species richness") with the search field selected as Article title, abstract, keywords. We searched within the Date range of 2002-2015. The asterisk has the same function in Scopus as in Web of Science and the W/20 function is analogous to NEAR/20. We initially selected only the subject areas Life sciences and Physical sciences. This gave us 2,081 results. The search was further refined to the subject areas: Agricultural and biological sciences, Environmental science, Biochemistry genetics and molecular biology, Earth and planetary sciences, and Immunology and microbiology. This yielded 1,940 results. Once we eliminated non-English articles, we arrived at a final 1,871 articles from Scopus.ProQuest Aquatic Science Collection was searched using the search term latitud* NEAR/20 (diversity OR biodiversity OR "species richness") under the Anywhere category. The search was limited to English full text peer-reviewed articles that were published in the 2002-2015 date range. The Include duplicates box was not selected. This search resulted in 1,591 articles from Proquest.</para>
+          <para/>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Collaborative research: ABI Development: Making Advanced Statistical Tools Accessible for Quantitative Research Synthesis and Discovery in Ecology and Evolutionary Biology</title>
+      <personnel>
+        <individualName>
+          <givenName>Jessica</givenName>
+          <surName>Gurevitch</surName>
+        </individualName>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Division of Biological Infrastructure, United States National Science Foundation (NSF) 1262402</funding>
+    </project>
+    <dataTable>
+      <entityName>LDG Meta Analysis Complete Data</entityName>
+      <entityDescription>Data-table containing all the data generated from this study.</entityDescription>
+      <physical>
+        <objectName>LDGMetaAnalysis_CompleteData.csv</objectName>
+        <size unit="bytes">103628</size>
+        <authentication method="MD5">c95a2374334c35abd744c38151e7dddd</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>studyID</attributeName>
+          <attributeDefinition>A unique ID number for each study included in the meta-analysis (total number of studies = 199)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique ID number for each study included in the meta-analysis (total number of studies = 199)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>caseID</attributeName>
+          <attributeDefinition>A unique ID number for each case within a study, beginning with 1</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique ID number for each case within a study, beginning with 1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>author</attributeName>
+          <attributeDefinition>Authors of study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Authors of study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year published</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2002</minimum>
+                  <maximum exclusive="false">2015</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>journal</attributeName>
+          <attributeDefinition>Journal in which study was published</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Journal in which study was published</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>kingdom</attributeName>
+          <attributeDefinition>Kingdom(s) of the organisms in study: Bacteria, Protista, Fungi, Plantae, Animalia</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Kingdom(s) of the organisms in study: Bacteria, Protista, Fungi, Plantae, Animalia</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>organism_group</attributeName>
+          <attributeDefinition>Organism group for organisms in study (something of a functional classification; ""multiple"" if more than one): bacteria, protozoa, herbaceous plants, woody plants, other plants, fungi, arthropods, other invertebrates, fishes, herps, birds, mammals</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Organism group for organisms in study (something of a functional classification; ""multiple"" if more than one): bacteria, protozoa, herbaceous plants, woody plants, other plants, fungi, arthropods, other invertebrates, fishes, herps, birds, mammals</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>thermoregulation</attributeName>
+          <attributeDefinition>Are the organisms in this study homeotherms, ectotherms, or both?</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ecto</code>
+                    <definition>ectothermal organism</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>homeo</code>
+                    <definition>homeothermal organism</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>multiple</code>
+                    <definition>multiple strategies</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dispersal_type</attributeName>
+          <attributeDefinition>General pattern of movement: active, passive, both</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>General pattern of movement: active, passive, both</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trophic_position</attributeName>
+          <attributeDefinition>The trophic level of the organisms in the study (""multiple"" if more than one): autotrophs, herbivores, omnivores, carnivores, parasites, detritivores</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The trophic level of the organisms in the study (""multiple"" if more than one): autotrophs, herbivores, omnivores, carnivores, parasites, detritivores</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>realm</attributeName>
+          <attributeDefinition>Study location: terrestrial, freshwater, or marine habitats</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Study location: terrestrial, freshwater, or marine habitats</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>habitat</attributeName>
+          <attributeDefinition>More specific study location: Forest (temperate, rainforest, anything dominated by trees); Terrestrial general (grasslands, other herbaceous, shrublands, savannah, multiple types of terrestrial habitat); Terrestrial other (unusual things like urban habitats or specific parasites); Coastal/estuary; Open ocean; Benthic; Coral reefs; Freshwater (lakes, streams, rivers, wetlands)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>More specific study location: Forest (temperate, rainforest, anything dominated by trees); Terrestrial general (grasslands, other herbaceous, shrublands, savannah, multiple types of terrestrial habitat); Terrestrial other (unusual things like urban habitats or specific parasites); Coastal/estuary; Open ocean; Benthic; Coral reefs; Freshwater (lakes, streams, rivers, wetlands)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hemisphere</attributeName>
+          <attributeDefinition>Study location: Northern, Southern, or both hemispheres</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>both</code>
+                    <definition>both hemispheres</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Southern hemisphere</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Northern hemisphere</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude_range</attributeName>
+          <attributeDefinition>Range, in degrees, of the longitudinal extent of the study</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>longitude_midpoint</attributeName>
+          <attributeDefinition>Midpoint of study extent (between -180 and 180 degrees longitude)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-160</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>scale</attributeName>
+          <attributeDefinition>local (measured diversity at specific sites) or regional (latitudinal grid squares up to 5 by 5, country/state measure)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>local (measured diversity at specific sites) or regional (latitudinal grid squares up to 5 by 5, country/state measure)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>diversity</attributeName>
+          <attributeDefinition>Alpha or gamma diversity</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Alpha or gamma diversity</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude_range</attributeName>
+          <attributeDefinition>Range, in degrees, of the latitudinal extent of the study</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">9</minimum>
+                  <maximum exclusive="false">153.887</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>latitude_midpoint</attributeName>
+          <attributeDefinition>Midpoint of study extent (between -90 and 90 degrees latitude)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-77</minimum>
+                  <maximum exclusive="false">82.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>total_taxonomic_richness</attributeName>
+          <attributeDefinition>Total number of species found in the study across entire extent</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">4</minimum>
+                  <maximum exclusive="false">39497</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>measure_of_richness</attributeName>
+          <attributeDefinition>Was species richness or some other index reported? (Shannon index, mean species richness, etc.): ""S"" for species richness, ""index"" for other</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>species richness</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>index</code>
+                    <definition>other</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>number_of_points</attributeName>
+          <attributeDefinition>Number of sampling units or sites</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">4</minimum>
+                  <maximum exclusive="false">6153</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>slope_b</attributeName>
+          <attributeDefinition>Coefficient of the linear regression of species richness as a function of latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-172.8116</minimum>
+                  <maximum exclusive="false">21.76041</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SE_b</attributeName>
+          <attributeDefinition>Standard error of the slope</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000324277</minimum>
+                  <maximum exclusive="false">537.248528</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Var_b</attributeName>
+          <attributeDefinition>Variance of the slope</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.79e-06</minimum>
+                  <maximum exclusive="false">5195447.655</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>intercept</attributeName>
+          <attributeDefinition>Intercept of the linear regression of species richness as a function of latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1075.049</minimum>
+                  <maximum exclusive="false">10525.27</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>r</attributeName>
+          <attributeDefinition>Pearson’s correlation coefficient</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.994595483</minimum>
+                  <maximum exclusive="false">0.978958906</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>rz</attributeName>
+          <attributeDefinition>Fisher's z transformation (of correlation coefficient, r)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-2.955480691</minimum>
+                  <maximum exclusive="false">2.271924391</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>VarRz</attributeName>
+          <attributeDefinition>Variance of Fisher's z</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000162602</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>384</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>1-load.R</entityName>
+      <entityDescription>For loading the raw data into R</entityDescription>
+      <physical>
+        <objectName>1-load.R</objectName>
+        <size unit="bytes">542</size>
+        <authentication method="MD5">4e65d7f055a57e354310174b4131a6d0</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>2-clean.R</entityName>
+      <entityDescription>For cleaning up the raw data</entityDescription>
+      <physical>
+        <objectName>2-clean.R</objectName>
+        <size unit="bytes">5027</size>
+        <authentication method="MD5">e01a904ad71d61c617ea4b6dba2de9a3</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>3-functions.R</entityName>
+      <entityDescription>Writing functions to carry out the meta-analysis</entityDescription>
+      <physical>
+        <objectName>3-functions.R</objectName>
+        <size unit="bytes">967</size>
+        <authentication method="MD5">a0d9478588d966667a1cd650225c7601</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>4-analysis.R</entityName>
+      <entityDescription>Carrying out meta-analysis of the data</entityDescription>
+      <physical>
+        <objectName>4-analysis.R</objectName>
+        <size unit="bytes">30337</size>
+        <authentication method="MD5">c2dbce67047b59b19a39a5a3cca2268a</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>5-plot.R</entityName>
+      <entityDescription>Summarizing and plotting the results of the meta-analysis</entityDescription>
+      <physical>
+        <objectName>5-plot.R</objectName>
+        <size unit="bytes">25576</size>
+        <authentication method="MD5">f2d1350e8bc704f1f8feae30c7256fbe</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,9 @@
+attributeName	code	definition
+site	shady_point	Shady Point
+site	twin_meadows	Twin Meadows
+observer	JLC_PJC	James L. Cunningham and Paul J. CaraDonna
+observer	PJC	Paul J. CaraDonna
+observer	AMI	Amy M. Iler
+observer	RMB	Ross M. Brennan
+observer	JAB	Justin A. Bain
+observer	NMW	Nick M. Waser

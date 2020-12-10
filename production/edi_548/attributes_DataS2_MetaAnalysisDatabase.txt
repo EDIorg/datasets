@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+AuthorYear	Last name of the first author and year of publication	character				
+Study	A unique identification number for each case within a study	character				
+Case	A unique identification number for each study	character				
+Year	Year of study	numeric	nominalYear			
+Grain	"Grain size, that is, the smallest area for which data is available, or sampling unit/plot size"	numeric	dimensionless			
+Grain_unit	Units of grain size	categorical				
+ln_Grain	Natural logarithm of grain in MetresSquared	numeric	squareMeter			
+Latitude	"Latitude in degree decimal (positive = North, negative = South)"	numeric	degree			
+Longitude	"Longitude in degree decimal (positive = East, negative = West)"	numeric	degree			
+Extent	Total spatial area included in the study (see table in methods for levels)	categorical				
+Research_type	Whether the study was experimental or observational	character				
+Habitat_type	The type of habitat in which the study was carried out (see table in methods for levels).	categorical				
+z	The value of the Fischer’s z transformation of the Pearson’s product moment correlation coefficient of the respective case. This was used as effect size in the meta-analysis	numeric	dimensionless			
+var_z	The variance of Fischer’s z	numeric	dimensionless			

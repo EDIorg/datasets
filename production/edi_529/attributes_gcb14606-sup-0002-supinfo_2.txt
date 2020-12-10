@@ -1,0 +1,20 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Study_Case	Name of study from which the data is taken	character				
+Longitude	Longitude of study site	numeric	degree			
+Latitude	Latitude of study site	numeric	degree			
+LUI_range_level	Landuse intensity (classified according to table 1)	character				
+Product	"Broad class of harvested product, i.e. crop, green fodder, and wood."	character				
+main_climate	"Broad climate zone according to the Köppen-Geiger climate classification, i.e. polar, cold (continental), temperate, arid, and tropical."	character				
+landuse_history	"Broad class of time of first significant use (table 3), i.e. 5950 BC, 50 BC, 1450, 1950, after 1950. And categorized according to the major developments of agriculture."	character				
+LU_definition_and_ES	"An indication of whether land-use intensity step is based on yield, in which case yield is considered to be “linked” to intensity rather than “independent”. For example the harvesting technique in forest (e.g. clear cut, selective logging) is used to define the land-use intensity class and also determines the amount of extracted yield."	character				
+Yield_Unit_Type	Type of unit used to measure yield	character				
+Log_RR	Log transformed response ratio of yield with changing land use intensity	numeric	dimensionless		NA	not available
+Log_RR_Var	Variance of log transformed response ratio	numeric	dimensionless		NA	not available
+Mean_Low	Mean yield from the lower intensity land use	numeric	dimensionless		NA	not available
+SD_Low	Standard deviation of yield from lower intensity land use	numeric	dimensionless		NA	not available
+N_Low	Sample size of lower intensity land use	numeric	dimensionless		NA	not available
+Mean_High	Mean yield from higher intensity land use	numeric	dimensionless		NA	not available
+SD_High	Standard deviation of yield from higher intensity land use	numeric	dimensionless		NA	not available
+N_High	Sample size of higher intensity land use	numeric	dimensionless		NA	not available
+SD_is_imputed_Low	"Whether the standard deviation of yield from lower intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)"	character				
+SD_is_imputed_High	"Whether the standard deviation of yield from higher intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)"	character				

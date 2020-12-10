@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.617.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Micro-macro Climate Data for shrubs and artificial shelters in Panoche Hills, California, USA, 2019</title>
+    <creator>
+      <individualName>
+        <givenName>Nargol</givenName>
+        <surName>Ghazian</surName>
+      </individualName>
+      <organizationName>York University</organizationName>
+      <electronicMailAddress>nargolg1@my.yorku.ca</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-9710-7140</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mario</givenName>
+        <surName>Zuliani</surName>
+      </individualName>
+      <organizationName>York University</organizationName>
+      <electronicMailAddress>Zulianimario96@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-8114-3609</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <givenName>J.</givenName>
+        <surName>Lortie</surName>
+      </individualName>
+      <organizationName>York University,</organizationName>
+      <electronicMailAddress>lortie@yorku.ca</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-4291-7023</userId>
+    </creator>
+    <pubDate>2020-09-30</pubDate>
+    <abstract>
+      <para>Micro-climatic data for solar radiation and temperature recorded in Panoche Hills Managament Area in Califronia, U.S.A. The study was conducted Spring-Summer 2019 (May 20th- June 12th). Micro-climate was recorded using in situ loggers under the shrubs Ephedra californica, artificial shelters, and the open to test for differences. Macro-site level data was retrieved from the nearby weather station and all data were compiled into one dataset. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Climate change</keyword>
+      <keyword>micro-climate</keyword>
+      <keyword>shelter</keyword>
+      <keyword>management</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>temperature</keyword>
+      <keyword>solar radiation</keyword>
+      <keyword>conservation</keyword>
+      <keyword>restoration</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>The time column has been computed by EDI staff from the hobo time data available as best as possible. Clearly there are major problems with the date and time and this dataset may only be used larger aggregations.</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Panoche Hills Management Area, western edge of the San Joaquin, California, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.8</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.79</eastBoundingCoordinate>
+          <northBoundingCoordinate>36.697</northBoundingCoordinate>
+          <southBoundingCoordinate>36.692</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2019-05-20</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019-06-12</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Nargol</givenName>
+        <surName>Ghazian</surName>
+      </individualName>
+      <organizationName>York University</organizationName>
+      <electronicMailAddress>nargolg1@my.yorku.ca</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-9710-7140</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <givenName>J.</givenName>
+        <surName>Lortie</surName>
+      </individualName>
+      <organizationName>York University,</organizationName>
+      <electronicMailAddress>lortie@yorku.ca</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-4291-7023</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>To measure the difference in light and temperature within canopied microsites and the open gap, Onset HOBO Temperature/Light Pendant (8K) loggers (Hoskin Scientific 2020) were placed inside and directly outside to the right of the microsites. Each pendant was tied to a plastic stake using a zip tie, recording data at 1 hour intervals. Stakes were hammered into the ground until stable with ~10 cm remaining above ground. This was done to ensure that logger data were less-influenced by ground cover and true ambient conditions both inside and in the open were recorded. Air temperature (degreeF) and light intensity (lum/ft2) were recorded hourly. Loggers were placed out mid-May and collected in mid-June to account for spring-summer seasonal variation. Hourly weather data were downloaded for the study site for the total duration of the study (Los Banos Weather Station at 37 degree 03.30  minutesN, 120 degree 51.00 minutesW, http://www.usclimatedata.com/). Date, air and soil temperature (degreeF) with solar radiation (W/m2, converted to lum/ft2) were retrieved from this climate source.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Discovery Grant</title>
+      <personnel>
+        <individualName>
+          <givenName>Christopher</givenName>
+          <givenName>J.</givenName>
+          <surName>Lortie</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>The Natural Sciences and Engineering Research Council of Canada</funding>
+      <relatedProject>
+        <title>Globalink</title>
+        <personnel>
+          <individualName>
+            <givenName>Nargol</givenName>
+            <surName>Ghazian</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Mitacs</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Climate data</entityName>
+      <entityDescription>Temperature, radation and soil moisture data for two sites</entityDescription>
+      <physical>
+        <objectName>micro_macro_contrast_corrected.csv</objectName>
+        <size unit="bytes">3049427</size>
+        <authentication method="MD5">60e961ef8e712227c5864facc6aeca99</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>Where the study took place</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Where the study took place</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sensor</attributeName>
+          <attributeDefinition>How the data were recorded Hobo logger, or pulled from weather station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>How the data were recorded Hobo logger, or pulled from weather station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>When the data was recorded</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>When the data was recorded</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year recorded</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2019</minimum>
+                  <maximum exclusive="false">2019</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>Month recorded</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>Day recoded</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>hour_24</attributeName>
+          <attributeDefinition>Time given in 24h clock</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time given in 24h clock</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeDefinition>Time given in AM, PM</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time given in AM, PM</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">36.39342</minimum>
+                  <maximum exclusive="false">36.69605</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lon</attributeName>
+          <attributeDefinition>longitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-120.9301</minimum>
+                  <maximum exclusive="false">-120.79282</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>microsite</attributeName>
+          <attributeDefinition>Triangle, square, open, shrub or weather station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Triangle, square, open, shrub or weather station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>rep</attributeName>
+          <attributeDefinition>repetitions ID</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp</attributeName>
+          <attributeDefinition>air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>fahrenheit</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">34.198</minimum>
+                  <maximum exclusive="false">187.245</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>intensity</attributeName>
+          <attributeDefinition>Solar radiation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>luminosityPerSquareFoot</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">63568.58696</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pendant_id</attributeName>
+          <attributeDefinition>The serial number on the logger</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1156629</minimum>
+                  <maximum exclusive="false">20619223</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soil_moisture</attributeName>
+          <attributeDefinition>If shelter, what type of shade cloth blockage it had</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">999</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>cover_type</attributeName>
+          <attributeDefinition>The soil moisture recorded upon deployment</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>computed_time</attributeName>
+          <attributeDefinition>best time computed and corrected from logger time</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>22584</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>shelter_open_shrub_comparison.Rmd</entityName>
+      <entityDescription>R markdown codes for analysis.</entityDescription>
+      <physical>
+        <objectName>shelter_open_shrub_comparison.Rmd</objectName>
+        <size unit="bytes">18891</size>
+        <authentication method="MD5">80b0b9804ac0a30b0cadfaf704e0e037</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/x-markdown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="percent" multiplierToSI="" name="percent" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="luminosityPerSquareFoot" multiplierToSI="" name="luminosityPerSquareFoot" parentSI="" unitType="">
+          <description>solar radiation</description>
+        </unit>
+        <unit id="nominalMonth" multiplierToSI="" name="nominalMonth" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

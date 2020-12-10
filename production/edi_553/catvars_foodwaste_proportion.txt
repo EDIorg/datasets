@@ -1,0 +1,4 @@
+attributeName	code	definition
+Region	C	Central US
+Region	W	Western US
+Region	E	Eastern US

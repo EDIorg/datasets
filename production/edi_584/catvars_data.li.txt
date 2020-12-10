@@ -1,0 +1,5 @@
+attributeName	code	definition
+pres	1	present
+pres	0	absent
+weight	1	presence or true absence
+weight	0.1	pseudo-absence

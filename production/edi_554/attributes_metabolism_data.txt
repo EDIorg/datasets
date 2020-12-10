@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+date	Date when metabolism was calculated	Date		YYYY-MM-DD		
+GPP	Gross primary production	numeric	gramsOfOyxgenPerSquareMeterPerDay		NA	not available
+ER	Measured macrophyte cover	numeric	gramsOfOyxgenPerSquareMeterPerDay		NA	not available
+K600_daily	Reaeration coefficient per day	numeric	dimensionless		NA	not available
+discharge_daily	Mean daily discharge	numeric	cubicMetersPerSecond		NA	not available
+NEP	Net ecosystem production	numeric	gramsOfOyxgenPerSquareMeterPerDay		NA	not available

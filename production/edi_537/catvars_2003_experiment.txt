@@ -1,0 +1,33 @@
+attributeName	code	definition
+Community	HW	hard wood
+Community	PB	pine barrens
+Site	EF	East Farm
+Site	HWS	Hot Water Street
+Site	RP	Rocky Point
+Site	SA	Sarnoff Preserve
+Site	TP	Topping Path
+Site	WP	Weld Preserve
+Gap	G	gap
+Gap	NG	no gap
+Species	ACPL	Acer platanoides
+Species	ACRU	Acer rubrum
+Species	AMBR	Ampelopsis brevipedunculata
+Species	BECA	Berberis canadensis
+Species	BETH	Berberis thunbergii
+Species	CEAM	Ceanothus americanus
+Species	CEOR	Celastrus orbiculata
+Species	CESC	Celastrus scandens
+Species	ELUM	Elaeagnus umbellata
+Species	LOMA	Lonicera mackii
+Species	PAQU	Parthenocissus quinquefolia
+Species	PRSE	Prunus serotina
+Species	ROCA	Rosa caroliniense
+Species	ROMU	Rosa multiflora
+Species	VIAC	Viburnum acerifolium
+Species	VINO	Vitis novae-angliae
+Status	I	invasive
+Status	N	native
+N	1	nitrogen added
+N	0	not nitrogen added
+Ca	1	calcium added
+Ca	0	no calcium added
