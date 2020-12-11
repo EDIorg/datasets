@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Gradient	Name of the peak associated with a mountain transect	character				
+Site	Number designation for a unique site within a transect that is loosely based on 100m elevation bands	character				
+Latitude	latitude	numeric	degree		NA	not available
+Longitude	longitude	numeric	degree		NA	not available
+Elevation	elevation	numeric	meter		NA	not available

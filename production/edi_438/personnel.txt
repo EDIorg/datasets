@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jessica	A.      M.	Moore	University of Tennessee	Jbryan44@utk.edu	0000-0002-5387-0662	creator			
+Benjamin	N.	Sulman	Oak Ridge National Laboratory	sulmanbn@ornl.gov		creator			
+Melanie	A.	Mayes	Oak Ridge National Laboratory	mayesma@ornl.gov		creator			
+Courtney	M.	Patterson	University of Tennessee	Cpatte11@utk.edu		creator			
+Aimee	T.	Classen	University of Vermont	Aimee.classen@uvm.edu		creator			
+Jessica	A.      M.	Moore	University of Tennessee	Jbryan44@utk.edu	0000-0002-5387-0662	contact			
+Aimee	T.	Classen				PI	Incorporating rhizosphere interactions and soil physical properties into a soil carbon degradation model through experimenting across ecotypes.	The Department of Energy Terrestrial Ecosystem Science Program 	DE-SC0010562

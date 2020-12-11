@@ -1,0 +1,8 @@
+attributeName	code	definition
+Type	Buffel	mature buffel grass individual
+Type	Bursage	mature triangle-leaf bursage indiviual
+Type	Empty	no mature plant
+Germ	1	"seedling emerged, indicating germination"
+Germ	0	no seedling emerged
+Day38	1	seedling alive
+Day38	0	seedling had died

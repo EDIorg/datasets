@@ -1,0 +1,7 @@
+﻿Detailed collection and analysis methods can be found in Norton et al. 1999 (doi: 10.1023/A:1006115011381) and Navratil et al. 2010 (doi: 10.1007/s10661-010-1527-z).
+
+These data include ambient wet deposition (for East Bear). The experimental watershed, West Bear, received ambient deposition of all species except for NH4 and SO4. 
+
+To calculate NH4 and SO4 deposition for West Bear, add `NH4_mani_eq_ha` or `SO4_mani_eq_ha` to the respective ambient value.
+
+Wet deposition was collected at the site until 2012. For wet deposition post-2012, and for dry deposition for the entire period, we recommend using data from the NADP CASTNET site in Howland, ME (HOW132).

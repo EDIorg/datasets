@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	year	numeric	nominalYear			
+month	month	numeric	nominalMonth			
+H2O_mm	rainfall	numeric	millimeter			
+H_eq_ha	hydrogen ions	numeric	equivalentsPerHectare			
+Ca_eq_ha	calcium	numeric	equivalentsPerHectare			
+Mg_eq_ha	magnesium	numeric	equivalentsPerHectare			
+K_eq_ha	potassium	numeric	equivalentsPerHectare			
+Na_eq_ha	sodium	numeric	equivalentsPerHectare			
+Cl_eq_ha	chloride	numeric	equivalentsPerHectare			
+NO3_eq_ha	nitrate	numeric	equivalentsPerHectare			
+NH4_eq_ha	ammonium	numeric	equivalentsPerHectare			
+SO4_eq_ha	sulfate	numeric	equivalentsPerHectare			

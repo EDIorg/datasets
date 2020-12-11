@@ -1,0 +1,17 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+gcm	General circulation model for simulation scenario.	categorical				
+configuration	Housing development and fuels treatment configuration level for simulation scenario. 	categorical				
+amount_pct	Amount of housing development and fuels treatment in simulation scenario.	numeric	percent		NA	not available
+rep	Simulation replicate for given scenario. Each scenario has 20 replicates.	numeric	number		NA	not available
+treated_ha	"If configuration is clustered or dispersed, this is the area of landscape in which defensible space fuels treatments were applied. If configuration is no_treatment, this is the area of the landscape that was treated in the randomly selected neutral landscape model used the calculate fire risk for that replicate."	numeric	hectare		NA	not available
+hiz_burned_ha	"Area of 1-hectare home ignition zones (HIZ), in which defensible space fuels treatments were applied, that burned over the duration of the simulation."	numeric	hectare		NA	not available
+mean_hiz_fl_m	Mean flame length in HIZs that burned. 	numeric	meter		NA	not available
+max_hiz_fl_m	Maximum annual HIZ flame length.	numeric	meter		NA	not available
+mean_ssz_exposure_pct	Mean annual percent of structures that were exposed to at least 1 hectare of high-intensity fire in their safe suppression zone (SSZ; the 8 ha of immediate neighbors around each 1-ha HIZ).	numeric	percent		NA	not available
+max_ssz_exposure_pct	Maximum annual percent of structures that were exposed to at least 1 hectare of high-intensity fire in their SSZ.	numeric	percent		NA	not available
+mean_pland_high_pct	Mean annual percent of the landscape (PLAND) that burned at high intensity.	numeric	percent		NA	not available
+max_pland_high_pct	Maximum annual PLAND that burned at high intensity.	numeric	percent		NA	not available
+mean_lpi_high_ha	"Mean annual largest patch index (LPI), area of largest high-intensity fire patch."	numeric	hectare		NA	not available
+max_lpi_high_ha	Maximum annual high-intensity fire LPI.	numeric	hectare		NA	not available
+mean_area_am_high_ha	Mean annual area-weighted mean patch size (AREA_AM) of high-intensity fire patches.	numeric	hectare		NA	not available
+max_area_am_high_ha	Maximum annual high-intensity fire AREA_AM.	numeric	hectare		NA	not available

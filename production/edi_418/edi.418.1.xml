@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" packageId="edi.418.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Plant composition data from 67 grassland sites of the Upper Gunnison Basin, CO, USA, 2014</title>
+    <creator>
+      <individualName>
+        <givenName>Joshua</givenName>
+        <givenName>S</givenName>
+        <surName>Lynn</surName>
+      </individualName>
+      <organizationName>University of New Mexico; Rocky Mountain Biological Laboratory</organizationName>
+      <electronicMailAddress>jslynn@unm.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Melanie</givenName>
+        <givenName>R</givenName>
+        <surName>Kazenel</surName>
+      </individualName>
+      <organizationName>University of New Mexico; Rocky Mountain Biological Laboratory</organizationName>
+      <electronicMailAddress>mkazenel@unm.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephanie</givenName>
+        <givenName>N</givenName>
+        <surName>Kivlin</surName>
+      </individualName>
+      <organizationName>University of New Mexico; Rocky Mountain Biological Laboratory; The University of Tennessee, Knoxville</organizationName>
+      <electronicMailAddress>skivlin@utk.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jennifer</givenName>
+        <givenName>A</givenName>
+        <surName>Rudgers</surName>
+      </individualName>
+      <organizationName>University of New Mexico; Rocky Mountain Biological Laboratory</organizationName>
+      <electronicMailAddress>jrudgers@unm.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Wendy</givenName>
+        <surName>Brown</surName>
+      </individualName>
+      <organizationName>Rocky Mountain Biological Laboratory</organizationName>
+      <role>Assisted In Data Collection</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Samuel</givenName>
+        <surName>Canfield</surName>
+      </individualName>
+      <organizationName>Rocky Mountain Biological Laboratory</organizationName>
+      <role>Assisted In Data Collection</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Chiara</givenName>
+        <surName>Forrester</surName>
+      </individualName>
+      <organizationName>Rocky Mountain Biological Laboratory</organizationName>
+      <role>Assisted In Data Collection</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ian</givenName>
+        <surName>Spellman</surName>
+      </individualName>
+      <organizationName>Rocky Mountain Biological Laboratory</organizationName>
+      <role>Assisted In Data Collection</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Lea</givenName>
+        <surName>Milando</surName>
+      </individualName>
+      <organizationName>Rocky Mountain Biological Laboratory</organizationName>
+      <role>Assisted In Data Curation</role>
+    </associatedParty>
+    <pubDate>2019-09-06</pubDate>
+    <abstract>
+      <para>
+  Here, we deposit data from a vegetation survey conducted in 2014. The
+  data was collected to document current vegetation patterns in the
+  region, parameterize species distribution models, and assess community
+  turnover in flower color. The survey was conducted in the Upper
+  Gunnison Basin and the environs around the Rocky Mountain Biological
+  Laboratory, CO, USA, spanning an elevation gradient from 2700-4000m
+  above sea level. Data were acquired through visual estimates of
+  percent cover of species within replicate quadrats in a site. We
+  include information scraped from the USDA Plants Database
+  (https://plants.sc.egov.usda.gov/java/) on species lifeform, life
+  history, and invasive status.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>vegetation survey</keyword>
+      <keyword>ecological niche model</keyword>
+      <keyword>species distribution model</keyword>
+      <keyword>mountain ecosystems</keyword>
+      <keyword>biotic interactions</keyword>
+      <keyword>percent cover</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>plants</keyword>
+      <keyword>abundance</keyword>
+      <keyword>communities</keyword>
+      <keyword>community composition</keyword>
+      <keyword>community dynamics</keyword>
+      <keyword>community patterns</keyword>
+      <keyword>species composition</keyword>
+      <keyword>species diversity</keyword>
+      <keyword>species richness</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data ("Data User" herein) is required
+  to cite it appropriately in any publication that results from its use.
+  The Data User should realize that these data may be actively used by
+  others for ongoing research and that coordination may be necessary to
+  prevent duplicate publication. The Data User is urged to contact the
+  authors of these data if any questions about methodology or results
+  occur. Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>67 sites within the Upper Gunnison Basin of the Colorado Rocky Mountains, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-107.128365</westBoundingCoordinate>
+          <eastBoundingCoordinate>-106.777765</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0113075</northBoundingCoordinate>
+          <southBoundingCoordinate>38.8475871</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2014-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-10-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Joshua</givenName>
+        <givenName>S</givenName>
+        <surName>Lynn</surName>
+      </individualName>
+      <organizationName>University of New Mexico; Rocky Mountain Biological Laboratory</organizationName>
+      <electronicMailAddress>jslynn@unm.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Jennifer</givenName>
+        <givenName>A</givenName>
+        <surName>Rudgers</surName>
+      </individualName>
+      <organizationName>University of New Mexico; Rocky Mountain Biological Laboratory</organizationName>
+      <electronicMailAddress>jrudgers@unm.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  Methods copied from
+</para>
+          <para>
+  Lynn, J.S., M.R. Kazenel, S.N. Kivlin, and J.A. Rudgers. In press.
+  Context-dependent biotic interactions control plant abundance across
+  altitudinal environmental gradients. Ecography. doi:
+  10.1111/ecog.04421
+</para>
+          <para>
+  We assessed plant community composition using visual cover estimates.
+  We placed a 0.2 m x 0.2 m quadrat every 2.5 m along four 20 m
+  transects per site. In each quadrat, we visually estimated percentage
+  cover of every plant species or bare ground to total 100% (33 plant
+  cover estimates per site). Specimens were collected and identified
+  using Shaw (2008) for grasses and Weber and Wittmann (2012) for
+  non-grasses. We corrected for current taxonomy using the USDA PLANTS
+  Database (USDA and NRCS 2017). Unidentified species (e.g.,
+  non-flowering sedges) were morphotyped, assigned unique species codes,
+  and matched to unknowns at other sites. Plant cover for a site was
+  represented by the summed percentage cover estimate across the 33
+  quadrats (maximum of 3300 if site was 100% vegetated).
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>King of the Hill? Potential for novel biotic interactions to limit plant elevational distributions</title>
+      <personnel>
+        <individualName>
+          <givenName>Joshua</givenName>
+          <givenName>S</givenName>
+          <surName>Lynn</surName>
+        </individualName>
+        <electronicMailAddress>https://orcid.org/0000-0002-7190-7991</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Botanical Society of America : Graduate Student Research Award</funding>
+      <relatedProject>
+        <title>Harry Wayne Springfield and Grove Scholarships</title>
+        <personnel>
+          <individualName>
+            <givenName>Joshua</givenName>
+            <givenName>S</givenName>
+            <surName>Lynn</surName>
+          </individualName>
+          <electronicMailAddress>https://orcid.org/0000-0002-7190-7991</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>University of New Mexico Biology Department</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>King of the hill? Climate change effects on biotic interactions in alpine plant communities</title>
+        <personnel>
+          <individualName>
+            <givenName>Joshua</givenName>
+            <givenName>S</givenName>
+            <surName>Lynn</surName>
+          </individualName>
+          <electronicMailAddress>https://orcid.org/0000-0002-7190-7991</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Rocky Mountain Biological Laboratory: Jean Langenheim Graduate Student Fellowship</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>King of the Hill? Predicting the population consequences of climate change altered species interactions</title>
+        <personnel>
+          <individualName>
+            <givenName>Joshua</givenName>
+            <givenName>S</givenName>
+            <surName>Lynn</surName>
+          </individualName>
+          <electronicMailAddress>https://orcid.org/0000-0002-7190-7991</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>American Philosophical Society: Lewis and Clark Fund</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>DISSERTATION RESEARCH: King of the hill? How competitive interactions affect biogeographical pattern and species responses to environmental variability</title>
+        <personnel>
+          <individualName>
+            <givenName>Joshua</givenName>
+            <givenName>S</givenName>
+            <surName>Lynn</surName>
+          </individualName>
+          <electronicMailAddress>https://orcid.org/0000-0002-7190-7991</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF-DEB: 1701221</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>The potential for climate-induced disruption of plant-microbe symbioses along altitudinal gradients</title>
+        <personnel>
+          <individualName>
+            <givenName>Jennifer</givenName>
+            <givenName>A</givenName>
+            <surName>Rudgers</surName>
+          </individualName>
+          <electronicMailAddress>https://orcid.org/0000-0001-7094-4857</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF-DEB: 1354972</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>visual cover estimates of plant communities</entityName>
+      <entityDescription>visual cover estimates of plant communities</entityDescription>
+      <physical>
+        <objectName>VegCoverDataRMBL2014.csv</objectName>
+        <size unit="bytes">957135</size>
+        <authentication method="MD5">65fe4979775e933781f5d52893229af4</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Gradient</attributeName>
+          <attributeDefinition>Name of the peak associated with a mountain transect</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Cinnamon</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Teo</code>
+                    <definition>Teocalli</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Avery</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH</code>
+                    <definition>Hunters Hill</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>Ruby</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TR</code>
+                    <definition>Treasury</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Number designation for a unique site within a transect that is loosely based on 100m elevation bands</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number designation for a unique site within a transect that is loosely based on 100m elevation bands</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Quad</attributeName>
+          <attributeDefinition>One of the 33 quadrats wit vegetation estimates at a site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>One of the 33 quadrats wit vegetation estimates at a site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Name</attributeName>
+          <attributeDefinition>Label given to a species when data was collected. Note, “bare” refers to bare ground lacking vegetation</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Label given to a species when data was collected. Note, “bare” refers to bare ground lacking vegetation</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cover</attributeName>
+          <attributeDefinition>Visual estimate of the percent ground cover for a given species in a quadrat in percent</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">-111</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SPID</attributeName>
+          <attributeDefinition>The concatenation of “Gradient”, “Site”, and “Name” columns to create a unique identifier for each species-site combination</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The concatenation of “Gradient”, “Site”, and “Name” columns to create a unique identifier for each species-site combination</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeDefinition>The taxonomic family of the estimate checked against the USDA database</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic family of the estimate checked against the USDA database</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeDefinition>The taxonomic genus of the estimate checked against the USDA database</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic genus of the estimate checked against the USDA database</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>The taxonomic species of the estimate checked against the USDA database</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic species of the estimate checked against the USDA database</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Kartez</attributeName>
+          <attributeDefinition>USDA species symbols. Family or genus USDA symbols were in cases where a sample couldn’t be identified to species. Unknown or unidentifiable symbols were designated “UNK#” with a unique number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>USDA species symbols. Family or genus USDA symbols were in cases where a sample couldn’t be identified to species. Unknown or unidentifiable symbols were designated “UNK#” with a unique number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Lifeform</attributeName>
+          <attributeDefinition>USDA designated lifeforms</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>forb</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>g</code>
+                    <definition>graminoid</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>f_s</code>
+                    <definition>forb_shrub</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>s</code>
+                    <definition>shrub</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>t</code>
+                    <definition>tree</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>lichen</code>
+                    <definition>lichen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>moss</code>
+                    <definition>moss</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LifeHistory</attributeName>
+          <attributeDefinition>USDA designated life history strategy</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>a</code>
+                    <definition>annual</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>b</code>
+                    <definition>biennial</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>m</code>
+                    <definition>mixed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>p</code>
+                    <definition>perennial</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>lichen</code>
+                    <definition>lichen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>moss</code>
+                    <definition>moss</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Status</attributeName>
+          <attributeDefinition>USDA designation of native or invasive</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>i</code>
+                    <definition>invasive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>native</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>n_i</code>
+                    <definition>mixed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>11774</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>lat longs for all plots</entityName>
+      <entityDescription>lat longs for all plots</entityDescription>
+      <physical>
+        <objectName>geographicInfo.csv</objectName>
+        <size unit="bytes">2551</size>
+        <authentication method="MD5">39de0b992043be425d9254dc52e04e87</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Gradient</attributeName>
+          <attributeDefinition>Name of the peak associated with a mountain transect</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the peak associated with a mountain transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Number designation for a unique site within a transect that is loosely based on 100m elevation bands</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number designation for a unique site within a transect that is loosely based on 100m elevation bands</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">38.85</minimum>
+                  <maximum exclusive="false">39.01</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>longitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-107.13</minimum>
+                  <maximum exclusive="false">-106.78</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Elevation</attributeName>
+          <attributeDefinition>elevation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2710.5</minimum>
+                  <maximum exclusive="false">4023.25</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>67</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

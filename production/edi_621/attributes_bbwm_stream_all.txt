@@ -1,0 +1,51 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	sampling location (for internal reference)	character				
+watershed	watershed name	categorical				
+ISCO_number	ISCO autosampler container number	character				
+record_type	normal vs. duplicate samples	categorical				
+year	year	numeric	nominalYear		NA	not available
+month	month	numeric	nominalMonth		NA	not available
+day	day sampled	numeric	nominalDay		NA	not available
+hour	hour sampled	numeric	nominalHour		NA	not available
+season	"seasons, determined on a three-month basis"	categorical				
+julian_day	running day for a year	numeric	dimensionless		NA	not available
+running_day_of_project	running day of project	numeric	dimensionless		NA	not available
+Ca_flag	If flagged with '< DL' then data are below the detection limit (0.5 ueq/L). If flagged with '< RL' then data are below the reporting limit (2.5 ueq/L) and should be used with caution.	character				
+Ca_ueq_L	"Calcium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter		NA	not available
+Mg_flag	If flagged with '< DL' then data are below the detection limit (0.8 ueq/L). If flagged with '< RL' then data are below the reporting limit (4.1 ueq/L) and should be used with caution.	categorical				
+Mg_ueq_L	"Magnesium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter		NA	not available
+K_flag	If flagged with '< DL' then data are below the detection limit (0.3 ueq/L). If flagged with '< RL' then data are below the reporting limit (1.3 ueq/L) and should be used with caution.	categorical				
+K_ueq_L	"Potassium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter		NA	not available
+Na_flag	If flagged with '< DL' then data are below the detection limit (0.4 ueq/L). If flagged with '< RL' then data are below the reporting limit (2.2 ueq/L) and should be used with caution.	character				
+Na_ueq_L	"Sodium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter		NA	not available
+Cl_ueq_L	"Chloride, determined by ion chromatography"	numeric	microEquivalentsPerLiter		NA	not available
+SO4_flag	If flagged with '< DL' then data are below the detection limit (0.5 ueq/L). If flagged with '< RL' then data are below the reporting limit (2 ueq/L) and should be used with caution.	character				
+SO4_ueq_L	"Sulfate, determined by ion chromatography"	numeric	microEquivalentsPerLiter		NA	not available
+NO3_flag	Nitrate flag: If flagged with '< DL' then data are below the detection limit (0.1 ueq/L). If flagged with '< RL' then data are below the reporting limit (1.0 ueq/L) and should be used with caution.	categorical				
+NO3_ueq_L	"Nitrate, determined by ion chromatography Detection Limit: 0.1 ueq/L. Reporting Limit: 1.0 ueq/L."	numeric	microEquivalentsPerLiter		NA	not available
+NH4_flag	Ammonium flag: If flagged with '< DL' then data are below the detection limit (0.05 mg/L). If flagged with '< RL' then data are below the reporting limit (0.1  mg/L) and should be used with caution.	categorical				
+NH4_ueq_L	"Ammonium, determined by: - Autoanalyzer (2003 and prior) - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter		NA	not available
+Al_ppb	"Total dissolved aluminum, determined by: Atomic absorption spectroscopy with graphite furnace (1998 and prior), Inductively Coupled Plasma Optical Emission Spectroscopy (ICP-OES) 1999-2015, ICP-Mass Spectrometry (ICP-MS) from 2016"	numeric	microgramsPerLiter		NA	not available
+Al_org_ppb	"Organic aluminum, determined after filtration through exchange resin by:  Atomic absorption spectroscopy with graphite furnace (1998 and prior), Inductively Coupled Plasma Optical Emission Spectroscopy (ICP-OES) 1999-2015, ICP-Mass Spectrometry (ICP-MS) from 2016"	numeric	microgramsPerLiter		NA	not available
+DOC_flag	"Dissolved organic carbon flag, if flagged with '< DL' then data are below the detection limit (0.1 mg/L). If flagged with '< RL' then data are below the reporting limit (0.5 mg/L) and should be used with caution."	categorical				
+DOC_mg_L	"Dissolved organic carbon, determined by infrared carbon analyzer, persulfate oxidation"	numeric	milligramsPerLiter		NA	not available
+DIC_flag	"Dissolved inorganic carbon flag, if flagged with '< DL' then data are below the detection limit (0.1 mg/L). If flagged with '< RL' then data are below the reporting limit (0.5 mg/L) and should be used with caution."	categorical				
+DIC_mg_L	"Dissolved organic carbon, determined by infrared carbon analyzer, persulfate oxidation"	numeric	milligramsPerLiter		NA	not available
+total_N_flag	Total nitrogen flag: If flagged with '< DL' then data are below the detection limit (0.05 mg/L). If flagged with '< RL' then data are below the reporting limit (0.1 mg/L) and should be used with caution.	categorical				
+total_N_ppm	"Total nitrogen, determined by automated colorimetry"	numeric	milligramsPerLiter		NA	not available
+total_P_flag	"Total phosphorus flag, if flagged with '< DL' then data are below the detection limit (0.5 ug/L). If flagged with '< RL' then data are below the reporting limit (1.0 ug/L) and should be used with caution."	categorical				
+total_P_ppb	"Total phosphorus, determined by manual colorimetry"	numeric	microgramsPerLiter		NA	not available
+Si_flag	Silica flag: If flagged with '< DL' then data are below the detection limit (0.1mg/L). If flagged with '< RL' then data are below the reporting limit (0.5 mg/L) and should be used with caution.	categorical				
+Si_mg_L	"Silica, determined by autoanalyzer"	numeric	milligramsPerLiter		NA	not available
+ANC_ueq_L	"Acid-neutralizing capacity, determined by Gran titration. ANC is not measured on most samples, when pH is < 5.5"	numeric	microEquivalentsPerLiter		NA	not available
+sp_conductance_us_cm	"Measured conductivity, determined with a Wheatstone bridge"	numeric	microSiemensPerCentimeter		NA	not available
+discharge_L_sec	stream discharge	numeric	litersPerSecond		NA	not available
+H_ueq_L	hydrogen ions	numeric	microEquivalentsPerLiter		NA	not available
+HCO3_ueq_L	bicarbonate	numeric	microEquivalentsPerLiter		NA	not available
+pH_closed_cell	"closed cell pH, determined by electrode in sealed environment"	numeric	dimensionless		NA	not available
+pH_air_eqll	"Air-equilibrated pH, determined by electrode, with standard air (300 ppm CO2) bubbled in"	numeric	dimensionless		NA	not available
+apparent_color_flag	"Apparent color flag, If flagged with '< RL' then data are below the reporting limit (5 PCU) and should be used with caution."	categorical				
+apparent_color_PCU	"Apparent color, unfiltered sample, determined by 475.5 nm spectrophotometer until 2002 and after June 2004, and by color wheel 2003-June 2004."	numeric	platinumCobaltUnits		NA	not available
+true_color_flag	"True color flag, If flagged with '< RL' then data are below the reporting limit (5 PCU) and should be used with caution."	categorical				
+true_color_PCU	"True Color, determined by Hach Pt-Co color kit or Bausch & Lomb Spectronic 70 spectrophotometer"	numeric	platinumCobaltUnits		NA	not available
+Comment	Notes when analytical holding times were exceeded or when missing values were substituted with calculated alternatives (rarely). Data users should determine applicability of data for these values.	character				

@@ -1,0 +1,5 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+"Field sites were located at the University of Arizona Desert Laboratory at Tumamoc Hill, and at Saguaro National Park Tucson Mountain District and Rincon Mountain District. Sites were all located on rocky slopes that had been invaded by buffel grass for at least a decade without experiencing fire or other major disturbance (Bowers et al. 2006; Abella et al. 2012). The buffel grass patches in the Tucson Mountains and Rincon Mountains had been there for 15-20 years (Abella et al. 2012), and the patch at the Tumamoc Hill study site was approximately 30 years old (Bowers et al. 2006). No livestock have grazed on Tumamoc Hill since 1907, or in Saguaro National park since 1976."	32.339444	32.187222	-110.696667	-111.160556
+University of Arizona's Desert Laboratory at Tumamoc Hill	32.21611111	32.21611111	-111.0027778	-111.0027778
+Saguaro National Park’s Tucson Mountain District	32.33944444	32.33944444	-111.1605556	-111.1605556
+Rincon Mountain District	32.18722222	32.18722222	-110.6966667	-110.6966667

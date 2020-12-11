@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+taxacode	"Unique sample identifier, corresponds to fungal community data"	character				
+taxonomy	Complete taxonomic identification as assigned by BLAST and the UNITE fungal database v 7.0	character				
+Trophic_Mode	Potential functional identification as assigned by Funguild 	character				
+Guild	Potential functional identification as assigned by Funguild 	character				
+Kingdom	Kingdm of corresponding OUT.ID as assigned by BLAST and the UNITE fungal database v 7.0	character				
+Phylum	Phylum of corresponding OUT.ID as assigned by BLAST and the UNITE fungal database v 7.0	character				
+class	Class of corresponding OUT.ID as assigned by BLAST and the UNITE fungal database v 7.0	character				
+Order	Order of corresponding OUT.ID as assigned by BLAST and the UNITE fungal database v 7.0	character				
+Family	Family of corresponding OUT.ID as assigned by BLAST and the UNITE fungal database v 7.0	character				
+Genus	Genus of corresponding OUT.ID as assigned by BLAST and the UNITE fungal database v 7.0	character				
+Species	Species epiphet of corresponding OUT.ID as assigned by BLAST and the UNITE fungal database v 7.0	character				

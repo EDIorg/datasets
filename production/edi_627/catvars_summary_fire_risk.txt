@@ -1,0 +1,7 @@
+attributeName	code	definition
+gcm	CanESM2	CanESM3
+gcm	HadGEM2CC	HadGEM2CC
+gcm	HadGEM2ES	HadGEM2ES
+configuration	clustered	Clustered configuration
+configuration	dispersed	Randomly dispersed configuration
+configuration	no_treatment	No fuels treatment

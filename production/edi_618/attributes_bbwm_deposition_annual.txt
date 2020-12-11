@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+WY	USGS water year (Oct-1 to Sep-30)	numeric	nominalYear			
+H2O_mm	rainfall	numeric	millimeter			
+Ca_eq_ha	calcium	numeric	equivalentsPerHectare			
+Mg_eq_ha	magnesium	numeric	equivalentsPerHectare			
+K_eq_ha	potassium	numeric	equivalentsPerHectare			
+Na_eq_ha	sodium	numeric	equivalentsPerHectare			
+NH4_eq_ha	ammonium	numeric	equivalentsPerHectare			
+NO3_eq_ha	nitrate	numeric	equivalentsPerHectare			
+Cl_eq_ha	chloride	numeric	equivalentsPerHectare			
+SO4_eq_ha	sulfate	numeric	equivalentsPerHectare			
+H_eq_ha	hydrogen ions	numeric	equivalentsPerHectare			
+NH4_mani_eq_ha	ammonium added from the treatment	numeric	equivalentsPerHectare			
+SO4_mani_eq_ha	sulfate added from the treatment	numeric	equivalentsPerHectare			

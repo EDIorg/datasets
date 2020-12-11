@@ -1,0 +1,4 @@
+attributeName	code	definition
+variable	EB	East Bear
+variable	WB	West Bear
+variable	Survey	"data obtained from the Maine Cooperative Snow Survey, Beddington location"

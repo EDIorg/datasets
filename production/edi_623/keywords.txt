@@ -1,0 +1,7 @@
+keyword	keywordThesaurus
+Bear Brook Watershed in Maine	
+BBWM	
+temperate forests	
+soil temperature	
+air temperature	
+HOBO	

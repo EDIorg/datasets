@@ -1,0 +1,5 @@
+Methods copied from
+
+Lynn, J.S., M.R. Kazenel, S.N. Kivlin, and J.A. Rudgers. In press. Context-dependent biotic interactions control plant abundance across altitudinal environmental gradients. Ecography. doi: 10.1111/ecog.04421
+
+We assessed plant community composition using visual cover estimates. We placed a 0.2 m x 0.2 m quadrat every 2.5 m along four 20 m transects per site. In each quadrat, we visually estimated percentage cover of every plant species or bare ground to total 100% (33 plant cover estimates per site). Specimens were collected and identified using Shaw (2008) for grasses and Weber and Wittmann (2012) for non-grasses. We corrected for current taxonomy using the USDA PLANTS Database (USDA and NRCS 2017). Unidentified species (e.g., non-flowering sedges) were morphotyped, assigned unique species codes, and matched to unknowns at other sites. Plant cover for a site was represented by the summed percentage cover estimate across the 33 quadrats (maximum of 3300 if site was 100% vegetated).

@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+RowID	Unique data frame row identifier	character				
+lake_id	Unique lake identifier	character				
+name	Name of lake	character				
+year	Year that applies to corresponding derived stats	numeric	nominalYear			
+mean_sum_DO	Mean hypolimnetic DO for the summer indicated in the year column	numeric	milligramsPerLiter		NA	not available
+mean_sum_temp	Mean hypolimnetic temperature for the summer indicated in the year column	numeric	celsius		NA	not available
+mean_Sum_Per_Sat	Mean hypolimnetic dissolved oxygen percent saturation	numeric	percent		NA	not available

@@ -1,0 +1,3 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+first	definition	numeric	dimensionless			
+second	definition	numeric	dimensionless			

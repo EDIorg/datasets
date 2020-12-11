@@ -1,0 +1,18 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Michael	F	Meyer	"School of the Environment, Washington State University"	michael.f.meyer@wsu.edu	0000-0002-8034-9434	creator			
+Ted		Ozersky	"Large Lakes Observatory, University of Minnesota - Duluth"	tozersky@d.umn.edu	0000-0002-1842-7745	creator			
+Kara	H	Woo	"Center for Environmental Research Education and Outreach, Washington State University"	kara.woo@gmail.com	0000-0002-5125-4188	creator			
+Kirill		Shchapov	"Large Lakes Observatory, University of Minnesota - Duluth"			creator			
+Aaron	W. E.	Galloway	"Oregon Institute of Marine Biology, University of Oregon"		0000-0001-7826-299X	creator			
+Julie	B	Schram	"Oregon Institute of Marine Biology, University of Oregon"		0000-0002-1556-6483	creator			
+Daniel	D	Snow	"School of Natural Resources, University of Nebraska-Lincoln"		0000-0003-0885-0504	creator			
+Maxim	A	Timofeyev	"Biological Research Institute, Irkutsk State University"		0000-0002-5250-6818	creator			
+Dmitry	Yu.	Karnaukhov	"Biological Research Institute, Irkutsk State University"		0000-0002-5379-3484	creator			
+Matthew	R	Brousil	"Center for Environmental Research Education and Outreach, Washington State University"	matthew.brousil@wsu.edu	0000-0001-8229-9445	creator			
+Stephanie	E	Hampton	"Center for Environmental Research Education and Outreach, Washington State University"	s.hampton@wsu.edu	0000-0003-2389-4249	creator			
+Michael	F	Meyer	"School of the Environment, Washington State University"	michael.f.meyer@wsu.edu	0000-0002-8034-9434	contact			
+Stephanie	E	Hampton	"Center for Environmental Research Education and Outreach, Washington State University"	s.hampton@wsu.edu	0000-0003-2389-4249	contact			
+Stephanie	E	Hampton				PI	Dimensions of Biodiversity	NSF	NSF-DEB-1136637
+Michael	F	Meyer				PI	Graduate Research Fellowship	NSF	NSF-DGE-1347973
+Michael	F	Meyer				PI	Fulbright Fellowship	US State Department	
+Maxim	A	Timofeyev				PI		Russian Ministry of Science and Education	N FZZE-2020-0026

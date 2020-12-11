@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.576.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Snowshoe Hare Mark-Recapture Trapping Data from western Montana Summer 1998-2018</title>
+    <creator>
+      <individualName>
+        <givenName>L</givenName>
+        <givenName>S</givenName>
+        <surName>Mills</surName>
+      </individualName>
+      <organizationName>U Montana</organizationName>
+      <electronicMailAddress>scott.mills@umontana.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-8771-509X</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Karen</givenName>
+        <givenName>E</givenName>
+        <surName>Hodges</surName>
+      </individualName>
+      <organizationName>UBC Okanagan</organizationName>
+      <electronicMailAddress>karen.hodges@ubc.ca</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <givenName>V</givenName>
+        <surName>Kumar</surName>
+      </individualName>
+      <organizationName>U Montana</organizationName>
+      <electronicMailAddress>avk36@cornell.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3831-5924</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Marketa</givenName>
+        <surName>Zimova</surName>
+      </individualName>
+      <organizationName>U Montana</organizationName>
+      <electronicMailAddress>marketzimova@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8264-9879</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Paul</givenName>
+        <givenName>C</givenName>
+        <surName>Griffin</surName>
+      </individualName>
+      <organizationName>BLM</organizationName>
+      <electronicMailAddress>pgriffin@blm.gov</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ellen</givenName>
+        <surName>Cheng</surName>
+      </individualName>
+      <organizationName>NPS</organizationName>
+      <electronicMailAddress>ellen_cheng@nps.gov</electronicMailAddress>
+    </creator>
+    <pubDate>2020-07-23</pubDate>
+    <abstract>
+      <para>These data were collected over 21 years from 1998-2018 with trapping primarily occurring from May-August. Snowshoe hares were trapped at 16 different girds spread across two regions (Tally Lake and Seeley Lake). Seeley Lake (Lat. = 47.2degree, Long. = -113.4degree) and Tally Lake (Lat. = 48.5degree, Long. = -114.8degree) are approximately 175 km apart and span similar elevations (approximately 1500-1900 m.a.s.l.). Both areas are managed by the US Forest Service (USFS) with a history of multiple use including timber production and are dominated by moist, coniferous forests of Douglas fir, western larch, subalpine fir, lodgepole pine, Engelmann spruce and Ponderosa pine with a herbaceous understory. Snowshoe hares were trapped during the summer using live-traps. We marked all hares  greater than 500g with a unique numbered ear tag. We weighed all hares, determined sex, measured right hind foot (RHF) length and determined breeding status. Only adult hares (weight  greater than  700g and RHF  greater than  10cm) are included in this dataset.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>snowshoe hare</keyword>
+      <keyword>population cycles</keyword>
+      <keyword>estimation</keyword>
+      <keyword>Montana Snowshoe Hare Research Group</keyword>
+      <keyword>NSF LTREB</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>mark and recapture</keyword>
+      <keyword>boreal forests</keyword>
+      <keyword>demography</keyword>
+      <keyword>density</keyword>
+      <keyword>abundance</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Seeley Lake, MT</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-113.6</westBoundingCoordinate>
+          <eastBoundingCoordinate>-113.3</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35</northBoundingCoordinate>
+          <southBoundingCoordinate>47.09</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Tally Lake, MT</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-114.95</westBoundingCoordinate>
+          <eastBoundingCoordinate>-114.49</eastBoundingCoordinate>
+          <northBoundingCoordinate>48.6</northBoundingCoordinate>
+          <southBoundingCoordinate>48.39</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1998-05-21</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-08-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <givenName>V</givenName>
+        <surName>Kumar</surName>
+      </individualName>
+      <organizationName>U Montana</organizationName>
+      <electronicMailAddress>avk36@cornell.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3831-5924</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Snowshoe hares were trapped during the summer (May-August) 1998-2018 using live-traps (51x18x18 cm, Tomahawk Live Trap Company, Tomahawk, WI) baited with alfalfa cubes and apples, spaced approximately 50m apart. Each of the seven Seeley Lake hare trapping grids consisted of approximately 50 traps, while the nine Tally Lake trapping grids had approximately 80 traps each. Each grid was trapped for 3-5 days each summer, ensuring population closure. We marked all hares  greater than 500g with a unique numbered ear tag. We weighed all hares, determined sex, measured right hind foot length and determined breeding status (lactating or pregnant, testes abdominal or testes scrotal). We also collected ear tissue samples of some hares with a biopsy punch. All capture and handling procedures were approved by the University of Montana Animal Care and Use Committee.  General trapping procedures described in Mills et al. 2005, Journal of Wildlife Management; DOI: 10.2193/0022-541X(2005)069[1053:PCICTM]2.0.CO;2</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>CAREER: Snowshoe hares and lynx in a fragmented landscape: merging demographic and genetic approaches.</title>
+      <personnel>
+        <individualName>
+          <givenName>L</givenName>
+          <givenName>S</givenName>
+          <surName>Mills</surName>
+        </individualName>
+        <organizationName>U Montana</organizationName>
+        <electronicMailAddress>scott.mills@umontana.edu</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0001-8771-509X</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation 9876054</funding>
+      <relatedProject>
+        <title>LTREB: Evaluating Population Cycles and Spatial Synchrony Using Long-Term Demographic and Genetic Data on Snowshoe Hares (MULTIPLE REU SUPPLEMENTS)</title>
+        <personnel>
+          <individualName>
+            <givenName>L</givenName>
+            <givenName>S</givenName>
+            <surName>Mills</surName>
+          </individualName>
+          <organizationName>U Montana</organizationName>
+          <electronicMailAddress>scott.mills@umontana.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0001-8771-509X</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation 841884</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTREB (5-year renewal): Evaluating Population Cycles and Spatial Synchrony Using Long-Term Demographic and Genetic Data on Snowshoe Hares. (MULTIPLE REU SUPPLEMENTS)</title>
+        <personnel>
+          <individualName>
+            <givenName>L</givenName>
+            <givenName>S</givenName>
+            <surName>Mills</surName>
+          </individualName>
+          <organizationName>U Montana</organizationName>
+          <electronicMailAddress>scott.mills@umontana.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0001-8771-509X</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation 1354449 and 1743871</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Snowshoe hare response to thinning.</title>
+        <personnel>
+          <individualName>
+            <givenName>L</givenName>
+            <givenName>S</givenName>
+            <surName>Mills</surName>
+          </individualName>
+          <organizationName>U Montana</organizationName>
+          <electronicMailAddress>scott.mills@umontana.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0001-8771-509X</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Plum Creek Timber Co.</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>hare recapture data</entityName>
+      <entityDescription>Snowshoe Hare Mark-Recapture Trapping Data</entityDescription>
+      <physical>
+        <objectName>LTREB_1998-2018_to_EDI.csv</objectName>
+        <size unit="bytes">341934</size>
+        <authentication method="MD5">518d1c0fc39f64ec265f925f197fd90d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Region</attributeName>
+          <attributeDefinition>Region that the trapping grid occurred in</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Tally</code>
+                    <definition>Tally lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Seeley</code>
+                    <definition>Seeley lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>seeley</code>
+                    <definition>seeley lake</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Grid</attributeName>
+          <attributeDefinition>Name of trapping grid</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of trapping grid</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tag_R</attributeName>
+          <attributeDefinition>Unique eartag number for each adult snowshoe hare.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique eartag number for each adult snowshoe hare.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Trap_Date</attributeName>
+          <attributeDefinition>Date of capture</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tissue</attributeName>
+          <attributeDefinition>Was an ear-punch biopsy sample taken from that individual hare on that date (archived for DNA extraction)?</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sex</attributeName>
+          <attributeDefinition>Sex of adult hare</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>male</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Weight_g</attributeName>
+          <attributeDefinition>Weight of adult hare</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">700</minimum>
+                  <maximum exclusive="false">1950</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Repro</attributeName>
+          <attributeDefinition>Reproductive status of adult hare. Males are either testes abdominal or testes scrotal. All other statuses apply to females.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Testes Abdominal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Lactating</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NL</code>
+                    <definition>Non-Lactating</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NP</code>
+                    <definition>Not Pregnant</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Pregnant</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P NL</code>
+                    <definition>Pregnant Non-Lactating</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PL</code>
+                    <definition>Pregnant Lactating</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Testes Scrotal</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RHF</attributeName>
+          <attributeDefinition>Length of right hind foot of adult hare</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">10</minimum>
+                  <maximum exclusive="false">15.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Trap_ID</attributeName>
+          <attributeDefinition>Identity of the trap site where the hare was captured. Typically Seeley grids are arranged in a grid with rows A-E and columns 1-10, but there are exceptions. Typically Tally grids are arranged in a grid with rows A-H and columns 1-10, but there are exceptions. Trap spacing is approximately 50m.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Identity of the trap site where the hare was captured. Typically Seeley grids are arranged in a grid with rows A-E and columns 1-10, but there are exceptions. Typically Tally grids are arranged in a grid with rows A-H and columns 1-10, but there are exceptions. Trap spacing is approximately 50m.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DEAD</attributeName>
+          <attributeDefinition>Was the hare deceased after capturing and/or handling?</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FALSE</code>
+                    <definition>FALSE</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRUE</code>
+                    <definition>TRUE</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>6084</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

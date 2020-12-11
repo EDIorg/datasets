@@ -1,0 +1,3 @@
+attributeName	code	definition
+dom_graze	FALSE	grazers not present
+dom_graze	TRUE	grazers present

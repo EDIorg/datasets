@@ -1,0 +1,19 @@
+attributeName	code	definition
+Site	Rincon 	 Rincon Mountain site
+Site	Tucson 	 Tucson Mountain site
+Site	Tumamoc 	 Tumamoc Hill site
+Species	ABIN	Abutilon incanum
+Species	AMBI	Ambiguous whether ABIN or MAPA
+Species	CAGI	Carnegiea gigantea
+Species	ENFA	Encelia farinosa
+Species	MAPA	Marina parryi
+Species	NAGR	Native grass (Poaceae)
+Species	NONE	Not identified or recorded
+Species	OPSP	Opuntia sp.
+Species	PAMI	Parkinsonia microphylla
+Species	SECO	Senna covesii
+Species	SIAB	Sida abutifolia
+Species	SPLA	Spheralcea sp.
+Treatment	Buffel	buffel grass remaining on and around 2m x 2m plot 
+Treatment	Removed	buffel grass removed within the 2m x 2m plot and within 1m of edge 
+Treatment	Uninvaded	"comparison 2m x 2m plot established near buffel grass invasion, but naturally lacking buffel grass within 1m of the edge of the plot"

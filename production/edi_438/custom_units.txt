@@ -1,0 +1,11 @@
+id	unitType	parentSI	multiplierToSI	description
+cubicCentimeter	volume			
+gramsPerKilogram	massPerMass			
+milligramsPerGram	massPerMass			
+metersPerGram	massPerMass			
+millimetersPerGram	massPerMass			
+megagramsPerHectare	massPerArea			
+milligramsPerKilogram	massPerMass			
+micromolesPerMolPerSecond	flux			
+permill	concentration			
+nanomolesPerGramPerHour	flux			

@@ -1,0 +1,5 @@
+attributeName	code	definition
+site	AERSU	summit
+site	AERCA	mid-elevation camp
+site	AEREA	East Bear AEROCHEM
+record_type	REG	regular

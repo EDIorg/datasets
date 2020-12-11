@@ -1,0 +1,8 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+"The stock tanks and natural sites are located within, and around Calnali, Mexico, within the state of Hidalgo. "	20.990843	20.89225	-98.371958	-98.640716
+Lowland Stock Tank	20.990843	20.990843	-98.371958	-98.371958
+Acuapa (ACUA)	20.95337	20.95337	-98.56918	-98.56918
+Midland Stock Tank	20.898012	20.898012	-98.60155	-98.60155
+Rio CICHAZ Aguazarca (AGZC)	20.898598	20.898598	-98.601955	-98.601955
+Highland Stock Tank	20.89225	20.89225	-98.640716	-98.640716
+Tlatemaco (TLMC)	20.926496	20.926496	-98.788209	-98.788209

@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+hobo	File name of the hobo device used	character				
+site	"Three letter code describing where the data was collected. High, medium, and low land stock tanks."	character				
+date	Date and time that the data was collected	Date		YYYY-MM-DD hh:mm:ss		
+temp	"Water temperature recorded by data logger, in Celsius."	numeric	celsius			

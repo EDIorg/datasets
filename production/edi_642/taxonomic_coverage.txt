@@ -1,0 +1,4 @@
+name	name_type	name_resolved	authority_system	authority_id
+Parkinsonia microphylla	scientific	Parkinsonia microphylla	ITIS	26828
+Cenchrus ciliaris	scientific	Cenchrus ciliaris	ITIS	40574
+Ambrosia deltoidea	scientific	Ambrosia deltoidea	ITIS	36505

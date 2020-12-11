@@ -1,0 +1,45 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SampleID	"Unique sample identifier, corresponds to fungal taxa assignment"	character				
+Block	Experimental blocking units as part of the NutNet experiment (1-5)	character				
+Subplot	subplot of the experimental nutnet expeiemnt (a-d)	character				
+plot	experimental plots of the NutNet experiment (1-60)	character				
+Plant	replicate plant collected within a plot (1-2)	character				
+Date_collected	Collection data of leaf samples	Date		YYYY-MM-DD		
+N	"Nitrogen addition applied (0 no, 1 yes)"	categorical				
+P	"Phosphorus addiition applied (0 no, 1 yes)"	categorical				
+K	"potassium plus micronutrients addition applied (0 no, 1 yes)"	categorical				
+trt	"experimental treatment (Nitrogen, phosphorus, potassium plus micronutrients)"	categorical				
+andger_cover2013	percent relative cover of Andropogon gerardii in 2013 (year prior to collection)	numeric	percent			
+andger_cover2014	percent relative cover of Andropogon gerardii in 2014 (year of collection)	numeric	percent			
+total_cover	total plant cover within each plot	numeric	percent			
+rich	plant richness	numeric	numberPerMeterSquared			
+plot_beta	plot beta-diversity	numeric	dimensionless			
+dead_mass	sum of litter biomass collected in August 2014	numeric	gramsPerSquareMeter			
+live_mass	sum of live plant biomass collected in Aug 2014	numeric	gramsPerSquareMeter			
+total_mass	litter + live plant biomass	numeric	gramsPerSquareMeter			
+pct_C	pre-treatment soil percent Carbon by mass	numeric	percent			
+pct_N	pre-treatment soil % Nitrogen by mass	numeric	percent			
+ppm_P	pre-treatment soil phosphorus by mass (ppm)	numeric	partsPerMillion			
+ppm_K	pre-treatment soil potassium by mass (ppm)	numeric	partsPerMillion			
+ppm_Ca	pre-treatment soil calcium by mass (ppm)	numeric	partsPerMillion			
+ppm_Mg	pre-treatment soil magnesium by mass (ppm)	numeric	partsPerMillion			
+ppm_S	pre-treatment soil sulfur by mass (ppm)	numeric	partsPerMillion			
+ppm_Na	pre-treatment soil sodium by mass (ppm)	numeric	partsPerMillion			
+ppm_Zn	pre-treatment soil zinc by mass (ppm)	numeric	partsPerMillion			
+ppm_Mn	pre-treatment soil manganese by mass (ppm)	numeric	partsPerMillion			
+ppm_Fe	pre-treatment soil iron by mass (ppm)	numeric	partsPerMillion			
+ppm_Cu	pre-treatment soil copper by mass (ppm)	numeric	partsPerMillion			
+ppm_B	pre-treatment soil boron by mass (ppm)	numeric	partsPerMillion			
+pH	pre-treatment soil pH	numeric	dimensionless			
+rich_vegan	plot plant species richness as derived from analysis of plot-species matrix using R package VEGAN	numeric	numberPerMeterSquared			
+shan	Shannon-Weiner plant diversity index derived from analysis of plot-species matrix using R package VEGAN	numeric	dimensionless			
+inv_simpson	plant inverse simpson index derived from analysis of plot-species matrix using R package VEGAN	numeric	dimensionless			
+even	evenness = plant shannon diversity / log(S)	numeric	dimensionless			
+funrich	leaf level fungal species richness as derived from analysis of plot-species matrix using R package VEGAN	numeric	numberPerMeterSquared			
+shan_fun	leaf-level Shannon-Weiner fungal diversity index derived from analysis of plot-species matrix using R package VEGAN	numeric	dimensionless			
+funinvsimp	leaf level fungal inverse simpson index derived from analysis of plot-species matrix using R package VEGAN	numeric	dimensionless			
+rich_rarefy	rarefied fungal richness at 1424 read copy numbers	numeric	dimensionless			
+fun_even	fungal evenness = fungal shannon diversity / log(S)	numeric	dimensionless			
+sp_abund	sum of total read copy numbers per leaf sample	numeric	number			
+PC1	first principal component of all soil properties using R package VEGAN	numeric	dimensionless			
+PC2	second principal component of all soil properties using R package VEGAN	numeric	dimensionless			

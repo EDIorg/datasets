@@ -1,0 +1,9 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Kaizad	F.	Patel	Pacific Northwest National Laboratory	kaizad.patel@pnnl.gov	0000-0001-6437-7809	creator			
+Vaclav		Tejnecky	Czech University of Life Sciences	tejnecky@af.czu.cz		creator			
+Tsutomu		Ohno	University of Maine	ohno@maine.edu		creator			
+Vanessa	L.	Bailey	Pacific Northwest National Laboratory	Vanessa.Bailey@pnnl.gov		creator			
+Rachel	L.	Sleighter	Old Dominion University	RSleight@odu.edu		creator			
+Patrick	G.	Hatcher	Old Dominion University	PHatcher@odu.edu		creator			
+Kaizad	F.	Patel	Pacific Northwest National Laboratory	kaizad.patel@pnnl.gov	0000-0001-6437-7809	contact			
+Tsutomu		Ohno	University of Maine	ohno@maine.edu		contact			

@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+PlotID	Specific 2m x 2m study plot on which the seedling emerged (each line in the table representing a single seedling in the data set)	character				
+mm_precip_total	Total millimeters of rain during the ten weeks of censuses at each site. A single digital rain gauge that tallied cumulative rainfall was set up in a representative location in the middle of the study plots at each site at the start of the censuses	numeric	millimeter		NA	not available
+Seedlings_total	Total number of seedlings marked that emerged on the plot over the ten weeks of censuses	numeric	number		NA	not available
+Site	"Field site of seedling that was recorded on a study plot. Each line is a distinct seedling marked and numbered, and the site refers to which main location (the Rincon Mountain site, the Tucson Mountain site, or the Tumamoc Hill site)"	categorical				
+SpeciesID	Four-letter code for best guess of seedling's species	categorical				
+Plot_treatment	Plot treatment level within the removal experiment	categorical				
+Week_germinated	Census date seedling was first recorded	numeric	number		NA	not available
+Min_known_weeks_surviving	Minimum number of weeks the seedling survived based on how many times it was recorded; assumes once it is no longer recorded (even if study period ended) it died afterwards	numeric	number		NA	not available
+Max_known_weeks_surviving	"Maximum number of weeks the seedling survived within the 10-week study period, assuming optimistic outcomes for seedlings not recorded living or dead by assuming they were live and missed in the census"	numeric	number		NA	not available
+Recorded_dead	Whether or not the seedling was found dead with its marking pin still identifying it	numeric	number		NA	not available

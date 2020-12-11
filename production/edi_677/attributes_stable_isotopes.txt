@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+C13	Carbon-13 (?13C) values	numeric	partsPerMillion		NA	not available
+N15	Nitrogen-15 (?15N) values	numeric	partsPerMillion		NA	not available
+site	Locational identifier for each sampling site	character				
+Genus	Amphipod genus or Periphyton 	character				
+Species	Amphipod species	character				
+comments	comments	character				

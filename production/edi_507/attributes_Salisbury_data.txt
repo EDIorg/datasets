@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year given as a four digit number	numeric	nominalYear			
+pH	pH	numeric	dimensionless		NA	not available
+omega	Aragonite saturation ratio	numeric	dimensionless		NA	not available

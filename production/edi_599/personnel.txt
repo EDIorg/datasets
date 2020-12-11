@@ -1,0 +1,34 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Eric	W	Seabloom	University of Minnesota	seabloom@umn.edu	https://orcid.org/0000-0001-6780-9259	creator			
+Peter	B	Adler	Utah State University			creator			
+Juan		Alberti	Instituto de Investigaciones Marinas y Costeras			creator			
+Lori		Biederman	Iowa State University			creator			
+Yvonne	M	Buckley	Trinity College Dublin			creator			
+Marc	W	Cadotte	University of Toronto-Scarborough			creator			
+Scott	L	Collins	University of New Mexico			creator			
+Laura		Dee	University of Colorado Boulder			creator			
+Philip	A	Fay	"USDA-ARS Grassland, Soil, and Water Laboratory"			creator			
+Jennifer		Firn	Queensland University of Technology			creator			
+Nicole		Hagenah	University of Pretoria			creator			
+W	Stanley	Harpole	"Helmholtz Center for Environmental Research – UFZ, German Centre for Integrative Biodiversity Research, Martin Luther University Halle-Wittenberg"			creator			
+Yann		Hautier	Utrecht University			creator			
+Andy		Hector	University of Oxford			creator			
+Sarah	E	Hobbie	University of Minnesota			creator			
+Forest		Isbell	University of Minnesota			creator			
+Johannes	M. H.	Knops	Xi’an Jiaotong-Liverpool University			creator			
+Kimberly	J	Komatsu	Smithsonian Environmental Research Center			creator			
+Ramesh		Laungani	Doane University			creator			
+Andrew		MacDougall	University of Guelph			creator			
+Rebecca	L	McCulley	University of Kentucky			creator			
+Joslin	L	Moore	Monash University			creator			
+John	W	Morgan	La Trobe University			creator			
+Timothy		Ohlert	University of New Mexico			creator			
+Suzanne	M	Prober	CSIRO Land and Water			creator			
+Anita	C	Risch	"Swiss Federal Institute for Forest, Snow and Landscape Research WSL"			creator			
+Martin		Schuetz	"Swiss Federal Institute for Forest, Snow and Landscape Research WSL"			creator			
+Carly	J	Stevens	Lancaster University			creator			
+Elizabeth	T	Borer	University of Minnesota			creator			
+Eric	W	Seabloom	University of Minnesota	seabloom@umn.edu	https://orcid.org/0000-0001-6780-9259	contact			
+Elizabeth	T	Borer	University of Minnesota		https://orcid.org/0000-0003-2259-5853	PI	"RCN:Coordination ofthe NutrientNetwork(NutNet), globalmanipulationsof nutrients andconsumers"	National Science Foundation Research Coordination Network	NSF-DEB-1042132
+Elizabeth	T	Borer	University of Minnesota		https://orcid.org/0000-0003-2259-5853	PI	"LTER: Biodiversity, Multiple Drivers of Environmental Change and Ecosystem Functioning at the Prairie Forest Border"	Long Term Ecological Research	"NSF-DEB-1234162, DEB-1831944"
+Elizabeth	T	Borer	University of Minnesota		"https://orcid.org/0000-0003-2259-5853,"	PI	no title	University of Minnesota’s Institute on the Environment	DG-0001-13

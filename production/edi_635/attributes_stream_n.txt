@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Watershed	Watershed/sampling location	character				
+Year	Year sampled	numeric	nominalYear		NA	not available
+Month	Month sampled	numeric	nominalMonth		NA	not available
+Day	Day sampled	numeric	nominalDay		NA	not available
+NO3_ueq_L	Stream nitrate	numeric	microequivalentPerLiter		NA	not available
+NO3_N_mg_L	Stream nitrate	numeric	milligramsPerLiter		NA	not available

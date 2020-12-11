@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site_ID	Unique identifier for each sampling location	character				
+Landcover	"Landcover of the site: Forest, Grassland, Open Space, Residential Lawn, or Residential Garden"	character				
+SoilSig_Presence	Whether or not the characteristic soil signature left by jumping worms was present at the site (Yes/No)	character				
+JumpingWorm_Presence	Whether or not jumping worms were seen anywhere within the site (Yes/No)	character				
+Pour1_Density	The number of jumping worms recovered from the first mustard pour	numeric	number		NA	not available
+Pour2_Density	The number of jumping worms recovered from the second mustard pour	numeric	number		NA	not available
+Pour3_Density	The number of jumping worms recovered from the third mustard pour	numeric	number		NA	not available
+Pour1_EuropeanEarthworm_Presence	Whether or not any European earthworms (e.g. non-jumping worm species) were observed within the first mustard pour (Yes/No)	character				
+Pour2_EuropeanEarthworm_Presence	Whether or not any European earthworms (e.g. non-jumping worm species) were observed within the second mustard pour (Yes/No)	character				
+Pour3_EuropeanEarthworm_Presence	Whether or not any European earthworms (e.g. non-jumping worm species) were observed within the third mustard pour (Yes/No)	character				
+Abundance_Tok	The number of recovered jumping worms from this site identified as Amynthas tokioensis	numeric	number		NA	not available
+Abundance_Agr	The number of recovered jumping worms from this site identified as Amynthas agrestis	numeric	number		NA	not available
+Abundance_unk	"The number of recovered jumping worms from this site that were unable to be identified to species (due to lack of visible markings), but that were corrected identified as jumping worms"	numeric	number		NA	not available
+Abundance_Mh	The number of recovered jumping worms from this site identified as Metaphire hilgendorfi	numeric	number		NA	not available

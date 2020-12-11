@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Plant	plant ID within pot	character				
+Tub	Pot seedling was grown in (each line is a seedling)	character				
+Block	"Spatial block, in which one of each treatment level (mature plant presence) was placed together to eliminate artifacts from spatial heterogeneity "	character				
+Radius	Which concentric ring around buffel grass adult seedling was in. Value of 1-4 for four concentric rings of seedlings in first experiment	character				
+Position	Cardinal direction of seedling from buffel grass within a pot	categorical				
+Vigor	Subjective score of seedling’s perceived vigor at harvesting on day 38	categorical				
+Height	Height from soil surface to highest point	numeric	centimeter		NA	not available
+Depth	Length of longest root upon harvesting	numeric	centimeter		NA	not available
+DryMass	Biomass after seedling was dried in drying oven 	numeric	milligram		NA	not available

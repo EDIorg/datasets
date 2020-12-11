@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.623.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>The Bear Brook Watershed in Maine, USA: Long-term soil temperature 2001 - 2016</title>
+    <creator>
+      <individualName>
+        <givenName>Kaizad</givenName>
+        <givenName>F.</givenName>
+        <surName>Patel</surName>
+      </individualName>
+      <organizationName>Pacific Northwest National Laboratory</organizationName>
+      <electronicMailAddress>kaizad.patel@pnnl.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-6437-7809</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ivan</givenName>
+        <givenName>J.</givenName>
+        <surName>Fernandez</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>ivanjf@maine.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7220-2205</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <givenName>J.</givenName>
+        <surName>Nelson</surName>
+      </individualName>
+      <organizationName>University of Maine; Appalachian Mountain Club</organizationName>
+      <electronicMailAddress>snelson@outdoors.org</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3000-7521</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Cheryl</givenName>
+        <givenName>J.</givenName>
+        <surName>Spencer</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>rpt372@maine.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <givenName>A.</givenName>
+        <surName>Norton</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>norton@maine.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2020-10-02</pubDate>
+    <abstract>
+      <para>This dataset includes 15-year soil temperature records for the Bear Brook Watershed in Maine (BBWM). Onset HOBO™️ data loggers were installed in the hardwood as well as softwood stands of the two watersheds, and air and soil temperatures were recorded from 2001 to 2016. Soil temperature data are available for the organic horizon and for 10 and 25 cm depths in the mineral horizon, at a three-hour timestep.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Bear Brook Watershed in Maine</keyword>
+      <keyword>BBWM</keyword>
+      <keyword>temperate forests</keyword>
+      <keyword>HOBO</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>soil temperature</keyword>
+      <keyword>air temperature</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>BBWM is located in eastern Maine, USA at an elevation of 450.8 m. Soils are coarse-loamy, mixed, frigid Typic and Aquic Haplorthods. Bedrock consists dominantly of quartzite, phyllite, and calc-silicate low-grade metasediments, and minor granite dikes. The lower elevations are dominated by hardwood stands, and the upper elevations are dominated by softwood stands. The site is located in the Acadian Plains and Hills (82) Level III Ecoregion (Omernik et al. https://www.epa.gov/eco-research/ecoregions).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-68.1</westBoundingCoordinate>
+          <eastBoundingCoordinate>-68.1</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.87</northBoundingCoordinate>
+          <southBoundingCoordinate>44.87</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Kaizad</givenName>
+        <givenName>F.</givenName>
+        <surName>Patel</surName>
+      </individualName>
+      <organizationName>Pacific Northwest National Laboratory</organizationName>
+      <electronicMailAddress>kaizad.patel@pnnl.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-6437-7809</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ivan</givenName>
+        <givenName>J.</givenName>
+        <surName>Fernandez</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>ivanjf@maine.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7220-2205</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Air and soil temperature were measured from 2001 to 2015 at three soil depths -- surface (organic soil), and 10 and 25 cm in the mineral soil, in both watersheds, and in both the hardwood and softwood forest types. Temperature measurements were recorded every three hours using Onset HOBO sensors (Onset Computer Corporation, Bourne, MA, USA). Soil moisture measurements are available from 2003 to 2016. Soil moisture was recorded every three hours at 10 and 25 cm depths using HOBO™️ Micro Station data loggers equipped with 10HS Smart Sensors (Onset Computer Corporation, Bourne, MA, USA). Additional processing details can be found in Fernandez et al. 2007 (https://digitalcommons.library.umaine.edu/aes_techbulletin/1/) and Patel et al. 2018 (DOI: 10.1038/sdata.2018.153).</para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>Air temperature</entityName>
+      <entityDescription>Air temperature at a three-hour interval</entityDescription>
+      <physical>
+        <objectName>bbwm_airtemp_3hour.csv</objectName>
+        <size unit="bytes">9876895</size>
+        <authentication method="MD5">d8cf9ef19d42aaead0ffd827c3cc3285</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2001</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>day</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>time</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2159</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HOBO</attributeName>
+          <attributeDefinition>HOBO data logger code, describing the watershed and forest type. EB = East Bear, WB = West Bear, HW = hardwood, SW = softwood</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>HOBO data logger code, describing the watershed and forest type. EB = East Bear, WB = West Bear, HW = hardwood, SW = softwood</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_C</attributeName>
+          <attributeDefinition>air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-36.46</minimum>
+                  <maximum exclusive="false">37.88</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>322191</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Mineral soil temperature (10 cm depth)</entityName>
+      <entityDescription>Mineral soil temperature (10 cm depth) at a three-hour interval</entityDescription>
+      <physical>
+        <objectName>bbwm_soiltemp_min10_3hour.csv</objectName>
+        <size unit="bytes">9396280</size>
+        <authentication method="MD5">616d19cee290e0a212f25ac344179c80</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2001</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>day</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>time</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HOBO</attributeName>
+          <attributeDefinition>HOBO data logger code, describing the watershed and forest type. EB = East Bear, WB = West Bear, HW = hardwood, SW = softwood</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>HOBO data logger code, describing the watershed and forest type. EB = East Bear, WB = West Bear, HW = hardwood, SW = softwood</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mintemp10_C</attributeName>
+          <attributeDefinition>mineral soil temperature at 10 cm depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-8.91</minimum>
+                  <maximum exclusive="false">21.33</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>310090</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Mineral soil temperature (25 cm depth)</entityName>
+      <entityDescription>Mineral soil temperature (25 cm depth) at a three-hour interval</entityDescription>
+      <physical>
+        <objectName>bbwm_soiltemp_min25_3hour.csv</objectName>
+        <size unit="bytes">9941590</size>
+        <authentication method="MD5">c179e504b6a9f46d423692e1c7da2966</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2001</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>day</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>time</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2159</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HOBO</attributeName>
+          <attributeDefinition>HOBO data logger code, describing the watershed and forest type. EB = East Bear, WB = West Bear, HW = hardwood, SW = softwood</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>HOBO data logger code, describing the watershed and forest type. EB = East Bear, WB = West Bear, HW = hardwood, SW = softwood</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mintemp25_C</attributeName>
+          <attributeDefinition>mineral soil temperature at 25 cm depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-2.44</minimum>
+                  <maximum exclusive="false">20.19</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>329019</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Organic soil temperature</entityName>
+      <entityDescription>Organic soil temperature at a three-hour interval</entityDescription>
+      <physical>
+        <objectName>bbwm_soiltemp_org_3hour.csv</objectName>
+        <size unit="bytes">9826060</size>
+        <authentication method="MD5">80a51494ae69e7a3368fc7034bab8ac2</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2001</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>day</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>time</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2159</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HOBO</attributeName>
+          <attributeDefinition>HOBO data logger code, describing the watershed and forest type. EB = East Bear, WB = West Bear, HW = hardwood, SW = softwood</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>HOBO data logger code, describing the watershed and forest type. EB = East Bear, WB = West Bear, HW = hardwood, SW = softwood</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>orgtemp_C</attributeName>
+          <attributeDefinition>organic soil temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-11.7</minimum>
+                  <maximum exclusive="false">31.12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>322961</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="nominalMonth" multiplierToSI="" name="nominalMonth" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

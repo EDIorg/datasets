@@ -1,0 +1,12 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Pacifica		Sommers	"University of Arizona (Tucson, AZ) and University of Colorado Boulder (Boulder, CO)"	Pacifica.somers@colorado.edu	http://orcid.org/0000-0002-7797-7341	creator			
+Ashley		Davis	"University of Arizona (Tucson, AZ) and Arizona State University (Tempe, AZ)"	ardavi23@asu.edu		creator			
+Peter		Chesson	"University of Arizona (Tucson, AZ) and National Chung Hsing University (Taichung, Taiwan)"	pchesson@email.arizona.edu	http://orcid.org/0000-0001-8931-8012	creator			
+Pacifica		Sommers	"University of Arizona (Tucson, AZ) and University of Colorado Boulder (Boulder, CO)"	Pacifica.somers@colorado.edu	http://orcid.org/0000-0002-7797-7341	contact			
+Peter		Chesson	"University of Arizona (Tucson, AZ) and National Chung Hsing University (Taichung, Taiwan)"	pchesson@email.arizona.edu	http://orcid.org/0000-0001-8931-8012	contact			
+Timothy		Mettler	University of Arizona	tmettlergcc@gmail.com		"Watered pots, data entry"			
+Racheal		Gutridge	University of Arizona	rachealg@email.arizona.edu		"Watered pots, data entry"			
+Johanna		Ouanzin	University of Arizona	johannaouanzin@email.arizona.edu		"Watered pots, data entry"			
+Abreeza		Zegeer	University of Arizona	azegeer@cals.arizona.edu		Assisted with soil collection and set up			
+Peter		Chesson			http://orcid.org/0000-0001-8931-8012	PI	Extended multitrophic diversity maintenance theory	National Science Foundation Division of Environmental Biology	1353715
+Pacifica		Sommers			http://orcid.org/0000-0002-7797-7341	PI	The role of herbivory and competition in the dominance of a non-native grass	Western National Park Association	13-07

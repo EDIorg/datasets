@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year sampled	numeric	nominalYear		NA	not available
+Month	Month sampled	numeric	nominalMonth		NA	not available
+Day	Day sampled	numeric	nominalDay		NA	not available
+variable	Data collection location/source	categorical				
+depth_cm	Snowpack depth	numeric	centimeter		NA	not available

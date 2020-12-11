@@ -1,0 +1,5 @@
+attributeName	code	definition
+Watershed	EB	East Bear
+Watershed	WB	West Bear
+Forest	HW	hardwood
+Horizon	O	O (organic) horizon

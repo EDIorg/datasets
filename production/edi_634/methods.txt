@@ -1,0 +1,3 @@
+﻿Organic soils were collected from hardwood (HW) and softwood (SW) stands at the Bear Brook Watershed in Maine and homogenized. The soils were extracted with deionized water. Half the extracts were subjected to the Fenton oxidation reaction by reacting with hydrogen peroxide at pH 3. Reacted and unreacted extracts were then shaken with goethite for an adsorption experiment. The pre-Fenton and post-Fenton, pre-Goethite and post-Goethite extracts were analyzed for the chemical composition using ESI-Fourier Transform Ion Cyclotron Resonance Mass Spectrometry (FT-ICR-MS). Detailed methods can be found in the corresponding manuscript title (doi: 10.1016/j.geoderma.2020.114805). 
+
+Processing script and workflow are hosted on GitHub (doi: 10.5281/zenodo.4202452)

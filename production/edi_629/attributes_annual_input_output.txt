@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+WY	"Year, on a water year basis (Oct-1 to Sep-31)"	numeric	nominalYear			
+Watershed	Watershed	categorical				
+S_input_kg_ha_yr	Total sulfur deposition (input flux)	numeric	kilogramsPerHectarePerYear		NA	not available
+N_input_kg_ha_yr	Total nitrogen deposition (input flux)	numeric	kilogramsPerHectarePerYear		NA	not available
+S_output_kg_ha_yr	Total stream sulfur output flux	numeric	kilogramsPerHectarePerYear		NA	not available
+N_output_kg_ha_yr	Total stream nitrogen output flux	numeric	kilogramsPerHectarePerYear		NA	not available
+S_retention_kg_ha_yr	"Net ecosystem sulfur retention, input - output"	numeric	kilogramsPerHectarePerYear		NA	not available
+N_retention_kg_ha_yr	"Net ecosystem nitrogen retention, input - output"	numeric	kilogramsPerHectarePerYear		NA	not available
+S_cum_retention_kg_ha_yr	Cumulative ecosystem sulfur retention	numeric	kilogramsPerHectarePerYear		NA	not available
+N_cum_retention_kg_ha_yr	Cumulative ecosystem nitrogen retention	numeric	kilogramsPerHectarePerYear		NA	not available

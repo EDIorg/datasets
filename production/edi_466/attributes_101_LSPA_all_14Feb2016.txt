@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+stream_no	Stream location identifier	character				
+logger	Logger identification number	character				
+date_time	Datetime stamp of recorded data	Date		YYYY-MM-DD hh:mm:ss		
+date	Date of recorded data	Date		YYYY-MM-DD		
+hour	Hour of recorded data	numeric	dimensionless		NA	not availabel
+minute	Minute of recorded data	numeric	dimensionless		NA	not availabel
+abs_pres_kpa	Reference transducer pressure reading (reference pressure)	numeric	kilopascal		NA	not availabel
+temp_C	Reference transducer temperature reading (air temperature)	numeric	celsius		NA	not availabel
+fileorig	Raw HOBOware export file name	character			NA	not availabel
+batt	Battery level	numeric	volt		NA	not availabel

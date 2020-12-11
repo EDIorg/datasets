@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.464.1"
+  xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  http://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd"
+  system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst"
+    scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Institutional Collaboration in the US LTER Network based on bibliometric information
+      (1981-2018)</title>
+    <creator>
+      <individualName>
+        <givenName>Tian-Yuan</givenName>
+        <surName>Huang</surName>
+      </individualName>
+      <organizationName>School of Life Science, Fudan University</organizationName>
+      <electronicMailAddress>huang.tian-yuan@qq.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-3591-4203</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Bin</givenName>
+        <surName>Zhao</surName>
+      </individualName>
+      <organizationName>Ministry of Education Key Laboratory for Biodiversity Science and Ecological
+        Engineering, Coastal Ecosystems Research Station of the Yangtze River Estuary, and Shanghai
+        Institute of EcoChongming (SIEC), Fudan University</organizationName>
+      <electronicMailAddress>zhaobin@fudan.edu.cn</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Martha</givenName>
+        <givenName>R.</givenName>
+        <surName>Downs</surName>
+      </individualName>
+      <organizationName>Long Term Ecological Research Network Office, National Center for Ecological
+        Analysis and Synthesis, University of California - Santa Barbara, USA</organizationName>
+      <electronicMailAddress>downs@nceas.ucsb.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-2833-956X</userId>
+    </creator>
+    <pubDate>2020-01-23</pubDate>
+    <abstract>
+      <para> This is a dataset of supplementary materials of an accepted article in Bioscience
+        entitled "Collaboration across time and space in LTER Network". It is based on the
+        bibliography data maintained by LTER Network Office
+        (https://www.zotero.org/groups/2055673/lter_network/items). The analysis was carried out in
+        2019 with the updated data collecting from individual sites. The dataset contains the basic
+        information that the analysis relies on, and the temporal and spatial patterns of
+        institutional collaboration in the US LTER Network. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>LTER</keyword>
+      <keyword>collaboration</keyword>
+      <keyword>bibliography</keyword>
+      <keyword>LTER LNO</keyword>
+      <keyword>institutional collaboration</keyword>
+      <keyword>US Lont-Term Ecological Research Network</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para> This information is released under the Creative Commons license - Attribution - CC BY
+        (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User"
+        herein) is required to cite it appropriately in any publication that results from its use.
+        The Data User should realize that these data may be actively used by others for ongoing
+        research and that coordination may be necessary to prevent duplicate publication. The Data
+        User is urged to contact the authors of these data if any questions about methodology or
+        results occur. Where appropriate, the Data User is encouraged to consider collaboration or
+        co-authorship with the authors. The Data User should realize that misinterpretation of data
+        may occur if used out of context of the original study. While substantial efforts are made
+        to ensure the accuracy of data and associated documentation, complete accuracy of data sets
+        cannot be guaranteed. All data are made available "as is." The Data User should be aware,
+        however, that data are updated periodically and it is the responsibility of the Data User to
+        check for new versions of the data. The data authors and the repository where these data
+        were obtained shall not be liable for damages resulting from any use or misinterpretation of
+        the data. Thank you. </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>US Long-Term Ecological Research Sites</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-171</westBoundingCoordinate>
+          <eastBoundingCoordinate>177</eastBoundingCoordinate>
+          <northBoundingCoordinate>72.8</northBoundingCoordinate>
+          <southBoundingCoordinate>-79</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1981-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Martha</givenName>
+        <givenName>R.</givenName>
+        <surName>Downs</surName>
+      </individualName>
+      <organizationName>Long Term Ecological Research Network Office, National Center for Ecological
+        Analysis and Synthesis, University of California - Santa Barbara, USA</organizationName>
+      <electronicMailAddress>downs@nceas.ucsb.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-2833-956X</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para> R Software (mainly tidyverse) </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>No project title to report</title>
+      <personnel>
+        <individualName>
+          <givenName>Bin</givenName>
+          <surName>Zhao</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Key Research and Development Program of China: 2018YFD0900806</funding>
+      <relatedProject>
+        <title>No project title to report</title>
+        <personnel>
+          <individualName>
+            <givenName>Bin</givenName>
+            <surName>Zhao</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Natural Science Foundation of China: 31170450</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTER Network Office</title>
+        <personnel>
+          <individualName>
+            <givenName>Martha</givenName>
+            <givenName>R.</givenName>
+            <surName>Downs</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation: DEB-1545288</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>S1_Table.csv</entityName>
+      <entityDescription>List of investigated ecological journals</entityDescription>
+      <physical>
+        <objectName>S1_Table.csv</objectName>
+        <size unit="bytes">5668</size>
+        <authentication method="MD5">399e3219797ea2d2a9e7773cd099f0f6</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ISSN</attributeName>
+          <attributeDefinition>ISSN of the selected journals</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ISSN of the selected journals</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>JOURNAL</attributeName>
+          <attributeDefinition>Specific journal names</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Specific journal names</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>158</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>S2_Table.csv</entityName>
+      <entityDescription>List of investigated articles supported by the US LTER</entityDescription>
+      <physical>
+        <objectName>S2_Table.csv</objectName>
+        <size unit="bytes">588204</size>
+        <authentication method="MD5">6da78b701a5b9d0066a21019a383d994</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>ISSN of the selected journals</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1981</minimum>
+                  <maximum exclusive="false">2018</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>JOURNAL</attributeName>
+          <attributeDefinition>Specific journal names</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Specific journal names</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TITLE</attributeName>
+          <attributeDefinition>Title of the article</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Title of the article</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DOI</attributeName>
+          <attributeDefinition>DOI of the article</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>DOI of the article</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>4028</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>S3_Table.csv</entityName>
+      <entityDescription>Temporal pattern of institutional collaborations in
+        LTER</entityDescription>
+      <physical>
+        <objectName>S3_Table.csv</objectName>
+        <size unit="bytes">8505090</size>
+        <authentication method="MD5">a0f3bf6d790320d5ee2348f09e53bd86</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Institution1</attributeName>
+          <attributeDefinition>The first institution</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The first institution</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Institution2</attributeName>
+          <attributeDefinition>The second institution</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The second institution</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>paper_no</attributeName>
+          <attributeDefinition>Total papers published in this collaboration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">51</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>total_collaboration_years</attributeName>
+          <attributeDefinition>Total years of publications</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>year_in_detail</attributeName>
+          <attributeDefinition>Detailed years of institutional collaboration</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Detailed years of institutional collaboration</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>author_n</attributeName>
+          <attributeDefinition>Contributions of authors in this long-term collaboration.For example, ""Collins S.(12/25)"" means Collins S. has published 25 papers in this collaboration and these papers were published in 12 distinct years.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Contributions of authors in this long-term collaboration.For example,
+                    ""Collins S.(12/25)"" means Collins S. has published 25 papers in this
+                    collaboration and these papers were published in 12 distinct years.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>keyword_n</attributeName>
+          <attributeDefinition>The keywords with frequency in these collaborated papers.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The keywords with frequency in these collaborated papers.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site_n</attributeName>
+          <attributeDefinition>LTER sites that support these collaborated papers with frequency</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>LTER sites that support these collaborated papers with
+                    frequency</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>8069</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>S4_Table.csv</entityName>
+      <entityDescription>Spatial pattern of institutional collaborations in LTER</entityDescription>
+      <physical>
+        <objectName>S4_Table.csv</objectName>
+        <size unit="bytes">852172</size>
+        <authentication method="MD5">b7a65cfc2e7db3e82ca32502aced385b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>rank</attributeName>
+          <attributeDefinition>ISSN of the selected journals</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">3981</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Publication year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1981</minimum>
+                  <maximum exclusive="false">2018</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>title</attributeName>
+          <attributeDefinition>Title of the article</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Title of the article</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>keyword</attributeName>
+          <attributeDefinition>Keywords of the article</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Keywords of the article</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>author_no</attributeName>
+          <attributeDefinition>Number of authors</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">517</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>affl_no</attributeName>
+          <attributeDefinition>Number of affiliations</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">502</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_dist(m)</attributeName>
+          <attributeDefinition>Maximum distance of pairwise distance between locations of institutes</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">19944808.67</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>3981</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

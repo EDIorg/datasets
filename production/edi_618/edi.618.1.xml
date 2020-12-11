@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.618.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>The Bear Brook Watershed in Maine, USA: Long-term atmospheric deposition chemistry 1987 - 2012</title>
+    <creator>
+      <individualName>
+        <givenName>Kaizad</givenName>
+        <givenName>F.</givenName>
+        <surName>Patel</surName>
+      </individualName>
+      <organizationName>Pacific Northwest National Laboratory</organizationName>
+      <electronicMailAddress>kaizad.patel@pnnl.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-6437-7809</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ivan</givenName>
+        <givenName>J.</givenName>
+        <surName>Fernandez</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>ivanjf@maine.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7220-2205</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <givenName>J.</givenName>
+        <surName>Nelson</surName>
+      </individualName>
+      <organizationName>University of Maine; Appalachian Mountain Club</organizationName>
+      <electronicMailAddress>snelson@outdoors.org</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3000-7521</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Cheryl</givenName>
+        <givenName>J.</givenName>
+        <surName>Spencer</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>rpt372@maine.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <givenName>A.</givenName>
+        <surName>Norton</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>norton@maine.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2020-09-30</pubDate>
+    <abstract>
+      <para>This dataset includes ambient atmospheric deposition data for the Bear Brook Watershed in Maine (BBWM). The BBWM consists of two watersheds, the reference East Bear (EB), receiving ambient deposition, and the treated West Bear (WB), which received experimental elevated N+S deposition for 27 years. Ambient wet deposition was collected from 1987 to 2012 using AeroChem collectors, and the measured precipitation chemistry was interpolated to calculate monthly and annual fluxes. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Bear Brook Watershed in Maine</keyword>
+      <keyword>BBWM</keyword>
+      <keyword>temperate forests</keyword>
+      <keyword>acidification</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>watersheds</keyword>
+      <keyword>biogeochemistry</keyword>
+      <keyword>nitrogen</keyword>
+      <keyword>sulfur</keyword>
+      <keyword>wet deposition</keyword>
+      <keyword>nutrient budgets</keyword>
+      <keyword>air quality</keyword>
+      <keyword>precipitation</keyword>
+      <keyword>rainfall</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>BBWM is located in eastern Maine, USA at an elevation of 450.8 m. Soils are coarse-loamy, mixed, frigid Typic and Aquic Haplorthods. Bedrock consists dominantly of quartzite, phyllite, and calc-silicate low-grade metasediments, and minor granite dikes. The lower elevations are dominated by hardwood stands, and the upper elevations are dominated by softwood stands.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-68.1</westBoundingCoordinate>
+          <eastBoundingCoordinate>-68.1</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.87</northBoundingCoordinate>
+          <southBoundingCoordinate>44.87</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1987</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Kaizad</givenName>
+        <givenName>F.</givenName>
+        <surName>Patel</surName>
+      </individualName>
+      <organizationName>Pacific Northwest National Laboratory</organizationName>
+      <electronicMailAddress>kaizad.patel@pnnl.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-6437-7809</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ivan</givenName>
+        <givenName>J.</givenName>
+        <surName>Fernandez</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>ivanjf@maine.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7220-2205</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Detailed collection and analysis methods can be found in Norton et al. 1999 (doi: 10.1023/A:1006115011381) and Navratil et al. 2010 (doi: 10.1007/s10661-010-1527-z).</para>
+          <para>These data include ambient wet deposition (for East Bear). The experimental watershed, West Bear, received ambient deposition of all species except for NH4 and SO4. </para>
+          <para>To calculate NH4 and SO4 deposition for West Bear, add `NH4_mani_eq_ha` or `SO4_mani_eq_ha` to the respective ambient value.</para>
+          <para>Wet deposition was collected at the site until 2012. For wet deposition post-2012, and for dry deposition for the entire period, we recommend using data from the NADP CASTNET site in Howland, ME (HOW132).&#13;
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>precipitation chemistry for all samples collected</entityName>
+      <entityDescription>precipitation chemistry for all samples collected</entityDescription>
+      <physical>
+        <objectName>bbwm_deposition_all.csv</objectName>
+        <size unit="bytes">153016</size>
+        <authentication method="MD5">01a213e45335edd6f9e0f7813159959e</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>Precipitation collection site (AEROCHEM collectors)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AERSU</code>
+                    <definition>summit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AERCA</code>
+                    <definition>mid-elevation camp</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AEREA</code>
+                    <definition>East Bear AEROCHEM</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>record_type</attributeName>
+          <attributeDefinition>regular vs. duplicate samples</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>REG</code>
+                    <definition>regular</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1987</minimum>
+                  <maximum exclusive="false">2012</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>day</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>running_day_of_project</attributeName>
+          <attributeDefinition>running day of the project that a sample was taken</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">665</minimum>
+                  <maximum exclusive="false">9820</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>julian_day</attributeName>
+          <attributeDefinition>Running day of the year that a sample was taken. Useful for graphical display.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ca_ueq_L</attributeName>
+          <attributeDefinition>Calcium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">62.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mg_ueq_L</attributeName>
+          <attributeDefinition>Magnesium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">37.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>K_ueq_L</attributeName>
+          <attributeDefinition>Potassium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">42.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Na_ueq_L</attributeName>
+          <attributeDefinition>Sodium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">166.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cl_ueq_L</attributeName>
+          <attributeDefinition>chloride, determined by ion chromatography</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">195</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SO4_ueq_L</attributeName>
+          <attributeDefinition>sulfate, determined by ion chromatography</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">229</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NO3_ueq_L</attributeName>
+          <attributeDefinition>nitrate, determined by ion chromatography</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">215</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_ueq_L</attributeName>
+          <attributeDefinition>Ammonium, determined by: - Autoanalyzer (2003 and prior) - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">88.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Si_mg_L</attributeName>
+          <attributeDefinition>Silicon (as Si), determined by autoanalyzer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4.27</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Al_ppb</attributeName>
+          <attributeDefinition>total dissolved aluminum, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partsPerBillion</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">42</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pH_air_eqll</attributeName>
+          <attributeDefinition>Air-equilibrated pH, determined by electrode, with 300 ppm standard air bubbled in</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.54</minimum>
+                  <maximum exclusive="false">7.69</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>anc_ueq_L</attributeName>
+          <attributeDefinition>acid neutralizing capacity, determined by Gran titration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-227</minimum>
+                  <maximum exclusive="false">29.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>spec_conductance_us_cm</attributeName>
+          <attributeDefinition>Measured conductivity, determined with a Wheatstone bridge</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microSiemensPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">131</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>apparent_color_pcu</attributeName>
+          <attributeDefinition>unfiltered sample, determined by 475.5 nm spectrophotometer until 2002 and by color wheel 2003-2004.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>platinumCobaltUnits</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">107</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>volume_mL</attributeName>
+          <attributeDefinition>annual rainfall</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">13620</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_converted_to_depth_mm</attributeName>
+          <attributeDefinition>Volume of precipitation collected converted to a depth value using the catch area of the funnel</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">200.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>belfort_gage_depth_mm</attributeName>
+          <attributeDefinition>rainfall received, measured using a Belfort rain gauge</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">215.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comment</attributeName>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1602</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>annual ambient atmospheric deposition fluxes</entityName>
+      <entityDescription>annual ambient atmospheric deposition fluxes</entityDescription>
+      <physical>
+        <objectName>bbwm_deposition_annual.csv</objectName>
+        <size unit="bytes">1594</size>
+        <authentication method="MD5">1742704cd7ad68f49f605c8e0223a3fc</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>WY</attributeName>
+          <attributeDefinition>USGS water year (Oct-1 to Sep-30)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1988</minimum>
+                  <maximum exclusive="false">2012</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H2O_mm</attributeName>
+          <attributeDefinition>rainfall</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">891</minimum>
+                  <maximum exclusive="false">2033</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ca_eq_ha</attributeName>
+          <attributeDefinition>calcium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">9.4</minimum>
+                  <maximum exclusive="false">63.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mg_eq_ha</attributeName>
+          <attributeDefinition>magnesium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">6.9</minimum>
+                  <maximum exclusive="false">85.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>K_eq_ha</attributeName>
+          <attributeDefinition>potassium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.5</minimum>
+                  <maximum exclusive="false">23.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Na_eq_ha</attributeName>
+          <attributeDefinition>sodium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">84.1</minimum>
+                  <maximum exclusive="false">347</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_eq_ha</attributeName>
+          <attributeDefinition>ammonium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">27.6</minimum>
+                  <maximum exclusive="false">146</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NO3_eq_ha</attributeName>
+          <attributeDefinition>nitrate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">46</minimum>
+                  <maximum exclusive="false">258</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cl_eq_ha</attributeName>
+          <attributeDefinition>chloride</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">97</minimum>
+                  <maximum exclusive="false">453</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SO4_eq_ha</attributeName>
+          <attributeDefinition>sulfate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">91</minimum>
+                  <maximum exclusive="false">431</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H_eq_ha</attributeName>
+          <attributeDefinition>hydrogen ions</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">75</minimum>
+                  <maximum exclusive="false">447</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_mani_eq_ha</attributeName>
+          <attributeDefinition>ammonium added from the treatment</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1905</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SO4_mani_eq_ha</attributeName>
+          <attributeDefinition>sulfate added from the treatment</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1905</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>25</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>monthly ambient atmospheric deposition fluxes</entityName>
+      <entityDescription>monthly ambient atmospheric deposition fluxes</entityDescription>
+      <physical>
+        <objectName>bbwm_deposition_monthly.csv</objectName>
+        <size unit="bytes">14825</size>
+        <authentication method="MD5">c2b045aee3e86008ca339b0d75277543</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1987</minimum>
+                  <maximum exclusive="false">2013</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H2O_mm</attributeName>
+          <attributeDefinition>rainfall</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">386</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H_eq_ha</attributeName>
+          <attributeDefinition>hydrogen ions</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.8</minimum>
+                  <maximum exclusive="false">108.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ca_eq_ha</attributeName>
+          <attributeDefinition>calcium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">20.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mg_eq_ha</attributeName>
+          <attributeDefinition>magnesium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">37</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>K_eq_ha</attributeName>
+          <attributeDefinition>potassium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">19.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Na_eq_ha</attributeName>
+          <attributeDefinition>sodium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">168.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cl_eq_ha</attributeName>
+          <attributeDefinition>chloride</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">191.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NO3_eq_ha</attributeName>
+          <attributeDefinition>nitrate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.6</minimum>
+                  <maximum exclusive="false">67.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_eq_ha</attributeName>
+          <attributeDefinition>ammonium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">40.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SO4_eq_ha</attributeName>
+          <attributeDefinition>sulfate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">130.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>311</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="nominalMonth" multiplierToSI="" name="nominalMonth" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="equivalentsPerHectare" multiplierToSI="" name="equivalentsPerHectare" parentSI="" unitType="">
+          <description>equivalents of solute dissolved per hectare</description>
+        </unit>
+        <unit id="microEquivalentsPerLiter" multiplierToSI="" name="microEquivalentsPerLiter" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="partsPerBillion" multiplierToSI="" name="partsPerBillion" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="microSiemensPerCentimeter" multiplierToSI="" name="microSiemensPerCentimeter" parentSI="" unitType="">
+          <description>conductivity</description>
+        </unit>
+        <unit id="platinumCobaltUnits" multiplierToSI="" name="platinumCobaltUnits" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

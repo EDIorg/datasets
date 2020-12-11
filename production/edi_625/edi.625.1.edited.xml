@@ -1,0 +1,1999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.625.1"
+  xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd"
+  system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst"
+    scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Data from NUTRIENTS CAUSE GRASSLAND BIOMASS TO OUTPACE HERBIVORY 2008 - 2019</title>
+    <creator>
+      <individualName>
+        <givenName>E.</givenName>
+        <givenName>T.</givenName>
+        <surName>Borer</surName>
+      </individualName>
+      <organizationName>Department of Ecology, Evolution and Behavior, University of Minnesota, St.
+        Paul, MN, USA</organizationName>
+      <electronicMailAddress>borer@umn.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>W.</givenName>
+        <givenName>S.</givenName>
+        <surName>Harpole</surName>
+      </individualName>
+      <organizationName>Helmholtz Center for Environmental Research – UFZ, Department of
+        Physiological Diversity, Permoserstrasse 15, 04318 Leipzig, Germany;</organizationName>
+      <organizationName>German Centre for Integrative Biodiversity Research (iDiv), Deutscher Platz
+        5e, 04103 Leipzig, Germany</organizationName>
+      <organizationName>Martin Luther University Halle-Wittenberg, am Kirchtor 1, 06108 Halle
+        (Saale), Germany</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>P.</givenName>
+        <givenName>B.</givenName>
+        <surName>Adler</surName>
+      </individualName>
+      <organizationName>Department of Wildland Resources and the Ecology Center, Utah State
+        University, Logan, UT, USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>C.</givenName>
+        <givenName>A.</givenName>
+        <surName>Arnillas</surName>
+      </individualName>
+      <organizationName>Department of Physical and Environmental Sciences, University of Toronto -
+        Scarborough, Toronto, Canada</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>M.</givenName>
+        <givenName>N.</givenName>
+        <surName>Bugalho</surName>
+      </individualName>
+      <organizationName>Centre for Applied Ecology (CEABN-InBIO), School of Agriculture, University
+        of Lisbon, Tapada da Ajuda, Lisbon, Portugal</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>M.</givenName>
+        <givenName>W.</givenName>
+        <surName>Cadotte</surName>
+      </individualName>
+      <organizationName>Department of Biological Sciences, University of Toronto - Scarborough,
+        Toronto, Canada</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>M.</givenName>
+        <givenName>C.</givenName>
+        <surName>Caldeira</surName>
+      </individualName>
+      <organizationName>Forest Research Centre, School of Agriculture, University of Lisbon, Tapada
+        da Ajuda, Lisbon, Portugal</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>S.</givenName>
+        <surName>Campana</surName>
+      </individualName>
+      <organizationName>IFEVA, Universidad de Buenos Aires, CONICET, Facultad de Agronomía, Buenos
+        Aires, Argentina</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>C.</givenName>
+        <givenName>R.</givenName>
+        <surName>Dickman</surName>
+      </individualName>
+      <organizationName>School of Life and Environmental Sciences, The University of Sydney, NSW,
+        Australia</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>T.</givenName>
+        <givenName>L.</givenName>
+        <surName>Dickson</surName>
+      </individualName>
+      <organizationName>Department of Biology, University of Nebraska at Omaha, Omaha, NE,
+        USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>I.</givenName>
+        <surName>Donohue</surName>
+      </individualName>
+      <organizationName>Department of Zoology, School of Natural Sciences, Trinity College Dublin,
+        Dublin, Ireland</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>A.</givenName>
+        <surName>Eskelinen</surName>
+      </individualName>
+      <organizationName>Helmholtz Center for Environmental Research – UFZ, Department of
+        Physiological Diversity, Permoserstrasse 15, 04318 Leipzig, Germany;</organizationName>
+      <organizationName>German Centre for Integrative Biodiversity Research (iDiv), Deutscher Platz
+        5e, 04103 Leipzig, Germany</organizationName>
+      <organizationName>Department of Ecology and Genetics, University of Oulu, Oulu,
+        Finland</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>J.</givenName>
+        <givenName>L.</givenName>
+        <surName>Firn</surName>
+      </individualName>
+      <organizationName>School of Earth, Environmental and Biological Sciences, Queensland
+        University of Technology, Brisbane, Australia</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>P.</givenName>
+        <surName>Graff</surName>
+      </individualName>
+      <organizationName>IFEVA, Universidad de Buenos Aires, CONICET, Facultad de Agronomía, Buenos
+        Aires, Argentina</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>D.</givenName>
+        <givenName>S.</givenName>
+        <surName>Gruner</surName>
+      </individualName>
+      <organizationName>Department of Entomology, University of Maryland, College Park, MD,
+        USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>R.</givenName>
+        <givenName>W.</givenName>
+        <surName>Heckman</surName>
+      </individualName>
+      <organizationName>Department of Biology, University of North Carolina, Chapel Hill, NC,
+        USA;</organizationName>
+      <organizationName>Department of Integrative Biology, University of Texas, Austin, TX,
+        USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>A.</givenName>
+        <givenName>M.</givenName>
+        <surName>Koltz</surName>
+      </individualName>
+      <organizationName>Department of Biology, Washington University in St. Louis, St. Louis, MO,
+        USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>K.</givenName>
+        <givenName>J.</givenName>
+        <surName>Komatsu</surName>
+      </individualName>
+      <organizationName>Smithsonian Environmental Research Center, Edgewater, MD,
+        USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>L.</givenName>
+        <givenName>S.</givenName>
+        <surName>Lannes</surName>
+      </individualName>
+      <organizationName>Department of Biology and Animal Sciences, São Paulo State University -
+        UNESP, São Paulo, Brazil</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>A.</givenName>
+        <givenName>S.</givenName>
+        <surName>MacDougall</surName>
+      </individualName>
+      <organizationName>Department of Integrative Biology, University of Guelph, Guelph,
+        Canada</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>J.</givenName>
+        <givenName>P.</givenName>
+        <surName>Martina</surName>
+      </individualName>
+      <organizationName>Department of Biology, Texas State University, San Marcos, TX,
+        USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>J.</givenName>
+        <givenName>L.</givenName>
+        <surName>Moore</surName>
+      </individualName>
+      <organizationName>School of Biological Sciences, Monash University, Clayton Campus, Victoria,
+        Australia</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>B.</givenName>
+        <surName>Mortensen</surName>
+      </individualName>
+      <organizationName>Department of Biology, Benedictine College, Atchison, KS,
+        USA</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>R.</givenName>
+        <surName>Ochoa-Hueso</surName>
+      </individualName>
+      <organizationName>Department of Biology, IVAGRO, University of Cádiz, Cádiz,
+        Spain</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>H.</givenName>
+        <surName>Olde Venterink</surName>
+      </individualName>
+      <organizationName>Department of Biology, Vrije Universiteit Brussel, Brussels,
+        Belgium</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>S.</givenName>
+        <givenName>A.</givenName>
+        <surName>Power</surName>
+      </individualName>
+      <organizationName>Hawkesbury Institute for the Environment, Western Sydney University, NSW
+        Australia</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>J.</givenName>
+        <givenName>N.</givenName>
+        <surName>Price</surName>
+      </individualName>
+      <organizationName>Institute of Land, Water and Society, Charles Sturt University, Albury, NSW,
+        Australia</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>A.</givenName>
+        <givenName>C.</givenName>
+        <surName>Risch</surName>
+      </individualName>
+      <organizationName>Swiss Federal Institute for Forest, Snow and Landscape Research,
+        Birmensdorf, Switzerland</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>M.</givenName>
+        <surName>Sankaran</surName>
+      </individualName>
+      <organizationName>National Centre for Biological Sciences, TIFR, Bengaluru,
+        India;</organizationName>
+      <organizationName>School of Biology, University of Leeds, Leeds, UK</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>M.</givenName>
+        <surName>Schütz</surName>
+      </individualName>
+      <organizationName>Lancaster Environment Centre, Lancaster University, Lancaster,
+        UK</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>J.</givenName>
+        <surName>Sitters</surName>
+      </individualName>
+      <organizationName>Department of Biology, Vrije Universiteit Brussel, Brussels,
+        Belgium</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>C.</givenName>
+        <givenName>J.</givenName>
+        <surName>Stevens</surName>
+      </individualName>
+      <organizationName>Lancaster Environment Centre, Lancaster University, Lancaster,
+        UK</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>R.</givenName>
+        <surName>Virtanen</surName>
+      </individualName>
+      <organizationName>Department of Ecology &amp; Genetics, University of Oulu, Oulu,
+        Finland</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>P.</givenName>
+        <givenName>A.</givenName>
+        <surName>Wilfahrt</surName>
+      </individualName>
+      <organizationName>Department of Ecology, Evolution and Behavior, University of Minnesota, St.
+        Paul, MN, USA;</organizationName>
+      <organizationName>Department of Disturbance Ecology, University of Bayreuth, Bayreuth,
+        Germany</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>E.</givenName>
+        <givenName>W.</givenName>
+        <surName>Seabloom</surName>
+      </individualName>
+      <organizationName>Department of Ecology, Evolution and Behavior, University of Minnesota, St.
+        Paul, MN, USA</organizationName>
+    </creator>
+    <pubDate>2020-10-15</pubDate>
+    <abstract>
+      <para>Human activities are transforming grassland biomass via changing climate, elemental
+        nutrients, and herbivory. Theory predicts that food-limited herbivores will consume any
+        additional biomass stimulated by nutrient inputs (‘consumer-controlled'). Alternatively,
+        nutrient supply is predicted to increase biomass where herbivores alter community
+        composition or are limited by factors other than food (‘resource-controlled'). Using an
+        experiment replicated in 58 grasslands spanning six continents, we show that nutrient
+        addition and vertebrate herbivore exclusion each caused sustained increases in aboveground
+        live biomass over a decade, but consumer control was weak. However, at sites with high
+        vertebrate grazing intensity or domestic livestock, herbivores consumed the additional
+        fertilization-induced biomass, supporting the consumer-controlled prediction. Herbivores
+        most effectively reduced the additional live biomass at sites with low precipitation or high
+        ambient soil nitrogen. Overall, these experimental results suggest that grassland biomass
+        will outstrip wild herbivore control as human activities increase elemental nutrient supply,
+        with widespread consequences for grazing and fire risk.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>productivity</keyword>
+      <keyword>nitrogen</keyword>
+      <keyword>phosphorus</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>vertebrate herbivore</keyword>
+      <keyword>and potassium</keyword>
+      <keyword>factorial experiment</keyword>
+      <keyword>top-down</keyword>
+      <keyword>bottom-up</keyword>
+      <keyword>trophic</keyword>
+      <keyword>Nutrient Network</keyword>
+      <keyword>NutNet</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY
+        (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\"
+        herein) is required to cite it appropriately in any publication that results from its use.
+        The Data User should realize that these data may be actively used by others for ongoing
+        research and that coordination may be necessary to prevent duplicate publication. The Data
+        User is urged to contact the authors of these data if any questions about methodology or
+        results occur. Where appropriate, the Data User is encouraged to consider collaboration or
+        co-authorship with the authors. The Data User should realize that misinterpretation of data
+        may occur if used out of context of the original study. While substantial efforts are made
+        to ensure the accuracy of data and associated documentation, complete accuracy of data sets
+        cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware,
+        however, that data are updated periodically and it is the responsibility of the Data User to
+        check for new versions of the data. The data authors and the repository where these data
+        were obtained shall not be liable for damages resulting from any use or misinterpretation of
+        the data. Thank you. </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Sites across the globe</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-123.6301</westBoundingCoordinate>
+          <eastBoundingCoordinate>152.923222</eastBoundingCoordinate>
+          <northBoundingCoordinate>69.0567</northBoundingCoordinate>
+          <southBoundingCoordinate>-51.91602778</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>gilb.za</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>30.29174</westBoundingCoordinate>
+          <eastBoundingCoordinate>30.29174</eastBoundingCoordinate>
+          <northBoundingCoordinate>-29.28424</northBoundingCoordinate>
+          <southBoundingCoordinate>-29.28424</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>sereng.tz</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>34.512613</westBoundingCoordinate>
+          <eastBoundingCoordinate>34.512613</eastBoundingCoordinate>
+          <northBoundingCoordinate>-2.254503</northBoundingCoordinate>
+          <southBoundingCoordinate>-2.254503</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>azi.cn</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>101.87</westBoundingCoordinate>
+          <eastBoundingCoordinate>101.87</eastBoundingCoordinate>
+          <northBoundingCoordinate>33.67</northBoundingCoordinate>
+          <southBoundingCoordinate>33.67</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>kibber.in</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>78.00954</westBoundingCoordinate>
+          <eastBoundingCoordinate>78.00954</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.31972667</northBoundingCoordinate>
+          <southBoundingCoordinate>32.31972667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>bogong.au</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>147.254</westBoundingCoordinate>
+          <eastBoundingCoordinate>147.254</eastBoundingCoordinate>
+          <northBoundingCoordinate>-36.874</northBoundingCoordinate>
+          <southBoundingCoordinate>-36.874</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>burrawan.au</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>151.139517</westBoundingCoordinate>
+          <eastBoundingCoordinate>151.139517</eastBoundingCoordinate>
+          <northBoundingCoordinate>-27.734896</northBoundingCoordinate>
+          <southBoundingCoordinate>-27.734896</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>kiny.au</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>143.75</westBoundingCoordinate>
+          <eastBoundingCoordinate>143.75</eastBoundingCoordinate>
+          <northBoundingCoordinate>-36.2</northBoundingCoordinate>
+          <southBoundingCoordinate>-36.2</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>mtca.au</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>117.610853</westBoundingCoordinate>
+          <eastBoundingCoordinate>117.610853</eastBoundingCoordinate>
+          <northBoundingCoordinate>-31.782138</northBoundingCoordinate>
+          <southBoundingCoordinate>-31.782138</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>ping.au</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>116.972947</westBoundingCoordinate>
+          <eastBoundingCoordinate>116.972947</eastBoundingCoordinate>
+          <northBoundingCoordinate>-32.496169</northBoundingCoordinate>
+          <southBoundingCoordinate>-32.496169</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>pinj.au</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>152.923222</westBoundingCoordinate>
+          <eastBoundingCoordinate>152.923222</eastBoundingCoordinate>
+          <northBoundingCoordinate>-27.530556</northBoundingCoordinate>
+          <southBoundingCoordinate>-27.530556</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>yarra.au</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>150.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>150.73</eastBoundingCoordinate>
+          <northBoundingCoordinate>-33.61</northBoundingCoordinate>
+          <southBoundingCoordinate>-33.61</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>bayr.de</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>11.58333333</westBoundingCoordinate>
+          <eastBoundingCoordinate>11.58333333</eastBoundingCoordinate>
+          <northBoundingCoordinate>49.91666667</northBoundingCoordinate>
+          <southBoundingCoordinate>49.91666667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>burren.ie</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-8.992624</westBoundingCoordinate>
+          <eastBoundingCoordinate>-8.992624</eastBoundingCoordinate>
+          <northBoundingCoordinate>53.072023</northBoundingCoordinate>
+          <southBoundingCoordinate>53.072023</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>cereep.fr</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>2.66</westBoundingCoordinate>
+          <eastBoundingCoordinate>2.66</eastBoundingCoordinate>
+          <northBoundingCoordinate>48.28</northBoundingCoordinate>
+          <southBoundingCoordinate>48.28</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>comp.pt</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-8.791406</westBoundingCoordinate>
+          <eastBoundingCoordinate>-8.791406</eastBoundingCoordinate>
+          <northBoundingCoordinate>38.82928</northBoundingCoordinate>
+          <southBoundingCoordinate>38.82928</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>frue.ch</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>8.541821</westBoundingCoordinate>
+          <eastBoundingCoordinate>8.541821</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.113187</northBoundingCoordinate>
+          <southBoundingCoordinate>47.113187</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>hero.uk</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-0.639</westBoundingCoordinate>
+          <eastBoundingCoordinate>-0.639</eastBoundingCoordinate>
+          <northBoundingCoordinate>51.411</northBoundingCoordinate>
+          <southBoundingCoordinate>51.411</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>kilp.fi</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>20.8747</westBoundingCoordinate>
+          <eastBoundingCoordinate>20.8747</eastBoundingCoordinate>
+          <northBoundingCoordinate>69.0567</northBoundingCoordinate>
+          <southBoundingCoordinate>69.0567</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>lancaster.uk</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-2.628417566</westBoundingCoordinate>
+          <eastBoundingCoordinate>-2.628417566</eastBoundingCoordinate>
+          <northBoundingCoordinate>53.98562471</northBoundingCoordinate>
+          <southBoundingCoordinate>53.98562471</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>pape.de</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>7.4728</westBoundingCoordinate>
+          <eastBoundingCoordinate>7.4728</eastBoundingCoordinate>
+          <northBoundingCoordinate>53.086</northBoundingCoordinate>
+          <southBoundingCoordinate>53.086</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>rook.uk</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-0.644</westBoundingCoordinate>
+          <eastBoundingCoordinate>-0.644</eastBoundingCoordinate>
+          <northBoundingCoordinate>51.406</northBoundingCoordinate>
+          <southBoundingCoordinate>51.406</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>saana.fi</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>20.8433</westBoundingCoordinate>
+          <eastBoundingCoordinate>20.8433</eastBoundingCoordinate>
+          <northBoundingCoordinate>69.0368</northBoundingCoordinate>
+          <southBoundingCoordinate>69.0368</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>valm.ch</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>10.372252</westBoundingCoordinate>
+          <eastBoundingCoordinate>10.372252</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.631345</northBoundingCoordinate>
+          <southBoundingCoordinate>46.631345</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>arch.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.18333333</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.18333333</eastBoundingCoordinate>
+          <northBoundingCoordinate>27.15</northBoundingCoordinate>
+          <southBoundingCoordinate>27.15</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>barta.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-99.6518</westBoundingCoordinate>
+          <eastBoundingCoordinate>-99.6518</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.244586</northBoundingCoordinate>
+          <southBoundingCoordinate>42.244586</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>bldr.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.233544</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.233544</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.972022</northBoundingCoordinate>
+          <southBoundingCoordinate>39.972022</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>bnch.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9680169</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9680169</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.27668543</northBoundingCoordinate>
+          <southBoundingCoordinate>44.27668543</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>cbgb.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-93.38538333</westBoundingCoordinate>
+          <eastBoundingCoordinate>-93.38538333</eastBoundingCoordinate>
+          <northBoundingCoordinate>41.78506667</northBoundingCoordinate>
+          <southBoundingCoordinate>41.78506667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>cdcr.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-93.2115</westBoundingCoordinate>
+          <eastBoundingCoordinate>-93.2115</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.425</northBoundingCoordinate>
+          <southBoundingCoordinate>45.425</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>cdpt.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-101.63</westBoundingCoordinate>
+          <eastBoundingCoordinate>-101.63</eastBoundingCoordinate>
+          <northBoundingCoordinate>41.2</northBoundingCoordinate>
+          <southBoundingCoordinate>41.2</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>cowi.ca</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-123.6301</westBoundingCoordinate>
+          <eastBoundingCoordinate>-123.6301</eastBoundingCoordinate>
+          <northBoundingCoordinate>48.8088</northBoundingCoordinate>
+          <southBoundingCoordinate>48.8088</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>elliot.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-117.052243</westBoundingCoordinate>
+          <eastBoundingCoordinate>-117.052243</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.875</northBoundingCoordinate>
+          <southBoundingCoordinate>32.875</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>glcr.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.13964</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.13964</eastBoundingCoordinate>
+          <northBoundingCoordinate>41.339206</northBoundingCoordinate>
+          <southBoundingCoordinate>41.339206</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>hall.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-86.70167</westBoundingCoordinate>
+          <eastBoundingCoordinate>-86.70167</eastBoundingCoordinate>
+          <northBoundingCoordinate>36.871944</northBoundingCoordinate>
+          <southBoundingCoordinate>36.871944</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>hart.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.49767</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.49767</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.723745</northBoundingCoordinate>
+          <southBoundingCoordinate>42.723745</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>hnvr.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-72.13806</westBoundingCoordinate>
+          <eastBoundingCoordinate>-72.13806</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.41927</northBoundingCoordinate>
+          <southBoundingCoordinate>43.41927</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>hopl.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-123.0603134</westBoundingCoordinate>
+          <eastBoundingCoordinate>-123.0603134</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.01275343</northBoundingCoordinate>
+          <southBoundingCoordinate>39.01275343</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>kbs.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-85.3909</westBoundingCoordinate>
+          <eastBoundingCoordinate>-85.3909</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.408986</northBoundingCoordinate>
+          <southBoundingCoordinate>42.408986</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>koffler.ca</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-79.535881</westBoundingCoordinate>
+          <eastBoundingCoordinate>-79.535881</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.024047</northBoundingCoordinate>
+          <southBoundingCoordinate>44.024047</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>konz.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.582821</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.582821</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.070856</northBoundingCoordinate>
+          <southBoundingCoordinate>39.070856</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>look.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.1284473</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.1284473</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.20517707</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20517707</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>mcla.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.4064063</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.4064063</eastBoundingCoordinate>
+          <northBoundingCoordinate>38.86427212</northBoundingCoordinate>
+          <southBoundingCoordinate>38.86427212</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>sage.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.24</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.24</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.43</northBoundingCoordinate>
+          <southBoundingCoordinate>39.43</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>saline.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-99.1</westBoundingCoordinate>
+          <eastBoundingCoordinate>-99.1</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.05</northBoundingCoordinate>
+          <southBoundingCoordinate>39.05</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>sava.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.650936</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.650936</eastBoundingCoordinate>
+          <northBoundingCoordinate>33.343894</northBoundingCoordinate>
+          <southBoundingCoordinate>33.343894</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>sgs.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-104.76667</westBoundingCoordinate>
+          <eastBoundingCoordinate>-104.76667</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.81667</northBoundingCoordinate>
+          <southBoundingCoordinate>40.81667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>shps.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-112.198391</westBoundingCoordinate>
+          <eastBoundingCoordinate>-112.198391</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.242989</northBoundingCoordinate>
+          <southBoundingCoordinate>44.242989</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>sier.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.2836963</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.2836963</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.23550963</northBoundingCoordinate>
+          <southBoundingCoordinate>39.23550963</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>smith.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.624754</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.624754</eastBoundingCoordinate>
+          <northBoundingCoordinate>48.20658068</northBoundingCoordinate>
+          <southBoundingCoordinate>48.20658068</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>spin.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.500556</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.500556</eastBoundingCoordinate>
+          <northBoundingCoordinate>38.135833</northBoundingCoordinate>
+          <southBoundingCoordinate>38.135833</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>trel.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-88.829</westBoundingCoordinate>
+          <eastBoundingCoordinate>-88.829</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.075</northBoundingCoordinate>
+          <southBoundingCoordinate>40.075</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>tyso.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-90.564792</westBoundingCoordinate>
+          <eastBoundingCoordinate>-90.564792</eastBoundingCoordinate>
+          <northBoundingCoordinate>38.519092</northBoundingCoordinate>
+          <southBoundingCoordinate>38.519092</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>ufrec.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.916667</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.916667</eastBoundingCoordinate>
+          <northBoundingCoordinate>27.433333</northBoundingCoordinate>
+          <southBoundingCoordinate>27.433333</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>unc.us</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-79.020423</westBoundingCoordinate>
+          <eastBoundingCoordinate>-79.020423</eastBoundingCoordinate>
+          <northBoundingCoordinate>36.00828</northBoundingCoordinate>
+          <southBoundingCoordinate>36.00828</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>chilcas.ar</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-58.265556</westBoundingCoordinate>
+          <eastBoundingCoordinate>-58.265556</eastBoundingCoordinate>
+          <northBoundingCoordinate>-36.275556</northBoundingCoordinate>
+          <southBoundingCoordinate>-36.275556</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>lagoas.br</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-51.798889</westBoundingCoordinate>
+          <eastBoundingCoordinate>-51.798889</eastBoundingCoordinate>
+          <northBoundingCoordinate>-20.982778</northBoundingCoordinate>
+          <southBoundingCoordinate>-20.982778</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>marc.ar</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-57.42451</westBoundingCoordinate>
+          <eastBoundingCoordinate>-57.42451</eastBoundingCoordinate>
+          <northBoundingCoordinate>-37.71516</northBoundingCoordinate>
+          <southBoundingCoordinate>-37.71516</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>potrok.ar</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.40744444</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.40744444</eastBoundingCoordinate>
+          <northBoundingCoordinate>-51.91602778</northBoundingCoordinate>
+          <southBoundingCoordinate>-51.91602778</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>E.</givenName>
+        <givenName>T.</givenName>
+        <surName>Borer</surName>
+      </individualName>
+      <organizationName>Department of Ecology, Evolution and Behavior, University of Minnesota, St.
+        Paul, MN, USA</organizationName>
+      <electronicMailAddress>borer@umn.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>E.</givenName>
+        <givenName>W.</givenName>
+        <surName>Seabloom</surName>
+      </individualName>
+      <organizationName>Department of Ecology, Evolution and Behavior, University of Minnesota, St.
+        Paul, MN, USA</organizationName>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>A full factorial combination of large herbivore exclusion via fencing ('control' or
+            'fenced') and addition of nutrients ('control' or 'all nutrients') was applied to 5 x 5
+            m plots at 58 sites spanning 6 continents as part of the Nutrient Network experimental
+            collaboration (www.nutnet.org). Most sites had three replicate blocks, and all sites had
+            collected one year of pre-treatment data and 2-10 consecutive years of post-treatment
+            data. All sites were located in the herbaceous vegetation ('grassland') representative
+            of the region. </para>
+          <section>
+            <title>Treatments</title>
+            <para>Experimental design and treatments are detailed in www.nutnet.org. Nutrient
+              treatments ('NPK') received: 10 g N m-2 yr-1 as time-release urea [(NH2)2CO], 10 g P
+              m-2 yr-1 as triple-super phosphate, [Ca(H2PO4)2], 10 g K m-2 yr-1 as potassium sulfate
+              [K2SO4] and 100 g m-2 of a micronutrient mix of Fe (15%), S (14%), Mg (1.5%), Mn
+              (2.5%), Cu (1%), Zn (1%), B (0.2%), and Mo (0.05%). Macronutrients (N, P, and K) were
+              applied annually; micronutrients were applied once at the start of the experiment
+              (year 1). </para>
+            <para>Caging treatments ('fence') were 180 cm tall. The lower 90 cm was surrounded by 1
+              cm woven wire mesh with a 30 cm outward-facing flange stapled to the ground to exclude
+              digging animals (e.g., rabbits, voles), though not fully subterranean ones (e.g.,
+              gophers, moles). The upper 90 cm had three evenly spaced barbless wires to restrict
+              larger vertebrate access (e.g. bison, elk, reindeer, or kangaroos). A few deviated
+              from this fence design. While all sites had wild herbivore community (e.g. a mix of
+              rodents, lagomorphs, ungulates, marsupials, etc), domestic livestock (e.g., sheep,
+              yak, goat, cattle) were present at 10 sites, allowing us to compare herbivore effects
+              at sites with managed herds.</para>
+          </section>
+          <section>
+            <title>Vegetation sampling</title>
+            <para>We analyzed annual peak season live biomass by measuring all aboveground biomass
+              of all plants rooted within two 0.1 m2 (10 x 100 cm) strips in each experimental plot.
+              Clipped vegetation was separated into live and dead components, dried at 60oC for 48
+              hrs, and weighed to the nearest 0.01 g. We collected all leaves and current year's
+              woody growth from shrubs and sub-shrubs occurring in plots. We visually estimated the
+              percent cover of each species to the nearest 1% in a randomly designated, but
+              permanently marked, 1 x 1 m subplot within each 25 m2 plot to quantify species
+              richness and composition. </para>
+          </section>
+          <section>
+            <title>Herbivory</title>
+            <para>We quantified potential vertebrate herbivore impact in two ways. First, we used a
+              published empirical metric of herbivore impact intensity and frequency (herbivore
+              index). In brief, all herbivore species that consume grassland biomass throughout the
+              year were documented by the PI at each site (&gt; 2 kg), and PIs assigned an
+              importance value for each species that reflected the impact or frequency of encounter,
+              from 1 (present, but low impact and frequency) to 5 (high impact and frequency). An
+              index value was calculated for each site as the sum of herbivore importance values for
+              all herbivores. This empirical herbivore index, based on a standardized rubric
+              completed for each site, accounts for site-level variation in herbivore abundance and
+              diversity, integrated across seasons and years. Second, we extracted the modeled
+              terrestrial potential wild grazer biomass from The large mean body size of mammalian
+              herbivores explains the productivity paradox during the Last Glacial Maximum, (Zhu et
+              al. 2018) (modeled herbivore biomass) using site-level latitude and longitude values.
+              We included the model-estimated value of herbivore biomass for each site location as a
+              second standardized metric of potential herbivore impact among our experimental sites.
+              While each of these provides information about potential and actual grazing intensity,
+              neither is a direct site- or treatment-scale measure. Finally, although studies in
+              some grasslands have shown arthropods can control plant biomass, we did not include
+              insect herbivory in this study because previous work in this experiment suggests that
+              arthropods increase in biomass with increasing plant biomass, but they do not strongly
+              suppress plant biomass in any of the treatments. Thus, we focus here on the impacts of
+              fences – and vertebrate herbivory – because evidence suggests that invertebrate
+              herbivores are impacted by the treatments but have little overall effect on the
+              treatments.</para>
+          </section>
+          <section>
+            <title>Soils</title>
+            <para>We collected two 2.5 cm diameter by 10 cm depth soil cores, free of litter and
+              vegetation, from each plot prior to initiation of the experiment (Year 0 – Y0). We
+              composited cores from each plot, homogenized through a 2mm sieve, air dried, and
+              assayed for %N and %C using dry combustion GC analysis (COSTECH ESC 4010 Element
+              Analyzer, University of Nebraska, Lincoln, NE, USA) and also assayed for soil
+              phosphorus, potassium, and micronutrients, soil pH, organic matter, and texture
+              (A&amp;L Analytical Laboratory, Memphis, TN, USA). Because the site-scale correlation
+              between the ambient soil %N and %C was high (0.96, P &lt; 0.001), we included %N in
+              our models.</para>
+          </section>
+          <section>
+            <title>Climate</title>
+            <para>We characterized site-level climate and seasonality over 10-30 year timespans
+              using the WorldClim database (version 1.4; http://www.worldclim.org/bioclim)
+              associated to sites via latitude and longitude. We included mean annual temperature
+              (oC; ‘BIO1' in the WorldClim database), mean annual precipitation (mm per year;
+              BIO12), precipitation variability (coefficient of variation in precipitation among
+              months; BIO15), rainfall-potential evapotranspiration (mm per month, PET data from
+              CGIAR), temperature variability (standard deviation of temperature among months;
+              BIO4), and mean precipitation in the warmest quarter (mm; BIO18).</para>
+          </section>
+          <section>
+            <title>Atmospheric Nitrogen Deposition</title>
+            <para>We characterized site-level atmospheric nitrogen input using modeled N-deposition
+              (kg N ha-1 y-1) associated with study sites via latitude and longitude. Model input
+              included measurements and future projections using a global three-dimensional
+              chemistry-transport model TM3, http://daac.ornl.gov/. Because our study sites span
+              continents, the 5-degree longitude by 3.75-degree latitude model and output grid
+              resolution (50×50 km sub-grids) were sufficient to differentiate N-deposition rates
+              among sites.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>RCN:Coordination ofthe NutrientNetwork(NutNet), globalmanipulationsof nutrients andconsumers</title>
+      <personnel>
+        <individualName>
+          <givenName>Elizabeth</givenName>
+          <givenName>T</givenName>
+          <surName>Borer</surName>
+        </individualName>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0003-2259-5853</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation Research Coordination Network NSF-DEB-1042132</funding>
+      <relatedProject>
+        <title>LTER: Biodiversity, Multiple Drivers of Environmental Change and Ecosystem Functioning at the Prairie Forest Border</title>
+        <personnel>
+          <individualName>
+            <givenName>Elizabeth</givenName>
+            <givenName>T</givenName>
+            <surName>Borer</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-2259-5853</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Long Term Ecological Research NSF-DEB-1234162, DEB-1831944</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>No project title to report</title>
+        <personnel>
+          <individualName>
+            <givenName>Elizabeth</givenName>
+            <givenName>T</givenName>
+            <surName>Borer</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-2259-5853</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>University of Minnesota’s Institute on the Environment DG-0001-13</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>years 2-4</entityName>
+      <entityDescription>location, soil N, herbivory and biomass data years 2 - 4</entityDescription>
+      <physical>
+        <objectName>borer_etal_2020_ncoms_data_years_2_4.csv</objectName>
+        <size unit="bytes">286318</size>
+        <authentication method="MD5">ebc55cfb74989e581ff5a925c4d70f38</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>continent</attributeName>
+          <attributeDefinition>Continent</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Continent</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeDefinition>Country</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Country</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>Site Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-51.91602778</minimum>
+                  <maximum exclusive="false">69.0567</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-123.6301</minimum>
+                  <maximum exclusive="false">152.923222</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>map</attributeName>
+          <attributeDefinition>Mean Annual Rainfall (mm)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">246</minimum>
+                  <maximum exclusive="false">1877</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>dom_graze</attributeName>
+          <attributeDefinition>Domestic Grazer Presence at Site (TRUE or FALSE)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FALSE</code>
+                    <definition>grazers not present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRUE</code>
+                    <definition>grazers present</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>herb_index_sq</attributeName>
+          <attributeDefinition>Herbivore Index (Square Root)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5.3851648071345</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ppm_n</attributeName>
+          <attributeDefinition>Soil Total N (ppm)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partsPerMillion</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">90</minimum>
+                  <maximum exclusive="false">17160</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>block</attributeName>
+          <attributeDefinition>Block</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Block</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plot</attributeName>
+          <attributeDefinition>Plot</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2008</minimum>
+                  <maximum exclusive="false">2018</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>year_trt</attributeName>
+          <attributeDefinition>Number of Years of Treatments</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lm_lg</attributeName>
+          <attributeDefinition>Live Aboveground Biomass (log10 g m-2)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.698970004336019</minimum>
+                  <maximum exclusive="false">3.5493098589195</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2729</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>years 5-7</entityName>
+      <entityDescription>location, soil N, herbivory and biomass data years 5 - 7</entityDescription>
+      <physical>
+        <objectName>borer_etal_2020_ncoms_data_years_5_7.csv</objectName>
+        <size unit="bytes">356013</size>
+        <authentication method="MD5">fe2379a1c99a470ee34afd71b97a22ae</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>continent</attributeName>
+          <attributeDefinition>Continent</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Continent</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeDefinition>Country</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Country</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>Site Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-37.71516</minimum>
+                  <maximum exclusive="false">69.0567</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-123.6301</minimum>
+                  <maximum exclusive="false">152.923222</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>map</attributeName>
+          <attributeDefinition>Mean Annual Rainfall (mm)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">246</minimum>
+                  <maximum exclusive="false">1877</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>dom_graze</attributeName>
+          <attributeDefinition>Domestic Grazer Presence at Site (TRUE or FALSE)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FALSE</code>
+                    <definition>grazers not present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRUE</code>
+                    <definition>grazers present</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>herb_index_sq</attributeName>
+          <attributeDefinition>Herbivore Index (Square Root)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4.69041575982343</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ppm_n</attributeName>
+          <attributeDefinition>Soil Total N (ppm)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partsPerMillion</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">90</minimum>
+                  <maximum exclusive="false">17160</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>block</attributeName>
+          <attributeDefinition>Block</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Block</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plot</attributeName>
+          <attributeDefinition>Plot</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2008</minimum>
+                  <maximum exclusive="false">2019</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>year_trt</attributeName>
+          <attributeDefinition>Number of Years of Treatments</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lm_lg</attributeName>
+          <attributeDefinition>Live Aboveground Biomass (log10 g m-2)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.97881070093006</minimum>
+                  <maximum exclusive="false">3.57083470642421</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>3339</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>years 8-10</entityName>
+      <entityDescription>location, soil N, herbivory and biomass data years 8 - 10</entityDescription>
+      <physical>
+        <objectName>borer_etal_2020_ncoms_data_years_8_10.csv</objectName>
+        <size unit="bytes">322751</size>
+        <authentication method="MD5">c097fa4884198727dd0ef72574012cfa</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>continent</attributeName>
+          <attributeDefinition>Continent</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Continent</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeDefinition>Country</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Country</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>Site Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-36.874</minimum>
+                  <maximum exclusive="false">53.98562471</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-123.6301</minimum>
+                  <maximum exclusive="false">151.139517</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>map</attributeName>
+          <attributeDefinition>Mean Annual Rainfall (mm)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">246</minimum>
+                  <maximum exclusive="false">1678</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>dom_graze</attributeName>
+          <attributeDefinition>Domestic Grazer Presence at Site (TRUE or FALSE)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FALSE</code>
+                    <definition>grazers not present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRUE</code>
+                    <definition>grazers present</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>herb_index_sq</attributeName>
+          <attributeDefinition>Herbivore Index (Square Root)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.4142135623731</minimum>
+                  <maximum exclusive="false">3.74165738677394</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ppm_n</attributeName>
+          <attributeDefinition>Soil Total N (ppm)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partsPerMillion</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">220</minimum>
+                  <maximum exclusive="false">17160</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>block</attributeName>
+          <attributeDefinition>Block</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Block</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plot</attributeName>
+          <attributeDefinition>Plot</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2008</minimum>
+                  <maximum exclusive="false">2019</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>year_trt</attributeName>
+          <attributeDefinition>Number of Years of Treatments</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lm_lg</attributeName>
+          <attributeDefinition>Live Aboveground Biomass (log10 g m-2)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.97881070093006</minimum>
+                  <maximum exclusive="false">3.49276038902684</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2971</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="partsPerMillion" multiplierToSI="" name="partsPerMillion" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

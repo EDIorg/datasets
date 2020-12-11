@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year sampled	numeric	nominalYear		NA	not available
+Month	Month sampled	numeric	nominalMonth		NA	not available
+Day	Day sampled	numeric	nominalDay		NA	not available
+yday	Day of year/Julian day	numeric	nominalDay		NA	not available
+mean_discharge_m3_s	Daily mean discharge	numeric	cubicMetersPerSecond		NA	not available
+total_discharge_m3_s	Daily total discharge	numeric	cubicMetersPerSecond		NA	not available
+cum_discharge_m3_s	Cumulative total discharge	numeric	cubicMetersPerSecond		NA	not available
+gageht_cm	Gage height	numeric	centimeter		NA	not available
+n	Number of measurements	numeric	number		NA	not available

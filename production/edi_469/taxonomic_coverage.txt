@@ -1,0 +1,51 @@
+name	name_type	name_resolved	authority_system	authority_id
+Ulmus americana L.	scientific	Ulmus americana	ITIS	19049
+Fraxinus nigra Marsh.	scientific	Fraxinus nigra	ITIS	32945
+Betula lenta L.	scientific	Betula lenta	ITIS	19487
+Fagus grandifolia Ehrh.	scientific	Fagus grandifolia	ITIS	19462
+Nyssa sylvatica Marsh.	scientific	Nyssa sylvatica	ITIS	27821
+Castanea dentata (Marsh.) Borkh.	scientific	Castanea dentata	ITIS	19454
+Cornus florida L.	scientific	Cornus florida	ITIS	27806
+Ostrya virginiana (Mill.) Koch	scientific	Ostrya virginiana	ITIS	19511
+Tsuga canadensis (L.) Carr.	scientific	Tsuga canadensis	ITIS	183397
+Acer pensylvanicum L.	scientific	Acer pensylvanicum	ITIS	28754
+Carya glabra (Mill.) Sweet	scientific	Carya glabra	ITIS	19231
+Acer rubrum L.	scientific	Acer rubrum	ITIS	28728
+Sassafras albidum (Nutt.) Nees	scientific	Sassafras albidum	ITIS	18158
+Amelanchier canadensis (L.) Medik.	scientific	Amelanchier canadensis	ITIS	25112
+Carya ovata (Mill.) Koch	scientific	Carya ovata	ITIS	19242
+Acer saccharum Marsh.	scientific	Acer saccharum	ITIS	28731
+Liriodendron tulipifera L.	scientific	Liriodendron tulipifera	ITIS	18086
+ Viburnum prunifolium L.	scientific	Viburnum prunifolium	ITIS	35253
+Fraxinus americana L.	scientific	Fraxinus americana	ITIS	32931
+Picea glauca (Moench) Voss	scientific	Picea glauca	ITIS	183295
+Quercus velutina Lam.	scientific	Quercus velutina	ITIS	19447
+Quercus prinus (montana) L.	scientific	Quercus prinus	ITIS	19398
+Quercus rubra L.	scientific	Quercus rubra	ITIS	19408
+Quercus bicolor Willd.	scientific	Quercus bicolor	ITIS	19300
+Quercus alba L.	scientific	Quercus alba	ITIS	19290
+Ulmus americana L.	common	NA	NA	NA
+Fraxinus nigra Marsh.	common	NA	NA	NA
+Betula lenta L.	common	NA	NA	NA
+Fagus grandifolia Ehrh.	common	NA	NA	NA
+Nyssa sylvatica Marsh.	common	NA	NA	NA
+Castanea dentata (Marsh.) Borkh.	common	NA	NA	NA
+Cornus florida L.	common	NA	NA	NA
+Ostrya virginiana (Mill.) Koch	common	NA	NA	NA
+Tsuga canadensis (L.) Carr.	common	NA	NA	NA
+Acer pensylvanicum L.	common	NA	NA	NA
+Carya glabra (Mill.) Sweet	common	NA	NA	NA
+Acer rubrum L.	common	NA	NA	NA
+Sassafras albidum (Nutt.) Nees	common	NA	NA	NA
+Amelanchier canadensis (L.) Medik.	common	NA	NA	NA
+Carya ovata (Mill.) Koch	common	NA	NA	NA
+Acer saccharum Marsh.	common	NA	NA	NA
+Liriodendron tulipifera L.	common	NA	NA	NA
+ Viburnum prunifolium L.	common	NA	NA	NA
+Fraxinus americana L.	common	NA	NA	NA
+Picea glauca (Moench) Voss	common	NA	NA	NA
+Quercus velutina Lam.	common	NA	NA	NA
+Quercus prinus (montana) L.	common	NA	NA	NA
+Quercus rubra L.	common	NA	NA	NA
+Quercus bicolor Willd.	common	NA	NA	NA
+Quercus alba L.	common	NA	NA	NA

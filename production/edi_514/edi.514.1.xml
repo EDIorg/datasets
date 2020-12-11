@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.514.1"
+  xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd"
+  system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst"
+    scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Mechanisms influencing physically sequestered soil carbon in temperate restored
+      grasslands in South Africa and North America</title>
+    <creator>
+      <individualName>
+        <givenName>Drew</givenName>
+        <givenName>A</givenName>
+        <surName>Scott</surName>
+      </individualName>
+      <organizationName>Southern Illinois University</organizationName>
+      <electronicMailAddress>dascott@siu.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0361-9522</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Elizabeth</givenName>
+        <givenName>M</givenName>
+        <surName>Bach</surName>
+      </individualName>
+      <organizationName>Nachusa Grasslands</organizationName>
+      <electronicMailAddress>elizabeth.bach@tnc.org</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Chris</givenName>
+        <givenName>C</givenName>
+        <surName>Du Preez</surName>
+      </individualName>
+      <organizationName>University of the Free State</organizationName>
+      <electronicMailAddress>dPreezCC@ufs.ac.za</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Johan</givenName>
+        <surName>Six</surName>
+      </individualName>
+      <organizationName>ETH Zurich</organizationName>
+      <electronicMailAddress>jsix@ethz.ch</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sara</givenName>
+        <givenName>G</givenName>
+        <surName>Baer</surName>
+      </individualName>
+      <organizationName>University of Kansas</organizationName>
+      <electronicMailAddress>sgbaer@ku.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2020-05-13</pubDate>
+    <abstract>
+      <para> This dataset contains a measurement of physically protected carbon
+        (microaggregate-within-macroaggregate C) and potential drivers of physically protected C
+        accumulation during grassland restoration. The data were collected from three independent
+        grassland restorations from agriculture in North America and South Africa. Northeast Kansas,
+        USA data were collected in May 2013. Northeast Free State, RSA data were collected in
+        September–November 2005. Southeast Nebraska, USA data were collected in October 2008–May
+        2008. Aggregate fractionations were performed by hierarchical wet sieving (Six et al 2000).
+        Carbon and N quantification were done by flash combustion-gas chromatography. Microbial
+        biomass C quantification was performed with chloroform fumigation-incubation (chloroform
+        fumigation-extraction in the case of northeast Kansas). Phospholipid fatty acid biomass
+        analysis was conducted using the methods of Bligh and Dyer (1959). </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Arbuscular mycorrhizal fungi</keyword>
+      <keyword>Conservation Reserve Program</keyword>
+      <keyword>Microaggregate-within-macroaggregate</keyword>
+      <keyword>Microbial biomass</keyword>
+      <keyword>Roots</keyword>
+      <keyword>Soil organic matter</keyword>
+      <keyword>Soil structure</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para> This information is released under the Creative Commons license - Attribution - CC BY
+        (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User"
+        herein) is required to cite it appropriately in any publication that results from its use.
+        The Data User should realize that these data may be actively used by others for ongoing
+        research and that coordination may be necessary to prevent duplicate publication. The Data
+        User is urged to contact the authors of these data if any questions about methodology or
+        results occur. Where appropriate, the Data User is encouraged to consider collaboration or
+        co-authorship with the authors. The Data User should realize that misinterpretation of data
+        may occur if used out of context of the original study. While substantial efforts are made
+        to ensure the accuracy of data and associated documentation, complete accuracy of data sets
+        cannot be guaranteed. All data are made available "as is." The Data User should be aware,
+        however, that data are updated periodically and it is the responsibility of the Data User to
+        check for new versions of the data. The data authors and the repository where these data
+        were obtained shall not be liable for damages resulting from any use or misinterpretation of
+        the data. Thank you. </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Northeast Kansas, USA sites</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.58333</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.58333</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.08333</northBoundingCoordinate>
+          <southBoundingCoordinate>39.08333</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Gage, Southeast Nebraska, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.69347</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.69347</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.26508</northBoundingCoordinate>
+          <southBoundingCoordinate>40.26508</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Northeast Free State, South Africa</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>29.18333</westBoundingCoordinate>
+          <eastBoundingCoordinate>29.18333</eastBoundingCoordinate>
+          <northBoundingCoordinate>-28.2</northBoundingCoordinate>
+          <southBoundingCoordinate>-28.2</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Saline,  Southeast Nebraska, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-97.14231</westBoundingCoordinate>
+          <eastBoundingCoordinate>-97.14231</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.53134</northBoundingCoordinate>
+          <southBoundingCoordinate>40.53134</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005-09-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-05-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Drew</givenName>
+        <givenName>A</givenName>
+        <surName>Scott</surName>
+      </individualName>
+      <organizationName>Southern Illinois University</organizationName>
+      <electronicMailAddress>dascott@siu.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0361-9522</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para> Site Descriptions </para>
+          <para> All chronosequences used in this analysis were selected based on the criteria that
+            sites had been cultivated long enough to achieve a new (lower) equilibrium C stocks
+            (Baer et al. 2015), were planted to perennial C4 grasses, and contained at least 9%
+            clay, as grassland restored on soil with little to no clay content does not accrue C on
+            a decadal time scale (Baer et al. 2010). </para>
+          <para> The southeast Nebraska site consisted of 22 independent restorations that were part
+            of the Unites States Department of Agriculture’s Conservation Reserve Program, with ages
+            ranging from 4–19 years restored. These restorations were on silty clay loam (Fine
+            smectitic, mesic Aquertic Argiudolls) soils formed by loess with 0–6% slope. Crop
+            rotations in this area often include corn, wheat, oat, soy, and sorghum. Most of these
+            fields were restored by sowing equal amounts of 6 grass species (Andropogon gerardii
+            Vitman, Schizachyrium scoparium (Michx.) Nash, Panicum virgatum L., Pascopyrum smithii
+            (Rydb.) Á. Löve, Bouteloua curtipendula (Michx.) Torr., and Sorghastrum nutans (L.)
+            Nash). This region had a mean annual temperature of 10.9° C of and a mean annual
+            precipitation of 757 mm. Baer et al. (2010) and Bach et al. (2010) provide a detailed
+            description of the fields sampled in this chronosequence. </para>
+          <para> The northeast Kansas site consisted of 6 independent restorations, with ages
+            ranging from 1–35 years restored. These restorations were on Reading silt loam (fine
+            silt, mixed, superactive, mesic Pachic Argiudoll) soils formed from alluvial silt
+            deposits and Clime silty clay loam (fine, mixed, active, mesic Udothentic Haplustolls)–
+            Sogn silt loam complex (loamy, mixed, superactive, mesic Lithic Haplustolls) soils
+            formed from residuum from shale and limestone respectively. Sampled areas had less than
+            5% slope. These fields were in cultivation for 50 or more years prior to restoration.
+            Crop rotations in this area often include corn, soy, sorghum, and winter wheat. These
+            fields were restored by sowing a variety of seed mixes. The most commonly encountered
+            plant species were Andropogon gerardii Vitman, Sorghastrum nutans (L.) Nash, and
+            Lespedeza capitate Michx. This site had a mean annual temperature of 12.7° C of and a
+            mean annual precipitation of 833 mm. Scott et al. (2017) provide a detailed description
+            of the fields sampled in this chronosequence. </para>
+          <para> The northeast Free State site consisted of 17 independent restorations near
+            Harrismith, with ages ranging from 4–44 years restored. These restorations were on fine
+            loamy sand to fine sandy loam, thermic, mixed Typic Plinthustalfs soils with less than
+            5% slope. The fields were in cultivation for 30 or more years before restoration. Crop
+            rotations in this area often include fallow, wheat, corn, and sunflower. Most fields
+            were restored by sowing Eragrostis curvula (Schrad.) Nees. This site had a mean annual
+            temperature of 13.8° C of and a mean annual precipitation of 635 mm. Baer et al. (2015)
+            provide a detailed description of the fields sampled in this chronosequence. </para>
+          <para> Measurements </para>
+          <para> We used measurements of root biomass, root C:N ratio, bulk density, percent of
+            macroaggregates by whole soil mass, percent of microaggregate-within-macroaggregates by
+            combined macroaggregate mass, microbial biomass C, total PLFA biomass, PLFA
+            fungi:bacteria ratio, and microaggregate-within-macroaggregate C from the perennial
+            grassland restoration chronosequences in southeast Nebraska, USA (SENE) (Bach et
+            al. 2010; Baer et al. 2010), northeast Free State, RSA (NEFS) (Baer et al. 2015), and
+            northeast Kansas, USA (NEKS) (Scott et al. 2017). All data were produced using the same
+            methods, with the exception of sample depth increments. Data from Scott et al. (2017)
+            and Baer et al. (2010) were derived from 0-10 cm soil depth. Data from Baer et
+            al. (2015) collected in NEFS were derived from the 0-5 cm and 5-10 cm depth. The
+            sequestered soil carbon (represented by the microaggregate-within-macroaggregate
+            fraction) were not previously reported for the SENE and NEFS studies. </para>
+          <para> At all sites, intact soil cores (5 cm dia.) were removed and stored at 4oC until
+            processed (within one week of sampling). In the laboratory, each core was broken along
+            planes of natural weakness and passed through an 8 mm sieve. Roots were then removed
+            with forceps, washed with deionized water and dried (60°C) to determine root biomass.
+            Dried roots were ground to a fine powder and 5-10 g of soil was analyzed for %C and %N
+            by dry combustion followed by gas chromatography on a CN Analyzer (Thermo Scientific,
+            New Brunswick, NJ USA). A subsample of freshly sieved soil (~20 g) was used to determine
+            gravimetric water content and back-calculate bulk density based on the volume and dry
+            weight of soil. Another subsample of freshly sieved soil (30 mL) was frozen in a falcon
+            tube and later used for PLFA analyses. A subsample of ~100 g was air dried and used for
+            aggregate fractionation. </para>
+          <para> Phospholipid fatty acid biomarkers were extracted from soils using a chloroform
+            extraction (Bligh and Dyer 1959; Bossio et al. 1998; DeGrood et al. 2005). Solid phase
+            extraction was used to separate the neutral- and glycolipids from the phospholipids.
+            Fatty acid methyl esters were dissolved in hexane and analyzed with gas chromatography.
+            See previous publications for full details (SENE: Baer et al. 2010; Bach et al. 2010;
+            NEFS: Baer et al. 2015; NEKS: Scott et al. 2017). </para>
+          <para> A hierarchical wet-sieving method was used to fractionate soil into aggregate
+            classes and further isolate microaggregates-within-macroaggregates according to Six et
+            al. (2000 a and b). Soil passing through an 8 mm sieve was air dried before slaking and
+            isolating aggregates (&amp;gt;2 mm: macroaggregates; &amp;lt;2 mm and &amp;gt;250 μm:
+            small macroaggregates; &amp;lt;250 μm and &amp;gt;50 μm: microaggregates; and &amp;lt;
+            50 μm: silt and clay). Macroaggregates were dried at 60° C and then shaken in water on a
+            fine mesh with 50 4-mm ball bearings. The mesh isolated particulate organic matter
+            within the macroaggregates. The water was then poured over a 50 m sieve to isolate
+            microaggregates within the macroaggregates. This fraction was dried at a low temperature
+            (60° C), then analyzed for %C and %N using the same methods described for root biomass.
+            Carbon stocks for this fraction and bulk soil (total C stocks) were calculated using
+            minimum equivalent mass. In the case of NEKS total C stocks were calculated as the sum
+            of C in aggregate fractions. See previous publications for full details (SENE: Baer et
+            al. 2010; Bach et al. 2010; NEFS: Baer et al. 2015; NEKS: Scott et al. 2017). </para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>physically protected carbon</entityName>
+      <entityDescription>Data from three sites (southeast Nebraska, USA; northeast Kansas, USA; northeast Free State, South Africa) were synthesized. Data were used to create a mixed model regression of microaggregate-within-macroaggregate carbon increase with age among all site, with site as a random effect. Data were also used to fit structural equation models explaining predominant mechanism of microaggregate-within-macroaggregate carbon accumulation in each site and all combined sites.</entityDescription>
+      <physical>
+        <objectName>micro_within_macro_synthesis.csv</objectName>
+        <size unit="bytes">3500</size>
+        <authentication method="MD5">2fd43948d99372eedccffacb9b8a29ea</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Location</attributeName>
+          <attributeDefinition>Region where restoration chronosequence was located</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Region where restoration chronosequence was located</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Researchers’ name for each site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Researchers’ name for each site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>age</attributeName>
+          <attributeDefinition>Restoration age with first growing season of restoration counting as 1 year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">44</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>depth of soil profile used in structural equation model analyses in centimeter ranges</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>depth of soil profile used in structural equation model analyses in centimeter ranges</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RootBiomass</attributeName>
+          <attributeDefinition>biomass of roots; no attempt was made to distinguish live and dead roots</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">23.73</minimum>
+                  <maximum exclusive="false">688.24</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>RootQuality</attributeName>
+          <attributeDefinition>Root C:N ratio</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">31.68</minimum>
+                  <maximum exclusive="false">101.07</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>MBC</attributeName>
+          <attributeDefinition>Microbial biomass carbon using chloroform fumigation-incubation (chloroform incubation-extraction in the case of NEKS)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerGram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">25.04</minimum>
+                  <maximum exclusive="false">886.78</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PLFAbiomass</attributeName>
+          <attributeDefinition>Total phospholipid fatty acid biomarker (PLFA) biomass</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanomolesPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">10.47</minimum>
+                  <maximum exclusive="false">86.96</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FungiBacteria</attributeName>
+          <attributeDefinition>Fungi PLFA biomass:bacteria PLFA biomass ratio</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.19</minimum>
+                  <maximum exclusive="false">0.44</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AMF</attributeName>
+          <attributeDefinition>Arbuscular mycorrhizal fungi PLFA biomass</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanomolesPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.35</minimum>
+                  <maximum exclusive="false">7.09</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Macros</attributeName>
+          <attributeDefinition>Percentage of macroaggregates by mass</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">33.41</minimum>
+                  <maximum exclusive="false">91.85</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>BulkDensity</attributeName>
+          <attributeDefinition>Bulk density using calculated from gravimetric water content and assuming a mineral soil particle density of 2.65 g cm-3</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerCubicCentimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.1</minimum>
+                  <maximum exclusive="false">1.73</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>iMicros</attributeName>
+          <attributeDefinition>Percentage of microaggregates-within-macroaggregates by mass</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">36.04</minimum>
+                  <maximum exclusive="false">86.21</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SoilC</attributeName>
+          <attributeDefinition>Minimum equivalent mass (for a site) soil carbon</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">156.26</minimum>
+                  <maximum exclusive="false">1326.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SoilC10</attributeName>
+          <attributeDefinition>Minimum equivalent mass (for a site) soil carbon for a 10 cm soil profile</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">267.63</minimum>
+                  <maximum exclusive="false">1516.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Clay</attributeName>
+          <attributeDefinition>Percent clay content from a hydrometer soil texture analysis</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">9</minimum>
+                  <maximum exclusive="false">39</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>36</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>Biogeochemistry 2020 code.R</entityName>
+      <entityDescription>Code for linear mixed models, structural equation models, and linear models with estimated marginal means</entityDescription>
+      <physical>
+        <objectName>Biogeochemistry 2020 code.R</objectName>
+        <size unit="bytes">5083</size>
+        <authentication method="MD5">5d4a576c83af39814e1e138eb3e570c2</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="nanomolesPerGram" multiplierToSI="" name="nanomolesPerGram" parentSI=""
+          unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

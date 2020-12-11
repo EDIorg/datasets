@@ -1,0 +1,32 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+mass	Mass of peak	numeric	dimensionless		NA	not available
+m_z	m/z of peak	numeric	number		NA	not available
+C	Number of carbon atoms	numeric	number		NA	not available
+H	Number of hydrogen atoms	numeric	number		NA	not available
+N	Number of nitrogen atoms	numeric	number		NA	not available
+O	Number of oxygen atoms	numeric	number		NA	not available
+S	Number of sulfur atoms	numeric	number		NA	not available
+P	Number of phosphorus atoms	numeric	number		NA	not available
+H_C	Atomic H/C ratio	numeric	dimensionless		NA	not available
+O_C	Atomic O/C ratio	numeric	dimensionless		NA	not available
+DBE	Double bond equivalent	numeric	dimensionless		NA	not available
+DBE_C	Double bond equivalent normalized to C	numeric	dimensionless		NA	not available
+DBE_H	Double bond equivalent normalized to H	numeric	dimensionless		NA	not available
+DBE_O	Double bond equivalent normalized to O	numeric	dimensionless		NA	not available
+CRAM	Carboxyl-rich alicyclic molecules	character				
+AI-mod	Modified aromaticity index	numeric	dimensionless		NA	not available
+PolyCyArom	Polycyclic aromatic compounds	character				
+Aromatic	Aromatic compounds	character				
+HighUnsatLign	Highly unsaturated/lignin-like compounds	character				
+UnsatAliph-N	Unsaturated aliphatic compounds without nitrogen	character				
+SatFatAcCarb	Saturated fatty acids/carbohydrate-like compounds	character				
+UnSatAlip+N	Unsaturated aliphatic compounds containing nitrogen	character				
+KM	Kendrick Mass	numeric	dimensionless		NA	not available
+NKM	Nominal Kendrick Mass	numeric	dimensionless		NA	not available
+KMD	Kendrick Mass Defect	numeric	dimensionless		NA	not available
+PreHW1_csv	Pre-Goethite sample	numeric	dimensionless		NA	not available
+PreHW2_csv	Pre-Goethite sample	numeric	dimensionless		NA	not available
+PreHW3_csv	Pre-Goethite sample	numeric	dimensionless		NA	not available
+PreHWGt13_csv	Post-Goethite sample	numeric	dimensionless		NA	not available
+PreHWGt14_csv	Post-Goethite sample	numeric	dimensionless		NA	not available
+PreHWGt15_csv	Post-Goethite sample	numeric	dimensionless		NA	not available

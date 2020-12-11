@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.621.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>The Bear Brook Watershed in Maine, USA: Long-term stream chemistry 1986 - 2016</title>
+    <creator>
+      <individualName>
+        <givenName>Kaizad</givenName>
+        <givenName>F.</givenName>
+        <surName>Patel</surName>
+      </individualName>
+      <organizationName>Pacific Northwest National Laboratory</organizationName>
+      <electronicMailAddress>kaizad.patel@pnnl.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-6437-7809</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ivan</givenName>
+        <givenName>J.</givenName>
+        <surName>Fernandez</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>ivanjf@maine.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7220-2205</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <givenName>J.</givenName>
+        <surName>Nelson</surName>
+      </individualName>
+      <organizationName>University of Maine; Appalachian Mountain Club</organizationName>
+      <electronicMailAddress>snelson@outdoors.org</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3000-7521</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Cheryl</givenName>
+        <givenName>J.</givenName>
+        <surName>Spencer</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>rpt372@maine.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <givenName>A.</givenName>
+        <surName>Norton</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>norton@maine.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2020-10-01</pubDate>
+    <abstract>
+      <para>This dataset includes stream chemistry for the Bear Brook Watershed in Maine (BBWM). The BBWM consists of two watersheds, the reference East Bear (EB), receiving ambient deposition, and the treated West Bear (WB), which received experimental elevated N+S deposition for 27 years. Stream samples were collected as grab samples and event samples (e.g. during snowmelt and rain events) using ISCO™ automated samplers from both EB and WB streams. Stream chemistry was interpolated between collections to develop annual or monthly stream water fluxes.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Bear Brook Watershed in Maine</keyword>
+      <keyword>BBWM</keyword>
+      <keyword>temperate forests</keyword>
+      <keyword>acidification</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>watersheds</keyword>
+      <keyword>biogeochemistry</keyword>
+      <keyword>nitrogen</keyword>
+      <keyword>sulfur</keyword>
+      <keyword>streams</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>nutrient budgets</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>BBWM is located in eastern Maine, USA at an elevation of 450.8 m. Soils are coarse-loamy, mixed, frigid Typic and Aquic Haplorthods. Bedrock consists dominantly of quartzite, phyllite, and calc-silicate low-grade metasediments, and minor granite dikes. The lower elevations are dominated by hardwood stands, and the upper elevations are dominated by softwood stands. The site is located in the Acadian Plains and Hills (82) Level III Ecoregion (Omernik et al. https://www.epa.gov/eco-research/ecoregions).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-68.1</westBoundingCoordinate>
+          <eastBoundingCoordinate>-68.1</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.87</northBoundingCoordinate>
+          <southBoundingCoordinate>44.87</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1986</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Kaizad</givenName>
+        <givenName>F.</givenName>
+        <surName>Patel</surName>
+      </individualName>
+      <organizationName>Pacific Northwest National Laboratory</organizationName>
+      <electronicMailAddress>kaizad.patel@pnnl.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-6437-7809</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ivan</givenName>
+        <givenName>J.</givenName>
+        <surName>Fernandez</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>ivanjf@maine.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7220-2205</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Detailed collection and analysis methods can be found in Norton et al 1999 (doi: 10.1023/A:1006115011381) and Navratil et al. 2010 (doi: 10.1007/s10661-010-1527-z).</para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>Stream concentration data for all samples collected</entityName>
+      <entityDescription>Bear Brook watershed stream concentration data for all samples collected</entityDescription>
+      <physical>
+        <objectName>bbwm_stream_all.csv</objectName>
+        <size unit="bytes">962422</size>
+        <authentication method="MD5">9377dbbf715bcb4a4567bcec10125f19</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>sampling location (for internal reference)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sampling location (for internal reference)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>watershed</attributeName>
+          <attributeDefinition>watershed name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>EB</code>
+                    <definition>East Bear</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WB</code>
+                    <definition>West Bear</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ISCO_number</attributeName>
+          <attributeDefinition>ISCO autosampler container number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ISCO autosampler container number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>record_type</attributeName>
+          <attributeDefinition>normal vs. duplicate samples</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>REG</code>
+                    <definition>regular sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DUP</code>
+                    <definition>field duplicate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>REP</code>
+                    <definition>laboratory analytical replicate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ISCO</code>
+                    <definition>autosampler</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1986</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>day sampled</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeDefinition>hour sampled</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalHour</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">24</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>season</attributeName>
+          <attributeDefinition>seasons, determined on a three-month basis</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WINTER</code>
+                    <definition>DJF</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPRING</code>
+                    <definition>MAM</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUMMER</code>
+                    <definition>JJA</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FALL</code>
+                    <definition>SON</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>julian_day</attributeName>
+          <attributeDefinition>running day for a year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.67</minimum>
+                  <maximum exclusive="false">366.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>running_day_of_project</attributeName>
+          <attributeDefinition>running day of project</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">274</minimum>
+                  <maximum exclusive="false">11320.42</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Ca_flag</attributeName>
+          <attributeDefinition>If flagged with '&lt; DL' then data are below the detection limit (0.5 ueq/L). If flagged with '&lt; RL' then data are below the reporting limit (2.5 ueq/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>If flagged with '&lt; DL' then data are below the detection limit (0.5 ueq/L). If flagged with '&lt; RL' then data are below the reporting limit (2.5 ueq/L) and should be used with caution.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ca_ueq_L</attributeName>
+          <attributeDefinition>Calcium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">27</minimum>
+                  <maximum exclusive="false">159</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Mg_flag</attributeName>
+          <attributeDefinition>If flagged with '&lt; DL' then data are below the detection limit (0.8 ueq/L). If flagged with '&lt; RL' then data are below the reporting limit (4.1 ueq/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mg_ueq_L</attributeName>
+          <attributeDefinition>Magnesium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">58</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>K_flag</attributeName>
+          <attributeDefinition>If flagged with '&lt; DL' then data are below the detection limit (0.3 ueq/L). If flagged with '&lt; RL' then data are below the reporting limit (1.3 ueq/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>K_ueq_L</attributeName>
+          <attributeDefinition>Potassium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.6</minimum>
+                  <maximum exclusive="false">44</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Na_flag</attributeName>
+          <attributeDefinition>If flagged with '&lt; DL' then data are below the detection limit (0.4 ueq/L). If flagged with '&lt; RL' then data are below the reporting limit (2.2 ueq/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>If flagged with '&lt; DL' then data are below the detection limit (0.4 ueq/L). If flagged with '&lt; RL' then data are below the reporting limit (2.2 ueq/L) and should be used with caution.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Na_ueq_L</attributeName>
+          <attributeDefinition>Sodium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">30</minimum>
+                  <maximum exclusive="false">155</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Cl_ueq_L</attributeName>
+          <attributeDefinition>Chloride, determined by ion chromatography</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">7</minimum>
+                  <maximum exclusive="false">210</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SO4_flag</attributeName>
+          <attributeDefinition>If flagged with '&lt; DL' then data are below the detection limit (0.5 ueq/L). If flagged with '&lt; RL' then data are below the reporting limit (2 ueq/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>If flagged with '&lt; DL' then data are below the detection limit (0.5 ueq/L). If flagged with '&lt; RL' then data are below the reporting limit (2 ueq/L) and should be used with caution.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SO4_ueq_L</attributeName>
+          <attributeDefinition>Sulfate, determined by ion chromatography</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">32</minimum>
+                  <maximum exclusive="false">247</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NO3_flag</attributeName>
+          <attributeDefinition>Nitrate flag: If flagged with '&lt; DL' then data are below the detection limit (0.1 ueq/L). If flagged with '&lt; RL' then data are below the reporting limit (1.0 ueq/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DL</code>
+                    <definition>below the detection limit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NO3_ueq_L</attributeName>
+          <attributeDefinition>Nitrate, determined by ion chromatography Detection Limit: 0.1 ueq/L. Reporting Limit: 1.0 ueq/L.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.01</minimum>
+                  <maximum exclusive="false">135</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_flag</attributeName>
+          <attributeDefinition>Ammonium flag: If flagged with '&lt; DL' then data are below the detection limit (0.05 mg/L). If flagged with '&lt; RL' then data are below the reporting limit (0.1  mg/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DL</code>
+                    <definition>below the detection limit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_ueq_L</attributeName>
+          <attributeDefinition>Ammonium, determined by: - Autoanalyzer (2003 and prior) - Ion Chromatography (2004 forward)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.14</minimum>
+                  <maximum exclusive="false">78.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Al_ppb</attributeName>
+          <attributeDefinition>Total dissolved aluminum, determined by: Atomic absorption spectroscopy with graphite furnace (1998 and prior), Inductively Coupled Plasma Optical Emission Spectroscopy (ICP-OES) 1999-2015, ICP-Mass Spectrometry (ICP-MS) from 2016</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">13</minimum>
+                  <maximum exclusive="false">996</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Al_org_ppb</attributeName>
+          <attributeDefinition>Organic aluminum, determined after filtration through exchange resin by:  Atomic absorption spectroscopy with graphite furnace (1998 and prior), Inductively Coupled Plasma Optical Emission Spectroscopy (ICP-OES) 1999-2015, ICP-Mass Spectrometry (ICP-MS) from 2016</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">8</minimum>
+                  <maximum exclusive="false">496</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DOC_flag</attributeName>
+          <attributeDefinition>Dissolved organic carbon flag, if flagged with '&lt; DL' then data are below the detection limit (0.1 mg/L). If flagged with '&lt; RL' then data are below the reporting limit (0.5 mg/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DL</code>
+                    <definition>below the detection limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DOC_mg_L</attributeName>
+          <attributeDefinition>Dissolved organic carbon, determined by infrared carbon analyzer, persulfate oxidation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">7.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DIC_flag</attributeName>
+          <attributeDefinition>Dissolved inorganic carbon flag, if flagged with '&lt; DL' then data are below the detection limit (0.1 mg/L). If flagged with '&lt; RL' then data are below the reporting limit (0.5 mg/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DIC_mg_L</attributeName>
+          <attributeDefinition>Dissolved organic carbon, determined by infrared carbon analyzer, persulfate oxidation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">3.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>total_N_flag</attributeName>
+          <attributeDefinition>Total nitrogen flag: If flagged with '&lt; DL' then data are below the detection limit (0.05 mg/L). If flagged with '&lt; RL' then data are below the reporting limit (0.1 mg/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DL</code>
+                    <definition>below the detection limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>total_N_ppm</attributeName>
+          <attributeDefinition>Total nitrogen, determined by automated colorimetry</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2.06</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>total_P_flag</attributeName>
+          <attributeDefinition>Total phosphorus flag, if flagged with '&lt; DL' then data are below the detection limit (0.5 ug/L). If flagged with '&lt; RL' then data are below the reporting limit (1.0 ug/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DL</code>
+                    <definition>below the detection limit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>total_P_ppb</attributeName>
+          <attributeDefinition>Total phosphorus, determined by manual colorimetry</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">74.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Si_flag</attributeName>
+          <attributeDefinition>Silica flag: If flagged with '&lt; DL' then data are below the detection limit (0.1mg/L). If flagged with '&lt; RL' then data are below the reporting limit (0.5 mg/L) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DL</code>
+                    <definition>below the detection limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Si_mg_L</attributeName>
+          <attributeDefinition>Silica, determined by autoanalyzer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ANC_ueq_L</attributeName>
+          <attributeDefinition>Acid-neutralizing capacity, determined by Gran titration. ANC is not measured on most samples, when pH is &lt; 5.5</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-26.7</minimum>
+                  <maximum exclusive="false">76.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sp_conductance_us_cm</attributeName>
+          <attributeDefinition>Measured conductivity, determined with a Wheatstone bridge</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microSiemensPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5</minimum>
+                  <maximum exclusive="false">61</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>discharge_L_sec</attributeName>
+          <attributeDefinition>stream discharge</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>litersPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">328.396</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>H_ueq_L</attributeName>
+          <attributeDefinition>hydrogen ions</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.06</minimum>
+                  <maximum exclusive="false">79.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HCO3_ueq_L</attributeName>
+          <attributeDefinition>bicarbonate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEquivalentsPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.27</minimum>
+                  <maximum exclusive="false">85.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pH_closed_cell</attributeName>
+          <attributeDefinition>closed cell pH, determined by electrode in sealed environment</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.1</minimum>
+                  <maximum exclusive="false">6.89</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pH_air_eqll</attributeName>
+          <attributeDefinition>Air-equilibrated pH, determined by electrode, with standard air (300 ppm CO2) bubbled in</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.1</minimum>
+                  <maximum exclusive="false">7.19</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>apparent_color_flag</attributeName>
+          <attributeDefinition>Apparent color flag, If flagged with '&lt; RL' then data are below the reporting limit (5 PCU) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>apparent_color_PCU</attributeName>
+          <attributeDefinition>Apparent color, unfiltered sample, determined by 475.5 nm spectrophotometer until 2002 and after June 2004, and by color wheel 2003-June 2004.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>platinumCobaltUnits</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">148</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>true_color_flag</attributeName>
+          <attributeDefinition>True color flag, If flagged with '&lt; RL' then data are below the reporting limit (5 PCU) and should be used with caution.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>below the reporting limit</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>true_color_PCU</attributeName>
+          <attributeDefinition>True Color, determined by Hach Pt-Co color kit or Bausch &amp; Lomb Spectronic 70 spectrophotometer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>platinumCobaltUnits</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Comment</attributeName>
+          <attributeDefinition>Notes when analytical holding times were exceeded or when missing values were substituted with calculated alternatives (rarely). Data users should determine applicability of data for these values.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes when analytical holding times were exceeded or when missing values were substituted with calculated alternatives (rarely). Data users should determine applicability of data for these values.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>6679</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Annual stream exports for East Bear and West Bear</entityName>
+      <entityDescription>Bear Brook watershed annual stream exports for East Bear and West Bear. Units for annual data are flux units per year on a water year basis</entityDescription>
+      <physical>
+        <objectName>bbwm_stream_annual.csv</objectName>
+        <size unit="bytes">4275</size>
+        <authentication method="MD5">bdd2f31907a9d30ef104bcb17ed92ddd</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>WY</attributeName>
+          <attributeDefinition>USGS water year (Oct-1 to Sep-30)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1989</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>watershed</attributeName>
+          <attributeDefinition>watershed name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>EB</code>
+                    <definition>East Bear</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WB</code>
+                    <definition>West Bear</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H2O_1e6L</attributeName>
+          <attributeDefinition>annual streamwater export (multiply by 10^6)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>liter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">51</minimum>
+                  <maximum exclusive="false">159</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Ca_eq_ha</attributeName>
+          <attributeDefinition>calcium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">219</minimum>
+                  <maximum exclusive="false">1516</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>K_eq_ha</attributeName>
+          <attributeDefinition>potassium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">22</minimum>
+                  <maximum exclusive="false">119</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Mg_eq_ha</attributeName>
+          <attributeDefinition>magnesium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">92</minimum>
+                  <maximum exclusive="false">522</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Na_eq_ha</attributeName>
+          <attributeDefinition>sodium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">306</minimum>
+                  <maximum exclusive="false">1252</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NO3_eq_ha</attributeName>
+          <attributeDefinition>nitrate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">717.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_eq_ha</attributeName>
+          <attributeDefinition>ammonium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">36.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SO4_eq_ha</attributeName>
+          <attributeDefinition>sulfate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">439</minimum>
+                  <maximum exclusive="false">2445</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Cl_eq_ha</attributeName>
+          <attributeDefinition>chloride</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">343</minimum>
+                  <maximum exclusive="false">1311</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Al_umol_ha</attributeName>
+          <attributeDefinition>aluminum</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.3</minimum>
+                  <maximum exclusive="false">302.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DOC_umol_ha</attributeName>
+          <attributeDefinition>dissolved organic carbon</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">482</minimum>
+                  <maximum exclusive="false">2632</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>H_eq_ha</attributeName>
+          <attributeDefinition>hydrogen ion, computed from pH</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.7</minimum>
+                  <maximum exclusive="false">224.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ANC_eq_ha</attributeName>
+          <attributeDefinition>acid neutralizing capacity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">213.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HCO3_eq_ha</attributeName>
+          <attributeDefinition>bicarbonate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">10.1</minimum>
+                  <maximum exclusive="false">170.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Si_umol_ha</attributeName>
+          <attributeDefinition>silicon</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">26</minimum>
+                  <maximum exclusive="false">822</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>56</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Monthly stream exports for East Bear and West Bear</entityName>
+      <entityDescription>Bear Brook watershed monthly stream exports for East Bear and West Bear. Units for monthly data are flux units per month </entityDescription>
+      <physical>
+        <objectName>bbwm_stream_monthly.csv</objectName>
+        <size unit="bytes">32603</size>
+        <authentication method="MD5">77f17fc83410051d9fd73cfe3366d9e1</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1988</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>watershed</attributeName>
+          <attributeDefinition>watershed name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>EB</code>
+                    <definition>East Bear</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WB</code>
+                    <definition>West Bear</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H2O_cm</attributeName>
+          <attributeDefinition>monthly streamflow</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">38</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>H_eq_ha</attributeName>
+          <attributeDefinition>hydrogen ion, computed from pH</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">62</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HCO3_eq_ha</attributeName>
+          <attributeDefinition>bicarbonate, computed</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">29</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DOC_umol_ha</attributeName>
+          <attributeDefinition>dissolved organic carbon</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Ca_eq_ha</attributeName>
+          <attributeDefinition>calcium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">375</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Mg_eq_ha</attributeName>
+          <attributeDefinition>magnesium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">140</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>K_eq_ha</attributeName>
+          <attributeDefinition>potassium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">53</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Na_eq_ha</attributeName>
+          <attributeDefinition>sodium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">277</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Al_umol_ha</attributeName>
+          <attributeDefinition>aluminum</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">87</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_eq_ha</attributeName>
+          <attributeDefinition>ammonium</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">35</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Si_umol_ha</attributeName>
+          <attributeDefinition>silicon</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">213</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Cl_eq_ha</attributeName>
+          <attributeDefinition>chloride</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">264</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NO3_eq_ha</attributeName>
+          <attributeDefinition>nitrate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">237</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SO4_eq_ha</attributeName>
+          <attributeDefinition>sulfate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>equivalentsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">675</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>678</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="nominalMonth" multiplierToSI="" name="nominalMonth" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="equivalentsPerHectare" multiplierToSI="" name="equivalentsPerHectare" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="microMolesPerHectare" multiplierToSI="" name="microMolesPerHectare" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="microEquivalentsPerLiter" multiplierToSI="" name="microEquivalentsPerLiter" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="platinumCobaltUnits" multiplierToSI="" name="platinumCobaltUnits" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="microSiemensPerCentimeter" multiplierToSI="" name="microSiemensPerCentimeter" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

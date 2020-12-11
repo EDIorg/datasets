@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+WY	"Year, on a water year basis (Oct-1 to Sep-31)"	numeric	nominalYear			
+Watershed	Watershed	categorical				
+Area_ha	Watershed area	numeric	hectare		NA	not available
+NO3_ueq_L	Annual stream nitrate concentration	numeric	microequivalentPerLiter		NA	not available
+SO4_ueq_L	Annual stream sulfate concentration	numeric	microequivalentPerLiter		NA	not available
+Ca_ueq_L	Annual stream calcium concentration	numeric	microequivalentPerLiter		NA	not available
+Mg_ueq_L	Annual stream magnesium concentration	numeric	microequivalentPerLiter		NA	not available
+H2O_1e6_L	"Annual stream water volume discharged (x 1,000,000)"	numeric	liter		NA	not available

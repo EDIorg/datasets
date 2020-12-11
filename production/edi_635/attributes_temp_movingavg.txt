@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year	numeric	nominalYear		NA	not available
+Month	Month	numeric	nominalMonth		NA	not available
+Day	Day	numeric	nominalDay		NA	not available
+Season	Season	categorical				
+JulianDay	Julian Day	numeric	nominalDay		NA	not available
+airtemp_C	Air temperature	numeric	celsius		NA	not available
+orgtemp_C	Organic soil temperature	numeric	celsius		NA	not available
+min10cmtemp_C	Mineral soil (10 cm) temperature	numeric	celsius		NA	not available

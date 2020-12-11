@@ -1,0 +1,5 @@
+attributeName	code	definition
+watershed	WB	West Bear
+watershed	EB	East Bear
+forest	HW	hardwood
+forest	SW	softwood

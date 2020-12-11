@@ -1,0 +1,64 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Locational identifier for each sampling site	character				
+Genus	"Genus of the analyzed organism. Amphipods were identified to species, whereas snails and periphyton were kept as generalized groupings. Draparnaldia spp. is an endemic alga and was likewise not identified to species."	character				
+Species	Amphipod species analyzed	character				
+c12_0	Concentration of 12:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+i_14_0	Concentration of i-14:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c14_0	Concentration of 14:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c14_1w5	Concentration of 14:1omega5 fatty acid	numeric	microgramsPerMilligram		NA	not available
+i_15_0	Concentration of i-15:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+a_15_0	Concentration of a-15:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c15_0	Concentration of 15:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c15_1w7	Concentration of 15:1omega7 fatty acid	numeric	microgramsPerMilligram		NA	not available
+i_16_0	Concentration of i-16:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_0	Concentration of 16:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_1w9	Concentration of 16:1omega9 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_1w8	Concentration of 16:1omega8 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_1w7	Concentration of 16:1omega7 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_1w6	Concentration of 16:1omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_1w5	Concentration of 16:1omega5 fatty acid	numeric	microgramsPerMilligram		NA	not available
+i_17_0	Concentration of i-17:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+a_17_0	Concentration of a-17:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c17_0	Concentration of 17:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c17_1w7	Concentration of 17:1omega7 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_2w7	Concentration of 16:2omega7 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_2w6	Concentration of 16:2omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_2w4	Concentration of 16:2omega4 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_3w6	Concentration of 16:3omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_3w4	Concentration of 16:3omega4 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_3w3	Concentration of 16:3omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_4w3	Concentration of 16:4omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c16_4w1	Concentration of 16:4omega1 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_0	Concentration of 18:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_1w9	Concentration of 18:1omega9 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_1w7	Concentration of 18:1omega7 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_2w6t	Concentration of 18:2omega6t fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_2w6	Concentration of 18:2omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_3w6	Concentration of 18:3omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_3w3	Concentration of 18:3omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_4w4	Concentration of 18:4omega4 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_4w3	Concentration of 18:4omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c18_5w3	Concentration of 18:5omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_0	Concentration of 20:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_1w9	Concentration of 20:1omega9 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_1w7	Concentration of 20:1omega7 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_2w5_11	Concentration of 20:2 omega5(11) fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_2w5_13	Concentration of 20: 2 omega5(13) fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_2w6	Concentration of 20:2omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_3w6	Concentration of 20:3omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_4w6	Concentration of 20:4omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_3w3	Concentration of 20:3omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_4w3	Concentration of 20:4omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c20_5w3	Concentration of 20:5omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_0	Concentration of 22:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_1w9	Concentration of 22:1omega9 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_1w7	Concentration of 22:1omega7 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_2w6	Concentration of 22:2omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_4w6	Concentration of 22:4omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_5w6	Concentration of 22:5omega6 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_3w3	Concentration of 22:3omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_4w3	Concentration of 22:4omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_5w3	Concentration of 22:5omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c22_6w3	Concentration of 22:6omega3 fatty acid	numeric	microgramsPerMilligram		NA	not available
+c24_0	Concentration of 24:0 fatty acid	numeric	microgramsPerMilligram		NA	not available
+comments	Data quality flag	character				

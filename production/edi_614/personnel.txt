@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Gil		Rosenthal	"Department of Biology, Texas A&M University"	grosenthal@bio.tamu.edu	0000-0003-0342-9024	creator			
+Richard		Bovio	"Department of Biology, Texas A&M University"	rsbovio@gmail.com		creator			
+Daniel	L	Powell	"Department of Biology, Stanford"	dlpowell08@gmail.com		creator			
+Gaston		Jofre- Rodríguez	"Department of Biology, Texas A&M University"	gaston.jofre.rodriguez@gmail.com		creator			
+Gil		Rosenthal	"Department of Biology, Texas A&M University"	grosenthal@bio.tamu.edu	0000-0003-0342-9024	contact			
+Osvaldo		Hernandez	CICHAZ Field Station	osvaldohp_@hotmail.com		field assistant			
+Gil		Rosenthal		grosenthal@bio.tamu.edu	0000-0003-0342-9024	PI	"Long-term Research in Environmental Biology (LTREB): Social, environmental, and evolutionary dynamics of replicated hybrid zones in swordtails (Teleostei: Xiphophorus) of Mexico’s Sierra Madre Oriental"	NSF	1354172

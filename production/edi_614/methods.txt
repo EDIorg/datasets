@@ -1,0 +1,11 @@
+﻿Instrument
+
+All data was collected with a HOBO Pendant Temperature/Light 64k Data Logger. The data loggers were kept in a pvc tube and placed within the stock tanks, and at the natural sites the loggers were similarly kept in a pvc tube and chained to a rock in the water. The loggers were retrieved/data was downloaded every.
+
+The following lists the start, and if applicable, end dates for data collection at each site:
+
+The low and high elevation stock tanks began in October, 2014 and are ongoing.
+The mid elevation stock tank began in August, 2015 and is ongoing.
+
+The natural lowland site (ACUA) began in October of 2014 and concluded in May of 2018. Currently there are plans to reinstate data recording at this site, but has not been done at this time.  
+The natural midland (AGZC) and highland (TLMC) sites began in October of 2014 and are ongoing. 

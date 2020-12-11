@@ -1,0 +1,18 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	year	numeric	nominalYear			
+month	month	numeric	nominalMonth			
+watershed	watershed name	categorical				
+H2O_cm	monthly streamflow	numeric	centimeter		NA	not available
+H_eq_ha	"hydrogen ion, computed from pH"	numeric	equivalentsPerHectare		NA	not available
+HCO3_eq_ha	"bicarbonate, computed"	numeric	equivalentsPerHectare		NA	not available
+DOC_umol_ha	dissolved organic carbon	numeric	microMolesPerHectare		NA	not available
+Ca_eq_ha	calcium	numeric	equivalentsPerHectare		NA	not available
+Mg_eq_ha	magnesium	numeric	equivalentsPerHectare		NA	not available
+K_eq_ha	potassium	numeric	equivalentsPerHectare		NA	not available
+Na_eq_ha	sodium	numeric	equivalentsPerHectare		NA	not available
+Al_umol_ha	aluminum	numeric	microMolesPerHectare		NA	not available
+NH4_eq_ha	ammonium	numeric	equivalentsPerHectare		NA	not available
+Si_umol_ha	silicon	numeric	microMolesPerHectare		NA	not available
+Cl_eq_ha	chloride	numeric	equivalentsPerHectare		NA	not available
+NO3_eq_ha	nitrate	numeric	equivalentsPerHectare		NA	not available
+SO4_eq_ha	sulfate	numeric	equivalentsPerHectare		NA	not available

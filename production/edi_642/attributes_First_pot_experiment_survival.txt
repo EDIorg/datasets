@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Tub	Pot seedling was grown in (each line is a seedling)	character				
+Block	"Spatial block, in which one of each treatment level (mature plant presence) was placed together to eliminate artifacts from spatial heterogeneity "	character				
+Type	Treatment level of mature plant presence	categorical				
+Germ	Whether each scarified seed planted germinated	categorical				
+Day38	Whether each seedling was still living after 38 days	categorical				

@@ -1,0 +1,3 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+"Seeley Lake, MT"	47.35	47.09	-113.3	-113.6
+"Tally Lake, MT"	48.6	48.39	-114.49	-114.95

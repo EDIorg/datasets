@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year sampled	numeric	nominalYear		NA	not available
+Month	Month sampled	numeric	nominalMonth		NA	not available
+Day	Day sampled	numeric	nominalDay		NA	not available
+Season	Season	character				
+Sample	Sample number	numeric	dimensionless		NA	not available
+Watershed	Watershed/sampling location	categorical				
+Forest	Stand type	categorical				
+Horizon	Soil horizon	categorical				
+NO3_mg_kg	Soil-extractable nitrate as N in milligrams Nitrogrm Per Kilogram soil	numeric	milligramPerKilogram		NA	not available
+NH4_mg_kg	Soil-extractable ammonium as N in MilligramsNitrogenPerKiloGramSoil	numeric	milligramPerKilogram		NA	not available

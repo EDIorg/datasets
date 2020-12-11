@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.466.1"
+  xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  http://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd"
+  system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst"
+    scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>High resolution stream temperature, pressure, and estimated depth from transducers in six
+      streams in the Lake Sunapee watershed, New Hampshire, USA 2010-2014</title>
+    <creator>
+      <individualName>
+        <givenName>Holly</givenName>
+        <givenName>A</givenName>
+        <surName>Ewing</surName>
+      </individualName>
+      <organizationName>Bates College</organizationName>
+      <electronicMailAddress>hewing@bates.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7077-8473</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kathleen</givenName>
+        <givenName>C</givenName>
+        <surName>Weathers</surName>
+      </individualName>
+      <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+      <electronicMailAddress>weathersk@caryinstitute.org</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-3575-6508</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Bethel</givenName>
+        <givenName>G</givenName>
+        <surName>Steele</surName>
+      </individualName>
+      <organizationName>Cary Institute of Ecosystem Studies / Bates College</organizationName>
+      <electronicMailAddress>steeleb@caryinstitute.org</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-4365-4103</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <surName>LSPA</surName>
+      </individualName>
+      <organizationName>Lake Sunapee Protective Association</organizationName>
+      <role>Data Collection</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Nick</givenName>
+        <surName>Baer</surName>
+      </individualName>
+      <organizationName>Colby-Sawyer College</organizationName>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-2744-9193</userId>
+      <role>Data Collection</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Amanda</givenName>
+        <surName>Lindsey</surName>
+      </individualName>
+      <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+      <role>Data Management</role>
+    </associatedParty>
+    <pubDate>2020-02-07</pubDate>
+    <abstract>
+      <para> Six in-stream HOBO pressure transducers and one reference HOBO pressure transducer have
+        been deployed within the Lake Sunapee, NH, USA watershed since 2010. The transducers record
+        data every 15 minutes, and data are downloaded approximately three times per year (early
+        Spring, mid Summer and late Fall). Shortly after download, the data are processed to
+        estimate stream depth using HOBOware's Barometric Compensation Assistant and converted to a
+        .csv file in HOBOware. The data have been QAQC'd to recode obviously errant data to NA using
+        R programming language. No data transformation has occurred beyond basic QAQC of the data.
+        The barometric pressure data from the reference transducer located on land are also
+        included. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>stream temperature</keyword>
+      <keyword>stream depth</keyword>
+      <keyword>stream transducers</keyword>
+      <keyword>HOBO</keyword>
+      <keyword>tributaries</keyword>
+      <keyword>Lake Sunapee</keyword>
+      <keyword>Lake Sunapee Protective Association</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>air pressure</keyword>
+      <keyword>datalogger</keyword>
+      <keyword>watershed</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para> This information is released under the Creative Commons license - Attribution - CC BY
+        (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User"
+        herein) is required to cite it appropriately in any publication that results from its use.
+        The Data User should realize that these data may be actively used by others for ongoing
+        research and that coordination may be necessary to prevent duplicate publication. The Data
+        User is urged to contact the authors of these data if any questions about methodology or
+        results occur. Where appropriate, the Data User is encouraged to consider collaboration or
+        co-authorship with the authors. The Data User should realize that misinterpretation of data
+        may occur if used out of context of the original study. While substantial efforts are made
+        to ensure the accuracy of data and associated documentation, complete accuracy of data sets
+        cannot be guaranteed. All data are made available "as is." The Data User should be aware,
+        however, that data are updated periodically and it is the responsibility of the Data User to
+        check for new versions of the data. The data authors and the repository where these data
+        were obtained shall not be liable for damages resulting from any use or misinterpretation of
+        the data. Thank you. </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>lake and watershed: Lake Sunapee is located in the Sugar River watershed within Sullivan and Merrimack Counties, New Hampshire, USA. There are sixteen streams (including ephemeral streams) which flow into Lake Sunapee and a single outlet from the lake.  The Lake Sunapee watershed covers approximately 12094 hectares including Lake Sunapee itself, which is approximately 1667 hectares. The transducers are located in six inflows to the lake: Otter Pond Brook (tributary #505; sub-watershed is 7661 hectares), Chandler Johnson (tributary #665; sub-watershed is 2170 hectares), Blodgett Brook South Branch (tributary #788; sub-watershed is 359 hectares), Blodgett Brook North Branch (tributary #790; sub watershed is 954 hectares), King Hill (tributary #805; sub-watershed is 923 hectares) and Herrick South (tributary #830; sub watershed is 314 hectares). The sub-watersheds listed here are smaller watersheds within the Lake Sunapee watershed delineated in ArcGIS using the watershed tool from the Lake Sunapee Protective Association’s long term monitoring.  A reference transducer used to track atmospheric barometric pressure is located on land near the lake outlet at Sunapee Harbor.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-72.1041</westBoundingCoordinate>
+          <eastBoundingCoordinate>-71.9912</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.4903</northBoundingCoordinate>
+          <southBoundingCoordinate>43.3085</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2010-04-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-05-08</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Holly</givenName>
+        <givenName>A</givenName>
+        <surName>Ewing</surName>
+      </individualName>
+      <organizationName>Bates College</organizationName>
+      <electronicMailAddress>hewing@bates.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7077-8473</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para> Transducers were placed in streams in the portion of the channel that most
+            consistently had water. All transducers are in PVC stilling wells anchored to posts or
+            against a concrete apron at the edge of a large culvert through which one of the streams
+            (Otter Pond Brook) travels under a bridge. Transducers log every 15 minutes. Data are
+            downloaded at field sites and processed in HOBOware using the Barometric Compensation
+            Assistant, which calculates stream depth based on the difference between the stream
+            transducer barometric pressure and the reference transducer barometric pressure. Data
+            were collated and QAQC'd in R version 3.2.3. Data QAQC was comprised of the following:
+            (1) recoding obviously errant data to NA; (2) recoding transducer download artifacts
+            (such as very low or negative depth readings around the time of download indicating the
+            transducer was not in the water when the data were recorded) to NA; and (3) recoding
+            negative depths to zero (only at King Hill, tributary #805). Depth calculations do not
+            take into account the difference in barometric pressure due to elevation differences
+            between the reference transducer and the stream transducer; all elevations are within 5
+            meters of the reference transducer, a difference that has been evaluated empirically to
+            be a negligible factor for depth assignment in this dataset. </para>
+          <para> For most processing in HOBOware using the Barometric Compensation Assistant, the
+            timestamps of the reference transducer and the in-stream transducers were matched;
+            however, where the reference transducer and the in-stream transducer were not matched in
+            timestamp, we elected to allow HOBOware's software to linearly-interpolate between the
+            barometric pressure readings of the reference transducer (Option 1 in the HOBOware
+            software) when utilizing the Barometric Pressure Assistant to calculate stream depth. </para>
+          <para> Additional notes about each of the streams relevant to interpretation of the data:
+            Otter Pond Brook (tributary #505) has odd pressure and depth patterns because of an
+            upstream dam that has boards that hold back rising water level until the boards are
+            overtopped (or removed). Jumps in data are assumed to be due to the dam. The location of
+            the pressure transducer at Chandler Johnson (tributary #665) tends to fill up with sand
+            and is sometimes must be dug out at download time. A small sewage treatment plant is
+            within the watersheds of Blodgett Brook South (tributary #788) and Blodgett Brook North
+            (tributary #790) upstream of the transducer thus there is a possible source of
+            hydrologic release to either watershed. It appears that the plant mainly impacts the
+            flow and stream height of Blodgett Brook South (tributary #788) as evidenced by
+            occasional higher nutrient measurements coming from that stream relative to Blodgett
+            Brook North (tributary #790) and other monitored tributaries. Blodgett North (tributary
+            #790) and South (tributary #788) have quite different flow regimes despite their
+            proximity, something we believe to be primarily a function of their watersheds. Blodgett
+            North (tributary #790) has had physical evidence of high flows (e.g., mud and debris
+            caught high on a staff gauge and on the adjacent banks) after times of large depth
+            records, so we believe the depth values are correct despite being substantially
+            different from those recorded on nearby Blodgett South. King Hill (tributary #805)
+            occasionally goes dry and leaves the transducer exposed to air. Herrick South (tributary
+            #830) is on a short segment of stream connecting a wetland to Lake Sunapee. </para>
+          <para> Elevation of transducers were derived from the 2009 USGS National Elevation Dataset
+            10m Digital Elevation Model obtained from the National Map Seamless server on
+            28July2009. Data about elevation and transducer location is provided in a stand-alone
+            table. </para>
+          <para> ArcGIS data layers for Sunapee and its sub watersheds as well as additional field
+            notes and metadata from transducer downloads are available on collaborative request.
+            Contact Holly Ewing (hewing@bates.edu) for additional files. </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>No project title to report</title>
+      <personnel>
+        <individualName>
+          <givenName>Holly</givenName>
+          <givenName>A</givenName>
+          <surName>Ewing</surName>
+        </individualName>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0001-7077-8473</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding/>
+    </project>
+    <dataTable>
+      <entityName>101_LSPA_all_14Feb2016.csv</entityName>
+      <entityDescription>LSPA reference (#101)</entityDescription>
+      <physical>
+        <objectName>101_LSPA_all_14Feb2016.csv</objectName>
+        <size unit="bytes">14881396</size>
+        <authentication method="MD5">41152a460ce07e8bdb4a05e74e98d146</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>stream_no</attributeName>
+          <attributeDefinition>Stream location identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stream location identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>logger</attributeName>
+          <attributeDefinition>Logger identification number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logger identification number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date_time</attributeName>
+          <attributeDefinition>Datetime stamp of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeDefinition>Hour of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>minute</attributeName>
+          <attributeDefinition>Minute of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">59</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading (reference pressure)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">93.81</minimum>
+                  <maximum exclusive="false">100.09</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_C</attributeName>
+          <attributeDefinition>Reference transducer temperature reading (air temperature)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-23.97</minimum>
+                  <maximum exclusive="false">37.71</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fileorig</attributeName>
+          <attributeDefinition>Raw HOBOware export file name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Raw HOBOware export file name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>batt</attributeName>
+          <attributeDefinition>Battery level</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.24</minimum>
+                  <maximum exclusive="false">3.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>158444</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>505_Otter_all_14Feb2016.csv</entityName>
+      <entityDescription>Otter Pond Brook (tributary #505)</entityDescription>
+      <physical>
+        <objectName>505_Otter_all_14Feb2016.csv</objectName>
+        <size unit="bytes">29077736</size>
+        <authentication method="MD5">8538d6abfa148def10d98d0d4c64255f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>stream_no</attributeName>
+          <attributeDefinition>Stream location identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stream location identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>logger</attributeName>
+          <attributeDefinition>Logger identification number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logger identification number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date_time</attributeName>
+          <attributeDefinition>Datetime stamp of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeDefinition>Hour of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>minute</attributeName>
+          <attributeDefinition>Minute of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">59</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading (reference pressure)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">96.82</minimum>
+                  <maximum exclusive="false">108.78</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_C</attributeName>
+          <attributeDefinition>Reference transducer temperature reading (air temperature)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.12</minimum>
+                  <maximum exclusive="false">28.85</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_b_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">93.81</minimum>
+                  <maximum exclusive="false">100.09</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth_m</attributeName>
+          <attributeDefinition>Depth of stream as calculated by the HOBOware Barometric Compensation Assistant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.16</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fileorig</attributeName>
+          <attributeDefinition>Raw HOBOware export file name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Raw HOBOware export file name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>315824</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>665_ChandJohn_all_14Feb2016.csv</entityName>
+      <entityDescription>Chandler Johnson (tributary #665)</entityDescription>
+      <physical>
+        <objectName>665_ChandJohn_all_14Feb2016.csv</objectName>
+        <size unit="bytes">29126647</size>
+        <authentication method="MD5">a324dc2a3f09353f2450c426ba729973</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>stream_no</attributeName>
+          <attributeDefinition>Stream location identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stream location identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>logger</attributeName>
+          <attributeDefinition>Logger identification number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logger identification number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date_time</attributeName>
+          <attributeDefinition>Datetime stamp of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeDefinition>Hour of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>minute</attributeName>
+          <attributeDefinition>Minute of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">59</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading (reference pressure)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">95.5</minimum>
+                  <maximum exclusive="false">110.68</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_C</attributeName>
+          <attributeDefinition>Reference transducer temperature reading (air temperature)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.1</minimum>
+                  <maximum exclusive="false">26.39</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_b_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">93.81</minimum>
+                  <maximum exclusive="false">100.09</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth_m</attributeName>
+          <attributeDefinition>Depth of stream as calculated by the HOBOware Barometric Compensation Assistant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1.65</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fileorig</attributeName>
+          <attributeDefinition>Raw HOBOware export file name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Raw HOBOware export file name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>316852</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>788_BlodS_all_14Feb2016.csv</entityName>
+      <entityDescription>Blodgett Brook South (tributary #788)</entityDescription>
+      <physical>
+        <objectName>788_BlodS_all_14Feb2016.csv</objectName>
+        <size unit="bytes">26571507</size>
+        <authentication method="MD5">4775d6b9091a03c48538bf8ccbc9f898</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>stream_no</attributeName>
+          <attributeDefinition>Stream location identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stream location identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>logger</attributeName>
+          <attributeDefinition>Logger identification number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logger identification number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date_time</attributeName>
+          <attributeDefinition>Datetime stamp of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeDefinition>Hour of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>minute</attributeName>
+          <attributeDefinition>Minute of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">59</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading (reference pressure)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">97.25</minimum>
+                  <maximum exclusive="false">110.82</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_C</attributeName>
+          <attributeDefinition>Reference transducer temperature reading (air temperature)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.01</minimum>
+                  <maximum exclusive="false">25.12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_b_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">93.81</minimum>
+                  <maximum exclusive="false">100.09</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth_m</attributeName>
+          <attributeDefinition>Depth of stream as calculated by the HOBOware Barometric Compensation Assistant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.25</minimum>
+                  <maximum exclusive="false">1.36</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fileorig</attributeName>
+          <attributeDefinition>Raw HOBOware export file name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Raw HOBOware export file name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>292757</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>790_BlodN_all_14Feb2016.csv</entityName>
+      <entityDescription>Blodgett Brook North (tributary #790) </entityDescription>
+      <physical>
+        <objectName>790_BlodN_all_14Feb2016.csv</objectName>
+        <size unit="bytes">26307609</size>
+        <authentication method="MD5">47387f82ca364354ca1c5d6a5403c569</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>stream_no</attributeName>
+          <attributeDefinition>Stream location identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stream location identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>logger</attributeName>
+          <attributeDefinition>Logger identification number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logger identification number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date_time</attributeName>
+          <attributeDefinition>Datetime stamp of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeDefinition>Hour of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>minute</attributeName>
+          <attributeDefinition>Minute of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">59</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading (reference pressure)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">96.23</minimum>
+                  <maximum exclusive="false">114.85</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_C</attributeName>
+          <attributeDefinition>Reference transducer temperature reading (air temperature)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.1</minimum>
+                  <maximum exclusive="false">25.12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_b_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">93.81</minimum>
+                  <maximum exclusive="false">99.95</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth_m</attributeName>
+          <attributeDefinition>Depth of stream as calculated by the HOBOware Barometric Compensation Assistant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.05</minimum>
+                  <maximum exclusive="false">1.75</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fileorig</attributeName>
+          <attributeDefinition>Raw HOBOware export file name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Raw HOBOware export file name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>286141</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>805_Kinglow_all_14Feb2016.csv</entityName>
+      <entityDescription>King Hill (tributary #805)</entityDescription>
+      <physical>
+        <objectName>805_Kinglow_all_14Feb2016.csv</objectName>
+        <size unit="bytes">23212770</size>
+        <authentication method="MD5">0238834fbb609a8817f09ee11b3d672c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>stream_no</attributeName>
+          <attributeDefinition>Stream location identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stream location identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>logger</attributeName>
+          <attributeDefinition>Logger identification number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logger identification number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date_time</attributeName>
+          <attributeDefinition>Datetime stamp of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeDefinition>Hour of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>minute</attributeName>
+          <attributeDefinition>Minute of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">58</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading (reference pressure)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">94.82</minimum>
+                  <maximum exclusive="false">121.91</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_C</attributeName>
+          <attributeDefinition>Reference transducer temperature reading (air temperature)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.1</minimum>
+                  <maximum exclusive="false">26.29</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_b_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">93.81</minimum>
+                  <maximum exclusive="false">100.09</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth_m</attributeName>
+          <attributeDefinition>Depth of stream as calculated by the HOBOware Barometric Compensation Assistant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.06</minimum>
+                  <maximum exclusive="false">1.58</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fileorig</attributeName>
+          <attributeDefinition>Raw HOBOware export file name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Raw HOBOware export file name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>251593</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>830_HerrickS_all_14Feb2016.csv</entityName>
+      <entityDescription>Herrick South (tributary #830)</entityDescription>
+      <physical>
+        <objectName>830_HerrickS_all_14Feb2016.csv</objectName>
+        <size unit="bytes">24715450</size>
+        <authentication method="MD5">be2c157054b844aaa9f723c32127ddff</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>stream_no</attributeName>
+          <attributeDefinition>Stream location identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stream location identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>logger</attributeName>
+          <attributeDefinition>Logger identification number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logger identification number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date_time</attributeName>
+          <attributeDefinition>Datetime stamp of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of recorded data</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeDefinition>Hour of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>minute</attributeName>
+          <attributeDefinition>Minute of recorded data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">59</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading (reference pressure)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">96.09</minimum>
+                  <maximum exclusive="false">106.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_C</attributeName>
+          <attributeDefinition>Reference transducer temperature reading (air temperature)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.01</minimum>
+                  <maximum exclusive="false">26.78</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abs_pres_b_kpa</attributeName>
+          <attributeDefinition>Reference transducer pressure reading</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">93.81</minimum>
+                  <maximum exclusive="false">100.09</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth_m</attributeName>
+          <attributeDefinition>Depth of stream as calculated by the HOBOware Barometric Compensation Assistant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.09</minimum>
+                  <maximum exclusive="false">0.99</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fileorig</attributeName>
+          <attributeDefinition>Raw HOBOware export file name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Raw HOBOware export file name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>267695</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>sun_transducerlocs_v2020-01-16.csv</entityName>
+      <entityDescription>sunapee transducer locations</entityDescription>
+      <physical>
+        <objectName>sun_transducerlocs_v2020-01-16.csv</objectName>
+        <size unit="bytes">464</size>
+        <authentication method="MD5">964b61e3e068514ffe247c9cebb125d8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>stream_no</attributeName>
+          <attributeDefinition>Stream location identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stream location identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>stream_name</attributeName>
+          <attributeDefinition>Stream name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Stream name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>gis_lat_dd</attributeName>
+          <attributeDefinition>Latitude of transducer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">43.34</minimum>
+                  <maximum exclusive="false">43.43</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>gis_long_dd</attributeName>
+          <attributeDefinition>Longitude of transducer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-72.08</minimum>
+                  <maximum exclusive="false">-72.03</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DEM10m_elev_m</attributeName>
+          <attributeDefinition>Elevation of transducer location according to the 10 meter resolution USGS Digital Elevation Model</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">334.52</minimum>
+                  <maximum exclusive="false">342.88</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not availabel</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>7</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>input_505_Otter_2332745_14Feb16.R</entityName>
+      <entityDescription>Code to collate and clean transducer files for stream 505, Otter
+        Pond</entityDescription>
+      <physical>
+        <objectName>input_505_Otter_2332745_14Feb16.R</objectName>
+        <size unit="bytes">16324</size>
+        <authentication method="MD5">0be6825638f354f1bc663e244461abe6</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>input_665_ChandJohn_2332741_14Feb16.R</entityName>
+      <entityDescription>Code to collate and clean transducer files for stream 665, Chandler
+        Johnson</entityDescription>
+      <physical>
+        <objectName>input_665_ChandJohn_2332741_14Feb16.R</objectName>
+        <size unit="bytes">14633</size>
+        <authentication method="MD5">97bf995871f34eb3eb8b613cbecba564</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>input_788_BlodS_2332742_14Feb16.R</entityName>
+      <entityDescription>Code to collate and clean transducer files for stream 788, Blodgett
+        South</entityDescription>
+      <physical>
+        <objectName>input_788_BlodS_2332742_14Feb16.R</objectName>
+        <size unit="bytes">17897</size>
+        <authentication method="MD5">65e124d5220f5e0e1b17e6644f508067</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>input_790_BlodN_2332743_14Feb2016.R</entityName>
+      <entityDescription>Code to collate and clean transducer files for stream 790, Blodgett
+        North</entityDescription>
+      <physical>
+        <objectName>input_790_BlodN_2332743_14Feb2016.R</objectName>
+        <size unit="bytes">14711</size>
+        <authentication method="MD5">dc2acb3b6d4b56b019745592706663bd</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>input_805_Kinglow_2332746_14Feb2016.R</entityName>
+      <entityDescription>Code to collate and clean transducer files for stream 805, King
+        Hill</entityDescription>
+      <physical>
+        <objectName>input_805_Kinglow_2332746_14Feb2016.R</objectName>
+        <size unit="bytes">15074</size>
+        <authentication method="MD5">3b8276526e52f5df30132238ae3a98ed</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>input_830_HerrickS_2325799_14Feb16.R</entityName>
+      <entityDescription>Code to collate and clean transducer files for stream 830, Herrick
+        South</entityDescription>
+      <physical>
+        <objectName>input_830_HerrickS_2325799_14Feb16.R</objectName>
+        <size unit="bytes">14221</size>
+        <authentication method="MD5">fe21978c9c60784b7cf7068664e004f2</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>input_LSPA_2332744_14Feb2016.R</entityName>
+      <entityDescription>Code to collate and clean transducer files for the reference
+        transducer</entityDescription>
+      <physical>
+        <objectName>input_LSPA_2332744_14Feb2016.R</objectName>
+        <size unit="bytes">15845</size>
+        <authentication method="MD5">f25262e5ff12ff2b838f8df4591be009</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

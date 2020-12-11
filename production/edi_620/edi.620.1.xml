@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.620.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>The Bear Brook Watershed in Maine, USA: Soil moisture record 2003 - 2016</title>
+    <creator>
+      <individualName>
+        <givenName>Kaizad</givenName>
+        <givenName>F.</givenName>
+        <surName>Patel</surName>
+      </individualName>
+      <organizationName>Pacific Northwest National Laboratory</organizationName>
+      <electronicMailAddress>kaizad.patel@pnnl.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-6437-7809</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ivan</givenName>
+        <givenName>J.</givenName>
+        <surName>Fernandez</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>ivanjf@maine.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7220-2205</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <givenName>J.</givenName>
+        <surName>Nelson</surName>
+      </individualName>
+      <organizationName>University of Maine; Appalachian Mountain Club</organizationName>
+      <electronicMailAddress>snelson@outdoors.org</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3000-7521</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Cheryl</givenName>
+        <givenName>J.</givenName>
+        <surName>Spencer</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>rpt372@maine.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <givenName>A.</givenName>
+        <surName>Norton</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>norton@maine.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2020-09-30</pubDate>
+    <abstract>
+      <para>This dataset includes soil moisture data for the Bear Brook Watershed in Maine (BBWM). The BBWM consists of two watersheds, the reference East Bear (EB), receiving ambient deposition, and the treated West Bear (WB), which received experimental elevated N+S deposition for 27 years. Soil moisture sensors were installed at the site in 2003. Readings were taken every three hours -- three hourly readings and calculated daily averages are reported here. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Bear Brook Watershed in Maine</keyword>
+      <keyword>BBWM</keyword>
+      <keyword>temperate forests</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>watersheds</keyword>
+      <keyword>soil moisture</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>BBWM is located in eastern Maine, USA at an elevation of 450.8 m. Soils are coarse-loamy, mixed, frigid Typic and Aquic Haplorthods. Bedrock consists dominantly of quartzite, phyllite, and calc-silicate low-grade metasediments, and minor granite dikes. The lower elevations are dominated by hardwood stands, and the upper elevations are dominated by softwood stands.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-68.1</westBoundingCoordinate>
+          <eastBoundingCoordinate>-68.1</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.87</northBoundingCoordinate>
+          <southBoundingCoordinate>44.87</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2003</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Kaizad</givenName>
+        <givenName>F.</givenName>
+        <surName>Patel</surName>
+      </individualName>
+      <organizationName>Pacific Northwest National Laboratory</organizationName>
+      <electronicMailAddress>kaizad.patel@pnnl.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-6437-7809</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ivan</givenName>
+        <givenName>J.</givenName>
+        <surName>Fernandez</surName>
+      </individualName>
+      <organizationName>University of Maine</organizationName>
+      <electronicMailAddress>ivanjf@maine.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7220-2205</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>HOBO™ Micro Station Data Loggers were installed in each of the hardwood and softwood stands and equipped with ECH2O™Smart Sensors. Sensors were installed at depths of 10 cm and 25 cm within the mineral horizon and set to collect moisture readings every three hours. Detailed methods can be found in Fernandez et al. 2007 (https://digitalcommons.library.umaine.edu/aes_techbulletin/1/).</para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>Soil moisture readings at three-hour intervals</entityName>
+      <entityDescription>Soil moisture readings at three-hour intervals</entityDescription>
+      <physical>
+        <objectName>bbwm_soilmoisture_3hour.csv</objectName>
+        <size unit="bytes">5602955</size>
+        <authentication method="MD5">b1c2c94786cf767bf34e50a3e5ab1132</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>watershed</attributeName>
+          <attributeDefinition>watershed name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WB</code>
+                    <definition>West Bear</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EB</code>
+                    <definition>East Bear</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>forest</attributeName>
+          <attributeDefinition>forest stand type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HW</code>
+                    <definition>hardwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SW</code>
+                    <definition>softwood</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2003</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>day</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>hours, 24 hour format</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>soil depth in the mineral horizon</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>soil depth in the mineral horizon</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>moisture_m3_m3</attributeName>
+          <attributeDefinition>soil moisture</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubicMeterPerCubicMeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0504</minimum>
+                  <maximum exclusive="false">0.37959</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>142242</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Soil moisture: calculated daily mean values</entityName>
+      <entityDescription>Soil moisture: calculated daily mean values</entityDescription>
+      <physical>
+        <objectName>bbwm_soilmoisture_daily.csv</objectName>
+        <size unit="bytes">485462</size>
+        <authentication method="MD5">dc6a580d1897ac9448650900805425da</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>watershed</attributeName>
+          <attributeDefinition>watershed name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WB</code>
+                    <definition>West Bear</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EB</code>
+                    <definition>East Bear</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>forest</attributeName>
+          <attributeDefinition>forest stand type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HW</code>
+                    <definition>hardwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SW</code>
+                    <definition>softwood</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2003</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>day</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>soil depth in the mineral horizon</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>soil depth in the mineral horizon</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>moisture_m3_m3</attributeName>
+          <attributeDefinition>soil moisture</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubicMeterPerCubicMeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0504</minimum>
+                  <maximum exclusive="false">0.3777</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>16586</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="nominalMonth" multiplierToSI="" name="nominalMonth" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="cubicMeterPerCubicMeter" multiplierToSI="" name="cubicMeterPerCubicMeter" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

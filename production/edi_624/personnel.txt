@@ -1,0 +1,50 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Stephen	F	Jane	Rensselaer Polytechnic Institute	janes@rpi.edu	0000-0003-2968-359X	creator			
+Gretchen	J. A.	Hansen	University of Minnesota	ghansen@umn.edu		creator			
+Kraemer		Benjamin	IGB Leibniz institute for freshwater ecology and inland fisheries	ben.m.kraemer@gmail.com	0000-0002-3390-9005	creator			
+Peter	R.	Leavitt	University of Regina and Queen's University Belfast	P.Leavitt@QUB.ac.uk	0000-0001-9805-9307	creator			
+Joshua	L.	Mincer	Rensselaer Polytechnic Institute			creator			
+Rebecca	L.	North	University of Missouri	northr@missouri.edu	0000-0003-3762-5939	creator			
+Rachel	M.	Pilla	Miami University	pillarm@miamioh.edu	0000-0001-9156-9486	creator			
+Jonathan	T.	Stetler	Rensselaer Polytechnic Institute	stetlj@rpi.edu	0000-0003-1505-3693	creator			
+Craig	E.	Williamson	Miami University	willia85@miamioh.edu	000-0001-7350-1912	creator			
+R. Iestyn		Woolway	Dundalk Institute of Technology	riwoolway@gmail.com	0000-0003-0498-7968	creator			
+Lauri		Arvola	University of Helsinki	lauri.arvola@helsinki.fi	0000-0003-1380-0659	creator			
+Sudeep		Chandra	University of Nevada	sudeep@unr.edu	0000-0003-1724-5154	creator			
+Curtis	L.	DeGasperi	King County Water and Land Resources Division	Curtis.DeGasperi@kingcounty.gov		creator			
+Laura		Diemer	FB Environmental Associates	laurad@fbenvironmental.com		creator			
+Julita		Dunalska	University of Warmia and Mazury in Olsztyn	julitad@uwm.edu.pl	0000-0001-6089-9140	creator			
+Oxana		Erina	Lomonosov Moscow State University	tamiblack@yandex.ru	0000-0001-8579-3852	creator			
+Giovanna		Flaim	"Research and Innovation Centre, Fondazione Edmund Mach"	giovanna.flaim@fmach.it	0000-0002-1753-5605	creator			
+Hans-Peter		Grossart	Leibniz-Institute of Freshwater Ecology and Inland Fisheries and Potsdam University	hgrossart@igb-berlin.de	0000-0002-9141-0325	creator			
+K. David		Hambright	The University of Oklahoma	dhambright@ou.edu	0000-0002-5592-963X	creator			
+Catherine		Hein	Wisconsin Department of Natural Resources	C@herine.Hein@wisconsin.gov	0000-0003-0160-655X	creator			
+Josef		Hejzlar	Biology Centre CAS	hejzlar@hbu.cas.cz	0000-0002-7186-4776	creator			
+Lorraine	L.	Janus	New York City Department of Environmental Protection	ljanus@dep.nyc.gov		creator			
+Jean-Philippe		Jenny	CARRTEL Limnology Center	Jean-Philippe.Jenny@inra.fr	0000-0002-2740-174X	creator			
+John	R.	Jones	University of Missouri	JonesJ@missouri.edu	0000-0002-1046-3792	creator			
+Lesley	B.	Knoll	Itasca Biological Station and Laboratories	lbknoll@umn.edu	0000-0003-0347-5979	creator			
+Barbara		Leoni	University of Milan-Bicocca	barbara.leoni@unimib.it	0000-0001-9448-9457	creator			
+Eleanor		Mackay	Centre for Ecology and Hydrology	ellcka@ceh.ac.uk	0000-0001-5697-7062	creator			
+Shin-Ichiro	S.	Matsuzaki	National Institute for Environmental Studies	matsuzakiss@nies.go.jp	0000-0003-2744-1343	creator			
+Chris		McBride	Environmental Research Institute	cmcbride@waikato.ac.nz	0000-0001-5784-9767	creator			
+Dorthe	C	Muller-Navarra	University of Hamburg	doerthe.mueller-navarra@uni-hamburg.de	0000-0001-8841-6702	creator			
+Andrew	M.	Paterson	Dorset Environmental Science Center	Andrew.Paterson@ontario.ca	0000-0002-4296-9528	creator			
+Don		Pierson	Uppsala University	don.pierson@ebc.uu.se	0000-0001-6230-0146	creator			
+Michela		Rogora	CNR Water Research Institute	michela.rogora@irsa.cnr.it	0000-0003-3515-0220	creator			
+James	A.	Rusak	Dorset Environmental Science Center	Jim.Rusak@ontario.ca	0000-0002-4939-6478	creator			
+Steven		Sadro	University of California	ssadro@ucdavis.edu	0000-0002-6416-3840	creator			
+Emilie		Saulnier-Talbot	Universite Laval	emiliest@hotmail.com	0000-0002-7193-0577	creator			
+Martin		Schmid	"Eawag, Swiss Federal Institute of Aquatic Science and Technology"	Martin.Schmid@eawag.ch	0000-0001-8699-5691	creator			
+Ruben		Sommaruga	"University of Innsbruck, Department of Ecology"	Ruben.Sommaruga@uibk.ac.at	0000-0002-1055-2461	creator			
+Wim		Thiery	"Vrije Universiteit Brussel and ETH Zurich, Institute for Atmospheric and Climate Science"	wim.thiery@env.ethz.ch	0000-0002-5183-6145	creator			
+Piet		Verburg	National Institute of Water and Atmospheric Research Ltd (NIWA)	Piet.Verburg@niwa.co.nz	0000-0001-7574-9161	creator			
+Kathleen	C.	Weathers	Cary Institute of Ecosystem Studies	weathersk@caryinstitute.org	0000-0002-3575-6508	creator			
+Gesa	A.	Weyhenmeyer	Uppsala University	Gesa.Weyhenmeyer@ebc.uu.se	0000-0002-4013-2281	creator			
+Kiyoko		Yokota	State University of New York College at Oneonta (SUNY Oneonta)	Kiyoko.Yokota@oneonta.edu	0000-0002-4578-6540	creator			
+Kevin	C.	Rose	Rensselaer Polytechnic Institute	rosek4@rpi.edu	0000-0002-1292-9381	creator			
+Stephen	F	Jane	Rensselaer Polytechnic Institute	janes@rpi.edu	0000-0003-2968-359X	contact			
+Kevin	C.	Rose	Rensselaer Polytechnic Institute	rosek4@rpi.edu	0000-0002-1292-9381	contact			
+Kevin	C	Rose			0000-0002-1292-9381	PI	MSB-ECA: Assessing the effects of cross-scale interactions mediating sub-continental lake thermal trends and carbon cycling	National Science Foundation	1638704
+Kevin	C	Rose			0000-0002-1292-9381	PI	Collaborative LTREB Proposal: Will increases in dissolved organic matter accelerate a shift in trophic status through anoxia-driven positive feedbacks in an oligotrophic lake?	National Science Foundation	1754265
+Kevin	C	Rose			0000-0002-1292-9381	PI	Spokes: SMALL: NORTHEAST: Collaborative: Building the Community to Address Data Integration of the Ecological Long Trail	National Science Foundation	1761805

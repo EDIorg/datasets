@@ -1,0 +1,17 @@
+attributeName	code	definition
+Bay	BC	Burnt Coat Harbor 
+Bay	MC	Mackerel Cove
+Bay	SC	Seal Cove
+Bay	TC	Toothacker Cove
+Site	BO	Bob
+Site	BS	Basil
+Site	DK	Dick
+Site	GR	Grace
+Site	HN	Hen
+Site	JL	July 4th
+Site	LC	Long Cove
+Site	LD	Ledges
+Site	LH	Little House Cove
+Site	MD	MacDuffie
+Site	MP	Mill Pond
+Site	PL	Pole 24

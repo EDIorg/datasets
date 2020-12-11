@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Germinated	Whether or not the scarified palo verde seed planted in a given pot germinated	categorical				
+Survived_to_experiment_end	Whether or not the focal palo verde seedling in a given pot survived to the end of the experiment	categorical				
+Block_in_greenhouse	"Pots were arranged in spatial blocks, with pots of each treatment level spatially clustered"	character				
+Side_of_table	"Whether the block of pots was on the south or north side of the table in the greenhouse, which received slightly different amounts of light"	categorical				
+Row_on_table	Row within each spatial block	categorical				
+Role_in_experiment	"Variable group seedlings by whether they were involved in a buffel grass impact on palo verde, a conspecific impact on palo verde, or a control with no seedling impacting the palo verde"	categorical				
+Role	The experiment was initially set up to test whether leachate from conspecifics or from buffel grass limited the growth of palo verde seedlings due to allelopathy	categorical				
+Seedling_species	Species of seedling	categorical				
+Focal	Whether this seedling was the focal individual for measuring impact of the other within the experiment	categorical				
+Mg_dry_wt_at_experiment_end	Milligrams of biomass measured for the total seedling after drying in a drying oven	numeric	milligram		NA	not available
+Species_of_impact	Whether the non-focal seedling either donating drained leachate to or in the pot competing with the focal seedling was palo verde or buffel grass or just bare soil (no seedling)	categorical				
+Type_of_impact	The experiment was initially set up to test whether leachate from conspecifics or from buffel grass limited the growth of palo verde seedlings due to allelopathy	categorical				

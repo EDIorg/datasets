@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+WY	"Year, on a water year basis (Oct-1 to Sep-31)"	numeric	nominalYear			
+wet_data_type	Record type for wet deposition	categorical				
+S_input_wet_kg_ha_yr	Wet deposition of sulfur	numeric	kilogramsPerHectarePerYear		NA	not available
+N_input_wet_kg_ha_yr	Wet deposition of nitrogen	numeric	kilogramsPerHectarePerYear		NA	not available
+S_input_dry_kg_ha_yr	Dry deposition of sulfur	numeric	kilogramsPerHectarePerYear		NA	not available
+N_input_dry_kg_ha_yr	Dry deposition of nitrogen	numeric	kilogramsPerHectarePerYear		NA	not available
+S_input_total_kg_ha_yr	"Total deposition of sulfur, wet + dry"	numeric	kilogramsPerHectarePerYear		NA	not available
+N_input_total_kg_ha_yr	"Total deposition of nitrogen, wet + dry"	numeric	kilogramsPerHectarePerYear		NA	not available

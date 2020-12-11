@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+rank	ISSN of the selected journals	numeric	dimensionless		NA	not available
+year	Publication year	numeric	nominalYear		NA	not available
+title	Title of the article	character				
+keyword	Keywords of the article	character				
+author_no	Number of authors	numeric	number		NA	not available
+affl_no	Number of affiliations	numeric	number		NA	not available
+max_dist(m)	Maximum distance of pairwise distance between locations of institutes	numeric	meter		NA	not available

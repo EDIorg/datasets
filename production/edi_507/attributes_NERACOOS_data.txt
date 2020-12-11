@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	Year of data collection given as a four digit number	numeric	nominalYear			
+Month	Month given as a three-letter abbreviation.	character				
+E01_Mean	Temperature at one m depth given in degrees Celsius	numeric	celsius		NA 	not available
+F01_Mean	Temperature at one m depth given in degrees Celsius	numeric	celsius		NA 	not available
+I01_Mean	Temperature at one m depth given in degrees Celsius	numeric	celsius		NA 	not available

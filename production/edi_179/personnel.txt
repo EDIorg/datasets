@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Xiao		Yu	University of Florida	xiao.yu@essie.ufl.edu	0000-0002-5945-9313	creator			
+Johanna	H.	Rosman	University of North Carolina at Chapel Hill	jrosman@email.unc.edu	0000-0002-7468-1086	creator			
+James	L.	Hench	Duke University	jim.hench@duke.edu	0000-0002-7333-8913	creator			
+James	L.	Hench	Duke University	jim.hench@duke.edu	0000-0002-7333-8913	contact			
+Johanna	H.	Rosman	University of North Carolina at Chapel Hill	jrosman@email.unc.edu	0000-0002-7468-1086	PI	Collaborative Research: Relating topographic complexity and circulation patterns on coral reefs from colony-scale to reef-scale	National Science Foundation	OCE-1435530
+James	L.	Hench	Duke University	jim.hench@duke.edu	0000-0002-7333-8913	PI	Collaborative Research: Relating topographic complexity and circulation patterns on coral reefs from colony-scale to reef-scale	National Science Foundation	OCE-1435133

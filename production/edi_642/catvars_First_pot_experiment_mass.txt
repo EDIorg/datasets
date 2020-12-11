@@ -1,0 +1,11 @@
+attributeName	code	definition
+Position	a	east
+Position	b	southeast
+Position	c	southwest
+Position	d	west
+Position	e	northwest
+Position	f	northeast
+Vigor	0	dead
+Vigor	1	withered but still apparently living
+Vigor	2	"some leaflets turning colors or wilting, but otherwise healthy"
+Vigor	3	green and strong

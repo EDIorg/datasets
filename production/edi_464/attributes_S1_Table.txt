@@ -1,0 +1,3 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+ISSN	ISSN of the selected journals	character				
+JOURNAL	Specific journal names	character				

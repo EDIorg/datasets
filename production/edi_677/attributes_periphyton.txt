@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Locational identifier for each sampling site	character				
+replicate	Replicate number for a given sampling site	character				
+subsamples_counted	Number of 10 microliter subsamples counted for a given replicate	numeric	number		NA	not available
+diatom	Number of diatom cells counted for a given replicate	numeric	number		NA	not available
+spirogyra	Number spirogyra cells counted for a given replicate	numeric	number		NA	not available
+spirogyra_filament	Number of spirogyra filaments counted for a given replicate	numeric	number		NA	not available
+ulothrix	Number of ulothrix cells counted for a given replicate	numeric	number		NA	not available
+ulothrix_filament	Number of ulothrix filaments counted for a given replicate	numeric	number		NA	not available
+tetrasporales	Number of tetrasporales cells counted for a given replicate	numeric	number		NA	not available
+pediastrum	Number of pediastrum cells counted for a given replicate	numeric	number		NA	not available
+desmidales	Number of desmidales cells counted for a given replicate	numeric	number		NA	not available
+comments	Notes from the observer	character				

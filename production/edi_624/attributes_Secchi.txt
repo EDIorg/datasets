@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+RowID	Unique data frame row identifier	character				
+lake_id	Unique lake identifier	character				
+name	Name of lake	character				
+year	Year that applies to corresponding derived stats	numeric	nominalYear			
+secchi	Mean Secchi depth in the defined late summer period	numeric	meter		NA	not available

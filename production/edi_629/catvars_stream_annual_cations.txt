@@ -1,0 +1,3 @@
+attributeName	code	definition
+Watershed	EB	East Bear (reference)
+Watershed	WB	West Bear (manipulated)

@@ -1,0 +1,26 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Precipitation collection site (AEROCHEM collectors)	categorical				
+record_type	regular vs. duplicate samples	categorical				
+year	year	numeric	nominalYear			
+month	month	numeric	nominalMonth			
+day	day	numeric	nominalDay			
+running_day_of_project	running day of the project that a sample was taken	numeric	number			
+julian_day	Running day of the year that a sample was taken. Useful for graphical display.	numeric	nominalDay			
+Ca_ueq_L	"Calcium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter			
+Mg_ueq_L	"Magnesium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter			
+K_ueq_L	"Potassium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter			
+Na_ueq_L	"Sodium, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999-2003 - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter			
+Cl_ueq_L	"chloride, determined by ion chromatography"	numeric	microEquivalentsPerLiter			
+SO4_ueq_L	"sulfate, determined by ion chromatography"	numeric	microEquivalentsPerLiter			
+NO3_ueq_L	"nitrate, determined by ion chromatography"	numeric	microEquivalentsPerLiter			
+NH4_ueq_L	"Ammonium, determined by: - Autoanalyzer (2003 and prior) - Ion Chromatography (2004 forward)"	numeric	microEquivalentsPerLiter			
+Si_mg_L	"Silicon (as Si), determined by autoanalyzer"	numeric	milligramsPerLiter			
+Al_ppb	"total dissolved aluminum, determined by: - Atomic Absorption Spectrophotometry (AAS) with N2O-acetylene flame (1998 and prior) - Inductively Coupled Atomic Emission Spectroscopy (ICP) from 1999"	numeric	partsPerBillion			
+pH_air_eqll	"Air-equilibrated pH, determined by electrode, with 300 ppm standard air bubbled in"	numeric	dimensionless			
+anc_ueq_L	"acid neutralizing capacity, determined by Gran titration"	numeric	microEquivalentsPerLiter			
+spec_conductance_us_cm	"Measured conductivity, determined with a Wheatstone bridge"	numeric	microSiemensPerCentimeter			
+apparent_color_pcu	"unfiltered sample, determined by 475.5 nm spectrophotometer until 2002 and by color wheel 2003-2004."	numeric	platinumCobaltUnits			
+volume_mL	annual rainfall	numeric	milliliter			
+vol_converted_to_depth_mm	Volume of precipitation collected converted to a depth value using the catch area of the funnel	numeric	millimeter 			
+belfort_gage_depth_mm	"rainfall received, measured using a Belfort rain gauge"	numeric	millimeter 			
+comment	comments	character				
