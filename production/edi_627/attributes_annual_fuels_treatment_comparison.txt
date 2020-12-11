@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	Calendar year. 1980 is simulation year 0. Fuel loads represent end-of-year conditions and are used to estimate fire intensity for fires that occur the following year (fire_year).	numeric	nominalYear		NA	not available
+fire_year	Calendar year during which fuel loads are used to estimate fire intensity.	numeric	nominalYear		NA	not available
+gcm	General circulation model for simulation scenario.	categorical				
+configuration	Housing development and fuels treatment configuration level for simulation scenario. 	categorical				
+amount_pct	Amount of housing development and fuels treatment in simulation scenario.	numeric	percent		NA	not available
+rep	Simulation replicate for given scenario. Each scenario has 20 replicates.	numeric	number		NA	not available
+fuels_treatment	Indicates whether values are associated with areas that were treated (defensible space treatments were applied) or untreated.	categorical				
+n_ha	Area associated with each treatment level.	numeric	hectare		NA	not available
+woody_mg_ha	Average live sapling and seedling biomass.	numeric	megagramsPerHectare		NA	not available
+forestFloor_mg_ha	"Average forest floor biomass (dead, 1-hour and 10-hour fuels)."	numeric	megagramsPerHectare		NA	not available
+downedWood_mg_ha	"Average downed woody debris biomass (dead, 100-hour and 1000-hour fuels)."	numeric	megagramsPerHectare		NA	not available
+cbh_m	Average canopy base height (CBH).	numeric	meter		NA	not available
+cbd_kg_m3	Average canopy bulk density (CBD).	numeric	kilogramsPerMeterCubed		NA	not available
+cfl_kg_m2	Average canopy fuel load (CFL).	numeric	kilogramsPerSquareMeter		NA	not available

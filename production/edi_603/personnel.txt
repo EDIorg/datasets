@@ -1,0 +1,13 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Nathan	S	Gill	Texas Tech University	nathan.gill@ttu.edu	0000-0003-1496-8197	creator			
+Tyler	J	Hoecker	University of Wisconsin-Madison	thoecker@wisc.edu		creator			
+Monica	G	Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	creator			
+Nathan	S	Gill	Texas Tech University	nathan.gill@ttu.edu	0000-0003-1496-8197	contact			
+Monica	G	Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	contact			
+Chad		Kluender	University of Wisconsin-Madison	kluender2@wisc.edu		Field Crew			
+Diane		Abendroth	Teton Interagency Fire	Diane_abendroth@nps.gov		Field Crew			
+Ron		Steffens	Teton Interagency Fire			Field Crew			
+Jill		Stephenson	Teton Interagency Fire			Field Crew			
+Kate		Patronik	Teton Interagency Fire			Field Crew			
+Leonard		Rios	Teton Interagency Fire			Field Crew			
+Monica	G	Turner				PI	The 2016 Yellowstone Fires: early indicators of ecosystem transitions in a changing fire regime.	NSF	DEB-1719905

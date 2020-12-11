@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Drew	A	Scott	Southern Illinois University	dascott@siu.edu	0000-0003-0361-9522	creator			
+Elizabeth	M	Bach	Nachusa Grasslands	elizabeth.bach@tnc.org		creator			
+Chris	C	Du Preez	University of the Free State	dPreezCC@ufs.ac.za		creator			
+Johan		Six	ETH Zurich	jsix@ethz.ch		creator			
+Sara	G	Baer	University of Kansas	sgbaer@ku.edu		creator			
+Drew	A	Scott	Southern Illinois University	dascott@siu.edu	0000-0003-0361-9522	contact			

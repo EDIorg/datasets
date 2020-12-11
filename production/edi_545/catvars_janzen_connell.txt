@@ -1,0 +1,9 @@
+attributeName	code	definition
+Env	1	tropical 
+Env	2	temperate
+Life_form	T	tree
+Life_form	S	shrub
+Life_form	H	herb
+Stage	1	seed
+Stage	2	seedling
+Stage	3	plant

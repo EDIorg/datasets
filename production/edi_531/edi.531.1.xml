@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.531.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>C allocation to the fungus is not a cost to the plant in ectomycorrhizae (a meta-analysis)</title>
+    <creator>
+      <individualName>
+        <givenName>A.</givenName>
+        <surName>Correa</surName>
+      </individualName>
+      <organizationName>Depto de Microbiologia del Suelo y Sistemas Simbioticos, Estacion Experimental del Zaidin, Granada, Spain</organizationName>
+      <electronicMailAddress>ambcorrea@gmail.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>M.</givenName>
+        <givenName>A.</givenName>
+        <surName>Martins-Loucao</surName>
+      </individualName>
+      <organizationName>Depto de Microbiologia del Suelo y Sistemas Simbioticos, Estacion Experimental del Zaidin, Granada, Spain</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>C.</givenName>
+        <surName>Cruz</surName>
+      </individualName>
+      <organizationName>Depto de Microbiologia del Suelo y Sistemas Simbioticos, Estacion Experimental del Zaidin, Granada, Spain</organizationName>
+    </creator>
+    <pubDate>2020-06-18</pubDate>
+    <abstract>
+      <para>Mycorrhizal benefit to plants is most frequently evaluated through growth differences between mycorrhizal (M) and non‐mycorrhizal (NM) plants. These growth differences are often considered to be due to differences in belowground carbon (C) expenditure, or in cost efficiency, i.e. amount of nutrients acquired per C expended. In order to understand whether growth differences between M and NM plants are dictated by differences in C availability, we searched published reports on  for relations between plant growth and belowground C allocation, C use efficiency, or nutrient uptake, in ectomycorrhizal (ECM) versus non‐mycorrhizal plants. This search was done for carrying out a meta-analysis on the published literature. The list of studies used in this meta-analysis, along with relevant information from each study, can be found in this dataset.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>symbiosis</keyword>
+      <keyword>mycorrhizae</keyword>
+      <keyword>plant ecology</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>mutualism</keyword>
+      <keyword>meta-analysis</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Global</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180</westBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <northBoundingCoordinate>80</northBoundingCoordinate>
+          <southBoundingCoordinate>-80</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1990</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Articles were selected by performing a literature search using the ISI Web of Science and Google search engines with the following keyword combinations: ECM and N, ECM and P, ECM and C, ECM and C allocation, ECM and cost:benefit, ECM and plant growth. We added references from personal reference archives that had been located through literature searches over several years, including searching literature cited in relevant papers. The reference lists of this first set of articles were then used to retrieve additional studies that matched our inclusion criteria by examining literature cited in the retrieved and selected papers. </para>
+          <para>We surveyed literature for work where at least one of the following was quantified, in both ectomycorrhizal (ECM) plants and non-mycorrhizal (NM) controls: 1) belowground C allocation; 2) nitrogen (N) gain and plant biomass or relative growth rate (RGR); 3) belowground C allocation and plant biomass or RGR. We also looked for publications where nutrients other than N were quantified, together with plant growth. We used all studies where belowground C allocation was either 1) determined by tracer studies using 14C, or 2) indicated by the combined measurements of several parameters, such as CO2 assimilation, respiration, plant biomass, and in some cases, C metabolism enzyme activities and metabolite pools, or fungal respiration and/or biomass.</para>
+          <para>We used the log response ratio (lnR) as our measure of the effects of mycorrhization. This was calculated as the natural log (ln) of the means for the M plants divided by those of the NM ‘controls', that is, ln (M/NM). Mycorrhizal effects were calculated as the lnR for total plant biomass (or RGR), total N and P content, and for 14C tracer studies, the percent and total 14C allocation belowground. Mycorrhizal effects on belowground C allocation provide a snapshot rather than a cumulative picture of the carbon allocation. In studies where belowground C allocation was indicated by parameters other than 14C allocation, the mycorrhizal C sink was quantified by calculating the plants' C use efficiency, i.e. the plant biomass gained per C assimilated, calculated by dividing total plant weight by total plant CO2 assimilation. We assumed that plant respiration was similar in M and NM plants, and proportional to the plant size, and that major differences in C use efficiency would be due largely to losses of C to the fungal partner, and used in fungal biomass gain and fungal respiration.</para>
+          <para>We considered each different treatment combination of plant partner, fungal partner, N supply and harvest time as an independent result (each harvest is obviously done on different plants). In the cases where 14C tracing was used, the values used were from the final 14C measurement taken. In some cases, the non‐mycorrhizal ‘control' (NM group) was used in more than one comparison (e.g. compared with mycorrhizal plants with different fungal species). While this violates the assumption of independence of the effects combined in the meta‐analysis, the most straightforward alternative, discarding many of the cases is commonly considered a less desirable choice due to severe loss of information; in addition, there is no good way to choose what information to keep and what should be discarded. Violation of the assumption of independence could result in underestimation of confidence intervals, inflation of alpha values and artificially low significance levels; therefore, marginal significance should be treated cautiously.</para>
+          <para>Studies in which the fungus had access to nutrient compartments inaccessible to the plant, or where plants were subjected to stresses such as ozone, or hormone treatment were not included.&#13;
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>carbon cost of mycorrhizae</entityName>
+      <entityDescription>Data from studies on carbon cost of mycorrhizae to plants</entityDescription>
+      <physical>
+        <objectName>mycorrhizae_cost.csv</objectName>
+        <size unit="bytes">38684</size>
+        <authentication method="MD5">8d2be861b12be85aed8250bb116972f2</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Study</attributeName>
+          <attributeDefinition>Name of publication from which the corresponding data was taken</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of publication from which the corresponding data was taken</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sp_plant</attributeName>
+          <attributeDefinition>Plant species used in the study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plant species used in the study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sp_fungus</attributeName>
+          <attributeDefinition>Fungal species used in the study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Fungal species used in the study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>light_mmol_m-2s-1</attributeName>
+          <attributeDefinition>Intensity of light provided to plants in millimolesPerMeterSquarePerSecond</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Intensity of light provided to plants in millimolesPerMeterSquarePerSecond</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_NM_DW_or_RGR</attributeName>
+          <attributeDefinition>Mean dry weight (DW) or relative growth rate (RGR) of non-mycorrhizal (NM) plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>variable</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.09</minimum>
+                  <maximum exclusive="false">2609</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_NM_DW_or_RGR</attributeName>
+          <attributeDefinition>Standard deviation of DW or RGR of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.006</minimum>
+                  <maximum exclusive="false">371</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_M_DW_or_RGR</attributeName>
+          <attributeDefinition>Mean DW or RGR of mycorrhizal (M) plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>variable</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.09</minimum>
+                  <maximum exclusive="false">1965</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_M_DW_or_RGR</attributeName>
+          <attributeDefinition>Standard deviation of DW or RGR of M plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.006</minimum>
+                  <maximum exclusive="false">316</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>M_NM_DW</attributeName>
+          <attributeDefinition>Ratio of dry weight or RGR of M plants to that of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.17</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ln_M_NM_DW</attributeName>
+          <attributeDefinition>Log response ratio for dry weight or RGR (i.e. natural log of the ratio of dry weight or RGR of M plants to that of NM plants)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.78</minimum>
+                  <maximum exclusive="false">2.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_NM_total_N</attributeName>
+          <attributeDefinition>Mean nitrogen content of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>variable</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.006</minimum>
+                  <maximum exclusive="false">1799.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_NM_total_N</attributeName>
+          <attributeDefinition>Standard deviation of nitrogen content of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">426.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_M_total_N</attributeName>
+          <attributeDefinition>Mean nitrogen content of M plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>variable</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.001</minimum>
+                  <maximum exclusive="false">1543</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_M_total_N</attributeName>
+          <attributeDefinition>Standard deviation of nitrogen content of M plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">208</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>M_NM_total_N</attributeName>
+          <attributeDefinition>Ratio of nitrogen content of M plants to that of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.28</minimum>
+                  <maximum exclusive="false">223.33</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ln_M_NM_total_N</attributeName>
+          <attributeDefinition>Log response ratio for nitrogen content</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.27</minimum>
+                  <maximum exclusive="false">5.41</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_NM_total_P</attributeName>
+          <attributeDefinition>Mean phosphorus content of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>variable</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00125</minimum>
+                  <maximum exclusive="false">1100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_NM_total_P</attributeName>
+          <attributeDefinition>Standard deviation of phosphorus content of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_M_total_P</attributeName>
+          <attributeDefinition>Mean phosphorus content of M plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>variable</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00115</minimum>
+                  <maximum exclusive="false">2400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_M_total_P</attributeName>
+          <attributeDefinition>Standard deviation of phosphorus content of M plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.002</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>M_NM_total_P</attributeName>
+          <attributeDefinition>Ratio of phosphorus content of M plants to that of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.632075472</minimum>
+                  <maximum exclusive="false">11.33968254</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ln_M_NM_total_P</attributeName>
+          <attributeDefinition>Log response ratio for phosphorus content</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.458746475</minimum>
+                  <maximum exclusive="false">2.428308303</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_NM_14C_belowgr_allocation_relative</attributeName>
+          <attributeDefinition>Mean of relative carbon allocation to roots in NM plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.501176471</minimum>
+                  <maximum exclusive="false">80</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_NM_14C_belowgr_allocation_relative</attributeName>
+          <attributeDefinition>Standard deviation of relative carbon allocation to roots in NM plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.7</minimum>
+                  <maximum exclusive="false">38.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_M_14C_belowgr_allocation_relative</attributeName>
+          <attributeDefinition>Mean of relative carbon allocation to roots in M plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.460674157</minimum>
+                  <maximum exclusive="false">85</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_M_14C_belowgr_allocation_relative</attributeName>
+          <attributeDefinition>Standard deviation of relative carbon allocation to roots in M plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5</minimum>
+                  <maximum exclusive="false">4.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>M_NM_14C_belowgr_allocation_relative</attributeName>
+          <attributeDefinition>Ratio of relative carbon allocation to roots in M plants to that in NM plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.67</minimum>
+                  <maximum exclusive="false">2.37</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ln_M_NM_14C_belowgr_allocation_relative</attributeName>
+          <attributeDefinition>Log response ratio for relative carbon allocation to roots (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.41</minimum>
+                  <maximum exclusive="false">0.86</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_NM_14C_belowgr_allocation_absolute</attributeName>
+          <attributeDefinition>Mean of absolute carbon allocation to roots in NM plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.28</minimum>
+                  <maximum exclusive="false">449.064</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_NM_14C_belowgr_allocation_absolute</attributeName>
+          <attributeDefinition>Standard deviation of absolute carbon allocation to roots in NM plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.02</minimum>
+                  <maximum exclusive="false">8.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_M_14C_belowgr_allocation_absolute</attributeName>
+          <attributeDefinition>Mean of absolute carbon allocation to roots in M plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.6</minimum>
+                  <maximum exclusive="false">1621.248</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sd_M_14C_belowgr_allocation_absolute</attributeName>
+          <attributeDefinition>Standard deviation of absolute carbon allocation to roots in M plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.08</minimum>
+                  <maximum exclusive="false">7.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>M_NM_14C_belowgr_allocation_absolute</attributeName>
+          <attributeDefinition>Ratio of absolute carbon allocation to roots in M plants to that in NM plants (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.677096115</minimum>
+                  <maximum exclusive="false">9.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ln_M_NM_14C_belowgr_allocation_absolute</attributeName>
+          <attributeDefinition>Log response ratio for absolute carbon allocation to roots (measured using 14C)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.39</minimum>
+                  <maximum exclusive="false">2.22</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_NM_C_use_efficiency</attributeName>
+          <attributeDefinition>Mean carbon use efficiency of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.001228986</minimum>
+                  <maximum exclusive="false">44.97596863</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>av_M_C_use_efficiency</attributeName>
+          <attributeDefinition>Mean carbon use efficiency of M plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00127027</minimum>
+                  <maximum exclusive="false">38.27920181</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>M_NM_C_use_efficiency</attributeName>
+          <attributeDefinition>Ratio of carbon use efficiency of M plants to that of NM plants</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.400322635</minimum>
+                  <maximum exclusive="false">7.976419803</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ln_M_NM_C_use_efficiency</attributeName>
+          <attributeDefinition>Log response ratio for carbon use efficiency</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.92</minimum>
+                  <maximum exclusive="false">2.08</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not reported</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>n</attributeName>
+          <attributeDefinition>Sample size used in the study (number of individual plants in each treatment)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sample size used in the study (number of individual plants in each treatment)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>217</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="variable" multiplierToSI="" name="variable" parentSI="" unitType="">
+          <description>variable units</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Gradient	Name of the peak associated with a mountain transect	categorical				
+Site	Number designation for a unique site within a transect that is loosely based on 100m elevation bands	character				
+Quad	One of the 33 quadrats wit vegetation estimates at a site	character				
+Name	"Label given to a species when data was collected. Note, “bare” refers to bare ground lacking vegetation"	character				
+Cover	Visual estimate of the percent ground cover for a given species in a quadrat in percent	numeric	dimensionless		NA	not available
+SPID	"The concatenation of “Gradient”, “Site”, and “Name” columns to create a unique identifier for each species-site combination"	character			NA	not available
+Family	The taxonomic family of the estimate checked against the USDA database	character			NA	not available
+Genus	The taxonomic genus of the estimate checked against the USDA database	character			NA	not available
+Species	The taxonomic species of the estimate checked against the USDA database	character			NA	not available
+Kartez	USDA species symbols. Family or genus USDA symbols were in cases where a sample couldn’t be identified to species. Unknown or unidentifiable symbols were designated “UNK#” with a unique number	character			NA	not available
+Lifeform	USDA designated lifeforms	categorical			NA	not available
+LifeHistory	USDA designated life history strategy	categorical			NA	not available
+Status	USDA designation of native or invasive	categorical			NA	not available

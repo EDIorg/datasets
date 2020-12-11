@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.541.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Plant size and spatial pattern in a natural population of Myosotis micrantha</title>
+    <creator>
+      <individualName>
+        <givenName>Chester</givenName>
+        <givenName>E.</givenName>
+        <surName>Wilson</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <organizationName>Department of Biology, University of Saint Thomas, Saint Paul, MN, USA</organizationName>
+      <electronicMailAddress>c9wilson@stthomas.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </creator>
+    <pubDate>2020-06-11</pubDate>
+    <abstract>
+      <para>This dataset was created for examining the spatial distribution of plant size in a natural plant population, and for understanding the processes which govern the same. A winter annual species, Myosotis stricta (formally known as Myosotis micrantha), was chosen for this purpose. Data collection was carried on the campus of Stony Brook University (Stony Brook, NY, USA) in May 1988, along a 700 cm x 20 cm transect. It was found that a size hierarchy existed in this plant population. Plants lacking immediate conspecific neighbors were larger than plants with one or more near neighbours, suggesting that competition from near neighbours depressed plant size.  However, there was a strong positive spatial autocorrelation in plant size: large plants were associated with large neighbours and small ones with small neighbors. Plant size was also positively correlated with the combined biomass of near neighbors. Thus, the population formed a two-phase mosaic of patches of relatively large plants alternating with patches of smaller plants. These results were published in the paper titled Plant size and spatial pattern in a natural population of Myosotis micrantha (Wilson and Gurevitch, 1995). </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Plant biomass</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>competition</keyword>
+      <keyword>spatial variability</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Campus of Stony Brook University (located in Stony Brook, New York, USA)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-73.157378</westBoundingCoordinate>
+          <eastBoundingCoordinate>-73.101073</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.92431</northBoundingCoordinate>
+          <southBoundingCoordinate>40.87137</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1988</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1995</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Myosotis micrantha</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>In mid-May 1988, we established a transect 700 cm × 20 cm through a stand of M. micrantha growing in an infrequently mown grassy sward on the Stony Brook university campus.  The transect completely crossed the stand. There were 413 individuals of M.  micrantha growing within the transect, and all were collected by cutting them at ground level as they were beginning to senesce. (However, this dataset contains data for only 206 individuals). The x and y coordinates of each plant were recorded. The plants were pressed and dried to constant weight at room temperature and then weighed to the nearest 0.001 g.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Competitive Dominance at Two Soil Resource Levels: An Experimental Investigation of an Old-Field Community</title>
+      <personnel>
+        <individualName>
+          <givenName>Daniel</givenName>
+          <surName>Dykhuizen</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Division of Environmental Biology, National Science Foundation (NSF), USA BSR 8908112</funding>
+    </project>
+    <dataTable>
+      <entityName>myosotis_mass.csv</entityName>
+      <entityDescription>Mass and position of individual plants</entityDescription>
+      <physical>
+        <objectName>myosotis_mass.csv</objectName>
+        <size unit="bytes">4254</size>
+        <authentication method="MD5">eeca6962569f206d656859379ee6487f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>A number given to each individual plant measured in this study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A number given to each individual plant measured in this study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>X</attributeName>
+          <attributeDefinition>Position of the plant along the x axis (that is, distance from the start of the transect, along the longer axis)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">13.4</minimum>
+                  <maximum exclusive="false">686.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Y</attributeName>
+          <attributeDefinition>Position of the plant along the y axis (that is, distance from the start of the transect, along the shorter axis)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.3</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Weight</attributeName>
+          <attributeDefinition>Mass of the plant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.003</minimum>
+                  <maximum exclusive="false">0.049</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>206</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

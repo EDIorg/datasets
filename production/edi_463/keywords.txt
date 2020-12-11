@@ -1,0 +1,14 @@
+keyword	keywordThesaurus
+water temperature	
+dissolved oxygen concentration	
+meteorology	
+air temperature	
+wind direction	
+wind speed	
+PAR	
+photosynthetically active radiation	
+GLEON	
+buoy	
+oligotrophic lake	
+LSPA	
+Lake Sunapee

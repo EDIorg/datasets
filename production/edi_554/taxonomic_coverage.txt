@@ -1,0 +1,23 @@
+name	name_type	name_resolved	authority_system	authority_id
+Myriophyllum spicatum	scientific	Myriophyllum spicatum	ITIS	27039
+Ranunculus fluitans	scientific	Ranunculus fluitans	GBIF Backbone Taxonomy	7277865
+Vallisneria spiralis	scientific	Vallisneria spiralis	ITIS	38952
+Butomus umbellatus	scientific	Butomus umbellatus	ITIS	38886
+Ceratophyllum demersum	scientific	Ceratophyllum demersum	ITIS	18403
+Lemna minor	scientific	Lemna minor	ITIS	42590
+Ludwigia grandiflora	scientific	Ludwigia grandiflora	ITIS	516152
+Polygonum amphibium	scientific	Polygonum amphibium	ITIS	20865
+Potamogeton crispus	scientific	Potamogeton crispus	ITIS	39007
+Potamogeton nodosus	scientific	Potamogeton nodosus	ITIS	39009
+Potamogeton natans	scientific	Potamogeton natans	ITIS	39008
+Potamogeton perfoliatus	scientific	Potamogeton perfoliatus	ITIS	39011
+Elodea canadensis	scientific	Elodea canadensis	ITIS	38937
+Potamogeton pectinatus	scientific	Potamogeton pectinatus	ITIS	39010
+Elodea nuttallii	scientific	Elodea nuttallii	ITIS	502246
+Najas marina	scientific	Najas marina	ITIS	39001
+Spirodela polyrhiza	scientific	Spirodela polyrhiza	ITIS	42599
+Lemna minuta	scientific	Lemna minuta	ITIS	503361
+Fontinalis antipyretica	scientific	Fontinalis antipyretica	ITIS	16418
+Lemna trisulca	scientific	Lemna trisulca	ITIS	42595
+Helosciadium nodiflorum	scientific	Helosciadium nodiflorum	GBIF Backbone Taxonomy	3631293
+Azolla filiculoides	scientific	Azolla filiculoides	ITIS	18007

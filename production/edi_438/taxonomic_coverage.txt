@@ -1,0 +1,15 @@
+name	name_type	name_resolved	authority_system	authority_id
+Populus grandidentata	scientific	Populus grandidentata	ITIS	22463
+Populus tremuloides	scientific	Populus tremuloides	ITIS	195773
+Betula papyrifera	scientific	Betula papyrifera	ITIS	19489
+Pteridium aquilinum	scientific	Pteridium aquilinum	ITIS	17224
+Rubus pubescens	scientific	Rubus pubescens	ITIS	25028
+Cornus rugosa	scientific	Cornus rugosa	ITIS	27810
+Corylus cornuta	scientific	Corylus cornuta	ITIS	19507
+Populus grandidentata	common	NA	NA	NA
+Populus tremuloides	common	NA	NA	NA
+Betula papyrifera	common	NA	NA	NA
+Pteridium aquilinum	common	NA	NA	NA
+Rubus pubescens	common	NA	NA	NA
+Cornus rugosa	common	NA	NA	NA
+Corylus cornuta	common	NA	NA	NA

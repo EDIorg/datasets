@@ -1,0 +1,27 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+DateTime	"Datetime stamp of recorded observation, eastern standard time, no daylight savings observed"	Date		YYYY-MM-DD hh:mm		
+PAR_umolm2sec	photosynthetically active radiation measured at buoy	numeric	microMolsPerMeterSquaredPerSecond		NA	not available
+AirTemp_degC	air temperature measured at buoy	numeric	celsius		NA	not available
+WindDir_deg	instantaneous wind direction (once per 10 minutes)	numeric	degree		NA	not available
+Wind_sp_ms	instantaneous wind speed (once per 10 minutes)	numeric	milesPerHour		NA	not available
+DOSensorTemp_1m_degC	water temperature at the dissolved oxygen probe at 1m depth	numeric	celsius		NA	not available
+DO_mgL_1m	Drift-corrected dissolved oxygen concentration at 1m depth	numeric	milligramsPerLiter		NA	not available
+Temp_0m_degC	water temperature at water surface (approximate)	numeric	celsius		NA	not available
+Temp_0p5m_degC	water temperature at 0.5m depth (approximate)	numeric	celsius		NA	not available
+Temp_1m_degC	water temperature at 1m depth (approximate)	numeric	celsius		NA	not available
+Temp_1p5m_degC	water temperature at 1.5m depth (approximate)	numeric	celsius		NA	not available
+Temp_2m_degC	water temperature at 2m depth (approximate)	numeric	celsius		NA	not available
+Temp_2p5_degC	water temperature at 2.5m depth (approximate)	numeric	celsius		NA	not available
+Temp_3m_degC	water temperature at 3m depth (approximate)	numeric	celsius		NA	not available
+Temp_3p5m	water temperature at 3.5m depth (approximate)	numeric	celsius		NA	not available
+Temp_4m_degC	water temperature at 4m depth (approximate)	numeric	celsius		NA	not available
+Temp_5m_degC	water temperature at 5m depth (approximate)	numeric	celsius		NA	not available
+Temp_6m_degC	water temperature at 6m depth (approximate)	numeric	celsius		NA	not available
+Temp_7m_degC	water temperature at 7m depth (approximate)	numeric	celsius		NA	not available
+Temp_8m_degC	water temperature at 8m depth (approximate)	numeric	celsius		NA	not available
+Temp_9m_degC	water temperature at 9m depth (approximate)	numeric	celsius		NA	not available
+Temp_10m_degC	water temperature at 10m depth (approximate)	numeric	celsius		NA	not available
+Temp_11m_degC	water temperature at 11m depth (approximate)	numeric	celsius		NA	not available
+Temp_12m_degC	water temperature at 12m depth (approximate)	numeric	celsius		NA	not available
+Temp_13m_degC	water temperature at 13m depth (approximate)	numeric	celsius		NA	not available
+Temp_14m_degC	water temperature at 14m depth (approximate)	numeric	celsius		NA	not available

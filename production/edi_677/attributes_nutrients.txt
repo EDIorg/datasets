@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Locational identifier for each sampling site	character				
+replicate	Replicate for a given location	character				
+nh4_mg_dm3	Ammonium concentration	numeric	MilligramsPerCubicDecimeter		NA	not available
+no3_mg_dm3	Nitrate concentration	numeric	MilligramsPerCubicDecimeter		NA	not available
+tp_mg_dm3	Total phosphorus concentration	numeric	MilligramsPerCubicDecimeter		NA	not available
+tpo43_mg_dm3	"Total phosphate concentration, which is calculated as total phosphorus as phosphate."	numeric	MilligramsPerCubicDecimeter		NA	not available

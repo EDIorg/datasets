@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Species_code	Species code	character				
+Genus	Genus name	character				
+Species	Species name	character				
+Family	Plant Family name	character				
+Dicot_Monocot	dicot or monocot	categorical				
+Category	"From Keeler-Wolf et al., 1998. California Vernal Pool Assessment Preliminary Report. "	categorical				
+Common_name	common plant name	character				
+Native_to_California	Native or non-native status obtained from www.calflora.org	categorical				
+Comments	comments	character				

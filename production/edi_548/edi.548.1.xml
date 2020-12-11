@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.548.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Correlation of native and exotic species richness: a global meta-analysis finds no invasion paradox across scales</title>
+    <creator>
+      <individualName>
+        <givenName>Shijia</givenName>
+        <surName>Peng</surName>
+      </individualName>
+      <organizationName>State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-Sen University, Guangzhou, 510275, China</organizationName>
+      <electronicMailAddress>pengshijia1010@163.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Nicole</givenName>
+        <givenName>L.</givenName>
+        <surName>Kinlock</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA</organizationName>
+      <electronicMailAddress>nicole.kinlock@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-2917-5133</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Shaolin</givenName>
+        <surName>Peng</surName>
+      </individualName>
+      <organizationName>State Key Laboratory of Biocontrol, School of Life Sciences, Sun Yat-Sen University, Guangzhou, 510275, China</organizationName>
+      <electronicMailAddress>lsspsl@mail.sysu.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2020-06-18</pubDate>
+    <abstract>
+      <para>This data set is also available on the Dryad Digital repository (link : https://doi.org/10.5061/dryad.59kv753)</para>
+      <para>This dataset was created for investigating the biotic resistance hypothesis,  that is, the idea that species‐rich communities are more successful at resisting invasion by exotic species than are species‐poor communities. It has been argued that native–exotic richness relationships (NERR) are negative at small spatial scales and positive at large scales, but evidence for the role of spatial scale on NERR has been contradictory. However, no formal quantitative synthesis had previously examined whether NERR is scale‐dependent across multiple studies, and previous studies on NERR have not distinguished spatial grain and extent, which may drive very different ecological processes Therefore, a global systematic review was carried out to create this dataset, which includes 204 individual cases of observational (non‐experimental) NERRs from 101 publications. Further, the above-mentioned hypotheses were investigated using a hierarchical mixed‐effects meta‐analysis, which showed that NERR was indeed highly scale dependent across studies and increased with the log of grain size. Also, no clear patterns of NERR across different spatial extents were found, suggesting that extent plays a less important role in determining NERR than does grain, although there was a complex interaction between extent and grain size. Almost all studies on NERR were found to have been conducted in North America, western Europe, and a few other regions, with little information on tropical or Arctic regions. NERR was also found to increase northward in temperate regions and vary with longitude. These results were published in the paper titled Correlation of native and exotic species richness: a global meta‐analysis finds no invasion paradox across scales (Peng et al. 2018), which represents the first global quantitative analysis of scale‐based NERR. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Community patterns</keyword>
+      <keyword>meta-analysis</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>invasive species</keyword>
+      <keyword>plant species</keyword>
+      <keyword>species richness</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Global</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180</westBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <northBoundingCoordinate>80</northBoundingCoordinate>
+          <southBoundingCoordinate>-80</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1994</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Systematic review</para>
+          <para>A systematic review was conducted in February 2017 for scale‐dependent NERR in plants using the keywords “biodiversity or diversity” AND “plant and inva*” in Web of Science (ISI) and Google Scholar from 1986 to 2016, limiting our search results to relevant research fields of “Ecology,” “Plant sciences,” and “Biodiversity conservation.” The Chinese National Knowledge Infrastructure (CNKI) database was also searched for relevant papers but, regrettably, no articles found in CNKI were suitable. We then screened the titles, abstracts, and results to select studies based on the following criteria: (1) Studies were observational or experimental. Literature reviews, syntheses and mathematical simulation models were excluded. (2) Studies reported NER using species richness; studies reporting other response indices (e.g., species cover, density, or abundance; biomass of one or several exotic species) were excluded. Relevant publications were further screened using the full text. We also cross‐checked studies derived from the reference lists of relevant reviews and articles we previously identified to investigate whether there were additional publications. For our systematic review, we extracted descriptive information from each study to catalog its characteristics. If a study identified study location by name only and did not provide concrete geographic data, we used Google Maps to estimate latitude and longitude. When the study area spanned a large region (e.g., California), we used the midpoint of the region. These midpoints were automatically calculated by using a Geographic Midpoint Calculator (http://www.geomidpoint.com). Few studies provided explicit values for spatial extent. To approximate the extent of study areas, we selected the four most distant points sampled in each study at the cardinal directions of the study area, calculated their distances with ImageJ software, and estimated the rectangular area (Schneider et al. 2012; available online). Extent estimates were grouped into seven categories, as shown in the table below:</para>
+          <para>Case characteristics and Levels</para>
+          <para>Publication journal and year: </para>
+          <para>Grain size: classified into six categories: (0, 1], (1, 10], (10, 100], (100, 500], (500, 1,000] and (1,000) m2</para>
+          <para>Country: </para>
+          <para>Study area within country: </para>
+          <para>Geographic coordinates: midpoint of study area (latitude, longitude)</para>
+          <para>Spatial extent: (0, 10), [10, 100), [10^2, 10^3), [10^3, 10^4), [10^4, 10^5), [10^5, 10^6) and [10^6) km2</para>
+          <para>Research type: observational or experimental</para>
+          <para>Habitat type: forest, grassland, shrubland, wetland, riparian, savanna, agricultural habitat (refers to the non‐crop semi‐natural areas in an agricultural landscape), urban, many habitat types included in study, and miscellaneous other habitats (e.g., freshwater, old fields)</para>
+          <para>Climatic zone: tropical, temperate, or polar</para>
+          <para>Meta‐analysis</para>
+          <para>Our meta‐analysis used a subset of studies from the systematic review for which the correlation between native and exotic (or alien/invasive) species richness was explicitly reported or could be calculated across multiple grain sizes. We extracted Pearson's product–moment correlation coefficients (r) directly from the study, if available, or we calculated r using native and exotic species richness if reported for multiple plots, extracting data points from figures if needed with Getdata 2.26</para>
+          <para>Because almost all of the experimental studies included in our systematic review were conducted in grasslands at small grain sizes and extents, we limited the meta‐analysis to natural (i.e., unmanipulated) communities rather than including experimental plant communities. Some studies incorporated more than one NERR in different habitat types, locations, or at different spatial extents. For those studies, these NERR values were included as separate individual observations (cases). We only considered neophytes to be exotic (Deutschewitz et al. 2003). We did not extract data from state species lists or other sources of this type directly, because those data do not provide information on grain sizes (Vitousek et al. 1997, Wu et al. 2010).</para>
+          <para>Other details in the data collecting processes:</para>
+          <para>Many studies selected several sites (with specific coordinates) within a larger region. If they reported results separately for each site, we regarded results from each site as an individual case (Belote et al. 2008). For a minority of studies that attempted to explore the effects of artificial disturbances on NERRs, if they reported results of both undisturbed and disturbed (or both pre-disturbance and post-disturbance) plots, only undisturbed (or pre-disturbance) plots were used (McGranahan et al. 2012), and if studies reported temporal dynamic change of NERRs under a disturbance regime over time, we selected the earliest measurement (Meiners et al. 2002). Some studies, especially for nested design surveys, reported both cumulative diversity (gamma diversity) and mean diversity observed at a certain grain size (Jauni and Hyvönen 2012). Researchers generally focus on actual species counts rather than aggregated means when calculating NERRs (Deutschewitz et al. 2003, Belote et al. 2008, Chen et al. 2010). We therefore used only cumulative species richness counts as long as the sample plots were separate and independent of each other.&#13;
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Study on the Resistance Mechanism of Different Plant Functional Groups to Alien Plant Invasion</title>
+      <personnel>
+        <individualName>
+          <givenName>Shaolin</givenName>
+          <surName>Peng</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Natural Science Foundation of China (NSFC) 31030015</funding>
+    </project>
+    <dataTable>
+      <entityName>DataS1_SystematicReviewDatabase.csv</entityName>
+      <entityDescription>data used only in the systematic review, not the meta-analysis. Each entry describes a single case.</entityDescription>
+      <physical>
+        <objectName>DataS1_SystematicReviewDatabase.csv</objectName>
+        <size unit="bytes">2607</size>
+        <authentication method="MD5">29553d4920ef3d8f70576bbbfc3e3deb</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>AuthorYear</attributeName>
+          <attributeDefinition>Last name of the first author and year of publication</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Last name of the first author and year of publication</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year of publication</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1997</minimum>
+                  <maximum exclusive="false">2015</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Grain</attributeName>
+          <attributeDefinition>Grain size, that is, the smallest area for which data is available, or sampling unit/plot size</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">3000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Grain_units</attributeName>
+          <attributeDefinition>Units of grain size</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>m2</code>
+                    <definition>square meter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ha</code>
+                    <definition>hectare</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude in degree decimal (positive = North, negative = South)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Latitude in degree decimal (positive = North, negative = South)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude in degree decimal (positive = East, negative = West)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Longitude in degree decimal (positive = East, negative = West)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Extent</attributeName>
+          <attributeDefinition>Total spatial area included in the study (see table 1 in methods for levels)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Total spatial area included in the study (see table 1 in methods for levels)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ResearchType</attributeName>
+          <attributeDefinition>Whether the study was experimental or observational</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the study was experimental or observational</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HabitatType</attributeName>
+          <attributeDefinition>The type of habitat in which the study was carried out (see table in methods for levels).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>grassland</code>
+                    <definition>grassland</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>forest</code>
+                    <definition>forest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>savanna</code>
+                    <definition>savanna</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>riparian</code>
+                    <definition>riparian</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>agricultural</code>
+                    <definition>agricultural</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>31</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>DataS2_MetaAnalysisDatabase.csv</entityName>
+      <entityDescription>data used in all meta-analyses. Each entry describes a single case, and each case includes all covariates used in meta-analytic models.</entityDescription>
+      <physical>
+        <objectName>DataS2_MetaAnalysisDatabase.csv</objectName>
+        <size unit="bytes">22867</size>
+        <authentication method="MD5">cb92d64feba65f587c7189bd3f9c6b4c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>AuthorYear</attributeName>
+          <attributeDefinition>Last name of the first author and year of publication</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Last name of the first author and year of publication</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Study</attributeName>
+          <attributeDefinition>A unique identification number for each case within a study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique identification number for each case within a study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Case</attributeName>
+          <attributeDefinition>A unique identification number for each study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique identification number for each study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year of study</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1988</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Grain</attributeName>
+          <attributeDefinition>Grain size, that is, the smallest area for which data is available, or sampling unit/plot size</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.01</minimum>
+                  <maximum exclusive="false">23716</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Grain_unit</attributeName>
+          <attributeDefinition>Units of grain size</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>m2</code>
+                    <definition>square meter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>km2</code>
+                    <definition>square kilometer</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ha</code>
+                    <definition>hectare</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ln_Grain</attributeName>
+          <attributeDefinition>Natural logarithm of grain in MetresSquared</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-4.6052</minimum>
+                  <maximum exclusive="false">20.7947</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude in degree decimal (positive = North, negative = South)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-57.38</minimum>
+                  <maximum exclusive="false">64</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude in degree decimal (positive = East, negative = West)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-125.3</minimum>
+                  <maximum exclusive="false">176.19</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Extent</attributeName>
+          <attributeDefinition>Total spatial area included in the study (see table in methods for levels)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>[105-106]</code>
+                    <definition>10^5-10^6 square kilometer</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>[103-104]</code>
+                    <definition>10^3-10^4 square kilometer</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>[102-103]</code>
+                    <definition>10^2-10^3 square kilometer</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>[104-105]</code>
+                    <definition>10^4-10^5 square kilometer</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>[10-100]</code>
+                    <definition>10-100 square kilometer</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>[0-10]</code>
+                    <definition>0-10 square kilometer</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>[106- ]</code>
+                    <definition>over 10^6 square kilometer</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Research_type</attributeName>
+          <attributeDefinition>Whether the study was experimental or observational</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the study was experimental or observational</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Habitat_type</attributeName>
+          <attributeDefinition>The type of habitat in which the study was carried out (see table in methods for levels).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>forest</code>
+                    <definition>forest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wetland</code>
+                    <definition>wetland</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>many</code>
+                    <definition>many</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>grassland</code>
+                    <definition>grassland</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>agricultural</code>
+                    <definition>agricultural</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>urban</code>
+                    <definition>urban</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>shrubland</code>
+                    <definition>shrubland</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>z</attributeName>
+          <attributeDefinition>The value of the Fischer’s z transformation of the Pearson’s product moment correlation coefficient of the respective case. This was used as effect size in the meta-analysis</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.831780823</minimum>
+                  <maximum exclusive="false">2.646652412</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>var_z</attributeName>
+          <attributeDefinition>The variance of Fischer’s z</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000177274</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>204</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>DataS3_ExperimentalStudiesDatabase.csv</entityName>
+      <entityDescription>data from experimental studies that were not included in meta-analyses. These studies were, however, included in the systematic review.</entityDescription>
+      <physical>
+        <objectName>DataS3_ExperimentalStudiesDatabase.csv</objectName>
+        <size unit="bytes">1158</size>
+        <authentication method="MD5">eca70328b9a4fd5fe276bb9d62057c93</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>AuthorYear</attributeName>
+          <attributeDefinition>Last name of of first author and year of publication</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Last name of of first author and year of publication</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year of publication</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1997</minimum>
+                  <maximum exclusive="false">2015</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Grain_m2</attributeName>
+          <attributeDefinition>Grain size, that is, the smallest area for which data is available/sampling unit or plot size</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Extent</attributeName>
+          <attributeDefinition>Extent, that is, total spatial area included in the study (see table in methods for levels)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>[0-10]</code>
+                    <definition>0-10 square kilometer</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Habitat_type</attributeName>
+          <attributeDefinition>The type of habitat in which the study was carried out (see table in methods for levels).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>grassland</code>
+                    <definition>grassland</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>riparian(grassland)</code>
+                    <definition>riparian(grassland)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>savanna</code>
+                    <definition>savanna</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>n</attributeName>
+          <attributeDefinition>Sample size of each group in the study</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">4</minimum>
+                  <maximum exclusive="false">204</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NERR_sign</attributeName>
+          <attributeDefinition>Whether the correlation between native species richness and exotic species richness is positive or negative</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the correlation between native species richness and exotic species richness is positive or negative</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Primary_data_used_for_meta_analysis</attributeName>
+          <attributeDefinition>Whether the data was used for the meta-analysis</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Yes</code>
+                    <definition>used in meta analysis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>No</code>
+                    <definition>Not usd in meta analysis</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>r</attributeName>
+          <attributeDefinition>the value of the Pearson’s product moment correlation r</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.96</minimum>
+                  <maximum exclusive="false">0.468</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>z</attributeName>
+          <attributeDefinition>The value of the Fischer’s z transformation of the Pearson’s product moment correlation coefficient of the respective case.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.946</minimum>
+                  <maximum exclusive="false">0.507</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>var_z</attributeName>
+          <attributeDefinition>The variance of Fischer’s z</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.006</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>14</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>RCodeS2_MetaAnalysis.R</entityName>
+      <entityDescription>R code used to run all analyses.</entityDescription>
+      <physical>
+        <objectName>RCodeS2_MetaAnalysis.R</objectName>
+        <size unit="bytes">8598</size>
+        <authentication method="MD5">b003985f89782845446e7cd4513961d3</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

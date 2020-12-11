@@ -1,0 +1,11 @@
+name	name_type	name_resolved	authority_system	authority_id
+Acer platanoides	scientific	Acer platanoides	ITIS	28755
+Acer rubrum	scientific	Acer rubrum	ITIS	28728
+Lonicera maackii	scientific	Lonicera maackii	ITIS	35298
+Diervilla lonicera	scientific	Diervilla lonicera	ITIS	35310
+Celastrus orbiculatus	scientific	Celastrus orbiculatus	ITIS	506068
+Celastrus scandens	scientific	Celastrus scandens	ITIS	27974
+Elaeagnus umbellata	scientific	Elaeagnus umbellata	ITIS	27776
+Ceanothus americanus	scientific	Ceanothus americanus	ITIS	28454
+Ampelopsis glandulosa var. brevipedunculata	scientific	Ampelopsis glandulosa brevipedunculata	GBIF Backbone Taxonomy	NA
+Vitis vulpina	scientific	Vitis vulpina	ITIS	28610

@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+continent	Continent	character				
+country	Country	character				
+site	Site Code	character				
+latitude	Latitude	numeric	degree		NA	not available
+longitude	Longitude	numeric	degree		NA	not available
+map	Mean Annual Rainfall (mm)	numeric	millimeter		NA	not available
+dom_graze	Domestic Grazer Presence at Site (TRUE or FALSE)	categorical				
+herb_index_sq	Herbivore Index (Square Root)	numeric	dimensionless		NA	not available
+ppm_n	Soil Total N (ppm)	numeric	partsPerMillion		NA	not available
+block	Block	character				
+plot	Plot	character				
+year	Year	numeric	nominalYear		NA	not available
+year_trt	Number of Years of Treatments	numeric	number		NA	not available
+lm_lg	Live Aboveground Biomass (log10 g m-2)	numeric	gramsPerSquareMeter		NA	not available

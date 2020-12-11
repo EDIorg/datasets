@@ -1,0 +1,18 @@
+attributeName	code	definition
+Grain_unit	m2	square meter
+Grain_unit	km2	square kilometer
+Grain_unit	ha	hectare
+Extent	[105-106]	10^5-10^6 square kilometer
+Extent	[103-104]	10^3-10^4 square kilometer
+Extent	[102-103]	10^2-10^3 square kilometer
+Extent	[104-105]	10^4-10^5 square kilometer
+Extent	[10-100]	10-100 square kilometer
+Extent	[0-10]	0-10 square kilometer
+Extent	[106- ]	over 10^6 square kilometer
+Habitat_type	forest	forest
+Habitat_type	wetland	wetland
+Habitat_type	many	many
+Habitat_type	grassland	grassland
+Habitat_type	agricultural	agricultural
+Habitat_type	urban	urban
+Habitat_type	shrubland	shrubland

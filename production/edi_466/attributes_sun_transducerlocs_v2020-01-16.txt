@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+stream_no	Stream location identifier	character				
+stream_name	Stream name	character				
+gis_lat_dd	Latitude of transducer 	numeric	degree		NA	not availabel
+gis_long_dd	Longitude of transducer	numeric	degree		NA	not availabel
+DEM10m_elev_m	Elevation of transducer location according to the 10 meter resolution USGS Digital Elevation Model	numeric	meter		NA	not availabel

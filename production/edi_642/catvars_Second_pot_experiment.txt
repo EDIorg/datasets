@@ -1,0 +1,28 @@
+attributeName	code	definition
+Germinated	1	seed germinated
+Germinated	0	seed did not germinate
+Survived_to_experiment_end	1	seedling survived to end of experiment
+Survived_to_experiment_end	0	seedling died before end of experiment
+Survived_to_experiment_end	NA	seedling did not germinate
+Side_of_table	S	South
+Side_of_table	N	North
+Row_on_table	X	furthest east
+Row_on_table	Y	middle
+Row_on_table	Z	furthest west
+Role_in_experiment	A	palo verde impacted by conspecific
+Role_in_experiment	B	palo verde impacted by buffel grass
+Role_in_experiment	C	palo verde impacted by no seedling (just bare soil)
+Role	D	donor seedling donating leachate to a recipient pot
+Role	R	recipient which was watered with leachate from donor
+Role	P	"competition experiment in which water was added to the pot straight from the tap, and not collected afterwards"
+Seedling_species	PV	palo verde (Parkinsonia microphylla)
+Seedling_species	BG	buffel grass (Cenchrus ciliaris)
+Seedling_species	CACTUS	CACTUS
+Seedling_species	VOLUNTEER	VOLUNTEER
+Focal	F	this seedling was the focal response seedling
+Focal	NF	this seedling was the non-focal seedling creating the impact on the other
+Species_of_impact	Pennisetum	buffel grass
+Species_of_impact	Parkinsonia	palo verde (conspecific)
+Species_of_impact	Control	no seedling just bare soil
+Type_of_impact	Leachate	water that had drained through a donor pot was added if recipient or water was drained through that pot if a donor
+Type_of_impact	Competition	water was added to that pot directly

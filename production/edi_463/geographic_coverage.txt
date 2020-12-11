@@ -1,0 +1,4 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+"Lake and watershed: Lake Sunapee is located in the Sugar River watershed within Sullivan and Merrimack Counties, NH. It is a drainage lake with predominantly muck substrate. It has a surface area of 1667 hectare, 53 kilometers of highly developed shoreline and a maximum depth of 33.7 meters. The following bounding coordinates are for Lake Sunapee as defined by the polygon contained in the New Hampshire Hydrography Dataset (NHHD) as downloaded from GRANIT (http://www.granit.sr.unh.edu/data/search?dset=nhhd&#)."	43.431	43.322	-72.03	-72.083
+"Summer buoy location, SSE of Loon Island, water depth approximately 15 meters, water fluctuates seasonally 0.75 to 1 meter"	43.39	43.39	-72.057	-72.057
+Ice-on harbor position from winter 2009 forward	43.386	43.386	-72.081	-72.081

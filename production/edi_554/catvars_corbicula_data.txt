@@ -1,0 +1,3 @@
+attributeName	code	definition
+station	Amont	upstream or the nuclear power plant
+station	Aval	downstream of the nuclear power plant

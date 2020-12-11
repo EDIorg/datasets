@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+continent	Contnent	character				
+country	Country	character				
+latitude	Latitude (Decimal Degrees)	numeric	degree		NA	Not available
+longitude	Longitude (Decimal Degrees)	numeric	degree		NA	Not available
+site	Site	character				
+block	Block Number	character				
+plot	Plot Number	character				
+year	Year of sampling	numeric	nominalYear		NA	Not available
+year_trt	Number of years of treatmet	numeric	number		NA	Not available
+live_lg	Aboveground Live Biomass (log10 g m-2)	numeric	gramsPerSquareMeter		NA	Not available
+dead_lg	Aboveground Dead Biomass (log10 g m-2)	numeric	gramsPerSquareMeter		NA	Not available
+div_lg	Plant Diversity (log10 ENS_PIE)	numeric	dimensionless		NA	Not available
+rich_lg	Plant Richness (log10 species m-2)	numeric	numberPerMeterSquared		NA	Not available
+evs_lg	Simpson Evenness (log10)	numeric	dimensionless		NA	Not available

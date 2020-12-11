@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Region	Region that the trapping grid occurred in	categorical				
+Grid	Name of trapping grid	character				
+Tag_R	Unique eartag number for each adult snowshoe hare. 	character				
+Trap_Date	Date of capture	Date		YYYY-MM-DD		
+Tissue	Was an ear-punch biopsy sample taken from that individual hare on that date (archived for DNA extraction)?	categorical				
+Sex	Sex of adult hare	categorical				
+Weight_g	Weight of adult hare	numeric	gram			
+Repro	Reproductive status of adult hare. Males are either testes abdominal or testes scrotal. All other statuses apply to females.	categorical				
+RHF	Length of right hind foot of adult hare	numeric	centimeter			
+Trap_ID	"Identity of the trap site where the hare was captured. Typically Seeley grids are arranged in a grid with rows A-E and columns 1-10, but there are exceptions. Typically Tally grids are arranged in a grid with rows A-H and columns 1-10, but there are exceptions. Trap spacing is approximately 50m."	character				
+DEAD	Was the hare deceased after capturing and/or handling?	categorical				

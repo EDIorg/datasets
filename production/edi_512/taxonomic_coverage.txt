@@ -1,0 +1,133 @@
+name	name_type	name_resolved	authority_system	authority_id
+agoceris aurantiaca	scientific	Agoseris aurantiaca	ITIS	36488
+agoceris glauca	scientific	Agoseris glauca	ITIS	36490
+androsace septentrionalis	scientific	Androsace septentrionalis	ITIS	23935
+arenaria congesta	scientific	Arenaria congesta	ITIS	20243
+boechera stricta	scientific	Boechera stricta	ITIS	822989
+campanula rotundifolia	scientific	Campanula rotundifolia	ITIS	34497
+claytonia lanceolata	scientific	Claytonia lanceolata	ITIS	20390
+delphinium nuttallianum	scientific	Delphinium nuttallianum	ITIS	18483
+draba aurea	scientific	Draba aurea	ITIS	22863
+erigeron flagellaris	scientific	Erigeron flagellaris	ITIS	35865
+erigeron speciosus	scientific	Erigeron speciosus	ITIS	35950
+eriogonum subalpinum	scientific	Eriogonum subalpinum	ITIS	513149
+eriogonum umbellatum	scientific	Eriogonum umbellatum	ITIS	21266
+erythronium grandiflorum	scientific	Erythronium grandiflorum	ITIS	196372
+galium boreale	scientific	Galium boreale	ITIS	34828
+helianthella quinquenervis	scientific	Helianthella quinquenervis	ITIS	37597
+heliomeris multiflora	scientific	Heliomeris multiflora	ITIS	37603
+heterotheca villosa	scientific	Heterotheca villosa	ITIS	37689
+hydrophyllum capitatum	scientific	Hydrophyllum capitatum	ITIS	31391
+ipomopsis aggregata	scientific	Ipomopsis aggregata	ITIS	31192
+lathyrus leucanthus	scientific	Lathyrus leucanthus	ITIS	25857
+lomatium dissectum	scientific	Lomatium dissectum	ITIS	503534
+mahonia repens	scientific	Mahonia repens	ITIS	195045
+mertensia ciliata	scientific	Mertensia ciliata	ITIS	31668
+mertensia fusiformis	scientific	Mertensia fusiformis	ITIS	31680
+potentilla hippiana	scientific	Potentilla hippiana	ITIS	24718
+pseudocymopterus montanus	scientific	Pseudocymopterus montanus	ITIS	29837
+ranunculus inamoenus 	scientific	Ranunculus inamoenus	ITIS	18616
+rosa woodsii	scientific	Rosa woodsii	ITIS	24847
+sedum lanceolatum	scientific	Sedum lanceolatum	ITIS	24126
+senecio integerrimus	scientific	Senecio integerrimus	ITIS	36148
+senecio serra	scientific	Senecio serra	ITIS	36182
+solidago multiradiata	scientific	Solidago multiradiata	ITIS	36279
+taraxacum officinale	scientific	Taraxacum officinale	ITIS	36213
+viola praemorsa	scientific	Viola praemorsa	ITIS	505717
+achillea millefolium	scientific	Achillea millefolium	ITIS	35423
+amelanchier pumila	scientific	Amelanchier pumila	ITIS	182049
+castilleja sulphurea	scientific	Castilleja sulphurea	ITIS	33083
+fragaria virginiana	scientific	Fragaria virginiana	ITIS	24639
+gentiana parryi	scientific	Gentiana parryi	ITIS	29980
+hydrophyllum fendeleri	scientific	Hydrophyllum fendleri	ITIS	31392
+potentilla gracilis	scientific	Potentilla gracilis	ITIS	24714
+vicia americana	scientific	Vicia americana	ITIS	26331
+linum lewisii	scientific	Linum lewisii	ITIS	29214
+phacelia heterophylla	scientific	Phacelia heterophylla	ITIS	504271
+senecio	scientific	Senecio	ITIS	36084
+nymphalidae spp	scientific	Nymphalidae	ITIS	117276
+muscidae	scientific	Muscidae	ITIS	150025
+andrena cyanophila	scientific	Andrena cyanophila	ITIS	654253
+lasioglossum	scientific	Lasioglossum	ITIS	154357
+sphecodes	scientific	Sphecodes	ITIS	154358
+syrphidae	scientific	Syrphidae	ITIS	139621
+ochlodes sylvanoides	scientific	Ochlodes sylvanoides	ITIS	706633
+systoechus	scientific	Systoechus	ITIS	134582
+bombus bifarius	scientific	Bombus bifarius	ITIS	714787
+colletes kincaidii	scientific	Colletes kincaidii	ITIS	654861
+halictus rubicundus	scientific	Halictus rubicundus	ITIS	757831
+megachile relativa	scientific	Megachile relativa	ITIS	762079
+osmia proxima	scientific	Osmia proxima	ITIS	715606
+tachinidae	scientific	Tachinidae	ITIS	152643
+bombus appositus	scientific	Bombus appositus	ITIS	714783
+bombus sylvicola	scientific	Bombus sylvicola	ITIS	714840
+lycaenidae	scientific	Lycaenidae	ITIS	117236
+pieris rapa	scientific	Pieris rapae	ITIS	188541
+andrena transnigra	scientific	Andrena transnigra	ITIS	654555
+selasphorus platycercus	scientific	Selasphorus platycercus	ITIS	178038
+anthophora terminalis	scientific	Anthophora terminalis	ITIS	698937
+bombus flavifrons	scientific	Bombus flavifrons	ITIS	714803
+halictidae	scientific	Halictidae	ITIS	154348
+hoplitus fulgida	scientific	Hoplitis fulgida	ITIS	715460
+osmia iridis	scientific	Osmia iridis	ITIS	715566
+osmia subaustralis	scientific	Osmia subaustralis	ITIS	715626
+panurginus ineptus	scientific	Panurginus ineptus	ITIS	715829
+andrena costillensis	scientific	Andrena costillensis	ITIS	654241
+bombus californicus	scientific	Bombus californicus	ITIS	714791
+bombus occidentalis	scientific	Bombus occidentalis	ITIS	714827
+thricops septentrionalis	scientific	Thricops septentrionalis	ITIS	150217
+osmia bucephala	scientific	Osmia bucephala	ITIS	715517
+chrysis coerulans	scientific	Chrysis coerulans	ITIS	154156
+megachile pugnata	scientific	Megachile pugnata	ITIS	762038
+scathophagidae	scientific	Scathophagidae	ITIS	678096
+osmia montana	scientific	Osmia montana	ITIS	715585
+arctophila flagrans	scientific	Arctophila flagrans	ITIS	140761
+coelioxus funeraria	scientific	Coelioxys funeraria	ITIS	760628
+osmia grindeliae	scientific	Osmia grindeliae	ITIS	715555
+pieridae	scientific	Pieridae	ITIS	117267
+anthidium emarginatum	scientific	Anthidium emarginatum	ITIS	699654
+osmia coloradensis	scientific	Osmia coloradensis	ITIS	715532
+villa eumenes	scientific	NA	NA	NA
+speyeria mormonia	scientific	Speyeria mormonia	ITIS	778003
+sphaerophoria robusta	scientific	Sphaerophoria robusta	ITIS	140263
+glaucopsyche lygdamus	scientific	Glaucopsyche lygdamus	ITIS	188519
+pieris mcdunnoughi	scientific	NA	NA	NA
+chrysotoxum ventricosum	scientific	Chrysotoxum ventricosum	ITIS	139935
+andrena vicinoides	scientific	Andrena vicinoides	ITIS	654574
+megachile melanophea	scientific	Megachile melanophaea	ITIS	761776
+halictus confusus	scientific	Halictus confusus	ITIS	757711
+bombus nevadensis	scientific	Bombus nevadensis	ITIS	714826
+psithyrus insularis	scientific	Psithyrus insularis	ITIS	714853
+papilio gothica	scientific	NA	NA	NA
+melanostoma kelloggi	scientific	Melanostoma kelloggi	ITIS	139775
+lycaena rubidus_sirius	scientific	Lycaena rubidus sirius	ITIS	778626
+halictus virgatellus	scientific	Halictus virgatellus	ITIS	757873
+colias alexandra	scientific	Colias alexandra	ITIS	777737
+bombus frigidus	scientific	Bombus frigidus	ITIS	714806
+mesebrina latreillei	scientific	Mesembrina latreillii	ITIS	150235
+sphex	scientific	Sphex	ITIS	154326
+bombus balteatus	scientific	Bombus balteatus	ITIS	714786
+phormia	scientific	Phormia	ITIS	151680
+megachile frigida	scientific	Megachile frigida	ITIS	761453
+eupeodes volucris	scientific	Eupeodes volucris	ITIS	140089
+andrena	scientific	Andrena	ITIS	154362
+rhamphomyia	scientific	Rhamphomyia	ITIS	136123
+cartosyrphus tarda	scientific	Cartosyrphus	GBIF Backbone Taxonomy	1533583
+eupeodes lapponicus	scientific	Eupeodes lapponicus	ITIS	140047
+euphydras anicia	scientific	Euphydryas anicia	ITIS	778056
+colletes nigrifrons	scientific	Colletes nigrifrons	ITIS	654928
+callophrys affinis	scientific	Callophrys affinis	ITIS	777837
+osmia lignaria	scientific	Osmia lignaria	ITIS	715574
+cartosyrphus	scientific	Cartosyrphus	GBIF Backbone Taxonomy	1533583
+eristalis latifrons	scientific	Eristalis latifrons	ITIS	140968
+osmia	scientific	Osmia	ITIS	154377
+cryptopogon	scientific	Cryptopogon	GBIF Backbone Taxonomy	1659553
+hoplitus robusta	scientific	Hoplitis robusta	ITIS	715486
+coenonympha ochracea	scientific	Coenonympha ochracea	GBIF Backbone Taxonomy	1911110
+lycaena cupreus	scientific	Lycaena cupreus	ITIS	777789
+bombus mixtus	scientific	Bombus mixtus	ITIS	714822
+osmia tristela	scientific	Osmia tristella	ITIS	715638
+melissodes confusa	scientific	Melissodes confusa	ITIS	699308
+melanstoma caerulescens	scientific	Melanostoma coerulescens	ITIS	139733
+tephritidae	scientific	Tephritidae	ITIS	142604
+polygonia zephyrus	scientific	Polygonia zephyrus	GBIF Backbone Taxonomy	5129447

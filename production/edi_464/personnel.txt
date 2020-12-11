@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Tian-Yuan		Huang	"School of Life Science, Fudan University"	huang.tian-yuan@qq.com	0000-0002-3591-4203	creator			
+Bin		Zhao	"Ministry of Education Key Laboratory for Biodiversity Science and Ecological Engineering, Coastal Ecosystems Research Station of the Yangtze River Estuary, and Shanghai Institute of EcoChongming (SIEC), Fudan University"	zhaobin@fudan.edu.cn		creator			
+Martha	R.	Downs	"Long Term Ecological Research Network Office, National Center for Ecological Analysis and Synthesis, University of California - Santa Barbara, USA"	downs@nceas.ucsb.edu	0000-0003-2833-956X	creator			
+Martha	R.	Downs	"Long Term Ecological Research Network Office, National Center for Ecological Analysis and Synthesis, University of California - Santa Barbara, USA"	downs@nceas.ucsb.edu	0000-0003-2833-956X	contact			
+Bin		Zhao				PI		National Key Research and Development Program of China	2018YFD0900806
+Bin		Zhao				PI		National Natural Science Foundation of China	31170450
+Martha	R.	Downs				PI	LTER Network Office	National Science Foundation	DEB-1545288

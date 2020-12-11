@@ -1,0 +1,18 @@
+attributeName	code	definition
+Treatment	1-0-z	monoculture of corn unfertilized
+Treatment	1-1-z	monoculture of corn fertilized
+Treatment	2-0-z	monoculture of soybean unfertilized
+Treatment	2-1-z	monoculture of soybean fertilized
+Treatment	3-0-z	mixed (intercrop - replacement) unfertilized
+Treatment	3-1-z	mixed (intercrop - replacement) fertilized
+Treatment	4-0-z	mixed (intercrop - additive) unfertilized
+Treatment	4-1-z	mixed (intercrop - additive) fertilized
+Treatment	0-0-z	unplanted (weeds only) unfertilized
+Treatment	0-1-z	unplanted (weeds only) fertilized
+Crop	monocorn	monoculture of corn
+Crop	monosoy	monoculture of soybean
+Crop	mixrep	mixed (intercrop - replacement)
+Crop	mixadd	mixed (intercrop - additive)
+Crop	weedy	unplanted (weeds only) 
+Fertilization	unfertilized	unfertilized
+Fertilization	fertilized	fertilized

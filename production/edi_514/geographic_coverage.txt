@@ -1,0 +1,5 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+Northeast Kansas, USA sites	39.08333	39.08333	-96.58333	-96.58333
+Gage, Southeast Nebraska, USA	40.26508	40.26508	-96.69347	-96.69347
+Northeast Free State, South Africa	-28.2	-28.2	29.18333	29.18333
+Saline,  Southeast Nebraska, USA	40.53134	40.53134	-97.14231	-97.14231

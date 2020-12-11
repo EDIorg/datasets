@@ -1,0 +1,6 @@
+attributeName	code	definition
+solute	BOD5	biochemical oxygen demand over 5 days
+solute	CHLA	chlorophyll a
+solute	NO3	nitrate as N
+solute	PO4	phosphate as P
+solute	SPM	"suspended particulate matter (aka total suspended solids, TSS)"

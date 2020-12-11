@@ -1,0 +1,38 @@
+name	name_type	name_resolved	authority_system	authority_id
+Acroloxidae	scientific	Acroloxidae	GBIF Backbone Taxonomy	2854
+Asellidae	scientific	Asellidae	GBIF Backbone Taxonomy	4574
+Baicaliidae	scientific	Baicaliidae	GBIF Backbone Taxonomy	NA
+Benedictidae	scientific	NA	NA	NA
+Brandtia latissima	scientific	Brandtia latissima	GBIF Backbone Taxonomy	5717285
+Brandtia parasitica parasitica	scientific	NA	NA	NA
+Caddisflies	scientific	NA	NA	NA
+Cryptoropus inflatus	scientific	Crypturopus inflatus	GBIF Backbone Taxonomy	6460004
+Cryptoropus pachytus	scientific	Crypturopus pachytus	GBIF Backbone Taxonomy	5864412
+Cryptoropus rugosus	scientific	Crypturopus rugosus	GBIF Backbone Taxonomy	6460002
+Eulimnogammarus capreolus	scientific	Eulimnogammarus capreolus	GBIF Backbone Taxonomy	6465127
+Eulimnogammarus cruentes	scientific	Eulimnogammarus cruentus	GBIF Backbone Taxonomy	5864347
+Eulimnogammarus cyaneus	scientific	Eulimnogammarus cyaneus	GBIF Backbone Taxonomy	5864349
+Eulimnogammarus grandimanus	scientific	Eulimnogammarus grandimanus	GBIF Backbone Taxonomy	5864346
+Eulimnogammarus juveniles	scientific	Eulimnogammarus	GBIF Backbone Taxonomy	4315767
+Eulimnogammarus maackii	scientific	Eulimnogammarus maackii	GBIF Backbone Taxonomy	6465119
+Eulimnogammarus marituji	scientific	Eulimnogammarus marituji	GBIF Backbone Taxonomy	10081096
+Eulimnogammarus verucossus	scientific	Eulimnogammarus verrucosus	GBIF Backbone Taxonomy	5864350
+Eulimnogammarus viridis viridis	scientific	Eulimnogammarus viridis	GBIF Backbone Taxonomy	5864352
+Eulimnogammarus vittatus	scientific	Eulimnogammarus vittatus	GBIF Backbone Taxonomy	5864353
+Maackia	scientific	Maackia	GBIF Backbone Taxonomy	3244556
+Pallasea brandtia brandita	scientific	Pallasea brandtii	GBIF Backbone Taxonomy	NA
+Pallasea brandtii tenera	scientific	Pallasea brandtii tenera	GBIF Backbone Taxonomy	NA
+Pallasea cancelloides	scientific	Pallasea cancelloides	GBIF Backbone Taxonomy	NA
+Pallasea cancellus	scientific	Pallasea cancellus	GBIF Backbone Taxonomy	5864243
+Pallasea viridis	scientific	Pallasea viridis	GBIF Backbone Taxonomy	NA
+Planorbidae	scientific	Planorbidae	GBIF Backbone Taxonomy	2851
+Poekilogammarus crassimus	scientific	Poekilogammarus crassimanus	GBIF Backbone Taxonomy	NA
+Poekilogammarus ephippiatus	scientific	NA	NA	NA
+Poekilogammarus juveniles	scientific	Poekilogammarus	GBIF Backbone Taxonomy	4642935
+Poekilogammarus megonychus perpolitus	scientific	Poekilogammarus megonychus perpolitus	GBIF Backbone Taxonomy	NA
+Poekilogammarus pictus	scientific	Poekilogammarus pictus	GBIF Backbone Taxonomy	6463743
+Valvatidae	scientific	Valvatidae	GBIF Backbone Taxonomy	2699
+Draparnaldia 	scientific	Draparnaldia	GBIF Backbone Taxonomy	2639875
+Eulimnogammarus verrucosus	scientific	Eulimnogammarus verrucosus	GBIF Backbone Taxonomy	5864350
+Hyalella 	scientific	Hyalella	GBIF Backbone Taxonomy	2217673
+Eulimnogammarus vitatus	scientific	Eulimnogammarus vittatus	GBIF Backbone Taxonomy	5864353

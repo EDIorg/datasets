@@ -1,0 +1,10 @@
+attributeName	code	definition
+watershed	EB	"East Bear, reference"
+watershed	WB	"West Bear, treated"
+soil_type	Tun	Tunbridge
+soil_type	Raw	Rawsonville
+soil_type	NA	not available
+forest	SW	softwood
+forest	HW	hardwood
+pit_type	Q	"quantitative pit, sampled for chemistry and soil mass/volume "
+pit_type	M	"mini pit, sampled only for chemistry"

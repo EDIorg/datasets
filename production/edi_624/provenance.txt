@@ -1,0 +1,31 @@
+dataPackageID	systemID	title	givenName	middleInitial	surName	role	organizationName	email	onlineDescription	url
+		"Washington and Sammamish (IDs 1,2)"	Curtis		DeGasperi	contact				https://green2.kingcounty.gov/lakes/
+		"Washington and Sammamish (IDs 1,2)"				creator	King County Water and Land Resources Division			https://green2.kingcounty.gov/lakes/
+		Mueggelsee (ID 3)	Rita		Adrian	contact				https://www.igb-berlin.de/en/muggelsee-monitoring-station
+		Mueggelsee (ID 3)				creator	Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB)			https://www.igb-berlin.de/en/muggelsee-monitoring-station
+		Erken (ID 4)	Don		Pierson	contact				https://www.ieg.uu.se/erken-laboratory
+		Erken (ID 4)				creator	Erken Laboratory			https://www.ieg.uu.se/erken-laboratory
+		Maine Lakes (IDs 141-242)	Linda		Bacon	contact				https://www.lakesofmaine.org/index.html
+		Maine Lakes (IDs 141-242)				creator	"Bureau of Water Quality, Maine Department of Environmental Protection"			https://www.lakesofmaine.org/index.html
+		"Acadia lakes Maine (Jordan, Bubble, Eagle) (IDs 25, 37, 38)"	Jasmine		Saros	contact				https://irma.nps.gov/Portal
+		"Acadia lakes Maine (Jordan, Bubble, Eagle) (IDs 25, 37, 38)"				creator	National Park Service			https://irma.nps.gov/Portal
+		"Water Quality Portal Lakes (IDs 39, 114, 116, 307-401)"	Jordan		Read	contact				https://www.waterqualitydata.us/
+		"Water Quality Portal Lakes (IDs 39, 114, 116, 307-401)"				creator	"USGS, EPA, NWQMC"			https://www.waterqualitydata.us/
+		Dorset Lakes (IDs 46-54)	James		Rusak	contact				http://desc.ca/data/data_request
+		Dorset Lakes (IDs 46-54)				creator	"Ontario Ministry of the Environment, Conservation and Parks, Dorset Environmental Science Centre"			http://desc.ca/data/data_request
+		Lake Annie (ID 55)	Evelyn		Gaiser	contact				http://www.archbold-station.org
+		Lake Annie (ID 55)				creator	Archbold Biological Station			http://www.archbold-station.org
+		Adirondack Lakes (IDs 56-75)	Taylor		Leach	contact				https://doi.org/10.1038/sdata.2018.59
+		Adirondack Lakes (IDs 56-75)	Taylor		Leach	creator				https://doi.org/10.1038/sdata.2018.59
+		Flathead (ID 115)	Shawn		Devlin	contact				https://flbs.umt.edu/PublicData/
+		Flathead (ID 115)				creator	Flathead Lake Biological Station			https://flbs.umt.edu/PublicData/
+		Kasumigaura (ID 129)	Shin-ichiro		Matsuzaki	contact				http://db.cger.nies.go.jp/gem/moni-e/inter/GEMS/database/kasumi/index.html
+		Kasumigaura (ID 129)				creator	National Institute for Environmental Studies - Japan			http://db.cger.nies.go.jp/gem/moni-e/inter/GEMS/database/kasumi/index.html
+		Wisconsin Lakes (IDs 132-139)	Catherine	L.	Hein	contact				https://dnr.wi.gov/topic/surfacewater/swims/
+		Wisconsin Lakes (IDs 132-139)				creator	Wisconsin Department of Natural Resources			https://dnr.wi.gov/topic/surfacewater/swims/
+		"Swedish Lakes (IDs 279-290, 292-304)"	Pernilla		Ronnback	contact				http://miljodata.slu.se/mvm/
+		"Swedish Lakes (IDs 279-290, 292-304)"				creator	Swedish University of Agricultural Sciences (SLU)			http://miljodata.slu.se/mvm/
+		Michigan Lakes (IDs 411-413)	Laura		Kaminski	contact				https://data.micorps.net/view/lake/
+		Michigan Lakes (IDs 411-413)				creator	Michigan Clean Water Corps			https://data.micorps.net/view/lake/
+		Castle (ID 441)	Sudeep		Chandra	contact				http://aquaticecosystemslab.org/projects/castlelake/; 
+		Castle (ID 441)				creator	Aquatic Ecosystem Lab			http://aquaticecosystemslab.org/projects/castlelake/; 

@@ -1,0 +1,1 @@
+Simulations were conducted using the open source computational fluid dynamics software OpenFOAM 3.0.0. The original source code for the OpenFOAM model is archived at https://openfoam.org/version/3-0-0/. Source code required to generate the computation grids used in the paper, and the input files needed to reproduce the model runs in paper are archived here.

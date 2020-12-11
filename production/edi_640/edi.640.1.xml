@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.640.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Native seedlings recorded on field plots with and without invasive buffel grass during the monsoon season of 2013 near Tucson, Arizona, USA</title>
+    <creator>
+      <individualName>
+        <givenName>Pacifica</givenName>
+        <surName>Sommers</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and University of Colorado Boulder (Boulder, CO)</organizationName>
+      <electronicMailAddress>Pacifica.somers@colorado.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ashley</givenName>
+        <surName>Davis</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and Arizona State University (Tempe, AZ)</organizationName>
+      <electronicMailAddress>ardavi23@asu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Peter</givenName>
+        <surName>Chesson</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and National Chung Hsing University (Taichung, Taiwan)</organizationName>
+      <electronicMailAddress>pchesson@email.arizona.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Timothy</givenName>
+        <surName>Mettler</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>tmettlergcc@gmail.com</electronicMailAddress>
+      <role>Field Work And Data Entry</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Celeste</givenName>
+        <surName>Patterson</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>celeste1@email.arizona.edu</electronicMailAddress>
+      <role>Field Work And Data Entry</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Julia</givenName>
+        <surName>Muldoon</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>jbmuldoo@email.arizona.edu</electronicMailAddress>
+      <role>Field Work And Data Entry</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Eloise</givenName>
+        <surName>De Tredern</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>Eloise.de.tredern@gmail.com</electronicMailAddress>
+      <role>Field Work And Data Entry</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Elizabeth</givenName>
+        <surName>Bercel</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>ebercel@email.arizona.edu</electronicMailAddress>
+      <role>Field Work And Data Entry</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Elizabeth</givenName>
+        <surName>De Vogelaere</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>edevog@email.arizona.edu</electronicMailAddress>
+      <role>Field Work And Data Entry</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Johanna</givenName>
+        <surName>Ouanzin</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>johannaouanzin@email.arizona.edu</electronicMailAddress>
+      <role>Data Entry</role>
+    </associatedParty>
+    <pubDate>2020-12-02</pubDate>
+    <abstract>
+      <para>Although buffel grass (Cenchrus ciliaris) invasions on several continents have significant ecological impacts, little information is available on its effect on seedling emergence and establishment of native vegetation. In highly impacted areas of the Sonoran Desert of North America, perennial plants are particularly vulnerable during their seedling stage. We studied the impact of buffel grass on the emergence and early survival of native seedlings in a field experiment. We marked out 2m x 2m field plots at three locations near Tucson, Arizona, with and without buffel grass. We removed the buffel grass from half of those with the invasion, and censused and marked native perennial seedlings that emerged in each plot for ten weeks during July-September (monsoon season) of 2013. Emergence and survival of native perennials in the field were both significantly higher where mature buffel grass was removed or had never invaded than where it remained. Our results highlight the need for more manipulative studies of density to improve mechanistic understanding of population dynamics, and to forecast how populations and communities will respond in the long term to perturbations such as invasion.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>invasive species</keyword>
+      <keyword>grasses</keyword>
+      <keyword>populations</keyword>
+      <keyword>seedlings</keyword>
+      <keyword>competition</keyword>
+      <keyword>communities</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Saguaro National Park</keyword>
+      <keyword>Tumamoc Hill</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Field sites were located at the University of Arizona Desert Laboratory at Tumamoc Hill, and at Saguaro National Park Tucson Mountain District and Rincon Mountain District. Sites were all located on rocky slopes that had been invaded by buffel grass for at least a decade without experiencing fire or other major disturbance (Bowers et al. 2006; Abella et al. 2012). The buffel grass patches in the Tucson Mountains and Rincon Mountains had been there for 15-20 years (Abella et al. 2012), and the patch at the Tumamoc Hill study site was approximately 30 years old (Bowers et al. 2006). No livestock have grazed on Tumamoc Hill since 1907, or in Saguaro National park since 1976.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-111.160556</westBoundingCoordinate>
+          <eastBoundingCoordinate>-110.696667</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.339444</northBoundingCoordinate>
+          <southBoundingCoordinate>32.187222</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>University of Arizona's Desert Laboratory at Tumamoc Hill</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-111.0027778</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.0027778</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.21611111</northBoundingCoordinate>
+          <southBoundingCoordinate>32.21611111</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Saguaro National Parkâ€™s Tucson Mountain District</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-111.1605556</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.1605556</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.33944444</northBoundingCoordinate>
+          <southBoundingCoordinate>32.33944444</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Rincon Mountain District</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-110.6966667</westBoundingCoordinate>
+          <eastBoundingCoordinate>-110.6966667</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.18722222</northBoundingCoordinate>
+          <southBoundingCoordinate>32.18722222</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2013-07-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-09-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Malvales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Malvaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Abutilon</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Abutilon incanum</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Caryophyllanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Caryophyllales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Cactaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Carnegiea</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Carnegiea gigantea</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Asterales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Asteraceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Encelia</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Encelia farinosa</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Fabales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Fabaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Marina</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Marina parryi</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Caryophyllanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Caryophyllales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Cactaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Opuntia</taxonRankValue>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Fabales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Fabaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Parkinsonia</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Parkinsonia microphylla</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Fabales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Fabaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Senna</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Senna covesii</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Sida abutifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Spheralcea</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Pacifica</givenName>
+        <surName>Sommers</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and University of Colorado Boulder (Boulder, CO)</organizationName>
+      <electronicMailAddress>Pacifica.somers@colorado.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Peter</givenName>
+        <surName>Chesson</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and National Chung Hsing University (Taichung, Taiwan)</organizationName>
+      <electronicMailAddress>pchesson@email.arizona.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>To determine whether buffel grass presence suppresses the recruitment of native perennials under field conditions, we surveyed and marked seedlings weekly for 10 weeks during July and August, 2013, on 102 plots of 4 m2. As fewer than 5% of emerging seedlings survive to establish in this system (Bowers et al. 2004), the area and time required to remove sufficient buffel grass to track survival of seedlings surviving even a single year would be logistically prohibitive. We therefore rely on differences in early survival to draw inference about changes to overall recruitment rates and incorporate them into a stage-structure population model focused on palo verde dynamics for context. </para>
+          <para>We compared native seedling emergence and survival rates between grass removal plots, control plots (with buffel grass remaining), and never-invaded comparison plots. We established 34 blocks of 3 plots each (102 plots total). Plots within a block were chosen to have similar slope, rock content, and mature native plants. Blocks were selected so that two of the plots contained buffel grass, and one of the plots was in an uninvaded area at least two meters from the nearest buffel grass of the contiguous patch, which we refer to as the uninvaded plot. One of the two plots containing buffel grass was randomly selected for buffel grass removal, and became the removal plot. We refer to the other as a buffel grass plot. We did not pull plants completely in order to avoid confounding the effects of disturbance with the effects of buffel grass. Instead, we removed all buffel grass within removal plots and within a 1 m buffer zone of removal plots by mowing in June when plots were selected, and then spraying the resprouting bases with herbicide (3% glyphosate) in July after the rains started. To ensure that equal amounts of water and nutrients were added to each plot, we sprayed equivalent amounts of herbicide on the bare ground in and around buffel grass plots and the never-invaded plots. &#13;
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Extended multitrophic diversity maintenance theory</title>
+      <personnel>
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Chesson</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation Division of Environmental Biology 1353715</funding>
+      <relatedProject>
+        <title>The role of herbivory and competition in the dominance of a non-native grass</title>
+        <personnel>
+          <individualName>
+            <givenName>Pacifica</givenName>
+            <surName>Sommers</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Western National Park Association 13-07</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Field emergence</entityName>
+      <entityDescription>Field emergence</entityDescription>
+      <physical>
+        <objectName>FIeld_emergence.csv</objectName>
+        <size unit="bytes">45238</size>
+        <authentication method="MD5">ca7dc1369e524bf939080d0b52c6435b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Field site of seedling that was recorded on a study plot. Each line is a distinct seedling marked and numbered, and the site refers to which main location (the Rincon Mountain site, the Tucson Mountain site, or the Tumamoc Hill site)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Rincon</code>
+                    <definition>Rincon Mountain site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tucson</code>
+                    <definition>Tucson Mountain site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tumamoc</code>
+                    <definition>Tumamoc Hill site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot</attributeName>
+          <attributeDefinition>Specific 2m x 2m study plot on which the seedling emerged</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Specific 2m x 2m study plot on which the seedling emerged</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Four-letter code for best guess of seedling’s species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ABIN</code>
+                    <definition>Abutilon incanum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AMBI</code>
+                    <definition>Ambiguous whether ABIN or MAPA</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAGI</code>
+                    <definition>Carnegiea gigantea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ENFA</code>
+                    <definition>Encelia farinosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MAPA</code>
+                    <definition>Marina parryi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NAGR</code>
+                    <definition>Native grass (Poaceae)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NONE</code>
+                    <definition>Not identified or recorded</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OPSP</code>
+                    <definition>Opuntia sp.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PAMI</code>
+                    <definition>Parkinsonia microphylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SECO</code>
+                    <definition>Senna covesii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SIAB</code>
+                    <definition>Sida abutifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPLA</code>
+                    <definition>Spheralcea sp.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Treatment</attributeName>
+          <attributeDefinition>Plot treatment level within the removal experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Buffel</code>
+                    <definition>buffel grass remaining on and around 2m x 2m plot</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Removed</code>
+                    <definition>buffel grass removed within the 2m x 2m plot and within 1m of edge</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Uninvaded</code>
+                    <definition>comparison 2m x 2m plot established near buffel grass invasion, but naturally lacking buffel grass within 1m of the edge of the plot</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1746</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Field survival</entityName>
+      <entityDescription>Field survival</entityDescription>
+      <physical>
+        <objectName>Field_survival.csv</objectName>
+        <size unit="bytes">64403</size>
+        <authentication method="MD5">e989a17ac9950dd04a7834c3dfc7940d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>PlotID</attributeName>
+          <attributeDefinition>Specific 2m x 2m study plot on which the seedling emerged (each line in the table representing a single seedling in the data set)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Specific 2m x 2m study plot on which the seedling emerged (each line in the table representing a single seedling in the data set)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mm_precip_total</attributeName>
+          <attributeDefinition>Total millimeters of rain during the ten weeks of censuses at each site. A single digital rain gauge that tallied cumulative rainfall was set up in a representative location in the middle of the study plots at each site at the start of the censuses</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">82</minimum>
+                  <maximum exclusive="false">157</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Seedlings_total</attributeName>
+          <attributeDefinition>Total number of seedlings marked that emerged on the plot over the ten weeks of censuses</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">219</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Field site of seedling that was recorded on a study plot. Each line is a distinct seedling marked and numbered, and the site refers to which main location (the Rincon Mountain site, the Tucson Mountain site, or the Tumamoc Hill site)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Rincon</code>
+                    <definition>Rincon Mountain site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tucson</code>
+                    <definition>Tucson Mountain site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tumamoc</code>
+                    <definition>Tumamoc Hill site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SpeciesID</attributeName>
+          <attributeDefinition>Four-letter code for best guess of seedling's species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ABIN</code>
+                    <definition>Abutilon incanum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AMBI</code>
+                    <definition>Ambiguous whether ABIN or MAPA</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAGI</code>
+                    <definition>Carnegiea gigantea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ENFA</code>
+                    <definition>Encelia farinosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MAPA</code>
+                    <definition>Marina parryi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NAGR</code>
+                    <definition>Native grass (Poaceae)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NONE</code>
+                    <definition>Not identified or recorded</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OPSP</code>
+                    <definition>Opuntia sp.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PAMI</code>
+                    <definition>Parkinsonia microphylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SECO</code>
+                    <definition>Senna covesii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SIAB</code>
+                    <definition>Sida abutifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPLA</code>
+                    <definition>Spheralcea sp.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_treatment</attributeName>
+          <attributeDefinition>Plot treatment level within the removal experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Buffel</code>
+                    <definition>buffel grass remaining on and around 2m x 2m plot</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RemNONE</code>
+                    <definition>buffel grass removed within the 2m x 2m plot and within 1m of edge</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Uninvaded</code>
+                    <definition>comparison 2m x 2m plot established near buffel grass invasion, but naturally lacking buffel grass within 1m of the edge of the plot</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Week_germinated</attributeName>
+          <attributeDefinition>Census date seedling was first recorded</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Min_known_weeks_surviving</attributeName>
+          <attributeDefinition>Minimum number of weeks the seedling survived based on how many times it was recorded; assumes once it is no longer recorded (even if study period ended) it died afterwards</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Max_known_weeks_surviving</attributeName>
+          <attributeDefinition>Maximum number of weeks the seedling survived within the 10-week study period, assuming optimistic outcomes for seedlings not recorded living or dead by assuming they were live and missed in the census</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Recorded_dead</attributeName>
+          <attributeDefinition>Whether or not the seedling was found dead with its marking pin still identifying it</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1571</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>Field emergence R script</entityName>
+      <entityDescription>A script to test how perennial emergence changed as a function of plot type and site using a generalized linear mixed model (GLMM), including a random intercept for spatial block (each block consisting of one of each type of plot, all within a few meters of one another), with a log link function and a zero-inflated negative binomial error structure . To determine the importance of plot type overall, the script uses an analysis of deviance between models with and without plot type. To compare the effect of plot type on emergence, the script uses linear contrasts from the model that included plot type</entityDescription>
+      <physical>
+        <objectName>Field_emergence_r.R</objectName>
+        <size unit="bytes">9752</size>
+        <authentication method="MD5">4fda81f7a4d37de3880752e5abb9009c</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Field survival R script</entityName>
+      <entityDescription>A script to test whether the weekly survival rate of native seedlings varied with plot type (buffel grass, removal, or uninvaded) using a Cox proportional hazard mixed-effects model, including plot type, site, and week of germination as fixed effect, and spatial block as a random effect</entityDescription>
+      <physical>
+        <objectName>Field_survival_r.R</objectName>
+        <size unit="bytes">9368</size>
+        <authentication method="MD5">e6e58289ce74014453f54361ceb2acca</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

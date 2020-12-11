@@ -1,0 +1,21 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Sample	Identification number of each experimental unit	character				
+Soil	Provenance (state of origin) and taxonomy (“great group” in USDA classification) of each soil sample; further described in Supplementary Table 1 of Hall et al. (2020)	character				
+Treatment	"Litter and lignin treatment that was applied; i.e., litter and natural abundance (12C) or 13C-labeled lignin"	character				
+Rep	replicate number	character				
+Day_of_experiment	Day of the incubation when each gas sample was collected	numeric	number		NA	not available
+Sampling_interval_days	Elapsed time between each successive gas sample collection	numeric	number		NA	not available
+Delta13C_CO2_permille	Carbon isotope ratio of CO2	numeric	perMilleVsVPDB		NA	not available
+CO2C_ug_g_d	"Mean flux of CO2-C produced on a daily basis between the previous and present gas sample collection, expressed on a dry soil mass basis"	numeric	microgramsPerGramPerDay		NA	not available
+Percent_CO2_from_litter	Percent of observed CO2 derived from added litter (mixing model calculation)	numeric	dimensionless		NA	not available
+Percent_CO2_from_lignin	Percent of observed CO2 derived from added lignin (mixing model calculation)	numeric	dimensionless		NA	not available
+Percent_CO2_from_soil	Percent of observed CO2 derived from soil organic carbon (mixing model calculation)	numeric	dimensionless		NA	not available
+Lignin_CO2C_mg_d	"Mean flux of CO2 derived from added lignin, produced on a daily basis between the previous and present gas sample"	numeric	milligramsPerDay		NA	not available
+Litter_CO2C_mg_d	"Mean flux of CO2 derived from added litter, produced on a daily basis between the previous and present gas sample"	numeric	milligramsPerDay		NA	not available
+Soil_CO2C_mg_d	"Mean flux of CO2 derived from soil organic matter, produced on a daily basis between the previous and present gas sample"	numeric	milligramsPerDay		NA	not available
+CumCO2C_litter_mg	Cumulative flux of CO2 derived from added litter	numeric	milligram		NA	not available
+CumCO2C_lignin_mg	Cumulative flux of CO2 derived from added lignin	numeric	milligram		NA	not available
+CumCO2C_soil_mg	Cumulative flux of CO2 derived from soil organic matter	numeric	milligram		NA	not available
+LitterC_percent_remaining	Mass of added litter carbon remaining in percent	numeric	dimensionless		NA	not available
+LigninC_percent_remaining	Mass of added lignin carbon remaining in percent	numeric	dimensionless		NA	not available
+SoilC_percent_remaining	Mass of soil carbon remaining in percent	numeric	dimensionless		NA	not available

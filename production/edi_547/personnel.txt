@@ -1,0 +1,13 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Nicole	L.	Kinlock	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	nicole.kinlock@stonybrook.edu	0000-0002-2917-5133	creator			
+Lisa		Prowant	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	lisa.prowant@stonybrook.edu		creator			
+Emily	M.	Herstoff	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	emily.herstoff@stonybrook.edu	0000-0001-5355-008X	creator			
+Catherine	M.	Foley	"1) Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	cmrfoley@gmail.com	/0000-0003-3664-074X	creator			
+Morodoluwa		Akin-Fajiye	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	morodoluwa.akin-fajiye@stonybrook.edu	0000-0001-8078-3970	creator			
+Nicole		Bender	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"			creator			
+Mihir		Umarani	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	mihir.umarani@stonybrook.edu	0000-0001-5509-8170	creator			
+Hae Yeong		Ryu	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"			creator			
+Bilgecan		?en	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	bilgecan.sen@stonybrook.edu	0000-0002-7393-1805	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+Jessica		Gurevitch			0000-0003-0157-4332	PI	Collaborative research: ABI Development: Making Advanced Statistical Tools Accessible for Quantitative Research Synthesis and Discovery in Ecology and Evolutionary Biology	"Division of Biological Infrastructure, United States National Science Foundation (NSF)"	1262402

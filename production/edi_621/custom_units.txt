@@ -1,0 +1,7 @@
+id	unitType	parentSI	multiplierToSI	description
+nominalMonth				
+equivalentsPerHectare				
+microMolesPerHectare				
+microEquivalentsPerLiter				
+platinumCobaltUnits				
+microSiemensPerCentimeter				

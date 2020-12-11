@@ -1,0 +1,9 @@
+keyword	keywordThesaurus
+lodgepole pine	
+subalpine fir	
+Engelmann spruce	
+Greater Yellowstone Ecosystem	
+fire frequency	
+seed dispersal	
+forest resilience	
+forest structure	

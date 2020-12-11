@@ -1,0 +1,11 @@
+All buoy sensor datasets were carefully examined using a standardized quality control/quality analysis process similar to that described in Bruesewitz et al. (2015). The DO sensor, as expected, was subject to drift throughout each year. Manually-collected monthly DO profiles with a HQ40 Hach multi-parameter meter (Hach Inc., Loveland, CO, USA) at the buoy site during 2007–2013 confirmed that the lake was at or near saturation at 1 m depth throughout the May–October monitoring period (LSPA, unpubl. data). To correct for sensor drift, we compared the measured buoy sensor DO with the saturated DO concentration calculated from the water temperature at 1 m depth and the mean atmospheric pressure for each day, following Weiss (1970). We subtracted those two DO concentrations to calculate a correction factor for all raw buoy sensor DO values for each day. The corrected DO values consistently compared well to the manually collected DO concentrations (n = 18 across all years, r = 0.69, p = 0.002).
+
+Buoy is outfitted with one wind speed and direction sensor (Vaisala WXT52 anemometer), air temperature and relative humidity sensor (Vaisala HMP50), photosynthetically active radiation sensor (PAR LI-COR: LI-CORLI190SB) and a compass (Honeywell HMR 3000) approximately 1.7 meters above the water. Temperature sensors were TempLine thermistors from Apprise Technology (2007-2010, n = 16, approximate depth of sensors were 0-3 meters at half meter intervals, 4-11 meters at one meter intervals, and 13 meters) and were replaced by Nexsens T500 T-Node sensors (n = 10, approximate depth 1-10 meters at one meter intervals). A Zebra Tech d-opto with SDI 12 datalogger interface recorded dissolved oxygen saturation, concentration and water temperature at approximately 1 meter depth. 
+
+References:
+
+Bruesewitz DA, Carey CC, Richardson DC, Weathers KC (2015) Under-ice thermal stratification dynamics of a large, deep lake revealed by high-frequency data. Limnology and Oceanography, 60:347–359
+
+Richardson, D. C., Carey, C. C., Bruesewitz, D. A., and Weathers, K. C. (2017). Intra-and inter-annual variability in metabolism in an oligotrophic lake. Aquatic Sciences, 79(2):319-333.
+
+Weiss RF (1970) Solubility of nitrogen, oxygen and argon in water and seawater. Deep-Sea Research, 17:721–735

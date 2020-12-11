@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+AuthorYear	Last name of of first author and year of publication	character				
+Year	Year of publication	numeric	nominalYear			
+Grain_m2	"Grain size, that is, the smallest area for which data is available/sampling unit or plot size"	numeric	squareMeter			
+Extent	"Extent, that is, total spatial area included in the study (see table in methods for levels)"	categorical				
+Habitat_type	The type of habitat in which the study was carried out (see table in methods for levels).	categorical				
+n	Sample size of each group in the study	numeric	number			
+NERR_sign	Whether the correlation between native species richness and exotic species richness is positive or negative	character				
+Primary_data_used_for_meta_analysis	Whether the data was used for the meta-analysis	categorical				
+r	the value of the Pearson’s product moment correlation r	numeric	dimensionless		NA	not available
+z	The value of the Fischer’s z transformation of the Pearson’s product moment correlation coefficient of the respective case.	numeric	dimensionless		NA	not available
+var_z	The variance of Fischer’s z	numeric	dimensionless		NA	not available

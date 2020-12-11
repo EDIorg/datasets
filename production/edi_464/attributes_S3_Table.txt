@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Institution1	The first institution	character				
+Institution2	The second institution	character				
+paper_no	Total papers published in this collaboration	numeric	number		NA	not available
+total_collaboration_years	Total years of publications	numeric	number		NA	not available
+year_in_detail	Detailed years of institutional collaboration	character				
+author_n	"Contributions of authors in this long-term collaboration.For example, ""Collins S.(12/25)"" means Collins S. has published 25 papers in this collaboration and these papers were published in 12 distinct years."	character				
+keyword_n	The keywords with frequency in these collaborated papers.	character				
+site_n	LTER sites that support these collaborated papers with frequency	character				

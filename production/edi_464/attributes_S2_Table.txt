@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+YEAR	ISSN of the selected journals	numeric	nominalYear		NA	not available
+JOURNAL	Specific journal names	character				
+TITLE	Title of the article	character				
+DOI	DOI of the article	character				

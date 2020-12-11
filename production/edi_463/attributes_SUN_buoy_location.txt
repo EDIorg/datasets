@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Date	Start date of buoy location	Date		YYYY-MM-DD		
+DateTime	"Start datetime stamp of buoy location, eastern standard time, no daylight savings observed"	Date		YYYY-MM-DD hh:mm		
+BuoyLocation	Location of buoy	character				

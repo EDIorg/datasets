@@ -1,0 +1,17 @@
+﻿Study site. 
+
+Data were collected at The Rocky Mountain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°57.5′N, 106°59.3′W, 2900 m above sea level). The area surrounding the RMBL is a subalpine ecosystem consisting of a mosaic of wet and dry meadows, and aspen and spruce forest.  This ecosystem is snow-dominated for much of the year; thus, the growing season is relatively brief, lasting only 3–5 months. Season-long plant-pollinator interaction observations took place at two nearby dry meadow sites that were separated by approximately 100m of aspen and spruce forest.
+
+Plant-pollinator interaction sampling. 
+
+Plant-pollinator interactions were observed consistently at weekly intervals across the majority of the growing season from May through September in 2013, 2014, and 2015. In each year, observations began one week after the date of snowmelt, coinciding with the first emergence of flowers and pollinators. In 2013 sampling spanned 77 days across 11 weeks. In 2014 sampling spanned 105 days across 15 weeks. In 2015 sampling occurred spanned 112 days across 16 weeks, although weather conditions during week 2 were poor (i.e., windy, some snow, and relatively cold). All observations took place in two adjacent dry meadows (c. 2800 and 3015 m2 in size) which were separated by c. 100 m of forest. Within each week, we conducted 32 15-min observation periods for a total of 8 h per week. Each complete weekly interaction census (i.e. all 32 observation periods) took place over 2–3 consecutive days and was separated from the start of the next weekly census by 3–5 days. We randomly selected one of four quadrants within each meadow during each 15-min observation period, we then sampled the remaining quadrants in random order, and then repeated this in the other meadow; we alternated the starting meadow on successive days. During each 15-min observation period, we walked around the focal quadrant and recorded all observed plant–pollinator interactions. We defined an interaction as taking place when a floral visitor of any species unambiguously contacted the reproductive structures of flowers; we refer to floral visitors as pollinators while recognizing that their quality as mutualists may vary widely. All observations took place between 0900 and 1700 h during weather conditions favorable for pollinator activity (ambient temperature > 8°C, not snowing or raining).
+
+All pollinators were identified to species or morphospecies (or the lowest taxonomic level possible). If a pollinator species could not be identified in the field, a specimen was captured and later identified using the RMBL Entomology Reference Collection. Otherwise, pollinators were not collected during observations to avoid artefacts of destructive sampling. 
+
+Flowering phenology observations. 
+
+Within each meadow quadrant we established a permanent 25 x 1 m transect to monitor floral abundance and flowering phenology throughout each season. Once per week, all open flowers or flowering heads (for species with small clustered flowers, such as Asteraceae) were counted for all species present within each transect.
+
+These methods are also described in: 
+
+CaraDonna, P.J., Petry, W.K., Brennan, R.M., Cunningham, J.L., Bronstein, J.L., Waser, N.M. and Sanders, N.J. (2017). Interaction rewiring and the rapid turnover of plant–pollinator networks. Ecology Letters, 20: 385-394. doi:10.1111/ele.12740

@@ -1,0 +1,17 @@
+A rectangular field at the north slope of the Black Rock Forest was selected as the study site. The Black Rock Forest is an oak-dominated deciduous forest located in the Hudson Highlands region in the Orange County of New York State (Schuster et al. 2008). The study site is 400 meters above sea level, and has not experienced major human disturbance since the late 1800s (Tryon 1943; Ellison et al. 2007).
+
+The site was divided into 12 plots, each about 75 meters by 75 meters. Each plot is indexed with number (i.e., 1, 2, 3, 4 from northwest to southeast) and letter (i.e., A, B, C from northeast to southwest) (see Fig. 7 in Cohen et al. 2012). Each plot was subdivided into 9 subplots, each about 25 meters by 25 meters. A subplot is named after its relative location in a plot. For example, the subplot located at the center of a plot is denoted "C".
+
+All individual non-oak trees with diameter at breast height of at least 2.4 centimeters were measured using a DBH tape (e.g. Lufkin executive thinline) during July and August of 2007 within each center subplot of each plot. The diameter measurement was recorded to the nearest tenth place. Dead trees were denoted as "na". The plot where a non-oak was measured was labeled using the plot name defined above. Ten non-oak trees had diameter at breast height less than 2.4 centimeters and six non-oak trees were dead during the measurement period.
+
+All individual oak trees with diameter at breast height of at least 2.4 centimeters were measured using a DBH tape (e.g. Lufkin executive thinline) during July and August of 2007 within each plot. The diameter measurement was recorded to the nearest tenth place. Dead trees were denoted as "na". The location of each measured oak in a plot and a subplot was labeled using the plot and subplot names defined above. One oak in plot B1 is located on the boundary of the subplot C (center) and subplot S (south), and its subplot location is denoted as "C OR S?". All other oaks have specific plot and subplot identification.
+
+References
+
+Cohen, J. E., Xu, M., and Schuster, W. S. (2012). Allometric scaling of population variance with mean body size is predicted from Taylor's law and density-mass allometry. Proceedings of the National Academy of Sciences, 109(39), 15829-15834.
+
+Ellison, A. M., Record, S., Arguello, A., and Gotelli, N. J. (2007). Rapid inventory of the ant assemblage in a temperate hardwood forest: species composition and assessment of sampling methods. Environmental entomology, 36(4), 766-775.
+
+Schuster, W. S., Griffin, K. L., Roth, H., Turnbull, M. H., Whitehead, D., and Tissue, D. T. (2008). Changes in composition, structure and aboveground biomass over seventy-six years (1930–2006) in the Black Rock Forest, Hudson Highlands, southeastern New York State. Tree physiology, 28(4), 537-549.
+
+Tryon, H. H. (1943). Practical forestry in the Hudson Highlands. Black Rock Forest Bull. 12: 1-50.

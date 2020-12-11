@@ -1,0 +1,1 @@
+﻿Soil and stream samples were collected during winter and spring of 2015 and 2016, and analyzed for ammonium and/or nitrate. Detailed methods can be found in the corresponding manuscript (doi: 0.1007/s10661-020-08733-0). The processing script and workflow are hosted on GitHub (https://github.com/kaizadp/bbwm_vernal_transition).

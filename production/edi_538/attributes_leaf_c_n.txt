@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Site abbreviation	character				
+Inv_index	Invasion index of the given site	numeric	dimensionless			
+Species	Name of the species whose leaves were used (more than 1 species was used in each site)	character				
+percent_C	% carbon content of the leaves	numeric	dimensionless			
+percent_H	% hydrogen content of the leaves	numeric	dimensionless			
+percent_N	% nitrogen content of the leaves	numeric	dimensionless			
+C_N_ratio	Carbon to nitrogen (C:N) ratio of the given leaves	numeric	dimensionless			
+Standardized	Standardized C:N ratio of the leaves	numeric	dimensionless			

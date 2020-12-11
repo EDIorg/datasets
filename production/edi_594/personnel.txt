@@ -1,0 +1,14 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jeremiah	A	Henning	Department of Biology – University of South Alabama	henning@southalabma.edu	0000-0002-2214-4895	creator			
+Eric	W	Seabloom	"Department of Ecology, Evolution, and behavior, University of Minnesota"	seabloom@umn.edu		creator			
+Elizabeth	T	Borer	"Department of Ecology, Evolution, and behavior, University of Minnesota"	borer@umn.edu		creator			
+Jeremiah	A	Henning	Department of Biology – University of South Alabama	henning@southalabma.edu	0000-0002-2214-4895	contact			
+Eric	W	Seabloom	"Department of Ecology, Evolution, and behavior, University of Minnesota"	seabloom@umn.edu		contact			
+Linda		Kinkel	"Department of Plant Pathology, University of Minnesota"	kinkel@umn.edu		Co-PI			
+Georgiana		May	"Ecology, Evolution, and behavior, University of Minnesota"	may@umn.edu		Co-PI			
+Candice	Y	Lumibao	"Ecology & Evolutionary Biology, University of Tennessee"	clumibao@alumni.nd.edu		Data collection			
+G	David	Tilman				PI	"Biodiversity, Environmental Change and Ecosystem Functioning at the Prairie-Forest Border"	NSF	NSF: DEB-0620652
+Eric	W	Seabloom	"Department of Ecology, Evolution, and behavior, University of Minnesota"			PI	"LTER: Biodiversity, Multiple Drivers of Environmental Change and Ecosystem Functioning at the Prairie Forest Border"	NSF	NSF: DEB-1234162
+Elizabeth	T	Borer	"Department of Ecology, Evolution, and behavior, University of Minnesota"			PI	"RCN: Coordination of the Nutrient Network (NutNet), global manipulations of nutrients and consumers"	NSF	NSF: DEB-1042132
+Eric	W	Seabloom	"Department of Ecology, Evolution, and behavior, University of Minnesota"			PI	Testing community ecology theory as a framework for predicting co-infection: host resource ratios and viral pathogens	NSF	NSF: DEB-1556649
+Elizabeth	T	Borer	"Department of Ecology, Evolution, and behavior, University of Minnesota"			PI	"Collaborative Research: Within-host Microbial Communities: Experimentally Scaling Interaction dynamics Across Sites, Regions, and Continents"	NSF	NSF: DEB-1241895

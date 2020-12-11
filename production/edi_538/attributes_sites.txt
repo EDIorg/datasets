@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site_Name	Name of study site	character				
+Site_abbreviation	Abbreviation used for the corresponding study site in subsequent datafiles 	character				
+Lat	Latitude of the site in degree minute second	character				
+Long	Longitude of the site in degree minute second	character				
+Invasion	Extent of invasion on non-native plant species (determined by visual inspection)	categorical				
+Date_Surveyed	Date on which the site was surveyed 	Date		YYYY-MM-DD		

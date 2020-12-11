@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Sample	Sample name	character				
+Sample_no	Sample/replicate number	character				
+Forest	Forest type from which samples were collected	categorical				
+Fenton	Fenton oxidation treatment	categorical				
+Goethite	Goethite treatment	categorical				
+DOC_uncorrected_mg_L	"Raw, uncorrected, DOC (NPOC) data"	numeric	milligramsPerLiter		NA	not available
+Dilution	Dilution factor	numeric	milligramsPerLiter		NA	not available
+Extract_conc_mg_L	"Dilution-corrected DOC results, calculated as DOC_uncorrected_mg_L * Dilution"	numeric	milligramsPerLiter		NA	not available
+DOC_blank_corrected_mg_L	"Blank-corrected DOC results, calculated as Extract_conc_mg_L - blank"	numeric	milligramsPerLiter		NA	not available

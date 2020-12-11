@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Kaizad	F.	Patel	Pacific Northwest National Laboratory	kaizad.patel@pnnl.gov	0000-0001-6437-7809	creator			
+Ivan	J.	Fernandez	University of Maine	ivanjf@maine.edu	0000-0002-7220-2205	creator			
+Sarah	J.	Nelson	University of Maine; Appalachian Mountain Club	snelson@outdoors.org	0000-0003-3000-7521	creator			
+Jacob		Malcomb	University of Virginia	jm4bg@virginia.edu	0000-0001-7500-5170	creator			
+Stephen	A.	Norton	University of Maine	norton@maine.edu		creator			
+Kaizad	F.	Patel	Pacific Northwest National Laboratory	kaizad.patel@pnnl.gov	0000-0001-6437-7809	contact			
+Ivan	J.	Fernandez	University of Maine	ivanjf@maine.edu	0000-0002-7220-2205	contact			

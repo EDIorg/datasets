@@ -1,0 +1,31 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Timothy	G.	Howard	"1) New York Natural Heritage Program, NY, USA"	tghoward@esf.edu		creator			
+Isabel	W.	Ashton	"National Park Services-Inventory and Monitoring division, Rapid City, SD, USA"			creator			
+Elizabeth	A.	Leger	"Department of Biology, University of Nevada, Reno, NV, USA"	lelizabeth@unr.edu		creator			
+Katherine	M.	Howe	"Midwest Invasive Plant Network, The Nature Conservancy, Indianapolis, IN, USA"			creator			
+Eliza		Woo	"City College of San Francisco, San Francisco, CA, USA "			creator			
+Manuel		Lerdau	"Department of Biology, University of Virginia, Charlottesville, VA"	mlerdau@virginia.edu	0000-0003-1864-0834	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+Laura 		Hyatt	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Kerry 		Brown	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Andrea 		Green	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Jonathan		Hickman	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Susan		Natalie	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Leslie		Gonzalez	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Annie		Haugg	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Tag		Engstrom	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Dustin		Brisson	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+J.	Matthew	Hoch	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Windsor		Aguirre	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Dan		Stoebel	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Bengt		Allen	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Catherine		McGlynn	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Christopher		Noto	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Erin		Cooper	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Paul		Bourdeau	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Wei		Fang	"Stony Brook University, Stony Brook, NY, USA"			field assistant			
+Mike		Axelrod	"Stony Brook University, Stony Brook, NY, USA"			greenhouse assistant			
+Jessica		Gurevitch			0000-0003-0157-4332	PI	An experimental study of biological invasions in forests of the eastern United States	United States Environmental Protection Agency (EPA)	R828900010
+Manuel		Lerdau			0000-0003-1864-0834	PI	An experimental study of biological invasions in forests of the eastern United States	United States Environmental Protection Agency (EPA)	R828900010
+Jessica		Gurevitch			0000-0003-0157-4332	PI	Factors promoting invasion of exotic plant species in forests of the Upton Preserve	United States Fish and Wildlife Service	

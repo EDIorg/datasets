@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.642.2" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Invasive buffel grass (Cenchrus ciliaris) increases water stress and reduces growth of native foothills palo verde (Parkinsonia microphylla) seedlings in pot experiments</title>
+    <creator>
+      <individualName>
+        <givenName>Pacifica</givenName>
+        <surName>Sommers</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and University of Colorado Boulder (Boulder, CO)</organizationName>
+      <electronicMailAddress>Pacifica.somers@colorado.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ashley</givenName>
+        <surName>Davis</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and Arizona State University (Tempe, AZ)</organizationName>
+      <electronicMailAddress>ardavi23@asu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Peter</givenName>
+        <surName>Chesson</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and National Chung Hsing University (Taichung, Taiwan)</organizationName>
+      <electronicMailAddress>pchesson@email.arizona.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Timothy</givenName>
+        <surName>Mettler</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>tmettlergcc@gmail.com</electronicMailAddress>
+      <role>Watered Pots, Data Entry</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Racheal</givenName>
+        <surName>Gutridge</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>rachealg@email.arizona.edu</electronicMailAddress>
+      <role>Watered Pots, Data Entry</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Johanna</givenName>
+        <surName>Ouanzin</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>johannaouanzin@email.arizona.edu</electronicMailAddress>
+      <role>Watered Pots, Data Entry</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Abreeza</givenName>
+        <surName>Zegeer</surName>
+      </individualName>
+      <organizationName>University of Arizona</organizationName>
+      <electronicMailAddress>azegeer@cals.arizona.edu</electronicMailAddress>
+      <role>Assisted With Soil Collection And Set Up</role>
+    </associatedParty>
+    <pubDate>2020-12-02</pubDate>
+    <abstract>
+      <para>Although buffel grass (Cenchrus ciliaris) invasions on several continents have significant ecological impacts, little information is available on its effect on seedling emergence and establishment of native vegetation. In highly impacted areas of the Sonoran Desert of North America, perennial plants are particularly vulnerable during their seedling stage. We studied the impact of buffel grass on the emergence, survival, and water stress in the seedlings of a locally dominant native tree, the foothills palo verde (Parkinsonia microphylla), using two pot experiments. In the first experiment, we compared the germination, growth, and survival of concentric rings of palo verde seedlings around mature individuals of buffel grass, a native shrub of a similar diameter and height to buffel grass, or in a pot with bare soil. In the second experiment, we compared the competitive effects of buffel grass seedlings on palo verde seedlings with the effects of conspecific seedlings, again using germination, growth, and survival as metrics. We followed up both experiments by quantifying the ratio of stable carbon isotopes in the tissues of the palo verde seedlings, which can be an indicator of water stress.  We found evidence of relatively greater water stress in palo verde seedlings grown with buffel grass seedlings in pots than those grown with no competitor, and reduced survival of palo verde seedlings when grown with mature buffel grass. Our results highlight the need for more manipulative studies of density to improve mechanistic understanding of population dynamics, and to forecast how populations and communities will respond in the long term to perturbations such as invasion.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>invasive species</keyword>
+      <keyword>grasses</keyword>
+      <keyword>seedlings</keyword>
+      <keyword>competition</keyword>
+      <keyword>biomass</keyword>
+      <keyword>isotopes</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Tucson Mountains</keyword>
+      <keyword>University of Arizona</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Soil was collected from a wash near the Tucson Mountains</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-111.017977</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.017977</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.194158</northBoundingCoordinate>
+          <southBoundingCoordinate>32.194158</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>University of Arizona greenhouse</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-110.955037</westBoundingCoordinate>
+          <eastBoundingCoordinate>-110.955037</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.225235</northBoundingCoordinate>
+          <southBoundingCoordinate>32.225235</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2013-08-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-07-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Fabales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Fabaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Parkinsonia</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Parkinsonia microphylla</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Cenchrus</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Cenchrus ciliaris</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Asterales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Asteraceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Ambrosia</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Ambrosia deltoidea</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Pacifica</givenName>
+        <surName>Sommers</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and University of Colorado Boulder (Boulder, CO)</organizationName>
+      <electronicMailAddress>Pacifica.somers@colorado.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Peter</givenName>
+        <surName>Chesson</surName>
+      </individualName>
+      <organizationName>University of Arizona (Tucson, AZ) and National Chung Hsing University (Taichung, Taiwan)</organizationName>
+      <electronicMailAddress>pchesson@email.arizona.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>To determine how mature buffel grass affects water stress in palo verde seedlings, we planted 24 scarified palo verde seeds in each of 18 large pots (approx. 30 x 60 cm, and 15 cm deep) containing soil from the Tucson Mountains outside the greenhouse at the University of Arizona in August, 2013. Six of the pots contained mature tussocks of invasive grass transplanted from the Tucson Mountains. Six other pots received mature individuals of the native shrub triangle-leaf bursage (Ambrosia deltoidea), which is a common ground cover of similar height and diameter to the invasive grass. The final six tubs had no adult plant. Tubs were arranged randomly within spatial blocks of equal numbers of adult plant types. Supplemental water (4 s daily from a hose, 5 d/week) was provided throughout the five-week experiment to provide conditions suitable for seedling establishment. Temperatures during the experiment ranged from 19degree to 42degreeC, with 10-94% relative humidity. We harvested the seedlings and then dried them for 3 d at 60degreeC before weighing them and grinding them for stable isotope analysis.  </para>
+          <para>Whole palo verde seedlings were homogenized with a ball mill so their tissue could be uniformly sampled. The University of Arizona's Environmental Isotope Laboratory measured δ13C and δ15N of the seedlings on a continuous-flow gas-ratio mass spectrometer (Finnigan Delta PlusXL) coupled to an elemental analyzer (Costech). Samples were combusted in the elemental analyzer.  Standardization is based on acetanilide for elemental concentration, NBS-22 and USGS-24 for δ13C. Precision is better than ± 0.10 for delta13C based on repeated internal standards. </para>
+          <para>We then conducted a second greenhouse pot experiment to determine whether seedlings of buffel grass induce the same mortality and water stress in palo verde seedlings as the mature plants did. In April, 2015, we germinated 32 scarified palo verde seeds each in a 4-in pot with 2-8 week-old buffel grass seedlings. In addition, we germinated 32 seeds each with a 2-8 week old conspecific as a positive control, and an additional 32 seeds with no competitor in the pot as negative controls, for a total of 96 focal seedlings. Each pot received 50 ml tap water three days a week. A spatially blocked design ensured treatment levels were all present in all areas of the greenhouse work tables. Temperatures inside the greenhouse ranged from 23-44oC, with 16-60% relative humidity. We harvested seedlings after 30 days, placed them in the drying oven at 60oC for at least two days before weighing them. We also sampled the soil in 16-17 pots of each treatment level (total of 50) to determine whether pH differed between seedling types. To measure pH in soil, 5 g soil was mixed with 10 ml de-ionized water, and shaken for 15 minutes. After the soil had settled for 30 minutes, a VWR SympHony SB20 was used to measure the pH, and rinsed with de-ionized water between samples.&#13;
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Extended multitrophic diversity maintenance theory</title>
+      <personnel>
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Chesson</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation Division of Environmental Biology 1353715</funding>
+      <relatedProject>
+        <title>The role of herbivory and competition in the dominance of a non-native grass</title>
+        <personnel>
+          <individualName>
+            <givenName>Pacifica</givenName>
+            <surName>Sommers</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Western National Park Association 13-07</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>First pot experiment mass</entityName>
+      <entityDescription>First pot experiment mass</entityDescription>
+      <physical>
+        <objectName>First_pot_experiment_mass.csv</objectName>
+        <size unit="bytes">9932</size>
+        <authentication method="MD5">0f13aaa9ffd213771a3d42da5ce7c207</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Plant</attributeName>
+          <attributeDefinition>plant ID within pot</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>plant ID within pot</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tub</attributeName>
+          <attributeDefinition>Pot seedling was grown in (each line is a seedling)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Pot seedling was grown in (each line is a seedling)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Block</attributeName>
+          <attributeDefinition>Spatial block, in which one of each treatment level (mature plant presence) was placed together to eliminate artifacts from spatial heterogeneity</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Spatial block, in which one of each treatment level (mature plant presence) was placed together to eliminate artifacts from spatial heterogeneity</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Radius</attributeName>
+          <attributeDefinition>Which concentric ring around buffel grass adult seedling was in. Value of 1-4 for four concentric rings of seedlings in first experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Which concentric ring around buffel grass adult seedling was in. Value of 1-4 for four concentric rings of seedlings in first experiment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Position</attributeName>
+          <attributeDefinition>Cardinal direction of seedling from buffel grass within a pot</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>a</code>
+                    <definition>east</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>b</code>
+                    <definition>southeast</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>c</code>
+                    <definition>southwest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>d</code>
+                    <definition>west</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>e</code>
+                    <definition>northwest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>northeast</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Vigor</attributeName>
+          <attributeDefinition>Subjective score of seedling’s perceived vigor at harvesting on day 38</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>dead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>withered but still apparently living</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>some leaflets turning colors or wilting, but otherwise healthy</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>green and strong</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Height</attributeName>
+          <attributeDefinition>Height from soil surface to highest point</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.4</minimum>
+                  <maximum exclusive="false">20.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeDefinition>Length of longest root upon harvesting</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.2</minimum>
+                  <maximum exclusive="false">28.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DryMass</attributeName>
+          <attributeDefinition>Biomass after seedling was dried in drying oven</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.02</minimum>
+                  <maximum exclusive="false">1.283</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>371</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>First pot experiment survival</entityName>
+      <entityDescription>First pot experiment survival</entityDescription>
+      <physical>
+        <objectName>First_pot_experiment_survival.csv</objectName>
+        <size unit="bytes">6722</size>
+        <authentication method="MD5">33ffcdab5c1388ad7c544425ceff9d0f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Tub</attributeName>
+          <attributeDefinition>Pot seedling was grown in (each line is a seedling)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Pot seedling was grown in (each line is a seedling)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Block</attributeName>
+          <attributeDefinition>Spatial block, in which one of each treatment level (mature plant presence) was placed together to eliminate artifacts from spatial heterogeneity</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Spatial block, in which one of each treatment level (mature plant presence) was placed together to eliminate artifacts from spatial heterogeneity</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Type</attributeName>
+          <attributeDefinition>Treatment level of mature plant presence</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Buffel</code>
+                    <definition>mature buffel grass individual</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Bursage</code>
+                    <definition>mature triangle-leaf bursage indiviual</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Empty</code>
+                    <definition>no mature plant</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Germ</attributeName>
+          <attributeDefinition>Whether each scarified seed planted germinated</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>seedling emerged, indicating germination</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>no seedling emerged</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Day38</attributeName>
+          <attributeDefinition>Whether each seedling was still living after 38 days</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>seedling alive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>seedling had died</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>432</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Second pot experiment</entityName>
+      <entityDescription>Second pot experiment</entityDescription>
+      <physical>
+        <objectName>Second_pot_experiment.csv</objectName>
+        <size unit="bytes">15272</size>
+        <authentication method="MD5">1c5e0d948316418c3cc2fcf2c37a73aa</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Germinated</attributeName>
+          <attributeDefinition>Whether or not the scarified palo verde seed planted in a given pot germinated</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>seed germinated</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>seed did not germinate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Survived_to_experiment_end</attributeName>
+          <attributeDefinition>Whether or not the focal palo verde seedling in a given pot survived to the end of the experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>seedling survived to end of experiment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>seedling died before end of experiment</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Block_in_greenhouse</attributeName>
+          <attributeDefinition>Pots were arranged in spatial blocks, with pots of each treatment level spatially clustered</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Pots were arranged in spatial blocks, with pots of each treatment level spatially clustered</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Side_of_table</attributeName>
+          <attributeDefinition>Whether the block of pots was on the south or north side of the table in the greenhouse, which received slightly different amounts of light</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Row_on_table</attributeName>
+          <attributeDefinition>Row within each spatial block</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>furthest east</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>middle</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Z</code>
+                    <definition>furthest west</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Role_in_experiment</attributeName>
+          <attributeDefinition>Variable group seedlings by whether they were involved in a buffel grass impact on palo verde, a conspecific impact on palo verde, or a control with no seedling impacting the palo verde</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>palo verde impacted by conspecific</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>palo verde impacted by buffel grass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>palo verde impacted by no seedling (just bare soil)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Role</attributeName>
+          <attributeDefinition>The experiment was initially set up to test whether leachate from conspecifics or from buffel grass limited the growth of palo verde seedlings due to allelopathy</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>donor seedling donating leachate to a recipient pot</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>recipient which was watered with leachate from donor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>competition experiment in which water was added to the pot straight from the tap, and not collected afterwards</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seedling_species</attributeName>
+          <attributeDefinition>Species of seedling</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PV</code>
+                    <definition>palo verde (Parkinsonia microphylla)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BG</code>
+                    <definition>buffel grass (Cenchrus ciliaris)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CACTUS</code>
+                    <definition>CACTUS</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VOLUNTEER</code>
+                    <definition>VOLUNTEER</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Focal</attributeName>
+          <attributeDefinition>Whether this seedling was the focal individual for measuring impact of the other within the experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>this seedling was the focal response seedling</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NF</code>
+                    <definition>this seedling was the non-focal seedling creating the impact on the other</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mg_dry_wt_at_experiment_end</attributeName>
+          <attributeDefinition>Milligrams of biomass measured for the total seedling after drying in a drying oven</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3185</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Species_of_impact</attributeName>
+          <attributeDefinition>Whether the non-focal seedling either donating drained leachate to or in the pot competing with the focal seedling was palo verde or buffel grass or just bare soil (no seedling)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Pennisetum</code>
+                    <definition>buffel grass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Parkinsonia</code>
+                    <definition>palo verde (conspecific)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Control</code>
+                    <definition>no seedling just bare soil</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Type_of_impact</attributeName>
+          <attributeDefinition>The experiment was initially set up to test whether leachate from conspecifics or from buffel grass limited the growth of palo verde seedlings due to allelopathy</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Leachate</code>
+                    <definition>water that had drained through a donor pot was added if recipient or water was drained through that pot if a donor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Competition</code>
+                    <definition>water was added to that pot directly</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>323</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Stable isotopes</entityName>
+      <entityDescription>Stable isotopes</entityDescription>
+      <physical>
+        <objectName>Stable_isotopes.csv</objectName>
+        <size unit="bytes">5248</size>
+        <authentication method="MD5">bc7dbfd070acf623ce6a3a780897dd99</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Study</attributeName>
+          <attributeDefinition>Whether the seedling came from the first pot experiment, conducted in 2013, or the second pot experiment, conducted in 2015</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>2013</code>
+                    <definition>seedling from first pot experiment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2015</code>
+                    <definition>seedling from second pot experiment</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spatial_block_of_pot</attributeName>
+          <attributeDefinition>In both studies, pots were arranged in spatial blocks, with pots of each treatment level spatially clustered</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>In both studies, pots were arranged in spatial blocks, with pots of each treatment level spatially clustered</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Replicate</attributeName>
+          <attributeDefinition>Pot in first (2013) experiment or spatial cluster in second (2015) experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Pot in first (2013) experiment or spatial cluster in second (2015) experiment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Position_within_pot_or_block</attributeName>
+          <attributeDefinition>In first (2013) experiment, indicates cardinal direction of seedling from buffel grass within a pot; in second (2015) experiment it designates whether the pot within the spatial block received a buffel grass or no competitor</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>a</code>
+                    <definition>east</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>b</code>
+                    <definition>southeast</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>c</code>
+                    <definition>southwest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>d</code>
+                    <definition>west</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>e</code>
+                    <definition>northwest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>northeast</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>buffel grass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>no buffel grass</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Radius_from_buffel_adult</attributeName>
+          <attributeDefinition>In first (2013) experiment, it refers to which concentric ring around buffel grass adult seedling was in; in second experiment seedlings were one per pot, so all values are 0 because it is not a factor. Value of 1-4 for four concentric rings of seedlings in first experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>In first (2013) experiment, it refers to which concentric ring around buffel grass adult seedling was in; in second experiment seedlings were one per pot, so all values are 0 because it is not a factor. Value of 1-4 for four concentric rings of seedlings in first experiment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Treatment_level</attributeName>
+          <attributeDefinition>Whether palo verde seedling had been grown in a pot with or without buffel grass</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Buffel</code>
+                    <definition>palo verde seedling was grown in a pot with buffel grass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Control</code>
+                    <definition>palo verde seedling was grown in a pot without buffel grass</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>delta_13_C</attributeName>
+          <attributeDefinition>Ratio of C13 to C12 within palo verde seedling tissue, normalized and compared with atmospheric values</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-28.7</minimum>
+                  <maximum exclusive="false">-20.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>delta_15_N</attributeName>
+          <attributeDefinition>Ratio of N15 to N14 within palo verde seedling tissue, normalized and compared with atmospheric values</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.5</minimum>
+                  <maximum exclusive="false">8.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>160</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>First pot experiment R script</entityName>
+      <entityDescription>A script to analyze the seedling emergence, survival, and biomass attained in the first pot experiment</entityDescription>
+      <physical>
+        <objectName>First_pot_experiment_r.R</objectName>
+        <size unit="bytes">5861</size>
+        <authentication method="MD5">1b2228ab8d60742ad3f3c5ae17e76869</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Second pot experiment R script</entityName>
+      <entityDescription>A script to analyze the seedling emergence, survival, and biomass attained in the second pot experiment</entityDescription>
+      <physical>
+        <objectName>Second_pot_experiment_r.R</objectName>
+        <size unit="bytes">3603</size>
+        <authentication method="MD5">8ce6fa9f09cdb43bfa8822fd64ee1c43</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Stable isotopes R script</entityName>
+      <entityDescription>A script to compare delta_C_13 values between palo verde seedlings grown with and without mature and seedling buffel grass</entityDescription>
+      <physical>
+        <objectName>Stable_isotopes_r.R</objectName>
+        <size unit="bytes">12124</size>
+        <authentication method="MD5">7f8b867c4f59e82ade7401ed2bcfecf1</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

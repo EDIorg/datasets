@@ -1,0 +1,21 @@
+attributeName	code	definition
+Site	BH	Brookhaven National Laboratory hardwood site
+Site	BP	Brookhaven National Laboratory pine barren site
+Site	EF	East Farm
+Site	PF	East Port
+Site	SA	Sarnoff Preserve
+Site	WP	Weld Preserve
+N_Treatment	N+	nitrogen added
+N_Treatment	Control	control no nitrogen added
+Herbivore_treatment	No Cage	no cage
+Herbivore_treatment	Cage	cage
+Species	ACPL	"Acer platanoides L.,Norway maple,Aceraceae,Invasive"
+Species	ACRU	"Acer rubrum L.,Red maple,Aceraceae,Native"
+Species	LOMA	"Lonicera maackii (Rupr.) Maxim.,Amur honeysuckle,Caprifoliaceae,Invasive"
+Species	DILO	"Diervilla lonicera Mill.,Northern bush Honeysuckle,Caprifoliaceae,Native"
+Species	CEOR	"Celastrus orbiculatus Thunb.,Asian ittersweet,Celastraceae,Invasive"
+Species	CESC	"Celastrus scandens L.,American bittersweet,Celastraceae,Native"
+Species	ELUM	"Elaeagnus umbellata Thunb.,Autumn olive,Elaeagnaceae,Invasive"
+Species	CEAM	"Ceanothus americanus L.,New Jersey tea,Rhamnaceae,Native"
+Species	AMBR	"Ampelopsis glandulosa var. brevipedunculata (Maxim.) Momiy., [formerly known as Ampelopsis brevipedunculata (Maxim.) Trautv.],Porcelainberry,Vitaceae,Invasive"
+Species	VIRI	"Vitis vulpina L., formerly known as Vitis riparia Michx.],Riverbank grape,Vitaceae,Native"

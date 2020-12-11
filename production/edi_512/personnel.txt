@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Paul	J	CaraDonna	Rocky Mountain Biological Laboratory	pcaradonna@gmail.com	https://orcid.org/0000-0003-3517-9090	creator			
+Paul	J	CaraDonna	Rocky Mountain Biological Laboratory	pcaradonna@gmail.com	https://orcid.org/0000-0003-3517-9090	contact			
+James	L	Cunningham	Rocky Mountain Biological Laboratory	james45@email.arizona.edu		Primary data collection			
+Nick	M	Waser	Rocky Mountain Biological Laboratory	nickolas.waser@ucr.edu		Assisted with data collection			
+Ross	M	Brennan	Rocky Mountain Biological Laboratory	ross.m.brennan@gmail.com		Primary data collection			
+Paul	J	CaraDonna				PI	NSF Graduate Research Fellowship	NSF	DGE 11-43953
+Jennifer		Reithel				PI	NSF REU	NSF	DBI 12-62713 

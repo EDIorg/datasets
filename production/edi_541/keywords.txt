@@ -1,0 +1,4 @@
+keyword	keywordThesaurus
+Plant biomass	
+competition	
+spatial variability	

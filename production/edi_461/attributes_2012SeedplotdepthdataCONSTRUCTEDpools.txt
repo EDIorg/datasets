@@ -1,0 +1,21 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Pool	Vernal Pool ID	character				
+Complex	"N=North, S=South of the retired runway running through the center of the site"	categorical				
+Distance	"1=Close t o runway, 2=intermediate distance, 3=far from runway"	categorical				
+Size	" s=small (5 m x 5 m), m=medium (5 m x 10 m), l=large (5 m x 20 m)"	categorical				
+Treatment1999	seed treatment applied in December 1999	categorical				
+Treatment2000	seed treatment applied in December 2000	categorical				
+wd11_Jan	water depth on date	numeric	centimeter		NA	not available
+wd20_Jan	water depth on date	numeric	centimeter		NA	not available
+wd27_Jan	water depth on date	numeric	centimeter		NA	not available
+wd3_Feb	water depth on date	numeric	centimeter		NA	not available
+wd10_Feb	water depth on date	numeric	centimeter		NA	not available
+wd17_Feb	water depth on date	numeric	centimeter		NA	not available
+wd16_Mar	water depth on date	numeric	centimeter		NA	not available
+wd23_Mar	water depth on date	numeric	centimeter		NA	not available
+wd30_Mar	water depth on date	numeric	centimeter		NA	not available
+wd6_Apr	water depth on date	numeric	centimeter		NA	not available
+wd15_Apr	water depth on date	numeric	centimeter		NA	not available
+wd22_Apr	water depth on date	numeric	centimeter		NA	not available
+Duration_weeks	number of weeks observed location in pools were inundated	numeric	number		NA	not available
+Duration_days	number of days pools were inundated (calculated by multiplying number of weeks by 7)	numeric	number		NA	not available

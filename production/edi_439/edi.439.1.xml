@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" packageId="edi.439.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Increased sediment load destabilize algal turf at two different fringing reefs; Evaluating responses across a stress gradient, Moorea, French Polynesia, 2016</title>
+    <creator>
+      <individualName>
+        <givenName>Paul</givenName>
+        <givenName>H</givenName>
+        <surName>Barber</surName>
+      </individualName>
+      <organizationName>UCLA</organizationName>
+      <electronicMailAddress>paulbarber@ucla.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Caitlin</givenName>
+        <givenName>R</givenName>
+        <surName>Fong</surName>
+      </individualName>
+      <organizationName>CSUN</organizationName>
+      <electronicMailAddress>Cat.r.fong@gmail.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Peggy</givenName>
+        <surName>Fong</surName>
+      </individualName>
+      <organizationName>UCLA</organizationName>
+      <electronicMailAddress>pfong@biology.ucla.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Camille</givenName>
+        <givenName>J</givenName>
+        <surName>Gaynus</surName>
+      </individualName>
+      <organizationName>University of Penn</organizationName>
+      <electronicMailAddress>cgaynus@sas.upenn.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Shalanda</givenName>
+        <surName>Grier</surName>
+      </individualName>
+      <organizationName>UCLA</organizationName>
+      <electronicMailAddress>sgrier@ucla.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2019-10-09</pubDate>
+    <abstract>
+      <para>
+  Seven reefs in Moorea French Polynesia were examined for sediment and
+  turf characteristics to establish a baseline for naturally occurring
+  proportions of sediment within the turf matrix. At each of the seven
+  sites turf filament heights and sediment depths within the turf matrix
+  were measured using a galvanized mesh measuring device calibrated by
+  1mm increments. All surveys were conducted between 2-3m in depth
+  between April-May of 2016. We then conducted a two-factor experiment
+  where sediment depth was manipulated at two sites surveyed with strong
+  differences in turf communities (Maharepa and Gump). Our experiment
+  ran for 30 days, with sediment treatments maintained every four days.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Turf algae</keyword>
+      <keyword>Sediment load</keyword>
+      <keyword>Moorea French Polynesia</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data ("Data User" herein) is required
+  to cite it appropriately in any publication that results from its use.
+  The Data User should realize that these data may be actively used by
+  others for ongoing research and that coordination may be necessary to
+  prevent duplicate publication. The Data User is urged to contact the
+  authors of these data if any questions about methodology or results
+  occur. Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Ta'ahiamanu</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8509444</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8509444</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.49108333</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.49108333</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Opunohu West</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8631944</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8631944</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.49730556</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.49730556</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Gump</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8253889</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8253889</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.49025</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.49025</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Cook's Bay East</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8181944</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8181944</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.48766667</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.48766667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Maharepa</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8154722</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8154722</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.48291667</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.48291667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Hilton</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8428333</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8428333</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.48452778</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.48452778</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Melissa's Red Buoy</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8206528</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8206528</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.477225</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.477225</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2016-04-02</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-07-27</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Paul</givenName>
+        <givenName>H</givenName>
+        <surName>Barber</surName>
+      </individualName>
+      <organizationName>UCLA</organizationName>
+      <electronicMailAddress>paulbarber@ucla.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Camille</givenName>
+        <givenName>J</givenName>
+        <surName>Gaynus</surName>
+      </individualName>
+      <organizationName>University of Penn</organizationName>
+      <electronicMailAddress>cgaynus@sas.upenn.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  Six fringing and one back reef were surveyed in Moorea, French
+  Polynesia. Hard substrate at all reefs was dominated by turf algae.
+</para>
+          <para>
+  At each site, measurement locations were determined using random
+  points along a 50m transect. The transect was randomly placed along
+  the benthos at a depth between 2-3m. A datasheet with prerecorded
+  random numbers generated through R was brought with measurer. If a
+  random point was along a sand flat, measurements were taken at the
+  closest bommies. At each site measurements were taken at 20 random
+  places. At each measurement location, a small 15cm x 15cm quadrate was
+  used to delineate measurement area. Within each of these quadrats, 10
+  sediment depth measurements were recorded followed by 10 turf filament
+  height measurements. All measurements were taken using a handmade
+  measuring device. Our device was made using 1cm x 1cm galvanized mesh
+  which had 10 notches calibrated by 1mm intervals.
+</para>
+          <para>
+  A two-factor experiment (site and sediment depth) was conducted at two
+  sites previously surveyed (Gump and Maharepa). At each site, sediment
+  depth (0mm,1mm,3mm,and 5mm) was maintained atop of tiles seasoned for
+  three months under the same conditions. Using a similar measuring
+  device sediment additions were maintained every 4 days, and sediment
+  removal was achieved using a slight wafting motion no more than 10cm
+  above tiles to remove sediment but keeping algae in tact. Herbivory is
+  a strong top-down controller of algal proliferation and since all
+  tiles were exposed to herbivores, we conducted visual observations to
+  quantify and qualify herbivores at each site using a belt-transect
+  method.
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>UC-HBCU Initiative </title>
+      <personnel>
+        <individualName>
+          <givenName>Paul</givenName>
+          <givenName>H</givenName>
+          <surName>Barber</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>UCOP</funding>
+      <relatedProject>
+        <title>PIRE Program</title>
+        <personnel>
+          <individualName>
+            <givenName>Paul</givenName>
+            <givenName>H</givenName>
+            <surName>Barber</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF: OISE 1243541</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Herbivorous Fish counts</entityName>
+      <entityDescription>Herbivorous Fish counts</entityDescription>
+      <physical>
+        <objectName>Herbivorous_Fish.csv</objectName>
+        <size unit="bytes">8712</size>
+        <authentication method="MD5">915a2a93641e0a188ab4c3bec808bd07</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>One of two sites where herbivorous fish were counted</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>One of two sites where herbivorous fish were counted</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Herbivore</attributeName>
+          <attributeDefinition>Classification of herbivore visualized. There were four levels</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Classification of herbivore visualized. There were four levels</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeDefinition>Number of fish counted</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">43</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>325</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Sediment Manipulation Experiment</entityName>
+      <entityDescription>Sediment Manipulation Experiment</entityDescription>
+      <physical>
+        <objectName>Sediment_manipulation_experiment.csv</objectName>
+        <size unit="bytes">1563</size>
+        <authentication method="MD5">cd7e416adad200b5171a98a738449ee3</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Sediment_Treatment</attributeName>
+          <attributeDefinition>Assigned sediment treatment applied to plot. Numbers are in millimeters</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>One of two sites where manipulations occured</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>One of two sites where manipulations occured</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>initial</attributeName>
+          <attributeDefinition>Turf height in millimeters atop of tiles after transplantation but before manipulations commenced</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.25</minimum>
+                  <maximum exclusive="false">3.75</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>final</attributeName>
+          <attributeDefinition>Turf height in millimeters at the commencement of the manipulation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>80</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Sediment and Turf Surveys</entityName>
+      <entityDescription>Sediment and Turf Surveys</entityDescription>
+      <physical>
+        <objectName>Sediment_Turf_Surveys.csv</objectName>
+        <size unit="bytes">10014</size>
+        <authentication method="MD5">dc1eedefe2b4b0d79dd50ad07749a776</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Measurer</attributeName>
+          <attributeDefinition>Person who carried out measurements</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Person who carried out measurements</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Site where measurements were taken</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site where measurements were taken</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Number</attributeName>
+          <attributeDefinition>Arbitrary number assigned to site that coincides with map graphic</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Arbitrary number assigned to site that coincides with map graphic</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Number</attributeName>
+          <attributeDefinition>Number assigned to plot where measurements were taken</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number assigned to plot where measurements were taken</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_1</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_2</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_3</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_4</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_5</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_6</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_7</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_8</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_9</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turf_height_10</attributeName>
+          <attributeDefinition>Ten filament measurements in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_1</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_2</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_3</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_4</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">11</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_5</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_6</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_7</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_8</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_9</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seidment_depth_10</attributeName>
+          <attributeDefinition>Ten sediment depths in millimeters taken within plot area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>145</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

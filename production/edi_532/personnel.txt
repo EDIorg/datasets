@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+David	L.	Parker				Assistance in setting up the experiment			
+Kristie		Kreutzfeld				Assistance in data collection			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+James		Teeri				PI	Crassulacean Acid Metabolism	"Division of Environmental Biology, National Science Foundation (NSF), USA"	8021270

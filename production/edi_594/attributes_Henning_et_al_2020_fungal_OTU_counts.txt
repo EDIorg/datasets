@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SampleID	"Unique sample identifier, corresponds to fungal taxa assignment"	character				
+OTU	OTU ID	character				
+number	read copy number of OTU	numeric	number			

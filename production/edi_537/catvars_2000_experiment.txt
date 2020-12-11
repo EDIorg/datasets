@@ -1,0 +1,22 @@
+attributeName	code	definition
+community	HW	hardwood
+community	PB	pine barrens
+Site	EF	East Farm
+Site	HWS	Hot Water Street
+Site	RP	Rocky Point
+Site	SA	Sarnoff Preserve
+Site	TP	Topping Path
+Site	WP	Weld Preserve
+Gap	G	gap
+Gap	NG	no gap
+N	1	nitrogen added
+N	0	not nitrogen added
+Ca	1	calcium added
+Ca	0	no calcium added
+Species	acepla	Acer platanoides
+Species	acerub	Acer rubrum
+Species	ampbre	Ampelopsis brevipundiculata
+Species	elaumb	Elaeagnus umbellata
+Species	pinrig	Pinus rigida
+Species	rosmul	Rosa multiflora
+Species	vitnov	Vitis novae-anglea

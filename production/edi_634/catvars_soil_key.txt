@@ -1,0 +1,11 @@
+attributeName	code	definition
+Forest	HW	hard wood
+Forest	SW	softwood
+Treatment	PreFenton	extracts not oxidized by Fenton reaction
+Treatment	PostFenton	extracts oxidized by Fenton reaction
+Treatment	PreFentonGoethite	pre-Fenton extracts mixed with Goethite
+Treatment	PostFentonGoethite	post-Fenton extracts mixed with Goethite
+Fenton	PreFenton	extracts not oxidized by Fenton reaction
+Fenton	PostFenton	extracts oxidized by Fenton reaction
+Goethite	PreGoethite	extracts not shaken with goethite
+Goethite	PostGoethite	extracts shaken with goethite

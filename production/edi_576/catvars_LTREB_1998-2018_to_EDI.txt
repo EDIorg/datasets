@@ -1,0 +1,18 @@
+attributeName	code	definition
+Region	Tally	Tally lake
+Region	Seeley	Seeley lake
+Region	seeley	seeley lake
+Tissue	Y	yes
+Tissue	N	no
+Sex	F	female
+Sex	M	male
+Repro	A	Testes Abdominal
+Repro	L	Lactating
+Repro	NL	Non-Lactating
+Repro	NP	Not Pregnant
+Repro	P	Pregnant
+Repro	P NL	Pregnant Non-Lactating
+Repro	PL	Pregnant Lactating
+Repro	S	Testes Scrotal
+DEAD	FALSE	FALSE
+DEAD	TRUE	TRUE

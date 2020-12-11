@@ -1,0 +1,41 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+E.	T. 	Borer	"Department of Ecology, Evolution and Behavior, University of Minnesota, St. Paul, MN, USA"	borer@umn.edu	0000-3-2259-5853	creator			
+W.	S.	Harpole	"Helmholtz Center for Environmental Research – UFZ, Department of Physiological Diversity, Permoserstrasse 15, 04318 Leipzig, Germany;"			creator			
+P.	B.	Adler	"Department of Wildland Resources and the Ecology Center, Utah State University, Logan, UT, USA"			creator			
+C.	A.	Arnillas	"Department of Physical and Environmental Sciences, University of Toronto - Scarborough, Toronto, Canada"			creator			
+M.	N.	Bugalho	"Centre for Applied Ecology (CEABN-InBIO), School of Agriculture, University of Lisbon, Tapada da Ajuda, Lisbon, Portugal"			creator			
+M.	W.	Cadotte	"Department of Biological Sciences, University of Toronto - Scarborough, Toronto, Canada"			creator			
+M.	C. 	Caldeira	"Forest Research Centre, School of Agriculture, University of Lisbon, Tapada da Ajuda, Lisbon, Portugal"			creator			
+S. 		Campana	"IFEVA, Universidad de Buenos Aires, CONICET, Facultad de Agronomía, Buenos Aires, Argentina"			creator			
+C.	R. 	Dickman	"School of Life and Environmental Sciences, The University of Sydney, NSW, Australia"			creator			
+T.	L.	Dickson	"Department of Biology, University of Nebraska at Omaha, Omaha, NE, USA"			creator			
+I. 		Donohue	"Department of Zoology, School of Natural Sciences, Trinity College Dublin, Dublin, Ireland"			creator			
+A. 		Eskelinen	"Helmholtz Center for Environmental Research – UFZ, Department of Physiological Diversity, Permoserstrasse 15, 04318 Leipzig, Germany;"			creator			
+J.	L.	Firn	"School of Earth, Environmental and Biological Sciences, Queensland University of Technology, Brisbane, Australia"			creator			
+P.		Graff	"IFEVA, Universidad de Buenos Aires, CONICET, Facultad de Agronomía, Buenos Aires, Argentina"			creator			
+D.	S.	Gruner	"Department of Entomology, University of Maryland, College Park, MD, USA"			creator			
+R.	W.	Heckman	"Department of Biology, University of North Carolina, Chapel Hill, NC, USA;"			creator			
+A.	M.	Koltz	"Department of Biology, Washington University in St. Louis, St. Louis, MO, USA"			creator			
+K.	J.	Komatsu	"Smithsonian Environmental Research Center, Edgewater, MD, USA"			creator			
+L.	S. 	Lannes	"Department of Biology and Animal Sciences, São Paulo State University - UNESP, São Paulo, Brazil"			creator			
+A.	S.	MacDougall	"Department of Integrative Biology, University of Guelph, Guelph, Canada"			creator			
+J.	P.	Martina	"Department of Biology, Texas State University, San Marcos, TX, USA"			creator			
+J.	L. 	Moore	"School of Biological Sciences, Monash University, Clayton Campus, Victoria, Australia"			creator			
+B. 		Mortensen	"Department of Biology, Benedictine College, Atchison, KS, USA"			creator			
+R. 		Ochoa-Hueso	"Department of Biology, IVAGRO, University of Cádiz, Cádiz, Spain"			creator			
+H.		Olde Venterink	"Department of Biology, Vrije Universiteit Brussel, Brussels, Belgium"			creator			
+S.	A.	Power	"Hawkesbury Institute for the Environment, Western Sydney University, NSW Australia"			creator			
+J.	N.	Price	"Institute of Land, Water and Society, Charles Sturt University, Albury, NSW, Australia"			creator			
+A.	C. 	Risch	"Swiss Federal Institute for Forest, Snow and Landscape Research, Birmensdorf, Switzerland"			creator			
+M. 		Sankaran	"National Centre for Biological Sciences, TIFR, Bengaluru, India;"			creator			
+M. 		Schütz	"Lancaster Environment Centre, Lancaster University, Lancaster, UK"			creator			
+J.		Sitters	"Department of Biology, Vrije Universiteit Brussel, Brussels, Belgium"			creator			
+C.	J. 	Stevens	"Lancaster Environment Centre, Lancaster University, Lancaster, UK"			creator			
+R.		Virtanen	"Department of Ecology & Genetics, University of Oulu, Oulu, Finland"			creator			
+P.	A.	Wilfahrt	"Department of Ecology, Evolution and Behavior, University of Minnesota, St. Paul, MN, USA;"			creator			
+E.	W. 	Seabloom	"Department of Ecology, Evolution and Behavior, University of Minnesota, St. Paul, MN, USA"			creator			
+E.	T. 	Borer	"Department of Ecology, Evolution and Behavior, University of Minnesota, St. Paul, MN, USA"	borer@umn.edu	0000-3-2259-5853	contact			
+E.	W. 	Seabloom	"Department of Ecology, Evolution and Behavior, University of Minnesota, St. Paul, MN, USA"			contact			
+Elizabeth	T	Borer			0000-0003-2259-5853	PI	"RCN:Coordination ofthe NutrientNetwork(NutNet), globalmanipulationsof nutrients andconsumers"	National Science Foundation Research Coordination Network	NSF-DEB-1042132
+Elizabeth	T	Borer			0000-0003-2259-5853	PI	"LTER: Biodiversity, Multiple Drivers of Environmental Change and Ecosystem Functioning at the Prairie Forest Border"	Long Term Ecological Research	"NSF-DEB-1234162, DEB-1831944"
+Elizabeth	T	Borer			0000-0003-2259-5853	PI		University of Minnesota’s Institute on the Environment	DG-0001-13

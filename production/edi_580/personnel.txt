@@ -1,0 +1,9 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Ryan	M	Clare	NRL-MRY	ryan.clare.ctr@nrlmry.navy.mil		creator			
+Ankur	R	Desai	UW-Madison	desai@aos.wisc.edu	0000-0002-5226-6041	creator			
+Michael		Notaro	"Nelson Center for Climate Research, UW-Madison"	mnotaro@wisc.edu		creator			
+Jonathan	E	Martin	UW-Madison	jemarti1@wisc.edu		creator			
+Stephen	J	Vavrus	"Nelson Center for Climate Research, UW-Madison"	sjvavrus@wisc.edu	0000-0002-7612-3109	creator			
+Ryan	M	Clare	NRL-MRY	ryan.clare.ctr@nrlmry.navy.mil		contact			
+Ankur	R	Desai	UW-Madison	desai@aos.wisc.edu	0000-0002-5226-6041	contact			
+Ankur	R	Desai			0000-0002-5226-6041	PI	Does Northern Hemisphere Snow Cover Influence Mid­latitude Cyclone Trajectories? Weather System Implications for a Changing Climate	NSF	1640452

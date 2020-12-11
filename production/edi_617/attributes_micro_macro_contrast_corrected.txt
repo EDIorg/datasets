@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Where the study took place	character				
+sensor	"How the data were recorded Hobo logger, or pulled from weather station"	character				
+date	When the data was recorded	character				
+year	Year recorded	numeric	nominalYear		NA	not available
+month	Month recorded	numeric	nominalMonth		NA	not available
+day	Day recoded	numeric	nominalDay		NA	not available
+hour_24	Time given in 24h clock	character				
+hour	"Time given in AM, PM"	character				
+lat	latitude	numeric	degree		NA	not available
+lon	longitude	numeric	degree		NA	not available
+microsite	"Triangle, square, open, shrub or weather station"	character				
+rep	repetitions ID	numeric	dimensionless		NA	not available
+temp	air temperature	numeric	fahrenheit		NA	not available
+intensity	Solar radiation	numeric	luminosityPerSquareFoot		NA	not available
+pendant_id	The serial number on the logger	numeric	dimensionless		NA	not available
+soil_moisture	"If shelter, what type of shade cloth blockage it had"	numeric	percent		NA	not available
+cover_type	The soil moisture recorded upon deployment	numeric	percent		NA	not available
+computed_time	best time computed and corrected from logger time 	Date		YYYY-MM-DD hh:mm:ss		

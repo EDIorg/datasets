@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	Site from where the soil was taken	character				
+pH	pH of the soil sample	numeric	dimensionless			
+Ca	Calcium content of the soil sample	numeric	milliequivalentsPerLiter			
+Mg	Magnesium content of the soil sample	numeric	milliequivalentsPerLiter			
+CEC	Cation exchange capacity of the soil sample	numeric	milliequivalentsPer100grams			
+Bray_P	Bray-phosphorus content of the soil sample	numeric	partsPerMillion			
+Sand	Percentage sand in the soil sample	numeric	dimensionless			
+Silt	Percentage silt in the soil sample	numeric	dimensionless			
+Clay	Percentage clay in the soil sample	numeric	dimensionless			

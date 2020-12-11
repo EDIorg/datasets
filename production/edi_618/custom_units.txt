@@ -1,0 +1,7 @@
+id	unitType	parentSI	multiplierToSI	description
+nominalMonth				
+equivalentsPerHectare				equivalents of solute dissolved per hectare
+microEquivalentsPerLiter				
+partsPerBillion				
+microSiemensPerCentimeter				conductivity
+platinumCobaltUnits				

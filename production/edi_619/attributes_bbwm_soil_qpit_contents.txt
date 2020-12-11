@@ -1,0 +1,27 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	year of sampling	numeric	nominalYear			
+sample_no	sample number (for internal lab reference)	character				
+watershed	watershed name	character				
+soil_type	"soil series, where applicable"	character				
+forest	forest stand type	character				
+pit_type	soil pit type	character				
+pit_id	soil pit identification number	character				
+depth_increment	depth increment in soil pit	character				
+od_fine_earth_kg_ha	oven dried fine earth content in the soil horizon	numeric	kilogramsPerHectare		NA	not available
+fine_TN_kg_ha	total N content in the fine earth fraction	numeric	kilogramsPerHectare		NA	not available
+fine_TC_kg_ha	total C in the fine earth fraction	numeric	kilogramsPerHectare		NA	not available
+coarse_TN_kg_ha	total N in the coarse organic fraction	numeric	kilogramsPerHectare		NA	not available
+coarse_TC_kg_ha	total C in the coarse organic fraction	numeric	kilogramsPerHectare		NA	not available
+total_TN_kg_ha	"total' total N in the soil (fine+coarse for organic, fine for mineral horizons)"	numeric	kilogramsPerHectare		NA	not available
+total_TC_kg_ha	"total' total C in the soil (fine+coarse for organic, fine for mineral horizons)"	numeric	kilogramsPerHectare		NA	not available
+total_C_N	"total' C to N ratio in the soil (fine+coarse for organic, fine for mineral horizons)"	numeric	kilogramsPerHectare		NA	not available
+P_kg_ha	phosphorus	numeric	kilogramsPerHectare		NA	not available
+Fe_kg_ha	iron	numeric	kilogramsPerHectare		NA	not available
+Mn_kg_ha	manganese	numeric	kilogramsPerHectare		NA	not available
+Zn_kg_ha	zinc	numeric	kilogramsPerHectare		NA	not available
+Pb_kg_ha	lead	numeric	kilogramsPerHectare		NA	not available
+Ca_kg_ha	calcium	numeric	kilogramsPerHectare		NA	not available
+Mg_kg_ha	magnesium	numeric	kilogramsPerHectare		NA	not available
+K_kg_ha	potassium	numeric	kilogramsPerHectare		NA	not available
+Na_kg_ha	sodium	numeric	kilogramsPerHectare		NA	not available
+Al_kg_ha	aluminum	numeric	kilogramsPerHectare		NA	not available

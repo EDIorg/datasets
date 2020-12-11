@@ -1,0 +1,9 @@
+attributeName	code	definition
+shore_photo	y	yes
+shore_photo	n	no
+substrate_photo	y	yes
+substrate_photo	n	no
+sponges	y	yes
+sponges	n	no
+brandtia	y	yes
+brandtia	n	no

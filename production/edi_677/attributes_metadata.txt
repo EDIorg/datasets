@@ -1,0 +1,20 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	Year sampling occurred	numeric	nominalYear		NA	not available
+month	Month sampling occurred	numeric	nominalMonth		NA	not available
+day	Day sampling occurred	numeric	nominalDay		NA	not available
+time	Time sampling occurred	Date		hh:mm:ss		
+site	Locational identifier for each sampling site	character				
+lat	Latitude of sampling location	numeric	degree		NA	not available
+long	Longitude of sampling location	numeric	degree		NA	not available
+site_description	Researcher description of sampling location	character				
+distance_to_shore_m	Distance from in situ sampled location to the shoreline	numeric	meter		NA	not available
+depth_m	Depth at in situ sampling location	numeric	meter		NA	not available
+air_temp_celsius	Temperature of air at sampling location	numeric	celsius		NA	not available
+surface_temp_celsius	Temperature of water surface at sampling location	numeric	celsius		NA	not available
+mid_temp_celsius	Temperature of water midway between surface and bottom at sampling location	numeric	celsius		NA	not available
+bottom_temp_celsius	Temperature of water near sediment at sampling location	numeric	celsius		NA	not available
+comments	Notes in the field describing sampling conditions	character				
+shore_photo	Whether or not photos of the shoreline were taken	categorical				
+substrate_photo	Whether or not photos of the substrate were taken	categorical				
+sponges	Whether or not sponges were present at a sampling location	categorical				
+brandtia	Whether or not brandtia (endemic amphipod) was present at a sampling location	categorical				

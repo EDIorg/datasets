@@ -1,0 +1,13 @@
+name	name_type	name_resolved	authority_system	authority_id
+Semibalanus balaniodes	scientific	Semibalanus balanoides	ITIS	89687
+Mytilus edulis	scientific	Mytilus edulis	ITIS	79454
+Testudinalia testudinalis	scientific	Testudinalia testudinalis	GBIF Backbone Taxonomy	4369953
+Littorina littorea	scientific	Littorina littorea	ITIS	70419
+Littorina obtusata	scientific	Littorina obtusata	ITIS	70420
+Nucella lapillus	scientific	Nucella lapillus	ITIS	73297
+Semibalanus balaniodes	common	NA	NA	NA
+Mytilus edulis	common	NA	NA	NA
+Testudinalia testudinalis	common	NA	NA	NA
+Littorina littorea	common	NA	NA	NA
+Littorina obtusata	common	NA	NA	NA
+Nucella lapillus	common	NA	NA	NA

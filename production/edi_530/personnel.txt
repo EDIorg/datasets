@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Cyrille		Conord	"1) INRA, FR ECCOREV, UR629, Ecologie des Forêts Mediterraneennes, Avignon, France"		0000-0002-6797-3427	creator			
+Jessica		Gurevitch	"Department of Ecology & Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Bruno		Fady	"INRA, FR ECCOREV, UR629, Ecologie des Forets Mediterraneennes, Avignon, France"	bruno.fady@avignon.inra.fr	0000-0002-6797-3427	creator			
+Didier		Betored	"l'Unite de Recherches Ecologie des Forets Mediterraneennes, Departement Ecologie des Forets Prairies et milieux Aquatiques (EFPA), Avignon, France"	didier.betored@inra.fr		Database management and GIS analyses			
+Christian		Pichot	"l'Unite de Recherches Ecologie des Forets Mediterraneennes, Departement Ecologie des Forets Prairies et milieux Aquatiques (EFPA), Avignon, France"	christian.pichot@inra.fr		Database management and GIS analyses			
+Cyrille		Conord			0000-0002-6797-3427	PI	(unknown)	"Institut national de la recherche agronomique, France"	
+Jessica		Gurevitch	"Department of Ecology & Evolution, Stony Brook University, Stony Brook, NY, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			

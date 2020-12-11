@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Study	A unique ID for each experiment in each study	character				
+Authors_and_year	Authors and year of publication of the study	character				
+Env	Environment in which the study was carried out	categorical				
+Life_form	Life form of the plant species used in the experiment	categorical				
+Stage	Whether the experiment was carried out on seeds or seedlings	categorical				
+Dur	"Duration of the experiment, that is, time duration between planting of propagules and measurement of survival in number of days"	numeric	number			
+Dens	Number of seeds per depot. 	numeric	number			
+Dist	"Distance of the 'far' treatment in meters. Note: nf means experimenters noted distance as 'near' and 'far', and exact distance was not specified. Empty cell means habitat treatment was used"	character				
+Near_total	Total number of seeds/seedlings planted in the 'near' treatment	numeric	number			
+Near_No_surviving	Number of seeds/seedlings that survived till the end of the experiment in the 'near' treatment	numeric	number			
+Far_total	Total number of seeds/seedlings planted in the 'near' treatment	numeric	number			
+Far_No_surviving	Number of seeds/seedlings that survived till the end of the experiment in the 'near' treatment	numeric	number			
+ln_OR	"Log odds ratio of the experiment (that is, natural log of the ratio of odds of survival when near parent to the odds of survival when far from parent)"	numeric	dimensionless			
+var_ln_OR	Variance of the log odds ratio	numeric	dimensionless			

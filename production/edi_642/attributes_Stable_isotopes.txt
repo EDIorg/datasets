@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Study	"Whether the seedling came from the first pot experiment, conducted in 2013, or the second pot experiment, conducted in 2015"	categorical				
+Spatial_block_of_pot	"In both studies, pots were arranged in spatial blocks, with pots of each treatment level spatially clustered"	character				
+Replicate	Pot in first (2013) experiment or spatial cluster in second (2015) experiment	character				
+Position_within_pot_or_block	"In first (2013) experiment, indicates cardinal direction of seedling from buffel grass within a pot; in second (2015) experiment it designates whether the pot within the spatial block received a buffel grass or no competitor"	categorical				
+Radius_from_buffel_adult	"In first (2013) experiment, it refers to which concentric ring around buffel grass adult seedling was in; in second experiment seedlings were one per pot, so all values are 0 because it is not a factor. Value of 1-4 for four concentric rings of seedlings in first experiment"	character				
+Treatment_level	Whether palo verde seedling had been grown in a pot with or without buffel grass	categorical				
+delta_13_C	"Ratio of C13 to C12 within palo verde seedling tissue, normalized and compared with atmospheric values"	numeric	dimensionless		NA	not available
+delta_15_N	"Ratio of N15 to N14 within palo verde seedling tissue, normalized and compared with atmospheric values"	numeric	dimensionless			

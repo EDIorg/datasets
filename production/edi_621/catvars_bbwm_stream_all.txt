@@ -1,0 +1,28 @@
+attributeName	code	definition
+watershed	EB	East Bear
+watershed	WB	West Bear
+record_type	REG	regular sample
+record_type	DUP	field duplicate
+record_type	REP	laboratory analytical replicate
+record_type	ISCO	autosampler
+season	WINTER	DJF
+season	SPRING	MAM
+season	SUMMER	JJA
+season	FALL	SON
+Mg_flag	RL	below the reporting limit 
+K_flag	RL	below the reporting limit 
+NO3_flag	DL	below the detection limit 
+NO3_flag	RL	below the reporting limit 
+NH4_flag	DL	below the detection limit 
+NH4_flag	RL	below the reporting limit 
+DOC_flag	RL	below the reporting limit 
+DOC_flag	DL	below the detection limit 
+DIC_flag	RL	below the reporting limit 
+total_N_flag	RL	below the reporting limit 
+total_N_flag	DL	below the detection limit 
+total_P_flag	DL	below the detection limit 
+total_P_flag	RL	below the reporting limit 
+Si_flag	RL	below the reporting limit 
+Si_flag	DL	below the detection limit 
+apparent_color_flag	RL	below the reporting limit 
+true_color_flag	RL	below the reporting limit 

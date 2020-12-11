@@ -1,0 +1,3 @@
+attributeName	code	definition
+site	shady_point	Shady Point
+site	twin_meadows	Twin Meadows

@@ -1,0 +1,9 @@
+name	name_type	name_resolved	authority_system	authority_id
+Copepoda	scientific	Copepoda	ITIS	85257
+Nauplii	scientific	NA	NA	NA
+Rotifera	scientific	Rotifera	ITIS	58239
+Cladocera	scientific	Cladocera	ITIS	83832
+Copepoda	common	NA	NA	NA
+Nauplii	common	NA	NA	NA
+Rotifera	common	NA	NA	NA
+Cladocera	common	Cladocera	ITIS	83678

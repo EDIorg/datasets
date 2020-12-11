@@ -1,0 +1,17 @@
+﻿Available long-term water quality characteristics included concentrations of nitrate, phosphate, biochemical oxygen demand (BOD5), dissolved organic carbon, total suspended solids, and chlorophyll a (http://www.naiades.eaufrance.fr). Most of these data were recorded at Jargeau (47.5degreeN; 2.1degreeE) in an average 11.6 months per year from 1980–2018 by the Loire-Bretagne Basin Water Agency. To increase sampling frequency and time series length, we supplemented these data with measurements from a station at Orléans (47.9degreeN, 1.9degreeE), under the observation that water chemistry (particularly chlorophyll a) were very similar in magnitude between the two stations on days with coincident measurements. We further obtained summertime estimates of macrophyte areal cover from the nearby St. Mesmin Nature Reserve (47.87degreeN, 1.82degreeE), where species area cover was measured at 24 transects (60 m long by 5m wide) over a 7.5 km reach (overall area sampled = 7,200 m2). We also obtained Corbicula sp. densities from the French Electric Company, which were quantified with the Surber technique. Discharge data were obtained from Banque Hydro (http://www.hydro.eaufrance.fr/).
+
+We further processed the solute data by the following:
+
+1) subsampling for the stations 04048000 (Dampierre) and 04050500 (Orleans), which are near the end of the middle Loire reach.
+
+2) taking half of the minimum detection limit (=0.1 mg/L) for phosphate (as phosphate) when labs changed in 2009-2011 (MDL increased from 0.05 to 0.1 for these two years)
+
+3) converting phosphate as phosphate and nitrate as nitrate to as P, and as N, respectively.
+
+4) Estimating PO4-P when it is below the detection limit using a linear regression between TP and PO4-P (beta = 0.69+/-0.07, F48=94, p=7.1e-13)
+
+5) Estimating BOD5 when it is below the detection limit (=2 mg/L) using a linear regression between chlorophyll a and BOD5 (beta = 0.05+/-0.002, F139=553, p =2.2e-16)
+
+6) converting chlorophyll a to mg/L from original reporting units of ug/L
+
+7) taking the monthly mean of samples if two there were more than 1 sample per month

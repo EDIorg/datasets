@@ -1,0 +1,144 @@
+name	name_type	name_resolved	authority_system	authority_id
+Nebrioporus baeticus	scientific	Nebrioporus baeticus	ITIS	813240
+Nebrioporus ceresyi	scientific	Nebrioporus ceresyi	ITIS	813243
+Nebrioporus nemethi	scientific	Nebrioporus nemethi	ITIS	813248
+Ochthebius glaber	scientific	Ochthebius glaber	ITIS	816426
+Ochthebius notabilis	scientific	Ochthebius notabilis	ITIS	816490
+Cyclamen balearicum	scientific	Cyclamen balearicum	ITIS	836248
+Pinus nigra	scientific	Pinus nigra	ITIS	183364
+Myrtus communis	scientific	Myrtus communis	ITIS	506164
+Pinus halepensis	scientific	Pinus halepensis	ITIS	506601
+Bromus hordeaceus	scientific	Bromus hordeaceus	ITIS	501070
+Phlomis crinita subsp. Crinita	scientific	Phlomis crinita crinita	GBIF Backbone Taxonomy	7307300
+Phlomis crinita subsp. Malacitana	scientific	Phlomis crinita malacitana	GBIF Backbone Taxonomy	3888203
+Phlomis lychnitis	scientific	Phlomis lychnitis	GBIF Backbone Taxonomy	3887383
+Chioglossa lusitanica	scientific	Chioglossa lusitanica	ITIS	668361
+Dolichopoda schiavazzii schiavazzii	scientific	Dolichopoda schiavazzii schiavazzii	GBIF Backbone Taxonomy	7044352
+Bactrocera oleae	scientific	Bactrocera oleae	ITIS	673027
+Cupressus sempervirens	scientific	Cupressus sempervirens	ITIS	183456
+Lolium perenne	scientific	Lolium perenne	ITIS	40893
+Lolium rigidum	scientific	Lolium rigidum	ITIS	40897
+Cupressus atlantica	scientific	Cupressus atlantica	ITIS	822614
+Olea europaea	scientific	Olea europaea	ITIS	32990
+Androctonus australis	scientific	Androctonus australis	GBIF Backbone Taxonomy	6894141
+Buthus occitanus	scientific	Buthus occitanus	GBIF Backbone Taxonomy	4553865
+Solatopupa similis	scientific	Solatopupa similis	GBIF Backbone Taxonomy	4566708
+Juniperus phoenicea	scientific	Juniperus phoenicea	ITIS	822606
+Pinus leucodermis	scientific	Pinus leucodermis	ITIS	822555
+Cedrus libani	scientific	Cedrus libani	ITIS	183406
+Larinus cynarae	scientific	Larinus cynarae	GBIF Backbone Taxonomy	1183746
+Strix aluco	scientific	Strix aluco	ITIS	555428
+Pinus brutia	scientific	Pinus brutia	ITIS	507507
+Pinus pinaster	scientific	Pinus pinaster	ITIS	506603
+Sesamia nonagrioides	scientific	Sesamia nonagrioides	GBIF Backbone Taxonomy	1762383
+Podarcis vaucheri	scientific	Podarcis vaucheri	GBIF Backbone Taxonomy	2469139
+Bombina pachypus	scientific	Bombina pachypus	ITIS	661631
+Hyla intermedia	scientific	Hyla intermedia	ITIS	662524
+Rana italica	scientific	Rana italica	ITIS	665338
+Podarcis tiliguerta	scientific	Podarcis tiliguerta	GBIF Backbone Taxonomy	2469126
+Androcymbium gramineum	scientific	Androcymbium gramineum	GBIF Backbone Taxonomy	2740584
+Cedrus atlantica	scientific	Cedrus atlantica	GBIF Backbone Taxonomy	5284702
+Colias alfacariensis	scientific	Colias alfacariensis	GBIF Backbone Taxonomy	8203812
+Carpinus orientalis	scientific	Carpinus orientalis	GBIF Backbone Taxonomy	2875780
+Senecio gallicus	scientific	Senecio gallicus	GBIF Backbone Taxonomy	3107896
+Senecio glaucus	scientific	Senecio glaucus	GBIF Backbone Taxonomy	3108685
+Senecio vernalis	scientific	Senecio vernalis	GBIF Backbone Taxonomy	6063730
+Anacamptis palustris	scientific	Anacamptis palustris	GBIF Backbone Taxonomy	2808399
+Leucodon sciuroides	scientific	Leucodon sciuroides	ITIS	548845
+Ulex africanus	scientific	Ulex africanus	GBIF Backbone Taxonomy	NA
+Ulex baeticus	scientific	Ulex baeticus	GBIF Backbone Taxonomy	2952012
+Ulex borgiae	scientific	Ulex borgiae	GBIF Backbone Taxonomy	2951972
+Apodemus sylvaticus	scientific	Apodemus sylvaticus	ITIS	585143
+Abies alba	scientific	Abies alba	ITIS	506607
+Quercus suber	scientific	Quercus suber	ITIS	19430
+Carex extensa	scientific	Carex extensa	ITIS	39597
+Abies cephalonica	scientific	Abies cephalonica	GBIF Backbone Taxonomy	2685326
+Pinus pinea	scientific	Pinus pinea	ITIS	506604
+Cistus salvifolius	scientific	NA	NA	NA
+Fraxinus excelsior	scientific	Fraxinus excelsior	ITIS	502663
+Eliomys spp	scientific	Eliomys	ITIS	584946
+Talpa sp	scientific	Talpa	ITIS	633478
+Vulpes vulpes	scientific	Vulpes vulpes	ITIS	180604
+Euscorpius balearicus	scientific	Euscorpius balearicus	GBIF Backbone Taxonomy	4553795
+Euscorpius flavicaudis	scientific	Euscorpius flavicaudis	GBIF Backbone Taxonomy	4553820
+Mesobuthus gibbosus	scientific	Mesobuthus gibbosus	GBIF Backbone Taxonomy	4553851
+Buthus occitanus mardochei	scientific	NA	NA	NA
+Carabus solieri	scientific	Carabus solieri	GBIF Backbone Taxonomy	4470616
+Gypaetus barbatus	scientific	Gypaetus barbatus	ITIS	175483
+Pinus canariensis	scientific	Pinus canariensis	ITIS	565621
+Fagus sylvatica	scientific	Fagus sylvatica	ITIS	502590
+Cistus albidus	scientific	Cistus albidus	GBIF Backbone Taxonomy	7331435
+Maniola jurtina	scientific	Maniola jurtina	GBIF Backbone Taxonomy	5135513
+Maniola nurag	scientific	Maniola nurag	GBIF Backbone Taxonomy	5135538
+Fringilla coelebs	scientific	Fringilla coelebs	ITIS	179168
+Pleurochaete squarrosa	scientific	Pleurochaete squarrosa	ITIS	16715
+Abies equi-trojani	scientific	Abies equi-trojani	GBIF Backbone Taxonomy	9093987
+Atriplex halimus	scientific	Atriplex halimus	ITIS	506577
+Tomicus destruens	scientific	Tomicus destruens	GBIF Backbone Taxonomy	7816630
+Asplenium fontanum subsp. fontanum	scientific	Asplenium fontanum fontanum	GBIF Backbone Taxonomy	7310907
+Asplenium petrarchae subsp. bivalens	scientific	Asplenium petrarchae bivalens	GBIF Backbone Taxonomy	7682451
+Tomicus piniperda	scientific	Tomicus piniperda	ITIS	1085382
+Rhinocyllus conicus	scientific	Rhinocyllus conicus	ITIS	618891
+Ligidium spp.	scientific	Ligidium	ITIS	93233
+Brassica cretica	scientific	Brassica cretica	ITIS	506220
+Brassica montana	scientific	Brassica montana	GBIF Backbone Taxonomy	3042829
+Capreolus capreolus	scientific	Capreolus capreolus	ITIS	625063
+Aphidius transcaspicus	scientific	Aphidius transcaspicus	GBIF Backbone Taxonomy	NA
+Quercus ilex	scientific	Quercus ilex	ITIS	506536
+Chorthippus parellelus	scientific	Chorthippus parallelus	GBIF Backbone Taxonomy	NA
+Betula pendula	scientific	Betula pendula	ITIS	19495
+Bacillus rossius	scientific	Bacillus rossius	GBIF Backbone Taxonomy	1415862
+Bacillus atticus	scientific	Bacillus atticus	GBIF Backbone Taxonomy	1415865
+Laurus nobilis	scientific	Laurus nobilis	ITIS	503343
+Onosma echioides	scientific	Onosma echioides	ITIS	506017
+Hydromantes ambrosii	scientific	Hydromantes ambrosii	ITIS	1099700
+Hydromantes genei	scientific	Hydromantes genei	ITIS	1099755
+Hydromantes imperialis	scientific	Hydromantes imperialis	ITIS	1099751
+Hydromantes italicus	scientific	Hydromantes italicus	ITIS	1099758
+Hyla arborea	scientific	Hyla arborea	ITIS	662424
+Spalax ehrenbergi	scientific	Spalax ehrenbergi	ITIS	970560
+Megastigmus dorsalis	scientific	Megastigmus dorsalis	GBIF Backbone Taxonomy	1370883
+Delphinium fissum ssp. Sordidum	scientific	Delphinium fissum sordidum	GBIF Backbone Taxonomy	3920936
+Delphinium staphisagria	scientific	Delphinium staphisagria	GBIF Backbone Taxonomy	7277614
+Delphinium pictum	scientific	Delphinium pictum	GBIF Backbone Taxonomy	7277813
+Hypochaeris salzmanniana	scientific	Hypochaeris salzmanniana	GBIF Backbone Taxonomy	3093690
+Ceratitis capitata	scientific	Ceratitis capitata	ITIS	143196
+Salix caprea	scientific	Salix caprea	ITIS	22515
+Serapias vomeracea	scientific	Serapias vomeracea	GBIF Backbone Taxonomy	5314764
+Quercus canariensis	scientific	Quercus canariensis	GBIF Backbone Taxonomy	2880808
+Quercus faginea	scientific	Quercus faginea	GBIF Backbone Taxonomy	2881480
+Quercus frainetto	scientific	Quercus frainetto	ITIS	506535
+Quercus mix	scientific	Quercus	ITIS	19276
+Quercus petraea	scientific	Quercus petraea	ITIS	506539
+Quercus pubescens	scientific	Quercus pubescens	GBIF Backbone Taxonomy	2881283
+Quercus pyrenaica	scientific	Quercus pyrenaica	GBIF Backbone Taxonomy	2878826
+Quercus robur	scientific	Quercus robur	ITIS	19405
+Castanea sativa	scientific	Castanea sativa	ITIS	506541
+Armeria pungens	scientific	Armeria pungens	ITIS	896891
+Podarcis hispanica	scientific	Podarcis hispanica	GBIF Backbone Taxonomy	NA
+Pinus sylvestris	scientific	Pinus sylvestris	ITIS	183389
+Oryctolagus cuniculus	scientific	Oryctolagus cuniculus	ITIS	180129
+Megastigmus wachtli	scientific	Megastigmus wachtli	GBIF Backbone Taxonomy	1370978
+Andricus quercustozae	scientific	Andricus quercustozae	GBIF Backbone Taxonomy	4496950
+Rhinolophus ferrumequinum	scientific	Rhinolophus ferrumequinum	ITIS	631430
+Myotis myotis	scientific	Myotis myotis	ITIS	632035
+Thaumetopoea pityocampa	scientific	Thaumetopoea pityocampa	GBIF Backbone Taxonomy	1824131
+Cicada barbara	scientific	Cicada barbara	GBIF Backbone Taxonomy	4482719
+Cicada orni	scientific	Cicada orni	GBIF Backbone Taxonomy	4482723
+Thaumetopoea wilkinsoni	scientific	Thaumetopoea wilkinsoni	GBIF Backbone Taxonomy	1824117
+Lepus europaeus	scientific	Lepus europaeus	ITIS	552501
+Andricus kollari	scientific	Andricus kollari	ITIS	705626
+Juniperus thurifera	scientific	Juniperus thurifera	GBIF Backbone Taxonomy	2684528
+Melica ciliata	scientific	Melica ciliata	ITIS	41852
+Emys orbicularis	scientific	Emys orbicularis	ITIS	551943
+Fraxinus angustifolia	scientific	Fraxinus angustifolia	GBIF Backbone Taxonomy	7325877
+Fraxinus ornus	scientific	Fraxinus ornus	ITIS	505982
+Erebia triara	scientific	NA	NA	NA
+Marsilea strigosa	scientific	Marsilea strigosa	GBIF Backbone Taxonomy	5613324
+Cakile maritima	scientific	Cakile maritima	ITIS	22764
+Eryngium maritimum	scientific	Eryngium maritimum	ITIS	29496
+Discoglossus jeanneae	scientific	Discoglossus jeanneae	ITIS	662329
+Discoglossus montalentii	scientific	Discoglossus montalentii	ITIS	773324
+Discoglossus pictus auritus	scientific	Discoglossus pictus auritus	ITIS	1107248
+Discoglossus pictus pictus	scientific	Discoglossus pictus pictus	ITIS	1107247
+Discoglossus sardus	scientific	Discoglossus sardus	ITIS	662331

@@ -1,0 +1,2165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.529.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Data for study Conventional land-use intensification reduces species richness and increases production: A global meta-analysis</title>
+    <creator>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Beckmann</surName>
+      </individualName>
+      <organizationName>Department Computational Landscape Ecology, UFZ – Helmholtz Centre for Environmental Research, Leipzig, Germany</organizationName>
+      <electronicMailAddress>michael.beckmann@ufz.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-5678-265X</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Katharina</givenName>
+        <surName>Gerstner</surName>
+      </individualName>
+      <organizationName>iDiv – German Centre for Integrative Biodiversity Research, Leipzig, Germany</organizationName>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0348-9334</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Morodoluwa</givenName>
+        <surName>Akin-Fajiye</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA</organizationName>
+      <electronicMailAddress>morodoluwa.akin-fajiye@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-8078-3970</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Silvia</givenName>
+        <surName>Ceausu</surName>
+      </individualName>
+      <organizationName>Center for Biodiversity Dynamics in a Changing World (BIOCHANGE), Aarhus University, Aarhus C, Denmark</organizationName>
+      <organizationName>Section for Ecoinformatics and Biodiversity, Department of Bioscience, Aarhus University, Aarhus C, Denmark</organizationName>
+      <electronicMailAddress>silvia.ceausu@bios.au.dk</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-6278-6075</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephan</givenName>
+        <surName>Kambach</surName>
+      </individualName>
+      <organizationName>iDiv – German Centre for Integrative Biodiversity Research, Leipzig, Germany</organizationName>
+      <organizationName>Leipzip University, Leipzig, Germany</organizationName>
+      <electronicMailAddress>stephan.kambach@ufz.de</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Nicole</givenName>
+        <givenName>L.</givenName>
+        <surName>Kinlock</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA</organizationName>
+      <electronicMailAddress>nicole.kinlock@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-2917-5133</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Helen</givenName>
+        <givenName>R.P.</givenName>
+        <surName>Phillips</surName>
+      </individualName>
+      <organizationName>iDiv – German Centre for Integrative Biodiversity Research, Leipzig, Germany</organizationName>
+      <organizationName>Leipzip University, Leipzig, Germany</organizationName>
+      <organizationName>Department of Life Sciences, Imperial College, London, UK</organizationName>
+      <organizationName>Department of Life Sciences, Natural History Museum, London, UK</organizationName>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7435-5934</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Willem</givenName>
+        <surName>Verhagen</surName>
+      </individualName>
+      <organizationName>Environmental Geography Group, Institute for Environmental Studies, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands</organizationName>
+      <electronicMailAddress>willem.verhagen@pbl.nl</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-9394-0741</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stefan</givenName>
+        <surName>Klotz</surName>
+      </individualName>
+      <organizationName>Department of Community Ecology, UFZ – Helmholtz Centre for Environmental Research, Halle (Saale), Germany</organizationName>
+      <electronicMailAddress>stefan.klotz@ufz.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-4355-6415</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Tim</givenName>
+        <surName>Newbold</surName>
+      </individualName>
+      <organizationName>United Nations Environment Programme World Conservation Monitoring Centre, Cambridge, United Kingdom</organizationName>
+      <organizationName>Centre for Biodiversity and Environment Research, Department of Genetics, Evolution and Environment, University College London, London, United Kingdom</organizationName>
+      <electronicMailAddress>t.newbold@ucl.ac.uk</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7361-0051</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Peter</givenName>
+        <givenName>H.</givenName>
+        <surName>Verburg</surName>
+      </individualName>
+      <organizationName>Environmental Geography Group, Institute for Environmental Studies, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands</organizationName>
+      <electronicMailAddress>p.h.verburg@vu.nl</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-6977-7104</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Martin</givenName>
+        <surName>Winter</surName>
+      </individualName>
+      <organizationName>iDiv – German Centre for Integrative Biodiversity Research, Leipzig, Germany</organizationName>
+      <organizationName>Leipzip University, Leipzig, Germany</organizationName>
+      <electronicMailAddress>marten.winter@idiv.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-9593-7300</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ralf</givenName>
+        <surName>Seppelt</surName>
+      </individualName>
+      <organizationName>Department Computational Landscape Ecology, UFZ – Helmholtz Centre for Environmental Research, Leipzig, Germany</organizationName>
+      <organizationName>Institute of Geoscience &amp; Geography, Martin-Luther-University Halle-Wittenberg, Halle (Saale), Germany</organizationName>
+      <electronicMailAddress>ralf.seppelt@ufz.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-2723-7150</userId>
+    </creator>
+    <pubDate>2020-06-03</pubDate>
+    <abstract>
+      <para>
+  Most current research on land‐use intensification addresses its
+  potential to either threaten biodiversity or to boost agricultural
+  production. However, little is known about the simultaneous effects of
+  intensification on biodiversity and yield. To determine the responses
+  of species richness and yield to conventional intensification, this
+  dataset was created and a global meta‐analysis on it was carried out,
+  thus synthesizing 115 studies. The dataset consists of 449 cases that
+  cover a variety of areas used for agricultural (crops, fodder) and
+  silvicultural (wood) production. It was found that across all
+  production systems and species groups, conventional intensification is
+  successful in increasing yield (grand mean + 20.3%), but it also
+  results in a loss of species richness (−8.9%). However, analysis of
+  sub‐groups revealed inconsistent results. Within high‐intensity
+  systems species losses were non‐significant but yield gains were
+  substantial (+15.2%). Conventional intensification within medium
+  intensity systems revealed the highest yield increase (+84.9%) and
+  showed the largest loss in species richness (−22.9%). Production
+  systems differed in their magnitude of richness response, with
+  insignificant changes in silvicultural systems and substantial losses
+  in crop systems (−21.2%). In addition, this meta‐analysis identifies a
+  lack of studies that collect robust biodiversity (i.e. beyond species
+  richness) and yield data at the same sites and that provide
+  quantitative information on land‐use intensity. These findings suggest
+  that, in many cases, conventional land‐use intensification drives a
+  trade‐off between species richness and production. However, species
+  richness losses were often not significantly different from zero,
+  suggesting even conventional intensification can result in yield
+  increases without coming at the expense of biodiversity loss. These
+  results, which were published in a paper titled Conventional land‐use
+  intensification reduces species richness and increases production: A
+  global meta‐analysis, could guide future research to close existing
+  research gaps, and to understand the circumstances required to achieve
+  such win‐win or win‐no‐harm situations in conventional agriculture.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Land use</keyword>
+      <keyword>meta-analysis</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>land use history</keyword>
+      <keyword>biodiversity</keyword>
+      <keyword>species richness</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data ("Data User" herein) is required
+  to cite it appropriately in any publication that results from its use.
+  The Data User should realize that these data may be actively used by
+  others for ongoing research and that coordination may be necessary to
+  prevent duplicate publication. The Data User is urged to contact the
+  authors of these data if any questions about methodology or results
+  occur. Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Global</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.4175</westBoundingCoordinate>
+          <eastBoundingCoordinate>175.25</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.416667</northBoundingCoordinate>
+          <southBoundingCoordinate>-37.8</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1994</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>The fully formatted methods are attached as pdf</description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+          <title>
+  Literature search and screening protocol
+</title>
+          <para>
+  A systematic review in compliance with the Preferred Reporting Items
+  for Systematic Reviews and Meta‐Analyses (PRISMA) framework (Moher,
+  2009). A search was carried out on the Web of Science database for
+  search terms related to land use, biodiversity and yield (see below
+  for the full search term and all refinement options employed). All
+  articles published since 1 January 1990 in English or Spanish were
+  included. The final search resulted in 9,909 studies.
+</para>
+          <para>
+  Studies meeting the following selection criteria were included:
+  Studies had to measure both species richness and yield in the same
+  site in response to the application of conventional land‐use
+  intensification. This included studies measuring the effect of
+  conventional intensification on several sites in response to different
+  intensities (i.e. space‐for‐time substitutes). Out of the full initial
+  set of papers, astracts of 6,116 sudies were manually screened.
+  Studies were retained only if they contained information about land
+  use, species richness, and/or yield. In order to filter the remaining
+  3,793 studies, a machine‐learning algorithm, based on ensembles of
+  Support Vector Machines (SVMs), was used (developed for systematic
+  reviews of the medical literature; see Wallace, Trikalinos, Lau,
+  Brodley, &amp; Schmid, 2010). The machine‐learning algorithm correctly
+  identified 84% of the manually screened studies as being relevant,
+  with a specificity of 51% (standard deviation 0.016), that is, the
+  model eliminated half of the irrelevant. The full text documents of
+  all studies identified as potentially relevant (1,371), both screened
+  manually or through machine learning, were acquired and processed
+  further.
+</para>
+          </section>
+          <section>
+          <title>
+  Data extraction and validation
+</title>
+          <para>
+  From these 1,371 studies, 115 studies had sufficient data to be
+  included. Means, standard deviations and sample sizes for control
+  (lower land‐use intensity) and treatment (higher land‐use intensity)
+  were extracted from the text, tables or figures (using ImageJ;
+  Schneider, Rasband, &amp; Eliceiri, 2012). If data were not completely
+  available in the main document and the Supplementary Material, it was
+  request requested from the corresponding author. Studies that did not
+  report means or sample sizes were excluded from the analysis. This
+  resulted in a total of 115 studies that were used in subsequent
+  analyses. Data coding and data review were undertaken by eight of the
+  co‐authors. Initially, studies were coded as a group to assure
+  inter‐coder consistency and reliability. Subsequently, frequent
+  internal reviews were conducted to maintain consistency. Each document
+  was coded by at least two of the co‐authors.
+</para>
+          <para>
+  Only those studies were incorporated which included, both, information
+  on species richness and yield in response to conventional land‐use
+  intensification in the same locations. The measurements for both
+  variables also had to be collected at the same area (but possibly in
+  differently sized plots), excluding studies that, for example,
+  measured species richness in plots or landscapes and used
+  coarser‐scale statistics (e.g. sub‐national) for yield. It was assumed
+  that the original study authors sampled yield and species richness
+  using appropriate spatial units for both. Based on the type of product
+  that was harvested the production system (crop, green fodder or wood)
+  was first classified according to the description of the land use
+  provided in the original paper.
+</para></section>
+          <section>
+          <title>
+  Land‐use intensity and intensification classification
+</title>
+          <para>
+  The classification system for land‐use intensity was based on a
+  pre‐defined set of management practices. Land‐use intensity was
+  defined based on energy use and labor as a combination of input
+  intensity (e.g. type of fertilizer/pesticide application) and aspects
+  related to output or harvest intensity (e.g. type of harvest, number
+  of harvests per year) but not the actual outputs (i.e. yields)
+  themselves in order to avoid circularity. While this conceptualization
+  of intensification will identify more intensive systems based on the
+  type of management practices implemented (e.g. no fertilizer
+  vs. organic vs. chemical fertilizer), it does not classify land‐use
+  intensity based on quantities of a management practice (e.g. kg
+  nitrogen applied per area). Thus, the classification of
+  intensification best reflects conventional intensification, rather
+  than other forms of intensification (e.g. sustainable intensification
+  in agriculture; Rockström et al., 2017) and it also allows for
+  comparisons across production systems and regions (Hudson et al.,
+  2014).
+</para>
+          <para>
+  For studying a gradient of land‐use intensification steps, first three
+  broad land‐use intensity classes were defined: low, medium and high,
+  with separate criteria for each of the globally most common production
+  systems: crops, wood and green fodder(see Table 1). In a second step,
+  we distinguished different degrees of conventional land‐use
+  intensification within each study in order to form intensification
+  cases for the subsequent analysis. Land‐use intensification could
+  occur in small steps, meaning an increase in pre‐existing management
+  activities that does not lead to substantial changes in the production
+  system (i.e. no change of land‐use intensity class). In this way,
+  cases for the intensification steps low‐low, medium‐medium and
+  high‐high were formed. More substantial changes in land‐use may lead
+  to a change of a production system into another land‐use intensity
+  class, resulting in cases covering the low‐medium, medium‐high and
+  low‐high intensification steps.
+</para>
+          <para>
+  By including measurements for different species groups and/or types of
+  yield, a publication could provide several cases of land‐use
+  intensification (e.g. one response of crop yield and the responses of
+  plants, birds and insects to a given intensification step would result
+  in three species richness cases and one yield case) leading to unequal
+  numbers of cases for species richness and yield.
+</para>
+          <para>
+  Case extraction from all 115 studies and based on different land‐use
+  intensification steps, taxa or product types as described above,
+  resulted in a total of 449 cases, 292 cases for species richness and
+  157 for yield.
+</para></section>
+          <section>
+          <title>
+  Full Web of Science search term
+</title>
+          <para>
+  TOPIC search term:
+</para>
+          <para>
+  (( ( (land use OR land*use OR (*forest* AND (plantation OR
+  silvicult* OR *cut* OR logg*)) OR agro*forest* OR
+  field* OR farm* OR agricult* OR grassland* OR pasture*
+  OR rangeland OR meadow* OR cropland OR fertiliz* OR pesticid*
+  OR fungicid* OR herbicid* OR irriga* )
+</para>
+          <para>
+  AND
+</para>
+          <para>
+  (diversity OR species richness OR biodiversity OR (taxonomic AND
+  richness) OR (abundance* AND species) OR even*ess OR shannon OR
+  simpson )
+</para>
+          <para>
+  (provisioning OR producti* OR food OR fodder OR feed OR fibre OR
+  logg* OR fuel OR commodit* OR harvest* OR wood OR timber OR
+  coffee OR cacao OR crop* OR yield* OR oil) )
+</para>
+          <para>
+  NOT
+</para>
+          <para>
+  (solar cell OR *polymer* OR genom* OR spectrum OR nano* OR
+  *tpase* OR DNA OR brain OR semicond* OR receptor OR memory OR
+  lymph* OR neuro* OR *electr* OR mitoch* OR *plankton
+  OR optic* OR marrow OR methan* OR clone OR cloning OR
+  protein* OR pharmac* OR RNA OR *blast* OR epithel* OR
+  chromat* OR membra* OR coral OR Cell OR marine OR fish* OR
+  prokaryo* OR ocean* OR *porou* OR cortex OR crystal OR
+  marine OR aerosol* OR hydrolog* OR hexamer OR atom* OR
+  molecule* OR oxida* OR dioxide OR enzyme* OR Bose-Einstein OR
+  *catalyt* OR pacemak* OR mars OR galaxy OR *galact* OR
+  diabet* OR pluto* OR cardi* OR cadmium OR arabidopsis OR
+  sexual OR glacial OR calcium OR ligament OR soil organic carbon OR
+  radiation OR gibberellin* OR 3D OR sensor* OR new species OR
+  hominin OR coast* OR infect* OR meta-analys* OR transpiration
+  OR scenario* OR projected OR soil-rock OR termite-fungus OR
+  termitomyces OR pathogenicity OR panicle OR rainwater harvesting OR
+  crown architecture OR xray OR tomography OR household OR recycling OR
+  imaging OR during succession OR ball* OR root rot OR trichoderma
+  harzianum OR isolation trails OR pot experiment OR cloud immersion OR
+  pimp OR radioactive contamination OR Chernobyl OR radiocaesium OR
+  ragweed OR bruise OR machine vision OR plasma OR insulin OR linoleic
+  OR infest* OR galling OR glucosid* OR allel* OR blood OR
+  radial OR poison* OR milk OR subsurface OR evapotranspiration OR
+  phytotron OR CH4 OR inflow OR detergent OR styrox OR ewe OR p
+  resorption OR bull* OR pig production OR wean* OR diarrhoea OR
+  prototype OR energy waste OR group discussion OR computer runs OR
+  land-classification strategies OR household OR interview OR flav*
+  OR jena experiment ) ))
+</para>
+          <para>
+  NOT in TITLE:
+</para>
+          <para>
+  ((model* OR wastewater OR contamination OR equation OR groundwater
+  OR coefficient OR pore OR learning OR innovation OR flux* OR
+  niche* OR demograph* OR urban* OR rehabilitat* OR
+  cognit* OR stress* OR knowledge OR therapy OR somatic OR mining
+  OR mineral* OR tool OR simula* OR fan OR sprayer OR bench OR
+  poverty OR an index OR a new index OR bureaucra* OR epidem* OR
+  review* OR synthes* OR disease OR infect* OR School OR
+  teach* OR MRI OR *informatic* OR radio* OR vector OR
+  labor* OR power OR depression OR kitchen OR *remediat* OR
+  cranium OR river OR lake OR burrow* OR litter OR *algebra* OR
+  industry OR earthquake OR elephant OR radio* OR wheel OR rail OR
+  thrust OR ray OR program OR account* OR perceiv* OR percept*
+  OR incent* OR debate* OR future OR view OR female* OR
+  male* OR greenhouse* OR xylem OR phloem OR hydroponic* OR
+  endophy* OR math* OR signal* OR embryo* OR anatom* OR
+  allelopath* OR opinion* OR capital* OR enterpris* OR
+  compound* OR trout OR plastic OR discharg* OR advice OR
+  stoichiometr* OR iodine OR involucr* OR N-15* OR mutualism OR
+  wildfire* OR volatile OR emmission* OR climate zoning OR
+  ordination OR ration OR slaughtered OR force OR break* OR
+  protogynous OR out-crossed OR outcrossed OR comment* OR
+  forecast* OR aquat* OR probability OR prediction))
+</para>
+          <para>
+  NOT in PUBLICATION NAME:
+</para>
+          <para>
+  (( PLANT DISEASE OR NUTRIENT CYCLING IN AGROECOSYSTEMS OR WEED
+  TECHNOLOGY OR WEED TECHNOLOGY OR WEED RESEARCH OR SOIL SCIENCE SOCIETY
+  OF AMERICA JOURNAL OR EURASIAN SOIL SCIENCE OR TREE PHYSIOLOGY OR
+  TREES STRUCTURE AND FUNCTION OR CHEMOSPHERE OR TRANSACTIONS OF THE
+  ASAE OR soil tillage OR Economic Botany OR trends in ecology OR
+  opinions OR policy OR philosophical OR LAND USE POLICY))
+</para>
+          <para>
+  Refined by:
+</para>
+          <para>
+  Timespan=1990-2014
+</para>
+          <para>
+  Search language=Auto
+</para>
+          <para>
+  RESEARCH DOMAINS=( SCIENCE TECHNOLOGY ) AND [excluding] DOCUMENT
+  TYPES=( ABSTRACT OR CORRECTION OR BIOGRAPHY OR MEETING OR BOOK OR
+  OTHER OR BIBLIOGRAPHY OR REVIEW OR LETTER OR REPORT OR ART AND
+  LITERATURE OR EDITORIAL OR NEWS OR CASE REPORT ) AND LANGUAGES=(
+  ENGLISH ) AND [excluding] LANGUAGES=( SPANISH OR PORTUGUESE OR DANISH
+  OR FRENCH OR CHINESE OR JAPANESE OR SLOVAK OR GERMAN OR CZECH OR
+  AFRIKAANS OR SLOVENIAN OR ESTONIAN ) AND RESEARCH AREAS=(
+  ENVIRONMENTAL SCIENCES ECOLOGY OR AGRICULTURE OR PLANT SCIENCES OR
+  SCIENCE TECHNOLOGY OTHER TOPICS OR FORESTRY OR EVOLUTIONARY BIOLOGY OR
+  BIODIVERSITY CONSERVATION OR LIFE SCIENCES BIOMEDICINE OTHER TOPICS )
+  AND [excluding] RESEARCH AREAS=( CHEMISTRY OR MARINE FRESHWATER
+  BIOLOGY OR MATERIALS SCIENCE OR ENGINEERING OR BIOCHEMISTRY MOLECULAR
+  BIOLOGY OR GENETICS HEREDITY OR FOOD SCIENCE TECHNOLOGY OR WATER
+  RESOURCES OR ZOOLOGY OR PHYSICS OR BIOTECHNOLOGY APPLIED MICROBIOLOGY
+  OR METEOROLOGY ATMOSPHERIC SCIENCES OR GEOLOGY OR ENERGY FUELS OR
+  OCEANOGRAPHY OR PHYSICAL GEOGRAPHY OR TOXICOLOGY OR BUSINESS ECONOMICS
+  OR VETERINARY SCIENCES OR PUBLIC ENVIRONMENTAL OCCUPATIONAL HEALTH OR
+  PHARMACOLOGY PHARMACY OR MICROBIOLOGY OR CELL BIOLOGY OR MATHEMATICAL
+  COMPUTATIONAL BIOLOGY ) AND [excluding] RESEARCH AREAS=( BIOPHYSICS OR
+  DEMOGRAPHY OR RADIOLOGY NUCLEAR MEDICINE MEDICAL IMAGING OR PSYCHOLOGY
+  OR REPRODUCTIVE BIOLOGY OR ARCHITECTURE OR PHYSIOLOGY OR INFORMATION
+  SCIENCE LIBRARY SCIENCE OR HISTORY PHILOSOPHY OF SCIENCE OR OPTICS OR
+  MICROSCOPY OR DEVELOPMENTAL BIOLOGY OR ANATOMY MORPHOLOGY OR MINING
+  MINERAL PROCESSING OR RESEARCH EXPERIMENTAL MEDICINE OR COMMUNICATION
+  OR ENTOMOLOGY OR MYCOLOGY OR PATHOLOGY OR ANTHROPOLOGY OR
+  INTERNATIONAL RELATIONS OR NEUROSCIENCES NEUROLOGY OR REMOTE SENSING
+  OR SOCIAL SCIENCES OTHER TOPICS OR CONSTRUCTION BUILDING TECHNOLOGY OR
+  PALEONTOLOGY OR NUCLEAR SCIENCE TECHNOLOGY OR INSTRUMENTS
+  INSTRUMENTATION OR IMAGING SCIENCE PHOTOGRAPHIC TECHNOLOGY OR
+  FISHERIES OR GENERAL INTERNAL MEDICINE OR GEOGRAPHY OR GOVERNMENT LAW
+  OR PHILOSOPHY OR URBAN STUDIES OR ENDOCRINOLOGY METABOLISM OR SOCIAL
+  ISSUES OR COMPUTER SCIENCE OR EDUCATION EDUCATIONAL RESEARCH OR
+  IMMUNOLOGY OR SOCIOLOGY OR TRANSPORTATION OR ARTS HUMANITIES OTHER
+  TOPICS OR PUBLIC ADMINISTRATION OR HISTORY OR LITERATURE OR
+  MATHEMATICS )
+</para></section>
+          <section>
+          <title>
+  Table 1 | Characterization of land-use intensity classes. The land-use
+  intensity classes low, medium and high were characterized separately
+  for the three product groups crops, green fodder and wood. Land-use
+  intensity was associated to a certain class based on core aspects of
+  land-use (e.g. fertilizer application, grazing regime, species
+  management). This was done separately for each product type. Land-use
+  intensity Crops Green fodder Wood </title>
+            <para>
+  Low - Crops biological pest control, no fertilization rotational cultivation, possibly with fallow year,
+  natural irrigation
+</para>
+          <para>
+  Low - Green Fodder: biological pest control, no fertilization, low
+  density grazing, no signs of overgrazing, occasional mowing, no
+  addition/removal of species
+</para>
+          <para>
+  Low - Wood: either combination of or low selective and partial logging,
+  no fertilization, low levels of thinning, heterogeneous age structure,
+  naturally developing forest, usually multiple species forest
+</para>
+          <para>
+  Medium - Crops: targeted pesticides natural fertilization monocultures
+  single harvest per year, occasional man-made irrigation
+</para>
+          <para>
+  Medium - Green Fodder: targeted pesticides, natural fertilization, medium
+  density grazing, no signs of overgrazing, regular mowing, some
+  addition/removal of species
+</para>
+          <para>
+  Medium - Wood: selective or partial logging in whole forest area,
+  natural fertilizer, conventional thinning, removal of non-production
+  trees/understorey, homogeneous age structure, managed natural
+  forests/low intensity plantation forest
+</para>
+          <para>
+  High - Green Fodder: non-targeted pesticides, chemical fertilization,
+  high density grazing, signs of overgrazing, regular mowing, multiple
+  harvest/year addition/removal of species, monocultures
+</para>
+          <para>
+  High - Wood: clear cut, chemical fertilization, chemical thinning, very
+  high levels of thinning, plantation of exotic species, homogenous
+  age/species structure, removal of understorey
+</para></section>
+          <section>
+          <title>
+  Table 2 Description of data used in the analysis. Overview and
+  meta-data of the variables either coded directly from the studies or
+  extracted from external data sources and used in the analysis.
+</title>
+          <para>
+  Study Case - Each study-case corresponds to a unique set of response
+  statistics. Hence, a single study can include multiple cases if it
+  reports on more than two land-use intensities, species groups, or
+  products, or if it reports on several locations that differ in
+  covariates, e.g. climate. </para>
+            <para>
+  Longitude/Latitude - The geographic location
+  of a study either as directly reported by the authors or, if missing,
+  georeferenced by the coders based on a location description.</para>
+            <para>
+  Intensification step - Level of baseline and increased land-use
+  intensity class based on the classification given in table 1. The
+  intensity classes low, medium and high were used to form pairs
+  ([initial]-[final]) of intensification steps (low-low, low-medium,
+  medium-medium, medium-high, high-high and low-high). 
+  </para>
+            <para>Species group -
+  Broad class of species group, i.e. vertebrates, invertebrates, and
+  plants. Product - Broad class of harvested product, i.e. crop, green
+  fodder, and wood. </para>
+            <para>
+  Climate - Broad climate zone according to the
+  Köppen-Geiger climate classification, i.e. polar, cold (continental),
+  temperate, arid, and tropical. </para>
+            <para>Land-use history - Broad class of time
+  of first significant use (table 3), i.e. 5950 BC, 50 BC, 1450, 1950,
+  after 1950. And categorized according to the major developments of
+  agriculture. </para>
+            <para>Dependency of yield and species richness measure - An
+  indication of whether species richness and yield are measured from the
+  same species group, in which case species richness and production are
+  considered to be linked rather than independent.</para>
+            <para>Dependency of
+  intensity class and yield measure - An indication of whether land-use
+  intensity step is based on yield, in which case yield is considered to
+  be linked to intensity rather than independent. For example the
+  harvesting technique in forest (e.g. clear cut, selective logging) is
+  used to define the land-use intensity class and also determines the
+  amount of extracted yield.
+</para></section>
+          <section>
+          <title>
+  Table 3 Overview of the five major stages of history land-use applied
+  in the analysis. Numbers given in brackets are species richness/yield
+  cases that fall within one of the land-use history classes.
+</title>
+          <para>
+  Land use history class (including all cells with greater than 20% used
+  area) Short characterization of land-use intensification World regions
+  of main agricultural area expansion</para>
+            <para>Origin of agriculture (Neolithic
+  Revolution), until 5,950 B.C. (n=21/9) Domestication of the first main
+  crops (emmer, einkorn, wheat, barley, peas, lentils, rice, etc.) and
+  agricultural animals. The fertile crescent (Levante), China, New
+  Guinea, Central and South America (Andean region)</para>
+            <para>Expansion of
+  agriculture, 5,950 B.C. - 50 B.C. (n=115/57) Significant enlargement
+  of agriculture especially in Central and South America, and the Sahel
+  region of Africa, new domesticated crops and animals, cotton in Peru,
+  maize in Central America. Africa, Europe, Central and South America</para>
+  <para>Middle Ages, 50 B.C. - 1.450 A.D. (n=35/23)Further enlargement of
+  agriculture, especially in the temperate and boreal zone in the Old
+  World Europe, Asia, Africa, Central and South America</para>
+            <para>Modern
+  agriculture, 1,450 - 1,950 A.D. (n=47/23) From first technological
+  advances, (e.g. three-field system, exchange of Old World and New
+  World crops, livestock exchange) to the first agricultural revolution
+  (e.g. first machineries, four-field system, artificial fertilizers).
+  Include the beginning of global industrialization of agriculture,
+  broad use of mineral fertilizers and pesticides.</para>
+            <para>Global Green
+  Revolution, 1,950 - today (n= 74/36) New breeds in crops and
+  livestock, genetically modified organism and new pesticides Global
+</para></section>
+          <section>
+          <title>
+  Literature used
+</title>
+          <para>
+  Adekunle, V.A.J., Olagoke, A.O. &amp; Ogundare, L.F. (2013). Timber
+  exploitation rate in tropical rainforest ecosystem of southwest
+  Nigeria and its implications on sustainable forest management. Applied
+  Ecology and Environmental Research, 11, 123–136
+</para>
+          <para>
+  Annand, E.M. &amp; Thompson III, F.R. (1997). Forest bird response to
+  regeneration practices in central hardwood forests. The Journal of
+  Wildlife Management, 61, 159–171
+</para>
+          <para>
+  Baker, M.D. &amp; Lacki, M.J. (1997). Short-term changes in bird
+  communities in response to silvicultural prescriptions. Forest ecology
+  and management, 96, 27–36
+</para>
+          <para>
+  Batáry, P., Sutcliffe, L., Dormann, C.F. &amp; Tscharntke, T. (2013).
+  Organic farming favours insect-pollinated over non-insect pollinated
+  forbs in meadows and wheat fields. PloS one, 8, e54818
+</para>
+          <para>
+  Battles, J.J., Shlisky, A.J., Barrett, R.H., Heald, R.C. &amp;
+  Allen-Diaz, B.H. (2001). The effects of forest management on plant
+  species diversity in a Sierran conifer forest. Forest ecology and
+  management, 146, 211–222
+</para>
+          <para>
+  Beltman, B., Willems, J.H. &amp; Güsewell, S. (2007). Flood events
+  overrule fertiliser effects on biomass production and species richness
+  in riverine grasslands. Journal of Vegetation Science, 18, 625–634
+</para>
+          <para>
+  Boch, S., Prati, D., Hessenmöller, D., Schulze, E.-D. &amp; Fischer,
+  M. (2013a). Richness of lichen species, especially of threatened ones,
+  is promoted by management methods furthering stand continuity. PloS
+  one, 8, e55461
+</para>
+          <para>
+  Boch, S., Prati, D., Müller, J., Socher, S., Baumbach, H., Buscot, F.,
+  et al. (2013b). High plant species richness indicates
+  management-related disturbances rather than the conservation status of
+  forests. Basic and applied ecology, 14, 496–505
+</para>
+          <para>
+  Boncina, A., Kadunc, A. &amp; Robic, D. (2007). Effects of selective
+  thinning on growth and development of beech (Fagus sylvatica L.)
+  forest stands in south-eastern Slovenia. Annals of forest science, 64,
+  47–57
+</para>
+          <para>
+  Boreux, V., Kushalappa, C.G., Vaast, P. &amp; Ghazoul, J. (2013).
+  Interactive effects among ecosystem services and management practices
+  on crop production: pollination in coffee agroforestry systems.
+  Proceedings of the National Academy of Sciences, 110, 8387–8392
+</para>
+          <para>
+  Boström, U. &amp; Fogelfors, H. (2002). Long-term effects of
+  herbicide-application strategies on weeds and yield in spring-sown
+  cereals. Weed science, 50, 196–203
+</para>
+          <para>
+  Boström, U. &amp; Fogelfors, H. akan. (1999). Type and time of autumn
+  tillage with and without herbicides at reduced rates in southern
+  Sweden: 2. Weed flora and diversity. Soil and Tillage Research, 50,
+  283–293
+</para>
+          <para>
+  Campiglia, E., Radicetti, E. &amp; Mancinelli, R. (2012). Weed control
+  strategies and yield response in a pepper crop (Capsicum annuum L.)
+  mulched with hairy vetch (Vicia villosa Roth.) and oat (Avena sativa
+  L.) residues. Crop Protection, 33, 65–73
+</para>
+          <para>
+  Chen, J., Yamamura, Y., Hori, Y., Shiyomi, M., Yasuda, T., Zhou, H.,
+  et al. (2008). Small-scale species richness and its spatial variation
+  in an alpine meadow on the Qinghai-Tibet Plateau. Ecological research,
+  23, 657–663
+</para>
+          <para>
+  Chizinski, C.J., Peterson, A., Hanowski, J., Blinn, C.R., Vondracek,
+  B. &amp; Niemi, G. (2011). Breeding bird response to partially
+  harvested riparian management zones. Forest Ecology and Management,
+  261, 1892–1900
+</para>
+          <para>
+  Clarke, F.M., Pio, D.V. &amp; Racey, P.A. (2005). A comparison of
+  logging systems and bat diversity in the Neotropics. Conservation
+  Biology, 19, 1194–1204
+</para>
+          <para>
+  Clough, Y., Kruess, A. &amp; Tscharntke, T. (2007). Organic versus
+  conventional arable farming systems: functional grouping helps
+  understand staphylinid response. Agriculture, ecosystems &amp;
+  environment, 118, 285–290
+</para>
+          <para>
+  Cole, H.A., Newmaster, S.G., Lanteigne, L. &amp; Pitt, D. (2008).
+  Long-term outcome of precommercial thinning on floristic diversity in
+  north western New Brunswick, Canada. iForest-Biogeosciences and
+  Forestry, 1, 145–156
+</para>
+          <para>
+  Čop, J., Vidrih, M. &amp; Hacin, J. (2009). Influence of cutting
+  regime and fertilizer application on the botanical composition, yield
+  and nutritive value of herbage of wet grasslands in Central Europe.
+  Grass and Forage Science, 64, 454–465
+</para>
+          <para>
+  Crow, T.R., Buckley, D.S., Nauertz, E.A. &amp; Zasada, J.C. (2002).
+  Effects of management on the composition and structure of northern
+  hardwood forests in Upper Michigan. Forest Science, 48, 129–145
+</para>
+          <para>
+  Decocq, G., Aubert, M., Dupont, F., Alard, D., Saguez, R.,
+  Wattez-Franger, A., et al. (2004). Plant diversity in a managed
+  temperate deciduous forest: understorey response to two silvicultural
+  systems. Journal of Applied Ecology, 41, 1065–1079
+</para>
+          <para>
+  Dickson, T.L. &amp; Gross, K.L. (2013). Plant community responses to
+  long-term fertilization: changes in functional group abundance drive
+  changes in species richness. Oecologia, 173, 1513–1520
+</para>
+          <para>
+  Dolanc, C.R., Gorchov, D.L. &amp; Cornejo, F. (2003). The effects of
+  silvicultural thinning on trees regenerating in strip clear-cuts in
+  the Peruvian Amazon. Forest Ecology and Management, 182, 103–116
+</para>
+          <para>
+  Drinkwater, L.E., Letourneau, D.K., Workneh, F., Van Bruggen, A.H.C.
+  &amp; Shennan, C. (1995). Fundamental differences between conventional
+  and organic tomato agroecosystems in California. Ecological
+  applications, 5, 1098–1112
+</para>
+          <para>
+  Edenius, L., Mikusiński, G., Witzell, J. &amp; Bergh, J. (2012).
+  Effects of repeated fertilization of young Norway spruce on foliar
+  phenolics and arthropods: implications for insectivorous birds’ food
+  resources. Forest Ecology and Management, 277, 38–45
+</para>
+          <para>
+  Edwards, D.P., Woodcock, P., Edwards, F.A., Larsen, T.H., Hsu, W.W.,
+  Benedick, S., et al. (2012). Reduced-impact logging and biodiversity
+  conservation: a case study from Borneo. Ecological Applications, 22,
+  561–571
+</para>
+          <para>
+  van Eekeren, N., de Boer, H., Bloem, J., Schouten, T., Rutgers, M., de
+  Goede, R., et al. (2009). Soil biological quality of grassland
+  fertilized with adjusted cattle manure slurries in comparison with
+  organic and inorganic fertilizers. Biology and fertility of soils, 45,
+  595–608
+</para>
+          <para>
+  Etcheverry, P., Ouellet, J.-P. &amp; Crête, M. (2005). Response of
+  small mammals to clear-cutting and precommercial thinning in mixed
+  forests of southeastern Quebec. Canadian Journal of Forest Research,
+  35, 2813–2822
+</para>
+          <para>
+  Freemark, K.E. &amp; Kirk, D.A. (2001). Birds on organic and
+  conventional farms in Ontario: partitioning effects of habitat and
+  practices on species composition and abundance. Biological
+  Conservation, 101, 337–350
+</para>
+          <para>
+  Gabriel, D., Sait, S.M., Kunin, W.E. &amp; Benton, T.G. (2013). Food
+  production vs. biodiversity: comparing organic and conventional
+  agriculture. Journal of Applied Ecology, 50, 355–364
+</para>
+          <para>
+  Gamoun, M. (2014). Grazing intensity effects on the vegetation in
+  desert rangelands of Southern Tunisia. Journal of Arid Land, 6,
+  324–333
+</para>
+          <para>
+  Geiger, F., de Snoo, G.R., Berendse, F., Guerrero, I., Morales, M.B.,
+  Onate, J.J., et al. (2010). Landscape composition influences farm
+  management effects on farmland birds in winter: a pan-European
+  approach. Agriculture, ecosystems &amp; environment, 139, 571–577
+</para>
+          <para>
+  Ghazoul, J. (2002). Impact of logging on the richness and diversity of
+  forest butterflies in a tropical dry forest in Thailand. Biodiversity
+  &amp; Conservation, 11, 521–541
+</para>
+          <para>
+  González-Alday, J., Martínez-Ruiz, C. &amp; Bravo, F. (2009).
+  Evaluating different harvest intensities over understory plant
+  diversity and pine seedlings, in a Pinus pinaster Ait. natural stand
+  of Spain. Plant Ecology, 201, 211–220
+</para>
+          <para>
+  Gourlet-Fleury, S., Mortier, F., Fayolle, A., Baya, F., Ouédraogo, D.,
+  Bénédet, F., et al. (2013). Tropical forest recovery from logging: a
+  24 year silvicultural experiment from Central Africa. Philosophical
+  Transactions of the Royal Society of London B: Biological Sciences,
+  368, 20120302
+</para>
+          <para>
+  Greenberg, C.H., Harris, L.D. &amp; Neary, D.G. (1995). A comparison
+  of bird communities in burned and salvage-logged, clearcut, and
+  forested Florida sand pine scrub. The Wilson Bulletin, 107, 40–54
+</para>
+          <para>
+  Greenberg, C.H. &amp; Thomas, M.C. (1995). Effects of forest
+  management practices on terrestrial coleopteran assemblages in sand
+  pine scrub. Florida entomologist, 78, 271–285
+</para>
+          <para>
+  Grimbacher, P.S., Catterall, C.P., Kanowski, J. &amp; Proctor, H.C.
+  (2007). Responses of ground-active beetle assemblages to different
+  styles of reforestation on cleared rainforest land. Biodiversity and
+  Conservation, 16, 2167–2184
+</para>
+          <para>
+  Gross, N., Bloor, J.M., Louault, F., Maire, V. &amp; Soussana, J.-F.
+  (2009). Effects of land-use change on productivity depend on
+  small-scale plant species diversity. Basic and Applied Ecology, 10,
+  687–696
+</para>
+          <para>
+  Haeussler, S. &amp; Kabzems, R. (2005). Aspen plant community response
+  to organic matter removal and soil compaction. Canadian journal of
+  forest research, 35, 2030–2044
+</para>
+          <para>
+  Hautier, Y., Seabloom, E.W., Borer, E.T., Adler, P.B., Harpole, W.S.,
+  Hillebrand, H., et al. (2014). Eutrophication weakens stabilizing
+  effects of diversity in natural grasslands. Nature, 508, 521–525
+</para>
+          <para>
+  Haysom, K.A., McCracken, D.I., Foster, G.N. &amp; Sotherton, N.W.
+  (2004). Developing grassland conservation headlands: response of
+  carabid assemblage to different cutting regimes in a silage field
+  edge. Agriculture, ecosystems &amp; environment, 102, 263–277
+</para>
+          <para>
+  Hedwall, P.-O., Strengbom, J. &amp; Nordin, A. (2013). Can thinning
+  alleviate negative effects of fertilization on boreal forest floor
+  vegetation? Forest Ecology and Management, 310, 382–392
+</para>
+          <para>
+  Hejcman, M., Češková, M., Schellberg, J. &amp; Pätzold, S. (2010). The
+  Rengen Grassland Experiment: effect of soil chemical properties on
+  biomass production, plant species composition and species richness.
+  Folia Geobotanica, 45, 125–142
+</para>
+          <para>
+  Higgins, S.I., Shackleton, C.M. &amp; Robinson, E.R. (1999). Changes
+  in woody community structure and composition under constrasting
+  landuse systems in a semi-arid savanna, South Africa. Journal of
+  Biogeography, 26, 619–627
+</para>
+          <para>
+  Holbech, L.H. (2005). The implications of selective logging and forest
+  fragmentation for the conservation of avian diversity in evergreen
+  forests of south-west Ghana. Bird Conservation International, 15,
+  27–52
+</para>
+          <para>
+  Hylander, K., Nilsson, C. &amp; Göthner, T. (2004). Effects of
+  buffer-strip retention and clearcutting on land snails in boreal
+  riparian forests. Conservation Biology, 18, 1052–1062
+</para>
+          <para>
+  Imai, N., Seino, T., Aiba, S., Takyu, M., Titin, J. &amp; Kitayama, K.
+  (2012). Effects of selective logging on tree species diversity and
+  composition of Bornean tropical rain forests at different spatial
+  scales. Plant Ecol, 213, 1413–1424
+</para>
+          <para>
+  Isselstein, J., Griffith, B.A., Pradel, P. &amp; Venerus, S. (2007).
+  Effects of livestock breed and grazing intensity on biodiversity and
+  production in grazing systems. 1. Nutritive value of herbage and
+  livestock performance. Grass and Forage Science, 62, 145–158
+</para>
+          <para>
+  Jenkins, M.A. &amp; Parker, G.R. (1998). Composition and diversity of
+  woody vegetation in silvicultural openings of southern Indiana
+  forests. Forest Ecology and Management, 109, 57–74
+</para>
+          <para>
+  Jones, D.T., Susilo, F.X., Bignell, D.E., Hardiwinoto, S., Gillison,
+  A.N. &amp; Eggleton, P. (2003). Termite assemblage collapse along a
+  land-use intensification gradient in lowland central Sumatra,
+  Indonesia. Journal of Applied Ecology, 40, 380–391
+</para>
+          <para>
+  Kaur, K., Jalota, R.K., Midmore, D.J. &amp; Rolfe, J. (2005). Pasture
+  production in cleared and uncleared grazing systems of central
+  Queensland, Australia. The Rangeland Journal, 27, 143–149
+</para>
+          <para>
+  Kern, C.C., Palik, B.J. &amp; Strong, T.F. (2006). Ground-layer plant
+  community responses to even-age and uneven-age silvicultural
+  treatments in Wisconsin northern hardwood forests. Forest Ecology and
+  Management, 230, 162–170
+</para>
+          <para>
+  Klaus, V.H., Kleinebecker, T., Prati, D., Gossner, M.M., Alt, F.,
+  Boch, S., et al. (2013). Does organic grassland farming benefit plant
+  and arthropod diversity at the expense of yield and soil fertility?
+  Agriculture, ecosystems &amp; environment, 177, 1–9
+</para>
+          <para>
+  Klein, A.-M., Brittain, C., Hendrix, S.D., Thorp, R., Williams, N.
+  &amp; Kremen, C. (2012). Wild pollination services to California
+  almond rely on semi-natural habitat. Journal of Applied Ecology, 49,
+  723–732
+</para>
+          <para>
+  Kramberger, B. &amp; Kaligaric, M. (2008). Semi-natural grasslands:
+  the effects of cutting frequency on long-term changes of floristic
+  composition. Polish journal of Ecology, 56, 33
+</para>
+          <para>
+  Krogmann, U., Rogers, B.F. &amp; Kumudini, S. (2008). Effects of
+  mulching blueberry plants with cranberry fruits and leaves on yield,
+  nutrient uptake and weed suppression. Compost Science &amp;
+  Utilization, 16, 220–227
+</para>
+          <para>
+  Laiolo, P., Caprio, E. &amp; Rolando, A. (2004). Can forest management
+  have season-dependent effects on bird diversity? Biodiversity &amp;
+  Conservation, 13, 1925–1941
+</para>
+          <para>
+  Lanta, V., Doležal, J., Lantová, P., Kelíšek, J. &amp; Mudrák, O.
+  (2009). Effects of pasture management and fertilizer regimes on
+  botanical changes in species-rich mountain calcareous grassland in
+  Central Europe. Grass and Forage Science, 64, 443–453
+</para>
+          <para>
+  Lei, X., Lu, Y., Peng, C., Zhang, X., Chang, J. &amp; Hong, L. (2007).
+  Growth and structure development of semi-natural larch-spruce-fir
+  (Larix olgensis–Picea jezoensis–Abies nephrolepis) forests in
+  northeast China: 12-year results after thinning. Forest Ecology and
+  Management, 240, 165–177
+</para>
+          <para>
+  Lomba, A., Vicente, J., Moreira, F. &amp; Honrado, J. (2011). Effects
+  of multiple factors on plant diversity of forest fragments in
+  intensive farmland of Northern Portugal. Forest Ecology and
+  Management, 262, 2219–2228
+</para>
+          <para>
+  Maeto, K. &amp; Sato, S. (2004). Impacts of forestry on ant species
+  richness and composition in warm-temperate forests of Japan. Forest
+  Ecology and Management, 187, 213–223
+</para>
+          <para>
+  Mastrangelo, M.E. &amp; Gavin, M.C. (2012). Trade-offs between cattle
+  production and bird conservation in an agricultural frontier of the
+  Gran Chaco of Argentina. Conservation Biology, 26, 1040–1051
+</para>
+          <para>
+  Mayer, R., Kaufmann, R., Vorhauser, K. &amp; Erschbamer, B. (2009).
+  Effects of grazing exclusion on species composition in high-altitude
+  grasslands of the Central Alps. Basic and Applied Ecology, 10, 447–455
+</para>
+          <para>
+  Mosquera-Losada, M.R., Rodríguez-Barreira, S., López-Díaz, M.L.,
+  Fernández-Núñez, E. &amp; Rigueiro-Rodríguez, A. (2009). Biodiversity
+  and silvopastoral system use change in very acid soils. Agriculture,
+  ecosystems &amp; environment, 131, 315–324
+</para>
+          <para>
+  Mudrák, O., Doležal, J., Hájek, M., Dančák, M., Klimeš, L. &amp;
+  Klimešová, J. (2013). Plant seedlings in a species-rich meadow: effect
+  of management, vegetation type and functional traits. Applied
+  Vegetation Science, 16, 286–295
+</para>
+          <para>
+  Müller, J., Bußler, H. &amp; Kneib, T. (2008). Saproxylic beetle
+  assemblages related to silvicultural management intensity and stand
+  structures in a beech forest in Southern Germany. Journal of Insect
+  Conservation, 12, 107–124
+</para>
+          <para>
+  Müller, J., Engel, H. &amp; Blaschke, M. (2007). Assemblages of
+  wood-inhabiting fungi related to silvicultural management intensity in
+  beech forests in southern Germany. European Journal of Forest
+  Research, 126, 513–527
+</para>
+          <para>
+  Müller, J., Klaus, V.H., Kleinebecker, T., Prati, D., Hölzel, N. &amp;
+  Fischer, M. (2012). Impact of land-use intensity and productivity on
+  bryophyte diversity in agricultural grasslands. PloS one, 7, e51520
+</para>
+          <para>
+  Murrieta-Galindo, R., González-Romero, A., López-Barrera, F. &amp;
+  Parra-Olea, G. (2013). Coffee agrosystems: an important refuge for
+  amphibians in central Veracruz, Mexico. Agroforestry systems, 87,
+  767–779
+</para>
+          <para>
+  Nagaike, T., Kamitani, T. &amp; Nakashizuka, T. (2005). Effects of
+  different forest management systems on plant species diversity in a
+  Fagus crenata forested landscape of central Japan. Canadian Journal of
+  Forest Research, 35, 2832–2840
+</para>
+          <para>
+  Norvez, O., Hébert, C. &amp; Bélanger, L. (2013). Impact of salvage
+  logging on stand structure and beetle diversity in boreal balsam fir
+  forest, 20 years after a spruce budworm outbreak. Forest Ecology and
+  Management, 302, 122–132
+</para>
+          <para>
+  Økland, T., Rydgren, K., Økland, R.H., Storaunet, K.O. &amp; Rolstad,
+  J. (2003). Variation in environmental conditions, understorey species
+  number, abundance and composition among natural and managed Picea
+  abies forest stands. Forest Ecology and Management, 177, 17–37
+</para>
+          <para>
+  Oomes, M.J.M. &amp; Van der Werf, A. (1996). Restoration of species
+  diversity in grasslands: the effect of grassland management and
+  changes in ground water level. Acta botanica gallica, 143, 451–461
+</para>
+          <para>
+  Otto, R., García-del-Rey, E., Méndez, J. &amp; Fernández-Palacios,
+  J.M. (2012). Effects of thinning on seed rain, regeneration and
+  understory vegetation in a Pinus canariensis plantation (Tenerife,
+  Canary Islands). Forest Ecology and Management, 280, 71–81
+</para>
+          <para>
+  Paradis, S. &amp; Work, T.T. (2011). Partial cutting does not maintain
+  spider assemblages within the observed range of natural variability in
+  eastern Canadian black spruce forests. Forest Ecology and Management,
+  262, 2079–2093
+</para>
+          <para>
+  Parrotta, J.A., Francis, J.K. &amp; Knowles, O.H. (2002). Harvesting
+  intensity affects forest structure and composition in an upland
+  Amazonian forest. Forest ecology and management, 169, 243–255
+</para>
+          <para>
+  Parthasarathy, N. (1999). Tree diversity and distribution in
+  undisturbed and human-impacted sites of tropical wet evergreen forest
+  in southern Western Ghats, India. Biodiversity &amp; Conservation, 8,
+  1365–1381
+</para>
+          <para>
+  Peeters, L.Y., Soto-Pinto, L., Perales, H., Montoya, G. &amp; Ishiki,
+  M. (2003). Coffee production, timber, and firewood in traditional and
+  Inga-shaded plantations in Southern Mexico. Agriculture, Ecosystems
+  &amp; Environment, 95, 481–493
+</para>
+          <para>
+  Penttilä, R., Siitonen, J. &amp; Kuusinen, M. (2004). Polypore
+  diversity in managed and old-growth boreal Picea abies forests in
+  southern Finland. Biological conservation, 117, 271–283
+</para>
+          <para>
+  Pérez-Ramos, I.M., Zavala, M.A., Marañón, T., Díaz-Villa, M.D. &amp;
+  Valladares, F. (2008). Dynamics of understorey herbaceous plant
+  diversity following shrub clearing of cork oak forests: a five-year
+  study. Forest Ecology and Management, 255, 3242–3253
+</para>
+          <para>
+  Philpott, S.M., Bichier, P., Rice, R.A. &amp; Greenberg, R. (2008).
+  Biodiversity conservation, yield, and alternative products in coffee
+  agroecosystems in Sumatra, Indonesia. Biodiversity and Conservation,
+  17, 1805–1820
+</para>
+          <para>
+  Rotenberg, J.A. &amp; Stouffer, P.C. (2007). Ecological role of a tree
+  (Gmelina arborea) plantation in Guatemala: an assessment of an
+  alternative land use for tropical avian conservation. The Auk, 124,
+  316–330
+</para>
+          <para>
+  Ruan, W.-B., Ren, T., Chen, Q., Zhu, X. &amp; Wang, J.-G. (2013).
+  Effects of conventional and reduced N inputs on nematode communities
+  and plant yield under intensive vegetable production. Applied soil
+  ecology, 66, 48–55
+</para>
+          <para>
+  Sasaki, T., Yoshihara, Y., Suyama, Y. &amp; Nakashizuka, T. (2011).
+  Clipping stimulates productivity but not diversity in improved and
+  semi-natural pastures in temperate Japan. Agriculture, ecosystems
+  &amp; environment, 142, 428–431
+</para>
+          <para>
+  Schmitt, C.B., Senbeta, F., Denich, M., Preisinger, H. &amp; Boehmer,
+  H.J. (2010). Wild coffee management and plant diversity in the montane
+  rainforest of southwestern Ethiopia. African Journal of Ecology, 48,
+  78–86
+</para>
+          <para>
+  Schon, N.L., Mackay, A.D., Gray, R.A.J. &amp; Minor, M.A. (2011).
+  Influence of phosphorus inputs and sheep treading on soil macrofauna
+  and mesofauna in hill pastures. New Zealand Journal of Agricultural
+  Research, 54, 83–96
+</para>
+          <para>
+  Scursoni, J.A. &amp; Satorre, E.H. (2010). Glyphosate management
+  strategies, weed diversity and soybean yield in Argentina. Crop
+  Protection, 29, 957–962
+</para>
+          <para>
+  Sebastià, M.-T., Palero, N. &amp; de Bello, F. (2011). Changes in
+  management modify agro-diversity in sainfoin swards in the Eastern
+  Pyrenees. Agronomy for sustainable development, 31, 533–540
+</para>
+          <para>
+  Seiwa, K., Eto, Y., Hishita, M. &amp; Masaka, K. (2012). Effects of
+  thinning intensity on species diversity and timber production in a
+  conifer (Cryptomeria japonica) plantation in Japan. Journal of forest
+  research, 17, 468–478
+</para>
+          <para>
+  Sekercioglu, C.H. (2002). Effects of forestry practices on vegetation
+  structure and bird community of Kibale National Park, Uganda.
+  Biological Conservation, 107, 229–240
+</para>
+          <para>
+  Sippola, A.-L., Siitonen, J. &amp; Punttila, P. (2002). Beetle
+  diversity in timberline forests: a comparison between old-growth and
+  regeneration areas in Finnish Lapland. In: Annales Zoologici Fennici.
+  pp. 69–86
+</para>
+          <para>
+  Sircely, J. &amp; Naeem, S. (2013). Relationships of overstory trees
+  and shrubs with forage species portray ecosystem service interactions
+  in smallholder fallows. Agroforestry systems, 87, 451–464
+</para>
+          <para>
+  Sirrine, J.R., Letourneau, D.K., Shennan, C., Sirrine, D., Fouch, R.,
+  Jackson, L., et al. (2008). Impacts of groundcover management systems
+  on yield, leaf nutrients, weeds, and arthropods of tart cherry in
+  Michigan, USA. Agriculture, ecosystems &amp; environment, 125, 239–245
+</para>
+          <para>
+  Slade, E.M., Mann, D.J. &amp; Lewis, O.T. (2011). Biodiversity and
+  ecosystem function of tropical forest dung beetles under contrasting
+  logging regimes. Biological Conservation, 144, 166–174
+</para>
+          <para>
+  Smith, R.S. &amp; Rushton, S.P. (1994). The effects of grazing
+  management on the vegetation of mesotrophic (meadow) grassland in
+  Northern England. Journal of Applied Ecology, 13–24
+</para>
+          <para>
+  Smith, R.S., Shiel, R.S., Millward, D. &amp; Corkhill, P. (2000). The
+  interactive effects of management on the productivity and plant
+  community structure of an upland meadow: an 8-year field trial.
+  Journal of Applied Ecology, 37, 1029–1043
+</para>
+          <para>
+  Solomou, A. &amp; Sfougaris, A. (2011). Comparing conventional and
+  organic olive groves in central Greece: plant and bird diversity and
+  abundance. Renewable Agriculture and Food Systems, 26, 297–316
+</para>
+          <para>
+  Sullivan, T.P., Sullivan, D.S. &amp; Lindgren, P.M. (2008). Influence
+  of variable retention harvests on forest ecosystems: Plant and mammal
+  responses up to 8 years post-harvest. Forest Ecology and Management,
+  254, 239–254
+</para>
+          <para>
+  Sullivan, T.P., Sullivan, D.S., Lindgren, P.M. &amp; Boateng, J.O.
+  (2002). Influence of conventional and chemical thinning on stand
+  structure and diversity of plant and mammal communities in young
+  lodgepole pine forest. Forest Ecology and Management, 170, 173–187
+</para>
+          <para>
+  Sullivan, T.P., Sullivan, D.S. &amp; Lindgren, P.M.F. (2001). Stand
+  Structure and Small Mammals in Young Lodgepole Pine Forest: 10-Year
+  Results After Thinning. Ecological Applications, 11, 1151–1173
+</para>
+          <para>
+  Summerville, K.S. (2011). Managing the forest for more than the trees:
+  effects of experimental timber harvest on forest Lepidoptera.
+  Ecological Applications, 21, 806–816
+</para>
+          <para>
+  Summerville, K.S. &amp; Crist, T.O. (2002). Effects of timber harvest
+  on forest Lepidoptera: community, guild, and species responses.
+  Ecological Applications, 12, 820–835
+</para>
+          <para>
+  Thompson, I.D., Kirk, D.A. &amp; Jastrebski, C. (2013). Does
+  postharvest silviculture improve convergence of avian communities in
+  managed and old-growth boreal forests? Canadian Journal of Forest
+  Research, 43, 1050–1062
+</para>
+          <para>
+  Toivanen, T. &amp; Kotiaho, J.S. (2007). Mimicking natural
+  disturbances of boreal forests: the effects of controlled burning and
+  creating dead wood on beetle diversity. Biodiversity and Conservation,
+  16, 3193–3211
+</para>
+          <para>
+  Tozer, D.C., Burke, D.M., Nol, E. &amp; Elliott, K.A. (2010).
+  Short-term effects of group-selection harvesting on breeding birds in
+  a northern hardwood forest. Forest Ecology and Management, 259,
+  1522–1529
+</para>
+          <para>
+  Van Gemerden, B.S., Shu, G.N. &amp; Olff, H. (2003). Recovery of
+  conservation values in Central African rain forest after logging and
+  shifting cultivation. Biodiversity &amp; Conservation, 12, 1553–1570
+</para>
+          <para>
+  Vasseur, L., Cloutier, C. &amp; Ansseau, C. (2000). Effects of
+  repeated sewage sludge application on plant community diversity and
+  structure under agricultural field conditions on Podzolic soils in
+  eastern Quebec. Agriculture, ecosystems &amp; environment, 81, 209–216
+</para>
+          <para>
+  Vidal, S. &amp; others. (2008). Plant biodiversity and vegetation
+  structure in traditional cocoa forest gardens in southern Cameroon
+  under different management. Biodiversity and Conservation, 17,
+  1821–1835
+</para>
+          <para>
+  Vintu, V., Samuil, C., Sirbu, C., Popovici, C.I. &amp; Stavarache, M.
+  (2011). Sustainable management of Nardus stricta L. grasslands in
+  Romania’s Carpathians. Notulae Botanicae Horti Agrobotanici
+  Cluj-Napoca, 39, 142
+</para>
+          <para>
+  Wampler, C.R., Frey, J.K., VanLeeuwen, D.M., Boren, J.C. &amp; Baker,
+  T.T. (2008). Mammals in mechanically thinned and non-thinned
+  mixed-coniferous forest in the Sacramento Mountains, New Mexico. The
+  Southwestern Naturalist, 53, 431–443
+</para>
+          <para>
+  Wan, K., Tao, Y., Li, R., Pan, J., Tang, L. &amp; Chen, F. (2012).
+  Influences of long-term different types of fertilization on weed
+  community biodiversity in rice paddy fields. Weed biology and
+  management, 12, 12–21
+</para>
+          <para>
+  Wang, K.-H., McSorley, R., Bohlen, P. &amp; Gathumbi, S.M. (2006).
+  Cattle grazing increases microbial biomass and alters soil nematode
+  communities in subtropical pastures. Soil Biology and Biochemistry,
+  38, 1956–1965
+</para>
+          <para>
+  Wardle, D.A., Nicholson, K.S., Bonner, K.I. &amp; Yeates, G.W. (1999).
+  Effects of agricultural intensification on soil-associated arthropod
+  population dynamics, community structure, diversity and temporal
+  variability over a seven-year period. Soil Biology and Biochemistry,
+  31, 1691–1706
+</para>
+          <para>
+  Yan, X.L., Bao, W.K., Pang, X.Y., Zhang, N.X. &amp; Chen, J. (2013).
+  Regeneration strategies influence ground bryophyte composition and
+  diversity after forest clearcutting. Annals of forest science, 70,
+  845–861
+</para></section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>National Socio-Environmental Synthesis Center</title>
+      <personnel>
+        <individualName>
+          <givenName>Margaret</givenName>
+          <surName>Palmer</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Division of Biological Infrastructure, National Science Foundation (NSF) 1052875</funding>
+      <relatedProject>
+        <title>German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig</title>
+        <personnel>
+          <individualName>
+            <givenName>Christian</givenName>
+            <surName>Wirth</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>The Deutsche Forschungsgemeinschaft (DFG) DFG FZT 118</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Global modelling of local biodiversity responses to human impacts</title>
+        <personnel>
+          <individualName>
+            <givenName>A.</givenName>
+            <givenName>J.</givenName>
+            <surName>Purvis</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>UK Natural Environment Research Council NE/L012995/1</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Collaborative research: Demographic heterogeneity at landscape scales in an emergent invasive species, Centaurea stoebe, in New York State</title>
+        <personnel>
+          <individualName>
+            <givenName>Jessica</givenName>
+            <surName>Gurevitch</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Division of Environmental Biology, National Science Foundation (NSF) 1119891</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Operational Potential of Ecosystem Research Applications (OPERA)</title>
+        <personnel>
+          <individualName>
+            <givenName>(unkown, administered by the University of Edinburgh, United Kingdom)</givenName>
+            <surName>(unkown)</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>The European Union 7th Framework Program (FP7-ENVIRONMENT) 308393</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>GLUES - Global Assessment of Land Use Dynamics, Greenhouse Gas Emissions and Ecosystem Services</title>
+        <personnel>
+          <individualName>
+            <givenName>Cornelia</givenName>
+            <surName>Paulsch</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>German Federal Ministry of Education and Research 01LL0901A</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>gcb14606-sup-0002-supinfo_1.csv</entityName>
+      <entityDescription>data on species richness</entityDescription>
+      <physical>
+        <objectName>gcb14606-sup-0002-supinfo_1.csv</objectName>
+        <size unit="bytes">45473</size>
+        <authentication method="MD5">f47cc33d3ebc13698328e5ff28e6f98b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Study_Case</attributeName>
+          <attributeDefinition>Name of study from which the data is taken</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of study from which the data is taken</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude of study site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-122.4175</minimum>
+                  <maximum exclusive="false">175.25</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude of study site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-37.8</minimum>
+                  <maximum exclusive="false">68.416667</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LUI_range_level</attributeName>
+          <attributeDefinition>Landuse intensity (classified according to table 1)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Landuse intensity (classified according to table 1)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species_Group</attributeName>
+          <attributeDefinition>Broad class of species group, i.e. vertebrates, invertebrates, and plants.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad class of species group, i.e. vertebrates, invertebrates, and plants.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Product</attributeName>
+          <attributeDefinition>Broad class of harvested product, i.e. crop, green fodder, and wood.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad class of harvested product, i.e. crop, green fodder, and wood.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>main_climate</attributeName>
+          <attributeDefinition>Broad climate zone according to the Köppen-Geiger climate classification, i.e. polar, cold (continental), temperate, arid, and tropical.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad climate zone according to the Köppen-Geiger climate classification, i.e. polar, cold (continental), temperate, arid, and tropical.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>landuse_history</attributeName>
+          <attributeDefinition>Broad class of time of first significant use (table 3), i.e. 5950 BC, 50 BC, 1450, 1950, after 1950. And categorized according to the major developments of agriculture.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad class of time of first significant use (table 3), i.e. 5950 BC, 50 BC, 1450, 1950, after 1950. And categorized according to the major developments of agriculture.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ES_and_BD</attributeName>
+          <attributeDefinition>An indication of whether species richness and yield are measured from the same species group, in which case species richness and production are considered to be “linked” rather than “independent”.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>An indication of whether species richness and yield are measured from the same species group, in which case species richness and production are considered to be “linked” rather than “independent”.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Richness_Plot_Size</attributeName>
+          <attributeDefinition>Plot size</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.01</minimum>
+                  <maximum exclusive="false">250000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Log_RR</attributeName>
+          <attributeDefinition>Log transformed response ratio of species richness with changing land use intensity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-2.321453577</minimum>
+                  <maximum exclusive="false">1.981920587</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Log_RR_Var</attributeName>
+          <attributeDefinition>Variance of log transformed response ratio</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000179999</minimum>
+                  <maximum exclusive="false">0.705503536</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Mean_Low</attributeName>
+          <attributeDefinition>Mean richness of the lower intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.3</minimum>
+                  <maximum exclusive="false">192</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SD_Low</attributeName>
+          <attributeDefinition>Standard deviation of richness of lower intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">41.41</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_Low</attributeName>
+          <attributeDefinition>Sample size of lower intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2</minimum>
+                  <maximum exclusive="false">414</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Mean_High</attributeName>
+          <attributeDefinition>Mean richness of the higher intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2</minimum>
+                  <maximum exclusive="false">168</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SD_High</attributeName>
+          <attributeDefinition>Standard deviation of richness of higher intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">29.05</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_High</attributeName>
+          <attributeDefinition>Sample size of higher intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2</minimum>
+                  <maximum exclusive="false">576</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SD_is_imputed_Low</attributeName>
+          <attributeDefinition>Whether the standard deviation of species richness in lower intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the standard deviation of species richness in lower intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SD_is_imputed_High</attributeName>
+          <attributeDefinition>Whether the standard deviation of species richness in higher intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the standard deviation of species richness in higher intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>292</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>gcb14606-sup-0002-supinfo_2.csv</entityName>
+      <entityDescription>data on yield</entityDescription>
+      <physical>
+        <objectName>gcb14606-sup-0002-supinfo_2.csv</objectName>
+        <size unit="bytes">24000</size>
+        <authentication method="MD5">faa83804cf73ca26752b32cc4e07ab25</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Study_Case</attributeName>
+          <attributeDefinition>Name of study from which the data is taken</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of study from which the data is taken</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude of study site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-122.4175</minimum>
+                  <maximum exclusive="false">175.25</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude of study site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-37.8</minimum>
+                  <maximum exclusive="false">68.416667</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LUI_range_level</attributeName>
+          <attributeDefinition>Landuse intensity (classified according to table 1)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Landuse intensity (classified according to table 1)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Product</attributeName>
+          <attributeDefinition>Broad class of harvested product, i.e. crop, green fodder, and wood.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad class of harvested product, i.e. crop, green fodder, and wood.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>main_climate</attributeName>
+          <attributeDefinition>Broad climate zone according to the Köppen-Geiger climate classification, i.e. polar, cold (continental), temperate, arid, and tropical.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad climate zone according to the Köppen-Geiger climate classification, i.e. polar, cold (continental), temperate, arid, and tropical.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>landuse_history</attributeName>
+          <attributeDefinition>Broad class of time of first significant use (table 3), i.e. 5950 BC, 50 BC, 1450, 1950, after 1950. And categorized according to the major developments of agriculture.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad class of time of first significant use (table 3), i.e. 5950 BC, 50 BC, 1450, 1950, after 1950. And categorized according to the major developments of agriculture.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LU_definition_and_ES</attributeName>
+          <attributeDefinition>An indication of whether land-use intensity step is based on yield, in which case yield is considered to be “linked” to intensity rather than “independent”. For example the harvesting technique in forest (e.g. clear cut, selective logging) is used to define the land-use intensity class and also determines the amount of extracted yield.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>An indication of whether land-use intensity step is based on yield, in which case yield is considered to be “linked” to intensity rather than “independent”. For example the harvesting technique in forest (e.g. clear cut, selective logging) is used to define the land-use intensity class and also determines the amount of extracted yield.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Yield_Unit_Type</attributeName>
+          <attributeDefinition>Type of unit used to measure yield</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Type of unit used to measure yield</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Log_RR</attributeName>
+          <attributeDefinition>Log transformed response ratio of yield with changing land use intensity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.853296634</minimum>
+                  <maximum exclusive="false">2.740840024</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Log_RR_Var</attributeName>
+          <attributeDefinition>Variance of log transformed response ratio</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.36462e-05</minimum>
+                  <maximum exclusive="false">3.054180688</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Mean_Low</attributeName>
+          <attributeDefinition>Mean yield from the lower intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.07</minimum>
+                  <maximum exclusive="false">15248.6667</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SD_Low</attributeName>
+          <attributeDefinition>Standard deviation of yield from lower intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.02</minimum>
+                  <maximum exclusive="false">3887.75</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_Low</attributeName>
+          <attributeDefinition>Sample size of lower intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2</minimum>
+                  <maximum exclusive="false">1149</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Mean_High</attributeName>
+          <attributeDefinition>Mean yield from higher intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.28</minimum>
+                  <maximum exclusive="false">13738</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SD_High</attributeName>
+          <attributeDefinition>Standard deviation of yield from higher intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.08</minimum>
+                  <maximum exclusive="false">3580.95</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_High</attributeName>
+          <attributeDefinition>Sample size of higher intensity land use</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2</minimum>
+                  <maximum exclusive="false">1149</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SD_is_imputed_Low</attributeName>
+          <attributeDefinition>Whether the standard deviation of yield from lower intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the standard deviation of yield from lower intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SD_is_imputed_High</attributeName>
+          <attributeDefinition>Whether the standard deviation of yield from higher intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the standard deviation of yield from higher intensity land-use was imputed (done in case this information was missing in the original study, done using means matching)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>157</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>protocol.pdf</entityName>
+      <entityDescription>Formatted methods</entityDescription>
+      <physical>
+        <objectName>protocol.pdf</objectName>
+        <size unit="bytes">304744</size>
+        <authentication method="MD5">f2e7f5fa3505a219793dafcd0c1645f5</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

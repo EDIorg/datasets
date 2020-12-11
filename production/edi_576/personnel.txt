@@ -1,0 +1,12 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+L	S	Mills	U Montana	scott.mills@umontana.edu	0000-0001-8771-509X	creator			
+Karen	E	Hodges	UBC Okanagan	karen.hodges@ubc.ca		creator			
+Alexander	V	Kumar	U Montana	avk36@cornell.edu	0000-0003-3831-5924	creator			
+Marketa		Zimova	U Montana	marketzimova@gmail.com	0000-0002-8264-9879	creator			
+Paul	C	Griffin	BLM	pgriffin@blm.gov		creator			
+Ellen		Cheng	NPS	ellen_cheng@nps.gov		creator			
+Alexander	V	Kumar	U Montana	avk36@cornell.edu	0000-0003-3831-5924	contact			
+L	S	Mills	U Montana	scott.mills@umontana.edu	0000-0001-8771-509X	PI	CAREER: Snowshoe hares and lynx in a fragmented landscape: merging demographic and genetic approaches.	National Science Foundation	9876054
+L	S	Mills	U Montana	scott.mills@umontana.edu	0000-0001-8771-509X	PI	LTREB: Evaluating Population Cycles and Spatial Synchrony Using Long-Term Demographic and Genetic Data on Snowshoe Hares (MULTIPLE REU SUPPLEMENTS)	National Science Foundation	841884
+L	S	Mills	U Montana	scott.mills@umontana.edu	0000-0001-8771-509X	PI	LTREB (5-year renewal): Evaluating Population Cycles and Spatial Synchrony Using Long-Term Demographic and Genetic Data on Snowshoe Hares. (MULTIPLE REU SUPPLEMENTS)	National Science Foundation	1354449 and 1743871
+L	S	Mills	U Montana	scott.mills@umontana.edu	0000-0001-8771-509X	PI	Snowshoe hare response to thinning.	Plum Creek Timber Co.	

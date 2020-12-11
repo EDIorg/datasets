@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+ID	A number given to each individual plant measured in this study	character				
+X	"Position of the plant along the x axis (that is, distance from the start of the transect, along the longer axis)"	numeric	centimeter			
+Y	"Position of the plant along the y axis (that is, distance from the start of the transect, along the shorter axis)"	numeric	centimeter			
+Weight	Mass of the plant	numeric	gram			

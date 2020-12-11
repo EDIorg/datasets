@@ -1,0 +1,49 @@
+﻿To examine the differential effects of nutrient additions, light availability, and forest type on the establishment and growth of woody native and invasive seedlings, we conducted two similar manipulative experiments in two years, 2000 and 2003. We used similar approaches in the experiments in the two years, but the experimental designs differed in some details. In both years, we manipulated N, Ca, and canopy opening (experimental gaps) using replicated, split-block designs. In 2000, we chose six sites: three pine barrens sites with lower background soil nutrient levels, and three hardwood forest sites with higher soil nutrients, based on the results of previous research (Howard et al. 2004). The pine barrens sites were Sarnoff Preserve, N 40°53.212′ W 72°38.694′, Topping Path, N 40°51.136′ W 72°43.929′, and Hot Water Street, N 40°52.441′, W 72°42.868′ and the hardwood forest sites were East Farm, N 40°54.331′ W 73°09.104′, Weld Preserve, N 40°54.510′ W 73°12.631′, and Rocky Point, N 40°56.574′ W 72°56.947′. At each site, we identified two separate localities at least 20 m apart, and chose one at random to create a gap by removing all trees using a chainsaw. In each plot, all shrubs and herbaceous understory plants were cut at ground level within a circular area of 6 m radius. We did this to maximize the chances for survival of the experimental seedlings, and to enhance the consistency of the experimental treatments and our ability to detect responses to them (e.g., a seedling under a shrub would respond differently to an experimental gap than one that was not).
+
+In 2003, we used four of these sites (two pine barrens sites, Topping Path and Sarnoff Preserve, and two hardwood forest sites, East Farm and Weld Preserve), each with a gap and undisturbed canopy (non-gap) treatment, treated as above. We used fewer sites in 2003 and greatly expanded the number of species used, as described below.
+
+In both years, three 2.5 × 2.5 m square blocks were placed at each gap/non-gap locality, with each block consisting of four 1 × 1 m plots separated by 0.5 m. Blocks were arranged radiating out from a circle with their inner edges 1.5 m from the center of the circle, which was at the center of the gap or non-gap area. We chose the first block location in each spot using a random compass direction from the center of the circle. Blocks were equidistant from each other, separated by >1 m at their inner corners, and encompassed within a 4 m radius circle. We randomly assigned treatments consisting of one of four nutrient levels (+N, +Ca, +N and Ca) or a control (no nutrients added) to each plot within each block. In each 1 × 1 m plot, we planted 14 seedlings in a 4 × 4 grid (14 seedlings and two blank spots) with 20 cm separating each individual centered in the middle of each plot. In 2003, 15 or 16 seedlings were planted in a 4 × 4 grid in each plot with 20 cm separating each individual.
+
+In both years, seeds were stratified for 9–16 weeks (depending on species) over the winter in a laboratory refrigerator at 2°C. Seedlings were planted in a greenhouse on the Stony Brook University campus in tubular Cone-tainers (2.5 cm diameter, 12 cm depth, 66 ml volume, RLC4 Pine Cell, Steuwe & Sons, Inc., Corvallis, OR) on 10–27 March 2000, and 19 February–4 March 2003 in standard potting mix. Germination took approximately 3–5 weeks, depending on species, after which the seedlings were maintained in the greenhouse until transplanting to the field sites.
+
+Before planting in both experiments, we recorded the height, stem diameter, and number of leaves (where possible) of every individual to estimate initial mass. We then measured another set of individuals, sacrificed, dried, and weighed them, and used regressions to estimate initial mass of those planted in the field.
+
+In 2000 we planted seedlings of four invasive species and three natives (Methods table 1), chosen to represent dominant or locally common species and a range of functional groups (trees, vines and shrubs). Seedlings (2 individuals × 7 species × 4 nutrient treatments × 3 blocks × 2 light treatments × 6 sites = 2016 individuals) were randomly assigned to treatment and location and planted in the ground from 30 May to 16 June. On 20 June 2000, we replaced dead seedlings (55 individuals, or 2.7%).
+
+In 2003, we chose eight native and eight invasive species (Methods table 2), paired phylogenetically as closely as possible, representing a range of functional types and found regionally (in several cases phylogenetic triplets were used). Because it was not possible in every case to find congeneric or confamilial pairs meeting all of these criteria and for which seeds were available, in two cases species were paired by order (Ceanothus/Elaeagnus, both N-fixing shrubs, and Lonicera/Viburnum, both shrubs). Seeds were germinated as in 2000 in a greenhouse. Seedlings (1,464 individuals; because numbers of individuals for some species were limited due to poor germination, the experimental design was unbalanced) were planted on 29 and 30 May 2003. Plants were individually protected from deer and rabbits with plastic mesh cylinders (45 cm high, 10 cm diameter) because an experiment in 2002 was largely destroyed by deer herbivory (J. Gurevitch, unpublished data). On 23 June 2003, we replaced dead seedlings (99 individuals, or 6.8%).
+
+In 2000, Ca addition plots received 30 g of Ca in the form of CaSO4 (101.90 g ± 0.09 g of CaSO4), raked into the soil surface on 26 and 27 June. Because of the lack of growth responses to this treatment in 2000, Ca was greatly increased in 2003. In 2003, Ca addition plots received 200 g of Ca in the form of CaSO4 (679.38 g of CaSO4), raked into the soil on 12 and 14 of May. In 2000, we added N in a solution of (NH4)2SO4 and NaNO3 in three applications of 1 l each (26/27 June, 2 August and 29 August) via backpack sprayer with a total addition of 20 g N m−2year−1. In 2003, we added N in the same total amounts, manner, and form in two applications on 12–14 May and 9–18 July 2003. In both experiments, pH was checked before and after nutrient additions for each plot, but was unchanged, so no adjustments for pH were necessary. All plots not receiving water from the N application were given 1 l of water.
+
+We harvested all the individuals between 21–28 September, 2000 and 26–27 August, 2003. We excavated root systems for each seedling, and placed the entire plant in a labeled paper bag. After drying to constant weight in a drying oven, we separated roots from shoots and weighed root, shoot, and total mass separately to the nearest 0.001 g.
+
+Methods table 1: List of species planted in 2000 (E – exotic, N – native)
+
+Species, Origin, Functional group, Family
+Acer platanoides, E, tree, Aceraceae
+Acer rubrum, N, tree, Aceraceae
+Pinus rigida, N, tree (conifer), Pinaceae
+Elaeagnus umbellata, E, shrub, Elaeagnaceae
+Rosa multiflora, E, shrub, Rosaceae
+Vitis novae-anglea, N, vine, Vitaceae
+Ampelopsis brevipundiculata, E, vine, Vitaceae
+
+Methods table 2: List of species planted in 2003 (E – exotic, N – native)
+
+Species , Origin, Functional group, Family
+Acer platanoides, E, tree, Aceraceae
+Acer rubrum, N, tree, Aceraceae
+Ampelopsis brevipedunculata, E, vine, Vitaceae
+Parthenocissus quinquefolia, N, vine, Vitaceae
+Vitis novae-angliae, N, vine, Vitaceae
+Berberis canadensis, N, shrub, Berberidaceae
+Berberis thunbergii, E, shrub, Berberidaceae
+Celastrus orbiculata, E, vine, Celastraceae
+Celastrus scandens, N, vine, Celastraceae
+Ceanothus americanus, N, shrub, Rhamnaceae
+Elaeagnus umbellata, E, shrub, Elaeagnaceae
+Prunus serotina, N, tree, Rosaceae
+Rosa caroliniense, N, shrub, Rosaceae
+Rosa multiflora, E, shrub, Rosaceae
+Viburnum acerifolium, N, shrub, Adoxaceae
+Lonicera mackii, E, shrub, Caprifoliac
+

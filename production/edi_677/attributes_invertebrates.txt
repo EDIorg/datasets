@@ -1,0 +1,38 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Locational identifier for each sampling site	character				
+replicate	Invertebrate replicate number for a given sampling site	numeric	number		NA	not available
+Acroloxidae	Mollusk genus 	numeric	number		NA	not available
+Asellidae	Endemic isopod genus	numeric	number		NA	not available
+Baicaliidae	"Mollusk genus, most of which are endemic"	numeric	number		NA	not available
+Benedictidae	"Mollusk genus, most of which are endemic"	numeric	number		NA	not available
+Brandtia_latissima	Endemic amphipod species	numeric	number		NA	not available
+Brandtia_parasitica_parasitica	Endemic amphipod species	numeric	number		NA	not available
+Caddisflies	General grouping; were not identified to species. 	numeric	number		NA	not available
+Cryptoropus_inflatus	Endemic amphipod species	numeric	number		NA	not available
+Cryptoropus_pachytus	Endemic amphipod species	numeric	number		NA	not available
+Cryptoropus_rugosus	Endemic amphipod species	numeric	number		NA	not available
+Eulimnogammarus_capreolus	Endemic amphipod species	numeric	number		NA	not available
+Eulimnogammarus_cruentes	Endemic amphipod species	numeric	number		NA	not available
+Eulimnogammarus_cyaneus	Endemic amphipod species	numeric	number		NA	not available
+Eulimnogammarus_grandimanus	Endemic amphipod species	numeric	number		NA	not available
+Eulimnogammarus_juveniles	Endemic amphipod genus. Identification kept at genus level so as to prevent misclassification.   	numeric	number		NA	not available
+Eulimnogammarus_maackii	Endemic amphipod species	numeric	number		NA	not available
+Eulimnogammarus_marituji	Endemic amphipod species	numeric	number		NA	not available
+Eulimnogammarus_verucossus	Endemic amphipod species	numeric	number		NA	not available
+Eulimnogammarus_viridis_viridis	Endemic amphipod species	numeric	number		NA	not available
+Eulimnogammarus_vittatus	Endemic amphipod species	numeric	number		NA	not available
+Flatworms	Not identified beyond order. 	numeric	number		NA	not available
+Leeches	"Not identified beyond order, although 12 endemic species do exist."	numeric	number		NA	not available
+Maackia	"Mollusk genus, most of which are endemic"	numeric	number		NA	not available
+Pallasea_brandtia_brandita	Endemic amphipod species	numeric	number		NA	not available
+Pallasea_brandtii_tenera	Endemic amphipod species	numeric	number		NA	not available
+Pallasea_cancelloides	Endemic amphipod species	numeric	number		NA	not available
+Pallasea_cancellus	Endemic amphipod species	numeric	number		NA	not available
+Pallasea_viridis	Endemic amphipod species	numeric	number		NA	not available
+Planorbidae	"Mollusk genus, most of which are endemic"	numeric	number		NA	not available
+Poekilogammarus_crassimus	Endemic amphipod species	numeric	number		NA	not available
+Poekilogammarus_ephippiatus	Endemic amphipod species	numeric	number		NA	not available
+Poekilogammarus_juveniles	Endemic amphipod genus Identifying to species introduced risk of misclassification.	numeric	number		NA	not available
+Poekilogammarus_megonychus_perpolitus	Endemic amphipod species	numeric	number		NA	not available
+Poekilogammarus_pictus	Endemic amphipod species	numeric	number		NA	not available
+Valvatidae	"Mollusk genus, most of which are endemic"	numeric	number		NA	not available

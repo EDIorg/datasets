@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Carly	D	Ziter	"Concordia University (Montreal), Department of Biology"	carly.ziter@concordia.ca	0000-0002-3731-9678	creator			
+Bradley	M	Herrick	University of Wisconsin-Madison Arboretum	bradley.herrick@wisc.edu		creator			
+Marie 	R	Johnston	University of Wisconsin-Madison Arboretum	marierjohnston@gmail.com		creator			
+Monica	G	Turner	"University of Wisconsin-Madison, Department of Integrative Biology"	turnermg@wisc.edu	0000-0003-1903-2822	creator			
+Carly	D	Ziter	"Concordia University (Montreal), Department of Biology"	carly.ziter@concordia.ca	0000-0002-3731-9678	contact			
+Emily	H	Stanley	"University of Wisconsin, Madison"	ehstanley@wisc.edu	0000-0003-4922-8121	PI	Comparative Studies of a Suite of Lakes in Wisconsin	National Science Foundation	DEB 1440297

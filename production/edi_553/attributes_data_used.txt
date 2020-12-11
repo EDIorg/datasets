@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+ID	study ID	character				
+Study_Name	name of study	character				
+Year	year of study	numeric	nominalYear			
+State	Two letter abbreviations of US state	character				
+Scale	area of study	character				
+Author_Year_Published	author and year published	character				

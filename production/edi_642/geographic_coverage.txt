@@ -1,0 +1,3 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+Soil was collected from a wash near the Tucson Mountains	32.194158	32.194158	-111.017977	-111.017977
+University of Arizona greenhouse	32.225235	32.225235	-110.955037	-110.955037

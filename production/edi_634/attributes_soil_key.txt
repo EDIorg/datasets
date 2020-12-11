@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+code	Sample code	character				
+soil	Soil code	character				
+Forest	Forest type from which samples were collected	categorical				
+Treatment	Experimental treatment	categorical				
+Fenton	Fenton oxidation treatment	categorical				
+Goethite	Goethite treatment	categorical				

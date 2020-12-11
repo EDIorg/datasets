@@ -1,0 +1,4 @@
+name	name_type	name_resolved	authority_system	authority_id
+Amynthas agrestis	scientific	Amynthas agrestis	ITIS	974947
+Amynthas tokioensis	scientific	Amynthas tokioensis	ITIS	975381
+Metaphire hilgendorfi	scientific	Metaphire hilgendorfi	ITIS	1048807

@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Pool	Vernal Pool ID	character				
+Quadrat	sampling sub-plot	character				
+wd24_Jan	water depth on date	numeric	centimeter		NA	not available
+wd29_Jan	water depth on date	numeric	centimeter		NA	not available
+wd3_Feb	water depth on date	numeric	centimeter		NA	not available
+wd12_Feb	water depth on date	numeric	centimeter		NA	not available
+wd19_Feb	water depth on date	numeric	centimeter		NA	not available
+wd28_Feb	water depth on date	numeric	centimeter		NA	not available
+wd5_Mar	water depth on date	numeric	centimeter		NA	not available
+wd12_Mar	water depth on date	numeric	centimeter		NA	not available
+wd16_Mar	water depth on date	numeric	centimeter		NA	not available
+wd23_Mar	water depth on date	numeric	centimeter		NA	not available
+wd16_Apr	water depth on date	numeric	centimeter		NA	not available
+Duration_weeks	number of weeks observed location in pools were inundated	numeric	number		NA	not available
+Duration_days	number of days pools were inundated (calculated by multiplying number of weeks by 7)	numeric	number		NA	not available

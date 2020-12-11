@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+ID	A number which identifies the original study which generated the given data (list of studies given in the data provenance section of this document)	character				
+State	The state in which the data was collected	character				
+Scale	"The spatial scale over which the food waste data was collected (e.g. state, sub-state region, city etc.)"	character				
+Sub_State_Region_a	The region where the study was carried out (within the respective state)	character				
+Year	Year in which study was carried out	numeric	nominalYear			
+Region	Region of United States where the study was carried out	categorical				
+No_of_Samples	Number of samples taken to estimate proportion food waste	numeric	number			
+Season	Season of the year in which the study was carried out. S - Spring Su - Summer F - Fall  W - Winter 	character				
+Proportion_Food_Waste	Proportion of total MSW which is food waste	numeric	dimensionless			

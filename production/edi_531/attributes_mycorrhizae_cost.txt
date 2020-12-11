@@ -1,0 +1,40 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Study	Name of publication from which the corresponding data was taken	character				
+sp_plant	Plant species used in the study	character				
+sp_fungus	Fungal species used in the study	character				
+light_mmol_m-2s-1	Intensity of light provided to plants in millimolesPerMeterSquarePerSecond	character			NA	not reported
+av_NM_DW_or_RGR	Mean dry weight (DW) or relative growth rate (RGR) of non-mycorrhizal (NM) plants	numeric	variable		NA	not reported
+sd_NM_DW_or_RGR	Standard deviation of DW or RGR of NM plants	numeric	dimensionless		NA	not reported
+av_M_DW_or_RGR	Mean DW or RGR of mycorrhizal (M) plants	numeric	variable		NA	not reported
+sd_M_DW_or_RGR	Standard deviation of DW or RGR of M plants	numeric	dimensionless		NA	not reported
+M_NM_DW	Ratio of dry weight or RGR of M plants to that of NM plants	numeric	dimensionless		NA	not reported
+ln_M_NM_DW	Log response ratio for dry weight or RGR (i.e. natural log of the ratio of dry weight or RGR of M plants to that of NM plants)	numeric	dimensionless		NA	not reported
+av_NM_total_N	Mean nitrogen content of NM plants	numeric	variable		NA	not reported
+sd_NM_total_N	Standard deviation of nitrogen content of NM plants	numeric	dimensionless		NA	not reported
+av_M_total_N	Mean nitrogen content of M plants	numeric	variable		NA	not reported
+sd_M_total_N	Standard deviation of nitrogen content of M plants	numeric	dimensionless		NA	not reported
+M_NM_total_N	Ratio of nitrogen content of M plants to that of NM plants	numeric	dimensionless		NA	not reported
+ln_M_NM_total_N	Log response ratio for nitrogen content	numeric	dimensionless		NA	not reported
+av_NM_total_P	Mean phosphorus content of NM plants	numeric	variable		NA	not reported
+sd_NM_total_P	Standard deviation of phosphorus content of NM plants	numeric	dimensionless		NA	not reported
+av_M_total_P	Mean phosphorus content of M plants	numeric	variable		NA	not reported
+sd_M_total_P	Standard deviation of phosphorus content of M plants	numeric	dimensionless		NA	not reported
+M_NM_total_P	Ratio of phosphorus content of M plants to that of NM plants	numeric	dimensionless		NA	not reported
+ln_M_NM_total_P	Log response ratio for phosphorus content	numeric	dimensionless		NA	not reported
+av_NM_14C_belowgr_allocation_relative	Mean of relative carbon allocation to roots in NM plants (measured using 14C)	numeric	dimensionless		NA	not reported
+sd_NM_14C_belowgr_allocation_relative	Standard deviation of relative carbon allocation to roots in NM plants (measured using 14C)	numeric	dimensionless		NA	not reported
+av_M_14C_belowgr_allocation_relative	Mean of relative carbon allocation to roots in M plants (measured using 14C)	numeric	dimensionless		NA	not reported
+sd_M_14C_belowgr_allocation_relative	Standard deviation of relative carbon allocation to roots in M plants (measured using 14C)	numeric	dimensionless		NA	not reported
+M_NM_14C_belowgr_allocation_relative	Ratio of relative carbon allocation to roots in M plants to that in NM plants (measured using 14C)	numeric	dimensionless		NA	not reported
+ln_M_NM_14C_belowgr_allocation_relative	Log response ratio for relative carbon allocation to roots (measured using 14C)	numeric	dimensionless		NA	not reported
+av_NM_14C_belowgr_allocation_absolute	Mean of absolute carbon allocation to roots in NM plants (measured using 14C)	numeric	dimensionless		NA	not reported
+sd_NM_14C_belowgr_allocation_absolute	Standard deviation of absolute carbon allocation to roots in NM plants (measured using 14C)	numeric	dimensionless		NA	not reported
+av_M_14C_belowgr_allocation_absolute	Mean of absolute carbon allocation to roots in M plants (measured using 14C)	numeric	dimensionless		NA	not reported
+sd_M_14C_belowgr_allocation_absolute	Standard deviation of absolute carbon allocation to roots in M plants (measured using 14C)	numeric	dimensionless		NA	not reported
+M_NM_14C_belowgr_allocation_absolute	Ratio of absolute carbon allocation to roots in M plants to that in NM plants (measured using 14C)	numeric	dimensionless		NA	not reported
+ln_M_NM_14C_belowgr_allocation_absolute	Log response ratio for absolute carbon allocation to roots (measured using 14C)	numeric	dimensionless		NA	not reported
+av_NM_C_use_efficiency	Mean carbon use efficiency of NM plants	numeric	dimensionless		NA	not reported
+av_M_C_use_efficiency	Mean carbon use efficiency of M plants	numeric	dimensionless		NA	not reported
+M_NM_C_use_efficiency	Ratio of carbon use efficiency of M plants to that of NM plants	numeric	dimensionless		NA	not reported
+ln_M_NM_C_use_efficiency	Log response ratio for carbon use efficiency	numeric	dimensionless		NA	not reported
+n	Sample size used in the study (number of individual plants in each treatment)	character				

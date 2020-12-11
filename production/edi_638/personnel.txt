@@ -1,0 +1,4 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jason	 P.	Love	"Highlands Biological Station, Western Carolina University"	jlove@wcu.edu	https://orcid.org/0000-0002-2863-3171	creator			
+James	T.	Costa	"Highlands Biological Station, Western Carolina University"	costa@wcu.edu	http://orcid.org/0000-0002-5519-2754	creator			
+Jason	 P.	Love	"Highlands Biological Station, Western Carolina University"	jlove@wcu.edu	https://orcid.org/0000-0002-2863-3171	contact			

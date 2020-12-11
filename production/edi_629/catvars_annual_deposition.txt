@@ -1,0 +1,3 @@
+attributeName	code	definition
+wet_data_type	measured	data measured at the site
+wet_data_type	estimated	wet deposition estimated from the CASTNET HOW132 site

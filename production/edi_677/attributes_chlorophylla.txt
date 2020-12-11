@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Locational identifier for each sampling site	character				
+replicate	Replicate number for a given sampling site	numeric	number			
+filtered_volume_ml	Volume filtered for a given chlorophyll replicate	numeric	milliliter		NA	not available
+sample_volume_ml	Volume of sample analyte during the chlorophyll extraction process	numeric	milliliter		NA	not available
+raw_fluo	"Raw, uncorrected fluorometric reading for chlorophyll analysis"	numeric	dimensionless		NA	not available
+adjusted_raw	Corrected fluorometric reading for chlorophyll analysis	numeric	dimensionless		NA	not available
+chl_conc	Chlorophyll a concentration	numeric	milligramsPerLiter		NA	not available

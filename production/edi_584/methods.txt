@@ -1,0 +1,36 @@
+C. stoebe data collection
+
+We obtained C. stoebe presence data for northeastern USA (Pennsylvania, New York, New Jersey, Vermont, Maine, Connecticut, Massachusetts, New Hampshire and Rhode Island), from the Invasive Plant Atlas of New England (IPANE), Global Biodiversity Information Facility (GBIF), Morris Arboretum, and our own surveys (SBU) conducted on Long Island (Suffolk and Nassau counties) and in the Adirondacks (parts of Clinton, Essex, Fulton, Hamilton, St. Lawrence, Saratoga, Warren, Washington, Franklin, Lewis, Herkimer, and Franklin counties of New York state). We examined and corrected the downloaded data for errors such as missing negative signs in the longitude coordinate, or switched latitude and longitude coordinates. We removed all the data points with no coordinates for either longitude or latitude, and removed all the duplicates.
+
+In summer 2013 and 2014, we located sites with C. stoebe on Long Island and in the Adirondacks by selecting 10 areas that were centered on populations of spotted knapweed identified from pilot studies. Within each area, we created a list of feasible roads to be examined within a 10 mile radius centered on known location of populations, and selected sites for sampling using the following criteria: we used sites if it appeared from Google Earth imagery that the road had open canopies (i.e., non-forested) edges to provide habitat for C. stoebe, and if it was safe to stop along the road. Along each road, we established transects at exactly every mile, until we either located five C. stoebe populations or until we had sampled 25 locations (noting absences after careful examination) without locating at least five populations. If we encountered absences, we noted the latitudinal and longitudinal coordinates, and recorded that spot. When C. stoebe was determined to be present, we recorded the coordinates, and sampled the site using either an intensive or extensive protocol (described below) depending on the site population. In all, we identified 135 sites on Long Island and 106 in the Adirondacks.
+
+Environmental predictors
+
+We selected environmental variables (Methods table 1) based on findings of previous distribution models of C. stoebe (Broennimann et al. 2007, 2014). We used a total of 6 environmental variables at a resolution of 4000 m for the large scale/coarser grain model and 1000 m for the small scale/finer grain models (see methods table 1 for resolutions). We used the 30-year average of both average precipitation and minimum temperature during the growing season (April–September) from PRISM (PRISM Climate Group) to account for the effect of seasonality. For the change in density models, we used the mean growing season minimum temperature and mean growing season precipitation between the years 2013 and 2014. We obtained data on soil pH and percent sandiness from both Soil Survey Geographic Database (SSURGO), and States Soil Geographic database (STATSGO). We used STATSGO for the Northeast models and SSURGO for the Long Island and Adirondack models. We obtained data on the tree cover from the Global Forest Change database of the University of Maryland (Hansen et al. 2013). Finally, we used the National Land Cover Database (NLCD) developed by the Multi Resolution Land Characteristics (MRLC) to capture the land cover of these areas modelled. The NLCD classifies land cover into 8 broad categories: water, developed, barren, forest, shrub land, herbaceous, planted/cultivated and wetlands (Jin et al. 2013), each of which is further divided into various sub-categories. For this study, we classified high intensity developed areas as defined by NLCD as highly disturbed, while medium intensity developed and low intensity developed areas were less disturbed. 
+
+Methods table 1: Environmental variables used as predictors for species distribution modelling (LI – Long Island, ADK – Adirondacks)
+
+Environmental variables, Data source, Resolution, Scale
+
+Soil percent sand, STATSGO, 4 km, Northeast USA
+
+Soil pH, STATSGO, 4 km, Northeast USA
+
+Soil percent sand, SSURGO, 1 km, LI, ADK
+
+Soil pH, SSURGO, 1 km, LI, ADK
+
+30 year mean precipitation during the growing season, PRISM climate group, 4 km, 1 km, Northeast USA, LI, ADK
+
+30 year mean minimum temperature during the growing season, PRISM climate group, 4 km, 1 km, Northeast USA, LI, ADK
+
+Present day land cover (categorical), National LAND COVER DATABASE, 4 km, 1 km, Northeast USA, LI, ADK
+
+Tree cover percentage, Global forest change, 4 km, 1 km, Northeast USA, LI, ADK
+
+Model construction
+
+We used Boosted Regression Trees (BRTs) to model factors associated with species presence, density and change in density. BRTs are a data mining approach that combines algorithms for regression trees and boosting (Hastie et al. 2001). The boosting process involves an iterative stage-wise process of minimizing the deviance of the model in which at each stage the tree that maximally reduces the deviance is selected (Elith et al. 2008). The final model is determined by the application of a boosting technique to a large number of regression trees produced, in order to come to an optimal prediction. To fit the models, we used the dismo package (Elith et al. 2008) in the statistical software R (R Core Team 2015) to find the optimal parameters for each of the models. In building our BRT models, we manually adjusted three model parameters, the bag size, tree complexity and learning rate in order to maximize model performance. We explored the presence of interactions between variables and obtained partial dependence plots to visualize the effect of each variable. In order to reduce sampling bias due to oversampling, we thinned the presences to within 2000 m of one another for the small grain models and 4000 m for the large grain model.
+
+For each of our distribution models, we selected pseudo-absences (simulated absences) by defining a 25 km buffer around presences from which pseudo-absences were sampled, in order to decrease the probability of sampling from unsuitable areas. Pseudo-absences are artificially generated absence data selected from the area within which the study is being conducted without on ground visits. Known absences however, are points that have been visited and have been verified to not have the species being studied. In total, after thinning, we had 486 C. stoebe presences across the northeastern United States: 59 of these were located on Long Island and 98 from the Adirondacks region. We also had 80 known absences, which did not cover the full range of the area being studied, they were therefore supplemented by pseudo-absences. For each model, we generated ten times the number of pseudo-absences as known presences. We assigned known presences and absences a weight of 1, and down-weighted the pseudo-absences, assigning each pseudo-absence a weight of 1/(total number of pseudo-absences). We built occurrence models for Northeastern USA, Long Island and the Adirondacks using the presences, absences and pseudo-absences. We divided the data equally into training and test datasets based on geographical location (50:50), we used half of the data to train the models and the other half for model testing.
+

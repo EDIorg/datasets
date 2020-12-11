@@ -1,0 +1,26 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Locational identifier for each sampling site	character				
+paraxanthine	"Concentration of paraxanthine, also known as 1,7-dimethylxanthine. Paraxanthine is the main human metabolite of caffeine"	numeric	microgramsPerLiter		NA	not available
+acetaminophen	"Concentration of acetaminophen, also known as paracetamol. "	numeric	microgramsPerLiter		NA	not available
+amphetamine	Concentration of amphetamine.	numeric	microgramsPerLiter		NA	not available
+caffeine	Concentration of caffeine	numeric	microgramsPerLiter		NA	not available
+carbamazepine	Concentration of carbamezapine	numeric	microgramsPerLiter		NA	not available
+cimetidine	Concentration of cimetidine	numeric	microgramsPerLiter		NA	not available
+cotinine	"Concentration of cotinine, which is the main human metabolite of nicotine"	numeric	microgramsPerLiter		NA	not available
+diphenhydramine	Concentration of diphenhydramine	numeric	microgramsPerLiter		NA	not available
+mda	Concentration of MDA 	numeric	microgramsPerLiter		NA	not available
+mdma	Concentration of MDMA	numeric	microgramsPerLiter		NA	not available
+methamphetamine	Concentration of methamphetamine	numeric	microgramsPerLiter		NA	not available
+morphine	Concentration of morphine	numeric	microgramsPerLiter		NA	not available
+phenazone	Concentration of phenazone	numeric	microgramsPerLiter		NA	not available
+sulfachloropyridazine	Concentration of sulfachloropyridazine	numeric	microgramsPerLiter		NA	not available
+sulfamethazine	Concentration of sulfamethazine in micrograms per liter. 	numeric	microgramsPerLiter		NA	not available
+sulfamethoxazole	Concentration of sulfamethoxazole	numeric	microgramsPerLiter		NA	not available
+thiabendazole	Concentration of thiabendazole	numeric	microgramsPerLiter		NA	not available
+trimethoprim	Concentration of trimethoprim	numeric	microgramsPerLiter		NA	not available
+collection_year	Year sample was collected in the field	numeric	nominalYear		NA	not available
+collection_month	Month sample was collected in the field	numeric	nominalMonth		NA	not available
+collection_day	Day sample was collected in the field	numeric	nominalDay		NA	not available
+analysis_year	Year sample was analyzed	numeric	nominalYear		NA	not available
+analysis_month	Month sample was analyzed	numeric	nominalMonth		NA	not available
+analysis_day	Day sample was analyzed	numeric	nominalDay		NA	not available

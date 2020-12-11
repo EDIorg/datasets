@@ -1,0 +1,13 @@
+attributeName	code	definition
+Study	2013	seedling from first pot experiment
+Study	2015	seedling from second pot experiment
+Position_within_pot_or_block	a	east
+Position_within_pot_or_block	b	southeast
+Position_within_pot_or_block	c	southwest
+Position_within_pot_or_block	d	west
+Position_within_pot_or_block	e	northwest
+Position_within_pot_or_block	f	northeast
+Position_within_pot_or_block	B	buffel grass
+Position_within_pot_or_block	C	no buffel grass
+Treatment_level	Buffel	palo verde seedling was grown in a pot with buffel grass
+Treatment_level	Control	palo verde seedling was grown in a pot without buffel grass

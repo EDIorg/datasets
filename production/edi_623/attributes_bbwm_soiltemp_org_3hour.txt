@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	year	numeric	nominalYear		NA	not available
+month	month	numeric	nominalMonth		NA	not available
+day	day	numeric	nominalDay		NA	not available
+time	time	numeric	dimensionless		NA	not available
+HOBO	"HOBO data logger code, describing the watershed and forest type. EB = East Bear, WB = West Bear, HW = hardwood, SW = softwood"	character				
+orgtemp_C	organic soil temperature	numeric	celsius		NA	not available

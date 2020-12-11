@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Plot	plot label	character				
+Subplot	subplot label (relative location in a plot)	character				
+Species	species code	character				
+DBH	diameter at breast height	numeric	centimeter		na	dead tree

@@ -1,0 +1,165 @@
+name	name_type	name_resolved	authority_system	authority_id
+Achyrachaena mollis	scientific	Achyrachaena mollis	ITIS	36451
+Aira  caryophyllea 	scientific	Aira caryophyllea	ITIS	41376
+Alopecurus carolinianus 	scientific	Alopecurus carolinianus	ITIS	40440
+Anagallis  arvensis	scientific	Anagallis arvensis	ITIS	24043
+Astragalus  sp.	scientific	Astragalus	ITIS	25392
+Avena  fatua	scientific	Avena fatua	ITIS	41458
+Bromus diandrus 	scientific	Bromus diandrus	ITIS	40498
+Brodiaea elegans	scientific	Brodiaea elegans	ITIS	42805
+Bromus hordeaceus 	scientific	Bromus hordeaceus	ITIS	501070
+Briza  minor 	scientific	Briza minor	ITIS	41531
+Brassica rapa	scientific	Brassica rapa	ITIS	23063
+Castilleja attenuata 	scientific	Castilleja attenuata	ITIS	506876
+Calandrinia ciliata 	scientific	Calandrinia ciliata	ITIS	20464
+Callitriche  sp.	scientific	Callitriche	ITIS	32050
+Cerastium  glomeratum	scientific	Cerastium glomeratum	ITIS	19955
+Centunculus  minimus	scientific	Centunculus minimus	ITIS	24046
+Centaurea solstitialis	scientific	Centaurea solstitialis	ITIS	36972
+Cicendia quadrangularis	scientific	Cicendia quadrangularis	ITIS	30049
+Cirsium vulgare	scientific	Cirsium vulgare	ITIS	36428
+Convolvulus arvensis 	scientific	Convolvulus arvensis	ITIS	30705
+Cotula coronopifolia 	scientific	Cotula coronopifolia	ITIS	35799
+Crassula aquatica	scientific	Crassula aquatica	ITIS	24099
+Deschampsia  danthonioides 	scientific	Deschampsia danthonioides	ITIS	40593
+Distichlis spicata 	scientific	Distichlis spicata	ITIS	40662
+Downingia concolor	scientific	Downingia concolor	ITIS	34555
+Downingia cuspidata	scientific	Downingia cuspidata	ITIS	34556
+Downingia insignis	scientific	Downingia insignis	ITIS	34558
+Epilobium  pygmaeum	scientific	Epilobium pygmaeum	ITIS	507920
+Erodium botrys	scientific	Erodium botrys	ITIS	29146
+Eremocarpus  setigerus 	scientific	Eremocarpus setigerus	ITIS	28317
+Eryngium vaseyi	scientific	Eryngium vaseyi	ITIS	29505
+Euphorbia sp.	scientific	Euphorbia	ITIS	28032
+Geranium dissectum	scientific	Geranium dissectum	ITIS	29135
+Hemizonia congesta	scientific	Hemizonia congesta	ITIS	37613
+Hemizonia pungens	scientific	Hemizonia pungens	ITIS	502946
+Hordeum  brachyantherum	scientific	Hordeum brachyantherum	ITIS	40875
+Hordeum marinum	scientific	Hordeum marinum	ITIS	40880
+Hypochaeris  glabra	scientific	Hypochaeris glabra	ITIS	37792
+Juncus  bufonius 	scientific	Juncus bufonius	ITIS	39227
+Layia  chrysanthemoides	scientific	Layia chrysanthemoides	ITIS	37857
+Lasthenia conjugens 	scientific	Lasthenia conjugens	ITIS	37837
+Lasthenia glaberrima	scientific	Lasthenia glaberrima	ITIS	37842
+Lepidium nitidum	scientific	Lepidium nitidum	ITIS	22971
+Leontodon taraxacoides	scientific	Leontodon taraxacoides	ITIS	37888
+Lileaea  scilloides	scientific	Lilaea scilloides	ITIS	38993
+Lolium  multiflorium	scientific	Lolium multiflorum	ITIS	40892
+Lotus corniculatus	scientific	Lotus corniculatus	ITIS	26362
+Lupinus bicolor 	scientific	Lupinus bicolor	ITIS	25966
+Lythrum hyssopifolia	scientific	Lythrum hyssopifolia	ITIS	27085
+Malva parviflora	scientific	Malva parviflora	ITIS	21838
+Melilotus  indica	scientific	Melilotus indica	ITIS	26152
+Medicago polymorpha	scientific	Medicago polymorpha	ITIS	503725
+Mimulus  tricolor	scientific	Mimulus tricolor	ITIS	33274
+Myosurus minimus	scientific	Myosurus minimus	ITIS	18786
+Phalaris minor	scientific	Phalaris minor	ITIS	41337
+Picris echioides	scientific	Picris echioides	ITIS	38247
+Pillularia sp.	scientific	Pillularia	GBIF Backbone Taxonomy	8975838
+Pleuropogon  californicus 	scientific	Pleuropogon californicus	ITIS	42027
+Plantago elongata	scientific	Plantago elongata	ITIS	32877
+Plagiobothrys greenei	scientific	Plagiobothrys greenei	ITIS	31999
+Plagiobothrys stipitatus var. micranthus 	scientific	Plagiobothrys stipitatus micranthus	GBIF Backbone Taxonomy	4061799
+Polypogon  maritimus	scientific	Polypogon maritimus	ITIS	41175
+Psilocarphus oregonus	scientific	Psilocarphus oregonus	ITIS	38309
+Psilocarphus tenellus 	scientific	Psilocarphus tenellus	ITIS	38310
+Rumex crispus	scientific	Rumex crispus	ITIS	20937
+Silene gallica	scientific	Silene gallica	ITIS	20067
+Sonchus asper 	scientific	Sonchus asper	ITIS	38424
+Spergula arvensis	scientific	Spergula arvensis	ITIS	20365
+Stebbinsoseris  heterocarpa	scientific	Stebbinsoseris heterocarpa	ITIS	507671
+Taraxacum officianale	scientific	Taraxacum officinale	ITIS	36213
+Taeniatherium caput-medusae	scientific	Taeniatherum caput-medusae	ITIS	42203
+Trifolium depauperatum	scientific	Trifolium depauperatum	ITIS	26241
+Trifolium dubium 	scientific	Trifolium dubium	ITIS	26205
+Triphysaria  eriantha 	scientific	Triphysaria eriantha	ITIS	507218
+Trifolium fucatum	scientific	Trifolium fucatum	ITIS	26252
+Triteleia  hyacinthina	scientific	Triteleia hyacinthina	ITIS	43098
+Trifolium microdon	scientific	Trifolium microdon	ITIS	26287
+Trifolium variegatum	scientific	Trifolium variegatum	ITIS	26326
+Veronica  peregrina 	scientific	Veronica peregrina	ITIS	33421
+Vicia  sativa	scientific	Vicia sativa	ITIS	26355
+Vicia  villosa	scientific	Vicia villosa	ITIS	26360
+Vulpia  bromoides	scientific	Vulpia bromoides	ITIS	42261
+Achyrachaena mollis	common	NA	NA	NA
+Aira  caryophyllea 	common	NA	NA	NA
+Alopecurus carolinianus 	common	NA	NA	NA
+Anagallis  arvensis	common	NA	NA	NA
+Astragalus  sp.	common	NA	NA	NA
+Avena  fatua	common	NA	NA	NA
+Bromus diandrus 	common	NA	NA	NA
+Brodiaea elegans	common	NA	NA	NA
+Bromus hordeaceus 	common	NA	NA	NA
+Briza  minor 	common	NA	NA	NA
+Brassica rapa	common	NA	NA	NA
+Castilleja attenuata 	common	NA	NA	NA
+Calandrinia ciliata 	common	NA	NA	NA
+Callitriche  sp.	common	NA	NA	NA
+Cerastium  glomeratum	common	NA	NA	NA
+Centunculus  minimus	common	NA	NA	NA
+Centaurea solstitialis	common	NA	NA	NA
+Cicendia quadrangularis	common	NA	NA	NA
+Cirsium vulgare	common	NA	NA	NA
+Convolvulus arvensis 	common	NA	NA	NA
+Cotula coronopifolia 	common	NA	NA	NA
+Crassula aquatica	common	NA	NA	NA
+Deschampsia  danthonioides 	common	NA	NA	NA
+Distichlis spicata 	common	NA	NA	NA
+Downingia concolor	common	NA	NA	NA
+Downingia cuspidata	common	NA	NA	NA
+Downingia insignis	common	NA	NA	NA
+Epilobium  pygmaeum	common	NA	NA	NA
+Erodium botrys	common	NA	NA	NA
+Eremocarpus  setigerus 	common	NA	NA	NA
+Eryngium vaseyi	common	NA	NA	NA
+Euphorbia sp.	common	NA	NA	NA
+Geranium dissectum	common	NA	NA	NA
+Hemizonia congesta	common	NA	NA	NA
+Hemizonia pungens	common	NA	NA	NA
+Hordeum  brachyantherum	common	NA	NA	NA
+Hordeum marinum	common	NA	NA	NA
+Hypochaeris  glabra	common	NA	NA	NA
+Juncus  bufonius 	common	NA	NA	NA
+Layia  chrysanthemoides	common	NA	NA	NA
+Lasthenia conjugens 	common	NA	NA	NA
+Lasthenia glaberrima	common	NA	NA	NA
+Lepidium nitidum	common	NA	NA	NA
+Leontodon taraxacoides	common	NA	NA	NA
+Lileaea  scilloides	common	NA	NA	NA
+Lolium  multiflorium	common	NA	NA	NA
+Lotus corniculatus	common	NA	NA	NA
+Lupinus bicolor 	common	NA	NA	NA
+Lythrum hyssopifolia	common	NA	NA	NA
+Malva parviflora	common	NA	NA	NA
+Melilotus  indica	common	NA	NA	NA
+Medicago polymorpha	common	NA	NA	NA
+Mimulus  tricolor	common	NA	NA	NA
+Myosurus minimus	common	NA	NA	NA
+Phalaris minor	common	NA	NA	NA
+Picris echioides	common	NA	NA	NA
+Pillularia sp.	common	NA	NA	NA
+Pleuropogon  californicus 	common	NA	NA	NA
+Plantago elongata	common	NA	NA	NA
+Plagiobothrys greenei	common	NA	NA	NA
+Plagiobothrys stipitatus var. micranthus 	common	NA	NA	NA
+Polypogon  maritimus	common	NA	NA	NA
+Psilocarphus oregonus	common	NA	NA	NA
+Psilocarphus tenellus 	common	NA	NA	NA
+Rumex crispus	common	NA	NA	NA
+Silene gallica	common	NA	NA	NA
+Sonchus asper 	common	NA	NA	NA
+Spergula arvensis	common	NA	NA	NA
+Stebbinsoseris  heterocarpa	common	NA	NA	NA
+Taraxacum officianale	common	NA	NA	NA
+Taeniatherium caput-medusae	common	NA	NA	NA
+Trifolium depauperatum	common	NA	NA	NA
+Trifolium dubium 	common	NA	NA	NA
+Triphysaria  eriantha 	common	NA	NA	NA
+Trifolium fucatum	common	NA	NA	NA
+Triteleia  hyacinthina	common	NA	NA	NA
+Trifolium microdon	common	NA	NA	NA
+Trifolium variegatum	common	NA	NA	NA
+Veronica  peregrina 	common	NA	NA	NA
+Vicia  sativa	common	NA	NA	NA
+Vicia  villosa	common	NA	NA	NA
+Vulpia  bromoides	common	NA	NA	NA

@@ -1,0 +1,1 @@
+﻿Detailed collection and analysis methods can be found in Norton et al 1999 (doi: 10.1023/A:1006115011381) and Navratil et al. 2010 (doi: 10.1007/s10661-010-1527-z).

@@ -1,0 +1,11 @@
+name	name_type	name_resolved	authority_system	authority_id
+Abutilon incanum	scientific	Abutilon incanum	ITIS	21665
+Carnegiea gigantea	scientific	Carnegiea gigantea	ITIS	506151
+Encelia farinosa	scientific	Encelia farinosa	ITIS	37308
+Marina parryi	scientific	Marina parryi	ITIS	26778
+Poaceae	scientific	Poaceae	ITIS	40351
+Opuntia	scientific	Opuntia	ITIS	19686
+Parkinsonia microphylla	scientific	Parkinsonia microphylla	ITIS	26828
+Senna covesii	scientific	Senna covesii	ITIS	505149
+Sida abutifolia	scientific	Sida abutifolia	ITIS	505208
+Spheralcea	scientific	NA	NA	NA

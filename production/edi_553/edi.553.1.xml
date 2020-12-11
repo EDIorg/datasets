@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.553.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Quantification of Food Waste Disposal in the United States: A Meta-Analysis</title>
+    <creator>
+      <individualName>
+        <givenName>Krista</givenName>
+        <givenName>L.</givenName>
+        <surName>Thyberg</surName>
+      </individualName>
+      <organizationName>Department of Technology and Society, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>KLThyberg@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0315-7655</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <givenName>J.</givenName>
+        <surName>Tonjes</surName>
+      </individualName>
+      <organizationName>Department of Technology and Society, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>david.tonjes@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0108-5977</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </creator>
+    <pubDate>2020-06-29</pubDate>
+    <abstract>
+      <para>This data set is the result of a systematic review of studies on food waste disposed in the United States, an issue which major consequences for social, nutritional, economic, and environmental issues. It was created to determine how much food is discarded in the U.S., and to determine if specific factors drive increased disposal. By applying meta-analytic tools on it this dataset, it was found that the aggregate proportion of food waste in U.S. municipal solid waste from 1995 to 2013 was 0.147 (95% CI 0.137–0.157) of total disposed waste, which is lower than that estimated by U.S. Environmental Protection Agency for the same period (0.176). Further, that the proportion of food waste increased significantly with time, and there were no significant differences in food waste between rural and urban samples, or between commercial/institutional and residential samples. These results are published in the study titled Quantification of Food Waste Disposal in the United States: A Meta-Analysis (Thyberg et al., 2015).</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Meta-analysis</keyword>
+      <keyword>food waste</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>United States of America</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-125</westBoundingCoordinate>
+          <eastBoundingCoordinate>-66.9</eastBoundingCoordinate>
+          <northBoundingCoordinate>50</northBoundingCoordinate>
+          <southBoundingCoordinate>25</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1989</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Meta-analysis and research synthesis were used to analyze U.S. waste characterization data. Waste characterization data from state, county, and regional studies were found using the Google search engine. Primary search terms were waste sort, waste characterization study, and waste composition study. The search also targeted websites listing waste characterization studies.30,31After an initial selection using search terms and study titles, the methodology and results sections were carefully reviewed to determine if studies met inclusion criteria. Selection criteria for inclusion were developed prior to choosing or discarding studies. All studies not meeting all selection criteria were excluded and the reason for exclusion was noted). Inclusion criteria were(1) followed general principles and methods outlined by ASTM for waste characterization studies (ASTM D 5231-08); (2) contained compositional data for food waste based on weight and enabled percentage(by wet weight) of food waste to be determined; (3) performed at a municipal scale (e.g., city, county, state); (4) performed post-recovery of recyclables; (5) involved sampling at the disposal (or transfer) site rather than at the generation point;(6) examined only municipal solid waste or MSW (residential, institutional, and commercial waste); (7) involved primarily manual sorting of samples (not visual); (8) provided confidence intervals and sample sizes; (9) used a standard, comparable definition of food waste; (10) conducted in the U.S; and (11) conducted between 1989 and 2013, thus capturing a 25 year span.</para>
+          <para>An important selection criterion was that studies focused only on MSW. Some food waste and loss are not included as MSW food waste. More specifically, industrial food loss (agriculture, production and processing) is not considered MSW, and it is generally not managed with MSW. The industrial sector faces particular circumstances and regulations making industrial food waste management different than food waste in MSW. Considerable amounts of industrial food waste are diverted from disposal; one estimate was 95% of food waste from manufacturers did not go to landfills, with 70% used for animalfeed.32MSW food waste data do not include wastes that escape through pathways other than MSW systems, such as home composting, food disposals, or food fed to animals. This approach is consistent with how USEPA quantifies U.S.MSW.18The present analysis includes avoidable (food that was edible prior to disposal), possibly avoidable (food that some people eat and others do not), and unavoidable (food that is not edible under normal circumstances) food waste.</para>
+          <para>Information coded for each study were: study ID number, name, author(s), year, publication date, scale (county, state, region), state, region, population of study area, sectors included(all MSW, residential, commercial/institutional), residential type (single−family, multifamily), geographical classification(urban, rural), sampling season, number of samples, average sample weight, and the proportion of food waste as determined from sampling and its 95% confidence interval. Data on waste shed disposal quantities were recorded as reported in each individual study. These tonnages allow for the determination of the total food waste disposed annually in the waste shed and for the calculation of pounds of food waste disposed per person per day.&#13;
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Professional Services Agreement with Town of Brookhaven, New York, United States</title>
+      <personnel>
+        <individualName>
+          <givenName>Krista</givenName>
+          <givenName>L.</givenName>
+          <surName>Thyberg</surName>
+        </individualName>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0003-0315-7655</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Town of Brookhaven, New York, United States</funding>
+      <relatedProject>
+        <title>Professional Services Agreement with Town of Brookhaven, New York, United States</title>
+        <personnel>
+          <individualName>
+            <givenName>David</givenName>
+            <givenName>J.</givenName>
+            <surName>Tonjes</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-0108-5977</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Town of Brookhaven, New York, United States</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>foodwaste proportion</entityName>
+      <entityDescription>Data on proportion food waste (proportion of MSW that is food waste), taken from studies on municipal food waste generated in the United States, carried out between 1989 and 2013.</entityDescription>
+      <physical>
+        <objectName>foodwaste_proportion.csv</objectName>
+        <size unit="bytes">6425</size>
+        <authentication method="MD5">a72461209ac0d8832d55eb7a3130d4c8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>A number which identifies the original study which generated the given data (list of studies given in the data provenance section of this document)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A number which identifies the original study which generated the given data (list of studies given in the data provenance section of this document)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>State</attributeName>
+          <attributeDefinition>The state in which the data was collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The state in which the data was collected</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Scale</attributeName>
+          <attributeDefinition>The spatial scale over which the food waste data was collected (e.g. state, sub-state region, city etc.)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The spatial scale over which the food waste data was collected (e.g. state, sub-state region, city etc.)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sub_State_Region_a</attributeName>
+          <attributeDefinition>The region where the study was carried out (within the respective state)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The region where the study was carried out (within the respective state)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year in which study was carried out</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1989</minimum>
+                  <maximum exclusive="false">2013</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Region</attributeName>
+          <attributeDefinition>Region of United States where the study was carried out</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Central US</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>Western US</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Eastern US</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>No_of_Samples</attributeName>
+          <attributeDefinition>Number of samples taken to estimate proportion food waste</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">15</minimum>
+                  <maximum exclusive="false">2320</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Season</attributeName>
+          <attributeDefinition>Season of the year in which the study was carried out. S - Spring Su - Summer F - Fall  W - Winter</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Season of the year in which the study was carried out. S - Spring Su - Summer F - Fall  W - Winter</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Proportion_Food_Waste</attributeName>
+          <attributeDefinition>Proportion of total MSW which is food waste</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.07</minimum>
+                  <maximum exclusive="false">0.355</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>125</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>foodwaste disposal rate</entityName>
+      <entityDescription>Data on food waste disposal rate (weight of food waste produced per person per day), taken from studies on municipal food waste generated in the United States, carried out between 1989 and 2013.</entityDescription>
+      <physical>
+        <objectName>foodwaste_disposalrate.csv</objectName>
+        <size unit="bytes">3105</size>
+        <authentication method="MD5">519f2ec5f37e125bf8060c69450c9e6d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>A number which identifies the original study which generated the given data (list of studies given in the data provenance section of this document)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A number which identifies the original study which generated the given data (list of studies given in the data provenance section of this document)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>State</attributeName>
+          <attributeDefinition>The state in which the data was collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The state in which the data was collected</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Scale</attributeName>
+          <attributeDefinition>The spatial scale over which the food waste data was collected (e.g. state, sub-state region, city etc.)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The spatial scale over which the food waste data was collected (e.g. state, sub-state region, city etc.)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sub_State_Region</attributeName>
+          <attributeDefinition>The region where the study was carried out (within the respective state)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The region where the study was carried out (within the respective state)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year in which study was carried out</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1995</minimum>
+                  <maximum exclusive="false">2013</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Waste_Shed_Disposal_Tons</attributeName>
+          <attributeDefinition>Total weight of waste generated in the given waste shed over the study period</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>ton</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">9579</minimum>
+                  <maximum exclusive="false">40235328</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Food_Waste_Disposal_Tons</attributeName>
+          <attributeDefinition>Total weight of waste generated in the given waste shed over the study period</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>ton</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1291</minimum>
+                  <maximum exclusive="false">6157037</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Food_Waste_percent</attributeName>
+          <attributeDefinition>Percentage of total waste which is food waste</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.1</minimum>
+                  <maximum exclusive="false">19.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Population</attributeName>
+          <attributeDefinition>Population of the study area at the time of study</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">30620</minimum>
+                  <maximum exclusive="false">36604337</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Food_Waste_Disposal_Rate_lbs_Person_Day</attributeName>
+          <attributeDefinition>Amount of food waste (in pounds) generated per person per day in the study area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>poundPerPersonPerDay</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.21</minimum>
+                  <maximum exclusive="false">0.93</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>47</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>datasets used in meta analysis</entityName>
+      <entityDescription>list of datasets used in meta anlysis</entityDescription>
+      <physical>
+        <objectName>data_used.csv</objectName>
+        <size unit="bytes">6121</size>
+        <authentication method="MD5">90e540eda206cc9b7adf8dadc9a4385b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>study ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>study ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Study_Name</attributeName>
+          <attributeDefinition>name of study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>name of study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>year of study</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1989</minimum>
+                  <maximum exclusive="false">2013</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>State</attributeName>
+          <attributeDefinition>Two letter abbreviations of US state</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Two letter abbreviations of US state</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Scale</attributeName>
+          <attributeDefinition>area of study</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>area of study</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Author_Year_Published</attributeName>
+          <attributeDefinition>author and year published</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>author and year published</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>58</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="poundPerPersonPerDay" multiplierToSI="" name="poundPerPersonPerDay" parentSI="" unitType="">
+          <description>food waste</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

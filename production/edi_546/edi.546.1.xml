@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.546.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>The Interaction between Soil Nutrients and Leaf Loss during Early Establishment in Plant Invasion, 2004</title>
+    <creator>
+      <individualName>
+        <givenName>Elizabeth</givenName>
+        <givenName>A.</givenName>
+        <surName>Leger</surName>
+      </individualName>
+      <organizationName>Department of Biology, University of Nevada, Reno, NV, USA</organizationName>
+      <electronicMailAddress>lelizabeth@unr.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Katherine</givenName>
+        <givenName>M.</givenName>
+        <surName>Howe</surName>
+      </individualName>
+      <organizationName>The Nature Conservancy</organizationName>
+      <electronicMailAddress>khowe@tnc.org</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Eliza</givenName>
+        <surName>Woo</surName>
+      </individualName>
+      <organizationName>City College of San Francisco, San Francisco, CA, USA</organizationName>
+      <electronicMailAddress>eliza.woo@mail.ccsf.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <givenName>Edward</givenName>
+        <surName>Hickman</surName>
+      </individualName>
+      <organizationName>NASA Goddard Institute for Space Studies, New York City, NY, USA</organizationName>
+      <electronicMailAddress>jonathan.e.hickman@nasa.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7246-642X</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Isabel</givenName>
+        <givenName>W.</givenName>
+        <surName>Ashton</surName>
+      </individualName>
+      <organizationName>National Park Service – Inventory and Monitoring Division, Rapid City, SD, USA</organizationName>
+      <electronicMailAddress>iashton@uci.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Manuel</givenName>
+        <surName>Lerdau</surName>
+      </individualName>
+      <organizationName>Department of Biology, University of Virginia, Charlottesville, VA, USA</organizationName>
+      <electronicMailAddress>mlerdau@virginia.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1864-0834</userId>
+    </creator>
+    <pubDate>2020-06-17</pubDate>
+    <abstract>
+      <para>Nitrogen availability is expected to affect both plant growth and the preferences of herbivores. We hypothesized that an interaction between these two factors could affect the early establishment of native and exotic species differently, promoting invasion in natural systems. Taxonomically paired native and invasive species (Acer platanoides, Acer rubrum, Lonicera maackii, Diervilla lonicera, Celastrus orbiculatus, Celastrus scandens, Elaeagnus umbellata, Ceanothus americanus, Ampelopsis brevipedunculata, and Vitis riparia) were grown in relatively high-resource (hardwood forests) and low-resource (pine barrens) communities on Long Island, New York, USA for a period of 3 months, in 2004. Plants were grown in ambient and nitrogen-enhanced conditions in both communities. Nitrogen additions produced an average 12% initial increase in leaf number of all plants. By the end of the experiment, invasive species outperformed native species in nitrogen-enhanced plots in hardwood forests, where all plants experienced increased damage relative to control plots. Native species experienced higher overall amounts of damage in hardwood forests, losing, on average, 45% more leaves than exotic species, and only native species experienced a decline in growth rates (32% compared with controls). In contrast, in pine barrens, there were no differences in damage and no differences in performance between native and invasive plants. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Invasive species</keyword>
+      <keyword>pine barrens</keyword>
+      <keyword>hardwood forests</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>nitrogen</keyword>
+      <keyword>herbivory</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Long Island, New York, United States of America</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-73.21052</westBoundingCoordinate>
+          <eastBoundingCoordinate>-72.6449</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.9085</northBoundingCoordinate>
+          <southBoundingCoordinate>40.85227</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1996</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2007</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Sapindales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Sapindaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Acer</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Acer platanoides</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Sapindales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Sapindaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Acer</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Acer rubrum</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Dipsacales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Caprifoliaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Lonicera</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Lonicera maackii</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Dipsacales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Diervillaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Diervilla</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Diervilla lonicera</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Celastrales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Celastraceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Celastrus</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Celastrus orbiculatus</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Celastrales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Celastraceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Celastrus</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Celastrus scandens</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Rosales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Elaeagnaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Elaeagnus</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Elaeagnus umbellata</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Rosales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Rhamnaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Ceanothus</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Ceanothus americanus</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Ampelopsis glandulosa brevipedunculata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Vitales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Vitaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Vitis</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Vitis vulpina</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Gurevitch</surName>
+      </individualName>
+      <organizationName>Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY, USA</organizationName>
+      <electronicMailAddress>jessica.gurevitch@stonybrook.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0157-4332</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>We selected five exotic woody species that are common invaders in Long Island forests. Each invasive species was paired with a closely related (either congeneric or con-familial) native species of similar growth form whenever possible (Table 1). Autumn olive (Elaeagnus umbellata) does not have any native congeneric or con-familial relatives on Long Island; nevertheless, we felt it was important to include it in our experiment, as it is an abundant invader in our region and in many areas of the Eastern United States. In lieu of a congeneric or con-familial native species, we paired E. umbellata with New Jersey tea (Ceanothus americanus), a native plant in the same order (Rhamnales) with a similar growth form and similar ability to fix nitrogen. All native species used in these experiments are either common on Long Island or were historically common. Experiments were located in six field sites, three in the pine barrens (Sarnoff Preserve, 40degree53.212'N 72degree38.694'W, Eastport, 40degree51.136'N 72degree43.929'W, and Brookhaven National Laboratory pine barrens, 40degree52.52'N 72degree51.66'W), and three in mixed-hardwood forests (East Farm, 40degree54.331'N 73degree09.104'W, Weld Preserve, 40degree54.510'N 73degree12.631'W, and Brookhaven National Laboratory hard-wood site, 40degree52.33'N 72degree51.67'W). In each location, experiments were situated just interior to the forest canopy, along the edge of forest gaps that we created in 1996 (four sites) or along forest edges (two Brookhaven sites). Experiments were set up along the edges of these gaps because this is the usual invasion frontier from which forests become invaded by exotic species. Plants were grown both with and without protection from deer and rabbits, but invertebrates were not excluded. We monitored leaf loss of all plants throughout the experiment and measured final dry biomass at the end of the study. Plants were grown in five 2.4 m x 1.2 m blocks at each site, with each block divided into two equal-sized plots, and each plot further divided into two subplots. One plot in each block was fenced with 4-ft tall wire mesh to exclude large vertebrate herbivores, and the other plot was left open. Nitrogen was added to two 1.2 m x 0.6 m subplots in each block, one inside the wire exclosure and one outside the exclosure, as 31.24 g of sodium nitrate (NaNO3, 16% N; A.H. Hoffman, Inc., Lancaster, NY) and 23.80 g of ammonium sulfate [(NH4)2SO4, 21% N; Espoma, Millville, NJ] dissolved in 1 liter of deionized water using a portable backpack sprayer on May 26, 2004 (corresponding to an application rate of 14 g of N/m2/yr). One liter of deionized water was added to each control subplot. One individual of each of the 10 plant species (Table 1) was planted into each subplot, for a total of 40 plants per block and 200 plants per site. Plants were grown from seeds purchased from Sheffield's Seed Company, Inc. (Locke, New York). Seeds were cold stratified in the refrigerator for between 1 and 3 months, depending on the species (stratification was timed so that all seeds would be ready to plant at the same time), and planted in the greenhouse in March 2004. Seeds germinated and grew in the greenhouse for approximately 2 months. Acer platanoides had poor germination, so recently emerged A. platanoides seedlings (with cotyledons) were collected locally and transplanted into the experiment. All seedlings were transplanted into the field on June 1 and 2, 2004, after recording initial leaf number and leaf length of the youngest fully expanded leaf. Seedlings were watered twice during the first week in the field, and then received no supplemental water, as summer rainfall was adequate for growth. To track damage throughout the experiment, the number of leaves on each plant was recorded on June 23, July 14, July 28, and August 17–18. We noted whether the damage to the plants could be directly attributed to herbivores (chew or bite marks on remnant vegetation), or to damage from an unknown source (i.e., torn leaves, stems with no petiole remaining, etc.). Above and below-ground biomass of live plants was harvested on August 17–18. Tissue was dried at 60degreeC, and roots and shoots were weighed and ground together. Nitrogen content of ground biomass samples was determined using a CE Flash EA 1112 Elemental Analyzer (CE Instruments, Milan, Italy). Relative growth rate (RGR) was calculated as the natural log of final weight minus the natural log of initial weight. We estimated the original biomass of each seedling based on regressions for leaf number and length. Regression equations were calculated for each species, based on the relationship between the initial number of leaves, multiplied by the length of the youngest fully expanded leaf, and the dry weight of shoot and root tissue for 20 randomly selected seedlings of each species destructively harvested at the beginning of the experiment. R2 values for regression equations varied between 0.15 and 0.64, with a mean of 0.46 (0.05 SE). The R2 values were highly significant predictors of final plant size in analyses and thus were felt to produce robust relative estimates of growth rates.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>An experimental study of biological invasions in forests of the eastern United States</title>
+      <personnel>
+        <individualName>
+          <givenName>Jessica</givenName>
+          <surName>Gurevitch</surName>
+        </individualName>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0002-7246-642X</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Environmental Protection Agency (EPA), USA R828900010</funding>
+      <relatedProject>
+        <title>An experimental study of biological invasions in forests of the eastern United States</title>
+        <personnel>
+          <individualName>
+            <givenName>Manuel</givenName>
+            <surName>Lerdau</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-1864-0834</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>Environmental Protection Agency (EPA), USA R828900011</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Growth and damage 2004</entityName>
+      <entityDescription>Data on growth of, and damage suffered by the study plants during the experiment</entityDescription>
+      <physical>
+        <objectName>Growth_and_damage_2004.csv</objectName>
+        <size unit="bytes">209223</size>
+        <authentication method="MD5">8f976920b1770bac3738dad2e718d2d0</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Order</attributeName>
+          <attributeDefinition>A unique number for every data point (that is, each individual plant in each subplot)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique number for every data point (that is, each individual plant in each subplot)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plant_num</attributeName>
+          <attributeDefinition>A unique number for each individual plant in the experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique number for each individual plant in the experiment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Community_type</attributeName>
+          <attributeDefinition>Type of community in which the respective plant was grown (hardwood or pine barren)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Type of community in which the respective plant was grown (hardwood or pine barren)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Site at which the respective plant was grown</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BH</code>
+                    <definition>Brookhaven National Laboratory hardwood site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BP</code>
+                    <definition>Brookhaven National Laboratory pine barren site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EF</code>
+                    <definition>East Farm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PF</code>
+                    <definition>East Port</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SA</code>
+                    <definition>Sarnoff Preserve</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WP</code>
+                    <definition>Weld Preserve</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Block</attributeName>
+          <attributeDefinition>Block in which the respective plant was grown</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Block in which the respective plant was grown</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot</attributeName>
+          <attributeDefinition>Plot in which the respective plant was grown</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot in which the respective plant was grown</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N_Treatment</attributeName>
+          <attributeDefinition>Whether nitrogen fertilizer was added or not</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N+</code>
+                    <definition>nitrogen added</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Control</code>
+                    <definition>control no nitrogen added</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Herbivore_treatment</attributeName>
+          <attributeDefinition>Whether the plants were protected from large vertebrate herbivores or not</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>No Cage</code>
+                    <definition>no cage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cage</code>
+                    <definition>cage</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Species of the plant</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ACPL</code>
+                    <definition>Acer platanoides L.,Norway maple,Aceraceae,Invasive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACRU</code>
+                    <definition>Acer rubrum L.,Red maple,Aceraceae,Native</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LOMA</code>
+                    <definition>Lonicera maackii (Rupr.) Maxim.,Amur honeysuckle,Caprifoliaceae,Invasive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DILO</code>
+                    <definition>Diervilla lonicera Mill.,Northern bush Honeysuckle,Caprifoliaceae,Native</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CEOR</code>
+                    <definition>Celastrus orbiculatus Thunb.,Asian ittersweet,Celastraceae,Invasive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CESC</code>
+                    <definition>Celastrus scandens L.,American bittersweet,Celastraceae,Native</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ELUM</code>
+                    <definition>Elaeagnus umbellata Thunb.,Autumn olive,Elaeagnaceae,Invasive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CEAM</code>
+                    <definition>Ceanothus americanus L.,New Jersey tea,Rhamnaceae,Native</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AMBR</code>
+                    <definition>Ampelopsis glandulosa var. brevipedunculata (Maxim.) Momiy., [formerly known as Ampelopsis brevipedunculata (Maxim.) Trautv.],Porcelainberry,Vitaceae,Invasive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VIRI</code>
+                    <definition>Vitis vulpina L., formerly known as Vitis riparia Michx.],Riverbank grape,Vitaceae,Native</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Status</attributeName>
+          <attributeDefinition>Whether the species is native or invasive</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the species is native or invasive</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeDefinition>Plant family of the given species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plant family of the given species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Initial_num_Leaves</attributeName>
+          <attributeDefinition>Initial number of leaves on the respective plant (at the time of planting)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">16</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>see notes column</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Initial_Leaf_Length_cm</attributeName>
+          <attributeDefinition>Length of youngest fully expanded leaf on the plant at the time of planting</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.44</minimum>
+                  <maximum exclusive="false">5.78</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>see notes column</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Initial_Notes</attributeName>
+          <attributeDefinition>Notes on plant health etc. taken at the time of planting</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes on plant health etc. taken at the time of planting</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>num_Leaves_June_23</attributeName>
+          <attributeDefinition>Number of leaves on the plant on June 23rd 2004</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">24</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>see notes column</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Notes_June_23</attributeName>
+          <attributeDefinition>Notes on plant health etc. taken on June 23rd 2004</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes on plant health etc. taken on June 23rd 2004</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>num_leaves_7_28_04</attributeName>
+          <attributeDefinition>Number of leaves on the plant on July 28th 2004</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">21</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>see notes column</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>num_Damaged_leaves_preharvest_7_28_04</attributeName>
+          <attributeDefinition>Number of damaged leaves on the plant on July 28th 2004</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>see notes column</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Notes_preharvest</attributeName>
+          <attributeDefinition>Notes on plant health etc. taken on July 28th 2004</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes on plant health etc. taken on July 28th 2004</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>num_leaves_harvest_8_18_04</attributeName>
+          <attributeDefinition>Number of Leaves harvested August 18th 2004</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">22</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>see notes column</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>num_Damaged_harvest_8_18_04</attributeName>
+          <attributeDefinition>Number of damaged leaves harvested on August 18th 2004</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>see notes column</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Leaf_Length_harvest_cm_8_18_04</attributeName>
+          <attributeDefinition>Length of youngest fully expanded leaf on the plant at the time of harvesting (August 18th 2004)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.33</minimum>
+                  <maximum exclusive="false">6.62</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>see notes column</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Notes_harvest_8_18_04</attributeName>
+          <attributeDefinition>Notes on plant health etc. taken at the time of harvesting</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes on plant health etc. taken at the time of harvesting</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Veg_Wt_g</attributeName>
+          <attributeDefinition>Dry weight of above-ground vegetative tissues of the plant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0034</minimum>
+                  <maximum exclusive="false">0.893</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Root_Wt_g</attributeName>
+          <attributeDefinition>Dry weight of below-ground tissues of the plant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4e-04</minimum>
+                  <maximum exclusive="false">0.767</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Total_Wt_g</attributeName>
+          <attributeDefinition>Total dry weight of the plant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1.555</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Log_Veg_Wt</attributeName>
+          <attributeDefinition>Natural logarithm of above-ground dry weight</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-2.4685</minimum>
+                  <maximum exclusive="false">-0.0491</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Log_Root_Wt</attributeName>
+          <attributeDefinition>Natural logarithm of below-grownd dry weight</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-3.3979</minimum>
+                  <maximum exclusive="false">-0.1152</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Log_Total_Wt</attributeName>
+          <attributeDefinition>Natural logarithm of total dry weight</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-2.1612</minimum>
+                  <maximum exclusive="false">0.1917</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R_S_ratio</attributeName>
+          <attributeDefinition>Ratio of below ground to above ground dry weight</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.060869565</minimum>
+                  <maximum exclusive="false">22.17948718</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>EstIntWt</attributeName>
+          <attributeDefinition>Estimated initial weight of the plant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.002317</minimum>
+                  <maximum exclusive="false">0.32404275</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Relative_Growth_Rate</attributeName>
+          <attributeDefinition>Relative growth rate of the plant</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1</minimum>
+                  <maximum exclusive="false">42.62124387</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1200</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

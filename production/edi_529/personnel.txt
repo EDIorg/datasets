@@ -1,0 +1,22 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Michael		Beckmann	"Department Computational Landscape Ecology, UFZ – Helmholtz Centre for Environmental Research, Leipzig, Germany"	michael.beckmann@ufz.de	0000-0002-5678-265X	creator			
+Katharina		Gerstner	"iDiv – German Centre for Integrative Biodiversity Research, Leipzig, Germany"		0000-0003-0348-9334	creator			
+Morodoluwa		Akin-Fajiye	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, USA"	morodoluwa.akin-fajiye@stonybrook.edu	0000-0001-8078-3970	creator			
+Silvia		Ceausu	"Center for Biodiversity Dynamics in a Changing World (BIOCHANGE), Aarhus University, Aarhus C, Denmark"	silvia.ceausu@bios.au.dk	 0000-0002-6278-6075	creator			
+Stephan		Kambach	"1) iDiv – German Centre for Integrative Biodiversity Research, Leipzig, Germany"	stephan.kambach@ufz.de		creator			
+Nicole	L.	Kinlock	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA"	nicole.kinlock@stonybrook.edu	0000-0002-2917-5133	creator			
+Helen	R.P.	Phillips	"1) iDiv – German Centre for Integrative Biodiversity Research, Leipzig, Germany"		0000-0002-7435-5934	creator			
+Willem		Verhagen	"Environmental Geography Group, Institute for Environmental Studies, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands"	willem.verhagen@pbl.nl	0000-0002-9394-0741	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	creator			
+Stefan		Klotz	"Department of Community Ecology, UFZ – Helmholtz Centre for Environmental Research, Halle (Saale), Germany"	stefan.klotz@ufz.de	0000-0003-4355-6415	creator			
+Tim		Newbold	"1) United Nations Environment Programme World Conservation Monitoring Centre, Cambridge, United Kingdom"	t.newbold@ucl.ac.uk	0000-0001-7361-0051	creator			
+Peter	H.	Verburg	"Environmental Geography Group, Institute for Environmental Studies, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands"	p.h.verburg@vu.nl	0000-0002-6977-7104	creator			
+Martin		Winter	"1) iDiv – German Centre for Integrative Biodiversity Research, Leipzig, Germany"	marten.winter@idiv.de	0000-0002-9593-7300	creator			
+Ralf		Seppelt	"1) Department Computational Landscape Ecology, UFZ – Helmholtz Centre for Environmental Research, Leipzig, Germany"	ralf.seppelt@ufz.de	0000-0002-2723-7150	creator			
+Jessica		Gurevitch	"Department of Ecology and Evolution, Stony Brook University, Stony Brook, New York, 11794, USA"	jessica.gurevitch@stonybrook.edu	0000-0003-0157-4332	contact			
+ Margaret	 	 Palmer	 			PI	  National Socio-Environmental Synthesis Center	" Division of Biological Infrastructure, National Science Foundation (NSF)"	1052875
+Christian		Wirth				PI	German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig	The Deutsche Forschungsgemeinschaft (DFG)	DFG FZT 118
+A.	J.	Purvis				PI	Global modelling of local biodiversity responses to human impacts	UK Natural Environment Research Council	NE/L012995/1
+Jessica		Gurevitch				PI	"Collaborative research: Demographic heterogeneity at landscape scales in an emergent invasive species, Centaurea stoebe, in New York State"	"Division of Environmental Biology, National Science Foundation (NSF)"	1119891
+"(unkown, administered by the University of Edinburgh, United Kingdom)"		(unkown)				PI	Operational Potential of Ecosystem Research Applications (OPERA)	The European Union 7th Framework Program (FP7-ENVIRONMENT)	308393
+Cornelia		Paulsch				PI	"GLUES - Global Assessment of Land Use Dynamics, Greenhouse Gas Emissions and Ecosystem Services"	 German Federal Ministry of Education and Research	01LL0901A

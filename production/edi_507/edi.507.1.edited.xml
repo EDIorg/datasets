@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.507.1"
+  xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  http://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd"
+  system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst"
+    scope="document">
+    <allow>
+      <principal>uid=edi,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Data and R scripts for analyses of declines in invertebrate species from the Gulf of
+      Maine, USA, 1997 - 2018</title>
+    <creator>
+      <individualName>
+        <givenName>Peter</givenName>
+        <givenName>S</givenName>
+        <surName>Petraitis</surName>
+      </individualName>
+      <organizationName>Department of Biology, University of Pennsylvania</organizationName>
+      <electronicMailAddress>ppetrait@sas.upenn.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7616-7638</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Steve</givenName>
+        <givenName>R</givenName>
+        <surName>Dudgeon</surName>
+      </individualName>
+      <organizationName>Department of Biology, California State University,
+        Northridge</organizationName>
+      <electronicMailAddress>steve.dudgeon@csun.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/000-0002-8637-4307</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Erika</givenName>
+        <givenName>C</givenName>
+        <surName>Rhile</surName>
+      </individualName>
+      <organizationName>The Cheverus School, Portland, ME</organizationName>
+      <electronicMailAddress>rhile@cheverus.org</electronicMailAddress>
+      <role>Field Assistant</role>
+    </associatedParty>
+    <pubDate>2020-04-28</pubDate>
+    <abstract>
+      <para> Data files and R scripts are for the analyses that are presented in an article that is
+        under revision for Biology Communications. The title of the article is: Declines over the
+        last two decades of five key invertebrate species found on rocky intertidal shores
+        throughout the western North Atlantic. The three data files contain the abundances of four
+        gastropod species and the recruitment of barnacles and mussels from 1997 to 2018, monthly
+        temperature data from three buoys from 2001 to 2018, and pH and aragonite saturation state
+        from 1997 to 2014. R scripts include details of Bayesian estimates for Poisson regressions
+        of species over time, clean-up of environmental data, imputation of missing environmental
+        data and analyses of species versus environmental parameters. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Intertidal</keyword>
+      <keyword>Gulf of Maine</keyword>
+      <keyword>barnacle</keyword>
+      <keyword>mussel</keyword>
+      <keyword>pH</keyword>
+      <keyword>aragonite saturation state</keyword>
+      <keyword>DEB LTREB</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>gastropod</keyword>
+      <keyword>temperature</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para> This information is released under the Creative Commons license - Attribution - CC BY
+        (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User"
+        herein) is required to cite it appropriately in any publication that results from its use.
+        The Data User should realize that these data may be actively used by others for ongoing
+        research and that coordination may be necessary to prevent duplicate publication. The Data
+        User is urged to contact the authors of these data if any questions about methodology or
+        results occur. Where appropriate, the Data User is encouraged to consider collaboration or
+        co-authorship with the authors. The Data User should realize that misinterpretation of data
+        may occur if used out of context of the original study. While substantial efforts are made
+        to ensure the accuracy of data and associated documentation, complete accuracy of data sets
+        cannot be guaranteed. All data are made available "as is." The Data User should be aware,
+        however, that data are updated periodically and it is the responsibility of the Data User to
+        check for new versions of the data. The data authors and the repository where these data
+        were obtained shall not be liable for damages resulting from any use or misinterpretation of
+        the data. Thank you. </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Data were collected from 12 unmanipulated control plots on Swans
+          Island, a small island (approx. 36 km2 in area) in the Gulf of Maine, USA. The 12 sites
+          are spread over four different bays on Swans Island, which are Mackerel Cove, Seal Cove,
+          Toothacker Cove, and Burnt Coat Harbor. Most sites are more than 1 km apart; the two
+          closest sites are slightly less than 1 km apart. All plots are in the mid intertidal
+          zone.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-68.503708</westBoundingCoordinate>
+          <eastBoundingCoordinate>-68.38357</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.191442</northBoundingCoordinate>
+          <southBoundingCoordinate>44.12869</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1997-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Protostomia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superphylum</taxonRankName>
+                <taxonRankValue>Ecdysozoa</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>phylum</taxonRankName>
+                  <taxonRankValue>Arthropoda</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subphylum</taxonRankName>
+                    <taxonRankValue>Crustacea</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Maxillopoda</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>subclass</taxonRankName>
+                        <taxonRankValue>Thecostraca</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>infraclass</taxonRankName>
+                          <taxonRankValue>Cirripedia</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>superorder</taxonRankName>
+                            <taxonRankValue>Thoracica</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>order</taxonRankName>
+                              <taxonRankValue>Sessilia</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>suborder</taxonRankName>
+                                <taxonRankValue>Balanomorpha</taxonRankValue>
+                                <taxonomicClassification>
+                                  <taxonRankName>superfamily</taxonRankName>
+                                  <taxonRankValue>Balanoidea</taxonRankValue>
+                                  <taxonomicClassification>
+                                    <taxonRankName>family</taxonRankName>
+                                    <taxonRankValue>Archaeobalanidae</taxonRankValue>
+                                    <taxonomicClassification>
+                                      <taxonRankName>genus</taxonRankName>
+                                      <taxonRankValue>Semibalanus</taxonRankValue>
+                                      <taxonomicClassification>
+                                        <taxonRankName>species</taxonRankName>
+                                        <taxonRankValue>Semibalanus balanoides</taxonRankValue>
+                                      </taxonomicClassification>
+                                    </taxonomicClassification>
+                                  </taxonomicClassification>
+                                </taxonomicClassification>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Protostomia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superphylum</taxonRankName>
+                <taxonRankValue>Lophozoa</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>phylum</taxonRankName>
+                  <taxonRankValue>Mollusca</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Bivalvia</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>subclass</taxonRankName>
+                      <taxonRankValue>Pteriomorphia</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>order</taxonRankName>
+                        <taxonRankValue>Mytiloida</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Mytilidae</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>genus</taxonRankName>
+                            <taxonRankValue>Mytilus</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>species</taxonRankName>
+                              <taxonRankValue>Mytilus edulis</taxonRankValue>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Mollusca</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Gastropoda</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Lottiidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>genus</taxonRankName>
+                  <taxonRankValue>Testudinalia</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>species</taxonRankName>
+                    <taxonRankValue>Testudinalia testudinalis</taxonRankValue>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Protostomia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superphylum</taxonRankName>
+                <taxonRankValue>Lophozoa</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>phylum</taxonRankName>
+                  <taxonRankValue>Mollusca</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Gastropoda</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>order</taxonRankName>
+                      <taxonRankValue>Neotaenioglossa</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>family</taxonRankName>
+                        <taxonRankValue>Littorinidae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>genus</taxonRankName>
+                          <taxonRankValue>Littorina</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>species</taxonRankName>
+                            <taxonRankValue>Littorina littorea</taxonRankValue>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Protostomia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superphylum</taxonRankName>
+                <taxonRankValue>Lophozoa</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>phylum</taxonRankName>
+                  <taxonRankValue>Mollusca</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Gastropoda</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>order</taxonRankName>
+                      <taxonRankValue>Neotaenioglossa</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>family</taxonRankName>
+                        <taxonRankValue>Littorinidae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>genus</taxonRankName>
+                          <taxonRankValue>Littorina</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>species</taxonRankName>
+                            <taxonRankValue>Littorina obtusata</taxonRankValue>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Protostomia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superphylum</taxonRankName>
+                <taxonRankValue>Lophozoa</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>phylum</taxonRankName>
+                  <taxonRankValue>Mollusca</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Gastropoda</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>subclass</taxonRankName>
+                      <taxonRankValue>Prosobranchia</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>order</taxonRankName>
+                        <taxonRankValue>Neogastropoda</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>family</taxonRankName>
+                          <taxonRankValue>Muricidae</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>genus</taxonRankName>
+                            <taxonRankValue>Nucella</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>species</taxonRankName>
+                              <taxonRankValue>Nucella lapillus</taxonRankValue>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Semibalanus balaniodes</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Mytilus edulis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Testudinalia testudinalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Littorina littorea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Littorina obtusata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>unknown</taxonRankName>
+          <taxonRankValue>Nucella lapillus</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Peter</givenName>
+        <givenName>S</givenName>
+        <surName>Petraitis</surName>
+      </individualName>
+      <organizationName>Department of Biology, University of Pennsylvania</organizationName>
+      <electronicMailAddress>ppetrait@sas.upenn.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7616-7638</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para> Recruitment data for barnacles and mussels, and abundance data for gastropods are
+            from control plots that are part of a larger, long-term study started in 1996.
+            Descriptions of the study sites, the coordinates of each plot, methods of data
+            collection and experimental design, and data for recruitment from 1997 to 2012 and for
+            abundances from 1996 to 2008 are available as a supplementary file to a published paper
+            (Petraitis and Dudgeon 2015) and as three data papers in Ecological Archives (Petraitis
+            et al. 2008, 2009, Petraitis and Vidargas 2006). </para>
+          <para> Plates used for barnacle recruitment are resin castings made from latex molds of
+            natural granite rock. Plates are disk-shaped; approximately 0.67 cm thick and 7.1 cm in
+            diameter (39.6 cm2 in area). Barnacle recruitment in Maine begins in March and continues
+            through May, and so plates for barnacle recruitment were usually placed into the plots
+            in late March and usually collected in late May for an average of 56 days (range: 27–79
+            days). A complete count of cyprid larvae and newly metamorphosed spat on each plate was
+            done within a day of collection using a dissecting scope at 25×. Data file provides
+            total count per plate. Data were not collected in 2000, 2009 and 2011. </para>
+          <para> Settling mussel larvae tend to attach initially to filamentous algae and so fibrous
+            pads were used as substrates for recruitment. Pads were approximately 5 × 5 cm and cut
+            from furnace filters (range of fiber diameter = 0.3–0.5 mm). Pads were wrapped in a 5 cm
+            × 13 cm piece of plastic mesh (width of mesh opening: 4.6–5.0 mm; diameter 1.5 mm),
+            which was closed with two cable ties. On Swan’s Island, mussels begin to recruit in
+            June, peak in July and early August, and continue through September. Pads were usually
+            placed out in late May and usually collected in late August for an average of 93 days
+            (range: 67–115 days). Upon collection, pads were preserved in 70% isopropyl alcohol. For
+            counting, pads were torn open and rinsed in water over 425 µm and 300 µm sieves. Mussels
+            trapped on each sieve were rinsed onto a tray with a 2 × 2 cm grid of 32 squares (4 ×
+            8), and mussels were counted in five (1998, 2000, and 2001) or ten (2003–2011) randomly
+            chosen squares. By 2012, mussel recruits were rare and so the entire tray was counted.
+            Counts in data file are reported as numbers per 40 cm2 and rounded to the nearest whole
+            number (i.e., equivalent to the total of ten 2 × 2 cm squares). Data were not collected
+            in 1998, 2000, 2009 and 2011 </para>
+          <para> Gastropods were counted in five 50 × 50 cm quadrats per plot from 1997 to 2003;
+            three quadrats per plot were used beginning in 2004. Data are reported as averages per
+            0.25 m2. Sampling was done at low tide between late June and early August. Spring
+            samples were also collected in 1997, 1998 and 2000. Data were not collected in 2009. </para>
+          <para> Environmental data for pH, aragonite saturation ratio (ΩAR) and temperature were
+            extracted from published papers and online databases. Yearly averages in pH and ΩAR from
+            1997 to 2014 were extracted from published figures (Figures 7 and 8 in Salisbury
+            &amp; Jönsson, 2018). Monthly average temperatures at 1 m depth and from 2001 to
+            2018 that were downloaded from NERACOOS for the three buoys that are the closest to
+            Swans Island (http://neracoos.org/datatools/climatologies_display). The buoys are E01
+            (Central Maine Shelf), F01 (Penobscot Bay) and I01 (Eastern Maine Shelf). There are no
+            data for earlier than 2001; the 2001 data lacked monthly averages for multiple months. </para>
+          <para> Note that until 2010, Testudinalia testudinalis was previously named Tectura
+            testudinalis </para>
+          <para> Petraitis, P. S. &amp; Dudgeon, S. R. 2015. Variation in recruitment and the
+            establishment of alternative community states. Ecology 96, 3186-3196,
+            doi:10.1890/14-2107.1. </para>
+          <para> Petraitis, P. S., Liu, H. &amp; C., R. E. 2008. Densities and cover data for
+            intertidal organisms in the Gulf of Maine, USA, from 2003 to 2007. Ecology 89, 588. http://esapubs.org/archive/ecol/E089/032/. </para>
+          <para> Petraitis, P. S., Liu, H. &amp; Rhile, E. C. 2009. Barnacle, fucoid, and mussel
+            recruitment in the Gulf of Maine, USA, from 1997 to 2007. Ecology 90, 571. http://esapubs.org/archive/ecol/E090/039/. </para>
+          <para> Petraitis, P. S. &amp; Vidargas, N. A. 2006. Marine intertidal organisms found
+            in experimental clearings on sheltered shores in the Gulf of Maine, USA. Ecology 87,
+            796. http://esapubs.org/archive/ecol/E087/047/. </para>
+          <para> Salisbury, J. E. &amp; Jönsson, B. F. 2018. Rapid warming and salinity changes
+            in the Gulf of Maine alter surface ocean carbonate parameters and hide ocean
+            acidification. Biogeochemistry 141, 401-418, </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTREB Renewal: Experimental tests of alternative states on rocky intertidal
+        shores.</title>
+      <personnel>
+        <individualName>
+          <givenName>Steve</givenName>
+          <givenName>R</givenName>
+          <surName>Dudgeon</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>DEB 1555641</funding>
+      <relatedProject>
+        <title>LTREB: Experimental tests of alternative states on rocky intertidal shores</title>
+        <personnel>
+          <individualName>
+            <givenName>Peter</givenName>
+            <givenName>S</givenName>
+            <surName>Petraitis</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0002-7616-7638</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>DEB 1020480</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTREB: Experimental Studies of Alternative Community States on Rocky Intertidal
+          Shores</title>
+        <personnel>
+          <individualName>
+            <givenName>Peter</givenName>
+            <givenName>S</givenName>
+            <surName>Petraitis</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0002-7616-7638</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>DEB 314980</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Alternative Stable States on Rocky Intertidal Shores</title>
+        <personnel>
+          <individualName>
+            <givenName>Peter</givenName>
+            <givenName>S</givenName>
+            <surName>Petraitis</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0002-7616-7638</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>OCE 9529564</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Controls_1997-2018_v17.csv</entityName>
+      <entityDescription>Recruitment data from control plot</entityDescription>
+      <physical>
+        <objectName>Controls_1997-2018_v17.csv</objectName>
+        <size unit="bytes">10144</size>
+        <authentication method="MD5">e5a02e1f5a69903d797250f062f89a9d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Yr_num</attributeName>
+          <attributeDefinition>Year of data collection coded as a number. Numbers ending with 0.3
+            (e.g. 1997.3) denote spring samples; numbers ending with 0.5 denote summer
+            samples.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Year of data collection coded as a number. Numbers ending with 0.3
+                    (e.g. 1997.3) denote spring samples; numbers ending with 0.5 denote summer
+                    samples.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Bay</attributeName>
+          <attributeDefinition>Two-letter codes for the four bays on Swan’s Island,
+            ME</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BC</code>
+                    <definition>Burnt Coat Harbor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MC</code>
+                    <definition>Mackerel Cove</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SC</code>
+                    <definition>Seal Cove</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TC</code>
+                    <definition>Toothacker Cove</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Two-letter codes for the 12 sites. There are three sites per bay.
+            Names are usually first names or surnames of family whose property abuts the
+            site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BO</code>
+                    <definition>Bob</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BS</code>
+                    <definition>Basil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DK</code>
+                    <definition>Dick</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GR</code>
+                    <definition>Grace</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HN</code>
+                    <definition>Hen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JL</code>
+                    <definition>July 4th</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LC</code>
+                    <definition>Long Cove</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LD</code>
+                    <definition>Ledges</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH</code>
+                    <definition>Little House Cove</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MD</code>
+                    <definition>MacDuffie</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MP</code>
+                    <definition>Mill Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PL</code>
+                    <definition>Pole 24</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LL</attributeName>
+          <attributeDefinition>Abundance of Littorina littorea (common periwinkle). Average number
+            per 0.25 m2 and based on three or five 50 cm x 50 cm quadrats per
+            plot</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">103.33</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LO</attributeName>
+          <attributeDefinition>Abundance of Littorina obtusata (smooth periwinkle). Average number
+            per 0.25 m2 and based on three or five 50 cm x 50 cm quadrats per
+            plot</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">47</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TT</attributeName>
+          <attributeDefinition>Abundance of Testudinalia testudinalis (limpet). Average number per
+            0.25 m2 and based on three or five 50 cm x 50 cm quadrats per plot</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NL</attributeName>
+          <attributeDefinition>Abundance of Nucella lapillus (dogwhelk). Average number per 0.25 m2
+            and based on three or five 50 cm x 50 cm quadrats per plot</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">27.67</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SB_r</attributeName>
+          <attributeDefinition>Number of Semibalanus balaniodes (barnacle) recruits per plate.
+            Number per circular plate (39.6 cm2).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">425</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ME_r</attributeName>
+          <attributeDefinition>Number of Mytilus edulis (mussel) recruits. Number per 40 cm2,
+            rounded to the nearest whole number</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5424</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>288</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>NERACOOS_data.csv</entityName>
+      <entityDescription>Monthly average temperatures at 1 m depth</entityDescription>
+      <physical>
+        <objectName>NERACOOS_data.csv</objectName>
+        <size unit="bytes">5207</size>
+        <authentication method="MD5">5fac3b7e445a57d993bbfb5dbbe897a1</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year of data collection given as a four digit
+            number</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2001</minimum>
+                  <maximum exclusive="false">2018</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeDefinition>Month given as a three-letter abbreviation.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Month given as a three-letter abbreviation.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>E01_Mean</attributeName>
+          <attributeDefinition>Temperature at one m depth given in degrees
+            Celsius</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.14</minimum>
+                  <maximum exclusive="false">17.85</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>F01_Mean</attributeName>
+          <attributeDefinition>Temperature at one m depth given in degrees
+            Celsius</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.3</minimum>
+                  <maximum exclusive="false">17.12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>I01_Mean</attributeName>
+          <attributeDefinition>Temperature at one m depth given in degrees
+            Celsius</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.07</minimum>
+                  <maximum exclusive="false">14.51</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>209</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Salisbury_data.csv</entityName>
+      <entityDescription>Yearly averages in pH and aragonite saturation ratio</entityDescription>
+      <physical>
+        <objectName>Salisbury_data.csv</objectName>
+        <size unit="bytes">349</size>
+        <authentication method="MD5">f687340c6698feae4c8237211251bb34</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year given as a four digit number</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1997</minimum>
+                  <maximum exclusive="false">2014</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pH</attributeName>
+          <attributeDefinition>pH</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">8.0333</minimum>
+                  <maximum exclusive="false">8.0587</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>omega</attributeName>
+          <attributeDefinition>Aragonite saturation ratio</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.8122</minimum>
+                  <maximum exclusive="false">2.0076</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>18</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>AA_Poisson_regressions.R</entityName>
+      <entityDescription>Script for Bayesian estimates from Poisson regressions for recruitment and
+        abundance data versus year. Year entered as a fixed effect; Sites entered as random effect.
+        Uses data file Control_1997-2018_v17.csv. Run using MCMCglmm package, version
+        2.29.</entityDescription>
+      <physical>
+        <objectName>AA_Poisson_regressions.R</objectName>
+        <size unit="bytes">3143</size>
+        <authentication method="MD5">aca871ef72d0aeff3aa1f55e3f22826e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>R version 3.6.1</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>BB_Clean_up_environmental_data.R</entityName>
+      <entityDescription>Cleans up environmental data and imputes missing values. Uses
+        NERACOOS_data.csv and Salisbury_data.csv and produces two files, Env_data_for_recruits.csv
+        and Env_data_for_counts.csv. Imputation done using Amelia, version
+        1.7.6.</entityDescription>
+      <physical>
+        <objectName>BB_Clean_up_environmental_data.R</objectName>
+        <size unit="bytes">2437</size>
+        <authentication method="MD5">a5c67f59f4c47c7cc916bc19d94e86ca</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>R version 3.6.1</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>CC_Find_best_envir_model_for_recruits.R</entityName>
+      <entityDescription>R script has three steps: 1) finds the best model for predicting
+        recruitment from environmental data using MuMIn package (version 1.43.15), 2) imputes
+        missing values in best model using Amelia (version 1.7.6), and 3) obtains pooled estimates
+        using Zelig (version 5.1.6.1). Uses Controls_1997-2018.csv and
+        Env_data_for_recruits.csv.</entityDescription>
+      <physical>
+        <objectName>CC_Find_best_envir_model_for_recruits.R</objectName>
+        <size unit="bytes">4141</size>
+        <authentication method="MD5">3ea2766d57f7b31fe9e449396965a9dc</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>R version 3.6.1</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>DD_Find_best_envir_model_for counts.R</entityName>
+      <entityDescription>Does the same as CC_Find_best_envir_model_for_recruits.R but for abundance
+        data. Uses Controls_1997-2018.csv and Env_data_for_counts.csv.</entityDescription>
+      <physical>
+        <objectName>DD_Find_best_envir_model_for counts.R</objectName>
+        <size unit="bytes">3261</size>
+        <authentication method="MD5">e4e0edff90ddf199088c3d36ed32401b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>R version 3.6.1</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

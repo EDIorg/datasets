@@ -1,0 +1,17 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Location	Region where restoration chronosequence was located	character				
+Site	Researchers’ name for each site	character				
+age	Restoration age with first growing season of restoration counting as 1 year	numeric	number		NA	not available
+depth	depth of soil profile used in structural equation model analyses in centimeter ranges	character				
+RootBiomass	biomass of roots; no attempt was made to distinguish live and dead roots	numeric	gramsPerSquareMeter		NA	not available
+RootQuality	Root C:N ratio	numeric	dimensionless		NA	not available
+MBC	Microbial biomass carbon using chloroform fumigation-incubation (chloroform incubation-extraction in the case of NEKS)	numeric	microgramsPerGram		NA	not available
+PLFAbiomass	Total phospholipid fatty acid biomarker (PLFA) biomass	numeric	nanomolesPerGram		NA	not available
+FungiBacteria	Fungi PLFA biomass:bacteria PLFA biomass ratio	numeric	dimensionless		NA	not available
+AMF	Arbuscular mycorrhizal fungi PLFA biomass 	numeric	nanomolesPerGram		NA	not available
+Macros	Percentage of macroaggregates by mass	numeric	dimensionless		NA	not available
+BulkDensity	Bulk density using calculated from gravimetric water content and assuming a mineral soil particle density of 2.65 g cm-3 	numeric	gramsPerCubicCentimeter		NA	not available
+iMicros	Percentage of microaggregates-within-macroaggregates by mass	numeric	dimensionless		NA	not available
+SoilC	Minimum equivalent mass (for a site) soil carbon 	numeric	gramsPerSquareMeter		NA	not available
+SoilC10	Minimum equivalent mass (for a site) soil carbon for a 10 cm soil profile	numeric	gramsPerSquareMeter		NA	not available
+Clay	Percent clay content from a hydrometer soil texture analysis	numeric	dimensionless		NA	not available

@@ -1,0 +1,22 @@
+name	name_type	name_resolved	authority_system	authority_id
+Abutilon theophrasti	scientific	Abutilon theophrasti	ITIS	21674
+Amaranthus retroflexus	scientific	Amaranthus retroflexus	ITIS	20745
+Agropyron	scientific	Agropyron	ITIS	40353
+Ambrosia artemisiifolia	scientific	Ambrosia artemisiifolia	ITIS	36496
+Chenopodium album	scientific	Chenopodium album	ITIS	20592
+Digitaria sanguinalis	scientific	Digitaria sanguinalis	ITIS	40604
+Echinochloa crus-gall	scientific	Echinochloa crus-galli	ITIS	502210
+Erigeron canadensis	scientific	Erigeron canadensis	ITIS	196266
+Oxalis dilleni	scientific	Oxalis dillenii	ITIS	29074
+Panicum dichotomiflorum	scientific	Panicum dichotomiflorum	ITIS	40908
+Polygonum persicaria	scientific	Polygonum persicaria	ITIS	20915
+Rumex acetosella	scientific	Rumex acetosella	ITIS	20934
+Setaria faberri	scientific	Setaria faberi	ITIS	41244
+Setaria viridis	scientific	Setaria viridis	ITIS	41231
+Setaria lutescens	scientific	Setaria lutescens	ITIS	521415
+Setaria glauca	scientific	Setaria glauca	ITIS	41246
+Taraxacum officinale	scientific	Taraxacum officinale	ITIS	36213
+Solanum dulcamara	scientific	Solanum dulcamara	ITIS	30414
+Stellaria media	scientific	Stellaria media	ITIS	20169
+Polygonum aviculare	scientific	Polygonum aviculare	ITIS	20876
+Trifolium repens	scientific	Trifolium repens	ITIS	26206

@@ -1,0 +1,8 @@
+attributeName	code	definition
+Grain_units	m2	square meter
+Grain_units	ha	hectare
+HabitatType	grassland	grassland
+HabitatType	forest	forest
+HabitatType	savanna	savanna
+HabitatType	riparian	riparian
+HabitatType	agricultural	agricultural

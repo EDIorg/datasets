@@ -1,0 +1,25 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Measurer	Person who carried out measurements	character				
+Site	Site where measurements were taken	character				
+Site_Number	Arbitrary number assigned to site that coincides with map graphic 	character				
+Number	Number assigned to plot where measurements were taken	character				
+Turf_height_1	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Turf_height_2	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Turf_height_3	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Turf_height_4	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Turf_height_5	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Turf_height_6	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Turf_height_7	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Turf_height_8	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Turf_height_9	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Turf_height_10	Ten filament measurements in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_1	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_2	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_3	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_4	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_5	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_6	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_7	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_8	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_9	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			
+Seidment_depth_10	Ten sediment depths in millimeters taken within plot area	numeric	millimeter			

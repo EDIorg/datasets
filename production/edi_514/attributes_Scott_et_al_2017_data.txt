@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Age	this is just a place holder to try things out	numeric	number			
+RootBiomass_g_m2	this is just a place holder to try things out	numeric	gramsPerSquareMeter			
+RootQuality_C_N_ratio	this is just a place holder to try things out	numeric	dimensionless			
+MBC_g_g	this is just a place holder to try things out	numeric	gramsPerGram			
+PLFAbiomass_nmol_g	this is just a place holder to try things out	numeric	nanomolesPerGram			
+FungiBacteria_ratio	this is just a place holder to try things out	numeric	dimensionless			
+AMF_PLFA_Biomass_nmol_g	this is just a place holder to try things out	numeric	nanomolesPerGram			
+Aggregate_Mean_Weight_Diameter	this is just a place holder to try things out	numeric	dimensionless			
+Perceent_Macroaggregates_by_mass	this is just a place holder to try things out	numeric	dimensionless			
+BulkDensity_g_cm3	this is just a place holder to try things out	numeric	gramsPerCubicCentimeter			
+Percent_Microaggregate_within_macroaggregate_by_mass	this is just a place holder to try things out	numeric	dimensionless			
+WHC_percent	this is just a place holder to try things out	numeric	dimensionless			
+SoilC_g_m2_to_10_cm	this is just a place holder to try things out	numeric	gramsPerSquareMeter			

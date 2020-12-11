@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+watershed	watershed name	categorical				
+forest	forest stand type	categorical				
+year	year	numeric	nominalYear		NA	not available
+month	month	numeric	nominalMonth		NA	not available
+day	day	numeric	nominalDay		NA	not available
+depth	soil depth in the mineral horizon	character				
+moisture_m3_m3	soil moisture	numeric	cubicMeterPerCubicMeter		NA	not available

@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Yr_num	Year of data collection coded as a number. Numbers ending with 0.3 (e.g. 1997.3) denote spring samples; numbers ending with 0.5 denote summer samples.	character				
+Bay	"Two-letter codes for the four bays on Swan’s Island, ME"	categorical				
+Site	Two-letter codes for the 12 sites.  There are three sites per bay. Names are usually first names or surnames of family whose property abuts the site	categorical				
+LL	Abundance of Littorina littorea (common periwinkle). Average number per 0.25 m2 and based on three or five 50 cm x 50 cm quadrats per plot	numeric	number		NA	not available
+LO	Abundance of Littorina obtusata (smooth periwinkle). Average number per 0.25 m2 and based on three or five 50 cm x 50 cm quadrats per plot	numeric	number		NA	not available
+TT	Abundance of Testudinalia testudinalis (limpet). Average number per 0.25 m2 and based on three or five 50 cm x 50 cm quadrats per plot	numeric	number		NA	not available
+NL	Abundance of Nucella lapillus (dogwhelk). Average number per 0.25 m2 and based on three or five 50 cm x 50 cm quadrats per plot	numeric	number		NA	not available
+SB_r	Number of Semibalanus balaniodes (barnacle) recruits per plate. Number per circular plate (39.6 cm2).	numeric	number		NA	not available
+ME_r	"Number of Mytilus edulis (mussel) recruits. Number per 40 cm2, rounded to the nearest whole number"	numeric	number		NA	not available

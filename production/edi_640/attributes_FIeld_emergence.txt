@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Site	"Field site of seedling that was recorded on a study plot. Each line is a distinct seedling marked and numbered, and the site refers to which main location (the Rincon Mountain site, the Tucson Mountain site, or the Tumamoc Hill site)"	categorical				
+Plot	Specific 2m x 2m study plot on which the seedling emerged	character				
+Species	Four-letter code for best guess of seedling’s species	categorical				
+Treatment	Plot treatment level within the removal experiment	categorical				

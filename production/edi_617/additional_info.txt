@@ -1,0 +1,1 @@
+﻿The time column has been computed by EDI staff from the hobo time data available as best as possible. Clearly there are major problems with the date and time and this dataset may only be used larger aggregations.

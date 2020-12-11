@@ -1,0 +1,7 @@
+name	name_type	name_resolved	authority_system	authority_id
+Pinus contorta var. latifolia	scientific	Pinus contorta latifolia	GBIF Backbone Taxonomy	5285756
+Picea engelmannii	scientific	Picea engelmannii	ITIS	183291
+Abies lasiocarpa	scientific	Abies lasiocarpa	ITIS	181830
+Pinus contorta var. latifolia	common	NA	NA	NA
+Picea engelmannii	common	NA	NA	NA
+Abies lasiocarpa	common	NA	NA	NA

@@ -1,0 +1,3 @@
+﻿Stream samples were collected as grab samples and with ISCO autosamplers, and analyzed for nitrate, sulfate, calcium, and magnesium. Wet-only precipitation was collected at the site using an AeroChem-metrics precipitation collector and was analyzed for nitrogen and sulfur. Dry deposition data were obtained from the CASTNET Howland station (HOW132). Detailed methods can be found in the corresponding manuscript (doi: 10.1007/s10533-020-00711-5). 
+
+The processing script and workflow are hosted on GitHub (doi: 10.5281/zenodo.4127269)

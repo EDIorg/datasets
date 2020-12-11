@@ -1,0 +1,32 @@
+We compiled temperature and dissolved oxygen (DO) profiles from academic, government, and not-for-profit sources. We sought datasets that had at least one profile sampled annually during the late summer period, which we defined as July 15 – August 31 in the northern hemisphere and January 15 – February 28 in the southern hemisphere. Additionally, we sought datasets having at least 15 years of data.
+
+As a quality control step, we removed data points having ecologically unlikely values in excess of 40degreeC for temperature and 40 mg L-1 for DO. We removed profiles from further analysis if this process removed more than 95% of a profile or if there were less than three distinct depth points remaining.
+
+In some cases, profiles did not have surface measurements (i.e. the shallowest depth was  greater than  0 m). We made the assumption of uniform temperature and DO across the epilimnion for these profiles and added a 0 depth. We did this by 1) changing the minimum depth in the profile to 0 if the depth was less than 0.5 m, 2) adding a 0 depth point and assigning it the temperature and DO values equal to those of the minimum depth if the depth was less than or equal to 3 m. If the minimum depth in the profile exceeded 3 m, we removed it from further analysis. If a given depth point had multiple values for temperature or DO, we took the mean of these values. We conducted all analyses using the R statistical programming environment (R Core Team 2017).
+
+Profile interpolation and strata delineation
+
+We interpolated each profile at 0.5 m intervals from 0 m to the deepest point of each profile using the pchip function of the R package pracma (Borchers et al. 2018). Following this interpolation process, we calculated the top and bottom depths of the metalimnion for each profile using the meta.depths function of the R package rLakeAnalyzer (Winslow et al. 2017). If the range of temperatures through a given profile is less than 1degreeC, this function considers the profile to be unstratified.
+
+Many lakes did not have a well-defined hypolimnion. If more than 10% of profiles were considered unstratified, we considered the lake not to have a hypolimnion. We define epilimnion as all depths less than or equal to the top metalimnion depth and hypolimnion as all depths deeper than the bottom metalimnion depth.
+
+Calculating mean epilimnetic and hypolimnetic metrics
+
+We calculated mean late summer temperature, DO concentration, and percent saturation for both the epilimnion and the hypolimnion. For temperature and DO, we first calculated the mean value across the epilimnion or hypolimnion for each profile, and then took the mean of these values across all profiles within the defined late-summer period for each year for each lake. DO percent saturation at each depth interval was calculated from water temperature, DO concentration, and lake elevation (Winslow et al. 2017). Mean epilimnetic and hypolimnetic percent saturation were then calculated in the same manner as temperature and DO concentration.
+
+For lakes that had chlorophyll a data, we used data in the defined late-summer period. For each date in this period, we took the mean of all epilimnetic values. We then calculated the mean of these values for a given year and removed years that exceeded the range of DO data for the corresponding lake. We also excluded data from lakes that did not have at least ten years of chlorophyll a data. Following this, we then took a grand mean for each lake. Before doing these calculations, we first removed any negative values, which were roughly 0.2% of the data.
+
+Calculating trends in meteorological variables
+
+We downloaded meteorological variables using the ERA-5 reanalysis from the European Centre for Medium-Range Weather Forecasts (ECMWF) (Copernicus Climate Change Service 2019). The ERA-5 reanalysis is a global dataset gridded at a resolution of 0.25degree latitude by 0.25degree longitude. The data is available over the period 1979-2019 as monthly averages (air temperature, wind speed, and shortwave radiation) or totals (precipitation). We used data from the location nearest to each lake and over the two-month period corresponding most closely to that used for lake water data (July-August for Northern hemisphere lakes, January-February for Southern hemisphere lakes). 
+
+References
+
+Borchers, H. W. (2018). pracma: Practical Numerical Math Functions. R package version 2.1.5 https://CRAN.R-project.org/package=pracma
+
+Copernicus Climate Change Service (C3S). (2019). ERA5: Fifth generation of ECMWF atmospheric reanalyses of the global climate. Copernicus Climate Change Service Climate Data Store (CDS), Accessed 10/1/2019. https://cds.climate.copernicus.eu/cdsapp#!/home
+
+R Core Team. (2017). R: a language and environment for statistical computing. R foundation for statistical computing, Vienna, Austria
+
+Winslow, L. A., et al. (2017). rLakeAnalyzer: Lake Physics Tools. R package version 1.11.4 https://CRAN.R-project.org/package=rLakeAnalyzer 
+

@@ -1,0 +1,29 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	Calendar year. 1980 is simulation year 0.	numeric	nominalYear			
+gcm	General circulation model for simulation scenario.	categorical				
+configuration	Housing development and fuels treatment configuration level for simulation scenario. 	categorical				
+amount_pct	Amount of housing development and fuels treatment in simulation scenario.	numeric	percent		NA	not available
+rep	Simulation replicate for given scenario. Each scenario has 20 replicates.	numeric	number		NA	not available
+forest_ha	Area of landscape that is forested (> 50 trees/ha).	numeric	hectare		NA	not available
+nonforest_ha	Area of landscape that is non-forested (< 50 trees/ha).	numeric	hectare		NA	not available
+pico_ha	Area of forested landscape that is dominated by lodgepole pine (> 1.5 importance value [IV]).	numeric	hectare		NA	not available
+abla_ha	Area of forested landscape that is dominated by subalpine fir (> 1.5 IV).	numeric	hectare		NA	not available
+pien_ha	Area of forested landscape that is dominated by Engelmann spruce (> 1.5 IV).	numeric	hectare		NA	not available
+psme_ha	Area of forested landscape that is dominated by Douglas-fir (> 1.5 IV).	numeric	hectare		NA	not available
+potr_ha	Area of forested landscape that is dominated by quaking aspen (> 1.5 IV).	numeric	hectare		NA	not available
+mixed_ha	Area of forested landscape that is mixed forest (all species < 1.5 IV).	numeric	hectare		NA	not available
+age_lt_40_ha	Area of forested landscape that is < 40 years stand age.	numeric	hectare		NA	not available
+age_40_100_ha	Area of forested landscape that is 40-100 years stand age.	numeric	hectare		NA	not available
+age_100_250_ha	Area of forested landscape that is 100-250 years stand age.	numeric	hectare		NA	not available
+age_gt_250_ha	Area of forested landscape that is > 250 years stand age.	numeric	hectare		NA	not available
+total_burned_ha	Total area burned in landscape.	numeric	hectare		NA	not available
+high_burned_ha	Area burned at high intensity in landscape.	numeric	hectare		NA	not available
+cumulative_burned_ha	"Cumulative area burned in landscape, starting with simulation year 1 (1981)."	numeric	hectare		NA	not available
+cumulative_high_ha	"Cumulative high intensity area burned in landscape, starting with simulation year 1 (1981)."	numeric	hectare		NA	not available
+average_kdbi	Average value of Keetch Byram Drought Index (KBDI) across entire landscape. Values are standardized between 0 and 1.	numeric	dimensionless		NA	not available
+hiz_burned_ha	"Area of 1-hectare home ignition zones (HIZ), in which defensible space fuels treatments were applied, that burned."	numeric	hectare		NA	not available
+mean_hiz_fl_m	"Mean flame length in HIZs that burned. If no HIZs burned in a given year, this is NA."	numeric	meter		NA	not available
+ssz_exposure_pct	Percent of structures that were exposed to at least 1 hectare of high-intensity fire in their safe suppression zone (SSZ; the 8 ha of immediate neighbors around each 1-ha HIZ).	numeric	percent		NA	not available
+pland_high_pct	Percent of the landscape (PLAND) that burned at high intensity.	numeric	percent		NA	not available
+lpi_high_ha	"Largest patch index (LPI), area of largest high-intensity fire patch."	numeric	hectare		NA	not available
+area_am_high_ha	Area-weighted mean patch size (AREA_AM) of high-intensity fire patches.	numeric	hectare		NA	not available

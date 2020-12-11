@@ -1,0 +1,16 @@
+keyword	keywordThesaurus
+vegetation survey	
+ecological niche model	
+species distribution model	
+mountain ecosystems	
+plants	
+abundance	
+biotic interactions	
+percent cover	
+communities	
+community composition	
+community dynamics	
+community patterns	
+species composition	
+species diversity	
+species richness	

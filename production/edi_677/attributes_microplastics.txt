@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Locational identifier for each sampling site	character				
+replicate	"Replicate for a given location, C = control"	character				
+fragments	Number of microplastic fragments observed	numeric	number		NA	not available
+fibers	Number of microplastic fibers observed	numeric	number		NA	not available
+beads	Number of microplastic beads observed	numeric	number		NA	not available
+comments	Observer comments while enumerating microplastics	character			NA	not available
+volume_filtered_ml	Volume for a given replicate filtered 	numeric	milliliter		NA	not available

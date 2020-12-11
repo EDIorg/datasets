@@ -1,0 +1,10 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Paul	H	Barber	UCLA	paulbarber@ucla.edu		creator			
+Caitlin	R	Fong	CSUN	Cat.r.fong@gmail.com		creator			
+Peggy		Fong	UCLA	pfong@biology.ucla.edu		creator			
+Camille	J	Gaynus	University of Penn	cgaynus@sas.upenn.edu		creator			
+Shalanda		Grier	UCLA	sgrier@ucla.edu		creator			
+Paul	H	Barber	UCLA	paulbarber@ucla.edu		contact			
+Camille	J	Gaynus	University of Penn	cgaynus@sas.upenn.edu		contact			
+Paul	H	Barber				PI	UC-HBCU Initiative 	UCOP	
+Paul 	H	Barber				PI	PIRE Program	NSF	OISE 1243541

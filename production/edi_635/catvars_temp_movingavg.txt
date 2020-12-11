@@ -1,0 +1,5 @@
+attributeName	code	definition
+Season	Winter	winter
+Season	VT	vernal transition
+Season	GS	growing season
+Season	Fall	fall autumn

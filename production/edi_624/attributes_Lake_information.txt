@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+lake_id	Unique lake identifier	character				
+contributor	Number uniquely associated to one data contributor	numeric	number			
+country	Country in which lake is located	character				
+state_prov	State or province in which lake is located	character				
+lat	Latitude of lake	numeric	degree		NA	not available
+long	Longitude of lake	numeric	degree		NA	not available
+max_depth	Maximum depth of lake	numeric	meter		NA	not available
+surf_area	Surface area of lake	numeric	hectare		NA	not available
+lake_name	Name of lake	character				
+chlor_a	Mean chlorophyll a across all available years	numeric	microgramsPerLiter		NA	not available

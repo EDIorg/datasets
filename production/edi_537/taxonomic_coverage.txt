@@ -1,0 +1,18 @@
+name	name_type	name_resolved	authority_system	authority_id
+Acer platanoides	scientific	Acer platanoides	ITIS	28755
+Acer rubrum	scientific	Acer rubrum	ITIS	28728
+Ampelopsis brevipundiculata	scientific	Ampelopsis brevipedunculata	ITIS	28632
+Berberis canadensis	scientific	Berberis canadensis	ITIS	18818
+Berberis thunbergii	scientific	Berberis thunbergii	ITIS	18835
+Ceanothus americanus	scientific	Ceanothus americanus	ITIS	28454
+Celastrus orbiculata	scientific	Celastrus orbiculata	ITIS	27975
+Celastrus scandens	scientific	Celastrus scandens	ITIS	27974
+Elaeagnus umbellata	scientific	Elaeagnus umbellata	ITIS	27776
+Lonicera mackii	scientific	Lonicera maackii	ITIS	35298
+Parthenocissus quinquefolia	scientific	Parthenocissus quinquefolia	ITIS	28602
+Pinus rigida	scientific	Pinus rigida	ITIS	183376
+Prunus serotina	scientific	Prunus serotina	ITIS	24764
+Rosa caroliniense	scientific	Rosa carolinensis	GBIF Backbone Taxonomy	NA
+Rosa multiflora	scientific	Rosa multiflora	ITIS	24833
+Viburnum acerifolium	scientific	Viburnum acerifolium	ITIS	35255
+Vitis novae-anglea	scientific	Vitis novae-angliae	GBIF Backbone Taxonomy	5372397

@@ -1,0 +1,15 @@
+attributeName	code	definition
+N	0	no
+N	1	yes
+P	0	no
+P	1	yes
+K	0	no
+K	1	yes
+trt	Control	Control
+trt	N	Nitrogen
+trt	P	Phosphorus
+trt	K	potassium
+trt	NP	nitrogen + phosphorus
+trt	NK	nitrogen + potassium
+trt	NPK	nitrogen + phosphorus + potassium
+trt	PK	phosphorus + potassium

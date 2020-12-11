@@ -1,0 +1,21 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+LakeName	Name of the lake	character			NA	not available
+MeshSize	"Size of the net mesh, if a net was used"	numeric	micrometer		NA	not available
+GearType	Type of zooplankton collection method	character			NA	not available
+Reference	Author(s) and year when study was published	character			NA	not available
+Journal	Journal of publication	character			NA	not available
+TrophicState	Trophic state of the lake at time of sampling 	character			NA	not available
+StationName	Name of the station that data were collected	character			NA	not available
+LakeArea_km2	Surface area of the lake 	numeric	squareKilometers		NA	not available
+LakeMaximumDepth_m	Maximum depth of the lake	numeric	meter		NA	not available
+StationDepth_m	Station depth in meter	character			NA	not available
+DistancetoBottomSampled_m	Amount of water column sampled in relation to the lake bottom in percent	numeric	dimensionless		NA	not available
+Date	Date of sample collection	Date		YYYY-MM-DD	NA	not available
+Taxon	Taxon of zooplankton	character			NA	not available
+TaxaClassification	Broader zooplankton grouping for analysis	character			NA	not available
+DayDensity_IndPerL	Density during the day 	numeric	numberPerLiter		NA	not available
+NightDensity_IndPerL	Density at night	numeric	numberPerLiter		NA	not available
+DayBiomass_ugL	Biomass during the day	numeric	microgramsPerLiter		NA	not available
+NightBiomass_ugL	Biomass at night	numeric	microgramsPerLiter		NA	not available
+PercentNightChangeDensity_Percent	Change in density at night compared to day	numeric	dimensionless		NA	not available
+PercentNightChangeBiomass_Percent	Change in biomass at night compared to day	numeric	dimensionless		NA	not available

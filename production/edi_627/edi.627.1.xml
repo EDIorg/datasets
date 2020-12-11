@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.627.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Can we manage a future with more fire? Effectiveness of defensible space treatment depends on housing amount and configuration</title>
+    <creator>
+      <individualName>
+        <givenName>Kristin</givenName>
+        <givenName>H</givenName>
+        <surName>Braziunas</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>braziunas@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-5350-8463</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Rupert</givenName>
+        <surName>Seidl</surName>
+      </individualName>
+      <organizationName>Technical University of Munich</organizationName>
+      <electronicMailAddress>rupert.seidl@tum.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-3338-3402</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Werner</givenName>
+        <surName>Rammer</surName>
+      </individualName>
+      <organizationName>Technical University of Munich</organizationName>
+      <electronicMailAddress>werner.rammer@tum.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-6871-6759</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Monica</givenName>
+        <givenName>G</givenName>
+        <surName>Turner</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>turnermg@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1903-2822</userId>
+    </creator>
+    <pubDate>2020-10-20</pubDate>
+    <abstract>
+      <para>Context: Fire in forested wildland urban interface (WUI) landscapes is increasing throughout the western United States. Spatial patterns of fuels treatments affect fire behavior, but it is unclear how fire risk and fuel treatment effectiveness will change under future conditions.</para>
+      <para>Objectives: (1) How do area burned, forest and fuel characteristics, and fire risk change over time under 21st-century climate? (2) When defensible space fuels treatments are applied around all houses, which scenarios of WUI housing amount and configuration minimize fire risk?</para>
+      <para>Methods: In generic 10,000-ha US Northern Rocky Mountain subalpine forest landscapes, we simulated 21 scenarios differing in fuels treatment, housing amount and configuration (neutral landscape models), and projected future climate using the process-based model iLand. We compared fire risk at three scales: 1-ha home ignition zone (HIZ), 9-ha safe suppression zone (SSZ), and landscape.</para>
+      <para>Results: Under warm-dry climate, annual area burned increased, but area burned at high fire intensity peaked in the 2060s and then declined sharply; fire risk followed similar trends. Defensible space treatments maintained low flame lengths in HIZs. Clustered housing was more effective at reducing SSZ risk compared to dispersed housing. At landscape scales, treating more of the landscape reduced fire risk but configuration was unimportant.</para>
+      <para>Conclusions: The most effective strategy for reducing fire risk depends on the scale at which risk is assessed. Clustering WUI developments and treating between 10 to 30% of the landscape every 10 years can reduce fire risk across multiple scales.</para>
+      <para/>
+    </abstract>
+    <keywordSet>
+      <keyword>Mechanistic models</keyword>
+      <keyword>NLM</keyword>
+      <keyword>landscape metrics</keyword>
+      <keyword>wildfire feedbacks</keyword>
+      <keyword>fire behavior modeling</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>disturbance</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Subalpine, lodgepole-pine dominated forests in the Greater Yellowstone Ecosystem, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.5</westBoundingCoordinate>
+          <eastBoundingCoordinate>-108.5</eastBoundingCoordinate>
+          <northBoundingCoordinate>49</northBoundingCoordinate>
+          <southBoundingCoordinate>42</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2018-01-28</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-05-29</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Kristin</givenName>
+        <givenName>H</givenName>
+        <surName>Braziunas</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>braziunas@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-5350-8463</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Monica</givenName>
+        <givenName>G</givenName>
+        <surName>Turner</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>turnermg@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1903-2822</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Study area </para>
+          <para>The US Northern Rocky Mountains encompass over 30 million ha from central Wyoming to the US-Canada border and are dominated by conifer forests (Baker 2009). Subalpine forests occupy ~45% of the forested area (Rollins and Frame 2006; Harvey et al. 2016). Lodgepole pine (Pinus contorta var. latifolia) often dominates the lower subalpine zone, Engelmann spruce (Picea engelmannii) and subalpine fir (Abies lasiocarpa) tend to dominate the upper subalpine zone, and whitebark pine (Pinus albicaulis) is common near upper tree line (Baker 2009). These high-elevation, cool, mesic forests have continuous, abundant canopy fuels and are adapted to infrequent (100-300 year return interval) stand-replacing fire regimes (Romme and Despain 1989; Schoennagel et al. 2004; Whitlock et al. 2008; Higuera et al. 2011). Fire activity in the Northern Rocky Mountains is strongly linked to climatic drivers that lower fuel moisture during the fire season (Littell et al. 2009), and high-intensity and -severity crown fires in subalpine forests are driven by rare combinations of drought and high wind (Romme 1982; Renkin and Despain 1992; Bessie and Johnson 1995). As climate has changed in recent decades, this region has experienced some of the greatest increases in number of large fires and area burned among western US forests (Westerling et al. 2006; Westerling 2016), and the proportion of area burned as stand-replacing fire has also increased (Harvey et al. 2016). Although the Northern Rocky Mountains are characterized by extensive areas of public land, WUI development has rapidly expanded in recent decades (Radeloff et al. 2018), and by some estimates  greater than  80% of potential WUI remains undeveloped and available for future growth (Gude et al. 2008).</para>
+          <para>Simulation model</para>
+          <para>We used the process-based forest landscape and disturbance model iLand, which simulates growth, mortality, and competition at the level of individual trees; considers species-specific responses to environmental drivers; and incorporates spatially explicit processes such as seed dispersal and fire spread (Seidl et al. 2012, 2014; Seidl and Rammer 2020). Trees  greater than  4 m in height are individually modeled and spatially explicit, and trees compete with their neighbors for light, nutrients, and water. Processes are simulated at multiple temporal and spatial scales. For example, daily climate drivers, including minimum and maximum temperature, precipitation, radiation, and vapor pressure deficit affect canopy carbon uptake, which is further modified by species-specific tolerances for temperature extremes, drought stress, shading, and nutrient availability. Available light is calculated at 2 x 2 m horizontal resolution based on shortwave radiation and shading due to tree crowns. Other environmental conditions, such as soil water and nutrients are calculated at the resolution of 1-ha stands. Trees die due to intrinsic reasons, with increasing mortality probability as trees approach their maximum age or size. Environmental stressors that lead to carbon starvation and disturbances such as fire also cause tree mortality in the model. Seed masting, production, quantity, and dispersal distances vary by species, and seedling establishment occurs when specific environmental thresholds for winter chilling, growing degree days, and soil water potential are met (Nitschke and Innes 2008; Hansen et al. 2018). Stems  less than  4 m in height (seedlings and saplings) are modeled as cohorts at 2-m resolution until they reach 4 m in height. iLand has been parameterized and evaluated for five widespread trees species in the Northern Rocky Mountains and generates realistic stand structures, variability among stands, forest composition, and fire-induced regeneration of serotinous lodgepole pine (Braziunas et al. 2018; Hansen et al. 2018, 2020). </para>
+          <para>Fire behavior in iLand responds dynamically to fire-year weather (fuel moisture), fuels, and topography (Seidl et al. 2014; Seidl and Rammer 2020). Fuel moisture is estimated from the Keetch-Byram Drought Index (KBDI), an index for predicting fire potential based on soil moisture depletion in response to cumulative precipitation and evapotranspiration (Keetch and Byram 1968). KBDI – originally ranging from 0 to 800 – is standardized on a scale of 0 (wettest) to 1 (driest) and computed annually in iLand, which enables the index to capture changes in fire season length in addition to extremely hot and dry years. KBDI serves as a proxy for fuel moisture in calculating fuel loads in iLand, and additionally modifies fire ignition probabilities and fire sizes. Fire size is sampled from a negative exponential distribution, and threshold KBDI values are used to constrain fire sizes in cool-wet years or establish a minimum fire size in hot-dry years. Wind speed is randomly selected from a user-specified range and held constant during a fire event. Fire is modeled at 20-m resolution and spreads via a cellular automaton model in eight possible directions, influenced by topography, wind speed, and wind direction. Fire spread is constrained by a minimum fuel load required for spread and a maximum potential fire size, along with a fire extinction probability that is applied to each burning pixel. Fire severity and resulting tree mortality are calculated from fuel loads, fuel moisture, and species- and size-specific fire resistance. Hansen et al. (2020) parameterized and evaluated the iLand fire module for this region, and Turner et al. (in prep) updated fire severity parameters based on additional analyses. We here specified a baseline fire return interval of 160 years, representing lodgepole pine forests at the lower end of their elevation range (Schoennagel et al. 2003).</para>
+          <para>Simulation landscapes and initial conditions </para>
+          <para>To focus on effects of climate and spatial pattern of fuels reduction treatments, we minimized variability in other factors by creating a generic 10,000-ha simulation landscape (1-ha resolution) that was flat with spatially homogeneous soil and climate conditions representative of lodgepole pine-dominated forest near the WUI community West Yellowstone, MT (Turner et al. 2016). We extracted soil texture and effective depth from CONUS-SOIL (Miller and White 1998) and daily climate drivers from 1950-2005 for the CanESM2 general circulation model (4-km resolution; climate projections described below). We assigned a soil fertility value assuming underlying rhyolitic parent material (Despain 1990; Braziunas et al. 2018). </para>
+          <para>Initial forest composition and stand structures were generated from a 300-year model spinup under historical climate following Hansen et al. (2020). We first identified forest inventory and analysis (FIA) plots in northwest Wyoming (FIADB 2019) that were representative of dense lodgepole-pine dominated subalpine forest (1,900-2,400 m elevation; Schoennagel et al. 2003). We selected plots dominated by lodgepole pine based on importance value (IV) ≥ 1.5 (IV = species proportion of stand density + species proportion of basal area). We used these plots (n = 106 plots) to initialize lodgepole pine and four other species, which were present in minor proportions: Douglas-fir (Pseudotsuga menziesii var. glauca), subalpine fir, Engelmann spruce, and quaking aspen (Populus tremuloides). Serotinous and non-serotinous lodgepole pine are simulated separately in iLand, and we assumed that 25% of initial lodgepole pine trees were serotinous based on field observations of high-serotiny stands (Schoennagel et al. 2003). For year 0 of the spinup, we varied initial stand structure and species composition derived from FIA plots at 10-m resolution across the landscape.</para>
+          <para>We then simulated forest development under historical climate conditions and fire activity over a 300-year period. Each year, climate was randomly drawn with replacement from 1950-2005 under CanESM2. We included a 2.5-km buffer around the edge of the study landscape to ensure the landscape edges had an equal probability of burning (total simulated landscape size = 22,500 ha). Following spinup, most of the landscape was lodgepole pine-dominated with a mix of stand ages and structures consistent with the regional landscape. Stands (1-ha resolution) were considered forested when there were ≥ 50 trees ha-1 (Hansen et al. 2018) based on stems ≥ 2 m in height, which comprise the canopy fuel layer (Keane 2015).</para>
+          <para>Simulation experiment</para>
+          <para>Overview. For this 10,000-ha subalpine forest landscape, we conducted a simulation experiment in which we estimated fire risk for 21 scenarios that differed in projected future climate, whether or not fuels were treated, and housing amount and configuration. We simulated 20 replicates of each scenario in iLand for 120 years (1980-2099), resulting in 420 simulation runs (360 with fuels treatments and 60 without).</para>
+          <para>Climate projections. We used three general circulation models (GCMs) to represent a range of potential future climates. Projected temperature is similar among models, but some models project increased precipitation (CanESM2; Chylek et al. 2011) whereas others have distinct periods of drought varying in timing and intensity (HadGEM2-CC and HadGEM2-ES; Collins et al. 2011). All GCMs were forced with representative concentration pathway (RCP) 8.5, which is a higher emissions pathway that most closely tracks current and expected CO2 emissions through midcentury (Schwalm et al. 2020). We focused on variability among GCMs (emphasizing differences in precipitation) rather than RCPs (3degree versus 5degree C warming) because of the strong effects of aridity on fire activity (Abatzoglou and Williams 2016) and drought on postfire tree regeneration (Stevens-Rumann and Morgan 2019). We extracted daily climate drivers through 2099 for each GCM from MACAv2-METDATA, which uses the Multivariate Adaptive Constructed Analogs approach and METDATA observational dataset to statistically downscale climate drivers to 4-km resolution (Abatzoglou and Brown 2012; Abatzoglou 2013). </para>
+          <para>Defensible space fuels treatments. In treatment scenarios, we simulated defensible space management in the 1-ha area surrounding each hypothetical house based on National Fire Protection Association (NFPA) standards (NFPA 2018). We followed the most aggressive fuel reduction prescriptions in the NFPA standard because our goal was to reduce fire risk as much as possible within defensible space. For the surface fuel layer, we removed dead and downed (100-hr and 1000-hr) fuels and all live vegetation less than 4 m in height (tree seedlings and saplings). For the canopy fuel layer, we used species-specific maximum crown radius equations (Purves et al. 2007) to approximate an average crown radius based on stand quadratic mean diameter (QMD). Following guidelines for recommended crown spacing of 5.5 m between crowns (NFPA 2018), we then derived maximum stocking densities for each tree species based on stand QMD. For each 1-ha grid cell in which defensible space treatment was applied, the species with the maximum IV was used to set maximum stocking targets, and smaller trees were preferentially removed (i.e., thinning from below, which simultaneously increases canopy base height while reducing canopy fuels; Graham et al. 1999). Defensible space treatment was implemented during the first simulation year (1980) and repeated every 10 years based on a conservative estimate of treatment duration effectiveness (Kalies and Yocom Kent 2016; Schoennagel et al. 2017).</para>
+          <para>Amount and configuration of houses and fuels treatments. We used neutral landscape models to generate replicate maps that varied in the amount and configuration of housing, and therefore fuels treatments, within the simulation landscape. We assumed that only one house would be built within a given 1-ha grid cell. The surrounding hectare constituted that structure's defensible space and was classified as developed area. We selected levels of housing amount consistent with the definition of intermix WUI ( greater than  6.17 houses km-2 and at least 50% wildland vegetation; USDA and USDI 2001; Radeloff et al. 2005). We simulated three levels of housing amount (10, 30, or 50 houses km-2), corresponding to 10%, 30%, or 50% of the landscape classified as developed area rather than wildland vegetation. Housing configuration was then either randomly dispersed, in which single houses are intermixed with wildland vegetation consistent with scattered sprawl, or clustered next to areas of large, contiguous open space, consistent with conservation development (Pejchar et al. 2007).</para>
+          <para>We generated 20 neutral landscapes for each combination of the three housing amounts and two configurations using the NLMR R package (Sciaini et al. 2018). Randomly dispersed housing was generated from simple random percolation models (Gardner et al. 1987). Clustered housing was implemented using random rectangular neutral landscape models, in which overlapping rectangular patches are randomly distributed until the landscape is filled, with the user specifying the range of patch sizes and the total amount of area in each class (Gustafson and Parker 1992). We set minimum and maximum patch size based on the size of developed areas in conservation development subdivisions for mountainous counties in Colorado (Sarah E. Reed and Liba Pejchar 2019, unpublished data). Patches were defined using the 8-neighbor rule. In our landscapes, mean development patch sizes were 33, 76, and 285 ha for 10%, 30%, and 50% developed area, respectively, and were within the range of Colorado conservation development data. Consistent with conservation development principles, landscapes with clustered housing were characterized by large areas of contiguous wildland vegetation even when half of the landscape was developed.</para>
+          <para>Fire intensity and risk calculations</para>
+          <para>To quantify fire risk to structures, we first used established fire behavior modeling methods to estimate fire intensity at the resolution of a 1-ha grid cell based on fire weather and fuels characteristics derived from iLand outputs. By estimating fire intensity as a dynamic response to changes in forest conditions and environmental drivers, we thereby capitalized on the strengths of using the process-based forest simulation model iLand to characterize future conditions. Canopy fuel characteristics, surface fire behavior fuel model classification, fire spread rates and intensities, and crown fire occurrence were similar to comparison data and responded appropriately to variation in fuel loads, fuel moisture, and wind speed. We also used fire intensity (flame length, m) to assign fire intensity class (low, moderate, or high). High intensity fire corresponds with flame lengths ≥ 2.4 m, at which point fire control is unlikely to be effective and, as flame lengths increase, extreme fire behavior is likely (Roussopoulos and Johnson 1975; Rothermel 1983). </para>
+          <para>We then assessed fire risk to structures at each of our three spatial scales. Home ignition zone (HIZ) risk was quantified as fire intensity within the 1-ha treated area of defensible space around each structure, with higher fire intensities implying increased risk. Safe suppression zone (SSZ) fire risk was quantified as the percentage of structures exposed to high intensity fire in at least one of the eight neighboring grid cells in a given year. Fire risk in the HIZ and SSZ were averaged across areas classified as developed and containing structures in the simulation each year, an approach that assumes houses are rebuilt after fire. Fire risk for the entire landscape was quantified by using three class-level landscape metrics calculated for high intensity area burned: percentage of landscape burned at high intensity (PLAND), largest patch index (LPI), and area-weighted mean patch size (AREA_AM). </para>
+          <para>Analysis</para>
+          <para>We first calculated annual area burned, fire risk, and mean forest and fuel characteristics across the entire landscape for each replicate of each scenario. To evaluate temporal trends in area burned and fire risk (question 1), which are dominated by discrete events, we fit a loess smooth local regression line to each response variable. We chose a smoothing span of 100 years based on the lower bound of the historical fire return interval for lodgepole pine forest. For all other temporal trends, we evaluated changes in mean values over time.</para>
+          <para>To compare scenarios of housing amount and configuration (question 2), we calculated the average annual fire risk at HIZ, SSZ, and landscape scales over the 120-year duration of the simulation experiment for each replicate (n = 20 per scenario). For each no treatment replicate, we quantified HIZ and SSZ fire risk assuming houses were present by randomly selecting a map from one of the housing amount and configuration scenarios. We performed two complementary analyses. First, we compared mean fire risk between no treatment and treatment scenarios, focusing on the magnitude of change rather than statistical tests of significance. Second, we fit linear mixed effects models to treatment scenarios only, omitting no treatment scenarios, to disentangle the effect of amount versus configuration of housing. We included amount, configuration, and their interaction as fixed effects and GCM as a random effect. We calculated variance explained by fixed effects (marginal R2LMM(m)) and by the full model (conditional R2LMM(c); Nakagawa and Schielzeth 2013), and we evaluated the significance of GCM as a random effect with a likelihood ratio test of the full versus reduced model. We applied a square root transformation to SSZ and landscape fire risk response variables to meet assumptions of normality and equal variance. We determined that assumptions were adequately met based on quantile-quantile plots (normality) and residual plots (equal variance) for each model. Analyses were conducted in R version 3.6.1 (R Core Team 2019), primarily using the car (Fox and Weisberg 2019), landscapemetrics (Hesselbarth et al. 2019), lme4 (Bates et al. 2015), lmerTest (Kuznetsova et al. 2017), MuMIn (Barton 2019), plotrix (Lemon 2006), raster (Hijmans 2019), RSQLite (Muller et al. 2019), stats, and tidyverse (Wickham et al. 2019) packages.</para>
+          <para>model_scripts.zip </para>
+          <para>This file contains everything needed to rerun the iLand model for all scenarios and replicates described in this study and to generate the model outputs deposited here. This includes the model itself and associated bash and R scripts. The readme.md file describes folder contents and steps for recreating output in more detail, and iLand is extensively documented online (http:// iland.boku.ac.at/).</para>
+          <para>References</para>
+          <para>Abatzoglou JT (2013) Development of gridded surface meteorological data for ecological applications and modelling. Int J Climatol 33:121–131. https://doi.org/10.1002/joc.3413</para>
+          <para>Abatzoglou JT, Brown TJ (2012) A comparison of statistical downscaling methods suited for wildfire applications. Int J Climatol 32:772–780. https://doi.org/10.1002/joc.2312</para>
+          <para>Abatzoglou JT, Williams AP (2016) Impact of anthropogenic climate change on wildfire across western US forests. Proc Natl Acad Sci 113:11770–11775. https://doi.org/10.1073/pnas.1607171113</para>
+          <para>Baker WL (2009) Fire ecology in Rocky Mountain landscapes. Island Press, Washington, DC</para>
+          <para>Barton K (2019) MuMIn: Multi-model inference. R package version 1.43.15. https://CRAN.R-project.org/package=MuMIn</para>
+          <para>Bates D, Mächler M, Bolker BM, Walker SC (2015) Fitting linear mixed-effects models using lme4. J Stat Softw 67:1–48. https://doi.org/10.18637/jss.v067.i01</para>
+          <para>Bessie WC, Johnson EA (1995) The relative importance of fuels and weather on fire behavior in subalpine forests. Ecology 76:747–762. https://doi.org/10.2307/1939341</para>
+          <para>Braziunas KH, Hansen WD, Seidl R, Rammer W, Turner MG (2018) Looking beyond the mean: Drivers of variability in postfire stand development of conifers in Greater Yellowstone. For Ecol Manage 430:460–471. https://doi.org/10.1016/j.foreco.2018.08.034</para>
+          <para>Chylek P, Li J, Dubey MK, Wang M, Lesins G (2011) Observed and model simulated 20th century Arctic temperature variability: Canadian Earth System Model CanESM2. Atmos Chem Phys Discuss 11:22893–22907. https://doi.org/10.5194/acpd-11-22893-2011</para>
+          <para>Collins WJ, Bellouin N, Doutriaux-Boucher M, Gedney N, Halloran P, Hinton T, Hughes J, Jones CD, Joshi M, Liddicoat S, Martin G, O'Connor F, Rae J, Senior C, Sitch S, Totterdell I, Wiltshire A, Woodward S (2011) Development and evaluation of an Earth-System model - HadGEM2. Geosci Model Dev 4:1051–1075. https://doi.org/10.5194/gmd-4-1051-2011</para>
+          <para>Despain DG (1990) Yellowstone vegetation: Consequences of environment and history in a natural setting. Roberts Rinehart, Boulder, CO</para>
+          <para>Forest Inventory and Analysis Database (FIADB) (2019) USDA Forest Service, Northern Research Station, St. Paul, MN. https://apps.fs.usda.gov/fia/datamart/datamart.html. Accessed 13 Feb 2019</para>
+          <para>Fox J, Weisberg S (2019) An R Companion to Applied Regression, Third edit. Sage, Thousand Oaks, CA</para>
+          <para>Gardner RH, Milne BT, Turner MG, O'Neill R V. (1987) Neutral models for the analysis of broad-scale landscape pattern. Landsc Ecol 1:19–28. https://doi.org/10.1007/BF02275262</para>
+          <para>Graham RT, Harvey AE, Jain TB, Tonn JR (1999) The effects of thinning and similar stand treatments on fire behavior in western forests. USDA Forest Service, Pacific Northwest Research Station, General Technical Report PNW-GTR-463, Portland, OR</para>
+          <para>Gude P, Rasker R, Noort J Van Den (2008) Potential for future development on fire-prone lands. J For 106:198–205</para>
+          <para>Gustafson EJ, Parker GR (1992) Relationships between landcover proportion and indices of landscape spatial pattern. Landsc Ecol 7:101–110. https://doi.org/10.1007/BF02418941</para>
+          <para>Hansen WD, Braziunas KH, Rammer W, Seidl R, Turner MG (2018) It takes a few to tango: Changing climate and fire regimes can cause regeneration failure of two subalpine conifers. Ecology 99:966–977. https://doi.org/10.1002/ecy.2181</para>
+          <para>Hansen WD, Abendroth D, Rammer W, Seidl R, Turner MG (2020) Can wildland fire management alter 21st-century subalpine fire and forests in Grand Teton National Park, Wyoming, USA? Ecol Appl 30:e02030. https://doi.org/10.1002/eap.2030</para>
+          <para>Harvey BJ, Donato DC, Turner MG (2016) Drivers and trends in landscape patterns of stand-replacing fire in forests of the US Northern Rocky Mountains (1984–2010). Landsc Ecol 31:2367–2383. https://doi.org/10.1007/s10980-016-0408-4</para>
+          <para>Hesselbarth MHK, Sciaini M, With KA, Wiegand K, Nowosad J (2019) landscapemetrics: an open-source R tool to calculate landscape metrics. Ecography (Cop) 42:1648–1657. https://doi.org/10.1111/ecog.04617</para>
+          <para>Higuera PE, Whitlock C, Gage JA (2011) Linking tree-ring and sediment-charcoal records to reconstruct fire occurrence and area burned in subalpine forests of Yellowstone National Park, USA. Holocene 21:327–341. https://doi.org/10.1177/0959683610374882</para>
+          <para>Hijmans RJ (2019) raster: Geographic data analysis and modeling. R package version 3.0-2. https://CRAN.R-project.org/package=raster</para>
+          <para>Kalies EL, Yocom Kent LL (2016) Tamm Review: Are fuel treatments effective at achieving ecological and social objectives? A systematic review. For Ecol Manage 375:84–95. https://doi.org/10.1016/j.foreco.2016.05.021</para>
+          <para>Keane RE (2015) Wildland fuel fundamentals and applications. Springer, New York, NY</para>
+          <para>Keetch JJ, Byram GM (1968) A drought index for forest fire control. USDA Forest Service, Southeastern Forest Experiment Station, Res. Pap. SE-38, Asheville, NC</para>
+          <para>Kuznetsova A, Brockhoff PB, Christensen RHB (2017) lmerTest Package: Tests in Linear Mixed Effects Models. J Stat Softw 82:1–26. https://doi.org/10.18637/jss.v082.i13</para>
+          <para>Lemon J (2006) Plotrix: a package in the red light district of R. R-News 6:8–12</para>
+          <para>Littell JS, McKenzie D, Peterson DL, Westerling AL (2009) Climate and wildfire area burned in western U.S. ecoprovinces, 1916-2003. Ecol Appl 19:1003–1021. https://doi.org/10.1890/07-1183.1</para>
+          <para>Miller DA, White RA (1998) A conterminous United States multilayer soil characteristics dataset for regional climate and hydrology modeling. Earth Interact 2:1–26. https://doi.org/10.1175/1087-3562(1998)002 less than 0001:ACUSMS greater than 2.3.CO;2</para>
+          <para>Muller K, Wickham H, James DA, Falcon S (2019) RSQLite: SQLite interface for R. R package version 2.1.2. https://CRAN.R-project.org/package=RSQLite</para>
+          <para>Nakagawa S, Schielzeth H (2013) A general and simple method for obtaining R2 from generalized linear mixed-effects models. Methods Ecol Evol 4:133–142. https://doi.org/10.1111/j.2041-210x.2012.00261.x</para>
+          <para>National Fire Protection Association (NFPA) (2018) NFPA 1144: Standard for reducing structure ignition hazards from wildland fire. Quincy, MA</para>
+          <para>Nitschke CR, Innes JL (2008) A tree and climate assessment tool for modelling ecosystem response to climate change. Ecol Modell 210:263–277. https://doi.org/10.1016/j.ecolmodel.2007.07.026</para>
+          <para>Pejchar L, Morgan PM, Caldwell MR, Palmer C, Daily GC (2007) Evaluating the potential for conservation development: Biophysical, economic, and institutional perspectives. Conserv Biol 21:69–78. https://doi.org/10.1111/j.1523-1739.2006.00572.x</para>
+          <para>Purves DW, Lichstein JW, Pacala SW (2007) Crown plasticity and competition for canopy space: A new spatially implicit model parameterized for 250 North American tree species. PLoS One 2:e870. https://doi.org/10.1371/journal.pone.0000870</para>
+          <para>R Core Team (2019) R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria</para>
+          <para>Radeloff VC, Hammer RB, Stewart SI, Fried JS, Holcomb SS, McKeefry JF (2005) The wildland-urban interface in the United States. Ecol Appl 15:799–805. https://doi.org/10.1890/04-1413</para>
+          <para>Radeloff VC, Helmers DP, Kramer HA, Mockrin MH, Alexandre PM, Bar-Massada A, Butsic V, Hawbaker TJ, Martinuzzi S, Syphard AD, Stewart SI (2018) Rapid growth of the US wildland-urban interface raises wildfire risk. Proc Natl Acad Sci 115:3314–3319. https://doi.org/10.1073/pnas.1718850115</para>
+          <para>Renkin RA, Despain DG (1992) Fuel moisture, forest type, and lightning-caused fire in Yellowstone National Park. Can J For Res 22:37–45. https://doi.org/10.1139/x92-005</para>
+          <para>Rollins MG, Frame CK (2006) The LANDFIRE prototype project: Nationally consistent and locally relevant geospatial data for wildland fire management. USDA Forest Service, Rocky Mountain Research Station, General Technical Report RMRS-GTR-175, Fort Collins, CO</para>
+          <para>Romme W (1982) Fire and landscape diversity in subalpine forests of Yellowstone National Park. Ecol Monogr 52:199–221. https://doi.org/10.2307/1942611</para>
+          <para>Romme WH, Despain DG (1989) Historical perspective on the Yellowstone fires of 1988. Bioscience 39:695–699. https://doi.org/10.2307/1311000</para>
+          <para>Rothermel RC (1983) How to Predict the Spread and Intensity of Forest and Range Fires. USDA Forest Service, Intermountain Forest and Range Experiment Station, General Technical Report INT-143, Ogden, UT</para>
+          <para>Roussopoulos PJ, Johnson VJ (1975) Help in making fuel management decisions. USDA Forest Service North Central Experiment Station Res. Pap. NC-112, St. Paul, MN</para>
+          <para>Schoennagel T, Turner MG, Romme WH (2003) The influence of fire interval and serotiny on postfire lodgepole pine density in Yellowstone National Park. Ecology 84:2967–2978. https://doi.org/10.1890/02-0277</para>
+          <para>Schoennagel T, Veblen TT, Romme WH (2004) The interaction of fire, fuels, and climate across Rocky Mountain forests. Bioscience 54:661–676. https://doi.org/10.1641/0006-3568(2004)054[0661:TIOFFA]2.0.CO;2</para>
+          <para>Schoennagel T, Balch JK, Brenkert-Smith H, Dennison PE, Harvey BJ, Krawchuk MA, Mietkiewicz N, Morgan P, Moritz MA, Rasker R, Turner MG, Whitlock C (2017) Adapt to more wildfire in western North American forests as climate changes. Proc Natl Acad Sci 114:4582–4590. https://doi.org/10.1073/pnas.1617464114</para>
+          <para>Schwalm CR, Glendon S, Duffy PB (2020) RCP8.5 tracks cumulative CO2 emissions. Proc Natl Acad Sci U S A 117:19656–19657. https://doi.org/10.1073/PNAS.2007117117</para>
+          <para>Sciaini M, Fritsch M, Scherer C, Simpkins CE (2018) NLMR and landscapetools: An integrated environment for simulating and modifying neutral landscape models in R. Methods Ecol Evol 9:2240–2248. https://doi.org/10.1111/2041-210X.13076</para>
+          <para>Seidl R, Rammer W (2020) iLand online model documentation. http://iland.boku.ac.at. Accessed 1 May 2020</para>
+          <para>Seidl R, Rammer W, Scheller RM, Spies TA (2012) An individual-based process model to simulate landscape-scale forest ecosystem dynamics. Ecol Modell 231:87–100. https://doi.org/10.1016/j.ecolmodel.2012.02.015</para>
+          <para>Seidl R, Rammer W, Spies TA (2014) Disturbance legacies increase the resilience of forest ecosystem structure, composition, and functioning. Ecol Appl 24:2063–2077. https://doi.org/10.1890/14-0255.1</para>
+          <para>Stevens-Rumann CS, Morgan P (2019) Tree regeneration following wildfires in the western US: A review. Fire Ecol 15:15. https://doi.org/10.1186/s42408-019-0032-1</para>
+          <para>Turner MG, Whitby TG, Tinker DB, Romme WH (2016) Twenty-four years after the Yellowstone fires: Are postfire lodgepole pine stands converging in structure and function? Ecology 97:1260–1273. https://doi.org/10.1890/15-1585.1</para>
+          <para>USDA, USDI (2001) Urban wildland interface communities within vicinity of Federal lands that are at high risk from wildfire. Fed Regist 66:751–777</para>
+          <para>Westerling AL (2016) Increasing western US forest wildfire activity: Sensitivity to changes in the timing of spring. Philos Trans R Soc B Biol Sci 371:20150178. https://doi.org/10.1098/rstb.2015.0178</para>
+          <para>Westerling AL, Hidalgo HG, Cayan DR, Swetnam TW (2006) Warming and earlier spring increase Western U.S. forest wildfire activity. Science 313:940–943. https://doi.org/10.1126/science.1128834</para>
+          <para>Whitlock C, Marlon J, Briles C, Brunelle A, Long C, Bartlein P (2008) Long-term relations among fire, fuel, and climate in the north-western US based on lake-sediment studies. Int J Wildl Fire 17:72–83. https://doi.org/10.1071/WF07025</para>
+          <para>Wickham H, Averick M, Bryan J, et al (2019) Welcome to the Tidyverse. J Open Source Softw 4:1686. https://doi.org/10.21105/joss.01686</para>
+          <para/>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>What makes for a resilient landscape? Climate, fire and forests in the Northern Rockies</title>
+      <personnel>
+        <individualName>
+          <givenName>Monica</givenName>
+          <givenName>G</givenName>
+          <surName>Turner</surName>
+        </individualName>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0003-1903-2822</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Joint Fire Science Program 16-3-01-4</funding>
+      <relatedProject>
+        <title>University of Wisconsin Vilas Trust</title>
+        <personnel>
+          <individualName>
+            <givenName>Monica</givenName>
+            <givenName>G</givenName>
+            <surName>Turner</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-1903-2822</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>University of Wisconsin Vilas Trust</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>annual fire forest risk</entityName>
+      <entityDescription>Annual area burned, forest characteristics, and fire risk for each replicate of each scenario. Data are aggregated across the entire landscape for each year. No area burned or fire risk for year 0 of the simulation (1980).</entityDescription>
+      <physical>
+        <objectName>annual_fire_forest_risk.csv</objectName>
+        <size unit="bytes">6803219</size>
+        <authentication method="MD5">0061ad263caa85653d5d26c8b4024336</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/annual_fire_forest_risk.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Calendar year. 1980 is simulation year 0.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1980</minimum>
+                  <maximum exclusive="false">2099</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>gcm</attributeName>
+          <attributeDefinition>General circulation model for simulation scenario.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CanESM2</code>
+                    <definition>CanESM3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HadGEM2CC</code>
+                    <definition>HadGEM2CC</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HadGEM2ES</code>
+                    <definition>HadGEM2ES</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>configuration</attributeName>
+          <attributeDefinition>Housing development and fuels treatment configuration level for simulation scenario.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>clustered</code>
+                    <definition>Clustered configuration</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>dispersed</code>
+                    <definition>Randomly dispersed configuration</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no_treatment</code>
+                    <definition>No fuels treatment</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>amount_pct</attributeName>
+          <attributeDefinition>Amount of housing development and fuels treatment in simulation scenario.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>rep</attributeName>
+          <attributeDefinition>Simulation replicate for given scenario. Each scenario has 20 replicates.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>forest_ha</attributeName>
+          <attributeDefinition>Area of landscape that is forested (&gt; 50 trees/ha).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">9899</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>nonforest_ha</attributeName>
+          <attributeDefinition>Area of landscape that is non-forested (&lt; 50 trees/ha).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">101</minimum>
+                  <maximum exclusive="false">10000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pico_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is dominated by lodgepole pine (&gt; 1.5 importance value [IV]).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6971</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>abla_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is dominated by subalpine fir (&gt; 1.5 IV).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pien_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is dominated by Engelmann spruce (&gt; 1.5 IV).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>psme_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is dominated by Douglas-fir (&gt; 1.5 IV).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2546</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>potr_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is dominated by quaking aspen (&gt; 1.5 IV).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">57</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mixed_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is mixed forest (all species &lt; 1.5 IV).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4117</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>age_lt_40_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is &lt; 40 years stand age.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5191</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>age_40_100_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is 40-100 years stand age.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5783</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>age_100_250_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is 100-250 years stand age.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5717</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>age_gt_250_ha</attributeName>
+          <attributeDefinition>Area of forested landscape that is &gt; 250 years stand age.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3142</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>total_burned_ha</attributeName>
+          <attributeDefinition>Total area burned in landscape.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">9468</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>high_burned_ha</attributeName>
+          <attributeDefinition>Area burned at high intensity in landscape.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5223</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>cumulative_burned_ha</attributeName>
+          <attributeDefinition>Cumulative area burned in landscape, starting with simulation year 1 (1981).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">87590</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>cumulative_high_ha</attributeName>
+          <attributeDefinition>Cumulative high intensity area burned in landscape, starting with simulation year 1 (1981).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">9905</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>average_kdbi</attributeName>
+          <attributeDefinition>Average value of Keetch Byram Drought Index (KBDI) across entire landscape. Values are standardized between 0 and 1.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.03060153958</minimum>
+                  <maximum exclusive="false">0.4996348495</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>hiz_burned_ha</attributeName>
+          <attributeDefinition>Area of 1-hectare home ignition zones (HIZ), in which defensible space fuels treatments were applied, that burned.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4381</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mean_hiz_fl_m</attributeName>
+          <attributeDefinition>Mean flame length in HIZs that burned. If no HIZs burned in a given year, this is NA.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0918767225968696</minimum>
+                  <maximum exclusive="false">20.8278263133272</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ssz_exposure_pct</attributeName>
+          <attributeDefinition>Percent of structures that were exposed to at least 1 hectare of high-intensity fire in their safe suppression zone (SSZ; the 8 ha of immediate neighbors around each 1-ha HIZ).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">66.436327739388</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pland_high_pct</attributeName>
+          <attributeDefinition>Percent of the landscape (PLAND) that burned at high intensity.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">52.23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lpi_high_ha</attributeName>
+          <attributeDefinition>Largest patch index (LPI), area of largest high-intensity fire patch.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5215</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>area_am_high_ha</attributeName>
+          <attributeDefinition>Area-weighted mean patch size (AREA_AM) of high-intensity fire patches.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5213.00115008626</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>50400</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>annual fuels treatment comparison</entityName>
+      <entityDescription>Annual fuel loads and fuel characteristics for each replicate of each scenario. Data are aggregated for areas that are treated and areas that are untreated across the entire landscape for each year. Fuel loads in a given year are used to estimate fire intensity for fires that burn in the subsequent year.</entityDescription>
+      <physical>
+        <objectName>annual_fuels_treatment_comparison.csv</objectName>
+        <size unit="bytes">14907706</size>
+        <authentication method="MD5">ed6bcd88081ebea57d7dde106c93fe9b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/annual_fuels_treatment_comparison.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Calendar year. 1980 is simulation year 0. Fuel loads represent end-of-year conditions and are used to estimate fire intensity for fires that occur the following year (fire_year).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1980</minimum>
+                  <maximum exclusive="false">2099</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fire_year</attributeName>
+          <attributeDefinition>Calendar year during which fuel loads are used to estimate fire intensity.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1981</minimum>
+                  <maximum exclusive="false">2100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>gcm</attributeName>
+          <attributeDefinition>General circulation model for simulation scenario.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CanESM2</code>
+                    <definition>CanESM3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HadGEM2CC</code>
+                    <definition>HadGEM2CC</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HadGEM2ES</code>
+                    <definition>HadGEM2ES</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>configuration</attributeName>
+          <attributeDefinition>Housing development and fuels treatment configuration level for simulation scenario.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>clustered</code>
+                    <definition>Clustered configuration</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>dispersed</code>
+                    <definition>Randomly dispersed configuration</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no_treatment</code>
+                    <definition>No fuels treatment</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>amount_pct</attributeName>
+          <attributeDefinition>Amount of housing development and fuels treatment in simulation scenario.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>rep</attributeName>
+          <attributeDefinition>Simulation replicate for given scenario. Each scenario has 20 replicates.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fuels_treatment</attributeName>
+          <attributeDefinition>Indicates whether values are associated with areas that were treated (defensible space treatments were applied) or untreated.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>treated</code>
+                    <definition>Fuel treatments</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>untreated</code>
+                    <definition>no fuel treatments</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>n_ha</attributeName>
+          <attributeDefinition>Area associated with each treatment level.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">563</minimum>
+                  <maximum exclusive="false">10000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>woody_mg_ha</attributeName>
+          <attributeDefinition>Average live sapling and seedling biomass.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>megagramsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2.45255782620932</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>forestFloor_mg_ha</attributeName>
+          <attributeDefinition>Average forest floor biomass (dead, 1-hour and 10-hour fuels).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>megagramsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0177159505422873</minimum>
+                  <maximum exclusive="false">16.6485900430041</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>downedWood_mg_ha</attributeName>
+          <attributeDefinition>Average downed woody debris biomass (dead, 100-hour and 1000-hour fuels).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>megagramsPerHectare</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.31645275474451</minimum>
+                  <maximum exclusive="false">113.105240110402</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>cbh_m</attributeName>
+          <attributeDefinition>Average canopy base height (CBH).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.212298606598011</minimum>
+                  <maximum exclusive="false">15.7742436343194</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>cbd_kg_m3</attributeName>
+          <attributeDefinition>Average canopy bulk density (CBD).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilogramsPerMeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.04240091501448e-06</minimum>
+                  <maximum exclusive="false">0.189093198049797</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>cfl_kg_m2</attributeName>
+          <attributeDefinition>Average canopy fuel load (CFL).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.82344634717367e-05</minimum>
+                  <maximum exclusive="false">0.763581612297411</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>93600</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>summary fire risk</entityName>
+      <entityDescription>Summarized fire risk for each replicate of each scenario. Data are aggregated across all years in the simulation experiment, so each scenario has n=20 observations. These data were used for analyses associated with objective/question 2.</entityDescription>
+      <physical>
+        <objectName>summary_fire_risk.csv</objectName>
+        <size unit="bytes">80261</size>
+        <authentication method="MD5">5d8ddcba0e985cac5bfb8950f45add0a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/summary_fire_risk.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>gcm</attributeName>
+          <attributeDefinition>General circulation model for simulation scenario.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CanESM2</code>
+                    <definition>CanESM3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HadGEM2CC</code>
+                    <definition>HadGEM2CC</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HadGEM2ES</code>
+                    <definition>HadGEM2ES</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>configuration</attributeName>
+          <attributeDefinition>Housing development and fuels treatment configuration level for simulation scenario.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>clustered</code>
+                    <definition>Clustered configuration</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>dispersed</code>
+                    <definition>Randomly dispersed configuration</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no_treatment</code>
+                    <definition>No fuels treatment</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>amount_pct</attributeName>
+          <attributeDefinition>Amount of housing development and fuels treatment in simulation scenario.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>rep</attributeName>
+          <attributeDefinition>Simulation replicate for given scenario. Each scenario has 20 replicates.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>treated_ha</attributeName>
+          <attributeDefinition>If configuration is clustered or dispersed, this is the area of landscape in which defensible space fuels treatments were applied. If configuration is no_treatment, this is the area of the landscape that was treated in the randomly selected neutral landscape model used the calculate fire risk for that replicate.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">563</minimum>
+                  <maximum exclusive="false">5706</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>hiz_burned_ha</attributeName>
+          <attributeDefinition>Area of 1-hectare home ignition zones (HIZ), in which defensible space fuels treatments were applied, that burned over the duration of the simulation.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">679</minimum>
+                  <maximum exclusive="false">44566</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mean_hiz_fl_m</attributeName>
+          <attributeDefinition>Mean flame length in HIZs that burned.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.430998335275663</minimum>
+                  <maximum exclusive="false">9.44401449959343</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_hiz_fl_m</attributeName>
+          <attributeDefinition>Maximum annual HIZ flame length.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.582423746097355</minimum>
+                  <maximum exclusive="false">20.8278263133272</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mean_ssz_exposure_pct</attributeName>
+          <attributeDefinition>Mean annual percent of structures that were exposed to at least 1 hectare of high-intensity fire in their safe suppression zone (SSZ; the 8 ha of immediate neighbors around each 1-ha HIZ).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0189420030307205</minimum>
+                  <maximum exclusive="false">1.20272408028632</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_ssz_exposure_pct</attributeName>
+          <attributeDefinition>Maximum annual percent of structures that were exposed to at least 1 hectare of high-intensity fire in their SSZ.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.41579731743666</minimum>
+                  <maximum exclusive="false">66.436327739388</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mean_pland_high_pct</attributeName>
+          <attributeDefinition>Mean annual percent of the landscape (PLAND) that burned at high intensity.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0129411764705882</minimum>
+                  <maximum exclusive="false">0.832352941176471</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_pland_high_pct</attributeName>
+          <attributeDefinition>Maximum annual PLAND that burned at high intensity.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.94</minimum>
+                  <maximum exclusive="false">52.23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mean_lpi_high_ha</attributeName>
+          <attributeDefinition>Mean annual largest patch index (LPI), area of largest high-intensity fire patch.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.857142857142857</minimum>
+                  <maximum exclusive="false">65.9327731092437</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_lpi_high_ha</attributeName>
+          <attributeDefinition>Maximum annual high-intensity fire LPI.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">51</minimum>
+                  <maximum exclusive="false">5215</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mean_area_am_high_ha</attributeName>
+          <attributeDefinition>Mean annual area-weighted mean patch size (AREA_AM) of high-intensity fire patches.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.749603671255737</minimum>
+                  <maximum exclusive="false">63.5971109441412</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_area_am_high_ha</attributeName>
+          <attributeDefinition>Maximum annual high-intensity fire AREA_AM.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">43.936170212766</minimum>
+                  <maximum exclusive="false">5213.00115008626</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>420</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>model_scripts.zip</entityName>
+      <entityDescription>This file contains everything needed to rerun the iLand model for all scenarios and replicates described in this study, to generate the model outputs deposited here, and to perform analyses associated with the published manuscript. This includes the model itself (including source code) and associated bash and R scripts. The “readme.md” file describes folder contents and steps for recreating output in more detail, and iLand is extensively documented online (http:// iland.boku.ac.at/).</entityDescription>
+      <physical>
+        <objectName>model_scripts.zip</objectName>
+        <size unit="bytes">1133837164</size>
+        <authentication method="MD5">31a742c0b35c7a4e6e9dc730267c2788</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://lter.limnology.wisc.edu/sites/default/files/model_scripts.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="percent" multiplierToSI="" name="percent" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="megagramsPerHectare" multiplierToSI="" name="megagramsPerHectare" parentSI="" unitType="">
+          <description/>
+        </unit>
+        <unit id="kilogramsPerMeterCubed" multiplierToSI="" name="kilogramsPerMeterCubed" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

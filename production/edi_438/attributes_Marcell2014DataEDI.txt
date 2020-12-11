@@ -1,0 +1,47 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+UniqueID	unique identifier for each mesocosm	character				
+Exclusion	treatment label for mesocosm exclusion type	categorical				
+Label	treatment label for substrate addition	categorical				
+HarvestDate	Date mesocosm was harvested from field site	Date		YYYY-MM-DD		
+CoreDepth	Depth of mesocosm below soil surface 	numeric	centimeter			
+CoreVolume	volume of mesocosm; diameter is constant but depth varies	numeric	cubicCentimeter			
+UnsievedSoilWt	total soil weight	numeric	gram			
+BulkDensity	Dry weight of soil divided by core volume	numeric	gramsPerCubicCentimeter			
+SoilpH	pH measured 1:2 w/v in water	numeric	dimensionless			
+GWC	gravimetric water content; mass of water divided by mass of fresh weight soil	numeric	dimensionless			
+CN	soil C:N based on dry combustion	numeric	dimensionless			
+SOC	SOC concentration 	numeric	gramsPerKilogram			
+MOMWt	mass of mineral-associated organic matter; isolated via physical fractionation	numeric	gram			
+POMWt	mass of particulate organic matter; isolated via physical fractionation	numeric	gram			
+perMOM	percent of MOM in SOM	numeric	dimensionless			
+perPOM	percent of POM in SOM	numeric	dimensionless			
+LiveFineRoots	mass of fine roots (< 2mm) in total sample	numeric	milligram			
+fineroot	mass of fine roots divided by mass of soil in sample	numeric	milligramsPerGram			
+SRL	mass-specific root length 	numeric	metersPerGram			
+rootlength	root length measured on scanned images	numeric	millimetersPerGram			
+finerootbiomass	"root biomass scaled by mass of soil in mesocosm and bulk density, scaled to 15 cm deep"	numeric	megagramsPerHectare			
+mycbio	mycorrhizal hyphal biomass inside sand-filled bags in milligramsCarbonPerKilogram	numeric	milligramsPerKilogram			
+MBC	microbial biomass measured by fumigation-extraction in micromolsCarbon	numeric	milligramsPerKilogram			
+CO2Day1	CO2 measured on day 1 of study  in micromolsCarbon	numeric	micromolesPerMolPerSecond			
+CO2Day2	CO2 measured on day 2 of study  in micromolsCarbon	numeric	micromolesPerMolPerSecond			
+CO2Day3	CO2 measured on day 3 of study  in micromolsCarbon	numeric	micromolesPerMolPerSecond			
+CO2Day4	CO2 measured on day 4 of study  in micromolsCarbon	numeric	micromolesPerMolPerSecond			
+CO2Day5	CO2 measured on day 5 of study  in micromolsCarbon	numeric	micromolesPerMolPerSecond			
+CO2Day10	CO2 measured on day 10 of study  in micromolsCarbon	numeric	micromolesPerMolPerSecond			
+CO2Day_20	CO2 measured on day 20 of study  in micromolsCarbon	numeric	micromolesPerMolPerSecond			
+CO2Day_40	CO2 measured on day 40 of study  in micromolsCarbon	numeric	micromolesPerMolPerSecond			
+Finalresp	"CO2 respiration used for analysis, corresponds to peak days for leaf cores and starch cores"	numeric	micromolesPerMolPerSecond			
+d13D1	delta C13 measured in a gas sample collected on day 1 of study	numeric	permill			
+d13D2	delta C13 measured in a gas sample collected on day 2 of study	numeric	permill			
+d13D3	delta C13 measured in a gas sample collected on day 3 of study	numeric	permill			
+d13D4	delta C13 measured in a gas sample collected on day 4 of study	numeric	permill			
+d13D5	delta C13 measured in a gas sample collected on day 5 of study	numeric	permill			
+d13D10	delta C13 measured in a gas sample collected on day 10 of study	numeric	permill			
+d13D20	delta C13 measured in a gas sample collected on day 20 of study	numeric	permill			
+d13D40	delta C13 measured in a gas sample collected on day 40 of study	numeric	permill			
+FinalD13	"delta C13 used for analyses, corresponds to peak days for leaf and starch cores"	numeric	permill			
+Bgluc	potential beta glucosidase activity	numeric	nanomolesPerGramPerHour			
+CBH	potential cellobiohydrolase activity	numeric	nanomolesPerGramPerHour			
+Agluc	potential alpha-glucosidase activity	numeric	nanomolesPerGramPerHour			
+NAG	potential n-acetyl glucosaminidase activity	numeric	nanomolesPerGramPerHour			
+Phos	potential acid-phosphatase activity	numeric	nanomolesPerGramPerHour			

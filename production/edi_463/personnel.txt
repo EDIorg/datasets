@@ -1,0 +1,17 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+David	C	Richardson	SUNY New Paltz	richardsond@newpaltz.edu	0000-0001-9374-9624	creator			
+Cayelan	C	Carey	Virginia Tech	cayelan@vt.edu	0000-0001-8835-4476	creator			
+Kathleen	C	Weathers	Cary Institute or Ecosystem Studies	weathersk@caryinstitute.org	0000-0002-3575-6508	creator			
+Denise	A	Bruesewitz	Colby College	dabruese@colby.edu	0000-0001-6108-5181	creator			
+		LSPA	Lake Sunapee Protective Association			creator			
+Bethel	G	Steele	Cary Institute of Ecosystem Studies		0000-0003-4365-4103	creator			
+June		Fichter	Lake Sunapee Protective Association	junef@lakesunapee.org		Data collection			
+Robert		Wood	Lake Sunapee Protective Association			Data collection			
+John		Merriman	Lake Sunapee Protective Association			Buoy technician			
+Amanda		Lindsey	Cary Institute or Ecosystem Studies			Data collation			
+David	C	Richardson	SUNY New Paltz	richardsond@newpaltz.edu	0000-0001-9374-9624	contact			
+Bethel	G	Steele	Cary Institute of Ecosystem Studies		0000-0003-4365-4103	contact			
+Lindsey		Rustad				PI	Development of Real-Time Environmental Sensor Technology and Applications for the Northeast: A Proposal from the NERC Northeastern Environmental Sensor Working Group (NESN)	NSRC Project	
+June		Fichter				PI		Frey Foundation	
+Kathleen	C	Weathers			0000-0002-3575-6508	PI	"Collaborative Research: Building Analytical, Synthesis, and Human Network Skills Needed for Macrosystem Science: a Next Generation Graduate Student Training Model Based on GLEON"	National Science Foundation	1137327
+Kathleen	C	Weathers			0000-0002-3575-6508	PI	Collaborative Research: CI-Team Demonstration: Developing a Model for Engagement of Citizen Scientists: Lake Associations	National Science Foundation	936174

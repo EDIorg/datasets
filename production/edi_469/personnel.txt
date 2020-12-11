@@ -1,0 +1,4 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+William	S.F.	Schuster	Black Rock Forest	wschuster@blackrockforest.org		creator			
+William	S.F.	Schuster	Black Rock Forest	wschuster@blackrockforest.org		contact			
+Katie		Terlizzi	Black Rock Forest	kterlizzi@blackrockforest.org		data manager			

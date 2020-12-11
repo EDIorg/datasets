@@ -1,0 +1,5 @@
+This dataset is also available on the Dryad Digital Repository (link: https://doi.org/10.5061/dryad.rg5rd). 
+
+The code is also available on GitHub (link: https://github.com/nlkinlock/LDGmeta-analysis).
+
+This dataset was created to explore patterns in biodiversity across latitude. The pattern of increasing biological diversity from high latitudes to the equator [latitudinal diversity gradient (LDG)] has been recognized for  greater than  200 years. Empirical studies have documented this pattern across many different organisms and locations. In order to quantify the evidence for the global LDG and the associated spatial, taxonomic and environmental factors, a systematic review, followed by a meta-analysis of the resulting dataset, were carried out. This dataset contains a large number of individual LDGs that have been published in the 14 years since Hillebrand's ground‐breaking meta‐analysis of the LDG. 

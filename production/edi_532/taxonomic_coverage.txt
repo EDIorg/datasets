@@ -1,0 +1,3 @@
+name	name_type	name_resolved	authority_system	authority_id
+Stipa neomexicana	scientific	Stipa neomexicana	ITIS	42165
+Aristida glauca	scientific	Aristida glauca	ITIS	41420

@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	Locational identifier for each sampling site	character				
+Genus	Genus of the analyzed organism. 	character				
+Species	Amphipod species	character				
+total_lipid_mg_per_g	Total amount of lipids in a sample	numeric	millgramsPerGram		NA	not available
+deviation	Samples were weighed three times and deviation in measurement was calculated. 	numeric	millgramsPerGram		NA	not available
+comments	Quality control flag	character				

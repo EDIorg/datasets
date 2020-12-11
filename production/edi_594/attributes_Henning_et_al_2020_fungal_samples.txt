@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SampleID	"Unique sample identifier, corresponds to fungal taxa assignment"	character				
+Block	Experimental blocking units as part of the NutNet experiment (1-5)	character				
+Subplot	subplot of the experimental nutnet expeiemnt (a-d)	character				
+plot	experimental plots of the NutNet experiment (1-60)	character				
+Plant	replicate plant collected within a plot (1-2)	character				
+Date_collected	Collection data of leaf samples	Date		YYYY-MM-DD		
+N	"Nitrogen addition applied (0 no, 1 yes)"	categorical				
+P	"Phosphorus addiition applied (0 no, 1 yes)"	categorical				
+K	"potassium plus micronutrients addition applied (0 no, 1 yes)"	categorical				
+trt	"experimental treatment (Nitrogen, phosphorus, potassium plus micronutrients)"	categorical				

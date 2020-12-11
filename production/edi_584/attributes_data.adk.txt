@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site	A unique number for every Adirondacks site in the study	character				
+pres	Whether C. stoebe was present or absent at a particular site	categorical				
+weight	Whether the absences are true absence or pseudo-absence	categorical				
+sand_statsgo	Soil percent sand data from STATSGO	numeric	percent		NA	not available
+sand_ssurgo	Soil percent sand data from SSURGO	numeric	percent		NA	not available
+soilph_statsgo	Soil pH data from STATSGO	numeric	dimensionless		NA	not available
+soilph_ssurgo	Soil pH data from SSURGO	numeric	dimensionless		NA	not available
+precip_gs	"30 year mean precipitation during the growing season (data from PRISM, resolution – 1 km)"	numeric	millimeter		NA	not available
+mintemp_gs	"30 year mean minimum temperature during the growing season (data from PRISM, resolution – 1 km)"	numeric	celsius		NA	not available
+nlcd	"Present day land cover (data from NLCD, resolution – 1 km)"	character				
+treecover_gfc	Percentage tree cover (data from global forest change)	numeric	percent		NA	not available
+lon	UTM Easting of the site (UTM zone 18)	numeric	dimensionless		NA	not available
+lat	UTM Northing of the site (UTM zone 18)	numeric	dimensionless		NA	not available

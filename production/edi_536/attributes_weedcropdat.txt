@@ -1,0 +1,35 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Treatment	A code specifying the treatment combination applied to the respective plot	categorical				
+Crop	Type of crop planted in the plot	categorical				
+Fertilization	Whether the plot was fertilized or not	categorical				
+Block	The block to which the given plot belongs	character				
+Abut	Biomass of the weed species Abutilon theophrasti	numeric	gram			
+Amare	Biomass of the weed species Amaranthus retroflexus	numeric	gram			
+Agree	Biomass of the weed species Agropyron sp. (most likely A. repens)	numeric	gram			
+Ambel	Biomass of the weed species Ambrosia artemisiifolia	numeric	gram			
+Cheal	Biomass of the weed species Chenopodium album	numeric	gram			
+Digsa	Biomass of the weed species Digitaria sanguinalis	numeric	gram			
+Echcg	Biomass of the weed species Echinochloa crus-gall	numeric	gram			
+Erica	Biomass of the weed species Erigeron canadensis	numeric	gram			
+Oxast	Biomass of the weed species Oxalis dilleni	numeric	gram			
+Panca	Biomass of one of the weed species (species name lost)	numeric	gram			
+Pandi	Biomass of the weed species Panicum dichotomiflorum	numeric	gram			
+Polpe	Biomass of the weed species Polygonum persicaria	numeric	gram			
+Rumex	Biomass of the weed species Rumex acetosella	numeric	gram			
+Setfa	Biomass of the weed species Setaria faberri	numeric	gram			
+Setvi	Biomass of the weed species Setaria viridis	numeric	gram			
+Setlu	Biomass of the weed species Setaria lutescens/Setaria glauca (could not be distinguished)	numeric	gram			
+Tarof	Biomass of the weed species Taraxacum officinale	numeric	gram			
+nightshade	Biomass of the weed species Solanum dulcamara	numeric	gram			
+Steme	Biomass of the weed species Stellaria media	numeric	gram			
+Polyavic	Biomass of the weed species Polygonum aviculare	numeric	gram			
+Trfre	Biomass of the weed species Trifolium repens	numeric	gram			
+totbiom_per_036sqm	Total biomass of weeds per sample of 0.36 m2	numeric	gram			
+totbiom_per_sqm	Total biomass of weeds per m2	numeric	gramsPerSquareMeter			
+Diversity	Value of the Shannon diversity index for the given plot	numeric	dimensionless			
+Hmax	Maximum possible value of the Shannon index for the given plot (calculated using species richness and assuming equal abundance of all species)	numeric	dimensionless			
+Richness	Species richness of the weed community in the given plot	numeric	dimensionless			
+totcropmass_per_sqm	Total biomass of crops per square metre	numeric	gramsPerSquareMeter			
+weed_plus_crop_per_sqm	Total biomass of all plants (weeds and crops) per square metre	numeric	gramsPerSquareMeter			
+cornht	Average height of corn at the time of harvesting	numeric	centimeter			
+soyht	Average height of soybean at the time of harvesting 	numeric	centimeter			

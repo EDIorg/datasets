@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+year	Year of sampling	numeric	nominalYear			
+species	Species of macrophyte	character				
+surface_area_m2	Measured macrophyte cover	numeric	squareMeter		NA	not available

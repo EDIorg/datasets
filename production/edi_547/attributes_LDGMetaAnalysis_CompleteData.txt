@@ -1,0 +1,30 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+studyID	A unique ID number for each study included in the meta-analysis (total number of studies = 199)	character				
+caseID	"A unique ID number for each case within a study, beginning with 1"	character				
+author	Authors of study	character				
+year	Year published	numeric	nominalYear			
+journal	Journal in which study was published	character				
+kingdom	"Kingdom(s) of the organisms in study: Bacteria, Protista, Fungi, Plantae, Animalia"	character				
+organism_group	"Organism group for organisms in study (something of a functional classification; ""multiple"" if more than one): bacteria, protozoa, herbaceous plants, woody plants, other plants, fungi, arthropods, other invertebrates, fishes, herps, birds, mammals"	character				
+thermoregulation	"Are the organisms in this study homeotherms, ectotherms, or both?"	categorical				
+dispersal_type	"General pattern of movement: active, passive, both"	character				
+trophic_position	"The trophic level of the organisms in the study (""multiple"" if more than one): autotrophs, herbivores, omnivores, carnivores, parasites, detritivores"	character				
+realm	"Study location: terrestrial, freshwater, or marine habitats"	character				
+habitat	"More specific study location: Forest (temperate, rainforest, anything dominated by trees); Terrestrial general (grasslands, other herbaceous, shrublands, savannah, multiple types of terrestrial habitat); Terrestrial other (unusual things like urban habitats or specific parasites); Coastal/estuary; Open ocean; Benthic; Coral reefs; Freshwater (lakes, streams, rivers, wetlands)"	character				
+hemisphere	"Study location: Northern, Southern, or both hemispheres"	categorical				
+longitude_range	"Range, in degrees, of the longitudinal extent of the study"	numeric	degree		NA	not available
+longitude_midpoint	Midpoint of study extent (between -180 and 180 degrees longitude)	numeric	degree		NA	not available
+scale	"local (measured diversity at specific sites) or regional (latitudinal grid squares up to 5 by 5, country/state measure)"	character				
+diversity	Alpha or gamma diversity	character				
+latitude_range	"Range, in degrees, of the latitudinal extent of the study"	numeric	degree		NA	not available
+latitude_midpoint	Midpoint of study extent (between -90 and 90 degrees latitude)	numeric	degree		NA	not available
+total_taxonomic_richness	Total number of species found in the study across entire extent	numeric	number		NA	not available
+measure_of_richness	"Was species richness or some other index reported? (Shannon index, mean species richness, etc.): ""S"" for species richness, ""index"" for other"	categorical				
+number_of_points	Number of sampling units or sites	numeric	number		NA	not available
+slope_b	Coefficient of the linear regression of species richness as a function of latitude	numeric	dimensionless		NA	not available
+SE_b	Standard error of the slope	numeric	dimensionless		NA	not available
+Var_b	Variance of the slope	numeric	dimensionless		NA	not available
+intercept	Intercept of the linear regression of species richness as a function of latitude	numeric	dimensionless		NA	not available
+r	Pearson’s correlation coefficient	numeric	dimensionless		NA	not available
+rz	"Fisher's z transformation (of correlation coefficient, r)"	numeric	dimensionless		NA	not available
+VarRz	Variance of Fisher's z	numeric	dimensionless		NA	not available

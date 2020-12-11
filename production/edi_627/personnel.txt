@@ -1,0 +1,9 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Kristin	H	Braziunas	University of Wisconsin-Madison	braziunas@wisc.edu	0000-0001-5350-8463	creator			
+Rupert		Seidl	Technical University of Munich	rupert.seidl@tum.de	0000-0002-3338-3402	creator			
+Werner		Rammer	Technical University of Munich	werner.rammer@tum.de	0000-0001-6871-6759	creator			
+Monica	G	Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	creator			
+Kristin	H	Braziunas	University of Wisconsin-Madison	braziunas@wisc.edu	0000-0001-5350-8463	contact			
+Monica	G	Turner	University of Wisconsin-Madison	turnermg@wisc.edu	0000-0003-1903-2822	contact			
+Monica	G	Turner			0000-0003-1903-2822	PI	"What makes for a resilient landscape? Climate, fire and forests in the Northern Rockies"	Joint Fire Science Program	16-3-01-4
+Monica	G	Turner			0000-0003-1903-2822	PI	University of Wisconsin Vilas Trust	University of Wisconsin Vilas Trust	

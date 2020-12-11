@@ -1,0 +1,7 @@
+attributeName	code	definition
+Exclusion	 -R+M	excluded roots but was large enough for hyphae to enter
+Exclusion	 -R-M	excluded roots and mycorrhizal hyphae
+Exclusion	 +R+M	contained roots and hyphae
+Label	C	control
+Label	S	starch
+Label	L	leaf material

@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+plant_ID	A unique ID number for each plant in the experiment	character				
+Community	Type of forest community in which the given plant was planted	categorical				
+Site	Site where the given plant was planted	categorical				
+Gap	Whether there was an experimental gap was created or not	categorical				
+Block	Block number in which the plant was planted	character				
+Plot	Plot in which the given plant was plant	character				
+est_inimass	Estimated initial dry mass of the plant	numeric	gram			
+Species	Abbreviated species name	categorical				
+Status	Whether the species is native (N) or exotic/invasive (I)	categorical				
+N	Nitrogen treatment applied to the given plot	categorical				
+Ca	Calcium treatment applied to the given plot	categorical				
+Shoot_Wt	Dry mass of the above-ground plant tissues (i.e. the plant shoot) at the end of the experiment	numeric	gram			
+Root_Wt	Dry mass of the above-ground plant tissues (i.e. the plant roots) at the end of the experiment	numeric	gram			
+Total_Wt	Total dry mass of the plant at the end of the experiment	numeric	gram			

@@ -1,0 +1,23 @@
+attributeName	code	definition
+Gradient	C	Cinnamon
+Gradient	Teo	Teocalli
+Gradient	A	Avery
+Gradient	HH	Hunters Hill
+Gradient	R	Ruby
+Gradient	TR	Treasury
+Lifeform	f	forb
+Lifeform	g	graminoid
+Lifeform	f_s	forb_shrub
+Lifeform	s	shrub
+Lifeform	t	tree
+Lifeform	lichen	lichen
+Lifeform	moss	moss
+LifeHistory	a	annual
+LifeHistory	b	biennial
+LifeHistory	m	mixed
+LifeHistory	p	perennial
+LifeHistory	lichen	lichen
+LifeHistory	moss	moss
+Status	i	invasive
+Status	n	native
+Status	n_i	mixed

@@ -1,0 +1,9 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Peter	S	Petraitis	"Department of Biology, University of Pennsylvania"	ppetrait@sas.upenn.edu	0000-0002-7616-7638	creator			
+Steve	R	Dudgeon	"Department of Biology, California State University, Northridge"	steve.dudgeon@csun.edu	000-0002-8637-4307	creator			
+Erika	C	Rhile	"The Cheverus School, Portland, ME"	rhile@cheverus.org		Field assistant			
+Peter	S	Petraitis	"Department of Biology, University of Pennsylvania"	ppetrait@sas.upenn.edu	0000-0002-7616-7638	contact			
+Steve	R	Dudgeon			000-0002-8637-4307	PI	LTREB Renewal: Experimental tests of alternative states on rocky intertidal shores.	DEB	1555641
+Peter	S	Petraitis			0000-0002-7616-7638	PI	LTREB: Experimental tests of alternative states on rocky intertidal shores	DEB	1020480
+Peter	S	Petraitis			0000-0002-7616-7638	PI	LTREB: Experimental Studies of Alternative Community States on Rocky Intertidal Shores	DEB	314980
+Peter	S	Petraitis			0000-0002-7616-7638	PI	Alternative Stable States on Rocky Intertidal Shores	OCE	9529564
