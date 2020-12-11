@@ -126,4 +126,4 @@ EMLassemblyline::make_eml(
   data.table.quote.character = c('"','"','"','"','"','"','"','"','"','"','"','"','"','"'),
   user.id = "csmith",
   user.domain = "LTER", 
-  package.id = "edi.100.2")
+  package.id = "edi.637.1")
