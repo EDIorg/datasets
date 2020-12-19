@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Date_Time	Date and time in every 30 minutes	Date		MM/DD/YY hh:mm		
+Depth_feet	Depth	numeric	foot			
+Temperature_Fahrenheit	Measured temperature	numeric	fahrenheit			

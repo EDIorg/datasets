@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Michael		Deas	Watercourse	Mike.Deas@watercourseinc.com	0000-0002-9859-8957	creator			
+Michael		Deas	Watercourse	Mike.Deas@watercourseinc.com	0000-0002-9859-8957	contact			
+Randi		Field	USBR	RField@usbr.gov		Project Manager			
+Greg		Gotham	USBR	GGotham@usbr.gov		Field Manager			
+Ibrahim	E	Sogutlugil	Watercourse	Ert.Sogutlugil@watercourseinc.com		Engineer			
+Michael		Deas	Watercourse	Mike.Deas@watercourseinc.com	0000-0002-9859-8957	PI	Shasta Lake and Keswick Reservoir Flow and Temperature Modeling	Sacramento River Settlement Contactors	
