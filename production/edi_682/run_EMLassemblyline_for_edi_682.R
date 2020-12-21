@@ -20,7 +20,7 @@ EMLassemblyline::template_core_metadata(
 EMLassemblyline::template_table_attributes(
   path = path_templates,
   data.path = path_data,
-  data.table = c("Keswick Reservoir Tw Profile Data 2017-19.csv"))
+  data.table = c("Keswick_Reservoir_Tw_Profile_Data_2017_to_2019.csv"))
 
 # Make EML from metadata templates --------------------------------------------
 
@@ -36,10 +36,10 @@ EMLassemblyline::make_eml(
   geographic.description = "Temperature profile data was collected upstream of Keswick Dam", 
   geographic.coordinates = c("40.6139", "-122.4455", "40.6139", "-122.4455"), 
   maintenance.description = "Ongoing: Periodic updates of these data are expected", 
-  data.table = c("Keswick Reservoir Tw Profile Data 2017-19.csv"), 
+  data.table = c("Keswick_Reservoir_Tw_Profile_Data_2017_to_2019.csv"), 
   data.table.description = c("This data table includes Keswick Reservoir temperature profile data above Keswick Dam that were collected seasonally over three years (2017-2019)."),
-  other.entity = c("Keswick Reservoir Tw Monitoring 2017-2019.pdf"),
+  other.entity = c("Keswick_Reservoir_Tw_Monitoring_2017_to_2019.pdf"),
   other.entity.description = c("Keswick Reservoir Tw Monitoring Methods"),
   user.id = "csmith",
   user.domain = "EDI", 
-  package.id = "edi.117.2")
+  package.id = "edi.682.1")
