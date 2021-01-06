@@ -1,0 +1,5 @@
+attributeName	code	definition
+Treatment	N	N fertilized
+Treatment	Reference	Reference
+Watershed	East Bear	East Bear
+Watershed	WB	West Bear

@@ -1,0 +1,11 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Joseph 	E 	Carrara	West Virginia University	jocarrara@mix.wvu.edu	0000-0003-0597-1175	creator			
+Christopher 	A 	Walter	West Virginia University	cwalte12@mail.wvu.edu		creator			
+Zachary 	B 	Freedman	Department of Soil Science, University of Wisconsin-Madison	zachary.freedman@mail.wvu.edu		creator			
+Ashley 	N 	Hostetler	West Virginia University	ahende11@mix.wvu.edu		creator			
+Jennifer 	S	Hawkins	West Virginia University	Jennifer.Hawkins@mail.wvu.edu		creator			
+Ivan 	J 	Fernandez	University of Maine, School of Forest Resources and Climate Change Institute	ivanjf@maine.edu		creator			
+Edward 	R 	Brzostek 	West Virginia University	erbrzostek@mix.wvu.edu		creator			
+Joseph 	E 	Carrara	West Virginia University	jocarrara@mix.wvu.edu	0000-0003-0597-1175	contact			
+Ivan 	J 	Fernandez	University of Maine, School of Forest Resources and Climate Change Institute	ivanjf@maine.edu		PI	Long-Term Research in Environmental Biology (LTREB) program	NSF	DEB-1119709
+Ivan 	J 	Fernandez	University of Maine, School of Forest Resources and Climate Change Institute	ivanjf@maine.edu		PI	NSF Graduate Research Fellowship to Joseph Carrara	NSF	DGE-1102

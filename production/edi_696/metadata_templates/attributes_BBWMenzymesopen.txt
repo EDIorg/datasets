@@ -1,0 +1,11 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Watershed	Name of the watershed the plot is in 	categorical				
+Treatment	N Fertilized or Reference watershed	categorical				
+Mycorrhizae	Dominant tree mycorrhizal type within each plot	character				
+Plot	Plot number 	numeric	dimensionless			
+SoilFraction	Soil type wherein the enzymes were measured 	character				
+AP	Activity of the enzyme acid phosphatase (phosphorus acquiring enzyme), expressed in MicromolsPerGramDrySoilPerHour	numeric	micromolePerGramPerHour			
+BG	Activity of the enzyme beta-glucosidase (simple carbon acquiring enzyme), expressed in MicromolsPerGramDrySoilPerHour	numeric	micromolePerGramPerHour			
+NAG	Activity of the enzyme n-acetylglucosaminidase (nitrogen acquiring enzyme), expressed in MicromolsPerGramDrySoilPerHour	numeric	micromolePerGramPerHour			
+Peroxidase	Activity of the enzyme peroxidase (complex carbon acquiring enzyme), expressed in MicromolsPerGramDrySoilPerHour	numeric	micromolePerGramPerHour			
+Phenox	Activity of the enzyme phenol oxidase (complex carbon acquiring enzyme), expressed in MicromolsPerGramDrySoilPerHour	numeric	micromolePerGramPerHour			
