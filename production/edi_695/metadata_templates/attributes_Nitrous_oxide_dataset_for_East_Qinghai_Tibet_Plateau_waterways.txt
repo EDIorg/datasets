@@ -1,0 +1,24 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Sampling_dates	"Sampling occurred in spring (May-Jun), summer (Jul-Aug) and fall (Sep-Oct) in Beijing Time."	character				
+Exact_dates	Exact date at each sampling site.	Date		YYYY/MM/DD		
+Basins	Which catchment are these sampling sites located in.	character				
+Sites	The name of each site is the toponym of sampling river reach (details in Notes and Comments).	character				
+Altitude	The altitude of each sampling site (above sea level).	numeric	meter			
+DO	Real-time dissolved oxygen measured at each site.	numeric	milligramsPerLiter			
+DO_saturation	Real-time dissolved oxygen saturation calculated at each site.	numeric	percent			
+NH4	The ratio of river discharge per unit channel width (real-time measured data).	numeric	milligramsPerLiter			
+NO3	Real-time measured flow velocity at each sampling site.	numeric	milligramsPerLiter			
+N2O_concentrations	Average N2O concentration measured in triplicate at each site (details in Methods).	numeric	nanomolePerLiter			
+N2O_yields	N2O yield calculated at each site.	numeric	dimensionless			
+N2O_diffusion_chamber_1	Diffusive N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+N2O_diffusion_chamber_2	Diffusive N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+N2O_diffusion_chamber_3	Diffusive N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+N2O_diffusion_chamber_4	Diffusive N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+N2O_ebullition_chamber_1	Ebullitive N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+N2O_ebullition_chamber_2	Ebullitive N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+N2O_ebullition_chamber_3	Ebullitive N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+N2O_ebullition_chamber_4	Ebullitive N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+Total_N2O_chamber_1	Total N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+Total_N2O_chamber_2	Total N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+Total_N2O_chamber_3	Total N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			
+Total_N2O_chamber_4	Total N2O fluxes measured in four floating chambers at each transect (details in Methods).	numeric	micromolePerMeterSquaredPerDay			

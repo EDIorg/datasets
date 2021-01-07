@@ -1,0 +1,10 @@
+keyword	keywordThesaurus
+biogeochemistry	
+fluxes	
+freshwater	
+gases	
+nitrous oxide	
+rivers	
+streams	
+alpine	
+permafrost	

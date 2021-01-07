@@ -1,0 +1,8 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Liwei		Zhang	Beijing Normal University	zhangliwei@mail.bnu.edu.cn	orcid.org/0000-0002-1610-2816	creator			
+Xinghui		Xia	Beijing Normal University	xiaxh@bnu.edu.cn	orcid.org/0000-0002-8663-6346	creator			
+Tom	J	Battin	Ecole Polytechnique Fédérale Lausanne	tom.battin@epfl.ch	orcid.org/0000-0001-5361-2033	creator			
+Emily	H	Stanley	University of Wisconsin-Madison	ehstanley@wisc.edu	orcid.org/0000-0003-4922-8121	creator			
+Liwei		Zhang	Beijing Normal University	zhangliwei@mail.bnu.edu.cn	orcid.org/0000-0002-1610-2816	contact			
+Xinghui		Xia	Beijing Normal University	xiaxh@bnu.edu.cn	orcid.org/0000-0002-8663-6346	PI		National Key R&D Program of China	2017YFA0605001
+Xinghui		Xia	Beijing Normal University	xiaxh@bnu.edu.cn	orcid.org/0000-0002-8663-6346	PI		National Natural Science Foundation of China	52039001

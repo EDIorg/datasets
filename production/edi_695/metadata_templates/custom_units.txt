@@ -1,0 +1,2 @@
+id	unitType	parentSI	multiplierToSI	description
+micromolePerMeterSquaredPerDay		molePerMeterSquaredPerSecond	864	micromoles per square centimeter per second
