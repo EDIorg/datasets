@@ -1,5 +1,6 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
 Sampling_date	"Sampling occurred in spring (May-Jun), summer (Jul-Aug) and fall (Sep-Oct)."	categorical				
+Exact_dates	Sampling date	Date		YYYY/MM/DD		
 Basins	Which catchment are these sampling sites located in.	categorical				
 Sites	The name of each site is the toponym of sampling river reach (details in Sampling_sites.csv).	character				
 Altitude	The altitude of each sampling site (above sea level).	numeric	meter			

@@ -65,7 +65,7 @@ EMLassemblyline::make_eml(
   geographic.description = "The Qinghai-Tibet Plateau, or 'Third Pole' of the Earth, with an average elevation of over 4000 m, is the cradle of ten large Asian rivers and the largest cryosphere outside the Arctic and Antarctic.", 
   geographic.coordinates = c("36", "105", "28", "90"), 
   maintenance.description = "Completed", 
-  data.table = c("Methane_dataset_for_EQTP_waterways.csv", "Sampling_sites.csv"),
+  data.table = c("Methane_dataset_for_East_Qinghai_Tibet_Plateau_waterways.csv", "Sampling_sites.csv"),
   data.table.name = c("Methane dataset for East Qinghai-Tibet Plateau waterways", "Sampling sites"),
   data.table.description = c("Methane dataset for East Qinghai-Tibet Plateau waterways", "Sampling site coordinates and descriptions"), 
   other.entity = "Monte_Carlo_Simulation_for_Zhang_et_al_2020.zip",
@@ -73,5 +73,5 @@ EMLassemblyline::make_eml(
   other.entity.description = "Monte Carlo Simulation for the paper Zhang et al 2020", 
   user.id = "csmith", 
   user.domain = "LTER", 
-  package.id = "edi.468.1"
+  package.id = "edi.468.2"
 )
