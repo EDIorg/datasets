@@ -1,0 +1,33 @@
+dataPackageID	systemID	title	givenName	middleInitial	surName	role	organizationName	email	onlineDescription	url
+knb-lter-ntl.38.24	EDI									
+knb-lter-ntl.35.28	EDI									
+edi.186.2	EDI									
+edi.256.1	EDI									
+knb-lter-ntl.29.25	EDI									
+knb-lter-ntl.31.28	EDI									
+edi.184.1	EDI									
+edi.237.1	EDI									
+		HydroLakes	Bernhard		Lehner	contact		bernhard.lehner@mcgill.ca	"Messager, M. L., Lehner, B., Grill, G., Nedeva, I., & Schmitt, O. Estimating the volume and age of water stored in global lakes using a geo-statistical approach. Nat. Commun., 7, 13603, doi:10.1038/ncomms1360 (2016)"	https://www.hydrosheds.org/page/hydrolakes
+		Castle (id 441)	Sudeep		Chandra	contact		sudeep@unr.edu	no description available	http://aquaticecosystemslab.org/projects/castlelake/
+		Swedish Lakes (id 279-305)	Pernilla		Ronnback	contact		Pernilla.Ronnback@slu.se	no description available	http://miljodata.slu.se/mvm/
+		Lake Annie (id 55)	Evelyn		Gaiser	contact		gaisere@fiu.edu	no description available	https://www.archbold-station.org/index.cfm
+		Lake Champlain (id 306)	Peter		Stangel	contact		Pete.Stangel@vermont.gov	no description available	https://anrweb.vermont.gov/dec/_dec/LongTermMonitoringLakes.aspx
+		Michigan Lakes (id 411-414)	Laura		Kaminski	contact		laurak@glc.org	no description available	https://data.micorps.net/view/lake/
+		Wisconsin Lakes (id 132-139)	Catherine	L.	Hein	contact		Catherine.Hein@wisconsin.gov	no description available	https://dnr.wi.gov/topic/surfacewater/swims/
+		Flathead (id 115)	Shawn		Devlin	contact		shawn.devlin@flbs.umt.edu	no description available	https://flbs.umt.edu/PublicData/
+		"Washington and Sammamish (id 1,2)"	Curtis		DeGasperi	contact		Curtis.DeGasperi@kingcounty.gov	no description available	https://green2.kingcounty.gov/lakes/
+		"Jordan, Bubble, & Eagle (ids 25, 37, 38)"	Kristin		Strock	contact		strockk@dickinson.edu	no description available	https://irma.nps.gov/Portal
+		Lakes of Maine (id 141-242)	Linda		Bacon	contact		Linda.C.Bacon@maine.gov	no description available	https://www.lakesofmaine.org/index.html
+		Adirondack Lakes (id 56-75)	Taylor		Leach	contact		taylor.leach@gmail.com	no description available	https://www.nature.com/articles/sdata201859
+		Castle (id 441)	Sudeep		Chandra	creator		sudeep@unr.edu	no description available	http://aquaticecosystemslab.org/projects/castlelake/
+		Swedish Lakes (id 279-305)				creator	Swedish University of Agricultural Sciences (SLU)	Pernilla.Ronnback@slu.se	no description available	http://miljodata.slu.se/mvm/
+		Lake Annie (id 55)				creator	Archbold Biological Station	gaisere@fiu.edu	no description available	https://www.archbold-station.org/index.cfm
+		Lake Champlain (id 306)				creator	"NEIWPCC Environmental Analyst, Lake Champlain Basin Program Long Term Monitoring Biologist"	Pete.Stangel@vermont.gov	no description available	https://anrweb.vermont.gov/dec/_dec/LongTermMonitoringLakes.aspx
+		Michigan Lakes (id 411-414)				creator	"Michigan Clean Water Corps and the Michigan Department of the Environment, Great Lakes and Energy (EGLE)"	laurak@glc.org	no description available	https://data.micorps.net/view/lake/
+		Wisconsin Lakes (id 132-139)				creator	Wisconsin Department of Natural Resources	Catherine.Hein@wisconsin.gov	no description available	https://dnr.wi.gov/topic/surfacewater/swims/
+		Flathead (id 115)				creator	Flathead Lake Biological Station	shawn.devlin@flbs.umt.edu	no description available	https://flbs.umt.edu/PublicData/
+		"Washington and Sammamish (id 1,2)"				creator	King County Water & Land Resources Division	Curtis.DeGasperi@kingcounty.gov	no description available	https://green2.kingcounty.gov/lakes/
+		"Jordan, Bubble, & Eagle (ids 25, 37, 38)"				creator	Acadia National Park	strockk@dickinson.edu	no description available	https://irma.nps.gov/Portal
+		Lakes of Maine (id 141-242)				creator	State of Maine Department of EnvironmentalProtection Lake Assessment Section and Lake Stewards of Maine Volunteer Lake Monitoring Program	Linda.C.Bacon@maine.gov	no description available	https://www.lakesofmaine.org/index.html
+		Adirondack Lakes (id 56-75)	Taylor		Leach	creator		taylor.leach@gmail.com	no description available	https://www.nature.com/articles/sdata201859
+		HydroLakes	Mathis	Loic	Messager	creator		bernhard.lehner@mcgill.ca	"Messager, M. L., Lehner, B., Grill, G., Nedeva, I., & Schmitt, O. Estimating the volume and age of water stored in global lakes using a geo-statistical approach. Nat. Commun., 7, 13603, doi:10.1038/ncomms1360 (2016)"	https://www.hydrosheds.org/page/hydrolakes

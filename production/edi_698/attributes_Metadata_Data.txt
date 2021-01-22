@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+lake_id	Unique identifier for each lake consistent across all data sets	character				
+name	Name of lake	character				
+tp_notes	Notes on laboratory methods for Total Phosphorous	character				
+tp_method_category	Broad categorization of methods used for Total Phosphorous	character				
+tn_notes	Notes on laboratory methods for Total Nitrogen	character				
+tn_method_category	Broad categorization of methods used for Total Nitrogen	character				
+chla_notes	Notes on laboratory methods of Chlorophyll a	character				
+chla_method_category	Broad categorization of methods used for Chlorophyll a	character				
+doc_notes	Notes on laboratory methods for Dissolved Organic Carbon	character				
+doc_method_category	Broad categorization of methods for Dissolved Organic Carbon	character				
+notes	Additional notes of laboratory methods	character				
+additional_notes	Additional notes of laboratory methods	character				

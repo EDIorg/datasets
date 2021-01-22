@@ -1,0 +1,3307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.698.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Long-term lake dissolved oxygen and temperature data, 1941-2018</title>
+    <creator>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <givenName>T</givenName>
+        <surName>Stetler</surName>
+      </individualName>
+      <organizationName>Rensselaer Polytechnic Institute</organizationName>
+      <electronicMailAddress>stetlj@rpi.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1505-3693</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <givenName>F</givenName>
+        <surName>Jane</surName>
+      </individualName>
+      <organizationName>Rensselaer Polytechnic Institute</organizationName>
+      <electronicMailAddress>janes@rpi.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-2968-359X</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Joshua</givenName>
+        <givenName>L</givenName>
+        <surName>Mincer</surName>
+      </individualName>
+      <organizationName>Rensselaer Polytechnic Institute</organizationName>
+      <electronicMailAddress>mincej20@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-0351-6163</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Maya</givenName>
+        <givenName>N</givenName>
+        <surName>Sanders</surName>
+      </individualName>
+      <organizationName>Rensselaer Polytechnic Institute</organizationName>
+      <electronicMailAddress>sandem3@rpi.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <givenName>C</givenName>
+        <surName>Rose</surName>
+      </individualName>
+      <organizationName>Rensselaer Polytechnic Institute</organizationName>
+      <electronicMailAddress>rosek4@rpi.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-1292-9381</userId>
+    </creator>
+    <pubDate>2021-01-10</pubDate>
+    <abstract>
+      <para>The concentration of oxygen dissolved in water regulates many aspects of aquatic ecosystems, including habitat suitability for biota, greenhouse gas emissions, nutrient cycling, and metal toxicity. However, little is known about how dissolved oxygen (DO) concentrations in lakes are changing through time. The solubility of oxygen in water declines with increasing water temperatures, but other temperature-sensitive processes may suppress or amplify trends through time, making long-term observations essential to understanding DO dynamics and trends. This dataset includes measurements of dissolved oxygen and temperature from  greater than 400 widely geographically-distributed lakes, as well as a suite of associated measurements in or around many of the lakes, including watershed land use, water clarity, limiting nutrient concentrations, and chlorophyll concentrations. Analysis of these data reveal widespread losses in dissolved oxygen through time in both surface and deep waters.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Lakes</keyword>
+      <keyword>GLEON</keyword>
+      <keyword>hypoxia</keyword>
+      <keyword>anoxia</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>limnology</keyword>
+      <keyword>dissolved oxygen</keyword>
+      <keyword>temperature</keyword>
+      <keyword>climate change</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Global, but predominately North America and Europe</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.384</westBoundingCoordinate>
+          <eastBoundingCoordinate>176.4339</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.2962</northBoundingCoordinate>
+          <southBoundingCoordinate>-42.6175</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1941</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <givenName>T</givenName>
+        <surName>Stetler</surName>
+      </individualName>
+      <organizationName>Rensselaer Polytechnic Institute</organizationName>
+      <electronicMailAddress>stetlj@rpi.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1505-3693</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <givenName>C</givenName>
+        <surName>Rose</surName>
+      </individualName>
+      <organizationName>Rensselaer Polytechnic Institute</organizationName>
+      <electronicMailAddress>rosek4@rpi.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-1292-9381</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>This data set is a compilation of long-term data on 412 lakes from multiple data sources including researchers at universities, state and federal agencies, and other publicly available data sources (see data provenance). Because this is a compilation of data sets from many contributors, methodologies for data collection were variable across lake data sets for each parameter. Temperature and DO data are supplied as received from the data providers. QA/QC was completed on these profiles interpolated from the raw data as follows: Impossible values were first removed, which were defined as those less than 0 or greater than 40 for both temperature (degreesCelsius) and DO (milligramsPerLiter). Profiles were removed from further processing if this either removed greater than 95% of a profile or left less than three measurement depths in a profile. Some profiles lacked a 0 depth point. Prior to interpolation, this was added by 1) changing the minimum depth to 0 if it was less than 0.5 m, 2) adding a 0 depth point and assigning temperature and DO values equal to the shallowest available depth if it was greater than 0.5 m but less than or equal to 3 m deep, 3) if the minimum depth exceeded 3 m the profile was excluded from interpolation. Profiles were interpolated from 0 m to the deepest point at 0.5 m intervals using the pchip function of the pracma R package. </para>
+          <para>Further information on lake characteristics, water clarity, chlorophyll, and watershed land use are available on a subset of lakes. These ancillary water quality data were not extensively quality checked; it is up to the user to screen for erroneous data points.</para>
+          <para>R Core Team. R: a language and environment for statistical computing. R foundation for 755 statistical computing, Vienna, Austria (2017).</para>
+          <para>Hans W. Borchers (2019). pracma: Practical Numerical Math Functions. R package version 2.2.9. https://CRAN.R-project.org/package=pracma.&#13;
+</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>North Temperate Lakes LTER: Chlorophyll - Madison Lakes Area 1995 - current</title>
+          <creator>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Lead PI</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Str.</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>John</givenName>
+              <surName>Magnuson</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 262-3014</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>john.magnuson@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/john_magnuson.htm</onlineUrl>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Stephen</givenName>
+              <surName>Carpenter</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 262-3014</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/steve_carpenter.htm</onlineUrl>
+            <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Emily</givenName>
+              <surName>Stanley</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 263-2567</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/personnel/emstan/</onlineUrl>
+            <userId directory="http://orcid.org">http://orcid.org/0000-0003-4922-8121</userId>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references an EML document that describes data used in the creation of this derivative data package.</onlineDescription>
+              <url function="information">https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/38/24</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Information Manager</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+          </contact>
+          <contact>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Lead PI</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Str.</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>North Temperate Lakes LTER: Chlorophyll - Trout Lake Area 1981 - current</title>
+          <creator>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Lead PI</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Str.</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>John</givenName>
+              <surName>Magnuson</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 262-3014</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>john.magnuson@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/john_magnuson.htm</onlineUrl>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Stephen</givenName>
+              <surName>Carpenter</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 262-3014</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/steve_carpenter.htm</onlineUrl>
+            <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Emily</givenName>
+              <surName>Stanley</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 263-2567</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/personnel/emstan/</onlineUrl>
+            <userId directory="http://orcid.org">http://orcid.org/0000-0003-4922-8121</userId>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references an EML document that describes data used in the creation of this derivative data package.</onlineDescription>
+              <url function="information">https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/35/28</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Information Manager</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+          </contact>
+          <contact>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Lead PI</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Str.</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>Three decades of limnological data from lakes in the Pocono Mountains region, Pennsylvania USA, 1988-2018</title>
+          <creator>
+            <individualName>
+              <givenName>Craig</givenName>
+              <givenName>E</givenName>
+              <surName>Williamson</surName>
+            </individualName>
+            <organizationName>Miami University</organizationName>
+            <electronicMailAddress>willia85@miamioh.edu</electronicMailAddress>
+            <userId directory="https://orcid.org">https://orcid.org/0000-0001-7350-1912</userId>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references an EML document that describes data used in the creation of this derivative data package.</onlineDescription>
+              <url function="information">https://pasta.lternet.edu/package/metadata/eml/edi/186/2</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Craig</givenName>
+              <givenName>E</givenName>
+              <surName>Williamson</surName>
+            </individualName>
+            <organizationName>Miami University</organizationName>
+            <electronicMailAddress>willia85@miamioh.edu</electronicMailAddress>
+            <userId directory="https://orcid.org">https://orcid.org/0000-0001-7350-1912</userId>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>Long term limnological measures in Acton Lake, a southwest Ohio reservoir, and its inflow streams: 1992-2017</title>
+          <creator>
+            <individualName>
+              <givenName>Michael</givenName>
+              <givenName>J</givenName>
+              <surName>Vanni</surName>
+            </individualName>
+            <organizationName>Miami University</organizationName>
+            <electronicMailAddress>vannimj@miamioh.edu</electronicMailAddress>
+            <userId directory="https://orcid.org">https://orcid.org/0000-0001-8690-9124</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Maria</givenName>
+              <givenName>J</givenName>
+              <surName>Gonzalez</surName>
+            </individualName>
+            <organizationName>Miami University</organizationName>
+            <electronicMailAddress>gonzalmj@miamioh.edu</electronicMailAddress>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>William</givenName>
+              <givenName>H</givenName>
+              <surName>Renwick</surName>
+            </individualName>
+            <organizationName>Miami University</organizationName>
+            <electronicMailAddress>renwicwh@miamioh.edu</electronicMailAddress>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references an EML document that describes data used in the creation of this derivative data package.</onlineDescription>
+              <url function="information">https://pasta.lternet.edu/package/metadata/eml/edi/256/1</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Michael</givenName>
+              <givenName>J</givenName>
+              <surName>Vanni</surName>
+            </individualName>
+            <organizationName>Miami University</organizationName>
+            <electronicMailAddress>vannimj@miamioh.edu</electronicMailAddress>
+            <userId directory="https://orcid.org">https://orcid.org/0000-0001-8690-9124</userId>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>North Temperate Lakes LTER: Physical Limnology of Primary Study Lakes 1981 - current</title>
+          <creator>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Lead PI</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Str.</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>John</givenName>
+              <surName>Magnuson</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 262-3014</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>john.magnuson@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/john_magnuson.htm</onlineUrl>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Stephen</givenName>
+              <surName>Carpenter</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 262-3014</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/steve_carpenter.htm</onlineUrl>
+            <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Emily</givenName>
+              <surName>Stanley</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 263-2567</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/personnel/emstan/</onlineUrl>
+            <userId directory="http://orcid.org">http://orcid.org/0000-0003-4922-8121</userId>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references an EML document that describes data used in the creation of this derivative data package.</onlineDescription>
+              <url function="information">https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/29/25</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Information Manager</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+          </contact>
+          <contact>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Lead PI</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Str.</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>North Temperate Lakes LTER: Secchi Disk Depth; Other Auxiliary Base Crew Sample Data 1981 - current</title>
+          <creator>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Lead PI</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Str.</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>John</givenName>
+              <surName>Magnuson</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 262-3014</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>john.magnuson@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/john_magnuson.htm</onlineUrl>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Stephen</givenName>
+              <surName>Carpenter</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 262-3014</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/steve_carpenter.htm</onlineUrl>
+            <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Emily</givenName>
+              <surName>Stanley</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <phone phonetype="voice">(608) 263-2567</phone>
+            <phone phonetype="facsimile">(608) 265-2340</phone>
+            <electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+            <onlineUrl>http://limnology.wisc.edu/personnel/emstan/</onlineUrl>
+            <userId directory="http://orcid.org">http://orcid.org/0000-0003-4922-8121</userId>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references an EML document that describes data used in the creation of this derivative data package.</onlineDescription>
+              <url function="information">https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/31/28</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Information Manager</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Street</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+          </contact>
+          <contact>
+            <individualName>
+              <givenName>NTL</givenName>
+              <surName>Lead PI</surName>
+            </individualName>
+            <organizationName>University of Wisconsin</organizationName>
+            <address>
+              <deliveryPoint>680 North Park Str.</deliveryPoint>
+              <city>Madison</city>
+              <administrativeArea>WI</administrativeArea>
+              <postalCode>53706</postalCode>
+              <country>US</country>
+            </address>
+            <electronicMailAddress>ntl.leadpi@gmail.com</electronicMailAddress>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>Analytical dataset: Effects of climate variability on snowmelt and implications for organic matter in a high elevation lake</title>
+          <creator>
+            <individualName>
+              <givenName>Steve</givenName>
+              <surName>Sadro</surName>
+            </individualName>
+            <organizationName>Department of Environmental Science and Policy, UC Davis</organizationName>
+            <electronicMailAddress>ssadro@ucdavis.edu</electronicMailAddress>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references an EML document that describes data used in the creation of this derivative data package.</onlineDescription>
+              <url function="information">https://pasta.lternet.edu/package/metadata/eml/edi/184/1</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Steve</givenName>
+              <surName>Sadro</surName>
+            </individualName>
+            <organizationName>Department of Environmental Science and Policy, UC Davis</organizationName>
+            <electronicMailAddress>ssadro@ucdavis.edu</electronicMailAddress>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>This method step describes provenance-based metadata as specified in the LTER EML Best Practices.</para>
+          <para>This provenance metadata does not contain entity specific information.</para>
+        </description>
+        <dataSource>
+          <title>Climate sensitivity of Sierra Nevada Lakes</title>
+          <creator>
+            <individualName>
+              <givenName>Steve</givenName>
+              <surName>Sadro</surName>
+            </individualName>
+            <organizationName>University of California Davis</organizationName>
+            <electronicMailAddress>ssadro@ucdavis.edu</electronicMailAddress>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references an EML document that describes data used in the creation of this derivative data package.</onlineDescription>
+              <url function="information">https://pasta.lternet.edu/package/metadata/eml/edi/237/1</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Steve</givenName>
+              <surName>Sadro</surName>
+            </individualName>
+            <organizationName>University of California Davis</organizationName>
+            <electronicMailAddress>ssadro@ucdavis.edu</electronicMailAddress>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>HydroLakes</title>
+          <creator>
+            <individualName>
+              <givenName>Mathis Loic</givenName>
+              <surName>Messager</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>"Messager, M. L., Lehner, B., Grill, G., Nedeva, I., &amp; Schmitt, O. Estimating the volume and age of water stored in global lakes using a geo-statistical approach. Nat. Commun., 7, 13603, doi:10.1038/ncomms1360 (2016)"</onlineDescription>
+              <url>https://www.hydrosheds.org/page/hydrolakes</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Bernhard</givenName>
+              <surName>Lehner</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Castle (id 441)</title>
+          <creator>
+            <individualName>
+              <givenName>Sudeep</givenName>
+              <surName>Chandra</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>http://aquaticecosystemslab.org/projects/castlelake/</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Sudeep</givenName>
+              <surName>Chandra</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Swedish Lakes (id 279-305)</title>
+          <creator>
+            <organizationName>Swedish University of Agricultural Sciences (SLU)</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>http://miljodata.slu.se/mvm/</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Pernilla</givenName>
+              <surName>Ronnback</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Lake Annie (id 55)</title>
+          <creator>
+            <organizationName>Archbold Biological Station</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>https://www.archbold-station.org/index.cfm</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Evelyn</givenName>
+              <surName>Gaiser</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Lake Champlain (id 306)</title>
+          <creator>
+            <organizationName>"NEIWPCC Environmental Analyst, Lake Champlain Basin Program Long Term Monitoring Biologist"</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>https://anrweb.vermont.gov/dec/_dec/LongTermMonitoringLakes.aspx</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Peter</givenName>
+              <surName>Stangel</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Michigan Lakes (id 411-414)</title>
+          <creator>
+            <organizationName>"Michigan Clean Water Corps and the Michigan Department of the Environment, Great Lakes and Energy (EGLE)"</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>https://data.micorps.net/view/lake/</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Laura</givenName>
+              <surName>Kaminski</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Wisconsin Lakes (id 132-139)</title>
+          <creator>
+            <organizationName>Wisconsin Department of Natural Resources</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>https://dnr.wi.gov/topic/surfacewater/swims/</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Catherine L.</givenName>
+              <surName>Hein</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Flathead (id 115)</title>
+          <creator>
+            <organizationName>Flathead Lake Biological Station</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>https://flbs.umt.edu/PublicData/</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Shawn</givenName>
+              <surName>Devlin</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>"Washington and Sammamish (id 1,2)"</title>
+          <creator>
+            <organizationName>King County Water &amp; Land Resources Division</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>https://green2.kingcounty.gov/lakes/</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Curtis</givenName>
+              <surName>DeGasperi</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>"Jordan, Bubble, &amp; Eagle (ids 25, 37, 38)"</title>
+          <creator>
+            <organizationName>Acadia National Park</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>https://irma.nps.gov/Portal</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Kristin</givenName>
+              <surName>Strock</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Lakes of Maine (id 141-242)</title>
+          <creator>
+            <organizationName>State of Maine Department of EnvironmentalProtection Lake Assessment Section and Lake Stewards of Maine Volunteer Lake Monitoring Program</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>https://www.lakesofmaine.org/index.html</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Linda</givenName>
+              <surName>Bacon</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Adirondack Lakes (id 56-75)</title>
+          <creator>
+            <individualName>
+              <givenName>Taylor</givenName>
+              <surName>Leach</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>no description available</onlineDescription>
+              <url>https://www.nature.com/articles/sdata201859</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Taylor</givenName>
+              <surName>Leach</surName>
+            </individualName>
+          </contact>
+        </dataSource>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Erken (id 4)</para>
+          <para>It was provided by: please contact: Don Pierson and Gesa Weyhenmeyer; don.pierson@ebc.uu.se; gesa.weyhenmeyer@ebc.uu.se</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Rimov Reservoir (id 5)</para>
+          <para>It was provided by: please contact: Josef Hejzlar; hejzlar@hbu.cas.cz</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Maggiore (id 6)</para>
+          <para>It was provided by:CNR Water Research Institute Verbania Funded by the
+            International Commission for the Protection of Swiss-Italian Waters (CIPAIS) please
+            contact: Michela Rogora; michela.rogora@cnr.it</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Neversink and Cannonsville (id 78)</para>
+          <para>It was provided by:NYC Environmental Protection - Bureau of Water Supply please
+            contact: Lorraine Janus Karen Moore; LJanus@dep.nyc.gov;
+            KarenMoore@dep.nyc.gov</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>ELA Lakes (id 9-13)</para>
+          <para>It was provided by:IISD ? Experimental Lakes Area Inc. please contact: Scott
+            Higgins; shiggins@iisd-ela.org</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Maine Lakes(id 15-22)</para>
+          <para>It was provided by:Fb Environmental Associates/Maine Lake Data (Linda Bacon)
+            please contact: Laura Diemer; laurad@fbenvironmental.com</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Caldonazzo (id 23)</para>
+          <para>It was provided by: please contact: Giovanna Flaim;
+            flaim.giovanna@gmail.com</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Iseo (id 24)</para>
+          <para>It was provided by: please contact: Barbara Leoni; barbara.leoni@unimib.it</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>National Water Quality Portal (id 39 114 116 307-401)</para>
+          <para>It was provided by:Unites States Geological Survey US Environmental Protection
+            Agency please contact: Jordan Read; jread@usgs.gov</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>New Zealand Lakes (id 40 44 45)</para>
+          <para>It was provided by:National Institute of Water and Atmospheric Research (NIWA)
+            please contact: Piet Verburg; Piet.Verburg@niwa.co.nz</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Missouri Reservoirs (id 80-98 418-439)</para>
+          <para>It was provided by:Missouri Department of Natural Resources please contact:
+            Rebecca North; northr@missouri.edu</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Qu'Appelle lakes Saskatchewan (id 105-111)</para>
+          <para>It was provided by: please contact: Peter Leavitt; Peter.Leavitt@uregina.ca;
+            P.Leavitt@QUB.ac.uk</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Naroch (id 113)</para>
+          <para>It was provided by:Belarusian State University; Research Laboratory of Aquatic
+            Ecology and Naroch Biological Field Station please contact: Boris Adamovich;
+            belaqualab@gmail.comTatyana Zhukova</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Oklahoma Lakes (id 117-120)</para>
+          <para>It was provided by: please contact: K. David Hambright; dhambright@ou.edu</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Stechlin (id 122)</para>
+          <para>It was provided by:wollrab@igb-berlin.de; IGB-Berlin please contact: Hans-Peter
+            Grossart; hgrossart@igb-berlin.de</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Kivu (id 123)</para>
+          <para>It was provided by: please contact: Wim Thiery; Wim.Thiery@vub.be</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Otsego (id 124)</para>
+          <para>It was provided by:SUNY Oneonta Biological Field Station please contact: Kiyoko
+            Yokota and Matthew Albright; Kiyoko.Yokota@oneonta.edu
+            Matthew.Albright@oneonta.edu</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Blelham Tarn (125)</para>
+          <para>It was provided by:UK Centre for Ecology and Hyrdrology Funding ? Natural
+            Environment Research Council National Capability please contact: Eleanor Mackay;
+            ellcka@ceh.ac.uk</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Itasca (id 126)</para>
+          <para>It was provided by:Itasca Biological Station and Labs please contact: Lesley
+            Knoll; lbknoll@umn.edu</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>New Hampshire Lakes VOLUNTEERS (id 243 - 265 267 - 268 270 - 278)</para>
+          <para>It was provided by:Volunteer Lake Assessment Program (Vlap) Environmental
+            Monitoring Data. New Hampshire Department Of Environmental Services Watershed Mgmt
+            Bureau - Biology Section Concord Nh. please contact: Melanie Cofrin;
+            Melanie.Cofrin@des.nh.gov</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>New Hampshire Lakes DES (id 266 269)</para>
+          <para>It was provided by:NHDES please contact: Melanie Cofrin</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>New Zealand Lakes (id 402-410)</para>
+          <para>It was provided by:Bay of Plenty Regional Council New Zealand please contact:
+            Christopher McBride; christopher.mcbride@waikato.ac.nz</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Leech (id 416 417)</para>
+          <para>It was provided by:Minnesota Department of Natural Resources please contact: Carl
+            Pedersen and Gretchen Hansen; carl.pedersen@state.mn.us; ghansen@umn.edu</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Mozhaysk Reservoir (id 440)</para>
+          <para>It was provided by:Lomonosov Moscow State University please contact: Oxana Erina;
+            tamiblack@yandex.ru</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>This dataset is not publicly available</para>
+          <para>Nkuruba (id 442)</para>
+          <para>It was provided by:Lauren Chapman please contact: Emilie Saulnier-Talbot;
+            emiliest@hotmail.com; lauren.chapman@mcgill.ca</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>MSB-ECA: Assessing the effects of cross-scale interactions mediating sub-continental lake thermal trends and carbon cycling</title>
+      <personnel>
+        <individualName>
+          <givenName>Kevin</givenName>
+          <givenName>C</givenName>
+          <surName>Rose</surName>
+        </individualName>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0002-1292-9381</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation 1638704</funding>
+      <relatedProject>
+        <title>Collaborative LTREB Proposal: Will increases in dissolved organic matter accelerate a shift in trophic status through anoxia-driven positive feedbacks in an oligotrophic lake?</title>
+        <personnel>
+          <individualName>
+            <givenName>Kevin</givenName>
+            <givenName>C</givenName>
+            <surName>Rose</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0002-1292-9381</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation 1754265</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Spokes: SMALL: NORTHEAST: Collaborative: Building the Community to Address Data Integration of the Ecological Long Trail</title>
+        <personnel>
+          <individualName>
+            <givenName>Kevin</givenName>
+            <givenName>C</givenName>
+            <surName>Rose</surName>
+          </individualName>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0002-1292-9381</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation 1761805</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Collaborator Information</entityName>
+      <entityDescription>Information of data contributors, including contact information when available.</entityDescription>
+      <physical>
+        <objectName>Collaborator_Info_Data.csv</objectName>
+        <size unit="bytes">7835</size>
+        <authentication method="MD5">3807301aef4c9e7814a4ee48c29cecd1</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>primary_contact</attributeName>
+          <attributeDefinition>Name of data contributor</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of data contributor</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>affiliation</attributeName>
+          <attributeDefinition>Affiliation of data contributor</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Affiliation of data contributor</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>collaborator</attributeName>
+          <attributeDefinition>Name of additional collaborator</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of additional collaborator</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>position</attributeName>
+          <attributeDefinition>Position of primary contact</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Position of primary contact</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_ids</attributeName>
+          <attributeDefinition>List of lake ids contributed separated by comma or dash consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>List of lake ids contributed separated by comma or dash consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_names</attributeName>
+          <attributeDefinition>Lake name groupings consistent with the data provenance section of EDI</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lake name groupings consistent with the data provenance section of EDI</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>link_if_available</attributeName>
+          <attributeDefinition>URL to original data source</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>URL to original data source</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>47</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Elevation</entityName>
+      <entityDescription>Elevation of most lakes.</entityDescription>
+      <physical>
+        <objectName>Elevation_Data.csv</objectName>
+        <size unit="bytes">17259</size>
+        <authentication method="MD5">733f9453d5b37024fcf76c95f053c399</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>row_id</attributeName>
+          <attributeDefinition>Unique row of data within data frame</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique row of data within data frame</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Lake Name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lake Name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>elevation</attributeName>
+          <attributeDefinition>Elevation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">7</minimum>
+                  <maximum exclusive="false">2804</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>data_source</attributeName>
+          <attributeDefinition>Denotes where the elevation data came from</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Denotes where the elevation data came from</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>397</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Hydrolakes</entityName>
+      <entityDescription>Associated HydroLAKES data.</entityDescription>
+      <physical>
+        <objectName>Hydrolakes_Data.csv</objectName>
+        <size unit="bytes">30247</size>
+        <authentication method="MD5">9d388748de8ab946d736329ca9c15ec7</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>row_id</attributeName>
+          <attributeDefinition>Unique row of data within data frame</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique row of data within data frame</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hylak_id</attributeName>
+          <attributeDefinition>HydroLake ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>HydroLake ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>area_km2</attributeName>
+          <attributeDefinition>Surface area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareKilometers</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">2400.88</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mean_depth_m</attributeName>
+          <attributeDefinition>Average depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">237</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>shore_len_km</attributeName>
+          <attributeDefinition>Shore length</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilometer</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.37</minimum>
+                  <maximum exclusive="false">1190.34</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>dis_avg_ms3</attributeName>
+          <attributeDefinition>Average discharge</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMetersPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.001</minimum>
+                  <maximum exclusive="false">3166.706</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>res_time_days</attributeName>
+          <attributeDefinition>Resident time in number of days</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.9</minimum>
+                  <maximum exclusive="false">102201.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>elevation_m</attributeName>
+          <attributeDefinition>Elevation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">1657</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>wshd_area_km2</attributeName>
+          <attributeDefinition>Watershed area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareKilometers</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.3</minimum>
+                  <maximum exclusive="false">194674.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>369</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Information</entityName>
+      <entityDescription>Data frame with lake geographic, morphometric data, and general classifications.</entityDescription>
+      <physical>
+        <objectName>Info_Data.csv</objectName>
+        <size unit="bytes">34617</size>
+        <authentication method="MD5">b33d452094e4fdabffbb60629fdbc246</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>row_id</attributeName>
+          <attributeDefinition>Unique row of data within data frame</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique row of data within data frame</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Name of lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeDefinition>The country the lake is located in</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The country the lake is located in</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>state_prov</attributeName>
+          <attributeDefinition>The state or province the lake is located in (if applicable).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The state or province the lake is located in (if applicable).</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat</attributeName>
+          <attributeDefinition>The latitude of the lake</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-42.6175</minimum>
+                  <maximum exclusive="false">68.2962</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>long</attributeName>
+          <attributeDefinition>The longitude of the lake</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-122.3836</minimum>
+                  <maximum exclusive="false">176.5855</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_depth</attributeName>
+          <attributeDefinition>The maximum depth of the lakes</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">480</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>surf_area</attributeName>
+          <attributeDefinition>The surface area of the lake</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">237000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>type</attributeName>
+          <attributeDefinition>"The mixing regime of the lake, if provided by the contributor."</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>"The mixing regime of the lake, if provided by the contributor."</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>troph_status</attributeName>
+          <attributeDefinition>"The trophic status of the lake, if provided by the contributor."</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>"The trophic status of the lake, if provided by the contributor."</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>412</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Interpolated Data</entityName>
+      <entityDescription>Temperature and dissolved oxygen profile data interpolated to 0.5 m depth intervals.</entityDescription>
+      <physical>
+        <objectName>Interpolated_Data.csv</objectName>
+        <size unit="bytes">168421206</size>
+        <authentication method="MD5">30a7337f2d2dd7b632a92b3d1484ae65</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>row_id</attributeName>
+          <attributeDefinition>Unique row of data within data frame</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique row of data within data frame</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of sampling</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Depth of sample relative to surface</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.1</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Name of lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>temp</attributeName>
+          <attributeDefinition>Temperature of sample at depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">39.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>do_con</attributeName>
+          <attributeDefinition>Concentration of dissolved oxygen at depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">40</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year of sampling</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1940</minimum>
+                  <maximum exclusive="false">2018</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2912362</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Metadata</entityName>
+      <entityDescription>Meta data for nutrient and chlorophyll data.</entityDescription>
+      <physical>
+        <objectName>Metadata_Data.csv</objectName>
+        <size unit="bytes">98823</size>
+        <authentication method="MD5">76f7e9b0b884a700f5c5d947624d628f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Name of lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tp_notes</attributeName>
+          <attributeDefinition>Notes on laboratory methods for Total Phosphorous</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes on laboratory methods for Total Phosphorous</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tp_method_category</attributeName>
+          <attributeDefinition>Broad categorization of methods used for Total Phosphorous</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad categorization of methods used for Total Phosphorous</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tn_notes</attributeName>
+          <attributeDefinition>Notes on laboratory methods for Total Nitrogen</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes on laboratory methods for Total Nitrogen</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tn_method_category</attributeName>
+          <attributeDefinition>Broad categorization of methods used for Total Nitrogen</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad categorization of methods used for Total Nitrogen</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chla_notes</attributeName>
+          <attributeDefinition>Notes on laboratory methods of Chlorophyll a</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes on laboratory methods of Chlorophyll a</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chla_method_category</attributeName>
+          <attributeDefinition>Broad categorization of methods used for Chlorophyll a</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad categorization of methods used for Chlorophyll a</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>doc_notes</attributeName>
+          <attributeDefinition>Notes on laboratory methods for Dissolved Organic Carbon</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes on laboratory methods for Dissolved Organic Carbon</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>doc_method_category</attributeName>
+          <attributeDefinition>Broad categorization of methods for Dissolved Organic Carbon</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Broad categorization of methods for Dissolved Organic Carbon</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeDefinition>Additional notes of laboratory methods</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Additional notes of laboratory methods</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>additional_notes</attributeName>
+          <attributeDefinition>Additional notes of laboratory methods</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Additional notes of laboratory methods</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>231</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Lake Names</entityName>
+      <entityDescription>Data frame containing the name of each lake</entityDescription>
+      <physical>
+        <objectName>Name_Data.csv</objectName>
+        <size unit="bytes">7791</size>
+        <authentication method="MD5">44303244d1a6fcb450fc09f13496ea07</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Name of lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>412</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Productivity</entityName>
+      <entityDescription>Nutrient and productivity data for a subset of all lakes.</entityDescription>
+      <physical>
+        <objectName>Productivity_Data.csv</objectName>
+        <size unit="bytes">18009235</size>
+        <authentication method="MD5">1fa617618d3193613bf2a5ac2033e996</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>row_id</attributeName>
+          <attributeDefinition>Unique row of data within data frame</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique row of data within data frame</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Name of lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of sampling</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Depth of sample relative to surface</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>stratum</attributeName>
+          <attributeDefinition>"Qualitative layer of the water column if samples were integrated across multiple depths (i.e., epilimnion)."</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>"Qualitative layer of the water column if samples were integrated across multiple depths (i.e., epilimnion)."</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>meas_location</attributeName>
+          <attributeDefinition>Location of sampling event</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location of sampling event</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tp_ugl</attributeName>
+          <attributeDefinition>Total Phosphorous</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-105</minimum>
+                  <maximum exclusive="false">144000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tp_flag</attributeName>
+          <attributeDefinition>A flag by data contributor for any anomalies while collecting total Phosphorous data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A flag by data contributor for any anomalies while collecting total Phosphorous data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tn_ugl</attributeName>
+          <attributeDefinition>Total Nitrogen</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-9990</minimum>
+                  <maximum exclusive="false">99999.99</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tn_flag</attributeName>
+          <attributeDefinition>A flag by data contributor for any anomalies while collecting total Nitrogen data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A flag by data contributor for any anomalies while collecting total Nitrogen data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>doc_mgl</attributeName>
+          <attributeDefinition>Dissolved Organic Carbon</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-99.9</minimum>
+                  <maximum exclusive="false">51.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>doc_flag</attributeName>
+          <attributeDefinition>A flag by data contributor for any anomalies while collecting dissolved organic carbon data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A flag by data contributor for any anomalies while collecting dissolved organic carbon data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chla_ugl</attributeName>
+          <attributeDefinition>Chlorophyll a data</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-217.9</minimum>
+                  <maximum exclusive="false">999.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>chla_flag</attributeName>
+          <attributeDefinition>A flag by data contributor for any anomalies while collecting Chlorophyll a data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A flag by data contributor for any anomalies while collecting Chlorophyll a data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comment</attributeName>
+          <attributeDefinition>Additional information on lab analyses</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Additional information on lab analyses</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year of sampling</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1959</minimum>
+                  <maximum exclusive="false">2017</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>170837</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Raw Data</entityName>
+      <entityDescription>Raw temperature and dissolved oxygen profile data.</entityDescription>
+      <physical>
+        <objectName>Raw_Data.csv</objectName>
+        <size unit="bytes">130583842</size>
+        <authentication method="MD5">a48073ba501550a0ff72acf7d4b43079</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>row_id</attributeName>
+          <attributeDefinition>Unique row of data within data frame</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique row of data within data frame</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Name of lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of sampling</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Time of sampling as local time (we do not have information in regards to daylight savings time). A time of 00:00:00 most likely indicates that the contributor did not give the time of sampling.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Depth of sample relative to surface</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-19.5</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp</attributeName>
+          <attributeDefinition>Temperature of water</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-99.99</minimum>
+                  <maximum exclusive="false">99.99</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>do_con</attributeName>
+          <attributeDefinition>Concentration of dissolved oxygen</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-99.99</minimum>
+                  <maximum exclusive="false">99.99</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>meas_location</attributeName>
+          <attributeDefinition>Location of sampling event</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location of sampling event</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>temp_flag</attributeName>
+          <attributeDefinition>A flag by data contributor for any anomalies while recording temperature data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A flag by data contributor for any anomalies while recording temperature data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>do_flag</attributeName>
+          <attributeDefinition>A flag by data contributor for any anomalies while recording dissolved oxygen data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A flag by data contributor for any anomalies while recording dissolved oxygen data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year of sampling</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1940</minimum>
+                  <maximum exclusive="false">2018</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1388130</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Secchi Depth</entityName>
+      <entityDescription>Water clarity data in the form of Secchi disk depth.</entityDescription>
+      <physical>
+        <objectName>Secchi_Data.csv</objectName>
+        <size unit="bytes">6470770</size>
+        <authentication method="MD5">2693af547f2714bcdbeab3b0433a940f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>row_id</attributeName>
+          <attributeDefinition>Unique row of data within data frame</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique row of data within data frame</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Name of lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of sampling</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>secchi</attributeName>
+          <attributeDefinition>Depth of Secchi disk measurement</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">99.99</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>meas_location</attributeName>
+          <attributeDefinition>Location of sampling event</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location of sampling event</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sec_flag</attributeName>
+          <attributeDefinition>A flag by data contributor for any anomalies while collecting Secchi disk depth measurement</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A flag by data contributor for any anomalies while collecting Secchi disk depth measurement</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year of sampling</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1940</minimum>
+                  <maximum exclusive="false">2017</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>99110</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Landuse Use</entityName>
+      <entityDescription>Watershed land use characteristics for lakes in the USA.</entityDescription>
+      <physical>
+        <objectName>Use_Data.csv</objectName>
+        <size unit="bytes">25780</size>
+        <authentication method="MD5">d754f5e70bb30c8d31902d8067f32ef5</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>row_id</attributeName>
+          <attributeDefinition>Unique row of data within data frame</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique row of data within data frame</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lake_id</attributeName>
+          <attributeDefinition>Unique identifier for each lake consistent across all data sets</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each lake consistent across all data sets</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Name of lake</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>perag</attributeName>
+          <attributeDefinition>Percent agriculture in watershed derived from US national land cover database</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">82.05</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>perdev</attributeName>
+          <attributeDefinition>Percent development in watershed derived from US national land cover database</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">99.99</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>perwater</attributeName>
+          <attributeDefinition>Percent water in watershed derived from US national land cover database</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">20.23</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>perfor</attributeName>
+          <attributeDefinition>Percent forest in watershed derived from US national land cover database</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">96.24</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>perwet</attributeName>
+          <attributeDefinition>Percent wetland in watershed derived from US national land cover database</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">40.44</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pergrass</attributeName>
+          <attributeDefinition>Percent grass in watershed derived from US national land cover database</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">40.88</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pershrub</attributeName>
+          <attributeDefinition>Percent shrub in watershed derived from US national land cover database</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">28.86</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>comment</attributeName>
+          <attributeDefinition>Additional information on calculations</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Additional information on calculations</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>343</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="percent" multiplierToSI="" name="percent" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

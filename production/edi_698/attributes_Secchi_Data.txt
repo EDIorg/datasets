@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+row_id	Unique row of data within data frame	character				
+lake_id	Unique identifier for each lake consistent across all data sets	character				
+name	Name of lake	character				
+date	Date of sampling	Date		YYYY-MM-DD		
+secchi	Depth of Secchi disk measurement	numeric	meter		NA	not available
+meas_location	Location of sampling event	character				
+sec_flag	A flag by data contributor for any anomalies while collecting Secchi disk depth measurement	character				
+year	Year of sampling	numeric	nominalYear		NA	not available

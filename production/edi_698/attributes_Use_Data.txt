@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+row_id	Unique row of data within data frame	character				
+lake_id	Unique identifier for each lake consistent across all data sets	character				
+name	Name of lake	character				
+perag	Percent agriculture in watershed derived from US national land cover database	numeric	percent		NA	not available
+perdev	Percent development in watershed derived from US national land cover database	numeric	percent		NA	not available
+perwater	Percent water in watershed derived from US national land cover database	numeric	percent		NA	not available
+perfor	Percent forest in watershed derived from US national land cover database	numeric	percent		NA	not available
+perwet	Percent wetland in watershed derived from US national land cover database	numeric	percent		NA	not available
+pergrass	Percent grass in watershed derived from US national land cover database	numeric	percent		NA	not available
+pershrub	Percent shrub in watershed derived from US national land cover database	numeric	percent		NA	not available
+comment	Additional information on calculations	character				

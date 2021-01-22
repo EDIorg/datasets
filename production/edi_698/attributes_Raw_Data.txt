@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+row_id	Unique row of data within data frame	character				
+lake_id	Unique identifier for each lake consistent across all data sets	character				
+name	Name of lake	character				
+date	Date of sampling	Date		YYYY-MM-DD	NA	not available
+time	Time of sampling as local time (we do not have information in regards to daylight savings time). A time of 00:00:00 most likely indicates that the contributor did not give the time of sampling.	Date		hh:mm:ss	NA	not available
+depth	Depth of sample relative to surface 	numeric	meter		NA	not available
+temp	Temperature of water	numeric	celsius		NA	not available
+do_con	Concentration of dissolved oxygen	numeric	milligramsPerLiter		NA	not available
+meas_location	Location of sampling event	character				
+temp_flag	A flag by data contributor for any anomalies while recording temperature data	character				
+do_flag	A flag by data contributor for any anomalies while recording dissolved oxygen data	character				
+year	Year of sampling	numeric	nominalYear		NA	not available

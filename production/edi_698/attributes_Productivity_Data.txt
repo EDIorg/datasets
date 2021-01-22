@@ -1,0 +1,18 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+row_id	Unique row of data within data frame	character				
+lake_id	Unique identifier for each lake consistent across all data sets	character				
+name	Name of lake	character				
+date	Date of sampling	Date		YYYY-MM-DD		
+depth	Depth of sample relative to surface 	numeric	meter		NA	not available
+stratum	"Qualitative layer of the water column if samples were integrated across multiple depths (i.e., epilimnion)."	character				
+meas_location	Location of sampling event	character				
+tp_ugl	Total Phosphorous	numeric	microgramsPerLiter		NA	not available
+tp_flag	A flag by data contributor for any anomalies while collecting total Phosphorous data	character				
+tn_ugl	Total Nitrogen	numeric	microgramsPerLiter		NA	not available
+tn_flag	A flag by data contributor for any anomalies while collecting total Nitrogen data	character				
+doc_mgl	Dissolved Organic Carbon	numeric	milligramsPerLiter		NA	not available
+doc_flag	A flag by data contributor for any anomalies while collecting dissolved organic carbon data	character				
+chla_ugl	Chlorophyll a data	numeric	microgramsPerLiter		NA	not available
+chla_flag	A flag by data contributor for any anomalies while collecting Chlorophyll a data	character				
+comment	Additional information on lab analyses	character				
+year	Year of sampling	numeric	nominalYear		NA	not available

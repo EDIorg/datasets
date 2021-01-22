@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+row_id	Unique row of data within data frame	character				
+lake_id	Unique identifier for each lake consistent across all data sets	character				
+name	Lake Name	character				
+elevation	Elevation	numeric	meter		NA	not available
+data_source	Denotes where the elevation data came from	character				

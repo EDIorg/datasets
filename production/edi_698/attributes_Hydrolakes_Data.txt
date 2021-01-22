@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+row_id	Unique row of data within data frame	character				
+lake_id	Unique identifier for each lake consistent across all data sets	character				
+name	Lake name	character				
+hylak_id	HydroLake ID	character				
+area_km2	Surface area	numeric	squareKilometers		NA	not available
+mean_depth_m	Average depth	numeric	meter		NA	not available
+shore_len_km	Shore length	numeric	kilometer		NA	not available
+dis_avg_ms3	Average discharge	numeric	cubicMetersPerSecond		NA	not available
+res_time_days	Resident time in number of days	numeric	number		NA	not available
+elevation_m	Elevation	numeric	meter		NA	not available
+wshd_area_km2	Watershed area	numeric	squareKilometers		NA	not available

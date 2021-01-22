@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+row_id	Unique row of data within data frame	character				
+lake_id	Unique identifier for each lake consistent across all data sets	character				
+name	Name of lake	character				
+country	The country the lake is located in	character				
+state_prov	The state or province the lake is located in (if applicable).	character				
+lat	The latitude of the lake	numeric	degree		NA	not available
+long	The longitude of the lake	numeric	degree		NA	not available
+max_depth	The maximum depth of the lakes	numeric	meter		NA	not available
+surf_area	The surface area of the lake	numeric	hectare		NA	not available
+type	"The mixing regime of the lake, if provided by the contributor."	character				
+troph_status	"The trophic status of the lake, if provided by the contributor."	character				

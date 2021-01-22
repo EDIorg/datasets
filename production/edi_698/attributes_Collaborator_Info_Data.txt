@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+primary_contact	Name of data contributor	character				
+affiliation	Affiliation of data contributor	character				
+collaborator	Name of additional collaborator	character				
+position	Position of primary contact	character				
+lake_ids	List of lake ids contributed separated by comma or dash consistent across all data sets	character				
+lake_names	Lake name groupings consistent with the data provenance section of EDI	character				
+link_if_available	URL to original data source	character				
