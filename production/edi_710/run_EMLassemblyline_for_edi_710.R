@@ -7,9 +7,9 @@ library(taxonomyCleanr)
 
 # Define paths for your metadata templates, data, and EML
 
-path_templates <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_528\\metadata_templates"
-path_data <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_528\\data_objects"
-path_eml <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_528\\eml"
+path_templates <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_710\\metadata_templates"
+path_data <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_710\\data_objects"
+path_eml <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_710\\eml"
 data_tables <- c(
   "Resin_Deposition_Data_WBEA.csv",
   "Veg_CNS_Data_WBEA.csv",
@@ -76,4 +76,4 @@ EMLassemblyline::make_eml(
     "Water Chem Data"),
   user.id = "csmith",
   user.domain = "LTER", 
-  package.id = "edi.48.4")
+  package.id = "edi.710.1")

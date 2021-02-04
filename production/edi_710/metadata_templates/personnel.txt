@@ -3,6 +3,7 @@ R	Kelman	Wieder	Villanova University	kelman.wieder@villanova.edu	0000-0001-5856-
 Melanie	A	Vile	West Chester University	mvile@wcupa.edu		creator			
 Kimberli	D	Scott	Villanova University	kscott@villanova.edu		creator			
 Cara	M	Albright	Villanova University	calbri01@villanova.edu		creator			
+Dale	H	Vitt	Southern Illinois University	dvitt@siu.edu		creator			
 James	C	Quinn	Villanova University	jcqui03@gmail.com		creator			
 R	Kelman	Wieder	Villanova University	kelman.wieder@villanova.edu	0000-0001-5856-8473	contact			
 R	Kelman	Wieder	Villanova University	kelman.wieder@villanova.edu	0000-0001-5856-8473	PI	TEEM Bog Monitoring Program	Wood Buffalo Environmental Association (2009-2013)	
