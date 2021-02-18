@@ -39,11 +39,11 @@ SpCndSurface	Specific conductance of water 1-meter below water surface	numeric	m
 DOSurface	Dissolved oxygen concentration 1-meter below water surface	numeric	milligramsPerLiter		NA	Missing value code
 DOpercentSurface	Dissolved oxygen concentration 1-meter below water surface	numeric	dimensionless		NA	Missing value code
 WTSurface	Water temperature 1-meter below water surface	numeric	celsius		NA	Missing value code
-TurbiditySurface	Turbidity of water 1-meter below water surface	character	nephelometricTurbidityUnit		NA	Missing value code
+TurbiditySurface	Turbidity of water 1-meter below water surface (nephelometricTurbidityUnit or formazinNephelometricUnit)	numeric	dimensionless		NA	Missing value code
 pHSurface	Total pH 1-meter below water surface	numeric	dimensionless		NA	Missing value code
 SpCndBottom	Specific conductivity 1-meter above bottom of channel	numeric	microSeimenPerCentimeter		NA	Missing value code
 DOBottom	Dissolved oxygen concentration 1-meter above bottom of channel	numeric	milligramsPerLiter		NA	Missing value code
 DOpercentBottom	Dissolved oxygen concentration 1-meter above bottom of channel	numeric	dimensionless		NA	Missing value code
 WTBottom	Water temperature 1-meter above bottom of channel	numeric	celsius		NA	Missing value code
-TurbidityBottom	Turbidity of water 1-meter above bottom of channel	numeric	nephelometricTurbidityUnit		NA	Missing value code
+TurbidityBottom	Turbidity of water 1-meter above bottom of channel (nephelometricTurbidityUnit or formazinNephelometricUnit)	numeric	dimensionless		NA	Missing value code
 pHBottom	Total pH 1-meter above bottom of channel	numeric	dimensionless		NA	Missing value code

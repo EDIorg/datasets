@@ -15,10 +15,10 @@ eml_path <- "C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_458\\eml"
 
 # Inspect data ----------------------------------------------------------------
 
-df <- data.table::fread("C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_458\\data_objects/SACSJ_delta_water_quality_1975_2019.csv")
+df <- data.table::fread("C:\\Users\\Colin\\Documents\\EDI\\data_sets\\edi_458\\data_objects/EMP_Discrete_Water_Quality_Stations_1975-2020.csv")
 
-use_i <- is.na(as.numeric(df$DissCalcium))
-unique(df$DissCalcium[use_i])
+use_i <- is.na(as.numeric(df$Latitude))
+unique(df$Latitude[use_i])
 
 # Create metadata templates ---------------------------------------------------
 
@@ -43,13 +43,13 @@ EMLassemblyline::make_eml(
   path = path,
   data.path = data_path,
   eml.path = eml_path,
-  dataset.title = "Interagency Ecological Program: Discrete water quality monitoring in the Sacramento-San Joaquin Bay-Delta, collected by the Environmental Monitoring Program, 1975-2019.", 
-  temporal.coverage = c("2000-01-10", "2018-12-19"),
+  dataset.title = "Interagency Ecological Program: Discrete water quality monitoring in the Sacramento-San Joaquin Bay-Delta, collected by the Environmental Monitoring Program, 1975-2020.", 
+  temporal.coverage = c("1975-01-07", "2020-12-04"),
   geographic.description = "San Pablo Bay to the eastern Sacramento-San Joaquin Delta",
-  geographic.coordinates = c("38.369", "121.262", "37.678", "122.393"), 
-  maintenance.description = "Ongoing", 
-  data.table = c("SACSJ_delta_water_quality_1975_2019.csv",
-    "EMP_Discrete_Water_Quality_Stations_1975-2019.csv"),
+  geographic.coordinates = c("38.369", "-121.262", "37.678", "-122.393"), 
+  maintenance.description = "Ongoing: Updates to these data are expected", 
+  data.table = c("SACSJ_delta_water_quality_1975_2020.csv",
+    "EMP_Discrete_Water_Quality_Stations_1975-2020.csv"),
   data.table.description = c(
     "Water quality data from the California Bay-Delta watershed",
     "Sampling station coordinates"), 
@@ -58,5 +58,5 @@ EMLassemblyline::make_eml(
   other.entity.name = "Methods tables",
   other.entity.description = "Methods tables",
   user.id = c("csmith", "iep"),
-  user.domain = c("LTER", "EDI"), 
-  package.id = "edi.90.3")
+  user.domain = c("EDI", "EDI"), 
+  package.id = "edi.90.6")

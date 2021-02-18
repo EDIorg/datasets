@@ -3,6 +3,6 @@ Station	Station name	character			NA	Missing value
 StationID	"Broad water body number, light channel marker number, or reference area"	character			NA	Missing value
 Location	Descriptive name for geographic area	character			NA	Missing value
 StationType	Location of station in reference to the channel to distinguish between stations accessed by vessel (mid-channel) or vehicle (shore-based)	character			NA	Missing value
-Latitude	North latitude coordinate of the station	numeric	degree		NA	Missing value
+Latitude	North latitude coordinate of the station	character			NA	Missing value
 Longitude	West longitude coordinate of the station	numeric	degree		NA	Missing value
-Status	The status (active or inactive) of the station as of December 2019	character			NA	Missing value
+Status	The status (active or inactive) of the station as of December 2020	character			NA	Missing value
