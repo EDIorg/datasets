@@ -1,0 +1,83 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+V1	Row number	numeric	dimensionless		NA	Missing value
+uid	Unique record identifier	character			NA	Missing value
+domainID	NEON domain identifier	character			NA	Missing value
+siteID	NEON site identifier	character			NA	Missing value
+namedLocation	Name of the measurement location in the NEON database	character			NA	Missing value
+collectDate	Date of record collection	Date		MM/DD/YYYY	NA	Missing value
+identifiedDate	Date of record identification	Date		MM/DD/YYYY	NA	Missing value
+sampleID	Unique sample ID	character			NA	Missing value
+sampleCode	Identifier of the sample	character			NA	Missing value
+slideID	Identifier of the slide	character			NA	Missing value
+acceptedTaxonID	"Species code, based on one or more sources"	character			NA	Missing value
+targetTaxaPresent	Identifier whether target taxon was present	categorical			NA	Missing value
+scientificName	"Scientific name, associated with the taxonID. This is the name of the lowest level taxonomic rank that can be determined"	character			NA	Missing value
+morphospeciesID	Morphospecies identifier	character			NA	Missing value
+taxonRank	The lowest level taxonomic rank that can be determined for the individual or specimen	character			NA	Missing value
+phylum	phylum	character			NA	Missing value
+subphylum	subphylum	character			NA	Missing value
+class	class	character			NA	Missing value
+subclass	subclass	character			NA	Missing value
+infraclass	infraclass	character			NA	Missing value
+superorder	superorder	character			NA	Missing value
+order	order	character			NA	Missing value
+suborder	suborder	character			NA	Missing value
+infraorder	infraorder	character			NA	Missing value
+superfamily	superfamily	character			NA	Missing value
+family	family	character			NA	Missing value
+subfamily	subfamily	character			NA	Missing value
+tribe	tribe	character			NA	Missing value
+subtribe	subtribe	character			NA	Missing value
+genus	genus	character			NA	Missing value
+specificEpithet	"Epithet of species if id’ed to species, if not id’ed to species designated as sp."	character			NA	Missing value
+infraspecificEpithet	Epithet of subspecies if id’ed to subsepcies	character			NA	Missing value
+invertebrateLifeStage	Life stage of recorded individual	categorical			NA	Missing value
+sizeClass	Indicator of size class the specimen belongs to	numeric	dimensionless		NA	Missing value
+individualCount	Number of individuals caught	numeric	number		NA	Missing value
+subsamplePercent	Percentage based on which individualCount was determined	numeric	percent		NA	Missing value
+estimatedTotalCount	Estimated number of individuals caught based on individualCount and subsamplePercent	numeric	number		NA	Missing value
+immatureSpecimen	Indicator of whether specimen is immature	categorical			NA	Missing value
+indeterminateSpecies	Indicator of whether specimen can be determined 	categorical			NA	Missing value
+sampleCondition	Condition of the sample	character			NA	Missing value
+distinctTaxon	Indicator of whether specimen is a distinct taxon	categorical			NA	Missing value
+identificationQualifier	"A string noting uncertainty in the record identification. Code explanation: cf. (species, genus) - Roughly equals but 'not sure' about the (species, genus); aff. (species, genus) - Similar to, but is not the (species, genus)"	character			NA	Missing value
+identificationReferences	Reference used for specimen identification	character			NA	Missing value
+qcChecked	Indicator of whether there was a quality control 	character			NA	Missing value
+laboratoryName	Lab name where the specimen was sent	character			NA	Missing value
+identifiedBy	Name of person identifying the specimen 	character			NA	Missing value
+identificationRemarks	Additional identification remarks 	character			NA	Missing value
+dataQF	A quality flag for known errors applying to the record. Code explanation: dataLegacy - data recorded using a paper?based workflow that did not implement the full suite of quality control features associated with the interactive digital workflow	character			NA	Missing value
+publicationDate	Date of publication	character			NA	Missing value
+decimalLatitude	Latitude of the point of sampling	numeric	degree		NA	Missing value
+decimalLongitude	Longitude of the point of sampling	numeric	degree		NA	Missing value
+coordinateUncertainty	Uncertainty around coordinate measurement	numeric	meter		NA	Missing value
+geodeticDatum	Datum	character			NA	Missing value
+elevation	Elevation of the point of sampling	numeric	meter		NA	Missing value
+elevationUncertainty	Uncertainty around elevation measurement	numeric	meter		NA	Missing value
+aquaticSiteType	"Indicator whether site is stream, river, or pond"	character			NA	Missing value
+eventID	"An identifier for the set of information associated with the sampling event, which includes information about the location, sampling method, date, and time of the event"	character			NA	Missing value
+geneticSampleID	Identifier of the genetic sample	character			NA	Missing value
+geneticSampleCode	Identifier of the genetic sample	character			NA	Missing value
+samplingProtocolVersion	Version of the sampling protocol used	character			NA	Missing value
+samplingImpractical	Indicator of whether sampling was impractical	character			NA	Missing value
+biophysicalCriteria	Indicator of the biophysical criteria	character			NA	Missing value
+habitatType	Type of habitat	character			NA	Missing value
+samplerType	Type of sampler	character			NA	Missing value
+substratumSizeClass	Size class of substratum	character			NA	Missing value
+benthicArea	Area 	numeric	meterSquared		NA	Missing value
+ponarDepth	Depth of ponar (meter)	character			NA	Missing value
+snagLength	Length of snag	numeric	meter		NA	Missing value
+snagDiameter	Diameter of snag	numeric	meter		NA	Missing value
+dnaSnagLength	Length of snag for DNA sampling	numeric	meter		NA	Missing value
+dnaSnagDiameter	Diameter of snag for DNA sampling	numeric	meter		NA	Missing value
+remarks	Any additional remarks	character			NA	Missing value
+recordedBy	Name of technician recording the data	character			NA	Missing value
+collectedBy	Name of technician collecting the data	character			NA	Missing value
+den	Additional remarks	character			NA	Missing value
+taxonRank_ordered	The lowest level taxonomic rank that can be determined for the individual or specimen	character			NA	Missing value
+year	Year of sampling	character			NA	Missing value
+month	Month of sampling	character			NA	Missing value
+siteyear	Unique site-year combination	character			NA	Missing value
+bout	ID of bout	character			NA	Missing value
+lat	Mean latitude of the site	numeric	degree		NA	Missing value
+lon	Mean longitude of the site	numeric	degree		NA	Missing value

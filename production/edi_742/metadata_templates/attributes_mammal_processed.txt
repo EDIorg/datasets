@@ -1,0 +1,32 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+V1	Row number	numeric	dimensionless		NA	Missing value
+domainID	NEON domain identifier	character			NA	Missing value
+siteID	NEON site identifier	character			NA	Missing value
+plotID	NEON plot identifier	character			NA	Missing value
+namedLocation	Name of the measurement location in the NEON database	character			NA	Missing value
+nlcdClass	Land cover class as given by USGS NLCD	character			NA	Missing value
+decimalLatitude	Latitude of the point of sampling	numeric	degree		NA	Missing value
+decimalLongitude	Longitude of the point of sampling	numeric	degree		NA	Missing value
+geodeticDatum	Datum	character			NA	Missing value
+coordinateUncertainty	Uncertainty around coordinate measurement	numeric	meter		NA	Missing value
+elevation	Elevation of the point of sampling	numeric	meter		NA	Missing value
+elevationUncertainty	Uncertainty around elevation measurement	numeric	meter		NA	Missing value
+trapCoordinate	"Identifier of a trap within a NEON plot, designated by a unique letter and number combination (e.g., A1, G10)"	character			NA	Missing value
+trapStatus	Status of trap (only 4 and 5 were retained)	categorical			NA	Missing value
+year	Year of sampling	character			NA	Missing value
+month	Month of sampling	character			NA	Missing value
+day	Day of sampling	character			NA	Missing value
+bout	Sampling bout identifier	character			NA	Missing value
+taxonID	"Species code, based on one or more sources"	character			NA	Missing value
+scientificName	"Scientific name, associated with the taxonID. This is the name of the lowest level taxonomic rank that can be determined"	character			NA	Missing value
+taxonRank	The lowest level taxonomic rank that can be determined for the individual or specimen	character			NA	Missing value
+identificationReferences	Reference used to identify the individual	character			NA	Missing value
+nativeStatusCode	Whether the individual is of a native or non-native species	character			NA	Missing value
+sex	Whether the individual is female or male	categorical			NA	Missing value
+lifeStage	Life stage of the individual	categorical			NA	Missing value
+pregnancyStatus	Whether the individual is pregnant or not 	categorical			NA	Missing value
+tailLength	Length of tail	numeric	millimeter		NA	Missing value
+totalLength	Total body length	numeric	millimeter		NA	Missing value
+weight	Weight of the individual	numeric	gram		NA	Missing value
+lat	Mean latitude of the site	numeric	degree		NA	Missing value
+lon	Mean longitude of the site	numeric	degree		NA	Missing value

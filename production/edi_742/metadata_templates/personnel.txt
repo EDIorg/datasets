@@ -1,0 +1,14 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Marta	A	Jarzyna	The Ohio State University	jarzyna.1@osu.edu  	https://orcid.org/0000-0002-6734-0566 	creator			
+Kari	EA	Norman	University of California Berkeley	kari.norman@berkeley.edu 		creator			
+Jalene	M	LaMontagne	DePaul University	jlamont1@depaul.edu 		creator			
+Matthew	R	Helmus	Temple University	mrhelmus@temple.edu 		creator			
+Daijiang		Li	Louisiana State University	daijianglee@gmail.com 		creator			
+Stephanie 	M	Parker	"National Ecological Observatory Network, Battelle Memorial Institute"	sparker@battelleecology.org 		creator			
+Mariana		Perez Rocha	"CAPES Foundation, Ministry of Education, Brazil"	mperezrocha@gmail.com 		creator			
+Sydne		Record	Bryn Mawr	srecord@brynmawr.edu 		creator			
+Eric	R	Sokol	"National Ecological Observatory Network, Battelle Memorial Institute"	esokol@battelleecology.org 		creator			
+Phoebe		Zarnetske	Michigan State University	plz@msu.edu 		creator			
+Thilina	D	Surasinghe	Bridgewater State University	tsurasinghe@bridgew.edu 		creator			
+Marta	A	Jarzyna	The Ohio State University	jarzyna.1@osu.edu  	https://orcid.org/0000-0002-6734-0566 	contact			
+Marta	A	Jarzyna	The Ohio State University	jarzyna.1@osu.edu  	https://orcid.org/0000-0002-6734-0566 	PI	MSA: Spatio-temporal scaling of avian diversity change	National Science Foundation	NSF DEB 1926598

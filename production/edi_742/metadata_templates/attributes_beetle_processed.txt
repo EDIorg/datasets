@@ -1,0 +1,26 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+V1	Row number	numeric	dimensionless		NA	Missing value
+sampleID	ID of the sample taken	character			NA	Missing value
+namedLocation	Name of the measurement location in the NEON database	character			NA	Missing value
+domainID	NEON domain identifier	character			NA	Missing value
+boutID	Bout identifier	character			NA	Missing value
+siteID	NEON site identifier	character			NA	Missing value
+plotID	NEON plot identifier	character			NA	Missing value
+trapID	Trap identifier	character			NA	Missing value
+collectDate	Date of collection	Date		MM/DD/YYYY	NA	Missing value
+trappingDays	Duration of trapping	numeric	dimensionless		NA	Missing value
+taxonID	"Species code, based on one or more sources"	character			NA	Missing value
+taxonRank	The lowest level taxonomic rank that can be determined for the individual or specimen	character			NA	Missing value
+scientificName	"Scientific name, associated with the taxonID. This is the name of the lowest level taxonomic rank that can be determined"	character			NA	Missing value
+count	How many individuals caught	numeric	number		NA	Missing value
+year	Year of sampling	character			NA	Missing value
+plotType	Type of plot 	character			NA	Missing value
+nlcdClass	Land cover class as given by USGS NLCD	character			NA	Missing value
+decimalLatitude	Latitude of the point of sampling	numeric	degree		NA	Missing value
+decimalLongitude	Longitude of the point of sampling	numeric	degree		NA	Missing value
+geodeticDatum	Datum	character			NA	Missing value
+coordinateUncertainty	Uncertainty around coordinate measurement	numeric	meter		NA	Missing value
+elevation	Elevation of the point of sampling	numeric	meter		NA	Missing value
+elevationUncertainty	Uncertainty around elevation measurement	numeric	meter		NA	Missing value
+lat	Mean latitude of the site	numeric	degree		NA	Missing value
+lon	Mean longitude of the site	numeric	degree		NA	Missing value

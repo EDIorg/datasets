@@ -1,0 +1,1182 @@
+name	name_type	name_resolved	authority_system	authority_id
+Pterostichus rostratus	scientific	Pterostichus rostratus	NA	NA
+Cymindis neglecta	scientific	Cymindis neglecta	NA	NA
+Pterostichus tristis	scientific	Pterostichus tristis	NA	NA
+Synuchus impunctatus	scientific	Synuchus impunctatus	NA	NA
+Pterostichus coracinus	scientific	Pterostichus coracinus	NA	NA
+Pterostichus pensylvanicus	scientific	Pterostichus pensylvanicus	NA	NA
+Cymindis cribricollis	scientific	Cymindis cribricollis	NA	NA
+Pterostichus adoxus	scientific	Pterostichus adoxus	NA	NA
+Chlaenius emarginatus	scientific	Chlaenius emarginatus	NA	NA
+Sphaeroderus stenostomus	scientific	Sphaeroderus stenostomus	NA	NA
+Pterostichus lachrymosus	scientific	Pterostichus lachrymosus	NA	NA
+Sphaeroderus canadensis	scientific	Sphaeroderus canadensis	NA	NA
+Notiophilus aeneus	scientific	Notiophilus aeneus	NA	NA
+Agonum retractum	scientific	Agonum retractum	NA	NA
+Trechus apicalis	scientific	Trechus apicalis	NA	NA
+Myas cyanescens	scientific	Myas cyanescens	NA	NA
+Cymindis limbata	scientific	Cymindis limbata	NA	NA
+Scaphinotus viduus	scientific	Scaphinotus viduus	NA	NA
+Pterostichus adstrictus	scientific	Pterostichus adstrictus	NA	NA
+Calathus ingratus	scientific	Calathus ingratus	NA	NA
+Gastrellarius honestus	scientific	Gastrellarius honestus	NA	NA
+Dicaelus politus	scientific	Dicaelus politus	NA	NA
+Platynus decentis	scientific	Platynus decentis	NA	NA
+Agonum mutatum	scientific	Agonum mutatum	NA	NA
+Cymindis platicollis	scientific	Cymindis platicollis	NA	NA
+Chlaenius aestivus	scientific	Chlaenius aestivus	NA	NA
+Pterostichus mutus	scientific	Pterostichus mutus	NA	NA
+Cyclotrachelus furtivus	scientific	Cyclotrachelus furtivus	NA	NA
+Calathus gregarius	scientific	Calathus gregarius	NA	NA
+Pterostichus permundus	scientific	Pterostichus permundus	NA	NA
+Pterostichus trinarius	scientific	Pterostichus trinarius	NA	NA
+Anisodactylus agricola	scientific	Anisodactylus agricola	NA	NA
+Dicaelus elongatus	scientific	Dicaelus elongatus	NA	NA
+Pterostichus stygicus	scientific	Pterostichus stygicus	NA	NA
+Trichotichnus fulgens	scientific	Trichotichnus fulgens	NA	NA
+Cyclotrachelus sigillatus	scientific	Cyclotrachelus sigillatus	NA	NA
+Poecilus lucublandus	scientific	Poecilus lucublandus	NA	NA
+Amara crassispina	scientific	Amara crassispina	NA	NA
+Harpalus pensylvanicus	scientific	Harpalus pensylvanicus	NA	NA
+Galerita bicolor	scientific	Galerita bicolor	NA	NA
+Bembidion pedicellatum	scientific	Bembidion pedicellatum	NA	NA
+Cicindela sexguttata	scientific	Cicindela sexguttata	NA	NA
+Trechus quadristriatus	scientific	Trechus quadristriatus	NA	NA
+Anisodactylus merula	scientific	Anisodactylus merula	NA	NA
+Notiophilus semistriatus	scientific	Notiophilus semistriatus	NA	NA
+Scarites subterraneus	scientific	Scarites subterraneus	NA	NA
+Harpalus vagans	scientific	Harpalus vagans	NA	NA
+Harpalus compar	scientific	Harpalus compar	NA	NA
+Anisodactylus ovularis	scientific	Anisodactylus ovularis	NA	NA
+Anisodactylus dulcicollis	scientific	Anisodactylus dulcicollis	NA	NA
+Anisodactylus rusticus	scientific	Anisodactylus rusticus	NA	NA
+Chlaenius tomentosus	scientific	Chlaenius tomentosus	NA	NA
+Harpalus caliginosus	scientific	Harpalus caliginosus	NA	NA
+Harpalus rubripes	scientific	Harpalus rubripes	NA	NA
+Tetracha virginica	scientific	Tetracha virginica	NA	NA
+Dyschirius globulosus	scientific	Dyschirius globulosus	NA	NA
+Agonoleptus conjunctus	scientific	Agonoleptus conjunctus	NA	NA
+Amara aenea	scientific	Amara aenea	NA	NA
+Harpalus faunus	scientific	Harpalus faunus	NA	NA
+Agonoleptus rotundatus	scientific	Agonoleptus rotundatus	NA	NA
+Harpalus erythropus	scientific	Harpalus erythropus	NA	NA
+Scarites vicinus	scientific	Scarites vicinus	NA	NA
+Chlaenius laticollis	scientific	Chlaenius laticollis	NA	NA
+Tachys potomaca	scientific	Tachys potomaca	NA	NA
+Paraclivina bipustulata	scientific	Paraclivina bipustulata	NA	NA
+Chlaenius sericeus	scientific	Chlaenius sericeus	NA	NA
+Harpalus herbivagus	scientific	Harpalus herbivagus	NA	NA
+Chlaenius impunctifrons	scientific	Chlaenius impunctifrons	NA	NA
+Agonum punctiforme	scientific	Agonum punctiforme	NA	NA
+Amphasia interstitialis	scientific	Amphasia interstitialis	NA	NA
+Amara lunicollis	scientific	Amara lunicollis	NA	NA
+Anisodactylus caenus	scientific	Anisodactylus caenus	NA	NA
+Anisodactylus nigerrimus	scientific	Anisodactylus nigerrimus	NA	NA
+Calathus opaculus	scientific	Calathus opaculus	NA	NA
+Harpalus somnulentus	scientific	Harpalus somnulentus	NA	NA
+Brachinus fumans	scientific	Brachinus fumans	NA	NA
+Badister notatus	scientific	Badister notatus	NA	NA
+Poecilus chalcites	scientific	Poecilus chalcites	NA	NA
+Agonoleptus thoracicus	scientific	Agonoleptus thoracicus	NA	NA
+Agonum ferreum	scientific	Agonum ferreum	NA	NA
+Elaphropus vernicatus	scientific	Elaphropus vernicatus	NA	NA
+Stenolophus plebejus	scientific	Stenolophus plebejus	NA	NA
+Bradycellus tantillus	scientific	Bradycellus tantillus	NA	NA
+Stenolophus ochropezus	scientific	Stenolophus ochropezus	NA	NA
+Elaphropus granarius	scientific	Elaphropus granarius	NA	NA
+Dicaelus ambiguus	scientific	Dicaelus ambiguus	NA	NA
+Myas coracinus	scientific	Myas coracinus	NA	NA
+Chlaenius amoenus	scientific	Chlaenius amoenus	NA	NA
+Harpalus providens	scientific	Harpalus providens	NA	NA
+Cyclotrachelus approximatus	scientific	Cyclotrachelus approximatus	NA	NA
+Trichotichnus autumnalis	scientific	Trichotichnus autumnalis	NA	NA
+Amara littoralis	scientific	Amara littoralis	NA	NA
+Trichotichnus vulpeculus	scientific	Trichotichnus vulpeculus	NA	NA
+Tachys pumilus	scientific	Tachys pumilus	NA	NA
+Dicaelus furvus	scientific	Dicaelus furvus	NA	NA
+Amara impuncticollis	scientific	Amara impuncticollis	NA	NA
+Lebia pulchella	scientific	Lebia pulchella	NA	NA
+Notiophilus novemstriatus	scientific	Notiophilus novemstriatus	NA	NA
+Lebia viridis	scientific	Lebia viridis	NA	NA
+Notiobia terminata	scientific	Notiobia terminata	NA	NA
+Selenophorus ellipticus	scientific	Selenophorus ellipticus	NA	NA
+Acupalpus testaceus	scientific	Acupalpus testaceus	NA	NA
+Harpalus katiae	scientific	Harpalus katiae	NA	NA
+Selenophorus granarius	scientific	Selenophorus granarius	NA	NA
+Selenophorus pedicularius	scientific	Selenophorus pedicularius	NA	NA
+Selenophorus opalinus	scientific	Selenophorus opalinus	NA	NA
+Anisodactylus haplomus	scientific	Anisodactylus haplomus	NA	NA
+Harpalus plenalis	scientific	Harpalus plenalis	NA	NA
+Apenes sinuata	scientific	Apenes sinuata	NA	NA
+Discoderus impotens	scientific	Discoderus impotens	NA	NA
+Anisodactylus opaculus	scientific	Anisodactylus opaculus	NA	NA
+Cyclotrachelus substriatus	scientific	Cyclotrachelus substriatus	NA	NA
+Olisthopus parmatus	scientific	Olisthopus parmatus	NA	NA
+Aspidoglossa subangulata	scientific	Aspidoglossa subangulata	NA	NA
+Stenolophus dissimilis	scientific	Stenolophus dissimilis	NA	NA
+Helluomorphoides texanus	scientific	Helluomorphoides texanus	NA	NA
+Cratacanthus dubius	scientific	Cratacanthus dubius	NA	NA
+Harpalus paratus	scientific	Harpalus paratus	NA	NA
+Harpalus erraticus	scientific	Harpalus erraticus	NA	NA
+Tetracha carolina	scientific	Tetracha carolina	NA	NA
+Tetragonoderus intersectus	scientific	Tetragonoderus intersectus	NA	NA
+Amblygnathus mexicanus	scientific	Amblygnathus mexicanus	NA	NA
+Stenolophus carbo	scientific	Stenolophus carbo	NA	NA
+Harpalus protractus	scientific	Harpalus protractus	NA	NA
+Calosoma scrutator	scientific	Calosoma scrutator	NA	NA
+Micrixys distincta	scientific	Micrixys distincta	NA	NA
+Calosoma wilcoxi	scientific	Calosoma wilcoxi	NA	NA
+Chlaenius pusillus	scientific	Chlaenius pusillus	NA	NA
+Dicaelus crenatus	scientific	Dicaelus crenatus	NA	NA
+Harpalus ellipsis	scientific	Harpalus ellipsis	NA	NA
+Pasimachus elongatus	scientific	Pasimachus elongatus	NA	NA
+Amara farcta	scientific	Amara farcta	NA	NA
+Discoderus parallelus	scientific	Discoderus parallelus	NA	NA
+Selenophorus planipennis	scientific	Selenophorus planipennis	NA	NA
+Piosoma setosum	scientific	Piosoma setosum	NA	NA
+Cyclotrachelus torvus	scientific	Cyclotrachelus torvus	NA	NA
+Cymindis planipennis	scientific	Cymindis planipennis	NA	NA
+Dyschirius tenuispinus	scientific	Dyschirius tenuispinus	NA	NA
+Axinopalpus biplagiatus	scientific	Axinopalpus biplagiatus	NA	NA
+Cicindela punctulata	scientific	Cicindela punctulata	NA	NA
+Cyclotrachelus constrictus	scientific	Cyclotrachelus constrictus	NA	NA
+Harpalus desertus	scientific	Harpalus desertus	NA	NA
+Euryderus grossus	scientific	Euryderus grossus	NA	NA
+Amara convexa	scientific	Amara convexa	NA	NA
+Dyschirius planatus	scientific	Dyschirius planatus	NA	NA
+Philophuga caerulea	scientific	Philophuga caerulea	NA	NA
+Amara musculis	scientific	Amara musculis	NA	NA
+Cymindis pilosa	scientific	Cymindis pilosa	NA	NA
+Anisodactylus carbonarius	scientific	Anisodactylus carbonarius	NA	NA
+Bembidion nitidum	scientific	Bembidion nitidum	NA	NA
+Harpalus reversus	scientific	Harpalus reversus	NA	NA
+Cymindis interior	scientific	Cymindis interior	NA	NA
+Amara harpalina	scientific	Amara harpalina	NA	NA
+Helluomorphoides praeustus	scientific	Helluomorphoides praeustus	NA	NA
+Amara apricaria	scientific	Amara apricaria	NA	NA
+Diplocheila obtusa	scientific	Diplocheila obtusa	NA	NA
+Amara quenseli	scientific	Amara quenseli	NA	NA
+Amara confusa	scientific	Amara confusa	NA	NA
+Bembidion rapidum	scientific	Bembidion rapidum	NA	NA
+Chlaenius pennsylvanicus	scientific	Chlaenius pennsylvanicus	NA	NA
+Cicindela purpurea	scientific	Cicindela purpurea	NA	NA
+Harpalus fraternus	scientific	Harpalus fraternus	NA	NA
+Amara coelebs	scientific	Amara coelebs	NA	NA
+Microlestes linearis	scientific	Microlestes linearis	NA	NA
+Calosoma affine	scientific	Calosoma affine	NA	NA
+Acupalpus partiarius	scientific	Acupalpus partiarius	NA	NA
+Amara obesa	scientific	Amara obesa	NA	NA
+Chlaenius nemoralis	scientific	Chlaenius nemoralis	NA	NA
+Lebia vittata	scientific	Lebia vittata	NA	NA
+Pterostichus melanarius	scientific	Pterostichus melanarius	NA	NA
+Poecilus scitulus	scientific	Poecilus scitulus	NA	NA
+Calosoma peregrinator	scientific	Calosoma peregrinator	NA	NA
+Harpalus fuscipalpis	scientific	Harpalus fuscipalpis	NA	NA
+Harpalus nigritarsis	scientific	Harpalus nigritarsis	NA	NA
+Rhadine lindrothi	scientific	Rhadine lindrothi	NA	NA
+Pterostichus atratus	scientific	Pterostichus atratus	NA	NA
+Chlaenius erythropus	scientific	Chlaenius erythropus	NA	NA
+Chlaenius prasinus	scientific	Chlaenius prasinus	NA	NA
+Brachinus alternans	scientific	Brachinus alternans	NA	NA
+Cyclotrachelus convivus	scientific	Cyclotrachelus convivus	NA	NA
+Clivina planicollis	scientific	Clivina planicollis	NA	NA
+Cylindera cursitans	scientific	Cylindera cursitans	NA	NA
+Dicaelus sculptilis	scientific	Dicaelus sculptilis	NA	NA
+Pterostichus ophryoderus	scientific	Pterostichus ophryoderus	NA	NA
+Clinidium baldufi	scientific	Clinidium baldufi	NA	NA
+Polyderis laeva	scientific	Polyderis laeva	NA	NA
+Semiardistomis puncticollis	scientific	Semiardistomis puncticollis	NA	NA
+Lophoglossus haldemanni	scientific	Lophoglossus haldemanni	NA	NA
+Loxandrus cincinnati	scientific	Loxandrus cincinnati	NA	NA
+Loxandrus erraticus	scientific	Loxandrus erraticus	NA	NA
+Chlaenius oxygonus	scientific	Chlaenius oxygonus	NA	NA
+Scarites quadriceps	scientific	Scarites quadriceps	NA	NA
+Dyschirius pilosus	scientific	Dyschirius pilosus	NA	NA
+Agonum striatopunctatum	scientific	Agonum striatopunctatum	NA	NA
+Elaphropus saturatus	scientific	Elaphropus saturatus	NA	NA
+Loxandrus rectus	scientific	Loxandrus rectus	NA	NA
+Agonum sulcipenne	scientific	Agonum sulcipenne	NA	NA
+Diplocheila crossi	scientific	Diplocheila crossi	NA	NA
+Elaphropus xanthopus	scientific	Elaphropus xanthopus	NA	NA
+Brachinus americanus	scientific	Brachinus americanus	NA	NA
+Tachys oblitus	scientific	Tachys oblitus	NA	NA
+Paraclivina ferrea	scientific	Paraclivina ferrea	NA	NA
+Amara familiaris	scientific	Amara familiaris	NA	NA
+Cylindera unipunctata	scientific	Cylindera unipunctata	NA	NA
+Loxandrus vulneratus	scientific	Loxandrus vulneratus	NA	NA
+Brachinus perplexus	scientific	Brachinus perplexus	NA	NA
+Oodes brevis	scientific	Oodes brevis	NA	NA
+Pasimachus sublaevis	scientific	Pasimachus sublaevis	NA	NA
+Scarites ocalensis	scientific	Scarites ocalensis	NA	NA
+Selenophorus fossulatus	scientific	Selenophorus fossulatus	NA	NA
+Cyclotrachelus faber	scientific	Cyclotrachelus faber	NA	NA
+Pasimachus strenuus	scientific	Pasimachus strenuus	NA	NA
+Paraclivina sulcipennis	scientific	Paraclivina sulcipennis	NA	NA
+Tachys columbiensis	scientific	Tachys columbiensis	NA	NA
+Anisodactylus harpaloides	scientific	Anisodactylus harpaloides	NA	NA
+Pasimachus subsulcatus	scientific	Pasimachus subsulcatus	NA	NA
+Loxandrus crenatus	scientific	Loxandrus crenatus	NA	NA
+Cyclotrachelus dejeanellus	scientific	Cyclotrachelus dejeanellus	NA	NA
+Stenocrepis mexicana	scientific	Stenocrepis mexicana	NA	NA
+Lophoglossus tartaricus	scientific	Lophoglossus tartaricus	NA	NA
+Paraclivina striatopunctata	scientific	Paraclivina striatopunctata	NA	NA
+Tetragonoderus laevigatus	scientific	Tetragonoderus laevigatus	NA	NA
+Semiardistomis viridis	scientific	Semiardistomis viridis	NA	NA
+Tachys pulchellus	scientific	Tachys pulchellus	NA	NA
+Selenophorus maritimus	scientific	Selenophorus maritimus	NA	NA
+Dicaelus alternans	scientific	Dicaelus alternans	NA	NA
+Anisodactylus furvus	scientific	Anisodactylus furvus	NA	NA
+Carabus goryi	scientific	Carabus goryi	NA	NA
+Dicaelus teter	scientific	Dicaelus teter	NA	NA
+Sphaeroderus bicarinatus	scientific	Sphaeroderus bicarinatus	NA	NA
+Pasimachus punctulatus	scientific	Pasimachus punctulatus	NA	NA
+Cyclotrachelus freitagi	scientific	Cyclotrachelus freitagi	NA	NA
+Pterostichus acutipes	scientific	Pterostichus acutipes	NA	NA
+Cyclotrachelus fucatus	scientific	Cyclotrachelus fucatus	NA	NA
+Dicaelus dilatatus	scientific	Dicaelus dilatatus	NA	NA
+Piesmus submarginatus	scientific	Piesmus submarginatus	NA	NA
+Pterostichus moestus	scientific	Pterostichus moestus	NA	NA
+Apenes lucidula	scientific	Apenes lucidula	NA	NA
+Scaphinotus andrewsii	scientific	Scaphinotus andrewsii	NA	NA
+Anillinus langdoni	scientific	Anillinus langdoni	NA	NA
+Scaphinotus guyotii	scientific	Scaphinotus guyotii	NA	NA
+Scaphinotus hubbardi	scientific	Scaphinotus hubbardi	NA	NA
+Harpalus spadiceus	scientific	Harpalus spadiceus	NA	NA
+Gastrellarius blanchardi	scientific	Gastrellarius blanchardi	NA	NA
+Gastrellarius unicarum	scientific	Gastrellarius unicarum	NA	NA
+Agonoleptus rotundicollis	scientific	Agonoleptus rotundicollis	NA	NA
+Notiobia nitidipennis	scientific	Notiobia nitidipennis	NA	NA
+Pasimachus depressus	scientific	Pasimachus depressus	NA	NA
+Harpalus gravis	scientific	Harpalus gravis	NA	NA
+Acupalpus hydropicus	scientific	Acupalpus hydropicus	NA	NA
+Carabus serratus	scientific	Carabus serratus	NA	NA
+Syntomus americanus	scientific	Syntomus americanus	NA	NA
+Calosoma frigidum	scientific	Calosoma frigidum	NA	NA
+Cymindis americana	scientific	Cymindis americana	NA	NA
+Cyclotrachelus laevipennis	scientific	Cyclotrachelus laevipennis	NA	NA
+Cyclotrachelus ovulum	scientific	Cyclotrachelus ovulum	NA	NA
+Helluomorphoides nigripennis	scientific	Helluomorphoides nigripennis	NA	NA
+Dyschirius abbreviatus	scientific	Dyschirius abbreviatus	NA	NA
+Selenophorus discopunctatus	scientific	Selenophorus discopunctatus	NA	NA
+Selenophorus palliatus	scientific	Selenophorus palliatus	NA	NA
+Cicindela rufiventris	scientific	Cicindela rufiventris	NA	NA
+Selenophorus fatuus	scientific	Selenophorus fatuus	NA	NA
+Galerita janus	scientific	Galerita janus	NA	NA
+Trichotichnus dichrous	scientific	Trichotichnus dichrous	NA	NA
+Tetracha floridana	scientific	Tetracha floridana	NA	NA
+Pasimachus marginatus	scientific	Pasimachus marginatus	NA	NA
+Harpalus obliquus	scientific	Harpalus obliquus	NA	NA
+Tetragonoderus pallidus	scientific	Tetragonoderus pallidus	NA	NA
+Cymindis punctigera	scientific	Cymindis punctigera	NA	NA
+Helluomorphoides ferrugineus	scientific	Helluomorphoides ferrugineus	NA	NA
+Discoderus robustus	scientific	Discoderus robustus	NA	NA
+Selenophorus aeneopiceus	scientific	Selenophorus aeneopiceus	NA	NA
+Pasimachus obsoletus	scientific	Pasimachus obsoletus	NA	NA
+Pasimachus californicus	scientific	Pasimachus californicus	NA	NA
+Cylindera lemniscata	scientific	Cylindera lemniscata	NA	NA
+Poecilus cyanicolor	scientific	Poecilus cyanicolor	NA	NA
+Discoderus cordicollis	scientific	Discoderus cordicollis	NA	NA
+Agonum cyclifer	scientific	Agonum cyclifer	NA	NA
+Selenophorus concinnus	scientific	Selenophorus concinnus	NA	NA
+Lebia subgrandis	scientific	Lebia subgrandis	NA	NA
+Cyclotrachelus alternans	scientific	Cyclotrachelus alternans	NA	NA
+Pterostichus sculptus	scientific	Pterostichus sculptus	NA	NA
+Carabus sylvosus	scientific	Carabus sylvosus	NA	NA
+Cyclotrachelus sodalis	scientific	Cyclotrachelus sodalis	NA	NA
+Amara pennsylvanica	scientific	Amara pennsylvanica	NA	NA
+Amara rubrica	scientific	Amara rubrica	NA	NA
+Cyclotrachelus deceptus	scientific	Cyclotrachelus deceptus	NA	NA
+Colliuris pensylvanica	scientific	Colliuris pensylvanica	NA	NA
+Pentagonica picticornis	scientific	Pentagonica picticornis	NA	NA
+Calosoma externum	scientific	Calosoma externum	NA	NA
+Zuphium americanum	scientific	Zuphium americanum	NA	NA
+Pterostichus ventralis	scientific	Pterostichus ventralis	NA	NA
+Dromochorus pruininus	scientific	Dromochorus pruininus	NA	NA
+Galerita atripes	scientific	Galerita atripes	NA	NA
+Cyclotrachelus hypherpiformis	scientific	Cyclotrachelus hypherpiformis	NA	NA
+Cyclotrachelus brevoorti	scientific	Cyclotrachelus brevoorti	NA	NA
+Anisodactylus verticalis	scientific	Anisodactylus verticalis	NA	NA
+Clivina rubicunda	scientific	Clivina rubicunda	NA	NA
+Clivina dentipes	scientific	Clivina dentipes	NA	NA
+Calleida viridipennis	scientific	Calleida viridipennis	NA	NA
+Harpalus cordatus	scientific	Harpalus cordatus	NA	NA
+Calosoma marginale	scientific	Calosoma marginale	NA	NA
+Cicindela pulchra	scientific	Cicindela pulchra	NA	NA
+Cymindis arizonensis	scientific	Cymindis arizonensis	NA	NA
+Pseudomorpha castanea	scientific	Pseudomorpha castanea	NA	NA
+Harpalus retractus	scientific	Harpalus retractus	NA	NA
+Calathus advena	scientific	Calathus advena	NA	NA
+Notiophilus directus	scientific	Notiophilus directus	NA	NA
+Pterostichus restrictus	scientific	Pterostichus restrictus	NA	NA
+Cymindis unicolor	scientific	Cymindis unicolor	NA	NA
+Amara lindrothi	scientific	Amara lindrothi	NA	NA
+Carabus taedatus	scientific	Carabus taedatus	NA	NA
+Agonum placidum	scientific	Agonum placidum	NA	NA
+Amara alpina	scientific	Amara alpina	NA	NA
+Amara discors	scientific	Amara discors	NA	NA
+Harpalus animosus	scientific	Harpalus animosus	NA	NA
+Nebria trifaria	scientific	Nebria trifaria	NA	NA
+Dicheirotrichus mannerheimii	scientific	Dicheirotrichus mannerheimii	NA	NA
+Cicindela longilabris	scientific	Cicindela longilabris	NA	NA
+Notiophilus aquaticus	scientific	Notiophilus aquaticus	NA	NA
+Bembidion ampliatum	scientific	Bembidion ampliatum	NA	NA
+Calosoma calidum	scientific	Calosoma calidum	NA	NA
+Harpalus indigens	scientific	Harpalus indigens	NA	NA
+Bradycellus congener	scientific	Bradycellus congener	NA	NA
+Harpalus ventralis	scientific	Harpalus ventralis	NA	NA
+Harpalus opacipennis	scientific	Harpalus opacipennis	NA	NA
+Harpalus lewisii	scientific	Harpalus lewisii	NA	NA
+Amara carinata	scientific	Amara carinata	NA	NA
+Chlaenius platyderus	scientific	Chlaenius platyderus	NA	NA
+Stenolophus comma	scientific	Stenolophus comma	NA	NA
+Pterostichus femoralis	scientific	Pterostichus femoralis	NA	NA
+Chlaenius purpuricollis	scientific	Chlaenius purpuricollis	NA	NA
+Panagaeus fasciatus	scientific	Panagaeus fasciatus	NA	NA
+Brachinus cyanochroaticus	scientific	Brachinus cyanochroaticus	NA	NA
+Amara tenax	scientific	Amara tenax	NA	NA
+Bembidion praticola	scientific	Bembidion praticola	NA	NA
+Agonum cupreum	scientific	Agonum cupreum	NA	NA
+Stenolophus fuliginosus	scientific	Stenolophus fuliginosus	NA	NA
+Agonum extensicolle	scientific	Agonum extensicolle	NA	NA
+Brachinus cyanipennis	scientific	Brachinus cyanipennis	NA	NA
+Anisodactylus harrisii	scientific	Anisodactylus harrisii	NA	NA
+Diplocheila oregona	scientific	Diplocheila oregona	NA	NA
+Brachinus medius	scientific	Brachinus medius	NA	NA
+Anisodactylus nigrita	scientific	Anisodactylus nigrita	NA	NA
+Diplocheila striatopunctata	scientific	Diplocheila striatopunctata	NA	NA
+Dicheirotrichus cognatus	scientific	Dicheirotrichus cognatus	NA	NA
+Elaphropus incurvus	scientific	Elaphropus incurvus	NA	NA
+Bradycellus nigriceps	scientific	Bradycellus nigriceps	NA	NA
+Dyschirius setosus	scientific	Dyschirius setosus	NA	NA
+Bembidion mimus	scientific	Bembidion mimus	NA	NA
+Amara ellipsis	scientific	Amara ellipsis	NA	NA
+Amara angustatoides	scientific	Amara angustatoides	NA	NA
+Bembidion mutatum	scientific	Bembidion mutatum	NA	NA
+Microlestes curtipennis	scientific	Microlestes curtipennis	NA	NA
+Amara fortis	scientific	Amara fortis	NA	NA
+Dromochorus belfragei	scientific	Dromochorus belfragei	NA	NA
+Cymindis laticollis	scientific	Cymindis laticollis	NA	NA
+Cicindela obsoleta	scientific	Cicindela obsoleta	NA	NA
+Cylindera celeripes	scientific	Cylindera celeripes	NA	NA
+Anisodactylus texanus	scientific	Anisodactylus texanus	NA	NA
+Calosoma morrisonii	scientific	Calosoma morrisonii	NA	NA
+Amara brunnea	scientific	Amara brunnea	NA	NA
+Calosoma semilaeve	scientific	Calosoma semilaeve	NA	NA
+Harpalus obnixus	scientific	Harpalus obnixus	NA	NA
+Microlestes nigrinus	scientific	Microlestes nigrinus	NA	NA
+Anillinus carltoni	scientific	Anillinus carltoni	NA	NA
+Pterostichus sayanus	scientific	Pterostichus sayanus	NA	NA
+Agonum palustre	scientific	Agonum palustre	NA	NA
+Anisodactylus sanctaecrucis	scientific	Anisodactylus sanctaecrucis	NA	NA
+Amara cupreolata	scientific	Amara cupreolata	NA	NA
+Scaphinotus unicolor	scientific	Scaphinotus unicolor	NA	NA
+Agonum crenistriatum	scientific	Agonum crenistriatum	NA	NA
+Chlaenius tricolor	scientific	Chlaenius tricolor	NA	NA
+Pentagonica marshalli	scientific	Pentagonica marshalli	NA	NA
+Helluomorphoides clairvillei	scientific	Helluomorphoides clairvillei	NA	NA
+Cyclotrachelus floridensis	scientific	Cyclotrachelus floridensis	NA	NA
+Apenes opaca	scientific	Apenes opaca	NA	NA
+Amblygnathus iripennis	scientific	Amblygnathus iripennis	NA	NA
+Cicindela abdominalis	scientific	Cicindela abdominalis	NA	NA
+Selenophorus contractus	scientific	Selenophorus contractus	NA	NA
+Ardistomis schaumii	scientific	Ardistomis schaumii	NA	NA
+Calybe sallei	scientific	Calybe sallei	NA	NA
+Platynus opaculus	scientific	Platynus opaculus	NA	NA
+Badister parviceps	scientific	Badister parviceps	NA	NA
+Sphaeroderus schaumii	scientific	Sphaeroderus schaumii	NA	NA
+Pterostichus mutoides	scientific	Pterostichus mutoides	NA	NA
+Dicheirus dilatatus	scientific	Dicheirus dilatatus	NA	NA
+Anisodactylus melanopus	scientific	Anisodactylus melanopus	NA	NA
+Amara angustata	scientific	Amara angustata	NA	NA
+Amara flebilis	scientific	Amara flebilis	NA	NA
+Amphasia sericea	scientific	Amphasia sericea	NA	NA
+Carabus vinctus	scientific	Carabus vinctus	NA	NA
+Amara exarata	scientific	Amara exarata	NA	NA
+Agonum octopunctatum	scientific	Agonum octopunctatum	NA	NA
+Acupalpus indistinctus	scientific	Acupalpus indistinctus	NA	NA
+Clivina impressefrons	scientific	Clivina impressefrons	NA	NA
+Calosoma sayi	scientific	Calosoma sayi	NA	NA
+Bembidion affine	scientific	Bembidion affine	NA	NA
+Patrobus longicornis	scientific	Patrobus longicornis	NA	NA
+Bradycellus rupestris	scientific	Bradycellus rupestris	NA	NA
+Pterostichus ordinarius	scientific	Pterostichus ordinarius	NA	NA
+Pterostichus californicus	scientific	Pterostichus californicus	NA	NA
+Dicheirus piceus	scientific	Dicheirus piceus	NA	NA
+Amara insignis	scientific	Amara insignis	NA	NA
+Pterostichus panticulatus	scientific	Pterostichus panticulatus	NA	NA
+Anisodactylus similis	scientific	Anisodactylus similis	NA	NA
+Apristus laticollis	scientific	Apristus laticollis	NA	NA
+Notiophilus semiopacus	scientific	Notiophilus semiopacus	NA	NA
+Amara aurata	scientific	Amara aurata	NA	NA
+Agonum limbatum	scientific	Agonum limbatum	NA	NA
+Amara scitula	scientific	Amara scitula	NA	NA
+Bembidion lampros	scientific	Bembidion lampros	NA	NA
+Pterostichus algidus	scientific	Pterostichus algidus	NA	NA
+Bradycellus politus	scientific	Bradycellus politus	NA	NA
+Apristus tuckeri	scientific	Apristus tuckeri	NA	NA
+Helluomorphoides papago	scientific	Helluomorphoides papago	NA	NA
+Chlaenius pimalicus	scientific	Chlaenius pimalicus	NA	NA
+Helluomorphoides latitarsis	scientific	Helluomorphoides latitarsis	NA	NA
+Bembidion poculare	scientific	Bembidion poculare	NA	NA
+Agonum anthracinum	scientific	Agonum anthracinum	NA	NA
+Plochionus timidus	scientific	Plochionus timidus	NA	NA
+Selenophorus aequinoctialis	scientific	Selenophorus aequinoctialis	NA	NA
+Apenes nebulosa	scientific	Apenes nebulosa	NA	NA
+Colliuris lengi	scientific	Colliuris lengi	NA	NA
+Notiobia mexicana	scientific	Notiobia mexicana	NA	NA
+Calosoma parvicolle	scientific	Calosoma parvicolle	NA	NA
+Abaris splendidula	scientific	Abaris splendidula	NA	NA
+Calosoma prominens	scientific	Calosoma prominens	NA	NA
+Pterostichus caudicalis	scientific	Pterostichus caudicalis	NA	NA
+Pterostichus novus	scientific	Pterostichus novus	NA	NA
+Oxypselaphus pusillus	scientific	Oxypselaphus pusillus	NA	NA
+Bembidion nigrivestis	scientific	Bembidion nigrivestis	NA	NA
+Harpalus fulvilabris	scientific	Harpalus fulvilabris	NA	NA
+Pterostichus luctuosus	scientific	Pterostichus luctuosus	NA	NA
+Agonum fidele	scientific	Agonum fidele	NA	NA
+Agonum trigeminum	scientific	Agonum trigeminum	NA	NA
+Agonum melanarium	scientific	Agonum melanarium	NA	NA
+Amerizus wingatei	scientific	Amerizus wingatei	NA	NA
+Elaphropus anceps	scientific	Elaphropus anceps	NA	NA
+Agonum gratiosum	scientific	Agonum gratiosum	NA	NA
+Agonum thoreyi	scientific	Agonum thoreyi	NA	NA
+Elaphrus clairvillei	scientific	Elaphrus clairvillei	NA	NA
+Platynus indecentis	scientific	Platynus indecentis	NA	NA
+Pterostichus patruelis	scientific	Pterostichus patruelis	NA	NA
+Badister grandiceps	scientific	Badister grandiceps	NA	NA
+Pterostichus tenuis	scientific	Pterostichus tenuis	NA	NA
+Harpalus amputatus	scientific	Harpalus amputatus	NA	NA
+Chlaenius nebraskensis	scientific	Chlaenius nebraskensis	NA	NA
+Amara latior	scientific	Amara latior	NA	NA
+Calosoma obsoletum	scientific	Calosoma obsoletum	NA	NA
+Microlestes pusio	scientific	Microlestes pusio	NA	NA
+Callisthenes affinis	scientific	Callisthenes affinis	NA	NA
+Agonum decorum	scientific	Agonum decorum	NA	NA
+Selenophorus gagatinus	scientific	Selenophorus gagatinus	NA	NA
+Morion monilicornis	scientific	Morion monilicornis	NA	NA
+Pseudamara arenaria	scientific	Pseudamara arenaria	NA	NA
+Trechus crassiscapus	scientific	Trechus crassiscapus	NA	NA
+Platynus mannerheimii	scientific	Platynus mannerheimii	NA	NA
+Harpalus laticeps	scientific	Harpalus laticeps	NA	NA
+Loricera pilicornis	scientific	Loricera pilicornis	NA	NA
+Bembidion muscicola	scientific	Bembidion muscicola	NA	NA
+Agonum sordens	scientific	Agonum sordens	NA	NA
+Bembidion fortestriatum	scientific	Bembidion fortestriatum	NA	NA
+Agonum canadense	scientific	Agonum canadense	NA	NA
+Agonum cupripenne	scientific	Agonum cupripenne	NA	NA
+Bradycellus lugubris	scientific	Bradycellus lugubris	NA	NA
+Badister transversus	scientific	Badister transversus	NA	NA
+Pterostichus corvinus	scientific	Pterostichus corvinus	NA	NA
+Dicaelus purpuratus	scientific	Dicaelus purpuratus	NA	NA
+Bembidion texanum	scientific	Bembidion texanum	NA	NA
+Brachinus imperialensis	scientific	Brachinus imperialensis	NA	NA
+Sericoda obsoleta	scientific	Sericoda obsoleta	NA	NA
+Agonum propinquum	scientific	Agonum propinquum	NA	NA
+Clivina fossor	scientific	Clivina fossor	NA	NA
+Agonum affine	scientific	Agonum affine	NA	NA
+Acupalpus canadensis	scientific	Acupalpus canadensis	NA	NA
+Bembidion quadrimaculatum	scientific	Bembidion quadrimaculatum	NA	NA
+Acupalpus nanellus	scientific	Acupalpus nanellus	NA	NA
+Amara neoscotica	scientific	Amara neoscotica	NA	NA
+Carabus maeander	scientific	Carabus maeander	NA	NA
+Bembidion canadianum	scientific	Bembidion canadianum	NA	NA
+Bembidion roosevelti	scientific	Bembidion roosevelti	NA	NA
+Badister obtusus	scientific	Badister obtusus	NA	NA
+Bembidion obtusangulum	scientific	Bembidion obtusangulum	NA	NA
+Bembidion praecinctum	scientific	Bembidion praecinctum	NA	NA
+Agonum errans	scientific	Agonum errans	NA	NA
+Chlaenius alternatus	scientific	Chlaenius alternatus	NA	NA
+Patrobus lecontei	scientific	Patrobus lecontei	NA	NA
+Bembidion aeneicolle	scientific	Bembidion aeneicolle	NA	NA
+Anisodactylus kirbyi	scientific	Anisodactylus kirbyi	NA	NA
+Badister neopulchellus	scientific	Badister neopulchellus	NA	NA
+Pterostichus commutabilis	scientific	Pterostichus commutabilis	NA	NA
+Bembidion pseudocautum	scientific	Bembidion pseudocautum	NA	NA
+Bradycellus lecontei	scientific	Bradycellus lecontei	NA	NA
+Oodes fluvialis	scientific	Oodes fluvialis	NA	NA
+Blethisa hudsonica	scientific	Blethisa hudsonica	NA	NA
+Rhinichthys atratulus	scientific	Rhinichthys atratulus	NA	NA
+Salmo trutta	scientific	Salmo trutta	NA	NA
+Salvelinus fontinalis	scientific	Salvelinus fontinalis	NA	NA
+Semotilus atromaculatus	scientific	Semotilus atromaculatus	NA	NA
+Noturus gyrinus	scientific	Noturus gyrinus	NA	NA
+Salmo salar	scientific	Salmo salar	NA	NA
+Notemigonus crysoleucas	scientific	Notemigonus crysoleucas	NA	NA
+Ameiurus nebulosus	scientific	Ameiurus nebulosus	NA	NA
+Oncorhynchus mykiss	scientific	Oncorhynchus mykiss	NA	NA
+Clinostomus funduloides	scientific	Clinostomus funduloides	NA	NA
+Cottus girardi	scientific	Cottus girardi	NA	NA
+Rhinichthys cataractae	scientific	Rhinichthys cataractae	NA	NA
+Lepomis macrochirus	scientific	Lepomis macrochirus	NA	NA
+Pimephales promelas	scientific	Pimephales promelas	NA	NA
+Cottus bairdii	scientific	Cottus bairdii	NA	NA
+Cottus caeruleomentum	scientific	Cottus caeruleomentum	NA	NA
+Etheostoma spectabile	scientific	Etheostoma spectabile	NA	NA
+Campostoma anomalum	scientific	Campostoma anomalum	NA	NA
+Etheostoma nigrum	scientific	Etheostoma nigrum	NA	NA
+Chrosomus erythrogaster	scientific	Chrosomus erythrogaster	NA	NA
+Gambusia affinis	scientific	Gambusia affinis	NA	NA
+Lepomis cyanellus	scientific	Lepomis cyanellus	NA	NA
+Catostomus commersonii	scientific	Catostomus commersonii	NA	NA
+Etheostoma tennesseense	scientific	Etheostoma tennesseense	NA	NA
+Phoxinus erythrogaster	scientific	Phoxinus erythrogaster	NA	NA
+Etheostoma pseudovulatum	scientific	Etheostoma pseudovulatum	NA	NA
+Noturus exilis	scientific	Noturus exilis	NA	NA
+Micropterus salmoides	scientific	Micropterus salmoides	NA	NA
+Notropis atherinoides	scientific	Notropis atherinoides	NA	NA
+Notropis stramineus	scientific	Notropis stramineus	NA	NA
+Pimephales notatus	scientific	Pimephales notatus	NA	NA
+Micropterus punctulatus	scientific	Micropterus punctulatus	NA	NA
+Phenacobius mirabilis	scientific	Phenacobius mirabilis	NA	NA
+Pimephales vigilax	scientific	Pimephales vigilax	NA	NA
+Luxilus cornutus	scientific	Luxilus cornutus	NA	NA
+Cyprinella lutrensis	scientific	Cyprinella lutrensis	NA	NA
+Lepomis megalotis	scientific	Lepomis megalotis	NA	NA
+Cottus carolinae	scientific	Cottus carolinae	NA	NA
+Hypentelium nigricans	scientific	Hypentelium nigricans	NA	NA
+Etheostoma lachneri	scientific	Etheostoma lachneri	NA	NA
+Etheostoma stigmaeum	scientific	Etheostoma stigmaeum	NA	NA
+Etheostoma swaini	scientific	Etheostoma swaini	NA	NA
+Fundulus olivaceus	scientific	Fundulus olivaceus	NA	NA
+Hypentelium etowanum	scientific	Hypentelium etowanum	NA	NA
+Ichthyomyzon gagei	scientific	Ichthyomyzon gagei	NA	NA
+Lampetra aepyptera	scientific	Lampetra aepyptera	NA	NA
+Nocomis leptocephalus	scientific	Nocomis leptocephalus	NA	NA
+Notropis baileyi	scientific	Notropis baileyi	NA	NA
+Percina nigrofasciata	scientific	Percina nigrofasciata	NA	NA
+Luxilus chrysocephalus	scientific	Luxilus chrysocephalus	NA	NA
+Notropis ammophilus	scientific	Notropis ammophilus	NA	NA
+Noturus leptacanthus	scientific	Noturus leptacanthus	NA	NA
+Fundulus notatus	scientific	Fundulus notatus	NA	NA
+Notropis texanus	scientific	Notropis texanus	NA	NA
+Noturus funebris	scientific	Noturus funebris	NA	NA
+Ameiurus natalis	scientific	Ameiurus natalis	NA	NA
+Erimyzon oblongus	scientific	Erimyzon oblongus	NA	NA
+Notropis telescopus	scientific	Notropis telescopus	NA	NA
+Esox americanus	scientific	Esox americanus	NA	NA
+Lythrurus bellus	scientific	Lythrurus bellus	NA	NA
+Notropis stilbius	scientific	Notropis stilbius	NA	NA
+Semotilus thoreauianus	scientific	Semotilus thoreauianus	NA	NA
+Moxostoma carinatum	scientific	Moxostoma carinatum	NA	NA
+Notropis xaenocephalus	scientific	Notropis xaenocephalus	NA	NA
+Moxostoma poecilurum	scientific	Moxostoma poecilurum	NA	NA
+Lepomis auritus	scientific	Lepomis auritus	NA	NA
+Ameiurus melas	scientific	Ameiurus melas	NA	NA
+Fundulus zebrinus	scientific	Fundulus zebrinus	NA	NA
+Cyprinus carpio	scientific	Cyprinus carpio	NA	NA
+Notropis volucellus	scientific	Notropis volucellus	NA	NA
+Micropterus dolomieu	scientific	Micropterus dolomieu	NA	NA
+Noturus nocturnus	scientific	Noturus nocturnus	NA	NA
+Epeorus	scientific	Epeorus	NA	NA
+Probezzia	scientific	Probezzia	NA	NA
+Cladopelma	scientific	Cladopelma	NA	NA
+Brundiniella	scientific	Brundiniella	NA	NA
+Paraleptophlebia	scientific	Paraleptophlebia	NA	NA
+Eukiefferiella	scientific	Eukiefferiella	NA	NA
+Psephenus	scientific	Psephenus	NA	NA
+Cryptotendipes	scientific	Cryptotendipes	NA	NA
+Thienemannimyia	scientific	Thienemannimyia	NA	NA
+Thienemanniella	scientific	Thienemanniella	NA	NA
+Hydropsyche	scientific	Hydropsyche	NA	NA
+Mystacides	scientific	Mystacides	NA	NA
+Stenelmis	scientific	Stenelmis	NA	NA
+Ceraclea	scientific	Ceraclea	NA	NA
+Pycnopsyche	scientific	Pycnopsyche	NA	NA
+Hemerodromia	scientific	Hemerodromia	NA	NA
+Rhyacophila	scientific	Rhyacophila	NA	NA
+Prosimulium	scientific	Prosimulium	NA	NA
+Neophylax	scientific	Neophylax	NA	NA
+Rheosmittia	scientific	Rheosmittia	NA	NA
+Ceratopsyche	scientific	Ceratopsyche	NA	NA
+Parachaetocladius	scientific	Parachaetocladius	NA	NA
+Nais	scientific	Nais	NA	NA
+Oulimnius	scientific	Oulimnius	NA	NA
+Polypedilum	scientific	Polypedilum	NA	NA
+Pisidium	scientific	Pisidium	NA	NA
+Atractides	scientific	Atractides	NA	NA
+Acroneuria	scientific	Acroneuria	NA	NA
+Stempellinella	scientific	Stempellinella	NA	NA
+Torrenticola	scientific	Torrenticola	NA	NA
+Siphlonurus	scientific	Siphlonurus	NA	NA
+Clinocera	scientific	Clinocera	NA	NA
+Tanytarsus	scientific	Tanytarsus	NA	NA
+Neumania	scientific	Neumania	NA	NA
+Natarsia	scientific	Natarsia	NA	NA
+Procladius	scientific	Procladius	NA	NA
+Cryptochironomus	scientific	Cryptochironomus	NA	NA
+Isoperla	scientific	Isoperla	NA	NA
+Orthocladius	scientific	Orthocladius	NA	NA
+Paratendipes	scientific	Paratendipes	NA	NA
+Lopescladius	scientific	Lopescladius	NA	NA
+Chironomus	scientific	Chironomus	NA	NA
+Ephemerella	scientific	Ephemerella	NA	NA
+Pristina	scientific	Pristina	NA	NA
+Nigronia	scientific	Nigronia	NA	NA
+Parakiefferiella	scientific	Parakiefferiella	NA	NA
+Tvetenia	scientific	Tvetenia	NA	NA
+Anchytarsus	scientific	Anchytarsus	NA	NA
+Diphetor	scientific	Diphetor	NA	NA
+Neostempellina	scientific	Neostempellina	NA	NA
+Oxyethira	scientific	Oxyethira	NA	NA
+Maccaffertium	scientific	Maccaffertium	NA	NA
+Hexatoma	scientific	Hexatoma	NA	NA
+Laevapex	scientific	Laevapex	NA	NA
+Prostoma	scientific	Prostoma	NA	NA
+Simulium	scientific	Simulium	NA	NA
+Cheumatopsyche	scientific	Cheumatopsyche	NA	NA
+Dicranota	scientific	Dicranota	NA	NA
+Rheocricotopus	scientific	Rheocricotopus	NA	NA
+Parametriocnemus	scientific	Parametriocnemus	NA	NA
+Promoresia	scientific	Promoresia	NA	NA
+Stenochironomus	scientific	Stenochironomus	NA	NA
+Stilocladius	scientific	Stilocladius	NA	NA
+Tribelos	scientific	Tribelos	NA	NA
+Nilotanypus	scientific	Nilotanypus	NA	NA
+Krenosmittia	scientific	Krenosmittia	NA	NA
+Rheotanytarsus	scientific	Rheotanytarsus	NA	NA
+Larsia	scientific	Larsia	NA	NA
+Lepidostoma	scientific	Lepidostoma	NA	NA
+Labrundinia	scientific	Labrundinia	NA	NA
+Cladotanytarsus	scientific	Cladotanytarsus	NA	NA
+Amphinemura	scientific	Amphinemura	NA	NA
+Stempellina	scientific	Stempellina	NA	NA
+Pseudorthocladius	scientific	Pseudorthocladius	NA	NA
+Microtendipes	scientific	Microtendipes	NA	NA
+Synorthocladius	scientific	Synorthocladius	NA	NA
+Limnophila	scientific	Limnophila	NA	NA
+Sperchonopsis	scientific	Sperchonopsis	NA	NA
+Teloganopsis	scientific	Teloganopsis	NA	NA
+Neoplasta	scientific	Neoplasta	NA	NA
+Nilothauma	scientific	Nilothauma	NA	NA
+Sperchon	scientific	Sperchon	NA	NA
+Aulodrilus	scientific	Aulodrilus	NA	NA
+Optioservus	scientific	Optioservus	NA	NA
+Hydroptila	scientific	Hydroptila	NA	NA
+Chaetogaster	scientific	Chaetogaster	NA	NA
+Stylodrilus	scientific	Stylodrilus	NA	NA
+Goera	scientific	Goera	NA	NA
+Glossosoma	scientific	Glossosoma	NA	NA
+Dasyhelea	scientific	Dasyhelea	NA	NA
+Lebertia	scientific	Lebertia	NA	NA
+Paracricotopus	scientific	Paracricotopus	NA	NA
+Acerpenna	scientific	Acerpenna	NA	NA
+Corynoneura	scientific	Corynoneura	NA	NA
+Sialis	scientific	Sialis	NA	NA
+Phaenopsectra	scientific	Phaenopsectra	NA	NA
+Trissopelopia	scientific	Trissopelopia	NA	NA
+Tallaperla	scientific	Tallaperla	NA	NA
+Heterocloeon	scientific	Heterocloeon	NA	NA
+Dolophilodes	scientific	Dolophilodes	NA	NA
+Radotanypus	scientific	Radotanypus	NA	NA
+Plauditus	scientific	Plauditus	NA	NA
+Baetis	scientific	Baetis	NA	NA
+Stictochironomus	scientific	Stictochironomus	NA	NA
+Caenis	scientific	Caenis	NA	NA
+Zavrelimyia	scientific	Zavrelimyia	NA	NA
+Paragnetina	scientific	Paragnetina	NA	NA
+Heleniella	scientific	Heleniella	NA	NA
+Nanocladius	scientific	Nanocladius	NA	NA
+Cordulegaster	scientific	Cordulegaster	NA	NA
+Leuctra	scientific	Leuctra	NA	NA
+Psilotreta	scientific	Psilotreta	NA	NA
+Cricotopus	scientific	Cricotopus	NA	NA
+Hygrobates	scientific	Hygrobates	NA	NA
+Sweltsa	scientific	Sweltsa	NA	NA
+Oecetis	scientific	Oecetis	NA	NA
+Molanna	scientific	Molanna	NA	NA
+Brillia	scientific	Brillia	NA	NA
+Paracapnia	scientific	Paracapnia	NA	NA
+Platysmittia	scientific	Platysmittia	NA	NA
+Demicryptochironomus	scientific	Demicryptochironomus	NA	NA
+Ectopria	scientific	Ectopria	NA	NA
+Sublettea	scientific	Sublettea	NA	NA
+Isonychia	scientific	Isonychia	NA	NA
+Agnetina	scientific	Agnetina	NA	NA
+Antocha	scientific	Antocha	NA	NA
+Agapetus	scientific	Agapetus	NA	NA
+Paracladopelma	scientific	Paracladopelma	NA	NA
+Roederiodes	scientific	Roederiodes	NA	NA
+Apatania	scientific	Apatania	NA	NA
+Laccobius	scientific	Laccobius	NA	NA
+Acentrella	scientific	Acentrella	NA	NA
+Diplocladius	scientific	Diplocladius	NA	NA
+Ablabesmyia	scientific	Ablabesmyia	NA	NA
+Wandesia	scientific	Wandesia	NA	NA
+Psectrocladius	scientific	Psectrocladius	NA	NA
+Eurylophella	scientific	Eurylophella	NA	NA
+Polycentropus	scientific	Polycentropus	NA	NA
+Rhagovelia	scientific	Rhagovelia	NA	NA
+Taeniopteryx	scientific	Taeniopteryx	NA	NA
+Saetheria	scientific	Saetheria	NA	NA
+Nyctiophylax	scientific	Nyctiophylax	NA	NA
+Potthastia	scientific	Potthastia	NA	NA
+Stenacron	scientific	Stenacron	NA	NA
+Taenionema	scientific	Taenionema	NA	NA
+Helodon	scientific	Helodon	NA	NA
+Paratanytarsus	scientific	Paratanytarsus	NA	NA
+Eccoptura	scientific	Eccoptura	NA	NA
+Cryptolabis	scientific	Cryptolabis	NA	NA
+Pteronarcys	scientific	Pteronarcys	NA	NA
+Stegopterna	scientific	Stegopterna	NA	NA
+Diplectrona	scientific	Diplectrona	NA	NA
+Blepharicera	scientific	Blepharicera	NA	NA
+Alloperla	scientific	Alloperla	NA	NA
+Micropsectra	scientific	Micropsectra	NA	NA
+Heptagenia	scientific	Heptagenia	NA	NA
+Pagastia	scientific	Pagastia	NA	NA
+Stilobezzia	scientific	Stilobezzia	NA	NA
+Serratella	scientific	Serratella	NA	NA
+Nemoura	scientific	Nemoura	NA	NA
+Wormaldia	scientific	Wormaldia	NA	NA
+Paraphaenocladius	scientific	Paraphaenocladius	NA	NA
+Neoleptophlebia	scientific	Neoleptophlebia	NA	NA
+Chaetocladius	scientific	Chaetocladius	NA	NA
+Oxus	scientific	Oxus	NA	NA
+Erioptera	scientific	Erioptera	NA	NA
+Dero	scientific	Dero	NA	NA
+Drunella	scientific	Drunella	NA	NA
+Diamesa	scientific	Diamesa	NA	NA
+Procloeon	scientific	Procloeon	NA	NA
+Physa	scientific	Physa	NA	NA
+Aturus	scientific	Aturus	NA	NA
+Constempellina	scientific	Constempellina	NA	NA
+Limnophyes	scientific	Limnophyes	NA	NA
+Boyeria	scientific	Boyeria	NA	NA
+Ameletus	scientific	Ameletus	NA	NA
+Pagastiella	scientific	Pagastiella	NA	NA
+Aeolosoma	scientific	Aeolosoma	NA	NA
+Hydra	scientific	Hydra	NA	NA
+Feltria	scientific	Feltria	NA	NA
+Dicrotendipes	scientific	Dicrotendipes	NA	NA
+Neozavrelia	scientific	Neozavrelia	NA	NA
+Anafroptilum	scientific	Anafroptilum	NA	NA
+Hydrobaenus	scientific	Hydrobaenus	NA	NA
+Chimarra	scientific	Chimarra	NA	NA
+Lirceus	scientific	Lirceus	NA	NA
+Amphichaeta	scientific	Amphichaeta	NA	NA
+Crangonyx	scientific	Crangonyx	NA	NA
+Paralauterborniella	scientific	Paralauterborniella	NA	NA
+Vejdovskyella	scientific	Vejdovskyella	NA	NA
+Corbicula	scientific	Corbicula	NA	NA
+Branchiura	scientific	Branchiura	NA	NA
+Ilyodrilus	scientific	Ilyodrilus	NA	NA
+Testudacarus	scientific	Testudacarus	NA	NA
+Dubiraphia	scientific	Dubiraphia	NA	NA
+Limnodrilus	scientific	Limnodrilus	NA	NA
+Narpus	scientific	Narpus	NA	NA
+Gammarus	scientific	Gammarus	NA	NA
+Allocapnia	scientific	Allocapnia	NA	NA
+Chrysops	scientific	Chrysops	NA	NA
+Tubifex	scientific	Tubifex	NA	NA
+Dixa	scientific	Dixa	NA	NA
+Pilaria	scientific	Pilaria	NA	NA
+Tipula	scientific	Tipula	NA	NA
+Limonia	scientific	Limonia	NA	NA
+Clioperla	scientific	Clioperla	NA	NA
+Atrichopogon	scientific	Atrichopogon	NA	NA
+Pentaneura	scientific	Pentaneura	NA	NA
+Lype	scientific	Lype	NA	NA
+Marstonia	scientific	Marstonia	NA	NA
+Varichaetadrilus	scientific	Varichaetadrilus	NA	NA
+Isochaetides	scientific	Isochaetides	NA	NA
+Psychomyia	scientific	Psychomyia	NA	NA
+Pseudolimnophila	scientific	Pseudolimnophila	NA	NA
+Trichocorixa	scientific	Trichocorixa	NA	NA
+Fallceon	scientific	Fallceon	NA	NA
+Sphaerium	scientific	Sphaerium	NA	NA
+Microvelia	scientific	Microvelia	NA	NA
+Stenonema	scientific	Stenonema	NA	NA
+Neohermes	scientific	Neohermes	NA	NA
+Chelifera	scientific	Chelifera	NA	NA
+Hydatophylax	scientific	Hydatophylax	NA	NA
+Bithynia	scientific	Bithynia	NA	NA
+Ephemera	scientific	Ephemera	NA	NA
+Calopteryx	scientific	Calopteryx	NA	NA
+Georthocladius	scientific	Georthocladius	NA	NA
+Attenella	scientific	Attenella	NA	NA
+Eiseniella	scientific	Eiseniella	NA	NA
+Valvata	scientific	Valvata	NA	NA
+Lumbriculus	scientific	Lumbriculus	NA	NA
+Sminthurus	scientific	Sminthurus	NA	NA
+Clathrosperchon	scientific	Clathrosperchon	NA	NA
+Bezzia	scientific	Bezzia	NA	NA
+Girardia	scientific	Girardia	NA	NA
+Culicoides	scientific	Culicoides	NA	NA
+Mackenziella	scientific	Mackenziella	NA	NA
+Ophidonais	scientific	Ophidonais	NA	NA
+Heterotrissocladius	scientific	Heterotrissocladius	NA	NA
+Stylogomphus	scientific	Stylogomphus	NA	NA
+Xylotopus	scientific	Xylotopus	NA	NA
+Hydrozetes	scientific	Hydrozetes	NA	NA
+Prostoia	scientific	Prostoia	NA	NA
+Epoicocladius	scientific	Epoicocladius	NA	NA
+Stygomomonia	scientific	Stygomomonia	NA	NA
+Trimalaconothrus	scientific	Trimalaconothrus	NA	NA
+Kongsbergia	scientific	Kongsbergia	NA	NA
+Arrenurus	scientific	Arrenurus	NA	NA
+Culoptila	scientific	Culoptila	NA	NA
+Psilometriocnemus	scientific	Psilometriocnemus	NA	NA
+Ljania	scientific	Ljania	NA	NA
+Ferrissia	scientific	Ferrissia	NA	NA
+Sphaeromias	scientific	Sphaeromias	NA	NA
+Sympotthastia	scientific	Sympotthastia	NA	NA
+Limnesia	scientific	Limnesia	NA	NA
+Dromogomphus	scientific	Dromogomphus	NA	NA
+Hydrobius	scientific	Hydrobius	NA	NA
+Gomphus	scientific	Gomphus	NA	NA
+Slavina	scientific	Slavina	NA	NA
+Helichus	scientific	Helichus	NA	NA
+Pseudosmittia	scientific	Pseudosmittia	NA	NA
+Mideopsis	scientific	Mideopsis	NA	NA
+Leucrocuta	scientific	Leucrocuta	NA	NA
+Habrophlebiodes	scientific	Habrophlebiodes	NA	NA
+Trichoclinocera	scientific	Trichoclinocera	NA	NA
+Gyraulus	scientific	Gyraulus	NA	NA
+Macronychus	scientific	Macronychus	NA	NA
+Habrophlebia	scientific	Habrophlebia	NA	NA
+Soyedina	scientific	Soyedina	NA	NA
+Cambarus	scientific	Cambarus	NA	NA
+Eloeophila	scientific	Eloeophila	NA	NA
+Pseudochironomus	scientific	Pseudochironomus	NA	NA
+Forcipomyia	scientific	Forcipomyia	NA	NA
+Perlesta	scientific	Perlesta	NA	NA
+Microcylloepus	scientific	Microcylloepus	NA	NA
+Menetus	scientific	Menetus	NA	NA
+Stygobromus	scientific	Stygobromus	NA	NA
+Limnozetes	scientific	Limnozetes	NA	NA
+Malaconothrus	scientific	Malaconothrus	NA	NA
+Trachyoribates	scientific	Trachyoribates	NA	NA
+Tabanus	scientific	Tabanus	NA	NA
+Agabus	scientific	Agabus	NA	NA
+Caecidotea	scientific	Caecidotea	NA	NA
+Conchapelopia	scientific	Conchapelopia	NA	NA
+Haplotaxis	scientific	Haplotaxis	NA	NA
+Heterosternuta	scientific	Heterosternuta	NA	NA
+Helicopsyche	scientific	Helicopsyche	NA	NA
+Berosus	scientific	Berosus	NA	NA
+Neoperla	scientific	Neoperla	NA	NA
+Mesosmittia	scientific	Mesosmittia	NA	NA
+Aedes	scientific	Aedes	NA	NA
+Parachironomus	scientific	Parachironomus	NA	NA
+Hydrosmittia	scientific	Hydrosmittia	NA	NA
+Tanypus	scientific	Tanypus	NA	NA
+Galba	scientific	Galba	NA	NA
+Cymbiodyta	scientific	Cymbiodyta	NA	NA
+Sigara	scientific	Sigara	NA	NA
+Physella	scientific	Physella	NA	NA
+Choroterpes	scientific	Choroterpes	NA	NA
+Tricorythodes	scientific	Tricorythodes	NA	NA
+Argia	scientific	Argia	NA	NA
+Helophorus	scientific	Helophorus	NA	NA
+Corydalus	scientific	Corydalus	NA	NA
+Hyalella	scientific	Hyalella	NA	NA
+Peltodytes	scientific	Peltodytes	NA	NA
+Anopheles	scientific	Anopheles	NA	NA
+Stylaria	scientific	Stylaria	NA	NA
+Tropisternus	scientific	Tropisternus	NA	NA
+Piona	scientific	Piona	NA	NA
+Cinygmula	scientific	Cinygmula	NA	NA
+Stactobiella	scientific	Stactobiella	NA	NA
+Stygothrombium	scientific	Stygothrombium	NA	NA
+Cyrnellus	scientific	Cyrnellus	NA	NA
+Woolastookia	scientific	Woolastookia	NA	NA
+Protzia	scientific	Protzia	NA	NA
+Atherix	scientific	Atherix	NA	NA
+Specaria	scientific	Specaria	NA	NA
+Rhithrogena	scientific	Rhithrogena	NA	NA
+Micrasema	scientific	Micrasema	NA	NA
+Limnochares	scientific	Limnochares	NA	NA
+Tokunagaia	scientific	Tokunagaia	NA	NA
+Rhyacodrilus	scientific	Rhyacodrilus	NA	NA
+Mesocricotopus	scientific	Mesocricotopus	NA	NA
+Macropelopia	scientific	Macropelopia	NA	NA
+Odontomesa	scientific	Odontomesa	NA	NA
+Remenus	scientific	Remenus	NA	NA
+Dannella	scientific	Dannella	NA	NA
+Smittia	scientific	Smittia	NA	NA
+Ochrotrichia	scientific	Ochrotrichia	NA	NA
+Paraboreochlus	scientific	Paraboreochlus	NA	NA
+Baetisca	scientific	Baetisca	NA	NA
+Yugus	scientific	Yugus	NA	NA
+Euryhapsis	scientific	Euryhapsis	NA	NA
+Piguetiella	scientific	Piguetiella	NA	NA
+Elimia	scientific	Elimia	NA	NA
+Brachypoda	scientific	Brachypoda	NA	NA
+Apsectrotanypus	scientific	Apsectrotanypus	NA	NA
+Robackia	scientific	Robackia	NA	NA
+Teneridrilus	scientific	Teneridrilus	NA	NA
+Peltoperla	scientific	Peltoperla	NA	NA
+Wettina	scientific	Wettina	NA	NA
+Dixella	scientific	Dixella	NA	NA
+Phylocentropus	scientific	Phylocentropus	NA	NA
+Stelechomyia	scientific	Stelechomyia	NA	NA
+Ancyronyx	scientific	Ancyronyx	NA	NA
+Unniella	scientific	Unniella	NA	NA
+Alluaudomyia	scientific	Alluaudomyia	NA	NA
+Xestochironomus	scientific	Xestochironomus	NA	NA
+Djalmabatista	scientific	Djalmabatista	NA	NA
+Mayatrichia	scientific	Mayatrichia	NA	NA
+Gyretes	scientific	Gyretes	NA	NA
+Siphloplecton	scientific	Siphloplecton	NA	NA
+Albia	scientific	Albia	NA	NA
+Spirosperma	scientific	Spirosperma	NA	NA
+Axonopsis	scientific	Axonopsis	NA	NA
+Agarodes	scientific	Agarodes	NA	NA
+Dineutus	scientific	Dineutus	NA	NA
+Brachycentrus	scientific	Brachycentrus	NA	NA
+Leptophlebia	scientific	Leptophlebia	NA	NA
+Perlinella	scientific	Perlinella	NA	NA
+Anisocentropus	scientific	Anisocentropus	NA	NA
+Metriocnemus	scientific	Metriocnemus	NA	NA
+Neoporus	scientific	Neoporus	NA	NA
+Hetaerina	scientific	Hetaerina	NA	NA
+Labiobaetis	scientific	Labiobaetis	NA	NA
+Heteroplectron	scientific	Heteroplectron	NA	NA
+Tyrellia	scientific	Tyrellia	NA	NA
+Amoenacarus	scientific	Amoenacarus	NA	NA
+Kloosia	scientific	Kloosia	NA	NA
+Progomphus	scientific	Progomphus	NA	NA
+Haploperla	scientific	Haploperla	NA	NA
+Zalutschia	scientific	Zalutschia	NA	NA
+Desmopachria	scientific	Desmopachria	NA	NA
+Hydrovatus	scientific	Hydrovatus	NA	NA
+Mesovelia	scientific	Mesovelia	NA	NA
+Belostoma	scientific	Belostoma	NA	NA
+Helobdella	scientific	Helobdella	NA	NA
+Clinotanypus	scientific	Clinotanypus	NA	NA
+Podura	scientific	Podura	NA	NA
+Fossaria	scientific	Fossaria	NA	NA
+Celina	scientific	Celina	NA	NA
+Paramerina	scientific	Paramerina	NA	NA
+Helisoma	scientific	Helisoma	NA	NA
+Glossiphonia	scientific	Glossiphonia	NA	NA
+Zavreliella	scientific	Zavreliella	NA	NA
+Synclita	scientific	Synclita	NA	NA
+Ceratopogon	scientific	Ceratopogon	NA	NA
+Callibaetis	scientific	Callibaetis	NA	NA
+Planorbella	scientific	Planorbella	NA	NA
+Liodessus	scientific	Liodessus	NA	NA
+Notonecta	scientific	Notonecta	NA	NA
+Sanfilippodytes	scientific	Sanfilippodytes	NA	NA
+Enochrus	scientific	Enochrus	NA	NA
+Monohelea	scientific	Monohelea	NA	NA
+Laccophilus	scientific	Laccophilus	NA	NA
+Culiseta	scientific	Culiseta	NA	NA
+Acentria	scientific	Acentria	NA	NA
+Elophila	scientific	Elophila	NA	NA
+Rhantus	scientific	Rhantus	NA	NA
+Culex	scientific	Culex	NA	NA
+Aeshna	scientific	Aeshna	NA	NA
+Hydrochus	scientific	Hydrochus	NA	NA
+Libellula	scientific	Libellula	NA	NA
+Paracymus	scientific	Paracymus	NA	NA
+Mooreobdella	scientific	Mooreobdella	NA	NA
+Odontomyia	scientific	Odontomyia	NA	NA
+Macrovelia	scientific	Macrovelia	NA	NA
+Pionopsis	scientific	Pionopsis	NA	NA
+Limnephilus	scientific	Limnephilus	NA	NA
+Petrophila	scientific	Petrophila	NA	NA
+Erpobdella	scientific	Erpobdella	NA	NA
+Copelatus	scientific	Copelatus	NA	NA
+Anax	scientific	Anax	NA	NA
+Goeldichironomus	scientific	Goeldichironomus	NA	NA
+Nemotelus	scientific	Nemotelus	NA	NA
+Stratiomys	scientific	Stratiomys	NA	NA
+Desserobdella	scientific	Desserobdella	NA	NA
+Cenocorixa	scientific	Cenocorixa	NA	NA
+Acricotopus	scientific	Acricotopus	NA	NA
+Placobdella	scientific	Placobdella	NA	NA
+Dina	scientific	Dina	NA	NA
+Haliplus	scientific	Haliplus	NA	NA
+Apedilum	scientific	Apedilum	NA	NA
+Gonomyia	scientific	Gonomyia	NA	NA
+Pericoma	scientific	Pericoma	NA	NA
+Actinobdella	scientific	Actinobdella	NA	NA
+Platambus	scientific	Platambus	NA	NA
+Stagnicola	scientific	Stagnicola	NA	NA
+Helius	scientific	Helius	NA	NA
+Musculium	scientific	Musculium	NA	NA
+Gerris	scientific	Gerris	NA	NA
+Plathemis	scientific	Plathemis	NA	NA
+Lauterborniella	scientific	Lauterborniella	NA	NA
+Glyptotendipes	scientific	Glyptotendipes	NA	NA
+Rhabdomastix	scientific	Rhabdomastix	NA	NA
+Tyrrellia	scientific	Tyrrellia	NA	NA
+Donacia	scientific	Donacia	NA	NA
+Orthemis	scientific	Orthemis	NA	NA
+Molophilus	scientific	Molophilus	NA	NA
+Hygrotus	scientific	Hygrotus	NA	NA
+Hydrachna	scientific	Hydrachna	NA	NA
+Sympetrum	scientific	Sympetrum	NA	NA
+Endochironomus	scientific	Endochironomus	NA	NA
+Lutrochus	scientific	Lutrochus	NA	NA
+Orconectes	scientific	Orconectes	NA	NA
+Paracloeodes	scientific	Paracloeodes	NA	NA
+Neoelmis	scientific	Neoelmis	NA	NA
+Cardiocladius	scientific	Cardiocladius	NA	NA
+Erpetogomphus	scientific	Erpetogomphus	NA	NA
+Hexacylloepus	scientific	Hexacylloepus	NA	NA
+Nectopsyche	scientific	Nectopsyche	NA	NA
+Apobaetis	scientific	Apobaetis	NA	NA
+Hexagenia	scientific	Hexagenia	NA	NA
+Bothrioneurum	scientific	Bothrioneurum	NA	NA
+Cincinnatia	scientific	Cincinnatia	NA	NA
+Smicridea	scientific	Smicridea	NA	NA
+Orthotrichia	scientific	Orthotrichia	NA	NA
+Faxonius	scientific	Faxonius	NA	NA
+Brachypodopsis	scientific	Brachypodopsis	NA	NA
+Corticacarus	scientific	Corticacarus	NA	NA
+Bratislavia	scientific	Bratislavia	NA	NA
+Macromia	scientific	Macromia	NA	NA
+Brechmorhoga	scientific	Brechmorhoga	NA	NA
+Arigomphus	scientific	Arigomphus	NA	NA
+Farrodes	scientific	Farrodes	NA	NA
+Camelobaetidius	scientific	Camelobaetidius	NA	NA
+Cernotina	scientific	Cernotina	NA	NA
+Koenikea	scientific	Koenikea	NA	NA
+Derotanypus	scientific	Derotanypus	NA	NA
+Hydrodroma	scientific	Hydrodroma	NA	NA
+Fittkauimyia	scientific	Fittkauimyia	NA	NA
+Biomphalaria	scientific	Biomphalaria	NA	NA
+Planorbula	scientific	Planorbula	NA	NA
+Cnephia	scientific	Cnephia	NA	NA
+Chaetarthria	scientific	Chaetarthria	NA	NA
+Oxycera	scientific	Oxycera	NA	NA
+Boreochlus	scientific	Boreochlus	NA	NA
+Zapada	scientific	Zapada	NA	NA
+Hesperoperla	scientific	Hesperoperla	NA	NA
+Polycelis	scientific	Polycelis	NA	NA
+Bilyjomyia	scientific	Bilyjomyia	NA	NA
+Heterlimnius	scientific	Heterlimnius	NA	NA
+Neothremma	scientific	Neothremma	NA	NA
+Podmosta	scientific	Podmosta	NA	NA
+Malenka	scientific	Malenka	NA	NA
+Pseudodiamesa	scientific	Pseudodiamesa	NA	NA
+Eucapnopsis	scientific	Eucapnopsis	NA	NA
+Prodiamesa	scientific	Prodiamesa	NA	NA
+Parorthocladius	scientific	Parorthocladius	NA	NA
+Paraleuctra	scientific	Paraleuctra	NA	NA
+Cultus	scientific	Cultus	NA	NA
+Paraperla	scientific	Paraperla	NA	NA
+Kogotus	scientific	Kogotus	NA	NA
+Oreogeton	scientific	Oreogeton	NA	NA
+Boreoheptagyia	scientific	Boreoheptagyia	NA	NA
+Megarcys	scientific	Megarcys	NA	NA
+Monodiamesa	scientific	Monodiamesa	NA	NA
+Cleptelmis	scientific	Cleptelmis	NA	NA
+Oligophlebodes	scientific	Oligophlebodes	NA	NA
+Arctopsyche	scientific	Arctopsyche	NA	NA
+Pyrgulopsis	scientific	Pyrgulopsis	NA	NA
+Ormosia	scientific	Ormosia	NA	NA
+Krenopelopia	scientific	Krenopelopia	NA	NA
+Psychoglypha	scientific	Psychoglypha	NA	NA
+Ptychoptera	scientific	Ptychoptera	NA	NA
+Zaitzevia	scientific	Zaitzevia	NA	NA
+Monatractides	scientific	Monatractides	NA	NA
+Thyopsella	scientific	Thyopsella	NA	NA
+Chyranda	scientific	Chyranda	NA	NA
+Caudatella	scientific	Caudatella	NA	NA
+Yoraperla	scientific	Yoraperla	NA	NA
+Lara	scientific	Lara	NA	NA
+Calineuria	scientific	Calineuria	NA	NA
+Visoka	scientific	Visoka	NA	NA
+Ampumixis	scientific	Ampumixis	NA	NA
+Doroneuria	scientific	Doroneuria	NA	NA
+Cinygma	scientific	Cinygma	NA	NA
+Parapsyche	scientific	Parapsyche	NA	NA
+Kathroperla	scientific	Kathroperla	NA	NA
+Estelloxus	scientific	Estelloxus	NA	NA
+Ironodes	scientific	Ironodes	NA	NA
+Pristinicola	scientific	Pristinicola	NA	NA
+Anagapetus	scientific	Anagapetus	NA	NA
+Despaxia	scientific	Despaxia	NA	NA
+Skwala	scientific	Skwala	NA	NA
+Moselia	scientific	Moselia	NA	NA
+Meringodixa	scientific	Meringodixa	NA	NA
+Palaeagapetus	scientific	Palaeagapetus	NA	NA
+Hydraena	scientific	Hydraena	NA	NA
+Agathon	scientific	Agathon	NA	NA
+Timpanoga	scientific	Timpanoga	NA	NA
+Soliperla	scientific	Soliperla	NA	NA
+Ecclisomyia	scientific	Ecclisomyia	NA	NA
+Bryelmis	scientific	Bryelmis	NA	NA
+Oreodytes	scientific	Oreodytes	NA	NA
+Suwallia	scientific	Suwallia	NA	NA
+Peromyscus leucopus	scientific	Peromyscus leucopus	NA	NA
+Tamias striatus	scientific	Tamias striatus	NA	NA
+Peromyscus maniculatus	scientific	Peromyscus maniculatus	NA	NA
+Napaeozapus insignis	scientific	Napaeozapus insignis	NA	NA
+Myodes gapperi	scientific	Myodes gapperi	NA	NA
+Blarina brevicauda	scientific	Blarina brevicauda	NA	NA
+Glaucomys volans	scientific	Glaucomys volans	NA	NA
+Sorex cinereus	scientific	Sorex cinereus	NA	NA
+Sorex fumeus	scientific	Sorex fumeus	NA	NA
+Mustela erminea	scientific	Mustela erminea	NA	NA
+Microtus pennsylvanicus	scientific	Microtus pennsylvanicus	NA	NA
+Zapus hudsonius	scientific	Zapus hudsonius	NA	NA
+Microtus pinetorum	scientific	Microtus pinetorum	NA	NA
+Mus musculus	scientific	Mus musculus	NA	NA
+Rattus rattus	scientific	Rattus rattus	NA	NA
+Cryptotis parva	scientific	Cryptotis parva	NA	NA
+Peromyscus gossypinus	scientific	Peromyscus gossypinus	NA	NA
+Peromyscus polionotus	scientific	Peromyscus polionotus	NA	NA
+Neotoma floridana	scientific	Neotoma floridana	NA	NA
+Reithrodontomys humulis	scientific	Reithrodontomys humulis	NA	NA
+Sorex longirostris	scientific	Sorex longirostris	NA	NA
+Blarina carolinensis	scientific	Blarina carolinensis	NA	NA
+Ochrotomys nuttalli	scientific	Ochrotomys nuttalli	NA	NA
+Oryzomys palustris	scientific	Oryzomys palustris	NA	NA
+Sciurus carolinensis	scientific	Sciurus carolinensis	NA	NA
+Sorex arcticus	scientific	Sorex arcticus	NA	NA
+Glaucomys sabrinus	scientific	Glaucomys sabrinus	NA	NA
+Tamiasciurus hudsonicus	scientific	Tamiasciurus hudsonicus	NA	NA
+Sorex hoyi	scientific	Sorex hoyi	NA	NA
+Synaptomys cooperi	scientific	Synaptomys cooperi	NA	NA
+Tamias minimus	scientific	Tamias minimus	NA	NA
+Microtus ochrogaster	scientific	Microtus ochrogaster	NA	NA
+Reithrodontomys megalotis	scientific	Reithrodontomys megalotis	NA	NA
+Blarina hylophaga	scientific	Blarina hylophaga	NA	NA
+Ictidomys tridecemlineatus	scientific	Ictidomys tridecemlineatus	NA	NA
+Zapus princeps	scientific	Zapus princeps	NA	NA
+Sorex haydeni	scientific	Sorex haydeni	NA	NA
+Rattus norvegicus	scientific	Rattus norvegicus	NA	NA
+Spermophilus franklinii	scientific	Spermophilus franklinii	NA	NA
+Thomomys talpoides	scientific	Thomomys talpoides	NA	NA
+Mustela nivalis	scientific	Mustela nivalis	NA	NA
+Perognathus flavus	scientific	Perognathus flavus	NA	NA
+Onychomys leucogaster	scientific	Onychomys leucogaster	NA	NA
+Dipodomys ordii	scientific	Dipodomys ordii	NA	NA
+Reithrodontomys montanus	scientific	Reithrodontomys montanus	NA	NA
+Microtus longicaudus	scientific	Microtus longicaudus	NA	NA
+Perognathus flavescens	scientific	Perognathus flavescens	NA	NA
+Spermophilus tereticaudus	scientific	Spermophilus tereticaudus	NA	NA
+Neotoma micropus	scientific	Neotoma micropus	NA	NA
+Reithrodontomys fulvescens	scientific	Reithrodontomys fulvescens	NA	NA
+Baiomys taylori	scientific	Baiomys taylori	NA	NA
+Sylvilagus floridanus	scientific	Sylvilagus floridanus	NA	NA
+Peromyscus attwateri	scientific	Peromyscus attwateri	NA	NA
+Peromyscus truei	scientific	Peromyscus truei	NA	NA
+Tamias rufus	scientific	Tamias rufus	NA	NA
+Neotoma albigula	scientific	Neotoma albigula	NA	NA
+Neotoma mexicana	scientific	Neotoma mexicana	NA	NA
+Sylvilagus audubonii	scientific	Sylvilagus audubonii	NA	NA
+Perognathus parvus	scientific	Perognathus parvus	NA	NA
+Sylvilagus nuttallii	scientific	Sylvilagus nuttallii	NA	NA
+Chaetodipus penicillatus	scientific	Chaetodipus penicillatus	NA	NA
+Dipodomys merriami	scientific	Dipodomys merriami	NA	NA
+Onychomys arenicola	scientific	Onychomys arenicola	NA	NA
+Lepus californicus	scientific	Lepus californicus	NA	NA
+Chaetodipus intermedius	scientific	Chaetodipus intermedius	NA	NA
+Chaetodipus eremicus	scientific	Chaetodipus eremicus	NA	NA
+Onychomys torridus	scientific	Onychomys torridus	NA	NA
+Perognathus amplus	scientific	Perognathus amplus	NA	NA
+Chaetodipus baileyi	scientific	Chaetodipus baileyi	NA	NA
+Peromyscus merriami	scientific	Peromyscus merriami	NA	NA
+Peromyscus boylii	scientific	Peromyscus boylii	NA	NA
+Peromyscus eremicus	scientific	Peromyscus eremicus	NA	NA
+Sigmodon arizonae	scientific	Sigmodon arizonae	NA	NA
+Tamias dorsalis	scientific	Tamias dorsalis	NA	NA
+Dipodomys microps	scientific	Dipodomys microps	NA	NA
+Neotoma lepida	scientific	Neotoma lepida	NA	NA
+Lemmiscus curtatus	scientific	Lemmiscus curtatus	NA	NA
+Tamias alpinus	scientific	Tamias alpinus	NA	NA

@@ -1,0 +1,14 @@
+attributeName	code	definition
+lifeStage	adult	adult
+lifeStage	juvenile	juvenile
+lifeStage	subadult	subadult
+lifeStage	unknown	unknown
+pregnancyStatus	not	not
+pregnancyStatus	pregnant	pregnant
+pregnancyStatus	unknown	unknown
+sex	F	female
+sex	M	male
+sex	U	unknown
+trapStatus	2 - trap disturbed/door closed but empty	2 - trap disturbed/door closed but empty
+trapStatus	4 - more than 1 capture in one trap	4 - more than 1 capture in one trap
+trapStatus	5 - capture	single capture in trap

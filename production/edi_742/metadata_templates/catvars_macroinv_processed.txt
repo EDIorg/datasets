@@ -1,0 +1,12 @@
+attributeName	code	definition
+distinctTaxon	N	no
+distinctTaxon	Y	yes
+immatureSpecimen	N	no
+immatureSpecimen	Y	yes
+indeterminateSpecies	N	no
+indeterminateSpecies	Y	yes
+invertebrateLifeStage	adult	adult
+invertebrateLifeStage	larva	larva
+invertebrateLifeStage	none	none
+invertebrateLifeStage	pupa	pupa
+targetTaxaPresent	Y	yes

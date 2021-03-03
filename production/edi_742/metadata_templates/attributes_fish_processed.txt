@@ -1,0 +1,31 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+V1	Row number	numeric	dimensionless		NA	Missing value
+domainID	ID of NEON domain	character			NA	Missing value
+siteID	ID of NEON site	character			NA	Missing value
+aquaticSiteType	Type of site (only stream sites were retained)	categorical			NA	Missing value
+namedLocation	Name of the measurement location in the NEON database	character			NA	Missing value
+decimalLatitude	Latitude of the point of sampling	numeric	degree		NA	Missing value
+decimalLongitude	Longitude of the point of sampling	numeric	degree		NA	Missing value
+startDate	Start date of sampling	Date		MM/DD/YYYY	NA	Missing value
+endDate	End date of sampling	Date		MM/DD/YYYY	NA	Missing value
+reachID	An identifier for the set of information associated with the sampling reach	character			NA	Missing value
+eventID	"An identifier for the set of information associated with the sampling event, which includes information about the location, sampling method, date, and time of the event"	character			NA	Missing value
+samplerType	Type of sampler	character			NA	Missing value
+fixedRandomReach	An indicators whether the reach is fixed or random	character			NA	Missing value
+measuredReachLength	Length of the reach	numeric	meter		NA	Missing value
+efTime	Effective duration of sampling	numeric	second		NA	Missing value
+efTime2	Effective duration of sampling	numeric	second		NA	Missing value
+passStartTime	Start time of sampling	Date		MM/DD/YYYY hh:mm:ss	NA	Missing value
+passEndTime	End time of sampling	Date		MM/DD/YYYY hh:mm:ss	NA	Missing value
+scientificName	"Scientific name, associated with the taxonID. This is the name of the lowest level taxonomic rank that can be determined."	character			NA	Missing value
+passNumber	Number of sampling passes	numeric	number		NA	Missing value
+number_of_fish	Number of individual fish caught	numeric	number		NA	Missing value
+n_obs	Number of individual fish caught (same as number_of_fish)	numeric	number		NA	Missing value
+year	Year of sampling	character			NA	Missing value
+month	Month of sampling	character			NA	Missing value
+mean_efishtime	Mean effective duration of sampling at a site	numeric	second		NA	Missing value
+cpue	Catch per unit effort	numeric	dimensionless		NA	Missing value
+bout	Bout identifier	character			NA	Missing value
+siteyear	Unique site-year combination	character			NA	Missing value
+lat	Mean latitude of the site	numeric	degree		NA	Missing value
+lon	Mean longitude of the site	numeric	degree		NA	Missing value
